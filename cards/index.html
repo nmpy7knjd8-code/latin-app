@@ -137,11 +137,20 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .ring{flex:none;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--acc) calc(var(--p)*1%),rgba(255,255,255,.18) 0);font:700 .8rem Georgia,serif}
 .ring i{width:30px;height:30px;border-radius:50%;background:var(--bg2);display:grid;place-items:center;font-style:normal}
 .sheet .tip{font-size:.72rem;color:#6a5e52;text-align:center;margin:10px 0 0}
+.dots{display:none!important}
+.nav{padding:0 0 12px!important}
+.secbar{flex:none;display:flex;justify-content:center;align-items:center;gap:10px;padding:0 0 calc(env(safe-area-inset-bottom) + 10px)}
+.secbar button{min-height:44px;border:1px solid #8a7a6a;background:#fff8ec;color:var(--ink);cursor:pointer;font:600 .85rem Georgia,serif}
+.grp{display:inline-flex;align-items:center;background:#fff8ec;border:1px solid #8a7a6a;border-radius:99px;padding:0 4px}
+.grp button{background:none!important;border:0!important;color:var(--ink)!important}
+#psec,#nsec{min-width:44px;font-size:1.4rem;line-height:1}
+#pill{display:inline-flex;align-items:center;gap:8px;padding:0 10px;min-width:170px;justify-content:center;border-radius:99px;letter-spacing:.08em}
+#pill .lau{font-size:1rem}
 </style></head><body>
 <header><h1 id="logo" role="button" tabindex="0" aria-label="Lingua: choose a section">LINGUA</h1></header>
 <main class="deck" id="deck" aria-label="Cards"></main>
-<nav class="nav" aria-label="Card navigation"><button id="prev" aria-label="Previous card">‹</button><button id="sec" aria-label="Choose section"><span id="secname"></span><small id="count" aria-live="polite"></small></button><button id="next" aria-label="Next card">›</button></nav><nav class="dots" id="dots" hidden></nav>
-<div class="sheet" id="sheet" hidden><div class="pane" role="dialog" aria-label="Sections"><h2>SECTIONS</h2><div class="path" id="path"></div><p class="tip">Finish a section (mark every card “Got it”) to unlock the next. Long-press a locked section to open it anyway.</p></div></div>
+<nav class="nav" aria-label="Card navigation"><button id="prev" aria-label="Previous card">‹</button><button id="sec" aria-label="Choose section"><small id="count" aria-live="polite"></small></button><button id="next" aria-label="Next card">›</button></nav><nav class="dots" id="dots" hidden></nav><nav class="secbar" aria-label="Sections"><span class="grp"><button id="psec" aria-label="Previous section">‹</button><button id="pill" aria-label="Open sections"><span class="lau" aria-hidden="true">❦</span><span id="pilln"></span></button><button id="nsec" aria-label="Next section">›</button></span></nav>
+<div class="sheet" id="sheet" hidden><div class="pane" role="dialog" aria-label="Sections"><h2>SECTIONS</h2><div class="path" id="path"></div><p class="tip">Move freely between sections. Rings show how many cards you’ve marked “Got it”.</p></div></div>
 <script src="cards.js"></script>
 <script src="phonetics.js"></script>
 <script>
@@ -251,7 +260,7 @@ function setupDots(){dots.innerHTML=VIS().map((c,i)=>`<button aria-label="Card $
 dots.onclick=e=>{const b=e.target.closest("button");if(b)document.getElementById("card-"+b.dataset.i).scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"})};
 function cur(){const r=deck.getBoundingClientRect(),mid=r.left+r.width/2;let best=0,d=1e9;
  document.querySelectorAll(".card").forEach((c,i)=>{const b=c.getBoundingClientRect(),x=Math.abs(b.left+b.width/2-mid);if(x<d){d=x;best=i}});
- curI=best;const U=UNITS[SEC-1];document.getElementById("secname").textContent=`${U[0]} · ${U[2]}`;document.getElementById("count").textContent=`${best+1} / ${VIS().length} · ${Math.round(prog(SEC)*100)}% known`;dots.querySelectorAll("button").forEach((b,i)=>b.setAttribute("aria-current",i===best))}
+ curI=best;const U=UNITS[SEC-1];document.getElementById("pilln").textContent=`${U[0]} · ${U[2]}`;document.getElementById("count").textContent=`${best+1} / ${VIS().length} · ${Math.round(prog(SEC)*100)}% known`;dots.querySelectorAll("button").forEach((b,i)=>b.setAttribute("aria-current",i===best))}
 deck.addEventListener("scroll",cur,{passive:true});
 let showDrafts=/[?&]draft=1/.test(location.search);
 const repoPath=src=>/^(https?:|data:)/.test(src)?null:(src.startsWith("../")?src.slice(3):"cards/"+src);
@@ -263,7 +272,7 @@ const saveKN=()=>localStorage.setItem("lingua.known",JSON.stringify([...KN]));
 let SEC=+localStorage.getItem("lingua.section")||1, ORDER={};
 const inSec=u=>CARDS.filter(c=>(showDrafts||!c._draft)&&unitOf(c)===u);
 const prog=u=>{const a=inSec(u);return a.length?a.filter(c=>KN.has(c.id)).length/a.length:0};
-const unlocked=u=>u===1||prog(u-1)>=1||localStorage.getItem("lingua.open."+u)==="1";
+const unlocked=u=>true;
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
 const VIS=()=>{if(!ORDER[SEC])ORDER[SEC]=shuffle(inSec(SEC));return ORDER[SEC]};
 function setSec(u){SEC=u;localStorage.setItem("lingua.section",u);sheet.hidden=true;render();deck.scrollLeft=0;cur()}
@@ -275,7 +284,7 @@ function openSheet(){const P=document.getElementById("path");P.innerHTML=UNITS.m
   b.addEventListener("pointerdown",start);["pointerup","pointerleave","pointercancel"].forEach(e=>b.addEventListener(e,stop));b.oncontextmenu=e=>e.preventDefault();});
  sheet.hidden=false}
 sheet.onclick=e=>{if(e.target===sheet)sheet.hidden=true};
-document.getElementById("logo").onclick=openSheet;document.getElementById("sec").onclick=openSheet;
+document.getElementById("logo").onclick=openSheet;document.getElementById("pill").onclick=openSheet;document.getElementById("psec").onclick=()=>setSec(SEC>1?SEC-1:10);document.getElementById("nsec").onclick=()=>setSec(SEC<10?SEC+1:1);document.getElementById("sec").onclick=openSheet;
 document.getElementById("logo").onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openSheet()}};
 function go(d){const n=VIS().length;let i=Math.max(0,Math.min(n-1,curI+d));const el=document.getElementById("card-"+i);if(el)el.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"})}
 let curI=0;

@@ -20,5 +20,5 @@ with sync_playwright() as p:
         pg.screenshot(path=O+f"{W}-back-{cid}.png")
     for cid in ["x-map-roma","q-ovid-urbis","q-virgil-forsan","q-bede-sparrow","r-vulg-genesis-1-5","i-rib-regina"]: shot(cid)
     pg.goto(U); pg.wait_for_timeout(1500); pg.evaluate("localStorage.clear();localStorage.setItem('lingua.known',JSON.stringify(CARDS.filter(c=>unitOf(c)===1).map(c=>c.id).concat(CARDS.filter(c=>unitOf(c)===2).slice(0,3).map(c=>c.id))))"); pg.goto(U); pg.wait_for_timeout(1200)
-    pg.screenshot(path=O+f"{W}-home.png"); pg.click("#logo"); pg.wait_for_timeout(300); pg.screenshot(path=O+f"{W}-sections.png")
+    pg.screenshot(path=O+f"{W}-home.png"); pg.click("#nsec"); pg.wait_for_timeout(400); pg.screenshot(path=O+f"{W}-home-next.png"); pg.click("#logo"); pg.wait_for_timeout(300); pg.screenshot(path=O+f"{W}-sections.png")
     b.close()
