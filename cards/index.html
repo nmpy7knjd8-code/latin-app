@@ -1,0 +1,184 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Latin cards prototype</title>
+<style>
+:root{--ink:#2a2420}
+*{box-sizing:border-box}
+body{margin:0;background:#efe9df;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink)}
+header{padding:20px 20px 0;text-align:center}
+header h1{font:600 1.1rem Georgia,serif;letter-spacing:.2em;margin:0}
+header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
+.modes{display:inline-flex;margin-top:10px;border:1px solid #8a7a6a;border-radius:99px;overflow:hidden}
+.modes button{font:600 .85rem system-ui;padding:10px 18px;min-height:44px;border:0;background:transparent;color:var(--ink);cursor:pointer}
+.modes button[aria-pressed=true]{background:#2a2420;color:#fff8ec}
+.deck{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;padding:64px 9vw 20px;scrollbar-width:none}
+.deck::-webkit-scrollbar{display:none}
+.card{flex:0 0 min(82vw,320px);aspect-ratio:3/4;perspective:1200px;scroll-snap-align:center;-webkit-tap-highlight-color:transparent;border-radius:22px}
+.card[role=button]{cursor:pointer}
+.card:focus-visible{outline:3px solid #1d4ed8;outline-offset:4px}
+.inner{position:relative;width:100%;height:100%;transition:transform .6s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
+.card.flipped .inner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;border-radius:22px;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+ background:var(--bg);box-shadow:0 14px 30px rgba(40,25,10,.18),inset 0 0 0 1px rgba(255,255,255,.25);display:flex;flex-direction:column;padding:18px;color:#fff8ec}
+.back{transform:rotateY(180deg);background:var(--bg2);overflow:auto}
+/* era themes: all schema eras; text #fff8ec / accent checked >= 4.5:1 on darkest stop (see CHANGES.md) */
+.card{--bg:linear-gradient(165deg,#4a4038,#2e2722);--bg2:#211b17;--acc:#f0d8a8}
+.regal{--bg:linear-gradient(165deg,#7a5a2e,#553d1c);--bg2:#3a2912;--acc:#f6e2b3}
+.republic{--bg:linear-gradient(165deg,#a63e2a,#7f2a1b);--bg2:#5e1f14;--acc:#f3d9a4}
+.empire{--bg:linear-gradient(165deg,#5b3f78,#3c2752);--bg2:#2a1b3a;--acc:#e9c46a}
+.late_antiquity{--bg:linear-gradient(165deg,#2f6b62,#1f4a44);--bg2:#16332f;--acc:#f0d8a8}
+.early_medieval{--bg:linear-gradient(165deg,#2c4a6e,#1c324d);--bg2:#132236;--acc:#f2d58f}
+.high_medieval{--bg:linear-gradient(165deg,#3b5d3a,#263f26);--bg2:#1a2b1a;--acc:#efe0a0}
+.late_medieval{--bg:linear-gradient(165deg,#6a2c4b,#4a1d34);--bg2:#331424;--acc:#f4d6a0}
+/* art area. Safe zone: images may only break the top edge in the centre 60% (left/right 20% stays clear) */
+.art{position:relative;flex:1;display:flex;align-items:flex-end;justify-content:center;min-height:0}
+.cut{position:absolute;bottom:0;left:50%;transform:translateX(-50%);height:132%;max-width:72%;object-fit:contain;
+ filter:drop-shadow(0 18px 14px rgba(0,0,0,.35)) drop-shadow(0 2px 3px rgba(0,0,0,.25))}
+.coin .cut{height:92%;max-width:90%;bottom:4%}
+.frame{width:78%;height:100%;object-fit:cover;box-shadow:0 10px 18px rgba(0,0,0,.3)}
+.arch{border-radius:999px 999px 6px 6px}
+.torn{border-radius:2px;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0 3 L6 0 L13 2 L20 0 L28 3 L35 1 L43 2 L50 0 L58 3 L66 1 L74 2 L82 0 L90 3 L100 1 L100 97 L93 100 L85 98 L77 100 L69 97 L61 99 L52 98 L44 100 L36 97 L28 99 L20 98 L11 100 L4 97 L0 99Z'/%3E%3C/svg%3E") center/100% 100%;
+ mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0 3 L6 0 L13 2 L20 0 L28 3 L35 1 L43 2 L50 0 L58 3 L66 1 L74 2 L82 0 L90 3 L100 1 L100 97 L93 100 L85 98 L77 100 L69 97 L61 99 L52 98 L44 100 L36 97 L28 99 L20 98 L11 100 L4 97 L0 99Z'/%3E%3C/svg%3E") center/100% 100%}
+.tornwrap{width:80%;height:100%;filter:drop-shadow(0 10px 10px rgba(0,0,0,.3));display:flex}
+.tornwrap .frame{width:100%;box-shadow:none}
+/* text band (safe zone): era label lives here, never over the image */
+.band{position:relative;z-index:6}
+.latin{font:italic 600 1.4rem/1.2 Georgia,"Times New Roman",serif;margin:12px 0 4px;text-align:center;text-wrap:balance}
+.say{font:600 .85rem/1.3 system-ui,sans-serif;letter-spacing:.03em;text-align:center;color:var(--acc);margin:0 0 6px;background:none;border:0;width:100%;cursor:pointer}
+.say .ipa{display:block;font:400 .8rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;opacity:.85}
+.say .ipa[hidden]{display:none}
+.ipa-b{font:400 .9rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;margin:4px 0 8px;opacity:.85}
+.latin .w{font:inherit;color:inherit;background:none;border:0;padding:0 1px;cursor:pointer;border-bottom:1px dotted var(--acc)}
+.tr-front{text-align:center;font:500 .95rem/1.3 Georgia,serif;margin:2px 0 4px}
+.gl{min-height:1.2em;text-align:center;font-size:.8rem;color:var(--acc)}
+.meta{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;font-size:.78rem;color:var(--acc);letter-spacing:.04em}
+.era{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.lic{font-size:.72rem;text-align:center;margin-top:6px}
+.back .tr{font:500 1.2rem/1.3 Georgia,serif;margin:4px 0 12px}
+.back .ctx{font-size:.88rem;line-height:1.45}
+.back .note{font-size:.8rem;line-height:1.4;margin-top:8px;color:var(--acc)}
+.back .src{margin-top:auto;font-size:.78rem;color:var(--acc);padding-top:8px}
+.back .credit{font-size:.74rem;line-height:1.35;margin-top:6px}
+.back a.museum{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;margin-top:6px;border:1px solid var(--acc);border-radius:99px;color:var(--acc);font-size:.8rem;text-decoration:none;align-self:flex-start}
+.badge{display:inline-block;font-size:.65rem;border:1px solid var(--acc);border-radius:99px;padding:1px 7px;margin-left:6px;text-transform:uppercase;letter-spacing:.1em}
+.dots{display:flex;justify-content:center;gap:10px;padding:0 0 10px}
+.dots button{width:12px;height:12px;border-radius:50%;border:0;background:#b9ab9a;padding:0;cursor:pointer}
+.dots button[aria-current=true]{background:#2a2420}
+.hint{text-align:center;font-size:.8rem;color:#5a5048;padding-bottom:24px}
+@media (prefers-reduced-motion:reduce){
+ .inner{transition:none;transform:none!important}
+ .face{transition:opacity .2s}
+ .back{transform:none;opacity:0}
+ .card.flipped .back{opacity:1}.card.flipped .front{opacity:0}
+}
+</style></head><body>
+<header><h1>LINGUA · CARDS</h1>
+<p id="help">Review: tap a card to reveal · swipe for more</p>
+<div class="modes" role="group" aria-label="Card mode">
+ <button id="m-learn" aria-pressed="false">Learn</button><button id="m-review" aria-pressed="true">Review</button>
+</div></header>
+<main class="deck" id="deck" aria-label="Cards"></main>
+<nav class="dots" id="dots" aria-label="Card navigation"></nav>
+<div class="hint" id="foot"></div>
+<script src="cards.js"></script>
+<script src="phonetics.js"></script>
+<script>
+const ERA={regal:"Regal Rome",republic:"Roman Republic",empire:"Roman Empire",late_antiquity:"Late Antiquity",early_medieval:"Early Medieval",high_medieval:"High Medieval",late_medieval:"Late Medieval"};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let mode="review";
+const fp=im=>im.focal_point?`object-position:${im.focal_point[0]*100}% ${im.focal_point[1]*100}%`:"";
+function art(im){
+  if(!im.src) return `<div class="frame arch" style="display:flex;align-items:center;justify-content:center;opacity:.5;font-size:.8em;padding:1em;text-align:center">${esc(im.alt||"image pending")}</div>`;
+  const a=`src="${esc(im.src)}" alt="${esc(im.alt)}" style="${fp(im)}"`;
+  if(im.transparent) return `<img class="cut" ${a}>`;
+  if(im.kind==="manuscript") return `<div class="tornwrap"><img class="frame torn" ${a}></div>`;
+  return `<img class="frame arch" ${a}>`;
+}
+function latinHTML(c){
+  if(mode!=="learn"||!c.gloss) return esc(c.latin);
+  let out=esc(c.latin);
+  const gs=[...c.gloss];
+  return c.latin.split(/(\s+)/).map(tok=>{
+    const bare=tok.replace(/[.,;:!?]/g,""); const i=gs.findIndex(g=>g.word===bare);
+    if(!bare.trim()||i<0) return esc(tok);
+    const g=gs.splice(i,1)[0];
+    return `<button class="w" data-g="${esc(`${g.word}: ${g.lemma}, “${g.meaning}”${g.parse?" — "+g.parse:""}`)}">${esc(bare)}</button>${esc(tok.slice(bare.length))}`;
+  }).join("");
+}
+const P=c=>c.ipa?c:(window.PHONETICS||{})[c.id];
+function render(){
+  const learn=mode==="learn";
+  document.getElementById("help").textContent=learn?"Learn: tap a word for its gloss · swipe for more":"Review: tap a card to reveal · swipe for more";
+  document.getElementById("deck").innerHTML=CARDS.map((c,i)=>`
+<article class="card ${c.era} ${c.image.kind}" ${learn?`aria-label="${esc(c.person)} card"`:`tabindex="0" role="button" aria-pressed="false" aria-label="Quote card: ${esc(c.latin)}, ${esc(c.person)}. Press to reveal translation."`} id="card-${i}">
+ <div class="inner">
+  <div class="face front">
+   <div class="art">${art(c.image)}</div>
+   <div class="band">
+    <div class="latin" lang="la">${latinHTML(c)}</div>
+    ${P(c)?`<button class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}. Tap for IPA.">${esc(P(c).respelling)}<span class="ipa" hidden>${esc(P(c).ipa)}</span></button>`:""}
+    ${learn?`<div class="tr-front">“${esc(c.translation)}”</div><div class="gl" aria-live="polite"></div>`:""}
+    <div class="meta"><span>${esc(c.person)}</span><span aria-hidden="true">·</span><span class="era">${ERA[c.era]||c.era}</span></div>
+    <div class="lic">${esc(c.image.license)} · ${learn?`<a href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener" style="color:inherit">see in museum</a>`:"credit on back"}</div>
+   </div>
+  </div>
+  <div class="face back" aria-hidden="true" inert>
+   <div class="meta" style="justify-content:flex-start"><span class="era">${ERA[c.era]||c.era}</span></div>
+   ${P(c)?`<div class="ipa-b" aria-label="IPA">${esc(P(c).ipa)}</div>`:""}
+   <div class="tr">“${esc(c.translation)}”</div>
+   <div class="ctx">${esc(c.context)}</div>
+   ${c.attribution_note?`<div class="note">${esc(c.attribution_note)}</div>`:""}
+   <div class="src">${esc(c.person)} — <i>${esc(c.source.work)}</i> ${esc(c.source.citation)}<span class="badge">${esc(c.attribution_confidence)}</span></div>
+   <div class="credit">Image: ${esc(c.image.credit)} · ${esc(c.image.license)}</div>
+   ${c.learn_more&&c.learn_more.url?`<a class="museum" href="${esc(c.learn_more.url)}" target="_blank" rel="noopener">Learn more: ${esc(c.learn_more.label||"link")} ↗</a><br>`:""}
+   <a class="museum" href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener">See in museum / source ↗</a>
+  </div>
+ </div>
+</article>`).join("");
+  document.querySelectorAll(".say").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();b.querySelector(".ipa").toggleAttribute("hidden")}));
+  document.querySelectorAll(".card").forEach(el=>{
+    if(learn){
+      el.querySelectorAll(".w").forEach(b=>b.addEventListener("click",()=>{el.querySelector(".gl").textContent=b.dataset.g}));
+      return;
+    }
+    const front=el.querySelector(".front"),back=el.querySelector(".back");
+    const t=()=>{const f=el.classList.toggle("flipped");el.setAttribute("aria-pressed",f);
+      back.toggleAttribute("inert",!f);back.setAttribute("aria-hidden",!f);
+      front.toggleAttribute("inert",f);front.setAttribute("aria-hidden",f);};
+    el.addEventListener("click",e=>{if(e.target.closest("a"))return;t()});
+    el.addEventListener("keydown",e=>{if(e.target!==el)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();t()}});
+  });
+  const lics=[...new Set(CARDS.map(c=>c.image.license))].join(" / ");
+  document.getElementById("foot").textContent=`Prototype · images: ${lics} · full credits on each card`;
+}
+function setMode(m){mode=m;document.getElementById("m-learn").setAttribute("aria-pressed",m==="learn");document.getElementById("m-review").setAttribute("aria-pressed",m==="review");render();}
+document.getElementById("m-learn").onclick=()=>setMode("learn");
+document.getElementById("m-review").onclick=()=>setMode("review");
+const deck=document.getElementById("deck"),dots=document.getElementById("dots");
+function setupDots(){dots.innerHTML=CARDS.map((c,i)=>`<button aria-label="Card ${i+1} of ${CARDS.length}: ${esc(c.person)}" data-i="${i}"></button>`).join("");
+}
+dots.onclick=e=>{const b=e.target.closest("button");if(b)document.getElementById("card-"+b.dataset.i).scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"})};
+function cur(){const r=deck.getBoundingClientRect(),mid=r.left+r.width/2;let best=0,d=1e9;
+ document.querySelectorAll(".card").forEach((c,i)=>{const b=c.getBoundingClientRect(),x=Math.abs(b.left+b.width/2-mid);if(x<d){d=x;best=i}});
+ dots.querySelectorAll("button").forEach((b,i)=>b.setAttribute("aria-current",i===best))}
+deck.addEventListener("scroll",cur,{passive:true});
+async function loadAll(){
+ const norm=c=>{c=Object.assign({},c);
+  c.person=c.person||(c.subtype?c.subtype.replace(/_/g," "):"Latin");
+  c.source=c.source||{work:c.teaches||"",citation:""};
+  c.attribution_confidence=c.attribution_confidence||"";
+  let im=c.image;
+  if(!im){const ii=c.image_idea||{};im={src:"",alt:ii.description||"",kind:ii.kind||"object",license:ii.license_status||"image pending",credit:ii.candidate_source||"",source_url:""};}
+  im=Object.assign({},im);
+  if(String(im.src).startsWith("TODO:"))im.src="https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(im.src.slice(5).trim().replace(/ /g,"_"))+"?width=600";
+  c.image=im;return c;};
+ const seen=new Set(CARDS.map(c=>c.id));let extra=[];
+ for(const f of ["rome-cards","medieval-cards","learning-cards"]){
+  try{const r=await fetch("../content/"+f+".json");if(!r.ok)continue;
+   for(const c of await r.json()){if(!seen.has(c.id)){seen.add(c.id);extra.push(c)}}}catch(e){console.warn(f,e)}}
+ try{const r=await fetch("../content/phonetics.json");if(r.ok)window.PHONETICS=Object.assign({},window.PHONETICS||{},await r.json());}catch(e){}
+ for(const a of ["../content/audio-map.json","../audio/audio-map.json"]){try{const r=await fetch(a);if(r.ok){window.AUDIO=await r.json();break}}catch(e){}}
+ window.CARDS=CARDS.concat(extra).map(norm);
+}
+loadAll().finally(()=>{CARDS=window.CARDS;setupDots();render();cur();});
+</script></body></html>

@@ -1,0 +1,812 @@
+{
+ "q-seneca-docent": {
+  "ipa": "/ˈhɔ.mɪ.neːs dʊm ˈdɔ.kɛnt ˈdɪs.kʊnt/",
+  "respelling": "HO-mih-nays dum DO-kehnt DIHS-kunt",
+  "latin": "Hominēs, dum docent, discunt.",
+  "src": "rome-cards.json"
+ },
+ "q-seneca-aliena": {
+  "ipa": "/ˈɔm.nɪ.a luː.ˈkiː.liː a.lɪ.ˈeː.na sʊnt ˈtɛm.pʊs ˈtan.tʊm ˈnɔs.trʊm ɛst/",
+  "respelling": "OM-nih-ah loo-KEE-lee ah-lih-AY-nah sunt TEHM-pus TAHN-tum NOS-trum ehst",
+  "latin": "Omnia, Lūcīlī, aliēna sunt, tempus tantum nostrum est.",
+  "src": "rome-cards.json"
+ },
+ "q-virgil-arma": {
+  "ipa": "/ˈar.ma wɪ.ˈrʊm.kʷɛ ˈka.noː ˈtroːj.jae̯ kʷiː ˈpriː.mʊs ab ˈoː.riːs iː.ˈta.lɪ.am ˈweː.nɪt/",
+  "respelling": "AHR-mah wih-RUM-kweh KAH-noh TROHY-yeye kwee PREE-mus ahb OH-rees ee-TAH-lih-ahm WAY-niht",
+  "latin": "Arma virumque canō, Trōiae quī prīmus ab ōrīs Ītaliam … vēnit.",
+  "src": "rome-cards.json"
+ },
+ "q-martial-bona": {
+  "ipa": "/sʊnt ˈbɔ.na sʊnt ˈkʷae̯.dam mɛ.dɪ.ˈɔ.krɪ.a sʊnt ˈma.la ˈpluː.ra kʷae̯ ˈlɛ.gɪs hiːk/",
+  "respelling": "sunt BO-nah sunt KWEYE-dahm meh-dih-O-krih-ah sunt MAH-lah PLOO-rah kweye LEH-gihs heek",
+  "latin": "Sunt bona, sunt quaedam mediocria, sunt mala plūra quae legis hīc.",
+  "src": "rome-cards.json"
+ },
+ "q-tacitus-solitudinem": {
+  "ipa": "/ˈʊ.bɪ soː.lɪ.ˈtuː.dɪ.nɛm ˈfa.kɪ.ʊnt ˈpaː.kɛm ap.ˈpɛl.lant/",
+  "respelling": "U-bih soh-lih-TOO-dih-nehm FAH-kih-unt PAH-kehm ahp-PEHL-lahnt",
+  "latin": "Ubi sōlitūdinem faciunt, pācem appellant.",
+  "src": "rome-cards.json"
+ },
+ "q-cicero-salus": {
+  "ipa": "/ˈsa.luːs ˈpɔ.pʊ.liː sʊ.ˈpreː.ma leːks ˈɛs.toː/",
+  "respelling": "SAH-loos PO-pu-lee su-PRAY-mah layks EHS-toh",
+  "latin": "Salūs populī suprēma lēx estō.",
+  "src": "rome-cards.json"
+ },
+ "q-cornelia-ornamenta": {
+  "ipa": "/hae̯k ɔr.naː.ˈmɛn.ta sʊnt ˈmɛ.a/",
+  "respelling": "heyek or-nah-MEHN-tah sunt MEH-ah",
+  "latin": "Haec ornāmenta sunt mea.",
+  "src": "rome-cards.json"
+ },
+ "q-horace-sapere": {
+  "ipa": "/diː.ˈmɪ.dɪ.ʊm ˈfak.tiː kʷiː ˈkoe̯.pɪt ˈha.bɛt ˈsa.pɛ.rɛ ˈau̯.deː ˈɪŋ.kɪ.pɛ/",
+  "respelling": "dee-MIH-dih-um FAHK-tee kwee KOY-piht HAH-beht SAH-peh-reh OW-day IHNG-kih-peh",
+  "latin": "Dīmidium factī, quī coepit, habet; sapere audē, incipe.",
+  "src": "rome-cards.json"
+ },
+ "q-cicero-historia": {
+  "ipa": "/hɪs.ˈtɔ.rɪ.a ˈweː.roː ˈtɛs.tɪs ˈtɛm.pɔ.rʊm luːks weː.rɪ.ˈtaː.tɪs ˈwiː.ta mɛ.ˈmɔ.rɪ.ae̯ ma.ˈgɪs.tra ˈwiː.tae̯ ˈnuːn.tɪ.a wɛ.tʊs.ˈtaː.tɪs/",
+  "respelling": "hihs-TO-rih-ah WAY-roh TEHS-tihs TEHM-po-rum looks way-rih-TAH-tihs WEE-tah meh-MO-rih-eye mah-GIHS-trah WEE-teye NOON-tih-ah weh-tus-TAH-tihs",
+  "latin": "Historia vērō testis temporum, lūx vēritātis, vīta memoriae, magistra vītae, nūntia vetustātis.",
+  "src": "rome-cards.json"
+ },
+ "i-pantheon-agrippa": {
+  "ipa": "/a.ˈgrɪp.pa kɔs ˈtɛr.tɪwm ˈfɛ.kɪt ˈmaːr.kʊs a.ˈgrɪp.pa ˈluː.kɪ.iː ˈfiː.lɪ.ʊs ˈkoːn.sʊl ˈtɛr.tɪ.ʊm ˈfeː.kɪt/",
+  "respelling": "ah-GRIHP-pah kos TEHR-tihwm FEH-kiht MAHR-kus ah-GRIHP-pah LOO-kih-ee FEE-lih-us KOHN-sul TEHR-tih-um FAY-kiht",
+  "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT — Mārcus Agrippa, Lūciī fīlius, cōnsul tertium, fēcit.",
+  "src": "rome-cards.json"
+ },
+ "q-horace-modus": {
+  "ipa": "/ɛst ˈmɔ.dʊs ɪn ˈreː.bʊs sʊnt ˈkɛr.tiː ˈdeː.nɪ.kʷɛ ˈfiː.neːs/",
+  "respelling": "ehst MO-dus ihn RAY-bus sunt KEHR-tee DAY-nih-kweh FEE-nays",
+  "latin": "Est modus in rēbus, sunt certī dēnique fīnēs.",
+  "src": "rome-cards.json"
+ },
+ "q-virgil-timeo": {
+  "ipa": "/ˈkʷɪd.kʷɪd ɪd ɛst ˈtɪ.mɛ.oː ˈda.na.oːs ɛt ˈdoː.na fɛ.ˈrɛn.teːs/",
+  "respelling": "KWIHD-kwihd ihd ehst TIH-meh-oh DAH-nah-ohs eht DOH-nah feh-REHN-tays",
+  "latin": "Quidquid id est, timeō Danaōs et dōna ferentēs.",
+  "src": "rome-cards.json"
+ },
+ "q-tacitus-urbem": {
+  "ipa": "/ˈʊr.bɛm ˈroː.mam aː priːŋ.ˈkɪ.pɪ.oː ˈreː.geːs ha.bʊ.ˈeː.rɛ/",
+  "respelling": "UR-behm ROH-mahm ah preeng-KIH-pih-oh RAY-gays hah-bu-AY-reh",
+  "latin": "Urbem Rōmam ā prīncipiō rēgēs habuēre.",
+  "src": "rome-cards.json"
+ },
+ "q-juvenal-mens": {
+  "ipa": "/oː.ˈran.dʊm ɛst ʊt sɪt meːns ˈsaː.na ɪn ˈkɔr.pɔ.rɛ ˈsaː.noː/",
+  "respelling": "oh-RAHN-dum ehst ut siht mayns SAH-nah ihn KOR-po-reh SAH-noh",
+  "latin": "Ōrandum est ut sit mēns sāna in corpore sānō.",
+  "src": "rome-cards.json"
+ },
+ "q-catullus-ave": {
+  "ipa": "/ˈat.kʷɛ ɪn pɛr.ˈpɛ.tʊ.ʊm ˈfraː.tɛr ˈa.weː ˈat.kʷɛ ˈwa.leː/",
+  "respelling": "AHT-kweh ihn pehr-PEH-tu-um FRAH-tehr AH-way AHT-kweh WAH-lay",
+  "latin": "Atque in perpetuum, frāter, avē atque valē.",
+  "src": "rome-cards.json"
+ },
+ "i-titus-spqr": {
+  "ipa": "/ˈsɛ.natws ˈpɔpwlwsq.wɛ ˈrɔ.manws ˈdɪ.wɔ ˈtɪ.tɔ ˈdɪ.wɪ wɛs.pa.ˈsɪ.a.nɪ ˈɪ.lɪ.ɔ wɛs.pa.ˈsɪ.a.nɔ ˈawgws.tɔ/",
+  "respelling": "SEH-nahtws POPWLWSQ-weh RO-mahnws DIH-wo TIH-to DIH-wih wehs-pah-SIH-ah-nih IH-lih-o wehs-pah-SIH-ah-no AHWGWS-to",
+  "latin": "SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F[ILIO] VESPASIANO AVGVSTO",
+  "src": "rome-cards.json"
+ },
+ "q-catullus-odi": {
+  "ipa": "/ˈoː.diː ɛt ˈa.moː ˈkʷaː.reː ɪd ˈfa.kɪ.am fɔr.ˈtas.sɛ rɛ.ˈkʷiː.rɪs ˈnɛs.kɪ.oː sɛd ˈfɪ.ɛ.riː ˈsɛn.tɪ.oː ɛt ɛks.ˈkrʊ.kɪ.ɔr/",
+  "respelling": "OH-dee eht AH-moh KWAH-ray ihd FAH-kih-ahm for-TAHS-seh reh-KWEE-rihs NEHS-kih-oh sehd FIH-eh-ree SEHN-tih-oh eht ehks-KRU-kih-or",
+  "latin": "Ōdī et amō. quārē id faciam, fortasse requīris. nesciō, sed fierī sentiō et excrucior.",
+  "src": "rome-cards.json"
+ },
+ "q-horace-dulce": {
+  "ipa": "/ˈdʊl.kɛ ɛt dɛ.ˈkoː.rʊm ɛst proː ˈpa.trɪ.aː ˈmɔ.riː/",
+  "respelling": "DUL-keh eht deh-KOH-rum ehst proh PAH-trih-ah MO-ree",
+  "latin": "Dulce et decōrum est prō patriā morī.",
+  "src": "rome-cards.json"
+ },
+ "q-virgil-forsan": {
+  "ipa": "/ˈfɔr.san ɛt hae̯k ˈoː.lɪm mɛ.mɪ.ˈnɪs.sɛ jʊ.ˈwaː.bɪt/",
+  "respelling": "FOR-sahn eht heyek OH-lihm meh-mih-NIHS-seh yu-WAH-biht",
+  "latin": "Forsan et haec ōlim meminisse iuvābit.",
+  "src": "rome-cards.json"
+ },
+ "q-seneca-vindica": {
+  "ipa": "/ˈɪ.ta fak miː luː.ˈkiː.liː ˈwɪn.dɪ.kaː teː ˈtɪ.bɪ/",
+  "respelling": "IH-tah fahk mee loo-KEE-lee WIHN-dih-kah tay TIH-bih",
+  "latin": "Ita fac, mī Lūcīlī: vindicā tē tibi.",
+  "src": "rome-cards.json"
+ },
+ "q-resgestae-annos": {
+  "ipa": "/ˈan.noːs uːn.deː.wiː.ˈgɪn.tiː ˈnaː.tʊs ɛk.ˈsɛr.kɪ.tʊm priː.ˈwaː.toː koːn.ˈsɪ.lɪ.oː ɛt priː.ˈwaː.taː ɪm.ˈpeːn.saː kɔm.pa.ˈraː.wiː/",
+  "respelling": "AHN-nohs oon-day-wee-GIHN-tee NAH-tus ehk-SEHR-kih-tum pree-WAH-toh kohn-SIH-lih-oh eht pree-WAH-tah ihm-PAYN-sah kom-pah-RAH-wee",
+  "latin": "Annōs ūndēvīgintī nātus exercitum prīvātō cōnsiliō et prīvātā impēnsā comparāvī.",
+  "src": "rome-cards.json"
+ },
+ "q-virgil-regere": {
+  "ipa": "/tuː ˈrɛ.gɛ.rɛ ɪm.ˈpɛ.rɪ.oː ˈpɔ.pʊ.loːs roː.ˈmaː.nɛ mɛ.ˈmɛn.toː ˈpar.kɛ.rɛ sʊ.bɪ.ˈɛk.tiːs ɛt deː.bɛl.ˈlaː.rɛ sʊ.ˈpɛr.boːs/",
+  "respelling": "too REH-geh-reh ihm-PEH-rih-oh PO-pu-lohs roh-MAH-neh meh-MEHN-toh PAHR-keh-reh su-bih-EHK-tees eht day-behl-LAH-reh su-PEHR-bohs",
+  "latin": "Tū regere imperiō populōs, Rōmāne, mementō … parcere subiectīs et dēbellāre superbōs.",
+  "src": "rome-cards.json"
+ },
+ "q-virgil-fugit": {
+  "ipa": "/sɛd ˈfʊ.gɪt ɪn.ˈtɛ.rɛ.aː ˈfʊ.gɪt ɪr.rɛ.pa.ˈraː.bɪ.lɛ ˈtɛm.pʊs/",
+  "respelling": "sehd FU-giht ihn-TEH-reh-ah FU-giht ihr-reh-pah-RAH-bih-leh TEHM-pus",
+  "latin": "Sed fugit intereā, fugit irreparābile tempus.",
+  "src": "rome-cards.json"
+ },
+ "q-seneca-nusquam": {
+  "ipa": "/ˈnʊs.kʷam ɛst kʷiː ʊ.ˈbiː.kʷɛ ɛst/",
+  "respelling": "NUS-kwahm ehst kwee u-BEE-kweh ehst",
+  "latin": "Nusquam est quī ubīque est.",
+  "src": "rome-cards.json"
+ },
+ "q-ovid-gutta": {
+  "ipa": "/ˈgʊt.ta ˈka.wat ˈla.pɪ.dɛm koːn.ˈsuː.mɪ.tʊr ˈaː.nʊ.lʊs ˈuː.suː/",
+  "respelling": "GUT-tah KAH-waht LAH-pih-dehm kohn-SOO-mih-tur AH-nu-lus OO-soo",
+  "latin": "Gutta cavat lapidem, cōnsūmitur ānulus ūsū.",
+  "src": "rome-cards.json"
+ },
+ "q-catullus-vivamus": {
+  "ipa": "/wiː.ˈwaː.mʊs ˈmɛ.a ˈlɛs.bɪ.a ˈat.kʷɛ a.ˈmeː.mʊs/",
+  "respelling": "wee-WAH-mus MEH-ah LEHS-bih-ah AHT-kweh ah-MAY-mus",
+  "latin": "Vīvāmus, mea Lesbia, atque amēmus.",
+  "src": "rome-cards.json"
+ },
+ "q-seneca-differtur": {
+  "ipa": "/dʊm dɪf.ˈfɛr.tʊr ˈwiː.ta traːns.ˈkʊr.rɪt/",
+  "respelling": "dum dihf-FEHR-tur WEE-tah trahns-KUR-riht",
+  "latin": "Dum differtur, vīta trānscurrit.",
+  "src": "rome-cards.json"
+ },
+ "q-cicero-cedant": {
+  "ipa": "/ˈkeː.dant ˈar.ma ˈtɔ.gae̯ kɔŋ.ˈkeː.dat ˈlau̯.rɛ.a ˈlau̯.diː/",
+  "respelling": "KAY-dahnt AHR-mah TO-geye kong-KAY-daht LOW-reh-ah LOW-dee",
+  "latin": "Cēdant arma togae, concēdat laurea laudī.",
+  "src": "rome-cards.json"
+ },
+ "q-cicero-quousque": {
+  "ipa": "/kʷoː ˈuːs.kʷɛ ˈtan.dɛm a.buː.ˈteː.rɛ ka.tɪ.ˈliː.na pa.tɪ.ˈɛn.tɪ.aː ˈnɔs.traː/",
+  "respelling": "kwoh OOS-kweh TAHN-dehm ah-boo-TAY-reh kah-tih-LEE-nah pah-tih-EHN-tih-ah NOS-trah",
+  "latin": "Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?",
+  "src": "rome-cards.json"
+ },
+ "q-suetonius-alea": {
+  "ipa": "/ˈjak.ta ˈaː.lɛ.a ɛst/",
+  "respelling": "YAHK-tah AH-leh-ah ehst",
+  "latin": "Iacta ālea est.",
+  "src": "rome-cards.json"
+ },
+ "q-virgil-tantae": {
+  "ipa": "/ˈtan.tae̯ ˈmoː.lɪs ˈɛ.rat roː.ˈmaː.nam ˈkɔn.dɛ.rɛ ˈgɛn.tɛm/",
+  "respelling": "TAHN-teye MOH-lihs EH-raht roh-MAH-nahm KON-deh-reh GEHN-tehm",
+  "latin": "Tantae mōlis erat Rōmānam condere gentem!",
+  "src": "rome-cards.json"
+ },
+ "q-juvenal-panem": {
+  "ipa": "/ˈdʊ.aːs ˈtan.tʊm reːs ˈaŋk.sɪ.ʊs ˈɔp.tat ˈpaː.nɛm ɛt kɪr.ˈkeːn.seːs/",
+  "respelling": "DU-ahs TAHN-tum rays AHNGK-sih-us OP-taht PAH-nehm eht kihr-KAYN-says",
+  "latin": "… duās tantum rēs anxius optat, pānem et circēnsēs.",
+  "src": "rome-cards.json"
+ },
+ "q-lucretius-religio": {
+  "ipa": "/ˈtan.tʊm rɛ.ˈlɪ.gɪ.oː ˈpɔ.tʊ.ɪt sʊ.aː.ˈdeː.rɛ ma.ˈloː.rʊm/",
+  "respelling": "TAHN-tum reh-LIH-gih-oh PO-tu-iht su-ah-DAY-reh mah-LOH-rum",
+  "latin": "Tantum religiō potuit suādēre malōrum.",
+  "src": "rome-cards.json"
+ },
+ "q-livy-vae": {
+  "ipa": "/wae̯ ˈwɪk.tiːs/",
+  "respelling": "weye WIHK-tees",
+  "latin": "Vae victīs!",
+  "src": "rome-cards.json"
+ },
+ "q-ovid-edax": {
+  "ipa": "/ˈtɛm.pʊs ˈɛ.daːks ˈreː.rʊm ˈtuː.kʷɛ ɪn.wɪ.dɪ.ˈoː.sa wɛ.ˈtʊs.taːs ˈɔm.nɪ.a deːs.ˈtrʊ.ɪ.tɪs/",
+  "respelling": "TEHM-pus EH-dahks RAY-rum TOO-kweh ihn-wih-dih-OH-sah weh-TUS-tahs OM-nih-ah days-TRU-ih-tihs",
+  "latin": "Tempus edāx rērum, tūque, invidiōsa vetustās, omnia dēstruitis.",
+  "src": "rome-cards.json"
+ },
+ "q-horace-exegi": {
+  "ipa": "/ɛk.ˈseː.giː mɔ.nʊ.ˈmɛn.tʊm ˈae̯.rɛ pɛ.ˈrɛn.nɪ.ʊs/",
+  "respelling": "ehk-SAY-gee mo-nu-MEHN-tum EYE-reh peh-REHN-nih-us",
+  "latin": "Exēgī monumentum aere perennius.",
+  "src": "rome-cards.json"
+ },
+ "q-vulg-fiat-lux": {
+  "ipa": "/diːk.ˈsɪt.kʷɛ ˈdɛ.ʊs ˈfiː.at luːks ɛt ˈfak.ta ɛst luːks/",
+  "respelling": "deek-SIHT-kweh DEH-us FEE-aht looks eht FAHK-tah ehst looks",
+  "latin": "Dīxitque Deus: “Fīat lūx.” Et facta est lūx.",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-in-principio": {
+  "ipa": "/ɪn priːŋ.ˈkɪ.pɪ.oː ˈɛ.rat ˈwɛr.bʊm ɛt ˈwɛr.bʊm ˈɛ.rat ˈa.pʊd ˈdɛ.ʊm ɛt ˈdɛ.ʊs ˈɛ.rat ˈwɛr.bʊm/",
+  "respelling": "ihn preeng-KIH-pih-oh EH-raht WEHR-bum eht WEHR-bum EH-raht AH-pud DEH-um eht DEH-us EH-raht WEHR-bum",
+  "latin": "In prīncipiō erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum.",
+  "src": "medieval-cards.json"
+ },
+ "q-aug-tolle-lege": {
+  "ipa": "/ˈtɔl.lɛ ˈlɛ.gɛ ˈtɔl.lɛ ˈlɛ.gɛ/",
+  "respelling": "TOL-leh LEH-geh TOL-leh LEH-geh",
+  "latin": "Tolle, lege; tolle, lege.",
+  "src": "medieval-cards.json"
+ },
+ "q-bede-discere": {
+  "ipa": "/ˈsɛm.pɛr au̯t ˈdɪs.kɛ.rɛ au̯t dɔ.ˈkeː.rɛ au̯t ˈskriː.bɛ.rɛ ˈdʊl.kɛ ˈha.bʊ.iː/",
+  "respelling": "SEHM-pehr owt DIHS-keh-reh owt do-KAY-reh owt SKREE-beh-reh DUL-keh HAH-bu-ee",
+  "latin": "Semper aut discere aut docēre aut scrībere dulce habuī.",
+  "src": "medieval-cards.json"
+ },
+ "q-alcuin-epitaph": {
+  "ipa": "/kʷɔd nʊŋk ɛs ˈfʊ.ɛ.ram ɛt kʷɔd nʊŋk ˈɛ.gɔ sʊm ˈtuː.kʷɛ fʊ.ˈtuː.rʊs ˈɛ.rɪs/",
+  "respelling": "kwod nungk ehs FU-eh-rahm eht kwod nungk EH-go sum TOO-kweh fu-TOO-rus EH-rihs",
+  "latin": "Quod nunc es fueram, … et quod nunc ego sum, tūque futūrus eris.",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-pater-noster": {
+  "ipa": "/ˈpa.tɛr ˈnɔs.tɛr kʷiː ɛs ɪn ˈkae̯.liːs saːŋk.tɪ.fɪ.ˈkeː.tʊr ˈnoː.mɛn ˈtʊ.ʊm/",
+  "respelling": "PAH-tehr NOS-tehr kwee ehs ihn KEYE-lees sahngk-tih-fih-KAY-tur NOH-mehn TU-um",
+  "latin": "Pater noster, quī es in caelīs, sānctificētur nōmen tuum.",
+  "src": "medieval-cards.json"
+ },
+ "q-aug-inquietum": {
+  "ipa": "/feː.ˈkɪs.tiː noːs ad teː ɛt ɪŋ.kʷɪ.ˈeː.tʊm ɛst kɔr ˈnɔs.trʊm ˈdoː.nɛk rɛ.kʷɪ.ˈeːs.kat ɪn teː/",
+  "respelling": "fay-KIHS-tee nohs ahd tay eht ihng-kwih-AY-tum ehst kor NOS-trum DOH-nehk reh-kwih-AYS-kaht ihn tay",
+  "latin": "Fēcistī nōs ad tē, et inquiētum est cor nostrum, dōnec requiēscat in tē.",
+  "src": "medieval-cards.json"
+ },
+ "q-ben-otiositas": {
+  "ipa": "/oː.tɪ.ˈoː.sɪ.taːs ɪ.nɪ.ˈmiː.ka ɛst ˈa.nɪ.mae̯/",
+  "respelling": "oh-tih-OH-sih-tahs ih-nih-MEE-kah ehst AH-nih-meye",
+  "latin": "Ōtiōsitās inimīca est animae.",
+  "src": "medieval-cards.json"
+ },
+ "q-ben-ausculta": {
+  "ipa": "/ɔps.ˈkʊl.taː oː ˈfiː.liː prae̯.ˈkɛp.ta ma.ˈgɪs.triː ɛt ɪŋ.ˈkliː.naː ˈau̯.rɛm ˈkɔr.dɪs ˈtʊ.iː/",
+  "respelling": "ops-KUL-tah oh FEE-lee preye-KEHP-tah mah-GIHS-tree eht ihng-KLEE-nah OW-rehm KOR-dihs TU-ee",
+  "latin": "Obscultā, ō fīlī, praecepta magistrī, et inclīnā aurem cordis tuī.",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-gloria": {
+  "ipa": "/ˈgloː.rɪ.a ɪn al.ˈtɪs.sɪ.miːs ˈdɛ.oː ɛt ɪn ˈtɛr.raː paːks ɪn hɔ.ˈmɪ.nɪ.bʊs ˈbɔ.nae̯ wɔ.lʊn.ˈtaː.tɪs/",
+  "respelling": "GLOH-rih-ah ihn ahl-TIHS-sih-mees DEH-oh eht ihn TEHR-rah pahks ihn ho-MIH-nih-bus BO-neye wo-lun-TAH-tihs",
+  "latin": "Glōria in altissimīs Deō, et in terrā pāx in hominibus bonae voluntātis.",
+  "src": "medieval-cards.json"
+ },
+ "q-aug-sero": {
+  "ipa": "/ˈseː.roː teː a.ˈmaː.wiː pʊl.kʰrɪ.ˈtuː.doː tam an.ˈtiː.kʷa ɛt tam ˈnɔ.wa ˈseː.roː teː a.ˈmaː.wiː/",
+  "respelling": "SAY-roh tay ah-MAH-wee pul-krih-TOO-doh tahm ahn-TEE-kwah eht tahm NO-wah SAY-roh tay ah-MAH-wee",
+  "latin": "Sērō tē amāvī, pulchritūdō tam antīqua et tam nova, sērō tē amāvī!",
+  "src": "medieval-cards.json"
+ },
+ "q-aug-da-mihi": {
+  "ipa": "/daː ˈmɪ.hɪ kas.tɪ.ˈtaː.tɛm ɛt kɔn.tɪ.ˈnɛn.tɪ.am sɛd ˈnoː.liː ˈmɔ.dɔ/",
+  "respelling": "dah MIH-hih kahs-tih-TAH-tehm eht kon-tih-NEHN-tih-ahm sehd NOH-lee MO-do",
+  "latin": "Dā mihi castitātem et continentiam, sed nōlī modo.",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-de-profundis": {
+  "ipa": "/deː prɔ.ˈfʊn.diːs klaː.ˈmaː.wiː ad teː ˈdɔ.mɪ.nɛ/",
+  "respelling": "day pro-FUN-dees klah-MAH-wee ahd tay DO-mih-neh",
+  "latin": "Dē profundīs clāmāvī ad tē, Domine.",
+  "src": "medieval-cards.json"
+ },
+ "q-abelard-dubitando": {
+  "ipa": "/dʊ.bɪ.ˈtan.doː ˈkʷɪp.pɛ ad ɪŋ.kʷiː.siː.tɪ.ˈoː.nɛm wɛ.ˈniː.mʊs ɪŋ.kʷiː.ˈrɛn.doː weː.rɪ.ˈtaː.tɛm pɛr.ˈkɪ.pɪ.mʊs/",
+  "respelling": "du-bih-TAHN-doh KWIHP-peh ahd ihng-kwee-see-tih-OH-nehm weh-NEE-mus ihng-kwee-REHN-doh way-rih-TAH-tehm pehr-KIH-pih-mus",
+  "latin": "Dubitandō quippe ad inquīsītiōnem venīmus; inquīrendō vēritātem percipimus.",
+  "src": "medieval-cards.json"
+ },
+ "q-dies-irae": {
+  "ipa": "/ˈdɪ.eːs ˈiː.rae̯ ˈdɪ.eːs ˈɪl.la ˈsɔl.wɛt ˈsae̯.klʊm ɪn fa.ˈwiːl.laː/",
+  "respelling": "DIH-ays EE-reye DIH-ays IHL-lah SOL-weht SEYE-klum ihn fah-WEEL-lah",
+  "latin": "Diēs īrae, diēs illa, solvet saeclum in favīllā.",
+  "src": "medieval-cards.json"
+ },
+ "q-magna-carta-39": {
+  "ipa": "/ˈnuːl.lʊs ˈliː.bɛr ˈhɔ.mɔ ka.pɪ.ˈaː.tʊr wɛl ɪm.prɪ.sɔ.ˈneː.tʊr ˈnɪ.sɪ pɛr leː.ˈgaː.lɛ juː.ˈdɪ.kɪ.ʊm ˈpa.rɪ.ʊm sʊ.ˈoː.rʊm wɛl pɛr ˈleː.gɛm ˈtɛr.rae̯/",
+  "respelling": "NOOL-lus LEE-behr HO-mo kah-pih-AH-tur wehl ihm-prih-so-NAY-tur NIH-sih pehr lay-GAH-leh yoo-DIH-kih-um PAH-rih-um su-OH-rum wehl pehr LAY-gehm TEHR-reye",
+  "latin": "Nūllus līber homo capiātur vel imprisonētur … nisi per lēgāle iūdicium parium suōrum vel per lēgem terrae.",
+  "src": "medieval-cards.json"
+ },
+ "q-bede-angli": {
+  "ipa": "/ˈbɛ.nɛ ˈɪŋ.kʷɪt nam ɛt aŋ.ˈgɛ.lɪ.kam ˈha.bɛnt ˈfa.kɪ.ɛm/",
+  "respelling": "BEH-neh IHNG-kwiht nahm eht ahng-GEH-lih-kahm HAH-behnt FAH-kih-ehm",
+  "latin": "“Bene,” inquit; “nam et angelicam habent faciem.”",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-per-speculum": {
+  "ipa": "/wɪ.ˈdeː.mʊs nʊŋk pɛr ˈspɛ.kʊ.lʊm ɪn ae̯.ˈnɪg.ma.tɛ tʊŋk ˈau̯.tɛm ˈfa.kɪ.eː ad ˈfa.kɪ.ɛm/",
+  "respelling": "wih-DAY-mus nungk pehr SPEH-ku-lum ihn eye-NIHG-mah-teh tungk OW-tehm FAH-kih-ay ahd FAH-kih-ehm",
+  "latin": "Vidēmus nunc per speculum in aenigmate, tunc autem faciē ad faciem.",
+  "src": "medieval-cards.json"
+ },
+ "q-ben-hospites": {
+  "ipa": "/ˈɔm.neːs sʊ.pɛr.wɛ.nɪ.ˈɛn.teːs ˈhɔs.pɪ.teːs ˈtam.kʷam ˈkʰriːs.tʊs sʊs.kɪ.pɪ.ˈan.tʊr/",
+  "respelling": "OM-nays su-pehr-weh-nih-EHN-tays HOS-pih-tays TAHM-kwahm KREES-tus sus-kih-pih-AHN-tur",
+  "latin": "Omnēs supervenientēs hospitēs tamquam Chrīstus suscipiantur.",
+  "src": "medieval-cards.json"
+ },
+ "q-aquinas-tardiloquum": {
+  "ipa": "/tar.ˈdɪ.lɔ.kʷʊm teː ˈɛs.sɛ ˈjʊ.bɛ.oː/",
+  "respelling": "tahr-DIH-lo-kwum tay EHS-seh YU-beh-oh",
+  "latin": "Tardiloquum tē esse iubeō.",
+  "src": "medieval-cards.json"
+ },
+ "q-ag-dei": {
+  "ipa": "/ˈaŋ.nʊs ˈdɛ.iː kʷiː ˈtɔl.lɪs pɛk.ˈkaː.ta ˈmʊn.diː mɪ.sɛ.ˈreː.rɛ ˈnoː.biːs/",
+  "respelling": "AHNG-nus DEH-ee kwee TOL-lihs pehk-KAH-tah MUN-dee mih-seh-RAY-reh NOH-bees",
+  "latin": "Agnus Deī, quī tollis peccāta mundī, miserēre nōbīs.",
+  "src": "medieval-cards.json"
+ },
+ "q-carmina-o-fortuna": {
+  "ipa": "/oː fɔr.ˈtuː.na ˈwɛ.lʊt ˈluː.na ˈsta.tuː wa.rɪ.ˈaː.bɪ.lɪs ˈsɛm.pɛr ˈkreːs.kɪs au̯t deː.ˈkreːs.kɪs/",
+  "respelling": "oh for-TOO-nah WEH-lut LOO-nah STAH-too wah-rih-AH-bih-lihs SEHM-pehr KRAYS-kihs owt day-KRAYS-kihs",
+  "latin": "Ō Fortūna, velut lūna statū variābilis, semper crēscis aut dēcrēscis.",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-vanitas": {
+  "ipa": "/ˈwaː.nɪ.taːs waː.nɪ.ˈtaː.tʊm ˈdiːk.sɪt ɛk.klɛ.sɪ.ˈas.teːs ˈwaː.nɪ.taːs waː.nɪ.ˈtaː.tʊm ˈɔm.nɪ.a ˈwaː.nɪ.taːs/",
+  "respelling": "WAH-nih-tahs wah-nih-TAH-tum DEEK-siht ehk-kleh-sih-AHS-tays WAH-nih-tahs wah-nih-TAH-tum OM-nih-ah WAH-nih-tahs",
+  "latin": "Vānitās vānitātum, dīxit Ecclesiastēs, vānitās vānitātum; omnia vānitās.",
+  "src": "medieval-cards.json"
+ },
+ "q-kempis-transit": {
+  "ipa": "/oː kʷam ˈkɪ.toː ˈtraːn.sɪt ˈgloː.rɪ.a ˈmʊn.diː/",
+  "respelling": "oh kwahm KIH-toh TRAHN-siht GLOH-rih-ah MUN-dee",
+  "latin": "Ō quam citō trānsit glōria mundī.",
+  "src": "medieval-cards.json"
+ },
+ "q-heloise-meretrix": {
+  "ipa": "/ˈkaː.rɪ.ʊs ˈmɪ.hɪ ɛt ˈdɪŋ.nɪ.ʊs wɪ.deː.ˈreː.tʊr ˈtʊ.a ˈdiː.kiː ˈmɛ.rɛ.triːks kʷam ɪl.ˈliː.ʊs ɪm.pɛ.ˈraː.triːks/",
+  "respelling": "KAH-rih-us MIH-hih eht DIHNG-nih-us wih-day-RAY-tur TU-ah DEE-kee MEH-reh-treeks kwahm ihl-LEE-us ihm-peh-RAH-treeks",
+  "latin": "Kārius mihi et dignius vidērētur tua dīcī meretrīx quam illīus imperātrīx.",
+  "src": "medieval-cards.json"
+ },
+ "q-einhard-aachen": {
+  "ipa": "/ba.ˈsɪ.lɪ.ka ˈsaːŋk.tae̯ ˈdɛ.iː gɛ.nɪ.ˈtriː.kɪs a.kʷɪs.ˈgraː.niː ˈɔ.pɛ.rɛ miː.ˈraː.bɪ.liː koːns.ˈtruːk.ta/",
+  "respelling": "bah-SIH-lih-kah SAHNGK-teye DEH-ee geh-nih-TREE-kihs ah-kwihs-GRAH-nee O-peh-reh mee-RAH-bih-lee kohns-TROOK-tah",
+  "latin": "Basilica sānctae Deī genitrīcis Aquisgrānī opere mīrābilī cōnstrūcta.",
+  "src": "medieval-cards.json"
+ },
+ "q-boethius-rota": {
+  "ipa": "/ˈrɔ.tam wɔ.ˈluː.bɪ.liː ˈɔr.bɛ wɛr.ˈsaː.mʊs/",
+  "respelling": "RO-tahm wo-LOO-bih-lee OR-beh wehr-SAH-mus",
+  "latin": "Rotam volūbilī orbe versāmus.",
+  "src": "medieval-cards.json"
+ },
+ "q-mon-unum": {
+  "ipa": "/huː.ˈmaː.nʊm ˈgɛ.nʊs ˈɔp.tɪ.meː seː ha.ˈbeː.rɛ kʊm ab ˈuː.noː ˈrɛ.gɪ.tʊr/",
+  "respelling": "hoo-MAH-num GEH-nus OP-tih-may say hah-BAY-reh kum ahb OO-noh REH-gih-tur",
+  "latin": "…hūmānum genus optimē sē habēre cum ab ūnō regitur.",
+  "src": "medieval-cards.json"
+ },
+ "q-bede-sparrow": {
+  "ipa": "/ad.ˈwɛ.nɪ.eːns ˈuː.nʊs ˈpas.sɛ.rʊm ˈdɔ.mʊm kɪ.ˈtɪs.sɪ.meː pɛr.wɔ.ˈlaː.wɛ.rɪt/",
+  "respelling": "ahd-WEH-nih-ayns OO-nus PAHS-seh-rum DO-mum kih-TIHS-sih-may pehr-wo-LAH-weh-riht",
+  "latin": "…adveniēns ūnus passerum domum citissimē pervolāverit…",
+  "src": "medieval-cards.json"
+ },
+ "v-urbs": {
+  "ipa": "/ʊrps ˈʊr.bɪs/",
+  "respelling": "urps UR-bihs",
+  "latin": "urbs, urbis f.",
+  "src": "learning-cards.json"
+ },
+ "v-via": {
+  "ipa": "/ˈwɪ.a ˈwɪ.ae̯/",
+  "respelling": "WIH-ah WIH-eye",
+  "latin": "via, viae f.",
+  "src": "learning-cards.json"
+ },
+ "g-sum-est": {
+  "ipa": "/ˈroː.ma ʊrps ɛst ˈwɪ.a ˈlɔŋ.ga ɛst/",
+  "respelling": "ROH-mah urps ehst WIH-ah LONG-gah ehst",
+  "latin": "Rōma urbs est. Via longa est.",
+  "src": "learning-cards.json"
+ },
+ "g-1decl-nom": {
+  "ipa": "/ˈlʊ.pa pʊ.ˈɛl.la reː.ˈgiː.na ˈroː.ma/",
+  "respelling": "LU-pah pu-EHL-lah ray-GEE-nah ROH-mah",
+  "latin": "Lupa, puella, rēgīna, Rōma",
+  "src": "learning-cards.json"
+ },
+ "i-spqr": {
+  "ipa": "/sɛ.ˈnaː.tʊs pɔ.pʊ.ˈlʊs.kʷɛ roː.ˈmaː.nʊs/",
+  "respelling": "seh-NAH-tus po-pu-LUS-kweh roh-MAH-nus",
+  "latin": "S·P·Q·R — Senātus Populusque Rōmānus",
+  "src": "learning-cards.json"
+ },
+ "x-map-roma": {
+  "ipa": "/ˈsɛp.tɛm ˈmɔn.teːs pa.ˈlaː.tɪ.ʊm ka.pɪ.ˈtoː.lɪ.ʊm a.wɛn.ˈtiː.nʊs/",
+  "respelling": "SEHP-tehm MON-tays pah-LAH-tih-um kah-pih-TOH-lih-um ah-wehn-TEE-nus",
+  "latin": "Septem montēs: Palātium, Capitōlium, Aventīnus…",
+  "src": "learning-cards.json"
+ },
+ "v-pater": {
+  "ipa": "/ˈpa.tɛr ˈpa.trɪs ˈmaː.tɛr ˈmaː.trɪs/",
+  "respelling": "PAH-tehr PAH-trihs MAH-tehr MAH-trihs",
+  "latin": "pater, patris m.; māter, mātris f.",
+  "src": "learning-cards.json"
+ },
+ "v-filius": {
+  "ipa": "/ˈfiː.lɪ.ʊs ˈfiː.lɪ.a/",
+  "respelling": "FEE-lih-us FEE-lih-ah",
+  "latin": "fīlius, -ī m.; fīlia, -ae f.",
+  "src": "learning-cards.json"
+ },
+ "g-acc": {
+  "ipa": "/ˈpa.tɛr ˈfiː.lɪ.ʊm ˈa.mat ˈfiː.lɪ.ʊm ˈpa.tɛr ˈa.mat/",
+  "respelling": "PAH-tehr FEE-lih-um AH-maht FEE-lih-um PAH-tehr AH-maht",
+  "latin": "Pater fīlium amat. Fīlium pater amat.",
+  "src": "learning-cards.json"
+ },
+ "g-2decl": {
+  "ipa": "/ˈsɛr.wʊs ˈsɛr.wʊm ˈpʊ.ɛr ˈdoː.nʊm/",
+  "respelling": "SEHR-wus SEHR-wum PU-ehr DOH-num",
+  "latin": "servus, servum; puer; dōnum",
+  "src": "learning-cards.json"
+ },
+ "d-familia": {
+  "ipa": "/fa.ˈmɪ.lɪ.a ˈdɔ.mʊs ˈfa.mɪ.lʏ dɔ.ˈmɛs.tɪk dɔ.ˈmɪ.kɪ.lɛ pa.ˈtɛr.nal ma.ˈtɛr.nal/",
+  "respelling": "fah-MIH-lih-ah DO-mus FAH-mih-lü do-MEHS-tihk do-MIH-kih-leh pah-TEHR-nahl mah-TEHR-nahl",
+  "latin": "familia, domus → family, domestic, domicile, paternal, maternal",
+  "src": "learning-cards.json"
+ },
+ "l-bulla": {
+  "ipa": "/ˈbʊl.la ˈau̯.rɛ.a/",
+  "respelling": "BUL-lah OW-reh-ah",
+  "latin": "bulla aurea",
+  "src": "learning-cards.json"
+ },
+ "x-whosays-cornelia": {
+  "ipa": "/hae̯k ɔr.naː.ˈmɛn.ta sʊnt ˈmɛ.a kɔr.ˈneː.lɪ.a ˈliː.wɪ.a lʊ.ˈkreː.tɪ.a/",
+  "respelling": "heyek or-nah-MEHN-tah sunt MEH-ah kor-NAY-lih-ah LEE-wih-ah lu-KRAY-tih-ah",
+  "latin": "Haec ornāmenta sunt mea. — Cornēlia? Līvia? Lucrētia?",
+  "src": "learning-cards.json"
+ },
+ "v-miles": {
+  "ipa": "/ˈmiː.lɛs ˈmiː.lɪ.tɪs/",
+  "respelling": "MEE-lehs MEE-lih-tihs",
+  "latin": "mīles, mīlitis m.",
+  "src": "learning-cards.json"
+ },
+ "v-castra": {
+  "ipa": "/ˈkas.tra/",
+  "respelling": "KAHS-trah",
+  "latin": "castra, -ōrum n. pl.",
+  "src": "learning-cards.json"
+ },
+ "g-1conj": {
+  "ipa": "/ˈmiː.lɪ.teːs ˈam.bʊ.lant ˈlɛ.gɪ.oː ˈpʊŋ.nat/",
+  "respelling": "MEE-lih-tays AHM-bu-lahnt LEH-gih-oh PUNG-naht",
+  "latin": "Mīlitēs ambulant. Legiō pugnat.",
+  "src": "learning-cards.json"
+ },
+ "g-2conj": {
+  "ipa": "/kɛn.ˈtʊ.rɪ.oː ˈmiː.lɪ.teːs ˈwɪ.dɛt ɛt ˈmɔ.nɛt/",
+  "respelling": "kehn-TU-rih-oh MEE-lih-tays WIH-deht eht MO-neht",
+  "latin": "Centuriō mīlitēs videt et monet.",
+  "src": "learning-cards.json"
+ },
+ "i-vindolanda": {
+  "ipa": "/speː.ˈraː.boː teː ˈsɔ.rɔr ˈwa.leː ˈsɔ.rɔr ˈa.nɪ.ma ˈmɛ.a/",
+  "respelling": "spay-RAH-boh tay SO-ror WAH-lay SO-ror AH-nih-mah MEH-ah",
+  "latin": "… spērābō tē, soror. Valē, soror, anima mea …",
+  "src": "learning-cards.json"
+ },
+ "l-pila": {
+  "ipa": "/ˈpiː.lʊm/",
+  "respelling": "PEE-lum",
+  "latin": "pīlum, -ī n.",
+  "src": "learning-cards.json"
+ },
+ "x-parse-signum": {
+  "ipa": "/lɛg/",
+  "respelling": "lehg",
+  "latin": "LEG XX V V",
+  "src": "learning-cards.json"
+ },
+ "v-res-publica": {
+  "ipa": "/reːs ˈpuː.blɪ.ka ˈrɛ.iː ˈpuː.blɪ.kae̯/",
+  "respelling": "rays POO-blih-kah REH-ee POO-blih-keye",
+  "latin": "rēs pūblica, reī pūblicae f.",
+  "src": "learning-cards.json"
+ },
+ "v-senatus": {
+  "ipa": "/sɛ.ˈnaː.tʊs ˈkoːn.sʊl/",
+  "respelling": "seh-NAH-tus KOHN-sul",
+  "latin": "senātus, -ūs m.; cōnsul, -is m.",
+  "src": "learning-cards.json"
+ },
+ "g-gen": {
+  "ipa": "/ˈfɔ.rʊm roː.maː.ˈnoː.rʊm ˈtɛm.plʊm saː.ˈtʊr.niː/",
+  "respelling": "FO-rum roh-mah-NOH-rum TEHM-plum sah-TUR-nee",
+  "latin": "Forum Rōmānōrum; Templum Sāturnī",
+  "src": "learning-cards.json"
+ },
+ "g-dat": {
+  "ipa": "/sɛ.ˈnaː.tʊs ˈkae̯.sa.riː hɔ.ˈnoː.reːs dat/",
+  "respelling": "seh-NAH-tus KEYE-sah-ree ho-NOH-rays daht",
+  "latin": "Senātus Caesarī honōrēs dat.",
+  "src": "learning-cards.json"
+ },
+ "g-adj": {
+  "ipa": "/wɪr ˈbɔ.nʊs ˈfeː.mɪ.na ˈbɔ.na ˈtɛm.plʊm ˈbɔ.nʊm/",
+  "respelling": "wihr BO-nus FAY-mih-nah BO-nah TEHM-plum BO-num",
+  "latin": "vir bonus, fēmina bona, templum bonum",
+  "src": "learning-cards.json"
+ },
+ "l-toga": {
+  "ipa": "/ˈtɔ.ga/",
+  "respelling": "TO-gah",
+  "latin": "toga, -ae f.",
+  "src": "learning-cards.json"
+ },
+ "d-dico": {
+  "ipa": "/ˈdiː.koː ˈdiː.kɛ.rɛ ˈdiːk.siː ˈdɪk.tʊm ˈdɪk.ta.tɛ ˈdɪk.tɪ.ɔn ˈwɛr.dɪkt ˈprɛ.dɪkt/",
+  "respelling": "DEE-koh DEE-keh-reh DEEK-see DIHK-tum DIHK-tah-teh DIHK-tih-on WEHR-dihkt PREH-dihkt",
+  "latin": "dīcō, dīcere, dīxī, dictum → dictate, diction, verdict, predict",
+  "src": "learning-cards.json"
+ },
+ "v-deus": {
+  "ipa": "/ˈdɛ.ʊs ˈdɛ.a/",
+  "respelling": "DEH-us DEH-ah",
+  "latin": "deus, -ī m.; dea, -ae f.",
+  "src": "learning-cards.json"
+ },
+ "v-templum": {
+  "ipa": "/ˈtɛm.plʊm/",
+  "respelling": "TEHM-plum",
+  "latin": "templum, -ī n.",
+  "src": "learning-cards.json"
+ },
+ "g-3decl": {
+  "ipa": "/reːks ˈreː.gɪs leːks ˈleː.gɪs paːks ˈpaː.kɪs/",
+  "respelling": "rayks RAY-gihs layks LAY-gihs pahks PAH-kihs",
+  "latin": "rēx, rēgis; lēx, lēgis; pāx, pācis",
+  "src": "learning-cards.json"
+ },
+ "g-abl-prep": {
+  "ipa": "/ɪn ˈtɛm.ploː kʊm ˈdɛ.iːs ɛks ˈʊr.bɛ/",
+  "respelling": "ihn TEHM-ploh kum DEH-ees ehks UR-beh",
+  "latin": "in templō, cum deīs, ex urbe",
+  "src": "learning-cards.json"
+ },
+ "i-pantheon-parse": {
+  "ipa": "/a.ˈgrɪp.pa kɔs ˈtɛr.tɪwm ˈfɛ.kɪt/",
+  "respelling": "ah-GRIHP-pah kos TEHR-tihwm FEH-kiht",
+  "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT",
+  "src": "learning-cards.json"
+ },
+ "l-lares": {
+  "ipa": "/la.ˈraː.rɪ.ʊm ˈla.reːs ɛt pɛ.ˈnaː.teːs/",
+  "respelling": "lah-RAH-rih-um LAH-rays eht peh-NAH-tays",
+  "latin": "larārium; Larēs et Penātēs",
+  "src": "learning-cards.json"
+ },
+ "v-imperator": {
+  "ipa": "/ɪm.pɛ.ˈraː.tɔr ɪm.ˈpɛ.rɪ.ʊm/",
+  "respelling": "ihm-peh-RAH-tor ihm-PEH-rih-um",
+  "latin": "imperātor, -ōris m.; imperium, -ī n.",
+  "src": "learning-cards.json"
+ },
+ "g-perf-rg": {
+  "ipa": "/ˈbɛl.la ˈtɛr.raː ɛt ˈma.riː kiː.ˈwiː.lɪ.a ɛks.tɛr.ˈna.kʷɛ ˈtoː.toː ɪn ˈɔr.bɛ tɛr.ˈraː.rʊm ˈsae̯.pɛ ˈgɛs.siː/",
+  "respelling": "BEHL-lah TEHR-rah eht MAH-ree kee-WEE-lih-ah ehks-tehr-NAH-kweh TOH-toh ihn OR-beh tehr-RAH-rum SEYE-peh GEHS-see",
+  "latin": "Bella terrā et marī cīvīlia externaque tōtō in orbe terrārum saepe gessī.",
+  "src": "learning-cards.json"
+ },
+ "g-impf": {
+  "ipa": "/ˈʊr.bɛm mar.ˈmɔ.rɛ.am seː rɛ.ˈlɪŋ.kʷɛ.rɛ kʷam la.tɛ.ˈrɪ.kɪ.am ak.keː.ˈpɪs.sɛt ˈsʊ.ɛt roː.ˈmaː.niː la.ˈtɛ.rɪ.bʊs ae̯.dɪ.fɪ.ˈkaː.bant/",
+  "respelling": "UR-behm mahr-MO-reh-ahm say reh-LIHNG-kweh-reh kwahm lah-teh-RIH-kih-ahm ahk-kay-PIHS-seht SU-eht roh-MAH-nee lah-TEH-rih-bus eye-dih-fih-KAH-bahnt",
+  "latin": "Urbem … marmoream sē relinquere, quam latericiam accēpisset (Suet.) / Rōmānī lateribus aedificābant.",
+  "src": "learning-cards.json"
+ },
+ "g-possum": {
+  "ipa": "/ˈpɔs.sʊm ˈpɔ.tɛs ˈpɔ.tɛst ɪn.fɪ.ˈnɪ.tɪ.wɛ/",
+  "respelling": "POS-sum PO-tehs PO-tehst ihn-fih-NIH-tih-weh",
+  "latin": "possum, potes, potest… + infinitive",
+  "src": "learning-cards.json"
+ },
+ "i-coin-divi-f": {
+  "ipa": "/ˈkae̯.sar ˈdɪ.wɪ/",
+  "respelling": "KEYE-sahr DIH-wih",
+  "latin": "CAESAR DIVI F",
+  "src": "learning-cards.json"
+ },
+ "l-denarius": {
+  "ipa": "/deː.ˈnaː.rɪ.ʊs as seːs.ˈtɛr.tɪ.ʊs/",
+  "respelling": "day-NAH-rih-us ahs says-TEHR-tih-us",
+  "latin": "dēnārius, as, sēstertius",
+  "src": "learning-cards.json"
+ },
+ "x-timeline-emp": {
+  "ipa": "/au̯.ˈgʊs.tʊs tɪ.ˈbɛ.rɪ.ʊs ˈklau̯.dɪ.ʊs ˈnɛ.roː traːj.ˈjaː.nʊs ha.drɪ.ˈaː.nʊs/",
+  "respelling": "ow-GUS-tus tih-BEH-rih-us KLOW-dih-us NEH-roh trahy-YAH-nus hah-drih-AH-nus",
+  "latin": "Augustus, Tiberius, Claudius, Nerō, Trāiānus, Hadriānus",
+  "src": "learning-cards.json"
+ },
+ "v-amo": {
+  "ipa": "/ˈa.moː a.ˈmaː.rɛ a.ˈmaː.wiː a.ˈmaː.tʊm/",
+  "respelling": "AH-moh ah-MAH-reh ah-MAH-wee ah-MAH-tum",
+  "latin": "amō, amāre, amāvī, amātum",
+  "src": "learning-cards.json"
+ },
+ "g-imperative": {
+  "ipa": "/ˈkar.pɛ ˈdɪ.ɛm kʷam ˈmɪ.nɪ.mʊm ˈkreː.dʊ.la ˈpɔs.tɛ.roː/",
+  "respelling": "KAHR-peh DIH-ehm kwahm MIH-nih-mum KRAY-du-lah POS-teh-roh",
+  "latin": "Carpe diem, quam minimum crēdula posterō.",
+  "src": "learning-cards.json"
+ },
+ "g-future": {
+  "ipa": "/noːn ˈɔm.nɪs ˈmɔ.rɪ.ar/",
+  "respelling": "nohn OM-nihs MO-rih-ahr",
+  "latin": "Nōn omnis moriar.",
+  "src": "learning-cards.json"
+ },
+ "g-pronoun": {
+  "ipa": "/ˈɛ.gɔ tuː meː teː ˈmɪ.hɪ ˈtɪ.bɪ/",
+  "respelling": "EH-go too may tay MIH-hih TIH-bih",
+  "latin": "Ego, tū; mē, tē; mihi, tibi",
+  "src": "learning-cards.json"
+ },
+ "v-tempus": {
+  "ipa": "/ˈtɛm.pʊs ˈtɛm.pɔ.rɪs/",
+  "respelling": "TEHM-pus TEHM-po-rihs",
+  "latin": "tempus, temporis n.",
+  "src": "learning-cards.json"
+ },
+ "x-meter": {
+  "ipa": "/ˈar.ma wɪ.ˈrʊm.kʷɛ ˈka.noː/",
+  "respelling": "AHR-mah wih-RUM-kweh KAH-noh",
+  "latin": "Arma virumque canō…",
+  "src": "learning-cards.json"
+ },
+ "v-animus": {
+  "ipa": "/ˈa.nɪ.mʊs ˈa.nɪ.ma/",
+  "respelling": "AH-nih-mus AH-nih-mah",
+  "latin": "animus, -ī m.; anima, -ae f.",
+  "src": "learning-cards.json"
+ },
+ "g-infinitive": {
+  "ipa": "/ˈwiː.wɛ.rɛ miː luː.ˈkiː.liː miː.lɪ.ˈtaː.rɛ ɛst/",
+  "respelling": "WEE-weh-reh mee loo-KEE-lee mee-lih-TAH-reh ehst",
+  "latin": "Vīvere, mī Lūcīlī, mīlitāre est.",
+  "src": "learning-cards.json"
+ },
+ "g-ind-stat": {
+  "ipa": "/ˈdiː.kʊnt ˈroː.mʊ.lʊm ˈʊr.bɛm kɔn.dɪ.ˈdɪs.sɛ/",
+  "respelling": "DEE-kunt ROH-mu-lum UR-behm kon-dih-DIHS-seh",
+  "latin": "Dīcunt Rōmulum urbem condidisse.",
+  "src": "learning-cards.json"
+ },
+ "d-video": {
+  "ipa": "/ˈwɪ.dɛ.oː wɪ.ˈdeː.rɛ ˈwiː.diː ˈwiː.sʊm ˈwɪ.dɛ.ɔ ˈwɪ.sɪ.ɔn ˈɛ.wɪ.dɛnt ˈprɔ.wɪ.dɛ ˈwɪ.sa/",
+  "respelling": "WIH-deh-oh wih-DAY-reh WEE-dee WEE-sum WIH-deh-o WIH-sih-on EH-wih-dehnt PRO-wih-deh WIH-sah",
+  "latin": "videō, vidēre, vīdī, vīsum → video, vision, evident, provide, visa",
+  "src": "learning-cards.json"
+ },
+ "x-greek-flag": {
+  "ipa": "/ˈmar.kʊs au̯.ˈreː.lɪ.ʊs la.ˈtiː.neː ˈskriːp.sɪt ad seː ˈɪp.sʊm ˈweː.rʊm an ˈfal.sʊm/",
+  "respelling": "MAHR-kus ow-RAY-lih-us lah-TEE-nay SKREEP-siht ahd say IHP-sum WAY-rum ahn FAHL-sum",
+  "latin": "Marcus Aurēlius Latīnē scrīpsit 'Ad sē ipsum'. Vērum an falsum?",
+  "src": "learning-cards.json"
+ },
+ "l-schola": {
+  "ipa": "/ˈluː.dʊs ma.ˈgɪs.tɛr ˈta.bʊ.la ˈstɪ.lʊs/",
+  "respelling": "LOO-dus mah-GIHS-tehr TAH-bu-lah STIH-lus",
+  "latin": "lūdus, magister, tabula, stilus",
+  "src": "learning-cards.json"
+ },
+ "g-passive": {
+  "ipa": "/ˈroː.ma ˈkap.ta ɛst ad/",
+  "respelling": "ROH-mah KAHP-tah ehst ahd",
+  "latin": "Rōma capta est (AD 410).",
+  "src": "learning-cards.json"
+ },
+ "i-chirho": {
+  "ipa": "/kʰiː roː ɔn ˈkɔ.ɪns ɔf kɔns.ˈtan.tɪ.nɛ ˈwʊl.ga.tɛ ˈɛ.gɔ sʊm ɛt/",
+  "respelling": "kee roh on KO-ihns of kons-TAHN-tih-neh WUL-gah-teh EH-go sum eht",
+  "latin": "☧ (Chī-Rhō) on coins of Constantine; Vulgate: Ego sum α et ω",
+  "src": "learning-cards.json"
+ },
+ "v-rex": {
+  "ipa": "/reːks ˈreː.gɪs ˈreːŋ.nʊm/",
+  "respelling": "rayks RAY-gihs RAYNG-num",
+  "latin": "rēx, rēgis m.; rēgnum, -ī n.",
+  "src": "learning-cards.json"
+ },
+ "x-vulgate": {
+  "ipa": "/ˈɛ.gɔ sʊm ˈwɪ.a ɛt ˈweː.rɪ.taːs ɛt ˈwiː.ta/",
+  "respelling": "EH-go sum WIH-ah eht WAY-rih-tahs eht WEE-tah",
+  "latin": "Ego sum via, et vēritās, et vīta.",
+  "src": "learning-cards.json"
+ },
+ "d-crux": {
+  "ipa": "/krʊks ˈkrʊ.kɪs ˈkrʊ.kɪ.al ˈkrʊ.kɪ.fʏ ˈkrʊ.sa.dɛ ɛks.krʊ.ˈkɪ.a.tɪŋg/",
+  "respelling": "kruks KRU-kihs KRU-kih-ahl KRU-kih-fü KRU-sah-deh ehks-kru-KIH-ah-tihngg",
+  "latin": "crux, crucis → crucial, crucify, crusade, excruciating",
+  "src": "learning-cards.json"
+ },
+ "l-annona": {
+  "ipa": "/ˈpaː.nɪs fruː.ˈmɛn.tʊm an.ˈnoː.na/",
+  "respelling": "PAH-nihs froo-MEHN-tum ahn-NOH-nah",
+  "latin": "pānis, frūmentum, annōna",
+  "src": "learning-cards.json"
+ },
+ "g-relative": {
+  "ipa": "/ˈpa.tɛr ˈnɔs.tɛr kʷiː ɛs ɪn ˈkae̯.liːs/",
+  "respelling": "PAH-tehr NOS-tehr kwee ehs ihn KEYE-lees",
+  "latin": "Pater noster, quī es in caelīs",
+  "src": "learning-cards.json"
+ },
+ "v-liber": {
+  "ipa": "/ˈlɪ.bɛr ˈlɪ.briː ˈlɛ.goː ˈlɛ.gɛ.rɛ ˈleː.giː ˈleːk.tʊm/",
+  "respelling": "LIH-behr LIH-bree LEH-goh LEH-geh-reh LAY-gee LAYK-tum",
+  "latin": "liber, librī m.; legō, legere, lēgī, lēctum",
+  "src": "learning-cards.json"
+ },
+ "l-monasterium": {
+  "ipa": "/mɔ.nas.ˈtɛ.rɪ.ʊm ˈab.baːs ˈmɔ.na.kʰʊs ˈhoː.ra/",
+  "respelling": "mo-nahs-TEH-rih-um AHB-bahs MO-nah-kus HOH-rah",
+  "latin": "monasterium, abbās, monachus, hōra",
+  "src": "learning-cards.json"
+ },
+ "i-karolus": {
+  "ipa": "/ˈka.rɔlws ɪmp awg/",
+  "respelling": "KAH-rolws ihmp ahwg",
+  "latin": "KAROLVS IMP AVG",
+  "src": "learning-cards.json"
+ },
+ "x-colophon": {
+  "ipa": "/ˈɛks.plɪ.kɪt ˈlɪ.bɛr oː.ˈraː.tɛ proː skriːp.ˈtoː.rɛ/",
+  "respelling": "EHKS-plih-kiht LIH-behr oh-RAH-teh proh skreep-TOH-reh",
+  "latin": "Explicit liber… Ōrāte prō scrīptōre.",
+  "src": "learning-cards.json"
+ },
+ "x-map-medieval": {
+  "ipa": "/lɪn.dɪs.ˈfar.na ˈjɔ.na ˈsaŋk.tʊs ˈgal.lʊs a.kʷiːs.ˈgraː.nʊm ˈroː.ma/",
+  "respelling": "lihn-dihs-FAHR-nah YO-nah SAHNGK-tus GAHL-lus ah-kwees-GRAH-num ROH-mah",
+  "latin": "Lindisfarna, Iona, Sanctus Gallus, Aquīsgrānum, Rōma",
+  "src": "learning-cards.json"
+ },
+ "d-scribo": {
+  "ipa": "/ˈskriː.boː ˈskriː.bɛ.rɛ ˈskriːp.siː ˈskriːp.tʊm ˈskrɪ.bɛ skrɪpt ˈdɛs.krɪ.bɛ ma.ˈnʊs.krɪpt/",
+  "respelling": "SKREE-boh SKREE-beh-reh SKREEP-see SKREEP-tum SKRIH-beh skrihpt DEHS-krih-beh mah-NUS-krihpt",
+  "latin": "scrībō, scrībere, scrīpsī, scrīptum → scribe, script, describe, manuscript",
+  "src": "learning-cards.json"
+ },
+ "q-caesar-veni": {
+  "ipa": "/ˈweː.niː ˈwiː.diː ˈwiː.kiː/",
+  "respelling": "WAY-nee WEE-dee WEE-kee",
+  "latin": "Vēnī, vīdī, vīcī.",
+  "src": "cards.js"
+ },
+ "q-caesar-gallia": {
+  "ipa": "/ˈgal.lɪ.a ɛst ˈɔm.nɪs diː.ˈwiː.sa ɪn ˈpar.teːs treːs/",
+  "respelling": "GAHL-lih-ah ehst OM-nihs dee-WEE-sah ihn PAHR-tays trays",
+  "latin": "Gallia est omnis dīvīsa in partēs trēs.",
+  "src": "cards.js"
+ },
+ "q-cicero-tempora": {
+  "ipa": "/oː ˈtɛm.pɔ.ra oː ˈmoː.reːs/",
+  "respelling": "oh TEHM-po-rah oh MOH-rays",
+  "latin": "Ō tempora, ō mōrēs!",
+  "src": "cards.js"
+ },
+ "q-horace-carpe": {
+  "ipa": "/ˈkar.pɛ ˈdɪ.ɛm kʷam ˈmɪ.nɪ.mʊm ˈkreː.dʊ.la ˈpɔs.tɛ.roː/",
+  "respelling": "KAHR-peh DIH-ehm kwahm MIH-nih-mum KRAY-du-lah POS-teh-roh",
+  "latin": "Carpe diem, quam minimum crēdula posterō.",
+  "src": "cards.js"
+ },
+ "q-augustine-tolle": {
+  "ipa": "/ˈtɔl.lɛ ˈlɛ.gɛ ˈtɔl.lɛ ˈlɛ.gɛ/",
+  "respelling": "TOL-leh LEH-geh TOL-leh LEH-geh",
+  "latin": "Tolle, lege; tolle, lege.",
+  "src": "cards.js"
+ }
+}
