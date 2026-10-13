@@ -1,0 +1,287 @@
+@v-urbs
+urbs|urbs|city|nom. sg. f. (3rd decl.)
+@v-via
+via|via|road, way|nom. sg. f. (1st decl.)
+@g-sum-est
+Rōma|Rōma|Rome|nom. sg. f.
+urbs|urbs|city|nom. sg. f. (predicate)
+est|sum|is|3rd sg. pres.
+Via|via|road|nom. sg. f.
+longa|longus|long|nom. sg. f. adj.
+est|sum|is|3rd sg. pres.
+@g-1decl-nom
+Lupa|lupa|she-wolf|nom. sg. f.
+puella|puella|girl|nom. sg. f.
+rēgīna|rēgīna|queen|nom. sg. f.
+Rōma|Rōma|Rome|nom. sg. f.
+@i-spqr
+Senātus|senātus|senate|nom. sg. m. (4th decl.)
+Populusque|populus|people (+ -que "and")|nom. sg. m.
+Rōmānus|Rōmānus|Roman|nom. sg. m. adj.
+@x-map-roma
+Septem|septem|seven|indecl. numeral
+montēs|mōns|hills, mountains|nom. pl. m.
+Palātium|Palātium|the Palatine|nom. sg. n.
+Capitōlium|Capitōlium|the Capitol|nom. sg. n.
+Aventīnus|Aventīnus|the Aventine|nom. sg. m.
+@v-pater
+pater|pater|father|nom. sg. m.
+māter|māter|mother|nom. sg. f.
+@v-filius
+fīlius|fīlius|son|nom. sg. m.
+fīlia|fīlia|daughter|nom. sg. f.
+@g-acc
+Pater|pater|father|nom. sg. m. (subject)
+fīlium|fīlius|son|acc. sg. m. (object)
+amat|amō|loves|3rd sg. pres.
+@g-2decl
+servus|servus|slave|nom. sg. m.
+servum|servus|slave|acc. sg. m.
+puer|puer|boy|nom. sg. m.
+dōnum|dōnum|gift|nom./acc. sg. n.
+@d-familia
+familia|familia|household|nom. sg. f.
+domus|domus|house, home|nom. sg. f.
+@l-bulla
+bulla|bulla|amulet, bubble|nom. sg. f.
+aurea|aureus|golden|nom. sg. f. adj. (agreement preview)
+@x-whosays-cornelia
+Haec|hic|these|nom. pl. n.
+ornāmenta|ornāmentum|ornaments, jewels|nom. pl. n.
+sunt|sum|are|3rd pl. pres.
+mea|meus|my|nom. pl. n.
+@v-miles
+mīles|mīles|soldier|nom. sg. m.
+@v-castra
+castra|castra|camp|nom. pl. n.
+@g-1conj
+Mīlitēs|mīles|soldiers|nom. pl. m.
+ambulant|ambulō|walk, march|3rd pl. pres.
+Legiō|legiō|legion|nom. sg. f.
+pugnat|pugnō|fights|3rd sg. pres.
+@g-2conj
+Centuriō|centuriō|centurion|nom. sg. m.
+mīlitēs|mīles|soldiers|acc. pl. m.
+videt|videō|sees|3rd sg. pres.
+et|et|and|conj.
+monet|moneō|warns|3rd sg. pres.
+@i-vindolanda
+spērābō|spērō|I shall hope for, expect|1st sg. fut.
+tē|tū|you|acc. sg.
+soror|soror|sister|voc. sg. f.
+Valē|valeō|farewell|2nd sg. imper.
+anima|anima|soul|voc. sg. f.
+mea|meus|my|voc. sg. f.
+@l-pila
+pīlum|pīlum|javelin|nom. sg. n.
+@x-parse-signum
+LEG|legiō|legion|abbr. nom. sg.
+XX|vīcēsimus|twentieth|numeral
+V|Valeria|Valeria (title)|abbr.
+V|victrīx|victorious|abbr.
+@v-res-publica
+rēs|rēs|thing, affair|nom. sg. f. (5th decl.)
+pūblica|pūblicus|public|nom. sg. f. adj.
+@v-senatus
+senātus|senātus|senate|nom. sg. m.
+cōnsul|cōnsul|consul|nom. sg. m.
+@g-gen
+Forum|forum|forum, public square|nom. sg. n.
+Rōmānōrum|Rōmānus|of the Romans|gen. pl. m.
+Templum|templum|temple|nom. sg. n.
+Sāturnī|Sāturnus|of Saturn|gen. sg. m.
+@g-dat
+Senātus|senātus|senate|nom. sg. m.
+Caesarī|Caesar|to Caesar|dat. sg. m.
+honōrēs|honor|honours|acc. pl. m.
+dat|dō|gives|3rd sg. pres.
+@g-adj
+vir|vir|man|nom. sg. m.
+bonus|bonus|good|nom. sg. m.
+fēmina|fēmina|woman|nom. sg. f.
+bona|bonus|good|nom. sg. f.
+templum|templum|temple|nom. sg. n.
+bonum|bonus|good|nom. sg. n.
+@l-toga
+toga|toga|toga|nom. sg. f.
+@d-dico
+dīcō|dīcō|say|1st sg. pres.
+@v-deus
+deus|deus|god|nom. sg. m.
+dea|dea|goddess|nom. sg. f.
+@v-templum
+templum|templum|temple|nom. sg. n.
+@g-3decl
+rēx|rēx|king|nom. sg. m.
+lēx|lēx|law|nom. sg. f.
+pāx|pāx|peace|nom. sg. f.
+@g-abl-prep
+in|in|in|prep. + abl.
+templō|templum|temple|abl. sg. n.
+cum|cum|with|prep. + abl.
+deīs|deus|gods|abl. pl. m.
+ex|ex|out of|prep. + abl.
+urbe|urbs|city|abl. sg. f.
+@i-pantheon-parse
+M.|Mārcus|Marcus|abbr. nom.
+AGRIPPA|Agrippa|Agrippa|nom. sg. m.
+L.|Lūcius|of Lucius|abbr. gen.
+F.|fīlius|son|abbr. nom. sg.
+COS|cōnsul|consul|abbr. nom. sg.
+TERTIVM|tertium|for the third time|adv.
+FECIT|faciō|made|3rd sg. perf.
+@l-lares
+larārium|larārium|household shrine|nom. sg. n.
+Larēs|Lar|household gods|nom. pl. m.
+et|et|and|conj.
+Penātēs|Penātēs|gods of the storeroom|nom. pl. m.
+@v-imperator
+imperātor|imperātor|commander, emperor|nom. sg. m.
+imperium|imperium|command, power, empire|nom. sg. n.
+@g-perf-rg
+Bella|bellum|wars|acc. pl. n.
+terrā|terra|on land|abl. sg. f.
+et|et|and|conj.
+marī|mare|on sea|abl. sg. n.
+cīvīlia|cīvīlis|civil|acc. pl. n.
+externaque|externus|and foreign|acc. pl. n. + -que
+tōtō|tōtus|whole|abl. sg. m.
+in|in|in, throughout|prep. + abl.
+orbe|orbis|circle, world|abl. sg. m.
+terrārum|terra|of lands|gen. pl. f.
+saepe|saepe|often|adv.
+gessī|gerō|I waged|1st sg. perf.
+@g-impf
+Rōmānī|Rōmānus|the Romans|nom. pl. m.
+lateribus|later|bricks|abl. pl. m.
+aedificābant|aedificō|used to build|3rd pl. impf.
+Augustus|Augustus|Augustus|nom. sg. m.
+marmore|marmor|marble|abl. sg. n.
+aedificābat|aedificō|was building|3rd sg. impf.
+@g-possum
+possum|possum|I can|1st sg. pres.
+potes|possum|you can|2nd sg. pres.
+potest|possum|s/he can|3rd sg. pres.
+@i-coin-divi-f
+CAESAR|Caesar|Caesar|nom. sg. m.
+DIVI|dīvus|of the deified one|gen. sg. m.
+F|fīlius|son|abbr. nom. sg.
+@l-denarius
+dēnārius|dēnārius|denarius (silver coin)|nom. sg. m.
+as|as|as (bronze coin)|nom. sg. m.
+sēstertius|sēstertius|sesterce|nom. sg. m.
+@x-timeline-emp
+Augustus|Augustus|Augustus|nom.
+Nerō|Nerō|Nero|nom.
+@v-amo
+amō|amō|I love|1st sg. pres.
+@g-imperative
+Carpe|carpō|pluck, seize|2nd sg. imper.
+diem|diēs|day|acc. sg. m.
+quam|quam|as … as possible (+ superl.)|adv.
+minimum|minimum|very little|adv.
+crēdula|crēdulus|trusting|nom. sg. f. adj.
+posterō|posterus|the next (day)|dat. sg. m.
+@g-future
+Regam|regō|I shall rule|1st sg. fut.
+regēs|regō|you will rule|2nd sg. fut.
+reget|regō|s/he will rule|3rd sg. fut.
+Nōn|nōn|not|adv.
+omnis|omnis|wholly, all|nom. sg. m.
+moriar|morior|I shall die|1st sg. fut. (deponent)
+@g-pronoun
+Ego|ego|I|nom.
+tū|tū|you|nom.
+mē|ego|me|acc.
+tē|tū|you|acc.
+mihi|ego|to me|dat.
+tibi|tū|to you|dat.
+@v-tempus
+tempus|tempus|time|nom. sg. n.
+@x-meter
+Arma|arma|arms|acc. pl. n.
+virumque|vir|and the man|acc. sg. m. + -que
+canō|canō|I sing|1st sg. pres.
+@v-animus
+animus|animus|mind, spirit|nom. sg. m.
+anima|anima|soul, breath|nom. sg. f.
+@g-infinitive
+Atquī|atquī|and yet, but|conj.
+vīvere|vīvō|to live|pres. inf.
+Lūcīlī|Lūcīlius|Lucilius|voc. sg. m.
+mīlitāre|mīlitō|to serve as a soldier|pres. inf.
+est|sum|is|3rd sg. pres.
+@g-ind-stat
+Dīcunt|dīcō|they say|3rd pl. pres.
+Rōmulum|Rōmulus|Romulus|acc. sg. m. (subject of inf.)
+urbem|urbs|city|acc. sg. f.
+condidisse|condō|to have founded|perf. inf.
+@d-video
+videō|videō|I see|1st sg. pres.
+@x-greek-flag
+Marcus Aurēlius|Mārcus Aurēlius|Marcus Aurelius|nom.
+Latīnē|Latīnē|in Latin|adv.
+scrīpsit|scrībō|wrote|3rd sg. perf.
+Vērum|vērus|true|nom. sg. n.
+an|an|or|conj.
+falsum|falsus|false|nom. sg. n.
+@l-schola
+lūdus|lūdus|school, game|nom. sg. m.
+magister|magister|teacher|nom. sg. m.
+tabula|tabula|tablet|nom. sg. f.
+stilus|stilus|stylus|nom. sg. m.
+@g-passive
+Rōma|Rōma|Rome|nom. sg. f.
+capta est|capiō|was captured|3rd sg. perf. pass. f.
+@i-chirho
+Ego|ego|I|nom.
+sum|sum|am|1st sg. pres.
+Alpha|Alpha|Alpha|indecl.
+et|et|and|conj.
+Omega|Omega|Omega|indecl.
+@v-rex
+rēx|rēx|king|nom. sg. m.
+rēgnum|rēgnum|kingdom|nom. sg. n.
+@x-vulgate
+Ego|ego|I|nom.
+sum|sum|am|1st sg. pres.
+via|via|way|nom. sg. f.
+et|et|and|conj.
+vēritās|vēritās|truth|nom. sg. f.
+vīta|vīta|life|nom. sg. f.
+@d-crux
+crux|crux|cross|nom. sg. f.
+@l-annona
+pānis|pānis|bread|nom. sg. m.
+frūmentum|frūmentum|grain|nom. sg. n.
+annōna|annōna|grain supply|nom. sg. f.
+@g-relative
+Pater|pater|father|voc. sg. m.
+noster|noster|our|voc. sg. m.
+quī|quī|who|rel. pron. nom. sg. m.
+es|sum|are|2nd sg. pres.
+in|in|in|prep. + abl.
+caelīs|caelum|heavens|abl. pl. n.
+@v-liber
+liber|liber|book|nom. sg. m.
+legō|legō|I read|1st sg. pres.
+@l-monasterium
+monasterium|monastērium|monastery|nom. sg. n.
+abbās|abbās|abbot|nom. sg. m.
+monachus|monachus|monk|nom. sg. m.
+hōra|hōra|hour|nom. sg. f.
+@i-karolus
+KAROLVS|Karolus|Charles|nom. sg. m.
+IMP|imperātor|emperor|abbr. nom.
+AVG|Augustus|Augustus|abbr. nom.
+@x-colophon
+Explicit|explicit|(here) ends|3rd sg. (medieval formula)
+liber|liber|book|nom. sg. m.
+Ōrāte|ōrō|pray|2nd pl. imper.
+prō|prō|for|prep. + abl.
+scrīptōre|scrīptor|scribe|abl. sg. m.
+@x-map-medieval
+Sanctus|sānctus|saint, holy|nom. sg. m.
+Rōma|Rōma|Rome|nom. sg. f.
+@d-scribo
+scrībō|scrībō|I write|1st sg. pres.

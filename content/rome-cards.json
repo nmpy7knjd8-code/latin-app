@@ -1,5 +1,92 @@
 [
  {
+  "id": "q-suetonius-vare",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Quīntilī Vāre, legiōnēs redde!",
+  "translation": "Quintilius Varus, give me back my legions!",
+  "context": "After three legions were wiped out in the Teutoburg Forest in AD 9, Augustus is said to have beaten his head on doors for months, shouting this at the dead general.",
+  "person": "Augustus (reported by Suetonius)",
+  "source": {
+   "work": "Suetonius, Divus Augustus",
+   "citation": "23.2",
+   "date": "c. AD 121 (event AD 9)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/suetonius/suet.aug.html",
+  "attribution_confidence": "traditional",
+  "attribution_note": "Text verified in Suetonius (Latin Library spells Quintili; some editions Quinctili). Suetonius writes \"ferunt\" (they say), a reported anecdote.",
+  "gloss": [
+   {
+    "word": "Quīntilī",
+    "lemma": "Quīntilius",
+    "meaning": "Quintilius",
+    "parse": "voc."
+   },
+   {
+    "word": "Vāre",
+    "lemma": "Vārus",
+    "meaning": "Varus",
+    "parse": "voc."
+   },
+   {
+    "word": "legiōnēs",
+    "lemma": "legiō",
+    "meaning": "legions",
+    "parse": "acc. pl. f."
+   },
+   {
+    "word": "redde",
+    "lemma": "reddō",
+    "meaning": "give back",
+    "parse": "imperative sg."
+   }
+  ],
+  "grammar_tags": [
+   "vocative",
+   "imperative",
+   "accusative",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "legio",
+   "reddo"
+  ],
+  "teaching_value": {
+   "note": "Vocative of an -ius name (Quīntilī) and a -us name (Vāre), an imperative, and a 3rd-decl. accusative plural.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor",
+   "rank": 1
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "vocative",
+   "imperative",
+   "accusative",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "image": {
+   "src": "img/rome/rufussita.webp",
+   "alt": "Tombstone of the Roman cavalryman Rufus Sita, Gloucester",
+   "kind": "inscription",
+   "aspect": "2:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rufus_Sita_Tombstone.jpg"
+  },
+  "learn_more": {
+   "label": "Battle of the Teutoburg Forest",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
+  }
+ },
+ {
   "id": "q-seneca-docent",
   "type": "quote",
   "era": "empire",
@@ -44,6 +131,7 @@
   "grammar_tags": [
    "present_tense",
    "third_conjugation",
+   "third_person_plural",
    "dum_clause"
   ],
   "vocab_ids": [
@@ -57,21 +145,34 @@
    "dcc_core_pct": 100,
    "non_core": [],
    "score": 5,
-   "rank": 1
+   "role": "anchor",
+   "rank": 2
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Pseudo-Seneca BM GR1962.8-24.1.jpg",
-   "alt": "\"Pseudo-Seneca\" bronze-type head, British Museum (identity uncertain)",
+   "src": "img/rome/boy.webp",
+   "alt": "Roman marble portrait bust of a boy",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
-   "license": "Public domain",
-   "credit": "British Museum · Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg"
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_a_boy_MET_DP328527.jpg"
+  },
+  "grammar_target": [
+   "present_tense",
+   "third_conjugation",
+   "third_person_plural"
+  ],
+  "grammar_preview": [
+   "dum_clause"
+  ],
+  "learn_more": {
+   "label": "Seneca the Younger",
+   "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
   }
  },
  {
@@ -159,131 +260,7 @@
    "dcc_core_pct": 100,
    "non_core": [],
    "score": 5,
-   "rank": 2
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "image": {
-   "src": "TODO:Pseudo-Seneca BM GR1962.8-24.1.jpg",
-   "alt": "\"Pseudo-Seneca\" bronze-type head, British Museum (identity uncertain)",
-   "kind": "statue_cutout",
-   "aspect": "3:4",
-   "transparent": true,
-   "license": "Public domain",
-   "credit": "British Museum · Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg"
-  }
- },
- {
-  "id": "q-virgil-arma",
-  "type": "quote",
-  "era": "empire",
-  "unit": 3,
-  "latin": "Arma virumque canō, Trōiae quī prīmus ab ōrīs Ītaliam … vēnit.",
-  "translation": "I sing of arms and the man who first came from the shores of Troy to Italy.",
-  "context": "The opening of Rome's national epic. Virgil announces his subject: war, and Aeneas, the Trojan refugee whose descendants founded Rome.",
-  "person": "Publius Vergilius Maro",
-  "source": {
-   "work": "Aeneid",
-   "citation": "1.1-3",
-   "date": "c. 29-19 BC"
-  },
-  "source_url": "https://www.thelatinlibrary.com/vergil/aen1.shtml",
-  "attribution_confidence": "verified",
-  "gloss": [
-   {
-    "word": "Arma",
-    "lemma": "arma",
-    "meaning": "arms",
-    "parse": "acc. pl. n."
-   },
-   {
-    "word": "virum",
-    "lemma": "vir",
-    "meaning": "man",
-    "parse": "acc. sg. m."
-   },
-   {
-    "word": "-que",
-    "lemma": "-que",
-    "meaning": "and",
-    "parse": "enclitic"
-   },
-   {
-    "word": "canō",
-    "lemma": "canō",
-    "meaning": "I sing",
-    "parse": "1st sg. pres."
-   },
-   {
-    "word": "Trōiae",
-    "lemma": "Trōia",
-    "meaning": "of Troy",
-    "parse": "gen. sg."
-   },
-   {
-    "word": "quī",
-    "lemma": "quī",
-    "meaning": "who",
-    "parse": "rel. pron."
-   },
-   {
-    "word": "prīmus",
-    "lemma": "prīmus",
-    "meaning": "first",
-    "parse": "nom. sg. m."
-   },
-   {
-    "word": "ab",
-    "lemma": "ab",
-    "meaning": "from",
-    "parse": "prep. + abl."
-   },
-   {
-    "word": "ōrīs",
-    "lemma": "ōra",
-    "meaning": "shores",
-    "parse": "abl. pl. f."
-   },
-   {
-    "word": "Ītaliam",
-    "lemma": "Ītalia",
-    "meaning": "to Italy",
-    "parse": "acc. of motion"
-   },
-   {
-    "word": "vēnit",
-    "lemma": "veniō",
-    "meaning": "came",
-    "parse": "3rd sg. perf."
-   }
-  ],
-  "grammar_tags": [
-   "accusative",
-   "enclitic_que",
-   "first_person",
-   "relative_clause"
-  ],
-  "vocab_ids": [
-   "-que",
-   "ab",
-   "arma",
-   "cano",
-   "ora",
-   "primus",
-   "qui",
-   "venio",
-   "vir"
-  ],
-  "teaching_value": {
-   "note": "Accusative objects joined by -que, a 1st-person verb, ab + ablative, a relative clause. The most quoted opening in Latin.",
-   "dcc_core_pct": 89,
-   "non_core": [
-    "ora"
-   ],
-   "score": 5,
+   "role": "anchor",
    "rank": 3
   },
   "unlock_rule": {
@@ -291,14 +268,25 @@
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Virgil mosaic in the Bardo National Museum (Tunis) (12241228546).jpg",
-   "alt": "Virgil between two Muses, mosaic, Bardo Museum",
-   "kind": "painting",
+   "src": "img/rome/seneca.webp",
+   "alt": "\"Pseudo-Seneca\" head, British Museum (identity uncertain)",
+   "kind": "statue_cutout",
    "aspect": "3:4",
-   "transparent": false,
+   "transparent": true,
    "license": "Public domain",
-   "credit": "Virgil Mosaic, Bardo Museum, Tunis · Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg"
+   "credit": "British Museum",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg"
+  },
+  "grammar_target": [
+   "sum",
+   "vocative",
+   "neuter_plural",
+   "possessive_adjectives"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "Epistulae Morales ad Lucilium",
+   "url": "https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium"
   }
  },
  {
@@ -377,7 +365,8 @@
    "sum",
    "neuter_plural",
    "adjectives",
-   "comparative"
+   "comparative",
+   "relative_clause"
   ],
   "vocab_ids": [
    "bonus",
@@ -397,6 +386,7 @@
     "mediocris"
    ],
    "score": 5,
+   "role": "anchor",
    "rank": 4
   },
   "unlock_rule": {
@@ -404,99 +394,27 @@
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Oil Lamp MET cop0414s1.jpg",
-   "alt": "Ancient clay oil lamp, The Met",
+   "src": "img/rome/tablet.webp",
+   "alt": "Roman wax writing tablet",
    "kind": "artifact",
    "aspect": "4:3",
    "transparent": true,
    "license": "CC0",
-   "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Oil_Lamp_MET_cop0414s1.jpg"
-  }
- },
- {
-  "id": "q-tacitus-solitudinem",
-  "type": "quote",
-  "era": "empire",
-  "unit": 3,
-  "latin": "Ubi sōlitūdinem faciunt, pācem appellant.",
-  "translation": "Where they make a desert, they call it peace.",
-  "context": "Tacitus puts these words in the mouth of Calgacus, a Caledonian chief, as he condemns Roman conquest before the battle of Mons Graupius in AD 83.",
-  "person": "Publius Cornelius Tacitus (speech of Calgacus)",
-  "source": {
-   "work": "Agricola",
-   "citation": "30.5",
-   "date": "AD 98"
+   "credit": "Wikimedia Commons (CC0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Wax_writing_tablet_with_part_of_a_Roman_will.jpg"
   },
-  "source_url": "https://www.thelatinlibrary.com/tacitus/tac.agri.shtml",
-  "attribution_confidence": "verified",
-  "attribution_note": "Speech composed by Tacitus; whether Calgacus said anything like it is unknowable.",
-  "gloss": [
-   {
-    "word": "Ubi",
-    "lemma": "ubi",
-    "meaning": "where, when",
-    "parse": "conj."
-   },
-   {
-    "word": "sōlitūdinem",
-    "lemma": "sōlitūdō",
-    "meaning": "desert, emptiness",
-    "parse": "acc. sg. f."
-   },
-   {
-    "word": "faciunt",
-    "lemma": "faciō",
-    "meaning": "they make",
-    "parse": "3rd pl. pres."
-   },
-   {
-    "word": "pācem",
-    "lemma": "pāx",
-    "meaning": "peace",
-    "parse": "acc. sg. f."
-   },
-   {
-    "word": "appellant",
-    "lemma": "appellō",
-    "meaning": "they call",
-    "parse": "3rd pl. pres."
-   }
+  "grammar_target": [
+   "sum",
+   "neuter_plural",
+   "adjectives"
   ],
-  "grammar_tags": [
-   "present_tense",
-   "accusative",
-   "third_person_plural"
+  "grammar_preview": [
+   "comparative",
+   "relative_clause"
   ],
-  "vocab_ids": [
-   "appello",
-   "facio",
-   "pax",
-   "solitudo",
-   "ubi"
-  ],
-  "teaching_value": {
-   "note": "Two clean S-V-O clauses: accusative + 3rd-pl. present verbs. Teaches the ubi clause. An unforgettable look at Rome from the other side.",
-   "dcc_core_pct": 80,
-   "non_core": [
-    "solitudo"
-   ],
-   "score": 5,
-   "rank": 5
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "image": {
-   "src": "TODO:Bronze torso from an equestrian statue wearing a cuirass MET DP108183.jpg",
-   "alt": "Bronze torso of a Roman commander in a cuirass, The Met",
-   "kind": "statue_cutout",
-   "aspect": "3:4",
-   "transparent": true,
-   "license": "CC0",
-   "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_torso_from_an_equestrian_statue_wearing_a_cuirass_MET_DP108183.jpg"
+  "learn_more": {
+   "label": "Martial",
+   "url": "https://en.wikipedia.org/wiki/Martial"
   }
  },
  {
@@ -515,7 +433,7 @@
   },
   "source_url": "https://www.thelatinlibrary.com/cicero/leg3.shtml",
   "attribution_confidence": "verified",
-  "attribution_note": "The famous 17th-c. motto; Cicero's text has \"Ollīs salūs populī suprēma lēx estō\" (\"For them [the consuls]...\").",
+  "attribution_note": "Later a political motto (John Locke, Second Treatise §158); Cicero's text has \"Ollīs salūs populī suprēma lēx estō\" (\"For them [the consuls]...\").",
   "gloss": [
    {
     "word": "Salūs",
@@ -551,6 +469,7 @@
   "grammar_tags": [
    "genitive",
    "adjectives",
+   "sum",
    "future_imperative"
   ],
   "vocab_ids": [
@@ -567,6 +486,105 @@
     "supremus"
    ],
    "score": 5,
+   "role": "anchor",
+   "rank": 5
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "image": {
+   "src": "img/rome/cicero2.webp",
+   "alt": "Bust of Cicero, Palazzo Nuovo, Rome",
+   "kind": "statue_cutout",
+   "aspect": "2:3",
+   "transparent": true,
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg"
+  },
+  "grammar_target": [
+   "genitive",
+   "adjectives",
+   "sum"
+  ],
+  "grammar_preview": [
+   "future_imperative"
+  ],
+  "learn_more": {
+   "label": "Salus populi suprema lex esto",
+   "url": "https://en.wikipedia.org/wiki/Salus_populi_suprema_lex_esto"
+  }
+ },
+ {
+  "id": "q-tacitus-solitudinem",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Ubi sōlitūdinem faciunt, pācem appellant.",
+  "translation": "Where they make a desert, they call it peace.",
+  "context": "Tacitus puts these words in the mouth of Calgacus, a Caledonian chief, as he condemns Roman conquest before the battle of Mons Graupius in AD 83.",
+  "person": "Publius Cornelius Tacitus (speech of Calgacus)",
+  "source": {
+   "work": "Agricola",
+   "citation": "30.5",
+   "date": "AD 98"
+  },
+  "source_url": "https://www.thelatinlibrary.com/tacitus/tac.agri.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Text verified; the speech is composed by Tacitus, and whether Calgacus said anything like it is unknowable. The text begins atque ubi…; most editions number it 30.5 (some 30.4).",
+  "gloss": [
+   {
+    "word": "Ubi",
+    "lemma": "ubi",
+    "meaning": "where, when",
+    "parse": "conj."
+   },
+   {
+    "word": "sōlitūdinem",
+    "lemma": "sōlitūdō",
+    "meaning": "desert, emptiness",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "faciunt",
+    "lemma": "faciō",
+    "meaning": "they make",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "pācem",
+    "lemma": "pāx",
+    "meaning": "peace",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "appellant",
+    "lemma": "appellō",
+    "meaning": "they call",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "grammar_tags": [
+   "present_tense",
+   "accusative",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "appello",
+   "facio",
+   "pax",
+   "solitudo",
+   "ubi"
+  ],
+  "teaching_value": {
+   "note": "Two clean S-V-O clauses: accusative + 3rd-pl. present verbs. Teaches the ubi clause. An unforgettable look at Rome from the other side.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "solitudo"
+   ],
+   "score": 5,
+   "role": "anchor",
    "rank": 6
   },
   "unlock_rule": {
@@ -574,336 +592,24 @@
    "review_threshold": 0.9
   },
   "image": {
-   "src": "img/cicero.webp",
-   "alt": "Marble bust of Cicero, Capitoline Museums, cut out",
+   "src": "img/rome/calgacus.webp",
+   "alt": "Stone statue of a Gallic warrior, Musée de la Romanité, Nîmes",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
-   "license": "CC0",
-   "credit": "Bust of Cicero, Capitoline Museums",
-   "source_url": "https://commons.wikimedia.org/wiki/File:M._Tullius_Cicero,_Capitoline_Museum,_Rome_(cropped).png"
-  }
- },
- {
-  "id": "q-cornelia-ornamenta",
-  "type": "quote",
-  "era": "republic",
-  "unit": 2,
-  "latin": "Haec ornāmenta sunt mea.",
-  "translation": "These are my jewels.",
-  "context": "A wealthy visitor showed off her jewellery. Cornelia kept her talking until her sons came home from school, then pointed to them.",
-  "person": "Cornelia, mother of the Gracchi",
-  "source": {
-   "work": "Valerius Maximus, Facta et Dicta Memorabilia",
-   "citation": "4.4 praef.",
-   "date": "c. AD 30 (event 2nd c. BC)"
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Musee-romanite-guerrier-casque-1.jpg"
   },
-  "source_url": "https://www.thelatinlibrary.com/valmax4.html",
-  "attribution_confidence": "traditional",
-  "attribution_note": "Text verified in Valerius Maximus, writing ~150 years after Cornelia; the anecdote itself is traditional.",
-  "gloss": [
-   {
-    "word": "Haec",
-    "lemma": "hic",
-    "meaning": "these",
-    "parse": "nom. pl. n."
-   },
-   {
-    "word": "ornāmenta",
-    "lemma": "ornāmentum",
-    "meaning": "jewels, ornaments",
-    "parse": "nom. pl. n."
-   },
-   {
-    "word": "sunt",
-    "lemma": "sum",
-    "meaning": "are",
-    "parse": "3rd pl."
-   },
-   {
-    "word": "mea",
-    "lemma": "meus",
-    "meaning": "my",
-    "parse": "nom. pl. n."
-   }
+  "grammar_target": [
+   "present_tense",
+   "accusative",
+   "third_declension"
   ],
-  "grammar_tags": [
-   "demonstratives",
-   "sum",
-   "possessive_adjectives",
-   "neuter_plural"
-  ],
-  "vocab_ids": [
-   "hic",
-   "meus",
-   "ornamentum",
-   "sum"
-  ],
-  "teaching_value": {
-   "note": "Four words: haec (neut. pl.), sunt, possessive mea agreeing with ornāmenta. Ideal for the Familia unit.",
-   "dcc_core_pct": 75,
-   "non_core": [
-    "ornamentum"
-   ],
-   "score": 5,
-   "rank": 7
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "image": {
-   "src": "TODO:Francesco Bartolozzi - Cornelia, Mother of the Gracchi - B1977.14.19782 - Yale Center for British Art.jpg",
-   "alt": "Bartolozzi print: Cornelia presents her sons as her jewels",
-   "kind": "painting",
-   "aspect": "3:4",
-   "transparent": false,
-   "license": "CC0",
-   "credit": "Francesco Bartolozzi · Yale Center for British Art",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Bartolozzi_-_Cornelia,_Mother_of_the_Gracchi_-_B1977.14.19782_-_Yale_Center_for_British_Art.jpg"
-  }
- },
- {
-  "id": "q-horace-sapere",
-  "type": "quote",
-  "era": "empire",
-  "unit": 7,
-  "latin": "Dīmidium factī, quī coepit, habet; sapere audē, incipe.",
-  "translation": "Well begun is half done: dare to be wise, begin!",
-  "context": "Horace urges young Lollius not to put off living well, like a fool waiting for a river to finish flowing past before he crosses.",
-  "person": "Quintus Horatius Flaccus",
-  "source": {
-   "work": "Epistles",
-   "citation": "1.2.40-41",
-   "date": "c. 20 BC"
-  },
-  "source_url": "https://www.thelatinlibrary.com/horace/epist1.shtml",
-  "attribution_confidence": "verified",
-  "gloss": [
-   {
-    "word": "Dīmidium",
-    "lemma": "dīmidium",
-    "meaning": "half",
-    "parse": "acc. sg. n."
-   },
-   {
-    "word": "factī",
-    "lemma": "factum",
-    "meaning": "of the deed",
-    "parse": "gen. sg. n."
-   },
-   {
-    "word": "quī",
-    "lemma": "quī",
-    "meaning": "(he) who",
-    "parse": "rel. pron."
-   },
-   {
-    "word": "coepit",
-    "lemma": "coepī",
-    "meaning": "has begun",
-    "parse": "3rd sg. perf."
-   },
-   {
-    "word": "habet",
-    "lemma": "habeō",
-    "meaning": "has",
-    "parse": "3rd sg. pres."
-   },
-   {
-    "word": "sapere",
-    "lemma": "sapiō",
-    "meaning": "to be wise",
-    "parse": "pres. inf."
-   },
-   {
-    "word": "audē",
-    "lemma": "audeō",
-    "meaning": "dare",
-    "parse": "imperative sg."
-   },
-   {
-    "word": "incipe",
-    "lemma": "incipiō",
-    "meaning": "begin",
-    "parse": "imperative sg."
-   }
-  ],
-  "grammar_tags": [
-   "imperative",
-   "infinitive",
-   "genitive",
-   "relative_clause"
-  ],
-  "vocab_ids": [
-   "audeo",
-   "coepi",
-   "dimidium",
-   "factum",
-   "habeo",
-   "incipio",
-   "qui",
-   "sapio"
-  ],
-  "teaching_value": {
-   "note": "Two imperatives (audē, incipe), complementary infinitive (sapere), partitive genitive (dīmidium factī), relative clause with the antecedent left out.",
-   "dcc_core_pct": 75,
-   "non_core": [
-    "dimidium",
-    "sapio"
-   ],
-   "score": 5,
-   "rank": 8
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "image": {
-   "src": "img/horace.webp",
-   "alt": "Manuscript page of Horace",
-   "kind": "manuscript",
-   "aspect": "3:4",
-   "transparent": false,
-   "license": "Public domain",
-   "credit": "see existing horace card",
-   "source_url": "https://commons.wikimedia.org/"
-  }
- },
- {
-  "id": "q-cicero-historia",
-  "type": "quote",
-  "era": "republic",
-  "unit": 4,
-  "latin": "Historia vērō testis temporum, lūx vēritātis, vīta memoriae, magistra vītae, nūntia vetustātis.",
-  "translation": "History is truly the witness of the ages, the light of truth, the life of memory, the teacher of life, the messenger of the past.",
-  "context": "In Cicero's dialogue on the ideal orator, Antonius argues that only an orator's voice can give history immortality.",
-  "person": "Marcus Tullius Cicero",
-  "source": {
-   "work": "De Oratore",
-   "citation": "2.36",
-   "date": "55 BC"
-  },
-  "source_url": "https://www.thelatinlibrary.com/cicero/oratore2.shtml",
-  "attribution_confidence": "verified",
-  "gloss": [
-   {
-    "word": "Historia",
-    "lemma": "historia",
-    "meaning": "history",
-    "parse": "nom. sg. f."
-   },
-   {
-    "word": "vērō",
-    "lemma": "vērō",
-    "meaning": "truly",
-    "parse": "adv."
-   },
-   {
-    "word": "testis",
-    "lemma": "testis",
-    "meaning": "witness",
-    "parse": "nom. sg."
-   },
-   {
-    "word": "temporum",
-    "lemma": "tempus",
-    "meaning": "of times",
-    "parse": "gen. pl. n."
-   },
-   {
-    "word": "lūx",
-    "lemma": "lūx",
-    "meaning": "light",
-    "parse": "nom. sg. f."
-   },
-   {
-    "word": "vēritātis",
-    "lemma": "vēritās",
-    "meaning": "of truth",
-    "parse": "gen. sg. f."
-   },
-   {
-    "word": "vīta",
-    "lemma": "vīta",
-    "meaning": "life",
-    "parse": "nom. sg. f."
-   },
-   {
-    "word": "memoriae",
-    "lemma": "memoria",
-    "meaning": "of memory",
-    "parse": "gen. sg. f."
-   },
-   {
-    "word": "magistra",
-    "lemma": "magistra",
-    "meaning": "teacher",
-    "parse": "nom. sg. f."
-   },
-   {
-    "word": "vītae",
-    "lemma": "vīta",
-    "meaning": "of life",
-    "parse": "gen. sg. f."
-   },
-   {
-    "word": "nūntia",
-    "lemma": "nūntia",
-    "meaning": "messenger",
-    "parse": "nom. sg. f."
-   },
-   {
-    "word": "vetustātis",
-    "lemma": "vetustās",
-    "meaning": "of antiquity",
-    "parse": "gen. sg. f."
-   }
-  ],
-  "grammar_tags": [
-   "genitive",
-   "third_declension",
-   "apposition"
-  ],
-  "vocab_ids": [
-   "historia",
-   "lux",
-   "magistra",
-   "memoria",
-   "nuntia",
-   "tempus",
-   "testis",
-   "veritas",
-   "vero",
-   "vetustas",
-   "vita"
-  ],
-  "teaching_value": {
-   "note": "Five noun + genitive pairs in a row. A perfect genitive drill that mixes 1st and 3rd declension. Contains the famous \"magistra vītae\".",
-   "dcc_core_pct": 58,
-   "non_core": [
-    "historia",
-    "veritas",
-    "magistra",
-    "nuntia",
-    "vetustas"
-   ],
-   "score": 5,
-   "rank": 9
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "image": {
-   "src": "img/cicero.webp",
-   "alt": "Marble bust of Cicero, Capitoline Museums, cut out",
-   "kind": "statue_cutout",
-   "aspect": "3:4",
-   "transparent": true,
-   "license": "CC0",
-   "credit": "Bust of Cicero, Capitoline Museums",
-   "source_url": "https://commons.wikimedia.org/wiki/File:M._Tullius_Cicero,_Capitoline_Museum,_Rome_(cropped).png"
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "Calgacus",
+   "url": "https://en.wikipedia.org/wiki/Calgacus"
   }
  },
  {
@@ -911,7 +617,7 @@
   "type": "quote",
   "era": "empire",
   "unit": 1,
-  "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT — Mārcus Agrippa, Lūciī fīlius, cōnsul tertium, fēcit.",
+  "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT — Mārcus Agrippa, Lūcī fīlius, cōnsul tertium, fēcit.",
   "translation": "Marcus Agrippa, son of Lucius, consul for the third time, made (this).",
   "context": "Hadrian rebuilt the Pantheon about AD 125 but kept Agrippa's original dedication. Visitors still read it over the portico today.",
   "person": "Marcus Agrippa",
@@ -970,7 +676,9 @@
   "grammar_tags": [
    "nominative",
    "abbreviations",
-   "subject_verb"
+   "subject_verb",
+   "perfect_tense",
+   "genitive"
   ],
   "vocab_ids": [
    "consul",
@@ -983,21 +691,196 @@
    "dcc_core_pct": 100,
    "non_core": [],
    "score": 4,
-   "rank": 10
+   "role": "anchor",
+   "rank": 7
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Fotografi. Pantheon di Agrippa. Rom, Italien - Hallwylska museet - 104733.tif",
+   "src": "img/rome/pantheon.webp",
    "alt": "19th-c. photograph of the Pantheon portico with the Agrippa inscription",
    "kind": "building",
-   "aspect": "3:4",
+   "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Hallwyl Museum, Stockholm (photograph collection)",
+   "credit": "Hallwyl Museum, Stockholm",
    "source_url": "https://commons.wikimedia.org/wiki/File:Fotografi._Pantheon_di_Agrippa._Rom,_Italien_-_Hallwylska_museet_-_104733.tif"
+  },
+  "grammar_target": [
+   "nominative",
+   "abbreviations",
+   "subject_verb"
+  ],
+  "grammar_preview": [
+   "perfect_tense",
+   "genitive"
+  ],
+  "learn_more": {
+   "label": "Pantheon, Rome",
+   "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+  }
+ },
+ {
+  "id": "i-pompeii-cave",
+  "type": "quote",
+  "era": "empire",
+  "unit": 2,
+  "latin": "CAVE CANEM — Cavē canem!",
+  "translation": "Beware of the dog!",
+  "context": "At the entrance of a Pompeian house, a chained black dog in mosaic warns visitors. Buried by Vesuvius in AD 79, it still greets tourists today.",
+  "person": "House of the Tragic Poet, Pompeii",
+  "source": {
+   "work": "Floor mosaic inscription, House of the Tragic Poet, Pompeii",
+   "citation": "vestibule mosaic (VI.8.3)",
+   "date": "before AD 79"
+  },
+  "source_url": "https://en.wikipedia.org/wiki/House_of_the_Tragic_Poet",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Cavē",
+    "lemma": "caveō",
+    "meaning": "beware",
+    "parse": "imperative sg."
+   },
+   {
+    "word": "canem",
+    "lemma": "canis",
+    "meaning": "dog",
+    "parse": "acc. sg. m."
+   }
+  ],
+  "grammar_tags": [
+   "accusative",
+   "imperative",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "canis",
+   "caveo"
+  ],
+  "teaching_value": {
+   "note": "Accusative object canem with the 2nd-conj. imperative cavē (preview). Two words, everyday Latin.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 4,
+   "role": "anchor",
+   "rank": 8
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "accusative"
+  ],
+  "grammar_preview": [
+   "imperative",
+   "third_declension"
+  ],
+  "image": {
+   "src": "img/rome/cave.webp",
+   "alt": "\"Cave canem\" dog mosaic, House of the Tragic Poet, Pompeii",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cave_Canem_Poeta_Trágico_03.jpg"
+  },
+  "learn_more": {
+   "label": "House of the Tragic Poet",
+   "url": "https://en.wikipedia.org/wiki/House_of_the_Tragic_Poet"
+  }
+ },
+ {
+  "id": "i-sttl",
+  "type": "quote",
+  "era": "empire",
+  "unit": 4,
+  "latin": "S·T·T·L — Sit tibi terra levis.",
+  "translation": "May the earth lie lightly on you.",
+  "context": "Romans ended countless epitaphs with these four letters, the ancient equivalent of R.I.P. Learners will spot them on tombstones in any museum.",
+  "person": "Roman epitaph formula",
+  "source": {
+   "work": "Funerary inscription formula",
+   "citation": "common on Roman tombstones",
+   "date": "1st-3rd c. AD"
+  },
+  "source_url": "https://en.wikipedia.org/wiki/Sit_tibi_terra_levis",
+  "attribution_confidence": "verified",
+  "attribution_note": "Formula per Wikipedia \"List of Latin abbreviations\" / \"Sit tibi terra levis\". A generic formula, not one inscription.",
+  "gloss": [
+   {
+    "word": "Sit",
+    "lemma": "sum",
+    "meaning": "may it be",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "tibi",
+    "lemma": "tū",
+    "meaning": "to/for you",
+    "parse": "dat."
+   },
+   {
+    "word": "terra",
+    "lemma": "terra",
+    "meaning": "earth",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "levis",
+    "lemma": "levis",
+    "meaning": "light",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "grammar_tags": [
+   "dative",
+   "abbreviations",
+   "subjunctive"
+  ],
+  "vocab_ids": [
+   "levis",
+   "sum",
+   "terra",
+   "tu"
+  ],
+  "teaching_value": {
+   "note": "Dative tibi, nominative + adjective (terra levis); jussive subjunctive sit as a preview. Teaches the abbreviation habit of inscriptions.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 4,
+   "role": "anchor",
+   "rank": 9
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "dative",
+   "abbreviations"
+  ],
+  "grammar_preview": [
+   "subjunctive"
+  ],
+  "image": {
+   "src": "img/rome/urn.webp",
+   "alt": "Roman marble cinerary urn",
+   "kind": "artifact",
+   "aspect": "4:3",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_cinerary_urn_MET_DT5413.jpg"
+  },
+  "learn_more": {
+   "label": "Sit tibi terra levis",
+   "url": "https://en.wikipedia.org/wiki/Sit_tibi_terra_levis"
   }
  },
  {
@@ -1069,8 +952,8 @@
   "grammar_tags": [
    "sum",
    "in_ablative",
-   "adjectives",
-   "third_declension"
+   "third_declension",
+   "fifth_declension"
   ],
   "vocab_ids": [
    "certus",
@@ -1086,21 +969,34 @@
    "dcc_core_pct": 100,
    "non_core": [],
    "score": 4,
-   "rank": 11
+   "role": "anchor",
+   "rank": 10
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "img/horace.webp",
-   "alt": "Manuscript page of Horace",
-   "kind": "manuscript",
-   "aspect": "3:4",
+   "src": "img/rome/horace2.webp",
+   "alt": "Imagined portrait of Horace",
+   "kind": "painting",
+   "aspect": "2:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "see existing horace card",
-   "source_url": "https://commons.wikimedia.org/"
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Quintus_Horatius_Flaccus.jpg"
+  },
+  "grammar_target": [
+   "sum",
+   "in_ablative",
+   "third_declension"
+  ],
+  "grammar_preview": [
+   "fifth_declension"
+  ],
+  "learn_more": {
+   "label": "Satires (Horace)",
+   "url": "https://en.wikipedia.org/wiki/Satires_(Horace)"
   }
  },
  {
@@ -1170,9 +1066,9 @@
    }
   ],
   "grammar_tags": [
-   "present_participle",
+   "present_tense",
    "accusative",
-   "first_person"
+   "present_participle"
   ],
   "vocab_ids": [
    "donum",
@@ -1188,21 +1084,33 @@
    "dcc_core_pct": 100,
    "non_core": [],
    "score": 4,
-   "rank": 12
+   "role": "anchor",
+   "rank": 11
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Laocoön and his sons group.jpg",
+   "src": "img/rome/laocoon.webp",
    "alt": "Laocoön and his sons, Vatican Museums",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
-   "credit": "Laocoön group · Wikimedia Commons (CC0)",
+   "credit": "Wikimedia Commons (CC0)",
    "source_url": "https://commons.wikimedia.org/wiki/File:Laocoön_and_his_sons_group.jpg"
+  },
+  "grammar_target": [
+   "present_tense",
+   "accusative"
+  ],
+  "grammar_preview": [
+   "present_participle"
+  ],
+  "learn_more": {
+   "label": "Laocoön",
+   "url": "https://en.wikipedia.org/wiki/Laocoön"
   }
  },
  {
@@ -1262,7 +1170,8 @@
   "grammar_tags": [
    "perfect_tense",
    "word_order",
-   "accusative"
+   "accusative",
+   "third_declension"
   ],
   "vocab_ids": [
    "ab",
@@ -1276,21 +1185,33 @@
    "dcc_core_pct": 100,
    "non_core": [],
    "score": 4,
-   "rank": 13
+   "role": "anchor",
+   "rank": 12
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Lupa Capitolina, Rome.jpg",
-   "alt": "Bronze she-wolf (Lupa Capitolina), Capitoline Museums",
-   "kind": "statue_cutout",
+   "src": "img/rome/romulus.webp",
+   "alt": "Romulus and Remus with the she-wolf",
+   "kind": "artifact",
    "aspect": "4:3",
    "transparent": true,
    "license": "CC0",
-   "credit": "Lupa Capitolina, Musei Capitolini · Wikimedia Commons (CC0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Romulus_and_Remus_MET_DP822897.jpg"
+  },
+  "grammar_target": [
+   "perfect_tense",
+   "word_order",
+   "accusative",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "Annals (Tacitus)",
+   "url": "https://en.wikipedia.org/wiki/Annals_(Tacitus)"
   }
  },
  {
@@ -1362,7 +1283,9 @@
   "grammar_tags": [
    "in_ablative",
    "adjective_agreement",
-   "third_declension"
+   "third_declension",
+   "gerundive",
+   "subjunctive"
   ],
   "vocab_ids": [
    "corpus",
@@ -1378,21 +1301,35 @@
    "dcc_core_pct": 100,
    "non_core": [],
    "score": 4,
-   "rank": 14
+   "role": "anchor",
+   "rank": 13
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Bronze torso from an equestrian statue wearing a cuirass MET DP108183.jpg",
-   "alt": "Bronze torso of a Roman commander in a cuirass, The Met",
+   "src": "img/rome/mercury.webp",
+   "alt": "Bronze statuette of Mercury",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_torso_from_an_equestrian_statue_wearing_a_cuirass_MET_DP108183.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_statuette_of_Mercury_MET_DP105597.jpg"
+  },
+  "grammar_target": [
+   "in_ablative",
+   "adjective_agreement",
+   "third_declension"
+  ],
+  "grammar_preview": [
+   "gerundive",
+   "subjunctive"
+  ],
+  "learn_more": {
+   "label": "Mens sana in corpore sano",
+   "url": "https://en.wikipedia.org/wiki/Mens_sana_in_corpore_sano"
   }
  },
  {
@@ -1456,8 +1393,8 @@
    }
   ],
   "grammar_tags": [
-   "imperative",
-   "vocative"
+   "vocative",
+   "imperative"
   ],
   "vocab_ids": [
    "atque",
@@ -1474,21 +1411,32 @@
     "aveo"
    ],
    "score": 4,
-   "rank": 15
+   "role": "anchor",
+   "rank": 14
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Marble portrait bust of a boy MET DP328527.jpg",
-   "alt": "Roman marble portrait bust of a boy, The Met",
-   "kind": "statue_cutout",
+   "src": "img/rome/altar.webp",
+   "alt": "Marble funerary altar of Cominia Tyche",
+   "kind": "artifact",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_a_boy_MET_DP328527.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_funerary_altar_of_Cominia_Tyche_MET_DP138727.jpg"
+  },
+  "grammar_target": [
+   "vocative"
+  ],
+  "grammar_preview": [
+   "imperative"
+  ],
+  "learn_more": {
+   "label": "Catullus 101",
+   "url": "https://en.wikipedia.org/wiki/Catullus_101"
   }
  },
  {
@@ -1496,7 +1444,7 @@
   "type": "quote",
   "era": "empire",
   "unit": 6,
-  "latin": "SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F[ILIO] VESPASIANO AVGVSTO",
+  "latin": "SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F(ILIO) VESPASIANO AVGVSTO",
   "translation": "The Senate and People of Rome, to the deified Titus Vespasian Augustus, son of the deified Vespasian.",
   "context": "Domitian built the arch after his brother Titus died and was deified. Its reliefs show the spoils of the Temple in Jerusalem, captured in AD 70.",
   "person": "Senate and People of Rome",
@@ -1541,7 +1489,7 @@
    },
    {
     "word": "TITO",
-    "lemma": "Tītus",
+    "lemma": "Titus",
     "meaning": "Titus",
     "parse": "dat."
    },
@@ -1558,10 +1506,16 @@
     "parse": "gen."
    },
    {
-    "word": "F[ILIO]",
+    "word": "F(ILIO)",
     "lemma": "fīlius",
     "meaning": "son",
     "parse": "dat. sg. m."
+   },
+   {
+    "word": "VESPASIANO",
+    "lemma": "Vespasiānus",
+    "meaning": "Vespasian",
+    "parse": "dat."
    },
    {
     "word": "AVGVSTO",
@@ -1591,21 +1545,33 @@
     "romanus"
    ],
    "score": 4,
-   "rank": 16
+   "role": "anchor",
+   "rank": 15
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Arco di Tito plaque forum romanum Rome Italy.jpg",
-   "alt": "Dedicatory inscription on the Arch of Titus, Roman Forum",
+   "src": "img/rome/titus.webp",
+   "alt": "Dedicatory inscription on the attic of the Arch of Titus",
    "kind": "inscription",
-   "aspect": "3:4",
+   "aspect": "2:1",
    "transparent": false,
-   "license": "CC0",
-   "credit": "Arch of Titus, Rome · Wikimedia Commons (CC0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Arco_di_Tito_plaque_forum_romanum_Rome_Italy.jpg"
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ArcoTitoIscrizione.jpg"
+  },
+  "grammar_target": [
+   "nominative",
+   "dative",
+   "genitive",
+   "enclitic_que"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "Arch of Titus",
+   "url": "https://en.wikipedia.org/wiki/Arch_of_Titus"
   }
  },
  {
@@ -1614,7 +1580,7 @@
   "era": "republic",
   "unit": 7,
   "latin": "Ōdī et amō. quārē id faciam, fortasse requīris. nesciō, sed fierī sentiō et excrucior.",
-  "translation": "I hate and I love. Why do I do this, you perhaps ask? I don't know, but I feel it happen and I am tormented.",
+  "translation": "I hate and I love. Why I do this, perhaps you ask. I don't know, but I feel it happen and I am tormented.",
   "context": "Catullus's two-line poem about his love for \"Lesbia\" has eight verbs and no nouns. It is probably the most compressed love poem in Latin.",
   "person": "Gaius Valerius Catullus",
   "source": {
@@ -1713,6 +1679,8 @@
   "grammar_tags": [
    "present_tense",
    "perfect_form_present_meaning",
+   "indirect_question",
+   "subjunctive",
    "infinitive",
    "passive_voice"
   ],
@@ -1739,21 +1707,36 @@
     "excrucio"
    ],
    "score": 4,
-   "rank": 17
+   "role": "anchor",
+   "rank": 16
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Marble portrait bust of a woman MET DP345018.jpg",
-   "alt": "Roman marble portrait bust of a woman, The Met",
+   "src": "img/rome/youngwoman.webp",
+   "alt": "Roman marble portrait of a young woman",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_a_woman_MET_DP345018.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DT261885.jpg"
+  },
+  "grammar_target": [
+   "present_tense",
+   "perfect_form_present_meaning"
+  ],
+  "grammar_preview": [
+   "indirect_question",
+   "subjunctive",
+   "infinitive",
+   "passive_voice"
+  ],
+  "learn_more": {
+   "label": "Catullus 85",
+   "url": "https://en.wikipedia.org/wiki/Catullus_85"
   }
  },
  {
@@ -1819,7 +1802,8 @@
   "grammar_tags": [
    "infinitive_as_subject",
    "pro_ablative",
-   "neuter_predicate"
+   "neuter_plural",
+   "deponent"
   ],
   "vocab_ids": [
    "decorus",
@@ -1837,21 +1821,34 @@
     "decorus"
    ],
    "score": 4,
-   "rank": 18
+   "role": "anchor",
+   "rank": 17
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Fragmentary marble head of a helmeted soldier MET DP106984.jpg",
-   "alt": "Marble head of a helmeted soldier, Flavian period, The Met",
+   "src": "img/rome/soldier.webp",
+   "alt": "Marble head of a helmeted soldier, Flavian period",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
    "source_url": "https://commons.wikimedia.org/wiki/File:Fragmentary_marble_head_of_a_helmeted_soldier_MET_DP106984.jpg"
+  },
+  "grammar_target": [
+   "infinitive_as_subject",
+   "pro_ablative",
+   "neuter_plural"
+  ],
+  "grammar_preview": [
+   "deponent"
+  ],
+  "learn_more": {
+   "label": "Dulce et decorum est",
+   "url": "https://en.wikipedia.org/wiki/Dulce_et_decorum_est"
   }
  },
  {
@@ -1910,6 +1907,7 @@
   ],
   "grammar_tags": [
    "future_tense",
+   "demonstratives",
    "infinitive",
    "impersonal_verb"
   ],
@@ -1928,21 +1926,34 @@
     "forsan"
    ],
    "score": 4,
-   "rank": 19
+   "role": "anchor",
+   "rank": 18
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Virgil mosaic in the Bardo National Museum (Tunis) (12241228546).jpg",
-   "alt": "Virgil between two Muses, mosaic, Bardo Museum",
-   "kind": "painting",
-   "aspect": "3:4",
+   "src": "img/rome/muses.webp",
+   "alt": "Sarcophagus with Muses and Sirens (relief strip)",
+   "kind": "artifact",
+   "aspect": "2:1",
    "transparent": false,
-   "license": "Public domain",
-   "credit": "Virgil Mosaic, Bardo Museum, Tunis · Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg"
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_sarcophagus_with_the_contest_between_the_Muses_and_the_Sirens_MET_DP138718.jpg"
+  },
+  "grammar_target": [
+   "future_tense",
+   "demonstratives"
+  ],
+  "grammar_preview": [
+   "infinitive",
+   "impersonal_verb"
+  ],
+  "learn_more": {
+   "label": "Aeneid",
+   "url": "https://en.wikipedia.org/wiki/Aeneid"
   }
  },
  {
@@ -2024,21 +2035,32 @@
     "vindico"
    ],
    "score": 4,
-   "rank": 20
+   "role": "anchor",
+   "rank": 19
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Pseudo-Seneca BM GR1962.8-24.1.jpg",
-   "alt": "\"Pseudo-Seneca\" bronze-type head, British Museum (identity uncertain)",
+   "src": "img/rome/man.webp",
+   "alt": "Roman marble portrait of a man",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
-   "license": "Public domain",
-   "credit": "British Museum · Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg"
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337291.jpg"
+  },
+  "grammar_target": [
+   "imperative",
+   "personal_pronouns",
+   "vocative"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "Epistulae Morales ad Lucilium",
+   "url": "https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium"
   }
  },
  {
@@ -2121,9 +2143,10 @@
   ],
   "grammar_tags": [
    "perfect_tense",
+   "accusative",
    "ablative",
-   "accusative_of_time",
-   "first_person"
+   "participle",
+   "numerals"
   ],
   "vocab_ids": [
    "annus",
@@ -2144,21 +2167,675 @@
     "impensa"
    ],
    "score": 4,
-   "rank": 21
+   "role": "anchor",
+   "rank": 20
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Res gestae divi Augusti, GD006036.jpg",
+   "src": "img/rome/resgestae.webp",
    "alt": "Res Gestae text on the Temple of Augustus, Ankara",
    "kind": "inscription",
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Wikimedia Commons (public domain)",
+   "credit": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Res_gestae_divi_Augusti,_GD006036.jpg"
+  },
+  "grammar_target": [
+   "perfect_tense",
+   "accusative",
+   "ablative"
+  ],
+  "grammar_preview": [
+   "participle",
+   "numerals"
+  ],
+  "learn_more": {
+   "label": "Res Gestae Divi Augusti",
+   "url": "https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti"
+  }
+ },
+ {
+  "id": "q-seneca-prope",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Prope est ā tē deus, tēcum est, intus est.",
+  "translation": "God is near you, he is with you, he is within you.",
+  "context": "Seneca tells Lucilius he need not raise his hands to the sky or ask a temple keeper to let him near a statue's ear. The divine is already within us.",
+  "person": "Lucius Annaeus Seneca",
+  "source": {
+   "work": "Epistulae Morales",
+   "citation": "41.1",
+   "date": "c. AD 62-65"
+  },
+  "source_url": "https://www.thelatinlibrary.com/sen/seneca.ep4.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Prope",
+    "lemma": "prope",
+    "meaning": "near",
+    "parse": "adv."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg."
+   },
+   {
+    "word": "ā",
+    "lemma": "ab",
+    "meaning": "from (near to)",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "abl."
+   },
+   {
+    "word": "deus",
+    "lemma": "deus",
+    "meaning": "god",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "tēcum",
+    "lemma": "tū + cum",
+    "meaning": "with you",
+    "parse": "abl. + enclitic cum"
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg."
+   },
+   {
+    "word": "intus",
+    "lemma": "intus",
+    "meaning": "within",
+    "parse": "adv."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg."
+   }
+  ],
+  "grammar_tags": [
+   "sum",
+   "prep_ablative",
+   "personal_pronouns"
+  ],
+  "vocab_ids": [
+   "ab",
+   "deus",
+   "intus",
+   "prope",
+   "sum",
+   "tu"
+  ],
+  "teaching_value": {
+   "note": "est three times; ā + ablative and the joined form tēcum (cum + abl.); deus. Short and nearly all core words.",
+   "dcc_core_pct": 78,
+   "non_core": [
+    "tu + cum",
+    "intus"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 21
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "sum",
+   "prep_ablative"
+  ],
+  "grammar_preview": [
+   "personal_pronouns"
+  ],
+  "image": {
+   "src": "img/rome/mercury2.webp",
+   "alt": "Bronze statuette of Mercury",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_statuette_of_Mercury_MET_DP20178.jpg"
+  },
+  "learn_more": {
+   "label": "Seneca the Younger",
+   "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+  }
+ },
+ {
+  "id": "i-spqr",
+  "type": "quote",
+  "era": "republic",
+  "unit": 1,
+  "latin": "S·P·Q·R — Senātus Populusque Rōmānus",
+  "translation": "The Senate and the Roman People",
+  "context": "Four letters stamped on arches, coins, standards and even modern Roman manhole covers. They name the two powers of the Republic, Senate and People.",
+  "person": "Senate and People of Rome",
+  "source": {
+   "work": "Formula on inscriptions, coins and standards",
+   "citation": "e.g. CIL VI 945 (Arch of Titus)",
+   "date": "Republic-Empire"
+  },
+  "source_url": "https://en.wikipedia.org/wiki/SPQR",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Senātus",
+    "lemma": "senātus",
+    "meaning": "Senate",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Populus",
+    "lemma": "populus",
+    "meaning": "people",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
+   },
+   {
+    "word": "Rōmānus",
+    "lemma": "Rōmānus",
+    "meaning": "Roman",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "grammar_tags": [
+   "nominative",
+   "abbreviations",
+   "enclitic_que"
+  ],
+  "vocab_ids": [
+   "-que",
+   "populus",
+   "romanus",
+   "senatus"
+  ],
+  "teaching_value": {
+   "note": "Two nominatives, an adjective, and -que. The most-seen Latin abbreviation in the world; ideal for Unit 1.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "romanus"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 22
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "nominative",
+   "abbreviations"
+  ],
+  "grammar_preview": [
+   "enclitic_que"
+  ],
+  "image": {
+   "src": "img/rome/wolf.webp",
+   "alt": "Bronze she-wolf, Capitoline Museums",
+   "kind": "statue_cutout",
+   "aspect": "4:3",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "Wikimedia Commons (CC0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+  },
+  "learn_more": {
+   "label": "SPQR",
+   "url": "https://en.wikipedia.org/wiki/SPQR"
+  }
+ },
+ {
+  "id": "q-cornelia-ornamenta",
+  "type": "quote",
+  "era": "republic",
+  "unit": 2,
+  "latin": "Haec ōrnāmenta sunt mea.",
+  "translation": "These are my jewels.",
+  "context": "A wealthy visitor showed off her jewellery. Cornelia kept her talking until her sons came home from school, then pointed to them.",
+  "person": "Cornelia, mother of the Gracchi",
+  "source": {
+   "work": "Valerius Maximus, Facta et Dicta Memorabilia",
+   "citation": "4.4 praef.",
+   "date": "c. AD 30 (event 2nd c. BC)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/valmax4.html",
+  "attribution_confidence": "traditional",
+  "attribution_note": "Text verified in Valerius Maximus, writing ~150 years after Cornelia; the anecdote itself is traditional.",
+  "gloss": [
+   {
+    "word": "Haec",
+    "lemma": "hic",
+    "meaning": "these",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "ōrnāmenta",
+    "lemma": "ōrnāmentum",
+    "meaning": "jewels, ornaments",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl."
+   },
+   {
+    "word": "mea",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "nom. pl. n."
+   }
+  ],
+  "grammar_tags": [
+   "sum",
+   "neuter_plural",
+   "possessive_adjectives",
+   "demonstratives"
+  ],
+  "vocab_ids": [
+   "hic",
+   "meus",
+   "ornamentum",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Four words: haec (neut. pl.), sunt, possessive mea agreeing with ōrnāmenta. Ideal for the Familia unit.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "ornamentum"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 23
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "image": {
+   "src": "img/rome/cornelia.webp",
+   "alt": "Bartolozzi print: Cornelia presents her sons as her jewels",
+   "kind": "painting",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Yale Center for British Art",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Bartolozzi_-_Cornelia,_Mother_of_the_Gracchi_-_B1977.14.19782_-_Yale_Center_for_British_Art.jpg"
+  },
+  "grammar_target": [
+   "sum",
+   "neuter_plural",
+   "possessive_adjectives"
+  ],
+  "grammar_preview": [
+   "demonstratives"
+  ],
+  "learn_more": {
+   "label": "Cornelia (mother of the Gracchi)",
+   "url": "https://en.wikipedia.org/wiki/Cornelia_(mother_of_the_Gracchi)"
+  }
+ },
+ {
+  "id": "q-virgil-tantaene",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Tantaene animīs caelestibus īrae?",
+  "translation": "Can heavenly minds hold such great anger?",
+  "context": "Virgil marvels that a goddess, Juno, could nurse such fury against one good man. It sets up the epic's question about divine justice.",
+  "person": "Publius Vergilius Maro",
+  "source": {
+   "work": "Aeneid",
+   "citation": "1.11",
+   "date": "c. 29-19 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/vergil/aen1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Tantaene",
+    "lemma": "tantus + -ne",
+    "meaning": "so great?",
+    "parse": "nom. pl. f. + question particle"
+   },
+   {
+    "word": "animīs",
+    "lemma": "animus",
+    "meaning": "minds",
+    "parse": "dat. pl. m."
+   },
+   {
+    "word": "caelestibus",
+    "lemma": "caelestis",
+    "meaning": "heavenly",
+    "parse": "dat. pl. m."
+   },
+   {
+    "word": "īrae",
+    "lemma": "īra",
+    "meaning": "angers",
+    "parse": "nom. pl. f."
+   }
+  ],
+  "grammar_tags": [
+   "dative",
+   "third_declension",
+   "adjectives"
+  ],
+  "vocab_ids": [
+   "animus",
+   "caelestis",
+   "ira"
+  ],
+  "teaching_value": {
+   "note": "Dative of possession (animīs caelestibus, \"do heavenly minds have…\"), 3rd-decl. adjective agreement, -ne question.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "tantus + -ne"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 24
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "dative",
+   "third_declension",
+   "adjectives"
+  ],
+  "grammar_preview": [],
+  "image": {
+   "src": "img/rome/juno.webp",
+   "alt": "Statue of Juno Sospita, Vatican Museums",
+   "kind": "statue_cutout",
+   "aspect": "2:3",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Juno_Sospita_(Vaticano).jpg"
+  },
+  "learn_more": {
+   "label": "Juno (mythology)",
+   "url": "https://en.wikipedia.org/wiki/Juno_(mythology)"
+  }
+ },
+ {
+  "id": "q-ovid-vesta",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Vesta eadem est et terra: subest vigil ignis utrīque.",
+  "translation": "Vesta and the earth are the same: a wakeful fire lies beneath both.",
+  "context": "Ovid explains why Vesta's temple in the Forum was round: like the earth, the goddess holds an eternal fire at her centre, tended by the Vestal Virgins.",
+  "person": "Publius Ovidius Naso",
+  "source": {
+   "work": "Fasti",
+   "citation": "6.267",
+   "date": "c. AD 8"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.fasti6.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Vesta",
+    "lemma": "Vesta",
+    "meaning": "Vesta",
+    "parse": "nom."
+   },
+   {
+    "word": "eadem",
+    "lemma": "īdem",
+    "meaning": "the same",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "terra",
+    "lemma": "terra",
+    "meaning": "earth",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "subest",
+    "lemma": "subsum",
+    "meaning": "lies beneath",
+    "parse": "3rd sg."
+   },
+   {
+    "word": "vigil",
+    "lemma": "vigil",
+    "meaning": "wakeful",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "ignis",
+    "lemma": "ignis",
+    "meaning": "fire",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "utrīque",
+    "lemma": "uterque",
+    "meaning": "to each of the two",
+    "parse": "dat. sg."
+   }
+  ],
+  "grammar_tags": [
+   "sum",
+   "third_declension",
+   "dative"
+  ],
+  "vocab_ids": [
+   "et",
+   "idem",
+   "ignis",
+   "subsum",
+   "sum",
+   "terra",
+   "uterque",
+   "vigil"
+  ],
+  "teaching_value": {
+   "note": "est + predicate, 3rd-decl. ignis with an adjective (vigil), dative with subest.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "subsum",
+    "vigil"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 25
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "sum",
+   "third_declension"
+  ],
+  "grammar_preview": [
+   "dative"
+  ],
+  "image": {
+   "src": "img/rome/vesta.webp",
+   "alt": "The \"Vesta Giustiniani\" statue",
+   "kind": "statue_cutout",
+   "aspect": "2:3",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "DPLA via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statue_called_\"Vesta_Giustiniani\"_-_DPLA_-_5b55ce712f0fe863cb1e6318b78ea51c.jpg"
+  },
+  "learn_more": {
+   "label": "Vesta (mythology)",
+   "url": "https://en.wikipedia.org/wiki/Vesta_(mythology)"
+  }
+ },
+ {
+  "id": "q-horace-sapere",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Dīmidium factī, quī coepit, habet; sapere audē, incipe.",
+  "translation": "He who has begun has half the deed done; dare to be wise, begin!",
+  "context": "Horace urges young Lollius not to put off living well, like a fool waiting for a river to finish flowing past before he crosses.",
+  "person": "Quintus Horatius Flaccus",
+  "source": {
+   "work": "Epistles",
+   "citation": "1.2.40-41",
+   "date": "c. 20 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/horace/epist1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Dīmidium",
+    "lemma": "dīmidium",
+    "meaning": "half",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "factī",
+    "lemma": "factum",
+    "meaning": "of the deed",
+    "parse": "gen. sg. n."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "(he) who",
+    "parse": "rel. pron."
+   },
+   {
+    "word": "coepit",
+    "lemma": "coepī",
+    "meaning": "has begun",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "word": "habet",
+    "lemma": "habeō",
+    "meaning": "has",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "sapere",
+    "lemma": "sapiō",
+    "meaning": "to be wise",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "audē",
+    "lemma": "audeō",
+    "meaning": "dare",
+    "parse": "imperative sg."
+   },
+   {
+    "word": "incipe",
+    "lemma": "incipiō",
+    "meaning": "begin",
+    "parse": "imperative sg."
+   }
+  ],
+  "grammar_tags": [
+   "imperative",
+   "genitive",
+   "perfect_tense",
+   "infinitive",
+   "relative_clause"
+  ],
+  "vocab_ids": [
+   "audeo",
+   "coepi",
+   "dimidium",
+   "factum",
+   "habeo",
+   "incipio",
+   "qui",
+   "sapio"
+  ],
+  "teaching_value": {
+   "note": "Two imperatives (audē, incipe), complementary infinitive (sapere), partitive genitive (dīmidium factī), relative clause with the antecedent left out.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "dimidium",
+    "sapio"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 26
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "image": {
+   "src": "img/horace.webp",
+   "alt": "Page of Horace's Odes in a 10th-century manuscript, Florence, Biblioteca Medicea Laurenziana, Plut. 34.1",
+   "kind": "manuscript",
+   "aspect": "2:3",
+   "transparent": false,
+   "focal_point": [
+    0.5,
+    0.3
+   ],
+   "credit": "Horace, Odes · Biblioteca Medicea Laurenziana, Plut. 34.1",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Horace,_Odes,_Florence,_Plut._34.1.jpg"
+  },
+  "grammar_target": [
+   "imperative",
+   "genitive",
+   "perfect_tense"
+  ],
+  "grammar_preview": [
+   "infinitive",
+   "relative_clause"
+  ],
+  "learn_more": {
+   "label": "Sapere aude",
+   "url": "https://en.wikipedia.org/wiki/Sapere_aude"
   }
  },
  {
@@ -2246,10 +2923,11 @@
    }
   ],
   "grammar_tags": [
-   "infinitive",
-   "imperative",
    "vocative",
-   "dative"
+   "dative",
+   "infinitive",
+   "future_imperative",
+   "participle"
   ],
   "vocab_ids": [
    "debello",
@@ -2273,21 +2951,182 @@
     "debello"
    ],
    "score": 4,
-   "rank": 22
+   "role": "preview",
+   "rank": 27
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Statue-Augustus.jpg",
-   "alt": "Augustus of Prima Porta, Vatican Museums",
+   "src": "img/rome/primaporta.webp",
+   "alt": "Augustus of Prima Porta",
    "kind": "statue_cutout",
    "aspect": "2:3",
    "transparent": true,
    "license": "Public domain",
-   "credit": "Augustus of Prima Porta · Wikimedia Commons (public domain)",
+   "credit": "Wikimedia Commons",
    "source_url": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg"
+  },
+  "grammar_target": [
+   "vocative",
+   "dative"
+  ],
+  "grammar_preview": [
+   "infinitive",
+   "future_imperative",
+   "participle"
+  ],
+  "learn_more": {
+   "label": "Pax Romana",
+   "url": "https://en.wikipedia.org/wiki/Pax_Romana"
+  }
+ },
+ {
+  "id": "q-virgil-arma",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Arma virumque canō, Trōiae quī prīmus ab ōrīs Ītaliam … vēnit.",
+  "translation": "I sing of arms and the man who first came from the shores of Troy to Italy.",
+  "context": "The opening of Rome's national epic. Virgil announces his subject: war, and Aeneas, the Trojan refugee whose descendants founded Rome.",
+  "person": "Publius Vergilius Maro",
+  "source": {
+   "work": "Aeneid",
+   "citation": "1.1-3",
+   "date": "c. 29-19 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/vergil/aen1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Arma",
+    "lemma": "arma",
+    "meaning": "arms",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "virum",
+    "lemma": "vir",
+    "meaning": "man",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
+   },
+   {
+    "word": "canō",
+    "lemma": "canō",
+    "meaning": "I sing",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "Trōiae",
+    "lemma": "Trōia",
+    "meaning": "of Troy",
+    "parse": "gen. sg."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "who",
+    "parse": "rel. pron."
+   },
+   {
+    "word": "prīmus",
+    "lemma": "prīmus",
+    "meaning": "first",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "ab",
+    "lemma": "ab",
+    "meaning": "from",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "ōrīs",
+    "lemma": "ōra",
+    "meaning": "shores",
+    "parse": "abl. pl. f."
+   },
+   {
+    "word": "Ītaliam",
+    "lemma": "Italia",
+    "meaning": "to Italy (Ī lengthened for metre"
+   },
+   {
+    "word": "normally Ĭtalia)",
+    "lemma": "acc. of motion",
+    "meaning": "proper"
+   },
+   {
+    "word": "vēnit",
+    "lemma": "veniō",
+    "meaning": "came",
+    "parse": "3rd sg. perf."
+   }
+  ],
+  "grammar_tags": [
+   "accusative",
+   "enclitic_que",
+   "perfect_tense",
+   "prep_ablative",
+   "relative_clause"
+  ],
+  "vocab_ids": [
+   "-que",
+   "ab",
+   "arma",
+   "cano",
+   "italia",
+   "ora",
+   "primus",
+   "qui",
+   "venio",
+   "vir"
+  ],
+  "teaching_value": {
+   "note": "Accusative objects joined by -que, a 1st-person verb, ab + ablative, a relative clause. The most quoted opening in Latin.",
+   "dcc_core_pct": 73,
+   "non_core": [
+    "ora",
+    "italia",
+    "acc. of motion"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 28
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "image": {
+   "src": "img/rome/virgil.webp",
+   "alt": "Virgil between two Muses, mosaic, Bardo Museum",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Bardo Museum, Tunis",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg"
+  },
+  "grammar_target": [
+   "accusative",
+   "enclitic_que",
+   "perfect_tense",
+   "prep_ablative"
+  ],
+  "grammar_preview": [
+   "relative_clause"
+  ],
+  "learn_more": {
+   "label": "Aeneid",
+   "url": "https://en.wikipedia.org/wiki/Aeneid"
   }
  },
  {
@@ -2364,21 +3203,32 @@
     "irreparabilis"
    ],
    "score": 4,
-   "rank": 23
+   "role": "preview",
+   "rank": 29
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Roman Mosaic Reminder of Death, from the House 1, 5, 2 in Pompeii (48451661416).jpg",
-   "alt": "Pompeian memento-mori mosaic: skull, level and wheel",
-   "kind": "painting",
-   "aspect": "1:1",
-   "transparent": false,
-   "license": "Public domain",
-   "credit": "Naples Archaeological Museum · Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Mosaic_Reminder_of_Death,_from_the_House_1,_5,_2_in_Pompeii_(48451661416).jpg"
+   "src": "img/rome/sundial.webp",
+   "alt": "Ancient Roman sundial, Berlin",
+   "kind": "artifact",
+   "aspect": "2:3",
+   "transparent": true,
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_sundial,_Antikensammlung_Berlin,_141306.jpg"
+  },
+  "grammar_target": [
+   "present_tense",
+   "third_declension",
+   "adjectives"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "Tempus fugit",
+   "url": "https://en.wikipedia.org/wiki/Tempus_fugit"
   }
  },
  {
@@ -2430,8 +3280,8 @@
    }
   ],
   "grammar_tags": [
-   "relative_clause",
-   "sum"
+   "sum",
+   "relative_clause"
   ],
   "vocab_ids": [
    "nusquam",
@@ -2447,21 +3297,356 @@
     "ubique"
    ],
    "score": 4,
-   "rank": 24
+   "role": "preview",
+   "rank": 30
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Oil Lamp MET cop0414s1.jpg",
-   "alt": "Ancient clay oil lamp, The Met",
+   "src": "img/rome/lamp.webp",
+   "alt": "Ancient clay oil lamp",
    "kind": "artifact",
    "aspect": "4:3",
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
    "source_url": "https://commons.wikimedia.org/wiki/File:Oil_Lamp_MET_cop0414s1.jpg"
+  },
+  "grammar_target": [
+   "sum"
+  ],
+  "grammar_preview": [
+   "relative_clause"
+  ],
+  "learn_more": {
+   "label": "Seneca the Younger",
+   "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+  }
+ },
+ {
+  "id": "q-cicero-historia",
+  "type": "quote",
+  "era": "republic",
+  "unit": 5,
+  "latin": "Historia vērō testis temporum, lūx vēritātis, vīta memoriae, magistra vītae, nūntia vetustātis …",
+  "translation": "History is truly the witness of the ages, the light of truth, the life of memory, the teacher of life, the messenger of the past.",
+  "context": "In Cicero's dialogue on the ideal orator, Antonius argues that only an orator's voice can give history immortality.",
+  "person": "Marcus Tullius Cicero",
+  "source": {
+   "work": "De Oratore",
+   "citation": "2.36",
+   "date": "55 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/cicero/oratore2.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Historia",
+    "lemma": "historia",
+    "meaning": "history",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "vērō",
+    "lemma": "vērō",
+    "meaning": "truly",
+    "parse": "adv."
+   },
+   {
+    "word": "testis",
+    "lemma": "testis",
+    "meaning": "witness",
+    "parse": "nom. sg."
+   },
+   {
+    "word": "temporum",
+    "lemma": "tempus",
+    "meaning": "of times",
+    "parse": "gen. pl. n."
+   },
+   {
+    "word": "lūx",
+    "lemma": "lūx",
+    "meaning": "light",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "vēritātis",
+    "lemma": "vēritās",
+    "meaning": "of truth",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "vīta",
+    "lemma": "vīta",
+    "meaning": "life",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "memoriae",
+    "lemma": "memoria",
+    "meaning": "of memory",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "magistra",
+    "lemma": "magistra",
+    "meaning": "teacher",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "vītae",
+    "lemma": "vīta",
+    "meaning": "of life",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "nūntia",
+    "lemma": "nūntia",
+    "meaning": "messenger",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "vetustātis",
+    "lemma": "vetustās",
+    "meaning": "of antiquity",
+    "parse": "gen. sg. f."
+   }
+  ],
+  "grammar_tags": [
+   "genitive",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "historia",
+   "lux",
+   "magistra",
+   "memoria",
+   "nuntia",
+   "tempus",
+   "testis",
+   "veritas",
+   "vero",
+   "vetustas",
+   "vita"
+  ],
+  "teaching_value": {
+   "note": "Five noun + genitive pairs in a row. A perfect genitive drill that mixes 1st and 3rd declension. Contains the famous \"magistra vītae\".",
+   "dcc_core_pct": 58,
+   "non_core": [
+    "historia",
+    "veritas",
+    "magistra",
+    "nuntia",
+    "vetustas"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 31
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "image": {
+   "src": "img/cicero.webp",
+   "alt": "Marble bust of Cicero, Capitoline Museums, Rome, cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "focal_point": [
+    0.5,
+    0.3
+   ],
+   "credit": "Bust of Cicero, Capitoline Museums, Rome · photo Wilfredo Rafael Rodriguez Hernandez",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:M._Tullius_Cicero,_Capitoline_Museum,_Rome_(cropped).png"
+  },
+  "grammar_target": [
+   "genitive",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "De Oratore",
+   "url": "https://en.wikipedia.org/wiki/De_Oratore"
+  }
+ },
+ {
+  "id": "q-virgil-musa",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Mūsa, mihi causās memorā.",
+  "translation": "Muse, tell me the reasons.",
+  "context": "Virgil calls on the Muse to explain why Juno, queen of the gods, hounded the dutiful Aeneas through so many disasters.",
+  "person": "Publius Vergilius Maro",
+  "source": {
+   "work": "Aeneid",
+   "citation": "1.8",
+   "date": "c. 29-19 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/vergil/aen1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Mūsa",
+    "lemma": "Mūsa",
+    "meaning": "Muse",
+    "parse": "voc. sg. f."
+   },
+   {
+    "word": "mihi",
+    "lemma": "ego",
+    "meaning": "to me",
+    "parse": "dat."
+   },
+   {
+    "word": "causās",
+    "lemma": "causa",
+    "meaning": "reasons",
+    "parse": "acc. pl. f."
+   },
+   {
+    "word": "memorā",
+    "lemma": "memorō",
+    "meaning": "tell, recount",
+    "parse": "imperative sg."
+   }
+  ],
+  "grammar_tags": [
+   "vocative",
+   "accusative",
+   "dative",
+   "imperative",
+   "indirect_question"
+  ],
+  "vocab_ids": [
+   "causa",
+   "ego",
+   "memoro",
+   "musa"
+  ],
+  "teaching_value": {
+   "note": "Vocative Mūsa, dative mihi, accusative plural causās, 1st-conj. imperative memorā. Four core words.",
+   "dcc_core_pct": 50,
+   "non_core": [
+    "musa",
+    "memoro"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 32
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "vocative",
+   "accusative",
+   "dative"
+  ],
+  "grammar_preview": [
+   "imperative",
+   "indirect_question"
+  ],
+  "image": {
+   "src": "img/rome/seatedmuse.webp",
+   "alt": "Marble statue of a seated Muse",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_statue_of_a_seated_muse_MET_118553.jpg"
+  },
+  "learn_more": {
+   "label": "Muses",
+   "url": "https://en.wikipedia.org/wiki/Muses"
+  }
+ },
+ {
+  "id": "q-virgil-facilis",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Facilis dēscēnsus Avernō.",
+  "translation": "The descent to Avernus is easy.",
+  "context": "The Sibyl of Cumae warns Aeneas: going down to the underworld is easy, the door of Dis stands open night and day. Coming back up is the real labour.",
+  "person": "Publius Vergilius Maro (speech of the Sibyl)",
+  "source": {
+   "work": "Aeneid",
+   "citation": "6.126",
+   "date": "c. 29-19 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/vergil/aen6.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Facilis",
+    "lemma": "facilis",
+    "meaning": "easy",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "dēscēnsus",
+    "lemma": "dēscēnsus",
+    "meaning": "descent",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Avernō",
+    "lemma": "Avernus",
+    "meaning": "to Avernus",
+    "parse": "dat. of direction"
+   }
+  ],
+  "grammar_tags": [
+   "third_declension",
+   "nominative",
+   "dative_of_direction"
+  ],
+  "vocab_ids": [
+   "descensus",
+   "facilis"
+  ],
+  "teaching_value": {
+   "note": "3rd-decl. adjective facilis with a 4th-decl. noun, the copula left out (est understood), dative of direction (preview).",
+   "dcc_core_pct": 50,
+   "non_core": [
+    "descensus"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 33
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "third_declension",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "dative_of_direction"
+  ],
+  "image": {
+   "src": "img/rome/pluto.webp",
+   "alt": "Print of a statue of Pluto, Rijksmuseum",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Rijksmuseum",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Standbeeld_van_Pluto,_RP-P-OB-44.317.jpg"
+  },
+  "learn_more": {
+   "label": "Lake Avernus",
+   "url": "https://en.wikipedia.org/wiki/Lake_Avernus"
   }
  },
  {
@@ -2520,8 +3705,9 @@
   ],
   "grammar_tags": [
    "present_tense",
-   "passive_voice",
-   "ablative_means"
+   "third_declension",
+   "ablative_means",
+   "passive_voice"
   ],
   "vocab_ids": [
    "anulus",
@@ -2540,21 +3726,183 @@
     "anulus"
    ],
    "score": 4,
-   "rank": 25
+   "role": "preview",
+   "rank": 34
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Glass cup MET DP203343.jpg",
-   "alt": "Roman glass cup, The Met",
+   "src": "img/rome/cup.webp",
+   "alt": "Roman glass cup",
    "kind": "artifact",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
    "source_url": "https://commons.wikimedia.org/wiki/File:Glass_cup_MET_DP203343.jpg"
+  },
+  "grammar_target": [
+   "present_tense",
+   "third_declension",
+   "ablative_means"
+  ],
+  "grammar_preview": [
+   "passive_voice"
+  ],
+  "learn_more": {
+   "label": "Epistulae ex Ponto",
+   "url": "https://en.wikipedia.org/wiki/Epistulae_ex_Ponto"
+  }
+ },
+ {
+  "id": "c-brutus-eidmar",
+  "type": "quote",
+  "era": "republic",
+  "unit": 5,
+  "latin": "EID·MAR — Īdibus Mārtiīs",
+  "translation": "On the Ides of March",
+  "context": "Brutus put this on a silver coin after murdering Caesar: a freedman's cap between two daggers, and the date of the deed. Propaganda you could hold in your hand.",
+  "person": "Marcus Junius Brutus",
+  "source": {
+   "work": "Coin legend, denarius of Brutus",
+   "citation": "reverse legend",
+   "date": "43-42 BC"
+  },
+  "source_url": "https://en.wikipedia.org/wiki/Ides_of_March_coin",
+  "attribution_confidence": "verified",
+  "attribution_note": "Legend per Wikipedia \"Ides of March coin\".",
+  "gloss": [
+   {
+    "word": "EID",
+    "lemma": "Īdūs",
+    "meaning": "on the Ides (EID = old spelling)",
+    "parse": "abl. pl. f. (abbr.)"
+   },
+   {
+    "word": "MAR",
+    "lemma": "Mārtius",
+    "meaning": "of March",
+    "parse": "abl. pl. f. adj. (abbr.)"
+   }
+  ],
+  "grammar_tags": [
+   "abbreviations",
+   "ablative_of_time",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "idus",
+   "martius"
+  ],
+  "teaching_value": {
+   "note": "Ablative of time (Eīdibus, 3rd decl.) with an agreeing adjective; teaches coin abbreviations.",
+   "dcc_core_pct": 0,
+   "non_core": [
+    "idus",
+    "martius"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 35
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "abbreviations",
+   "ablative_of_time",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "image": {
+   "src": "img/rome/eidmar.webp",
+   "alt": "Denarius of Brutus: cap of liberty between two daggers, EID MAR",
+   "kind": "coin",
+   "aspect": "4:3",
+   "transparent": true,
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ides_of_march_coin.jpg"
+  },
+  "learn_more": {
+   "label": "Ides of March coin",
+   "url": "https://en.wikipedia.org/wiki/Ides_of_March_coin"
+  }
+ },
+ {
+  "id": "c-octavian-aegypto",
+  "type": "quote",
+  "era": "empire",
+  "unit": 6,
+  "latin": "AEGVPTO·CAPTA — Aegyptō captā",
+  "translation": "Egypt having been captured",
+  "context": "After defeating Antony and Cleopatra, Octavian struck coins showing a crocodile, symbol of Egypt, now a Roman possession.",
+  "person": "Octavian (Augustus)",
+  "source": {
+   "work": "Coin legend, denarius of Octavian",
+   "citation": "reverse legend",
+   "date": "28 BC"
+  },
+  "source_url": "https://en.wikipedia.org/wiki/Coins_of_Augustus",
+  "attribution_confidence": "verified",
+  "attribution_note": "Legend per Wikipedia \"Coins of Augustus\" (citing Dartmouth numismatic collection).",
+  "gloss": [
+   {
+    "word": "AEGVPTO",
+    "lemma": "Aegyptus",
+    "meaning": "Egypt",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "CAPTA",
+    "lemma": "capiō",
+    "meaning": "captured",
+    "parse": "perf. pass. part. abl. sg. f."
+   }
+  ],
+  "grammar_tags": [
+   "abbreviations",
+   "ablative_absolute",
+   "perfect_passive"
+  ],
+  "vocab_ids": [
+   "capio"
+  ],
+  "teaching_value": {
+   "note": "Ablative absolute of a place name + perfect participle (preview). Short, real, with a vivid image.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 3,
+   "role": "anchor",
+   "rank": 36
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "abbreviations"
+  ],
+  "grammar_preview": [
+   "ablative_absolute",
+   "perfect_passive"
+  ],
+  "image": {
+   "src": "img/rome/aegypto.webp",
+   "alt": "Denarius of Octavian with crocodile, AEGVPTO CAPTA",
+   "kind": "coin",
+   "aspect": "4:3",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Denario_Aegypto_capta.jpg"
+  },
+  "learn_more": {
+   "label": "Coins of Augustus",
+   "url": "https://en.wikipedia.org/wiki/Coins_of_Augustus"
   }
  },
  {
@@ -2564,7 +3912,7 @@
   "unit": 7,
   "latin": "Vīvāmus, mea Lesbia, atque amēmus.",
   "translation": "Let us live, my Lesbia, and let us love.",
-  "context": "Catullus opens his most famous love poem: ignore the gossip of grumpy old men. The sun sets and rises, but our night lasts forever.",
+  "context": "Catullus opens his most famous love poem: ignore the gossip of grumpy old men. Suns can set and rise; for us, once our brief light sets, there is one endless night to sleep. So kiss me.",
   "person": "Gaius Valerius Catullus",
   "source": {
    "work": "Carmina",
@@ -2606,8 +3954,8 @@
    }
   ],
   "grammar_tags": [
-   "hortatory_subjunctive",
-   "vocative"
+   "vocative",
+   "hortatory_subjunctive"
   ],
   "vocab_ids": [
    "amo",
@@ -2620,21 +3968,152 @@
    "dcc_core_pct": 100,
    "non_core": [],
    "score": 3,
-   "rank": 26
+   "role": "anchor",
+   "rank": 37
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Marble portrait bust of a woman MET DP345018.jpg",
-   "alt": "Roman marble portrait bust of a woman, The Met",
+   "src": "img/rome/woman.webp",
+   "alt": "Roman marble portrait of a young woman",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_a_woman_MET_DP345018.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DP331280.jpg"
+  },
+  "grammar_target": [
+   "vocative"
+  ],
+  "grammar_preview": [
+   "hortatory_subjunctive"
+  ],
+  "learn_more": {
+   "label": "Catullus 5",
+   "url": "https://en.wikipedia.org/wiki/Catullus_5"
+  }
+ },
+ {
+  "id": "q-ovid-expedit",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Expedit esse deōs, et, ut expedit, esse putēmus.",
+  "translation": "It is useful that there are gods, and, since it is useful, let us believe they exist.",
+  "context": "In his cheeky handbook on love, Ovid shrugs at piety: believing in gods is convenient, so let us offer incense. A sceptical Roman voice for the Gods unit.",
+  "person": "Publius Ovidius Naso",
+  "source": {
+   "work": "Ars Amatoria",
+   "citation": "1.637",
+   "date": "c. 2 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.artis1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Expedit",
+    "lemma": "expedit",
+    "meaning": "it is useful",
+    "parse": "impersonal 3rd sg."
+   },
+   {
+    "word": "esse",
+    "lemma": "sum",
+    "meaning": "to be, exist",
+    "parse": "inf."
+   },
+   {
+    "word": "deōs",
+    "lemma": "deus",
+    "meaning": "gods",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "ut",
+    "lemma": "ut",
+    "meaning": "as",
+    "parse": "conj."
+   },
+   {
+    "word": "expedit",
+    "lemma": "expedit",
+    "meaning": "it is useful",
+    "parse": "3rd sg."
+   },
+   {
+    "word": "esse",
+    "lemma": "sum",
+    "meaning": "to exist",
+    "parse": "inf."
+   },
+   {
+    "word": "putēmus",
+    "lemma": "putō",
+    "meaning": "let us believe",
+    "parse": "1st pl. pres. subj."
+   }
+  ],
+  "grammar_tags": [
+   "present_tense",
+   "accusative",
+   "infinitive",
+   "hortatory_subjunctive",
+   "indirect_statement"
+  ],
+  "vocab_ids": [
+   "deus",
+   "et",
+   "expedit",
+   "puto",
+   "sum",
+   "ut"
+  ],
+  "teaching_value": {
+   "note": "Impersonal expedit with accusative + infinitive (preview), hortatory putēmus (preview). Core words, advanced structure.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "expedit",
+    "expedit"
+   ],
+   "score": 3,
+   "role": "preview",
+   "rank": 38
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "present_tense",
+   "accusative"
+  ],
+  "grammar_preview": [
+   "infinitive",
+   "hortatory_subjunctive",
+   "indirect_statement"
+  ],
+  "image": {
+   "src": "img/rome/jupiter.webp",
+   "alt": "Jupiter of Smyrna, Louvre",
+   "kind": "statue_cutout",
+   "aspect": "2:3",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jupiter_Smyrna_Louvre_Ma13.jpg"
+  },
+  "learn_more": {
+   "label": "Ars Amatoria",
+   "url": "https://en.wikipedia.org/wiki/Ars_Amatoria"
   }
  },
  {
@@ -2680,6 +4159,7 @@
    }
   ],
   "grammar_tags": [
+   "present_tense",
    "passive_voice",
    "dum_clause"
   ],
@@ -2696,21 +4176,33 @@
     "transcurro"
    ],
    "score": 3,
-   "rank": 27
+   "role": "preview",
+   "rank": 39
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Roman Mosaic Reminder of Death, from the House 1, 5, 2 in Pompeii (48451661416).jpg",
+   "src": "img/rome/memento.webp",
    "alt": "Pompeian memento-mori mosaic: skull, level and wheel",
    "kind": "painting",
-   "aspect": "1:1",
+   "aspect": "3:4",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Naples Archaeological Museum · Wikimedia Commons",
+   "credit": "Naples Archaeological Museum",
    "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Mosaic_Reminder_of_Death,_from_the_House_1,_5,_2_in_Pompeii_(48451661416).jpg"
+  },
+  "grammar_target": [
+   "present_tense"
+  ],
+  "grammar_preview": [
+   "passive_voice",
+   "dum_clause"
+  ],
+  "learn_more": {
+   "label": "Memento mori",
+   "url": "https://en.wikipedia.org/wiki/Memento_mori"
   }
  },
  {
@@ -2729,7 +4221,7 @@
   },
   "source_url": "https://www.thelatinlibrary.com/cicero/off1.shtml",
   "attribution_confidence": "verified",
-  "attribution_note": "Cicero is quoting his own lost poem De consulatu suo.",
+  "attribution_note": "Cicero quotes his own lost poem De consulatu suo. Off. 1.77 reads laudī; the better-known variant concēdat laurea linguae is in In Pisonem 72-74 and Quintilian.",
   "gloss": [
    {
     "word": "Cēdant",
@@ -2788,21 +4280,32 @@
     "laurea"
    ],
    "score": 3,
-   "rank": 28
+   "role": "preview",
+   "rank": 40
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "img/cicero.webp",
-   "alt": "Marble bust of Cicero, Capitoline Museums, cut out",
+   "src": "img/rome/cuirass.webp",
+   "alt": "Bronze torso of a commander in a cuirass",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
-   "credit": "Bust of Cicero, Capitoline Museums",
-   "source_url": "https://commons.wikimedia.org/wiki/File:M._Tullius_Cicero,_Capitoline_Museum,_Rome_(cropped).png"
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_torso_from_an_equestrian_statue_wearing_a_cuirass_MET_DP108183.jpg"
+  },
+  "grammar_target": [
+   "dative"
+  ],
+  "grammar_preview": [
+   "jussive_subjunctive"
+  ],
+  "learn_more": {
+   "label": "De Officiis",
+   "url": "https://en.wikipedia.org/wiki/De_Officiis"
   }
  },
  {
@@ -2867,8 +4370,10 @@
   ],
   "grammar_tags": [
    "vocative",
+   "genitive",
    "ablative_with_deponent",
-   "future"
+   "future_tense",
+   "deponent"
   ],
   "vocab_ids": [
    "abutor",
@@ -2886,21 +4391,35 @@
     "patientia"
    ],
    "score": 3,
-   "rank": 29
+   "role": "preview",
+   "rank": 41
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "img/cicero.webp",
-   "alt": "Marble bust of Cicero, Capitoline Museums, cut out",
+   "src": "img/rome/cicero3.webp",
+   "alt": "Bust of Cicero, Glyptothek Munich",
    "kind": "statue_cutout",
-   "aspect": "3:4",
+   "aspect": "2:3",
    "transparent": true,
-   "license": "CC0",
-   "credit": "Bust of Cicero, Capitoline Museums",
-   "source_url": "https://commons.wikimedia.org/wiki/File:M._Tullius_Cicero,_Capitoline_Museum,_Rome_(cropped).png"
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(GL_325).jpg"
+  },
+  "grammar_target": [
+   "vocative",
+   "genitive"
+  ],
+  "grammar_preview": [
+   "ablative_with_deponent",
+   "future_tense",
+   "deponent"
+  ],
+  "learn_more": {
+   "label": "Catilinarian Orations",
+   "url": "https://en.wikipedia.org/wiki/Catilinarian_Orations"
   }
  },
  {
@@ -2919,7 +4438,7 @@
   },
   "source_url": "https://www.thelatinlibrary.com/suetonius/suet.caesar.html",
   "attribution_confidence": "traditional",
-  "attribution_note": "Plutarch (Pomp. 60, Caes. 32) says Caesar spoke the Greek \"anerriphthō kybos\" (\"let the die be cast\").",
+  "attribution_note": "Manuscripts of Suetonius read iacta alea est; Erasmus emended to iacta alea esto (\"let the die be cast\"), matching the Greek proverb Plutarch (Pomp. 60, Caes. 32) says Caesar spoke.",
   "gloss": [
    {
     "word": "Iacta",
@@ -2941,6 +4460,7 @@
    }
   ],
   "grammar_tags": [
+   "sum",
    "perfect_passive"
   ],
   "vocab_ids": [
@@ -2955,7 +4475,8 @@
     "alea"
    ],
    "score": 3,
-   "rank": 30
+   "role": "preview",
+   "rank": 42
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2963,13 +4484,27 @@
   },
   "image": {
    "src": "img/caesar.webp",
-   "alt": "Tusculum portrait of Julius Caesar, cut out",
+   "alt": "Marble head of Julius Caesar (Tusculum portrait), Museo di Antichità, Turin, cut out",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
+   "focal_point": [
+    0.5,
+    0.3
+   ],
+   "credit": "Tusculum portrait, Museo di Antichità, Turin · photo Marie-Lan Taÿ Pamart (Jastrow)",
    "license": "Public domain",
-   "credit": "Tusculum portrait, Turin · photo Jastrow",
    "source_url": "https://commons.wikimedia.org/wiki/File:Head_of_Julius_Caesar_from_Tusculum_MAntTorino_2089_n01.jpg"
+  },
+  "grammar_target": [
+   "sum"
+  ],
+  "grammar_preview": [
+   "perfect_passive"
+  ],
+  "learn_more": {
+   "label": "Alea iacta est",
+   "url": "https://en.wikipedia.org/wiki/Alea_iacta_est"
   }
  },
  {
@@ -3028,8 +4563,9 @@
   ],
   "grammar_tags": [
    "imperfect",
-   "infinitive",
-   "genitive_of_description"
+   "genitive",
+   "accusative",
+   "infinitive"
   ],
   "vocab_ids": [
    "condo",
@@ -3047,21 +4583,38 @@
     "romanus"
    ],
    "score": 3,
-   "rank": 31
+   "role": "preview",
+   "rank": 43
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Virgil mosaic in the Bardo National Museum (Tunis) (12241228546).jpg",
-   "alt": "Virgil between two Muses, mosaic, Bardo Museum",
-   "kind": "painting",
-   "aspect": "3:4",
-   "transparent": false,
-   "license": "Public domain",
-   "credit": "Virgil Mosaic, Bardo Museum, Tunis · Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg"
+   "src": "img/coin.webp",
+   "alt": "Silver denarius of Julius Caesar, 47–46 BC: Aeneas carrying Anchises and the Palladium, inscribed CAESAR",
+   "kind": "coin",
+   "aspect": "4:5",
+   "transparent": true,
+   "focal_point": [
+    0.5,
+    0.5
+   ],
+   "credit": "Silver denarius of Julius Caesar, 47–46 BCE · The Met, Rogers Fund, 1908 (248033)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/248033"
+  },
+  "grammar_target": [
+   "imperfect",
+   "genitive",
+   "accusative"
+  ],
+  "grammar_preview": [
+   "infinitive"
+  ],
+  "learn_more": {
+   "label": "Aeneid",
+   "url": "https://en.wikipedia.org/wiki/Aeneid"
   }
  },
  {
@@ -3069,9 +4622,9 @@
   "type": "quote",
   "era": "empire",
   "unit": 6,
-  "latin": "… duās tantum rēs anxius optat, pānem et circēnsēs.",
+  "latin": "… duās tantum rēs ānxius optat, pānem et circēnsēs.",
   "translation": "… it anxiously longs for just two things: bread and circuses.",
-  "context": "Juvenal sneers that the Roman people, who once handed out commands and legions, now want only free grain and chariot races.",
+  "context": "Juvenal sneers that the Roman people (populus is the subject of optat), who once handed out commands and legions, now want only free grain and chariot races.",
   "person": "Decimus Iunius Iuvenalis",
   "source": {
    "work": "Satires",
@@ -3100,8 +4653,8 @@
     "parse": "acc. pl. f."
    },
    {
-    "word": "anxius",
-    "lemma": "anxius",
+    "word": "ānxius",
+    "lemma": "ānxius",
     "meaning": "anxious(ly)",
     "parse": "nom. sg. m."
    },
@@ -3154,21 +4707,32 @@
     "circenses"
    ],
    "score": 3,
-   "rank": 32
+   "role": "preview",
+   "rank": 44
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Giovanni Battista Piranesi, The Colosseum.png",
+   "src": "img/rome/colosseum.webp",
    "alt": "Piranesi etching of the Colosseum",
    "kind": "painting",
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Giovanni Battista Piranesi · public domain",
+   "credit": "Giovanni Battista Piranesi",
    "source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi,_The_Colosseum.png"
+  },
+  "grammar_target": [
+   "accusative",
+   "third_declension",
+   "numerals"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "Bread and circuses",
+   "url": "https://en.wikipedia.org/wiki/Bread_and_circuses"
   }
  },
  {
@@ -3222,7 +4786,7 @@
   "grammar_tags": [
    "possum",
    "infinitive",
-   "partitive_genitive"
+   "genitive"
   ],
   "vocab_ids": [
    "malum",
@@ -3239,84 +4803,32 @@
     "suadeo"
    ],
    "score": 3,
-   "rank": 33
+   "role": "preview",
+   "rank": 45
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Roman-mosaic-know-thyself.jpg",
-   "alt": "Roman mosaic of a skeleton with the Greek motto \"know thyself\"",
-   "kind": "painting",
-   "aspect": "4:3",
-   "transparent": false,
-   "license": "Public domain",
-   "credit": "Museo Nazionale Romano · Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Roman-mosaic-know-thyself.jpg"
-  }
- },
- {
-  "id": "q-livy-vae",
-  "type": "quote",
-  "era": "republic",
-  "unit": 4,
-  "latin": "Vae victīs!",
-  "translation": "Woe to the conquered!",
-  "context": "After sacking Rome around 390 BC, the Gallic chief Brennus threw his sword onto the scales as the Romans weighed out their ransom in gold.",
-  "person": "Brennus (reported by Livy)",
-  "source": {
-   "work": "Ab Urbe Condita",
-   "citation": "5.48.9",
-   "date": "c. 27-9 BC (event 390 BC)"
-  },
-  "source_url": "https://www.thelatinlibrary.com/livy/liv.5.shtml",
-  "attribution_confidence": "traditional",
-  "attribution_note": "Text verified in Livy; words of a Gaul reported ~350 years later.",
-  "gloss": [
-   {
-    "word": "Vae",
-    "lemma": "vae",
-    "meaning": "woe",
-    "parse": "interj. + dat."
-   },
-   {
-    "word": "victīs",
-    "lemma": "vincō",
-    "meaning": "to the conquered",
-    "parse": "perf. pass. part., dat. pl."
-   }
-  ],
-  "grammar_tags": [
-   "dative",
-   "participle_as_noun"
-  ],
-  "vocab_ids": [
-   "vae",
-   "vinco"
-  ],
-  "teaching_value": {
-   "note": "Short but useful: dative plural of a participle used as a noun. A lead-in to the dative in Unit 4.",
-   "dcc_core_pct": 50,
-   "non_core": [
-    "vae"
-   ],
-   "score": 3,
-   "rank": 34
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "image": {
-   "src": "TODO:Fragmentary marble head of a helmeted soldier MET DP106984.jpg",
-   "alt": "Marble head of a helmeted soldier, Flavian period, The Met",
+   "src": "img/rome/epicurus.webp",
+   "alt": "Roman marble bust of Epicurus, Lucretius's master",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
-   "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Fragmentary_marble_head_of_a_helmeted_soldier_MET_DP106984.jpg"
+   "credit": "Wikimedia Commons (CC0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_Bust_of_Epicurus,_Roman_Copy.jpg"
+  },
+  "grammar_target": [
+   "possum",
+   "infinitive",
+   "genitive"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "De rerum natura",
+   "url": "https://en.wikipedia.org/wiki/De_rerum_natura"
   }
  },
  {
@@ -3355,10 +4867,16 @@
     "parse": "gen. pl. f."
    },
    {
-    "word": "tūque",
-    "lemma": "tū + -que",
-    "meaning": "and you",
-    "parse": "nom./voc."
+    "word": "tū",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "voc."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
    },
    {
     "word": "invidiōsa",
@@ -3387,22 +4905,24 @@
   ],
   "grammar_tags": [
    "vocative",
-   "second_person_plural",
-   "genitive"
+   "genitive",
+   "personal_pronouns",
+   "second_person_plural"
   ],
   "vocab_ids": [
+   "-que",
    "destruo",
    "edax",
    "invidiosus",
    "omnis",
    "res",
    "tempus",
-   "tu + -que",
+   "tu",
    "vetustas"
   ],
   "teaching_value": {
    "note": "Vocatives addressing abstractions, 2nd-pl. verb with two subjects, objective genitive rērum.",
-   "dcc_core_pct": 50,
+   "dcc_core_pct": 56,
    "non_core": [
     "edax",
     "invidiosus",
@@ -3410,21 +4930,107 @@
     "destruo"
    ],
    "score": 3,
-   "rank": 35
+   "role": "preview",
+   "rank": 46
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Marble sarcophagus with the contest between the Muses and the Sirens MET DP138718.jpg",
-   "alt": "Sarcophagus with Muses and Sirens, The Met",
-   "kind": "artifact",
-   "aspect": "2:1",
+   "src": "img/rome/womanhead.webp",
+   "alt": "Roman marble portrait head of a woman",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_sarcophagus_with_the_contest_between_the_Muses_and_the_Sirens_MET_DP138718.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_head_of_a_woman_MET_DP333686.jpg"
+  },
+  "grammar_target": [
+   "vocative",
+   "genitive",
+   "personal_pronouns",
+   "second_person_plural"
+  ],
+  "grammar_preview": [],
+  "learn_more": {
+   "label": "Metamorphoses",
+   "url": "https://en.wikipedia.org/wiki/Metamorphoses"
+  }
+ },
+ {
+  "id": "q-livy-vae",
+  "type": "quote",
+  "era": "republic",
+  "unit": 4,
+  "latin": "Vae victīs!",
+  "translation": "Woe to the conquered!",
+  "context": "After sacking Rome around 390 BC, the Gallic chief Brennus threw his sword onto the scales as the Romans weighed out their ransom in gold.",
+  "person": "Brennus (reported by Livy)",
+  "source": {
+   "work": "Ab Urbe Condita",
+   "citation": "5.48.9",
+   "date": "c. 27-9 BC (event 390 BC Varronian; probably 387/386 BC)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/livy/liv.5.shtml",
+  "attribution_confidence": "traditional",
+  "attribution_note": "Text verified in Livy; words of a Gaul reported ~350 years later.",
+  "gloss": [
+   {
+    "word": "Vae",
+    "lemma": "vae",
+    "meaning": "woe",
+    "parse": "interj. + dat."
+   },
+   {
+    "word": "victīs",
+    "lemma": "vincō",
+    "meaning": "to the conquered",
+    "parse": "perf. pass. part., dat. pl."
+   }
+  ],
+  "grammar_tags": [
+   "dative",
+   "participle_as_noun"
+  ],
+  "vocab_ids": [
+   "vae",
+   "vinco"
+  ],
+  "teaching_value": {
+   "note": "Short but useful: dative plural of a participle used as a noun. A lead-in to the dative in Unit 4.",
+   "dcc_core_pct": 50,
+   "non_core": [
+    "vae"
+   ],
+   "score": 3,
+   "role": "preview",
+   "rank": 47
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "image": {
+   "src": "img/rome/brennus.webp",
+   "alt": "Illustration: Brennus throws his sword on the scales",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Brennus_and_Sulpicius_(illustration).jpg"
+  },
+  "grammar_target": [
+   "dative"
+  ],
+  "grammar_preview": [
+   "participle_as_noun"
+  ],
+  "learn_more": {
+   "label": "Brennus (4th century BC)",
+   "url": "https://en.wikipedia.org/wiki/Brennus_(4th_century_BC)"
   }
  },
  {
@@ -3488,21 +5094,33 @@
     "perennis"
    ],
    "score": 3,
-   "rank": 36
+   "role": "preview",
+   "rank": 48
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
    "review_threshold": 0.9
   },
   "image": {
-   "src": "TODO:Silver denarius of Octavian MET sf0817088r.jpg",
-   "alt": "Silver denarius of Octavian, The Met",
-   "kind": "coin",
-   "aspect": "4:5",
-   "transparent": true,
-   "license": "CC0",
-   "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Silver_denarius_of_Octavian_MET_sf0817088r.jpg"
+   "src": "img/rome/cestius.webp",
+   "alt": "Pyramid of Cestius, Rome",
+   "kind": "building",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY 4.0",
+   "credit": "Wikimedia Commons (CC BY 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pyramide_564.jpg"
+  },
+  "grammar_target": [
+   "perfect_tense"
+  ],
+  "grammar_preview": [
+   "comparative",
+   "ablative_of_comparison"
+  ],
+  "learn_more": {
+   "label": "Odes (Horace)",
+   "url": "https://en.wikipedia.org/wiki/Odes_(Horace)"
   }
  }
 ]

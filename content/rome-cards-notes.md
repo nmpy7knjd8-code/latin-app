@@ -1,69 +1,110 @@
-# Rome content mining: notes (units 1–8)
+# Rome cards: notes (batch 2, 13 Oct 2026)
 
-**Output:** `rome-cards.json` has 36 cards, all valid against `card-schema.json`. Each card has:
-- `teaching_value` with `score` (1–5), `dcc_core_pct`, `non_core` and `rank`.
-- `source_url` pointing to the online text the card was checked against.
+**Output:** `rome-cards.json` has 48 cards, all valid against `card-schema.json`, and the build lint passes.
 
-The file is sorted by rank. To regenerate it, run `build.py` (it reads `cards.py` plus the scraped DCC list in /tmp/ll/dcc.json, which is from dcc.dickinson.edu/latin-core-list1).
+**Build:** `python3 content/rome_build.py`. It reads `rome_cards.py` (the texts), `rome_meta.py` (unit placement, grammar, images, learn_more) and `data/dcc-core.json` (the Dickinson Core list). Nothing depends on /tmp any more.
 
-## How cards were selected (Garrett's priority: learning over trivia)
-- **Score** is a judgement call. 5 means short, a clear demonstration of a grammar point in the unit sequence, and a sentence pattern you can reuse.
-- **Rank** sorts by score first, then by the % of non-proper-noun lemmas that are in the DCC Core 1000.
-- Every card drills a named grammar tag (see `teaching_value.note`).
-- I dropped trivia-only lines. Examples: Twelve Tables *si in ius vocat* (archaic forms) and *Quintili Vare, legiones redde* (not found in the Latin Library text).
-- **Top 9 (score 5):**
-  - Seneca *hominēs dum docent discunt*; can be used from Unit 3
-  - Seneca *omnia … aliēna sunt, tempus tantum nostrum est*
-  - Martial *sunt bona, sunt … mala plūra*
-  - Tacitus *ubi sōlitūdinem faciunt, pācem appellant*
-  - Cicero *salūs populī suprēma lēx estō*
-  - Virgil *arma virumque canō*
-  - Cornelia *haec ornāmenta sunt mea*
-  - Horace *sapere audē, incipe*
-  - Cicero *historia … magistra vītae*: five genitives in a row
+**Images:** `rome_images_fetch.py` downloads from Commons and re-checks each licence through the API. `rome_images_process.py` (run with the /workspace/venv Python) does the following:
+- rembg with the `isnet-general-use` model for 3D objects, cropped to the object's edges and saved as WebP
+- crop to the target aspect ratio for flat images
+
+Results go to `img/rome/`.
+
+## Review-rome.md: what was applied
+- **Unit placement (synthesis adopted).**
+  - Each card now has `grammar_target`, which is tested and must already be taught, and `grammar_preview`, which is glossed only.
+  - `grammar_tags` is target + preview.
+  - The lint fails if any target tag is taught after the card's unit.
+  - The `TAUGHT` map follows **game-design.md** (perfect in U6, future in U7). The reviewer listed perfect in U7 and future in U6; game-design.md is treated as the source of truth here.
+  - Cards were moved to fit:
+    - Arma: U3 → U7
+    - Tacitus solitudinem: U3 → U5
+    - Historia: U4 → U5
+    - Horace sapere: U7, with the infinitive as a preview
+- **Scoring.**
+  - The rule "score 5 only if core vocabulary ≥80%" is enforced automatically.
+  - `teaching_value.role` is `anchor` when core ≥80% and the card has a target tag; otherwise it is `preview`. 22 cards are anchors.
+- **Text and metadata fixes.**
+  - Catullus 5 context (the "night" is death)
+  - Titus: short i, `F(ILIO)` instead of `F[ILIO]`, *VESPASIANO* added to the gloss
+  - Horace placeholder metadata now uses the real cards.js image data
+  - *sapere audē* and *ōdī et amō* translations
+  - Historia now ends with "…"
+  - Pantheon: *Lūcī*
+  - Gloss note on *Ītaliam* (vowel lengthened for the metre)
+  - *tu + -que* split into two vocab entries
+  - Erasmus note on *alea esto*
+  - *laudī / linguae* variant for *cēdant arma togae*
+  - Agricola 30.5 vs 30.4
+  - Livy's Varronian date
+  - Locke for *salūs populī*
+  - Juvenal: *populus* is the subject of *optat*
+- ***Quīntilī Vāre, legiōnēs redde!* (Suet. Aug. 23.2) restored.** It is in the Latin Library text, which is UTF-16 encoded; that's why the earlier string match failed. The spelling there is *Quintili*. It is marked `traditional` because Suetonius says *ferunt* ("they say").
+- **Images.**
+  - No image is used twice.
+  - Memento-mori mosaic cropped to 3:4.
+  - Sarcophagus frieze is now 2:1 with no cut-out.
+  - Pantheon .tif converted to WebP.
+  - Swaps:
+
+    | Card | New image |
+    |---|---|
+    | Martial | wax writing tablet |
+    | Lucretius | bust of Epicurus |
+    | *Exēgī* | Pyramid of Cestius |
+    | Catullus 101 | funerary altar of Cominia Tyche |
+    | *mēns sāna* | bronze Mercury |
+    | *cēdant arma* | armoured torso |
+    | Calgacus | Gallic warrior statue (loose match: not Caledonian) |
+    | *vae victīs* | Brennus illustration |
+    | *tantae mōlis* | Aeneas denarius |
+    | *fugit tempus* | sundial |
+    | Titus | the real attic inscription. The earlier file was the modern "ARCO DI TITO" sign, now fixed. |
+    | women's portraits | front views; the first set were photos of the back of the head |
+
+- **Not done.**
+  - Separate `text_verified` and `speaker_historicity` fields (review item 15). The point is covered in `attribution_note` instead.
+  - Adapted Latin lead-ins (synthesis item 2). That is a content task for later.
+
+## New cards (12)
+- **Unit 5, Gods (now 11 cards):**
+  - Seneca *Prope est ā tē deus* (Ep. 41.1)
+  - Aen. 1.8 *Mūsa, mihi causās memorā*
+  - Aen. 1.11 *Tantaene animīs caelestibus īrae?*
+  - Ovid Fasti 6.267 (Vesta)
+  - Ars 1.637 *Expedit esse deōs*
+  - Aen. 6.126 *Facilis dēscēnsus Avernō*
+  - EID MAR coin
+- **Coins:** EID MAR (Brutus) and AEGVPTO CAPTA (Octavian). The legends come from Wikipedia articles; I removed the RRC/RIC catalogue numbers because I couldn't verify them.
+- **Inscriptions and graffiti:**
+  - SPQR (U1)
+  - *Cave canem* (Pompeii mosaic, U2)
+  - S·T·T·L *Sit tibi terra levis* (U4)
 
 ## Verification
-- Every literary quote was string-matched in the Latin Library text at its `source_url`.
-- Citations: book and line/section numbers come from the page's markers. For Seneca, the letter number was counted from the SENECA LUCILIO headers.
-- The two inscriptions (Pantheon, CIL VI 896; Arch of Titus, CIL VI 945) were checked against Wikipedia, which cites CIL. They should be double-checked in EDCS/EDR.
-- **Macrons are my own.** They follow standard dictionary quantities. Please run them through a macronizer (e.g. Alatius) as a second check.
-- **Spelling differences in the Latin Library text:**
-  - *ferentīs* (we print *ferentēs*)
-  - *inreparabile* (we print *irreparābile*)
-  - *u* for *v* in some texts
+- **EDCS/EDR: not completed.**
+  - EDCS has moved to edcs.hist.uzh.ch. Its `/api/search` returned `[]` for every query I tried.
+  - EDR timed out.
+  - So the Pantheon (CIL VI 896) and Titus (CIL VI 945) texts are still checked only against Wikipedia, which cites CIL.
+- **Pompeii graffiti: not added.** The Ancient Graffiti Project was unreachable, and I couldn't find a verifiable online CIL IV text. The Pompeii item included is the mosaic inscription.
+- **Macronizer.** All 48 Latin lines, with macrons stripped, were run through the Alatius macronizer (alatius.com/macronizer). There were 21 differences:
+  - **Adopted:** *ōrnāmenta*, *ānxius*, and *Īdibus* (the coin's EID is the old spelling).
+  - **Kept, Alatius wrong in context:**
+    - *legis* (present tense)
+    - *hīc* (adverb)
+    - *Agrippa* (nominative)
+    - *Cavē* (imperative)
+    - *vēnit* (perfect)
+    - *fugit* (present)
+    - *putēmus*
+    - *ūsque*
+    - *abūtēre* (future)
+    - *aere* (from *aes*)
+    - *Trōiae*
+  - Inscriptions are kept in capitals with no macrons.
+- **learn_more:** every card has one. All learn_more and source URLs return HTTP 200.
 
-## Attribution flags
-- **traditional:**
-  - *Iacta ālea est*: Plutarch says Caesar spoke Greek
-  - *Vae victīs*: Livy reporting a Gaul ~350 years later
-  - Cornelia's jewels: Valerius Maximus, ~150 years later
-- **Speech written by the author, not the speaker:** Tacitus/Calgacus and Virgil/Laocoön.
-- *Salūs populī*: the original text begins *Ollīs …*, and the motto form is a trimmed version.
-- *Cēdant arma togae*: Cicero is quoting his own lost poem.
-
-## Images
-- All are on Wikimedia Commons. Licences come from the Commons API `extmetadata` (CC0, Public domain or PD) and are within the schema's enum.
-- `src` is `TODO:<file>` until someone downloads the image and cuts it out. Cards whose image is already in the app use its `img/*.webp`.
-- **Good 3D cut-out candidates (Met CC0):**
-  - Augustus portrait
-  - helmeted soldier head
-  - bronze cuirass torso
-  - Venus Genetrix
-  - bust of a woman and bust of a boy
-  - glass cup
-  - Octavian denarius
-  - Romulus & Remus
-  - Commons CC0 objects: Capitoline Wolf and Laocoön
-- **Weak or stand-in matches; swap them later:**
-  - lamp image for Martial and Seneca *nusquam*
-  - "know thyself" mosaic for Lucretius
-  - Octavian coin for Horace *Exēgī*
-  - boy bust for Catullus 101
-  - "Pseudo-Seneca" is not really Seneca (the label already says so)
-- **Rejected:** CC BY-SA 2.x/3.0 images (Pantheon photos, Curia, *Cave canem*, *Iudaea capta*), because they're outside the schema's licence enum.
-
-## Gaps / next steps
-- **Pompeii graffiti and coin legends:** not done. I couldn't verify a CIL text online in the time I had, and the Met's API returned 410 Gone.
-- **Unit 5 (Gods) is thin:** only *timeō Danaōs* and *est modus*. It needs Vesta/Jupiter material.
-- **Ecl. 10.69 *omnia vincit Amor*:** the Latin Library page is missing, so it's not verified.
-- `vocab_ids` are lemma strings with macrons stripped. They aren't mapped to vocab-record ids yet.
+## Gaps
+- **U3 (Legio) now has 0 cards**, because the review's grammar rules pushed its old cards later. It needs simple present-tense military Latin, such as tombstones of legionaries.
+- U1 has 2 cards and U2 has 3.
+- `img/rome/licences.json` only lists the last re-fetch. Every licence was checked through the API at download time.

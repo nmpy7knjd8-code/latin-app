@@ -1,0 +1,214 @@
+[
+ {
+  "id": "story-u1",
+  "unit": 1,
+  "title": "Rōma",
+  "lines": [
+   "Rōma urbs est.",
+   "Urbs magna est.",
+   "In urbe est via longa.",
+   "Via est Via Appia.",
+   "Lupa in Palātiō est.",
+   "Lupa nōn mala est; lupa bona est."
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-urbs",
+   "v-via",
+   "g-sum-est",
+   "g-1decl-nom",
+   "i-spqr",
+   "x-map-roma"
+  ]
+ },
+ {
+  "id": "story-u2",
+  "unit": 2,
+  "title": "Familia Cornēliae",
+  "lines": [
+   "Cornēlia māter est.",
+   "Gracchī fīliī sunt.",
+   "Pater fīliōs amat; māter fīliōs amat.",
+   "Fēmina ornāmenta habet.",
+   "Cornēlia fīliōs vocat.",
+   "'Haec ornāmenta sunt mea,' Cornēlia dīcit."
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-pater",
+   "v-filius",
+   "g-acc",
+   "g-2decl",
+   "d-familia",
+   "l-bulla"
+  ]
+ },
+ {
+  "id": "story-u3",
+  "unit": 3,
+  "title": "In castrīs",
+  "lines": [
+   "Mīlitēs in castrīs sunt.",
+   "Centuriō mīlitēs videt.",
+   "Mīlitēs ambulant et labōrant.",
+   "Centuriō mīlitēs monet.",
+   "Mīlitēs pīla portant.",
+   "Legiō pugnat et superat."
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-miles",
+   "v-castra",
+   "g-1conj",
+   "g-2conj",
+   "l-pila",
+   "x-parse-signum"
+  ]
+ },
+ {
+  "id": "story-u4",
+  "unit": 4,
+  "title": "In Forō",
+  "lines": [
+   "Forum Rōmānōrum magnum est.",
+   "Senātus in Cūriā est.",
+   "Cicerō senātōribus verba dat.",
+   "Cōnsul bonus rem pūblicam servat.",
+   "Catilīna est vir malus.",
+   "Populus Cicerōnī grātiās agit."
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-res-publica",
+   "v-senatus",
+   "g-gen",
+   "g-dat",
+   "g-adj",
+   "l-toga",
+   "d-dico"
+  ]
+ },
+ {
+  "id": "story-u5",
+  "unit": 5,
+  "title": "Templum Vestae",
+  "lines": [
+   "In urbe est templum Vestae.",
+   "Virginēs in templō sunt.",
+   "Ignis in templō semper ārdet.",
+   "Cum virginibus est sacerdōs.",
+   "Ex templō aqua nōn venit, sed ignis.",
+   "Sine igne Rōma nōn est tūta."
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-deus",
+   "v-templum",
+   "g-3decl",
+   "g-abl-prep",
+   "l-lares"
+  ]
+ },
+ {
+  "id": "story-u6",
+  "unit": 6,
+  "title": "Augustus",
+  "lines": [
+   "Rōmānī lateribus aedificābant.",
+   "Augustus templa marmore aedificāvit.",
+   "Multa bella gessit.",
+   "Mīlitēs eum imperātōrem vocābant.",
+   "Nummī nōmen eius portābant.",
+   "Augustus dīcere poterat: 'Urbem marmoream relīquī.'"
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-imperator",
+   "g-impf",
+   "g-possum",
+   "l-denarius",
+   "x-timeline-emp"
+  ]
+ },
+ {
+  "id": "story-u7",
+  "unit": 7,
+  "title": "Poēta",
+  "lines": [
+   "Horātius poēta erat.",
+   "'Carpe diem,' amīcae dīxit.",
+   "'Crās fortasse nōn erō.'",
+   "'Sed versūs meī manēbunt.'",
+   "'Nōn omnis moriar.'",
+   "Etiam nunc versūs eius legimus."
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-amo",
+   "g-pronoun",
+   "v-tempus"
+  ]
+ },
+ {
+  "id": "story-u8",
+  "unit": 8,
+  "title": "Philosophus",
+  "lines": [
+   "Seneca philosophus erat.",
+   "Lūcīliō epistulās scrībēbat.",
+   "Dīcit vītam esse mīlitiam.",
+   "Animus fortis esse dēbet.",
+   "Vīvere est discere.",
+   "Nōs quoque discere possumus."
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-animus",
+   "g-ind-stat",
+   "d-video",
+   "x-greek-flag",
+   "l-schola"
+  ]
+ },
+ {
+  "id": "story-u9",
+  "unit": 9,
+  "title": "Rōma capta",
+  "lines": [
+   "Annō quadringentēsimō decimō Gothī vēnērunt.",
+   "Rōma capta est.",
+   "Multī cīvēs territī sunt.",
+   "Augustīnus librum scrīpsit.",
+   "In librō Cīvitās Deī laudātur.",
+   "Urbs terrēna cadit; verba manent."
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "g-passive",
+   "v-rex",
+   "d-crux",
+   "l-annona"
+  ]
+ },
+ {
+  "id": "story-u10",
+  "unit": 10,
+  "title": "Scrīptor",
+  "lines": [
+   "In monastēriō erat monachus quī librōs scrībēbat.",
+   "Liber quem scrībēbat erat Ēvangelium.",
+   "Manūs eius frīgidae erant.",
+   "Abbās, quī eum vidēbat, laudāvit.",
+   "Tandem monachus scrīpsit: 'Explicit liber.'",
+   "'Ōrāte prō scrīptōre!'"
+  ],
+  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "drills": [
+   "v-liber",
+   "l-monasterium",
+   "x-colophon",
+   "x-map-medieval",
+   "d-scribo"
+  ]
+ }
+]

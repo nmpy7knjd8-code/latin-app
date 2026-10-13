@@ -11,11 +11,18 @@ import json, re, sys, unicodedata, os
 
 SHORT = {'a':'a','e':'ɛ','i':'ɪ','o':'ɔ','u':'ʊ','y':'ʏ'}
 LONG = {'ā':'aː','ē':'eː','ī':'iː','ō':'oː','ū':'uː','ȳ':'yː'}
-RESP_V = {'a':'ah','ɛ':'eh','ɪ':'ih','ɔ':'o','ʊ':'u','ʏ':'ü','aː':'ah','eː':'ay','iː':'ee','oː':'oh','uː':'oo','yː':'ü',
-          'ae̯':'eye','au̯':'ow','oe̯':'oy','ei̯':'ay','eu̯':'eh-oo','ui̯':'wee'}
-RESP_C = {'k':'k','kʰ':'k','kʷ':'kw','gʷ':'gw','g':'g','w':'w','j':'y','pʰ':'p','tʰ':'t','ŋ':'ng','h':'h','dz':'dz'}
+# Respelling convention: SHORT vowels are bare letters (a e i o u, u as in "put"),
+# LONG vowels are digraphs (ah ay ee oh oo). Stressed syllable in CAPS.
+RESP_V = {'a':'a','ɛ':'e','ɪ':'i','ɔ':'o','ʊ':'u','ʏ':'ü','aː':'ah','eː':'ay','iː':'ee','oː':'oh','uː':'oo','yː':'üü',
+          'ae̯':'eye','au̯':'ow','oe̯':'oy','ei̯':'ay','eu̯':'eh-oo','ui̯':'oo-ee'}
+# short vowel + coda j (before a jj geminate): maior MEYE-yor, Pompeius pom-PAY-yus, Troia TROY-ya, cuius KOOY-yus
+RESP_VJ = {'a':'eye','ɛ':'ay','ɪ':'ee','ɔ':'oy','ʊ':'ooy','ae̯':'eye','oe̯':'oy','ei̯':'ay','eu̯':'eh-oo'}
+LEGEND = ('Short vowels: a e i o u (u as in "put"). Long vowels: ah ay ee oh oo. CAPS = stressed syllable. '
+          'w = Latin v; k = c (always hard); g always hard; ngn = gn; p/t/k after an aspirated ph/th/ch are breathy p/t/k, NOT f/th.')
+RESP_C = {'k':'k','kʰ':'k','kʷ':'kw','gʷ':'gw','g':'g','w':'w','j':'y','pʰ':'p','tʰ':'t','ŋ':'ng','h':'h','dz':'dz','r̥':'r'}
 STOPS = {'p','b','t','d','k','g','pʰ','tʰ','kʰ'}
-EU_WORDS = {'heu','ēheu','eheu','seu','neu','ceu','neuter','neutrum','neutra'}
+EU_WORDS = {'heu','ēheu','eheu','seu','neu','ceu','euge','euhoe','euoe','neuter','neutrum','neutra','neutrī','neutrō','neutram'}
+SU_GLIDE = ('suāv','suād','suās','suēsc','suēt','suēv','suēf')   # u after s consonantal: suāvis SWAH-wis
 UI_WORDS = {'cui','huic','cuique'}
 QUE_EXC = {'atque','neque','itaque','quoque','usque','undique','ubique','utique','dēnique','plērumque','quisque',
            'quaeque','quodque','quidque','quemque','quōque','quāque','utrumque','uterque','quīcumque','quācumque',
@@ -37,26 +44,34 @@ def segment(w):
         # diphthongs (no macron, no diaeresis on second)
         if c2 in ('ae','au','oe') and nxt(i+2)!='\u0308':
             out.append((c2[0]+c2[1]+'\u032f','V')); i+=2; continue
-        if c2=='eu' and w in EU_WORDS: out.append(('eu̯','V')); i+=2; continue
+        if c2=='eu' and (w in EU_WORDS or (i==0 and len(w)>2 and w[2] not in 'naeiouāēīōū')): out.append(('eu̯','V')); i+=2; continue
         if c2=='ei' and w in ('dein','deinde','hei','ei'): out.append(('ei̯','V')); i+=2; continue
         if c2=='ui' and w in UI_WORDS: out.append(('ui̯','V')); i+=2; continue
+        if ch=='u' and i>0 and w[i-1]=='s' and w[i-1:].startswith(SU_GLIDE): out.append(('w','C')); i+=1; continue
         if c2=='qu' : out.append(('kʷ','C')); i+=2; continue
         if c2=='gu' and i>0 and w[i-1]=='n' and _vowel_char(nxt(i+2)): out.append(('gʷ','C')); i+=2; continue
         if c2 in ('ch','ph','th','rh'):
-            out.append(({'ch':'kʰ','ph':'pʰ','th':'tʰ','rh':'r'}[c2],'C')); i+=2; continue
-        if c2=='gn': out.extend([('ŋ','C'),('n','C')]); i+=2; continue
+            out.append(({'ch':'kʰ','ph':'pʰ','th':'tʰ','rh':'r̥'}[c2],'C')); i+=2; continue
+        if c2=='gn': out.extend([('g' if i==0 else 'ŋ','C'),('n','C')]); i+=2; continue
         if ch in LONG: out.append((LONG[ch],'V')); i+=1; continue
         if ch in 'ij':
             prevV = out and out[-1][1]=='V'
             nextV = _vowel_char(nxt(i+1))
             if ch=='j' or (nextV and (i==0 or prevV)) :
-                if prevV and i>0: out.extend([('j','C'),('j','C')])
+                if prevV and i>0:
+                    # Allen VL 38-39: vowel before intervocalic i (=jj) is short; heavy by position
+                    pv=out[-1][0]
+                    if pv.endswith('ː'): out[-1]=({'aː':'a','eː':'ɛ','iː':'ɪ','oː':'ɔ','uː':'ʊ','yː':'ʏ'}[pv],'V')
+                    out.extend([('j','C'),('j','C')])
                 else: out.append(('j','C'))
                 i+=1; continue
             out.append(('ɪ','V')); i+=1; continue
         if ch in SHORT: out.append((SHORT[ch],'V')); i+=1; continue
         m={'c':'k','k':'k','v':'w','x':None,'z':'dz','y':'ʏ'}
-        if ch=='x': out.extend([('k','C'),('s','C')]); i+=1; continue
+        if ch=='x':
+            out.extend([('k','C'),('s','C')]); i+=1
+            if nxt(i)=='s': i+=1          # exs- = /ks/ (exspectō ɛkˈspɛk.toː)
+            continue
         if ch in m: out.append((m[ch],'C')); i+=1; continue
         if ch.isalpha(): out.append((ch,'C'))
         i+=1
@@ -78,6 +93,8 @@ def syllabify(seg):
         else:
             last2=(seg[cl[-2]][0],seg[cl[-1]][0])
             cut = cl[-2] if (last2[0] in STOPS and last2[1] in ('l','r')) else cl[-1]
+            if last2==('s','w'): cut=cl[-2]                      # cōn.suē.tū.dō
+            if L>=3 and seg[cl[0]][0]=='k' and seg[cl[1]][0]=='s': cut=cl[1]  # ex.spec.tō
         bounds.append(cut)
     bounds.append(len(seg))
     syl=[seg[bounds[k]:bounds[k+1]] for k in range(len(vi))]
@@ -108,48 +125,113 @@ def stress_index(syl, word):
     if n==2: return 0
     return n-2 if heavy(syl[-2]) else n-3
 
-def word_tx(word):
+def word_parse(word):
     seg=segment(word)
     if not seg: return None
     syl=syllabify(seg)
     if not syl: return None
-    st=stress_index(syl,word)
+    return [list(x) for x in syl], stress_index(syl,word)
+
+def render(syl, st):
     ipa=[]; rsp=[]
     for k,s in enumerate(syl):
+        if not s: continue
         ipa.append(('ˈ' if k==st else '')+''.join(p for p,_ in s))
         r=''
-        for p,t in s:
+        for q,(p,t) in enumerate(s):
+            if t=='V' and q+1<len(s) and s[q+1][0]=='j' and p in RESP_VJ and q+2==len(s):
+                r+=RESP_VJ[p]; continue
+            if p=='j' and q>0 and s[q-1][1]=='V' and s[q-1][0] in RESP_VJ and q+1==len(s): continue
+            if t=='N': r+=NASAL_R.get(p[0],'')+'n'; continue
             r+= RESP_V[p] if t=='V' else RESP_C.get(p,p)
         rsp.append(r.upper() if k==st else r)
-    # ensure respelling 's' word-finally single
-    return '.'.join(ipa), '-'.join(rsp)
+    return '.'.join(ipa).replace('.ˈ','ˈ') if False else '.'.join(ipa), '-'.join(rsp)
 
+def word_tx(word):
+    p=word_parse(word)
+    return render(*p) if p else None
+
+NASAL={'a':'ã','ɛ':'ẽ','ɪ':'ĩ','ɔ':'õ','ʊ':'ũ','aː':'ã','eː':'ẽ','iː':'ĩ','oː':'õ','uː':'ũ'}
+NASAL_R={'ã':'ah','ẽ':'ay','ĩ':'ee','õ':'oh','ũ':'oo'}
 TOKEN=re.compile(r"[A-Za-zĀĒĪŌŪȲāēīōūȳëÿ]+")
-def transcribe(text):
-    if not text: return None
-    ipas=[]; rs=[]
+def words_of(text):
+    out=[]
     for raw in re.split(r"\s+", text):
         if raw.startswith('-') : continue
         parts=TOKEN.findall(raw)
-        # skip lone abbreviations like "f." "m." and SPQR initials
-        if len(parts)==1 and len(parts[0])==1 and parts[0].lower() not in 'aeiouāēīōūō': continue
+        if len(parts)==1 and len(parts[0])==1 and parts[0].lower() not in 'aeiouāēīōū': continue
         if '·' in raw and all(len(p)==1 for p in parts): continue
-        for w in parts:
-            r=word_tx(w)
-            if r: ipas.append(r[0]); rs.append(r[1])
-    if not ipas: return None
+        if ('…' in raw or '...' in raw) and out: out[-1]=out[-1]+'|'   # lacuna: blocks elision
+        out+=parts
+        if ('…' in raw.rstrip('…') or raw.endswith('…') or raw.endswith('...')) and out: out[-1]=out[-1].rstrip('|')+'|'
+    return out
+
+def transcribe(text, verse=False):
+    """verse=True: synaloepha/elision of final V or Vm before an initial vowel or h+vowel
+    (prodelision with es/est: facta'st), and nasalised final -m elsewhere (Allen VL 30-31, 78-82).
+    Elided material is dropped; the remnant is joined to the next word with ‿ (IPA) / ' (respelling)."""
+    if not text: return None
+    raw=words_of(text)
+    brk={k for k,w in enumerate(raw) if w.endswith('|')}
+    ws=[(w.rstrip('|'),word_parse(w.rstrip('|')),k in brk) for k,w in enumerate(raw)]
+    brk2=[b for w,p,b in ws if p]
+    ws=[(w,p) for w,p,b in ws if p]
+    if not ws: return None
+    items=[[w,p[0],p[1],False] for w,p in ws]   # word, syl, stress, joined-to-next
+    if verse:
+        for k in range(len(items)):
+            w,syl,st,_=items[k]
+            last=syl[-1]
+            vow=[q for q,(p,t) in enumerate(last) if t=='V']
+            endsV = last[-1][1]=='V' or (len(last)>=2 and last[-1][0]=='m' and last[-2][1]=='V')
+            if k+1<len(items) and not brk2[k]:
+                nsyl=items[k+1][1]; first=nsyl[0]
+                nV = first[0][1]=='V' or (first[0][0]=='h' and len(first)>1 and first[1][1]=='V')
+                if endsV and nV and w.lower() not in ('ō','ō'):
+                    nw=items[k+1][0].lower()
+                    if nw in ('est','es') and len(syl)>0:
+                        # prodelision: drop the e of est/es
+                        items[k+1][1]=[[x for x in nsyl[0] if x[1]!='V']]; items[k+1][2]=None
+                        items[k+1][3]='pro'
+                    else:
+                        cut=vow[0]
+                        syl[-1]=last[:cut]
+                        items[k][3]=True
+                    continue
+            if last[-1][0]=='m' and len(last)>=2 and last[-2][1]=='V':
+                v=last[-2][0]; last[-2]=(NASAL.get(v,v)+'ː','N'); last.pop()
+    ipas=[];rs=[];pend_i='';pend_r=''
+    for w,syl,st,j in items:
+        if st is not None and st>=len(syl): st=None
+        i,r=render(syl,st)
+        if j=='pro':
+            ipas[-1]+='‿'+i; rs[-1]+="'"+r; continue
+        if j:
+            pend_i+=i+'‿'; pend_r+=(r if r else '')+"'"; continue
+        ipas.append(pend_i+i); rs.append(pend_r+r); pend_i=pend_r=''
     return '/'+' '.join(ipas)+'/', ' '.join(rs)
 
 # Wiktionary classical IPA (normalised: ɫ→l, final nasalised Ṽː→Vm, phonetic [ ]→phonemic, syllable dots kept)
 TESTS = {
  'vēnī':'ˈweː.niː','vīdī':'ˈwiː.diː','vīcī':'ˈwiː.kiː','Caesar':'ˈkae̯.sar','Cicerō':'ˈkɪ.kɛ.roː',
  'aqua':'ˈa.kʷa','magnus':'ˈmaŋ.nʊs','lingua':'ˈlɪŋ.gʷa','iam':'jam','Iūlius':'ˈjuː.lɪ.ʊs',
- 'māior':'ˈmaːj.jɔr','cuius':'ˈkʊj.jʊs','rēx':'reːks','urbs':'ʊrps','poena':'ˈpoe̯.na',
+ 'māior':'ˈmaj.jɔr','cuius':'ˈkʊj.jʊs','rēx':'reːks','urbs':'ʊrps','poena':'ˈpoe̯.na',
  'aurum':'ˈau̯.rʊm','philosophia':'pʰɪ.lɔˈsɔ.pʰɪ.a','virumque':'wɪˈrʊm.kʷɛ','amīcus':'aˈmiː.kʊs',
  'dominus':'ˈdɔ.mɪ.nʊs','tenebrae':'ˈtɛ.nɛ.brae̯','terra':'ˈtɛr.ra','pater':'ˈpa.tɛr','māter':'ˈmaː.tɛr',
  'fēcistī':'feːˈkɪs.tiː','senātus':'sɛˈnaː.tʊs','populus':'ˈpɔ.pʊ.lʊs','hominēs':'ˈhɔ.mɪ.neːs',
  'Rōma':'ˈroː.ma','discunt':'ˈdɪs.kʊnt','ignis':'ˈɪŋ.nɪs','cōnsul':'ˈkoːn.sʊl','iuvenis':'ˈjʊ.wɛ.nɪs',
- 'Graecia':'ˈgrae̯.kɪ.a','silva':'ˈsɪl.wa','vincō':'ˈwɪŋ.koː',
+ 'Graecia':'ˈgrae̯.kɪ.a','silva':'ˈsɪl.wa','vincō':'ˈwɪŋ.koː', # review-phonetics.md fixes
+ 'exspectō':'ɛkˈspɛk.toː','exsilium':'ɛkˈsɪ.lɪ.ʊm','exstinguō':'ɛkˈstɪŋ.gʷoː','Gnaeus':'ˈgnae̯.ʊs',
+ 'suāvis':'ˈswaː.wɪs','suādeō':'ˈswaː.dɛ.oː','suēscō':'ˈsweːs.koː','cōnsuētūdō':'koːn.sweːˈtuː.doː',
+ 'euge':'ˈeu̯.gɛ','heu':'heu̯','seu':'seu̯','neuter':'ˈneu̯.tɛr','eunt':'ˈɛ.ʊnt','Eurōpa':'eu̯ˈroː.pa',
+ 'Pompēius':'pɔmˈpɛj.jʊs','Trōia':'ˈtrɔj.ja','huic':'hui̯k','rhētor':'ˈr̥eː.tɔr','regnum':'ˈrɛŋ.nʊm',
+}
+RESP_TESTS = {'huic':'hoo-eek','cuius':'KOOY-yus','Pompēius':'pom-PAY-yus','māior':'MEYE-yor','Trōia':'TROY-ya',
+ 'suāvis':'SWAH-wis','vēnī':'WAY-nee','Rōma':'ROH-ma','pater':'PA-ter','māter':'MAH-ter','lūna':'LOO-na','hominēs':'HO-mi-nays'}
+VERSE_TESTS = {  # Allen VL on elision/final -m; Aen. 1.3, Hor. Od. 3.2.13, Cat. 85
+ 'multum ille et terrīs':'/ˈmʊl.t‿ˈɪl.l‿ɛt ˈtɛr.riːs/',
+ 'Dulce et decōrum est':'/ˈdʊl.k‿ɛt dɛ.ˈkoː.rʊm‿st/',
+ 'Quāre id faciam':'/ˈkʷaː.r‿ɪd ˈfa.kɪ.ãː/',
 }
 def run_tests():
     ok=0
@@ -159,24 +241,46 @@ def run_tests():
         good = g==e
         ok+=good
         print(('PASS' if good else 'FAIL'), w, '/'+got+'/', '' if good else 'expected /'+exp+'/')
-    print(f'{ok}/{len(TESTS)} passed'); return ok==len(TESTS)
+    n=len(TESTS)
+    for w,exp in RESP_TESTS.items():
+        got=word_tx(w)[1]; n+=1; ok+=got==exp
+        if got!=exp: print('FAIL resp',w,got,'expected',exp)
+    for t,exp in VERSE_TESTS.items():
+        got=transcribe(t,verse=True)[0].replace('.ˈ','ˈ'); n+=1; ok+=got==exp.replace('.ˈ','ˈ')
+        if got!=exp.replace('.ˈ','ˈ'): print('FAIL verse',t,got,'expected',exp)
+    print(f'{ok}/{n} passed (IPA words, respellings, verse)'); return ok==n
+
+VERSE_WORKS=re.compile(r"Aeneid|Georgic|Eclogue|Odes|Satires|Epistles|Epigram|Carmina$|^Carmina|Fasti|Metamorphoses|Ars Amatoria|Epistulae ex Ponto|De Rerum Natura|Epitaphium|Amores|Tristia",re.I)
+def is_verse(c):
+    src=c.get('source') or {}
+    w=src.get('work','') if isinstance(src,dict) else str(src)
+    if 'Burana' in w or 'Dies irae' in w or 'Symphonia' in w or 'Confessio' in w: return False  # rhythmic medieval verse: no classical elision
+    return bool(VERSE_WORKS.search(w))
+
+def entry(c,f):
+    r=transcribe(c.get('latin',''))
+    if not r: return None
+    e={'ipa':r[0],'respelling':r[1]}
+    if is_verse(c):
+        v=transcribe(c['latin'],verse=True)
+        if v and v!=r: e['ipa_verse'],e['respelling_verse']=v
+    return e
 
 def build():
     base=os.path.dirname(os.path.abspath(__file__)); root=os.path.dirname(base)
     out={}
     for f in ('rome-cards.json','medieval-cards.json','learning-cards.json'):
         for c in json.load(open(os.path.join(base,f))):
-            r=transcribe(c.get('latin',''))
-            if r: out[c['id']]={'ipa':r[0],'respelling':r[1],'latin':c['latin'],'src':f}
+            e=entry(c,f)
+            if e: out[c['id']]=dict(e,latin=c['latin'],src=f)
     js=open(os.path.join(root,'cards','cards.js')).read()
-    cards=json.loads(js[js.index('['):js.rindex(']')+1])
-    for c in cards:
-        r=transcribe(c.get('latin',''))
-        if r: out[c['id']]={'ipa':r[0],'respelling':r[1],'latin':c['latin'],'src':'cards.js'}
-    json.dump(out,open(os.path.join(base,'phonetics.json'),'w'),ensure_ascii=False,indent=1)
-    slim={k:{'ipa':v['ipa'],'respelling':v['respelling']} for k,v in out.items()}
-    open(os.path.join(root,'cards','phonetics.js'),'w').write('// Generated by content/phonetics.py --build. Do not edit.\nwindow.PHONETICS = '+json.dumps(slim,ensure_ascii=False,indent=1)+';\n')
-    print(len(out),'entries')
+    for c in json.loads(js[js.index('['):js.rindex(']')+1]):
+        e=entry(c,'cards.js')
+        if e: out[c['id']]=dict(e,latin=c['latin'],src='cards.js')
+    json.dump({'_legend':LEGEND,**out},open(os.path.join(base,'phonetics.json'),'w'),ensure_ascii=False,indent=1)
+    slim={k:{x:y for x,y in v.items() if x not in('latin','src')} for k,v in out.items()}
+    open(os.path.join(root,'cards','phonetics.js'),'w').write('// Generated by content/phonetics.py --build. Do not edit.\nwindow.PHONETICS_LEGEND = '+json.dumps(LEGEND,ensure_ascii=False)+';\nwindow.PHONETICS = '+json.dumps(slim,ensure_ascii=False,indent=1)+';\n')
+    print(len(out),'entries;',sum('ipa_verse' in v for v in out.values()),'with verse variants')
 
 if __name__=='__main__':
     a=sys.argv[1:]

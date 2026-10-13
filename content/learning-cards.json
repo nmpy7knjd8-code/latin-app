@@ -17,14 +17,36 @@
    "description": "Model of ancient Rome (Museo della Civiltà Romana), wide crop",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Rome (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Rome",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-urbs.jpg",
+   "alt": "Model of ancient Rome, made by Gismondi",
+   "kind": "painting",
+   "aspect": "753:522",
+   "transparent": false,
+   "credit": "Original uploader was Frederika Eilers at en.wikipedia / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Model_of_Rome_-_Gismondi.jpg"
+  },
+  "gloss": [
+   {
+    "word": "urbs",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "nom. sg. f. (3rd decl.)"
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "urbs": 82
+  }
  },
  {
   "id": "v-via",
@@ -37,6 +59,7 @@
   "teaches": "1st-declension model noun",
   "context": "The Via Appia, begun 312 BC by Appius Claudius, ran from Rome to Capua and later Brundisium. Its paving stones are still walkable today.",
   "vocab_ids": [
+   "uia",
    "via"
   ],
   "grammar_tags": [],
@@ -44,14 +67,36 @@
    "description": "Via Appia paving with tombs, portrait crop",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "CC BY-SA likely; verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Appian Way (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Appian_Way",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-via.jpg",
+   "alt": "This picture was taken in Rome during the \"mAppiaM!\" event, organised by Wikimedia Italia, farOpen, DigiLab Sapienza / Archeo&amp;Arte3D Lab",
+   "kind": "building",
+   "aspect": "2592:1944",
+   "transparent": false,
+   "credit": "Gianfranco / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rome,_via_Appia_Antica_-_WMI-mAppiaM_2016_-_g8317.jpg"
+  },
+  "gloss": [
+   {
+    "word": "via",
+    "lemma": "via",
+    "meaning": "road, way",
+    "parse": "nom. sg. f. (1st decl.)"
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "via": 196
+  }
  },
  {
   "id": "g-sum-est",
@@ -63,7 +108,13 @@
   "translation": "Rome is a city. The road is long.",
   "teaches": "sum/est; verb-final word order",
   "context": "Latin usually puts the verb last, but 'est' can float. Start every sentence by finding the verb, then its subject in the nominative.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "longus",
+   "roma",
+   "sum",
+   "uia",
+   "urbs"
+  ],
   "grammar_tags": [
    "sum",
    "nominative",
@@ -73,14 +124,69 @@
    "description": "Cut-out Capitoline Wolf",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC0"
   },
   "learn_more": {
    "label": "Capitoline Wolf (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Capitoline_Wolf",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/g-sum-est.png",
+   "alt": "Lupa Capitolina: she-wolf with Romulus and Remus. Bronze, 12th century AD[1], 5th century BC (the twins are a 15th-century addition).",
+   "kind": "statue_cutout",
+   "aspect": "7489:4876",
+   "transparent": true,
+   "credit": "Wikimedia Commons / Wikimedia Commons",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Rōma",
+    "lemma": "Rōma",
+    "meaning": "Rome",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "urbs",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "nom. sg. f. (predicate)"
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "Via",
+    "lemma": "via",
+    "meaning": "road",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "longa",
+    "lemma": "longus",
+    "meaning": "long",
+    "parse": "nom. sg. f. adj."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "urbs": 82,
+   "sum": 2,
+   "via": 196,
+   "longus": 142
+  }
  },
  {
   "id": "g-1decl-nom",
@@ -92,7 +198,12 @@
   "translation": "she-wolf, girl, queen, Rome",
   "teaches": "1st declension nominative singular -a, mostly feminine",
   "context": "Most -a nouns are feminine. Legend says a lupa nursed Romulus and Remus; 'lupa' was also slang for a prostitute, which ancient writers used to rationalise the myth.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "lupa",
+   "puella",
+   "regina",
+   "roma"
+  ],
   "grammar_tags": [
    "1st_decl",
    "nominative"
@@ -101,14 +212,56 @@
    "description": "Capitoline Wolf bronze cut-out",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC0"
   },
   "learn_more": {
    "label": "First declension (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/First_declension",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/g-1decl-nom.png",
+   "alt": "Lupa Capitolina: she-wolf with Romulus and Remus. Bronze, 12th century AD[1], 5th century BC (the twins are a 15th-century addition).",
+   "kind": "statue_cutout",
+   "aspect": "7489:4876",
+   "transparent": true,
+   "credit": "Wikimedia Commons / Wikimedia Commons",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Lupa",
+    "lemma": "lupa",
+    "meaning": "she-wolf",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "puella",
+    "lemma": "puella",
+    "meaning": "girl",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "rēgīna",
+    "lemma": "rēgīna",
+    "meaning": "queen",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "Rōma",
+    "lemma": "Rōma",
+    "meaning": "Rome",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 33,
+  "dcc_ranks": {
+   "lupa": null,
+   "puella": 233,
+   "rēgīna": null
+  }
  },
  {
   "id": "i-spqr",
@@ -120,7 +273,11 @@
   "translation": "The Senate and the Roman People",
   "teaches": "Abbreviations; enclitic -que = 'and'",
   "context": "The formula named the Roman state on coins, arches and standards. Rome's manhole covers still carry it. Note -que glued to the second word: populus-que.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "populus",
+   "romanus",
+   "senatus"
+  ],
   "grammar_tags": [
    "enclitic_que",
    "abbreviations"
@@ -129,14 +286,49 @@
    "description": "Modern Rome manhole cover with SPQR or Arch of Titus attic",
    "kind": "inscription",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "CC BY-SA likely; verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "SPQR (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/SPQR",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/i-spqr.jpg",
+   "alt": "Dedicatory inscription on the Arch of Titus in Rome:\nThe Senate and the Roman People  to the divine Titus—son of the divine Vespasian— Vespa",
+   "kind": "inscription",
+   "aspect": "1049:250",
+   "transparent": false,
+   "credit": "Vincent Ramos / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Arch.of.Titus-Inscription.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Senātus",
+    "lemma": "senātus",
+    "meaning": "senate",
+    "parse": "nom. sg. m. (4th decl.)"
+   },
+   {
+    "word": "Populusque",
+    "lemma": "populus",
+    "meaning": "people (+ -que \"and\")",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Rōmānus",
+    "lemma": "Rōmānus",
+    "meaning": "Roman",
+    "parse": "nom. sg. m. adj."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "senātus": 329,
+   "populus": 122
+  }
  },
  {
   "id": "x-map-roma",
@@ -148,20 +340,73 @@
   "translation": "The seven hills: Palatine, Capitoline, Aventine…",
   "teaches": "Place names in the nominative; map-tap game",
   "context": "Tap each hill as you hear its Latin name. The Palatine gave English 'palace', because emperors built their homes there.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "auentinus",
+   "capitolium",
+   "mons",
+   "palatium",
+   "septem"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Public-domain map of the seven hills of Rome",
    "kind": "painting",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Seven hills of Rome (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Seven_hills_of_Rome",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/x-map-roma.jpg",
+   "alt": "Sujet : Cartouches (ornement)\nRome\nCouverture : Italie\nLangue : italien\nitalien\n\nÉditeur : [S. l., Avant 1668]",
+   "kind": "painting",
+   "aspect": "2330:1966",
+   "transparent": false,
+   "credit": "Briet, Philippe (1601-1668). Cartographe / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Roma_Antiqua_-_btv1b531777551_(1_of_2).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Septem",
+    "lemma": "septem",
+    "meaning": "seven",
+    "parse": "indecl. numeral"
+   },
+   {
+    "word": "montēs",
+    "lemma": "mōns",
+    "meaning": "hills, mountains",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "Palātium",
+    "lemma": "Palātium",
+    "meaning": "the Palatine",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Capitōlium",
+    "lemma": "Capitōlium",
+    "meaning": "the Capitol",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Aventīnus",
+    "lemma": "Aventīnus",
+    "meaning": "the Aventine",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "dcc_core_pct": 50,
+  "dcc_ranks": {
+   "septem": null,
+   "mōns": 242
+  }
  },
  {
   "id": "v-pater",
@@ -174,22 +419,51 @@
   "teaches": "Core family nouns (DCC top 200)",
   "context": "The paterfamilias held legal power (patria potestās) over his household, even adult sons. Mothers like Cornelia shaped sons' education and reputation.",
   "vocab_ids": [
-   "pater",
-   "mater"
+   "mater",
+   "pater"
   ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Roman funerary relief of a married couple (Met)",
    "kind": "artifact",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Pater familias (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Pater_familias",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-pater.jpg",
+   "alt": "Roman funerary relief in the Metropolitan Museum of Art, New York, NY. \nRoman, 2nd-3rd century AD\nFletcher Fund\nAccession number: 49.69.5",
+   "kind": "artifact",
+   "aspect": "2494:2794",
+   "transparent": false,
+   "credit": "Ad Meskens / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Metropolitan_funerary_relief_Roman_2-3C_AD_2.jpg"
+  },
+  "gloss": [
+   {
+    "word": "pater",
+    "lemma": "pater",
+    "meaning": "father",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "māter",
+    "lemma": "māter",
+    "meaning": "mother",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "pater": 71,
+   "māter": 127
+  }
  },
  {
   "id": "v-filius",
@@ -202,22 +476,51 @@
   "teaches": "2nd vs 1st declension pairs",
   "context": "Roman names showed descent: 'M. F.' on inscriptions means Mārcī fīlius, son of Marcus. Compare Agrippa's L·F on the Pantheon.",
   "vocab_ids": [
-   "filius",
-   "filia"
+   "filia",
+   "filius"
   ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Funerary stele with family portrait (Met)",
    "kind": "artifact",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Roman naming conventions (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Roman_naming_conventions",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-filius.jpg",
+   "alt": "This relef stele depicts two women, a girl, and a boy on a funeral couch between two jackals. The two jackals are the jackel god of the dead",
+   "kind": "artifact",
+   "aspect": "1800:1596",
+   "transparent": false,
+   "credit": "Anonymous (Coptic)Unknown author / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Coptic_-_Funerary_Stele_with_Family_Portrait_-_Walters_263.jpg"
+  },
+  "gloss": [
+   {
+    "word": "fīlius",
+    "lemma": "fīlius",
+    "meaning": "son",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "fīlia",
+    "lemma": "fīlia",
+    "meaning": "daughter",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "fīlius": 909,
+   "fīlia": 909
+  }
  },
  {
   "id": "g-acc",
@@ -226,10 +529,14 @@
   "unit": 2,
   "era": "republic",
   "latin": "Pater fīlium amat. Fīlium pater amat.",
-  "translation": "The father loves the son. (same meaning)",
+  "translation": "The father loves the son. (same meaning, different emphasis)",
   "teaches": "Accusative marks the object, so word order is free",
   "context": "Endings, not position, show who does what: -um/-am object, -us/-a subject. Swap word order and the meaning stays.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "amo",
+   "filius",
+   "pater"
+  ],
   "grammar_tags": [
    "accusative",
    "word_order"
@@ -238,14 +545,50 @@
    "description": "Relief of father and child",
    "kind": "artifact",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Accusative case (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Accusative_case",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-acc.jpg",
+   "alt": "Ancient Roman relief medaillon (portrait grave stone of a Roman couple with child) at the guest house Fleissner on Zollfeld #3, market town ",
+   "kind": "artifact",
+   "aspect": "4593:4786",
+   "transparent": false,
+   "credit": "Johann Jaritz / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Maria_Saal_Zollfeld_Gasthof_Fleissner_r%C3%B6m._Medaillon-Relief_Ehepaar_mit_Kind_18102015_8145.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Pater",
+    "lemma": "pater",
+    "meaning": "father",
+    "parse": "nom. sg. m. (subject)"
+   },
+   {
+    "word": "fīlium",
+    "lemma": "fīlius",
+    "meaning": "son",
+    "parse": "acc. sg. m. (object)"
+   },
+   {
+    "word": "amat",
+    "lemma": "amō",
+    "meaning": "loves",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "pater": 71,
+   "fīlius": 909,
+   "amō": 219
+  }
  },
  {
   "id": "g-2decl",
@@ -257,7 +600,11 @@
   "translation": "slave; boy; gift",
   "teaches": "2nd declension masc. -us/-um and neuter -um",
   "context": "Enslaved people (servī) were part of the familia. Neuter nouns like dōnum look the same as subject and object.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "donum",
+   "puer",
+   "seruus"
+  ],
   "grammar_tags": [
    "2nd_decl"
   ],
@@ -265,14 +612,56 @@
    "description": "Mosaic of servants serving a banquet (Bardo/Commons)",
    "kind": "artifact",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC BY 2.0"
   },
   "learn_more": {
    "label": "Second declension (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Second_declension",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-2decl.jpg",
+   "alt": "Roman fresco showing drinkers at a banquet or ‘convivium‘ (translating literally as ‘being alive together’). One reveller states: “Make your",
+   "kind": "painting",
+   "aspect": "2330:2548",
+   "transparent": false,
+   "credit": "Tyler Bell / Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Fresco_Showing_Drinkers_at_a_Banquet_(51358291980).jpg"
+  },
+  "gloss": [
+   {
+    "word": "servus",
+    "lemma": "servus",
+    "meaning": "slave",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "servum",
+    "lemma": "servus",
+    "meaning": "slave",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "puer",
+    "lemma": "puer",
+    "meaning": "boy",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "dōnum",
+    "lemma": "dōnum",
+    "meaning": "gift",
+    "parse": "nom./acc. sg. n."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "servus": 496,
+   "puer": 191,
+   "dōnum": 476
+  }
  },
  {
   "id": "d-familia",
@@ -285,8 +674,8 @@
   "teaches": "Derivatives as memory hooks",
   "context": "A Roman familia meant the whole household, slaves included. Domus gives 'domestic' and 'dome'; pater gives 'paternal', 'patron', 'patriot'.",
   "vocab_ids": [
-   "familia",
    "domus",
+   "familia",
    "pater"
   ],
   "grammar_tags": [],
@@ -294,14 +683,43 @@
    "description": "House of the Vettii atrium, Pompeii",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "CC BY-SA likely; verify"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Domus (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Domus",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/d-familia.jpg",
+   "alt": "House of the Vettii - Atrium reconstruction (Pompeii)",
+   "kind": "building",
+   "aspect": "3072:2304",
+   "transparent": false,
+   "credit": "User:Mattes / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeii_atrium_reconstruction,_House_of_the_Vettii,_Boboli_Gardens,_Florence,_Italy_-_20100908.jpg"
+  },
+  "gloss": [
+   {
+    "word": "familia",
+    "lemma": "familia",
+    "meaning": "household",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "domus",
+    "lemma": "domus",
+    "meaning": "house, home",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "familia": 943,
+   "domus": 73
+  }
  },
  {
   "id": "l-bulla",
@@ -311,22 +729,54 @@
   "era": "republic",
   "latin": "bulla aurea",
   "translation": "golden amulet",
-  "teaches": "Daily life vocab; 1st decl. noun + adjective agreement",
+  "teaches": "Daily life vocab; adjective agreement as preview only (taught Unit 4)",
   "context": "Freeborn Roman boys wore a bulla amulet until about age 16, when they dedicated it to the household gods (Larēs) and put on the adult toga.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "aureus",
+   "bulla"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Etruscan/Roman gold bulla, cut-out (Met or Walters)",
    "kind": "artifact",
    "candidate_source": "Met Open Access / Walters",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Bulla (amulet) (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Bulla_%28amulet%29",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/l-bulla.png",
+   "alt": "A \"bulla\" is a hollow pendant, that could hold perfume or a charm.  Found inside this one was \"labdanum\", a substance used in perfume.  Depi",
+   "kind": "artifact",
+   "aspect": "1352:1799",
+   "transparent": true,
+   "credit": "Anonymous (Category:Etruscans)Unknown author / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Etruscan_-_Bulla_with_Daedalus_and_Icarus_-_Walters_57371_-_Side_A.jpg"
+  },
+  "gloss": [
+   {
+    "word": "bulla",
+    "lemma": "bulla",
+    "meaning": "amulet, bubble",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "aurea",
+    "lemma": "aureus",
+    "meaning": "golden",
+    "parse": "nom. sg. f. adj. (agreement preview)"
+   }
+  ],
+  "dcc_core_pct": 50,
+  "dcc_ranks": {
+   "bulla": null,
+   "aureus": 691
+  }
  },
  {
   "id": "x-whosays-cornelia",
@@ -338,13 +788,18 @@
   "translation": "These are my jewels — who said it?",
   "teaches": "Recall of quote card; demonstratives haec",
   "context": "Pick the speaker. Answer: Cornelia, mother of the Gracchi, per Valerius Maximus 4.4 pr. Links to existing card in rome-cards.json.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "hic",
+   "meus",
+   "ornamentum",
+   "sum"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Cornelia painting (Angelica Kauffman) cut to arch",
    "kind": "painting",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Cornelia (mother of the Gracchi) (Wikipedia)",
@@ -355,7 +810,50 @@
    "work": "Valerius Maximus, Facta et dicta memorabilia",
    "citation": "4.4 praef."
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/x-whosays-cornelia.jpg",
+   "alt": "Laurent_de_la_La_Hyre_001.jpg",
+   "kind": "painting",
+   "aspect": "2024:2210",
+   "transparent": false,
+   "credit": "Laurent de La Hyre / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Laurent_de_la_La_Hyre_001.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Haec",
+    "lemma": "hic",
+    "meaning": "these",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "ornāmenta",
+    "lemma": "ornāmentum",
+    "meaning": "ornaments, jewels",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "mea",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "nom. pl. n."
+   }
+  ],
+  "dcc_core_pct": 75,
+  "dcc_ranks": {
+   "hic": 7,
+   "ornāmentum": null,
+   "sum": 2,
+   "meus": 41
+  }
  },
  {
   "id": "v-miles",
@@ -375,14 +873,36 @@
    "description": "Cut-out legionary statue or tombstone relief",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Roman legion (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Roman_legion",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-miles.jpg",
+   "alt": "Ancient roman Tombstone, from Aquincum (Hungary), 1st-2nd Century AD. CIL III 014349,10 is the inscription on the right side",
+   "kind": "inscription",
+   "aspect": "4263:2665",
+   "transparent": false,
+   "credit": "Bjoertvedt / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tombstone_legionary_Aquincum_IMG_0841.jpg"
+  },
+  "gloss": [
+   {
+    "word": "mīles",
+    "lemma": "mīles",
+    "meaning": "soldier",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "mīles": 161
+  }
  },
  {
   "id": "v-castra",
@@ -402,14 +922,36 @@
    "description": "Housesteads fort, Hadrian's Wall, aerial",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "CC BY-SA; verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Castra (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Castra",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-castra.jpg",
+   "alt": "Fortification walls at Housesteads roman fort on Hadrian's Wall.",
+   "kind": "building",
+   "aspect": "3456:5184",
+   "transparent": false,
+   "credit": "Photograph by Mike Peel (www.mikepeel.net). / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Housesteads_Roman_Fort_2014_16.jpg"
+  },
+  "gloss": [
+   {
+    "word": "castra",
+    "lemma": "castra",
+    "meaning": "camp",
+    "parse": "nom. pl. n."
+   }
+  ],
+  "dcc_core_pct": 0,
+  "dcc_ranks": {
+   "castra": null
+  }
  },
  {
   "id": "g-1conj",
@@ -421,7 +963,12 @@
   "translation": "The soldiers march. The legion fights.",
   "teaches": "1st conjugation present: -ō, -ās, -at, -āmus, -ātis, -ant",
   "context": "Chant the endings like a marching cadence. Plural -nt vs singular -t tells you how many are acting.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "ambulo",
+   "legio",
+   "miles",
+   "pugno"
+  ],
   "grammar_tags": [
    "1st_conj",
    "present",
@@ -431,14 +978,57 @@
    "description": "Trajan's Column marching relief",
    "kind": "artifact",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Latin conjugation (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Latin_conjugation",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-1conj.jpg",
+   "alt": "Roman soldiers with marching packs. From the cast of Trajan's column in the Victoria and Albert museum, London.\nGaius Cornelius 17:03, 2 Sep",
+   "kind": "artifact",
+   "aspect": "1600:1200",
+   "transparent": false,
+   "credit": "No machine-readable author provided. Gaius Cornelius assumed (based on copyright claims). / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_soldiers_with_marching_packs_01.JPG"
+  },
+  "gloss": [
+   {
+    "word": "Mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "ambulant",
+    "lemma": "ambulō",
+    "meaning": "walk, march",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "Legiō",
+    "lemma": "legiō",
+    "meaning": "legion",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "pugnat",
+    "lemma": "pugnō",
+    "meaning": "fights",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "dcc_core_pct": 75,
+  "dcc_ranks": {
+   "mīles": 161,
+   "ambulō": null,
+   "legiō": 370,
+   "pugnō": 708
+  }
  },
  {
   "id": "g-2conj",
@@ -450,7 +1040,13 @@
   "translation": "The centurion sees and warns the soldiers.",
   "teaches": "2nd conjugation present (videō, moneō)",
   "context": "Centurions led roughly 80 men and carried a vine-stick (vītis) as a badge of rank. Their tombstones often show it.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "centurio",
+   "et",
+   "miles",
+   "moneo",
+   "uideo"
+  ],
   "grammar_tags": [
    "2nd_conj",
    "present"
@@ -459,14 +1055,64 @@
    "description": "Tombstone of centurion M. Caelius (Bonn), portrait",
    "kind": "artifact",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 2.0"
   },
   "learn_more": {
    "label": "Centurion (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Centurion",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-2conj.jpg",
+   "alt": "Reconstructed inscription: \"To Marcus Caelius, son of Titus, of the Lemonian district, from Bologna, first centurion of the eighteenth legio",
+   "kind": "inscription",
+   "aspect": "3138:4099",
+   "transparent": false,
+   "credit": "Carole Raddato from FRANKFURT, Germany / Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cenotaph_of_Marcus_Caelius,_1st_centurion_of_Legio_XVIII,_who_fell_in_the_war_of_Varus_(Battle_in_the_Teutoburg_Forest_(9_AD),_LVR-LandesMuseum_Bonn_(9510859222).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Centuriō",
+    "lemma": "centuriō",
+    "meaning": "centurion",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "videt",
+    "lemma": "videō",
+    "meaning": "sees",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "monet",
+    "lemma": "moneō",
+    "meaning": "warns",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "dcc_core_pct": 80,
+  "dcc_ranks": {
+   "centuriō": null,
+   "mīles": 161,
+   "videō": 31,
+   "et": 1,
+   "moneō": 711
+  }
  },
  {
   "id": "i-vindolanda",
@@ -478,13 +1124,20 @@
   "translation": "… I shall expect you, sister. Farewell, sister, my dearest soul …",
   "teaches": "Real handwriting from a fort; letter farewell formulae (valē, vocative)",
   "context": "Claudia Severa invited Sulpicia Lepidina to her birthday about AD 100: the earliest known Latin handwriting by a woman, found at Vindolanda.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "anima",
+   "meus",
+   "soror",
+   "spero",
+   "tu",
+   "ualeo"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Vindolanda tablet 291 photo (British Museum)",
    "kind": "manuscript",
    "candidate_source": "British Museum / Commons",
-   "license_status": "BM licence varies; verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Vindolanda tablets (Wikipedia)",
@@ -493,9 +1146,67 @@
   },
   "source": {
    "work": "Tabulae Vindolandenses",
-   "citation": "Tab. Vindol. II 291"
+   "citation": "Tab. Vindol. II 291, lines 11–14 (verified against RIB Online TabVindol291)"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/i-vindolanda.jpg",
+   "alt": "Vindolanda tablet 291",
+   "kind": "inscription",
+   "aspect": "3591:1560",
+   "transparent": false,
+   "credit": "Fæ / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Vindolanda_tablet_291.jpg",
+   "license_note": "Commons lists CC BY-SA 3.0, but if the photo derives from British Museum imagery the BM terms are CC BY-NC-SA 4.0 — confirm before commercial use."
+  },
+  "gloss": [
+   {
+    "word": "spērābō",
+    "lemma": "spērō",
+    "meaning": "I shall hope for, expect",
+    "parse": "1st sg. fut."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "soror",
+    "lemma": "soror",
+    "meaning": "sister",
+    "parse": "voc. sg. f."
+   },
+   {
+    "word": "Valē",
+    "lemma": "valeō",
+    "meaning": "farewell",
+    "parse": "2nd sg. imper."
+   },
+   {
+    "word": "anima",
+    "lemma": "anima",
+    "meaning": "soul",
+    "parse": "voc. sg. f."
+   },
+   {
+    "word": "mea",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "voc. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "spērō": 648,
+   "tū": 9,
+   "soror": 497,
+   "valeō": 539,
+   "anima": 493,
+   "meus": 41
+  }
  },
  {
   "id": "l-pila",
@@ -507,20 +1218,44 @@
   "translation": "javelin",
   "teaches": "Army vocab; neuter 2nd decl.",
   "context": "Legionaries threw the pilum before closing in. Its soft iron shank bent on impact so enemies could not throw it back, according to Caesar-era practice and archaeology.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "pilum"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Reconstructed pilum or Roman sword, cut-out",
    "kind": "artifact",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Pilum (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Pilum",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/l-pila.png",
+   "alt": "Bent pilum tip (Kempten, Germany).",
+   "kind": "artifact",
+   "aspect": "524:1038",
+   "transparent": true,
+   "credit": "--Xocolatl (talk) 10:45, 25 August 2008 (UTC) / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bent_pilum_tip-transparent.png"
+  },
+  "gloss": [
+   {
+    "word": "pīlum",
+    "lemma": "pīlum",
+    "meaning": "javelin",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "dcc_core_pct": 0,
+  "dcc_ranks": {
+   "pīlum": null
+  }
  },
  {
   "id": "x-parse-signum",
@@ -529,10 +1264,15 @@
   "unit": 3,
   "era": "empire",
   "latin": "LEG XX V V",
-  "translation": "Legiō vīcēsima Valeria Victrīx",
+  "translation": "Twentieth Legion, Valeria Victrix",
   "teaches": "Parse-the-inscription: unpack numerals and abbreviations",
-  "context": "Tap each chunk to expand it. Legion XX served in Britain; its boar emblem appears on stamped tiles and building stones from Chester and Hadrian's Wall.",
-  "vocab_ids": [],
+  "context": "Expansion: LEG(IO) XX V(ALERIA) V(ICTRIX). Tap each chunk to expand it. Legion XX served in Britain; its boar emblem appears on stamped tiles and building stones from Chester and Hadrian's Wall.",
+  "vocab_ids": [
+   "legio",
+   "ualeria",
+   "uicesimus",
+   "uictrix"
+  ],
   "grammar_tags": [
    "abbreviations",
    "roman_numerals"
@@ -541,14 +1281,56 @@
    "description": "Legio XX building stone (Commons)",
    "kind": "inscription",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Legio XX Valeria Victrix (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Legio_XX_Valeria_Victrix",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/x-parse-signum.jpg",
+   "alt": "Chester ( England ). Grosvenor Museums: Tombstone of Caecilius Avitus, optio of Legio XX, with inscription D:M:CAECILIUS:AVITUS:EMER:AUG:OPT",
+   "kind": "inscription",
+   "aspect": "1712:2560",
+   "transparent": false,
+   "credit": "Wolfgang Sauber / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Grosvenor_Museums_-_Grabstein_7_Optio.jpg"
+  },
+  "gloss": [
+   {
+    "word": "LEG",
+    "lemma": "legiō",
+    "meaning": "legion",
+    "parse": "abbr. nom. sg."
+   },
+   {
+    "word": "XX",
+    "lemma": "vīcēsimus",
+    "meaning": "twentieth",
+    "parse": "numeral"
+   },
+   {
+    "word": "V",
+    "lemma": "Valeria",
+    "meaning": "Valeria (title)",
+    "parse": "abbr."
+   },
+   {
+    "word": "V",
+    "lemma": "victrīx",
+    "meaning": "victorious",
+    "parse": "abbr."
+   }
+  ],
+  "dcc_core_pct": 33,
+  "dcc_ranks": {
+   "legiō": 370,
+   "vīcēsimus": null,
+   "victrīx": null
+  }
  },
  {
   "id": "v-res-publica",
@@ -561,22 +1343,51 @@
   "teaches": "Noun + adjective agreement",
   "context": "Literally 'the public thing'. English 'republic' comes straight from it; Cicero wrote a dialogue titled Dē rē pūblicā.",
   "vocab_ids": [
-   "res",
-   "publicus"
+   "publicus",
+   "res"
   ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Roman Forum view from Capitoline",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "CC BY-SA; verify"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Roman Republic (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Roman_Republic",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-res-publica.jpg",
+   "alt": "Roman Forum (Hansen).jpg",
+   "kind": "building",
+   "aspect": "2342:1903",
+   "transparent": false,
+   "credit": "Constantin Hansen / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Forum_(Hansen).jpg"
+  },
+  "gloss": [
+   {
+    "word": "rēs",
+    "lemma": "rēs",
+    "meaning": "thing, affair",
+    "parse": "nom. sg. f. (5th decl.)"
+   },
+   {
+    "word": "pūblica",
+    "lemma": "pūblicus",
+    "meaning": "public",
+    "parse": "nom. sg. f. adj."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "rēs": 38,
+   "pūblicus": 517
+  }
  },
  {
   "id": "v-senatus",
@@ -589,22 +1400,51 @@
   "teaches": "Political core vocab",
   "context": "'Senātus' comes from senex, old man: a council of elders. Two consuls were elected yearly, and years were named after them.",
   "vocab_ids": [
-   "senatus",
-   "consul"
+   "consul",
+   "senatus"
   ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Curia Julia exterior",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "CC BY-SA; verify"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Roman Senate (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Roman_Senate",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-senatus.png",
+   "alt": "A fresco by Cesare Maccari (1840-1919) depicting Roman senator Cicero (106-43 BCE) denouncing Catiline's conspiracy to overthrow the Republi",
+   "kind": "painting",
+   "aspect": "2072:1349",
+   "transparent": false,
+   "credit": "Cesare Maccari / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari.png"
+  },
+  "gloss": [
+   {
+    "word": "senātus",
+    "lemma": "senātus",
+    "meaning": "senate",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "cōnsul",
+    "lemma": "cōnsul",
+    "meaning": "consul",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "senātus": 329,
+   "cōnsul": 321
+  }
  },
  {
   "id": "g-gen",
@@ -616,7 +1456,12 @@
   "translation": "the Forum of the Romans; the Temple of Saturn",
   "teaches": "Genitive = 'of'",
   "context": "Saturn's temple held the state treasury (aerārium). Its eight columns still stand at the Forum's west end.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "forum",
+   "romanus",
+   "saturnus",
+   "templum"
+  ],
   "grammar_tags": [
    "genitive"
   ],
@@ -624,14 +1469,55 @@
    "description": "Temple of Saturn columns, portrait crop",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Temple of Saturn (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Temple_of_Saturn",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-gen.jpg",
+   "alt": "Temple of Saturn, in the Forum Romanum, Rome.",
+   "kind": "building",
+   "aspect": "2048:1536",
+   "transparent": false,
+   "credit": "Marcok - it.wikipedia.org / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Foro_romano_tempio_Saturno_09feb08_01.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Forum",
+    "lemma": "forum",
+    "meaning": "forum, public square",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Rōmānōrum",
+    "lemma": "Rōmānus",
+    "meaning": "of the Romans",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "Templum",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Sāturnī",
+    "lemma": "Sāturnus",
+    "meaning": "of Saturn",
+    "parse": "gen. sg. m."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "forum": 811,
+   "templum": 485
+  }
  },
  {
   "id": "g-dat",
@@ -643,7 +1529,12 @@
   "translation": "The Senate gives honours to Caesar.",
   "teaches": "Dative = 'to/for'",
   "context": "In 44 BC the Senate heaped honours on Caesar, including dictator for life. Weeks later senators killed him in the Curia of Pompey.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "caesar",
+   "do",
+   "honor",
+   "senatus"
+  ],
   "grammar_tags": [
    "dative"
   ],
@@ -651,14 +1542,56 @@
    "description": "Death of Caesar, Gérôme (painting)",
    "kind": "painting",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Assassination of Julius Caesar (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-dat.jpg",
+   "alt": "http://www.teeuwisse.de/catalogues/selected-drawings-ii/the-assassination-of-julius-caesar.html",
+   "kind": "painting",
+   "aspect": "1213:808",
+   "transparent": false,
+   "credit": "Vincenzo Camuccini / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Vincenzo_Camuccini_-_La_morte_di_Cesare_(cropped_3-2).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Senātus",
+    "lemma": "senātus",
+    "meaning": "senate",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Caesarī",
+    "lemma": "Caesar",
+    "meaning": "to Caesar",
+    "parse": "dat. sg. m."
+   },
+   {
+    "word": "honōrēs",
+    "lemma": "honor",
+    "meaning": "honours",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "dat",
+    "lemma": "dō",
+    "meaning": "gives",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "senātus": 329,
+   "honor": 290,
+   "dō": 28
+  }
  },
  {
   "id": "g-adj",
@@ -669,8 +1602,13 @@
   "latin": "vir bonus, fēmina bona, templum bonum",
   "translation": "good man, good woman, good temple",
   "teaches": "1st/2nd decl. adjective agreement",
-  "context": "Adjectives copy their noun's gender, number and case. Cato defined the orator as vir bonus dīcendī perītus — a good man skilled in speaking (via Quintilian 12.1.1).",
-  "vocab_ids": [],
+  "context": "Adjectives copy their noun's gender, number and case. Cato defined the orator as vir bonus dīcendī perītus, 'a good man skilled in speaking' (quoted by Quintilian, Inst. 12.1.1).",
+  "vocab_ids": [
+   "bonus",
+   "femina",
+   "templum",
+   "uir"
+  ],
   "grammar_tags": [
    "adjectives",
    "agreement"
@@ -679,18 +1617,69 @@
    "description": "Cut-out bust of Cato-type Roman elder",
    "kind": "statue_cutout",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC BY 3.0"
   },
   "learn_more": {
    "label": "Latin declension (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Latin_declension",
    "verified_http": "200"
   },
-  "source": {
-   "work": "Quintilian, Institutio Oratoria (quoting Cato)",
-   "citation": "12.1.1"
+  "image": {
+   "src": "assets/learning/g-adj.png",
+   "alt": "Torlonia Collection",
+   "kind": "statue_cutout",
+   "aspect": "2615:3431",
+   "transparent": true,
+   "credit": "Sailko / Wikimedia Commons",
+   "license": "CC BY 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ritratto_maschile_detto_il_vecchio_di_otricoli,_50_ac_ca._(busto_moderno),_da_otircoli,_poi_coll._visconti,_MT533,_01.jpg"
   },
-  "attribution_confidence": "verified"
+  "attribution_note": "Constructed examples; Cato's definition cited in context (Quintilian 12.1.1, verified Latin Library).",
+  "gloss": [
+   {
+    "word": "vir",
+    "lemma": "vir",
+    "meaning": "man",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "bonus",
+    "lemma": "bonus",
+    "meaning": "good",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "fēmina",
+    "lemma": "fēmina",
+    "meaning": "woman",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "bona",
+    "lemma": "bonus",
+    "meaning": "good",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "templum",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "bonum",
+    "lemma": "bonus",
+    "meaning": "good",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "vir": 85,
+   "bonus": 68,
+   "fēmina": 501,
+   "templum": 485
+  }
  },
  {
   "id": "l-toga",
@@ -710,14 +1699,36 @@
    "description": "Togatus statue cut-out",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Toga (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Toga",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/l-toga.png",
+   "alt": "Tiberius_Capri_Louvre_Ma1248.jpg",
+   "kind": "statue_cutout",
+   "aspect": "1400:2650",
+   "transparent": true,
+   "credit": "Marie-Lan Nguyen / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tiberius_Capri_Louvre_Ma1248.jpg"
+  },
+  "gloss": [
+   {
+    "word": "toga",
+    "lemma": "toga",
+    "meaning": "toga",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 0,
+  "dcc_ranks": {
+   "toga": null
+  }
  },
  {
   "id": "d-dico",
@@ -737,14 +1748,36 @@
    "description": "Cicero Denounces Catiline, Maccari fresco",
    "kind": "painting",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Cicero (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Cicero",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/d-dico.png",
+   "alt": "Palazzo Nuovo - Capitoline Museums - Rome",
+   "kind": "statue_cutout",
+   "aspect": "3456:5184",
+   "transparent": true,
+   "credit": "José Luiz / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg"
+  },
+  "gloss": [
+   {
+    "word": "dīcō",
+    "lemma": "dīcō",
+    "meaning": "say",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "dīcō": 33
+  }
  },
  {
   "id": "v-deus",
@@ -757,22 +1790,51 @@
   "teaches": "Core vocab; irregular plural dī",
   "context": "Romans honoured many gods; deī and dī are both plural forms. English 'deity', 'divine' (from dīvus) come from this family.",
   "vocab_ids": [
-   "deus",
-   "dea"
+   "dea",
+   "deus"
   ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Cut-out marble Jupiter or Minerva (Met)",
    "kind": "statue_cutout",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Roman mythology (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Roman_mythology",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-deus.jpg",
+   "alt": "Representation of the lupercal: Romulus and Remus fed by the she-wolf, Lupa, surrounded by representations of the Tiber and the Palatine. Pa",
+   "kind": "artifact",
+   "aspect": "2500:1930",
+   "transparent": false,
+   "credit": "Wikimedia Commons / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Altar_Mars_Venus_Massimo.jpg"
+  },
+  "gloss": [
+   {
+    "word": "deus",
+    "lemma": "deus",
+    "meaning": "god",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "dea",
+    "lemma": "dea",
+    "meaning": "goddess",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "deus": 42,
+   "dea": 42
+  }
  },
  {
   "id": "v-templum",
@@ -792,14 +1854,36 @@
    "description": "Maison Carrée, Nîmes",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Roman temple (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Roman_temple",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-templum.jpg",
+   "alt": "Temple of Portunus",
+   "kind": "building",
+   "aspect": "5422:7465",
+   "transparent": false,
+   "credit": "WikiRomaWiki / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Temple_of_Portunus.jpg"
+  },
+  "gloss": [
+   {
+    "word": "templum",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "templum": 485
+  }
  },
  {
   "id": "g-3decl",
@@ -811,7 +1895,11 @@
   "translation": "king, law, peace",
   "teaches": "3rd declension: learn the genitive to find the stem",
   "context": "The nominative hides the stem; the genitive reveals it. Rome expelled its kings (rēgēs) traditionally in 509 BC and hated the word rēx afterward.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "lex",
+   "pax",
+   "rex"
+  ],
   "grammar_tags": [
    "3rd_decl"
   ],
@@ -819,14 +1907,50 @@
    "description": "Ara Pacis Augustae relief",
    "kind": "artifact",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Third declension (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Third_declension",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-3decl.jpg",
+   "alt": "On the eastern side of Ara Pacis is a relief of Tellus Mater, the Roman earth-goddess",
+   "kind": "artifact",
+   "aspect": "2178:1404",
+   "transparent": false,
+   "credit": "original photo by Chris Nas : File:AraPacisReliefTellusMater.JPG. / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tellus_-_Ara_Pacis.jpg"
+  },
+  "gloss": [
+   {
+    "word": "rēx",
+    "lemma": "rēx",
+    "meaning": "king",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "lēx",
+    "lemma": "lēx",
+    "meaning": "law",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "pāx",
+    "lemma": "pāx",
+    "meaning": "peace",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "rēx": 60,
+   "lēx": 264,
+   "pāx": 388
+  }
  },
  {
   "id": "g-abl-prep",
@@ -838,7 +1962,14 @@
   "translation": "in the temple, with the gods, out of the city",
   "teaches": "Prepositions + ablative (in, cum, ex/ē, ā/ab, dē, sine)",
   "context": "Mnemonic: SID & CAPPE. The fire of Vesta burned in aede Vestae, guarded by six Vestal Virgins.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "cum",
+   "deus",
+   "ex",
+   "in",
+   "templum",
+   "urbs"
+  ],
   "grammar_tags": [
    "ablative",
    "prepositions"
@@ -847,14 +1978,71 @@
    "description": "Temple of Vesta, Roman Forum",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Temple of Vesta (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Temple_of_Vesta",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-abl-prep.jpg",
+   "alt": "Temple of Vesta in the Forum Romanum in Rome.",
+   "kind": "building",
+   "aspect": "2166:2531",
+   "transparent": false,
+   "credit": "Wknight94 / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Temple_of_Vesta_(Rome).jpg"
+  },
+  "gloss": [
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "templō",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "cum",
+    "lemma": "cum",
+    "meaning": "with",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "deīs",
+    "lemma": "deus",
+    "meaning": "gods",
+    "parse": "abl. pl. m."
+   },
+   {
+    "word": "ex",
+    "lemma": "ex",
+    "meaning": "out of",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "urbe",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "abl. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "in": 5,
+   "templum": 485,
+   "cum": 10,
+   "deus": 42,
+   "ex": 26,
+   "urbs": 82
+  }
  },
  {
   "id": "i-pantheon-parse",
@@ -866,13 +2054,21 @@
   "translation": "Marcus Agrippa, son of Lucius, consul for the third time, made this",
   "teaches": "Parse-the-inscription game built on existing card i-pantheon-agrippa",
   "context": "Drag each abbreviation to its full form. Reuses CIL VI 896 already verified-pending in rome-cards; here it tests abbreviations and the perfect fēcit as a preview.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "agrippa",
+   "consul",
+   "facio",
+   "filius",
+   "lucius",
+   "marcus",
+   "tertium"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Pantheon portico inscription close-up",
    "kind": "inscription",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Pantheon, Rome (Wikipedia)",
@@ -883,7 +2079,68 @@
    "work": "Pantheon inscription",
    "citation": "CIL VI 896"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/i-pantheon-parse.jpg",
+   "alt": "Pantheon (Rome) - Right side and front",
+   "kind": "building",
+   "aspect": "7512:6048",
+   "transparent": false,
+   "credit": "NikonZ7II / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Right_side_and_front.jpg"
+  },
+  "gloss": [
+   {
+    "word": "M.",
+    "lemma": "Mārcus",
+    "meaning": "Marcus",
+    "parse": "abbr. nom."
+   },
+   {
+    "word": "AGRIPPA",
+    "lemma": "Agrippa",
+    "meaning": "Agrippa",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "L.",
+    "lemma": "Lūcius",
+    "meaning": "of Lucius",
+    "parse": "abbr. gen."
+   },
+   {
+    "word": "F.",
+    "lemma": "fīlius",
+    "meaning": "son",
+    "parse": "abbr. nom. sg."
+   },
+   {
+    "word": "COS",
+    "lemma": "cōnsul",
+    "meaning": "consul",
+    "parse": "abbr. nom. sg."
+   },
+   {
+    "word": "TERTIVM",
+    "lemma": "tertium",
+    "meaning": "for the third time",
+    "parse": "adv."
+   },
+   {
+    "word": "FECIT",
+    "lemma": "faciō",
+    "meaning": "made",
+    "parse": "3rd sg. perf."
+   }
+  ],
+  "dcc_core_pct": 75,
+  "dcc_ranks": {
+   "fīlius": 909,
+   "cōnsul": 321,
+   "tertium": null,
+   "faciō": 32
+  }
  },
  {
   "id": "l-lares",
@@ -895,20 +2152,66 @@
   "translation": "household shrine; household gods",
   "teaches": "Religion at home; 3rd decl. plurals",
   "context": "Every house had a lararium where the family offered food and wine to the Lares. Painted lararia survive at Pompeii, often with a snake guardian.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "et",
+   "lar",
+   "lararium",
+   "penates"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Lararium, House of the Vettii, Pompeii",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Lares (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Lares",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/l-lares.png",
+   "alt": "An Ancient Roman lar.",
+   "kind": "artifact",
+   "aspect": "1868:2936",
+   "transparent": true,
+   "credit": "Wikimedia Commons / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lar_romano_de_bronce_(M.A.N._Inv.2943)_01.jpg"
+  },
+  "gloss": [
+   {
+    "word": "larārium",
+    "lemma": "larārium",
+    "meaning": "household shrine",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Larēs",
+    "lemma": "Lar",
+    "meaning": "household gods",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "Penātēs",
+    "lemma": "Penātēs",
+    "meaning": "gods of the storeroom",
+    "parse": "nom. pl. m."
+   }
+  ],
+  "dcc_core_pct": 50,
+  "dcc_ranks": {
+   "larārium": null,
+   "et": 1
+  }
  },
  {
   "id": "v-imperator",
@@ -929,14 +2232,43 @@
    "description": "Augustus of Prima Porta cut-out",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Augustus of Prima Porta (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Augustus_of_Prima_Porta",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/v-imperator.png",
+   "alt": "front view",
+   "kind": "statue_cutout",
+   "aspect": "1500:2250",
+   "transparent": true,
+   "credit": "Till Niermann / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg"
+  },
+  "gloss": [
+   {
+    "word": "imperātor",
+    "lemma": "imperātor",
+    "meaning": "commander, emperor",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "imperium",
+    "lemma": "imperium",
+    "meaning": "command, power, empire",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "imperātor": 723,
+   "imperium": 200
+  }
  },
  {
   "id": "g-perf-rg",
@@ -948,7 +2280,19 @@
   "translation": "I often waged wars, civil and foreign, on land and sea throughout the whole world.",
   "teaches": "Perfect tense first-person -ī (gessī)",
   "context": "Augustus' own account of his deeds was inscribed on bronze pillars at his mausoleum. The best copy survives in Ankara.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "bellum",
+   "ciuilis",
+   "et",
+   "externus",
+   "gero",
+   "in",
+   "mare",
+   "orbis",
+   "saepe",
+   "terra",
+   "totus"
+  ],
   "grammar_tags": [
    "perfect"
   ],
@@ -956,7 +2300,7 @@
    "description": "Res Gestae wall at Ankara (Monumentum Ancyranum)",
    "kind": "inscription",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 2.0"
   },
   "learn_more": {
    "label": "Res Gestae Divi Augusti (Wikipedia)",
@@ -967,7 +2311,105 @@
    "work": "Res Gestae Divi Augusti",
    "citation": "3.1"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/g-perf-rg.jpg",
+   "alt": "The Temple of Augustus and Rome with the Res Gestae Divi Augusti (\"Deeds of the Divine Augustus\") inscribed on the walls of the cella, Ancyr",
+   "kind": "inscription",
+   "aspect": "4928:3264",
+   "transparent": false,
+   "credit": "Carole Raddato from Frankfurt, Germany / Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_Temple_of_Augustus_and_Rome_with_the_Res_Gestae_Divi_Augusti_(%22Deeds_of_the_Divine_Augustus%22)_inscribed_on_the_walls_of_the_cella,_Ancyra,_Ankara_(Turkey)_(26028202241).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Bella",
+    "lemma": "bellum",
+    "meaning": "wars",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "terrā",
+    "lemma": "terra",
+    "meaning": "on land",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "marī",
+    "lemma": "mare",
+    "meaning": "on sea",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "cīvīlia",
+    "lemma": "cīvīlis",
+    "meaning": "civil",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "externaque",
+    "lemma": "externus",
+    "meaning": "and foreign",
+    "parse": "acc. pl. n. + -que"
+   },
+   {
+    "word": "tōtō",
+    "lemma": "tōtus",
+    "meaning": "whole",
+    "parse": "abl. sg. m."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in, throughout",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "orbe",
+    "lemma": "orbis",
+    "meaning": "circle, world",
+    "parse": "abl. sg. m."
+   },
+   {
+    "word": "terrārum",
+    "lemma": "terra",
+    "meaning": "of lands",
+    "parse": "gen. pl. f."
+   },
+   {
+    "word": "saepe",
+    "lemma": "saepe",
+    "meaning": "often",
+    "parse": "adv."
+   },
+   {
+    "word": "gessī",
+    "lemma": "gerō",
+    "meaning": "I waged",
+    "parse": "1st sg. perf."
+   }
+  ],
+  "dcc_core_pct": 83,
+  "dcc_ranks": {
+   "bellum": 86,
+   "terra": 70,
+   "et": 1,
+   "mare": 125,
+   "cīvīlis": null,
+   "externus": null,
+   "tōtus": 78,
+   "in": 5,
+   "orbis": 322,
+   "saepe": 145,
+   "gerō": 237
+  }
  },
  {
   "id": "g-impf",
@@ -975,11 +2417,17 @@
   "subtype": "grammar",
   "unit": 6,
   "era": "empire",
-  "latin": "Urbem … marmoream sē relinquere, quam latericiam accēpisset (Suet.) / Rōmānī lateribus aedificābant.",
-  "translation": "(He boasted) that he left as marble the city he had received as brick. / The Romans used to build with bricks.",
+  "latin": "Rōmānī lateribus aedificābant; Augustus marmore aedificābat.",
+  "translation": "The Romans used to build with bricks; Augustus was building with marble.",
   "teaches": "Perfect vs imperfect (-bā-) contrast",
-  "context": "Suetonius reports Augustus' boast; the imperfect describes ongoing past habit, the perfect completed acts.",
-  "vocab_ids": [],
+  "context": "Imperfect -bā- = ongoing or habitual past. Suetonius (Aug. 28.3) says Augustus boasted he left Rome marble though he had received it brick (marmoream sē relinquere, quam latericiam accēpisset).",
+  "vocab_ids": [
+   "aedifico",
+   "augustus",
+   "later",
+   "marmor",
+   "romanus"
+  ],
   "grammar_tags": [
    "imperfect",
    "perfect"
@@ -988,18 +2436,68 @@
    "description": "Forum of Augustus remains",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Forum of Augustus (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Forum_of_Augustus",
    "verified_http": "200"
   },
-  "source": {
-   "work": "Suetonius, Divus Augustus",
-   "citation": "28.3"
+  "image": {
+   "src": "assets/learning/raw/g-impf.jpg",
+   "alt": "Temple of Mars Ultor (Rome) - Laterale",
+   "kind": "building",
+   "aspect": "8892:6233",
+   "transparent": false,
+   "credit": "NikonZ7II / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tempio_di_Marte_Ultore_(Roma)_-_Laterale.jpg"
   },
-  "attribution_confidence": "verified"
+  "attribution_note": "Constructed sentences; Suetonius Aug. 28.3 (verified, Latin Library) cited in context only.",
+  "gloss": [
+   {
+    "word": "Rōmānī",
+    "lemma": "Rōmānus",
+    "meaning": "the Romans",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "lateribus",
+    "lemma": "later",
+    "meaning": "bricks",
+    "parse": "abl. pl. m."
+   },
+   {
+    "word": "aedificābant",
+    "lemma": "aedificō",
+    "meaning": "used to build",
+    "parse": "3rd pl. impf."
+   },
+   {
+    "word": "Augustus",
+    "lemma": "Augustus",
+    "meaning": "Augustus",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "marmore",
+    "lemma": "marmor",
+    "meaning": "marble",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "aedificābat",
+    "lemma": "aedificō",
+    "meaning": "was building",
+    "parse": "3rd sg. impf."
+   }
+  ],
+  "dcc_core_pct": 0,
+  "dcc_ranks": {
+   "later": null,
+   "aedificō": null,
+   "marmor": null
+  }
  },
  {
   "id": "g-possum",
@@ -1011,7 +2509,9 @@
   "translation": "I can, you can, s/he can",
   "teaches": "possum = pot + sum",
   "context": "Learn sum first, then glue pot- on (pos- before s). Pairs with an infinitive: venīre possum, I can come.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "possum"
+  ],
   "grammar_tags": [
    "possum"
   ],
@@ -1019,14 +2519,48 @@
    "description": "Coin of Augustus (Met/ANS)",
    "kind": "coin",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC0"
   },
   "learn_more": {
    "label": "Latin grammar (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Latin_grammar",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/g-possum.png",
+   "alt": "Roman; Aureus of Augustus; Coins",
+   "kind": "coin",
+   "aspect": "830:766",
+   "transparent": true,
+   "credit": "Wikimedia Commons / Wikimedia Commons",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Gold_aureus_of_Augustus_MET_SF99356.jpg"
+  },
+  "gloss": [
+   {
+    "word": "possum",
+    "lemma": "possum",
+    "meaning": "I can",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "potes",
+    "lemma": "possum",
+    "meaning": "you can",
+    "parse": "2nd sg. pres."
+   },
+   {
+    "word": "potest",
+    "lemma": "possum",
+    "meaning": "s/he can",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "possum": 23
+  }
  },
  {
   "id": "i-coin-divi-f",
@@ -1038,7 +2572,11 @@
   "translation": "Caesar, son of the deified (Julius)",
   "teaches": "Coin legend reading; genitive + abbreviation",
   "context": "Octavian stressed his adoption by the deified Julius on coins. DIVI F = dīvī fīlius, a powerful propaganda line before the name Augustus (27 BC).",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "caesar",
+   "diuus",
+   "filius"
+  ],
   "grammar_tags": [
    "genitive",
    "abbreviations"
@@ -1047,14 +2585,53 @@
    "description": "Denarius of Octavian, CAESAR DIVI F (ANS/Met)",
    "kind": "coin",
    "candidate_source": "Met Open Access / ANS",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 2.5"
   },
   "learn_more": {
    "label": "Augustus (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Augustus",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "image": {
+   "src": "assets/learning/i-coin-divi-f.png",
+   "alt": "Augustus, with Divus Julius Caesar. AR Denarius (17mm, 3.20 g, 3h). Rome mint; M. Sanquinius, moneyer. Struck 17 BC. AVGVSTVS DIVI • F, bare",
+   "kind": "coin",
+   "aspect": "800:389",
+   "transparent": true,
+   "credit": "CNG / Wikimedia Commons",
+   "license": "CC BY-SA 2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rare_denarius_of_Octavian_%26_Caesar.jpg"
+  },
+  "source": {
+   "work": "Coin legend",
+   "citation": "Octavian's denarius issues, c. 32–29 BC (legend CAESAR DIVI F); catalogue number (RIC I² Augustus) to be added from the imaged coin"
+  },
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "CAESAR",
+    "lemma": "Caesar",
+    "meaning": "Caesar",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "DIVI",
+    "lemma": "dīvus",
+    "meaning": "of the deified one",
+    "parse": "gen. sg. m."
+   },
+   {
+    "word": "F",
+    "lemma": "fīlius",
+    "meaning": "son",
+    "parse": "abbr. nom. sg."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "dīvus": 962,
+   "fīlius": 909
+  }
  },
  {
   "id": "l-denarius",
@@ -1066,20 +2643,60 @@
   "translation": "denarius, as, sestertius (coins)",
   "teaches": "Money vocab; numerals",
   "context": "A denarius was worth four sesterces. 'Dēnārius' (from dēnī, ten each) gave the 'd' in old British £sd and the word 'dinar'.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "as",
+   "denarius",
+   "sestertius"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Silver denarius obverse and reverse",
    "kind": "coin",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Denarius (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Denarius",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/l-denarius.png",
+   "alt": "Denarius of Octavian and Mark Antony from Ephesus",
+   "kind": "coin",
+   "aspect": "800:391",
+   "transparent": true,
+   "credit": "Byzantium565 / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Octavian_and_Antony_denarius.jpg"
+  },
+  "gloss": [
+   {
+    "word": "dēnārius",
+    "lemma": "dēnārius",
+    "meaning": "denarius (silver coin)",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "as",
+    "lemma": "as",
+    "meaning": "as (bronze coin)",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "sēstertius",
+    "lemma": "sēstertius",
+    "meaning": "sesterce",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "dcc_core_pct": 0,
+  "dcc_ranks": {
+   "dēnārius": null,
+   "as": null,
+   "sēstertius": null
+  }
  },
  {
   "id": "x-timeline-emp",
@@ -1091,20 +2708,49 @@
   "translation": "emperors in order",
   "teaches": "Ordering game with nominative names and dates",
   "context": "Drag emperors onto the timeline. Trajan's conquests brought the empire to its largest extent in AD 117.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "augustus",
+   "nero"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Cut-out busts from Met/Commons, one per emperor",
    "kind": "statue_cutout",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "List of Roman emperors (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/List_of_Roman_emperors",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/x-timeline-emp.png",
+   "alt": "Glyptothek - Munich - Germany",
+   "kind": "statue_cutout",
+   "aspect": "3456:5184",
+   "transparent": true,
+   "credit": "José Luiz / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Trajan_(GL_336)_-_Glyptothek_-_Munich_-_Germany_2017_(2).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Augustus",
+    "lemma": "Augustus",
+    "meaning": "Augustus",
+    "parse": "nom."
+   },
+   {
+    "word": "Nerō",
+    "lemma": "Nerō",
+    "meaning": "Nero",
+    "parse": "nom."
+   }
+  ],
+  "dcc_core_pct": null,
+  "dcc_ranks": {}
  },
  {
   "id": "v-amo",
@@ -1124,26 +2770,55 @@
    "description": "Fresco of a couple, Pompeii (Terentius Neo)",
    "kind": "painting",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Catullus (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Catullus",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/v-amo.png",
+   "alt": "A Modern statue of the roman poet Gaius Valerius Catullus in Sirmione",
+   "kind": "statue_cutout",
+   "aspect": "2592:3273",
+   "transparent": true,
+   "credit": "Schorle / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Catull_Sirmione.jpg"
+  },
+  "gloss": [
+   {
+    "word": "amō",
+    "lemma": "amō",
+    "meaning": "I love",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "amō": 219
+  }
  },
  {
   "id": "g-imperative",
   "type": "grammar",
   "subtype": "grammar",
   "unit": 7,
-  "era": "republic",
+  "era": "empire",
   "latin": "Carpe diem, quam minimum crēdula posterō.",
   "translation": "Pluck the day, trusting as little as possible in tomorrow.",
   "teaches": "Imperative singular (carpe); first sighting",
   "context": "Horace ends an ode to Leuconoe with this line: harvest today like ripe fruit. Imperatives: stem alone (amā, vidē, carpe), plural -te.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "carpo",
+   "credulus",
+   "dies",
+   "minimum",
+   "posterus",
+   "quam"
+  ],
   "grammar_tags": [
    "imperative"
   ],
@@ -1151,7 +2826,7 @@
    "description": "Horace manuscript or Horace portrait medallion",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Carpe diem (Wikipedia)",
@@ -1162,7 +2837,64 @@
    "work": "Horace, Odes",
    "citation": "1.11.8"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/g-imperative.jpg",
+   "alt": "Horace Odes 1.4, C11 (\"φ\"), Parisinus latinus 7974 4v (Bibliothèque nationale de France)",
+   "kind": "manuscript",
+   "aspect": "3127:4242",
+   "transparent": false,
+   "credit": "C11 scribe unknown / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Horace_Odes_1.4_(%CF%86)_(BnF_Parisinus_latinus_7974).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Carpe",
+    "lemma": "carpō",
+    "meaning": "pluck, seize",
+    "parse": "2nd sg. imper."
+   },
+   {
+    "word": "diem",
+    "lemma": "diēs",
+    "meaning": "day",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "quam",
+    "lemma": "quam",
+    "meaning": "as … as possible (+ superl.)",
+    "parse": "adv."
+   },
+   {
+    "word": "minimum",
+    "lemma": "minimum",
+    "meaning": "very little",
+    "parse": "adv."
+   },
+   {
+    "word": "crēdula",
+    "lemma": "crēdulus",
+    "meaning": "trusting",
+    "parse": "nom. sg. f. adj."
+   },
+   {
+    "word": "posterō",
+    "lemma": "posterus",
+    "meaning": "the next (day)",
+    "parse": "dat. sg. m."
+   }
+  ],
+  "dcc_core_pct": 50,
+  "dcc_ranks": {
+   "carpō": null,
+   "diēs": 54,
+   "quam": 29,
+   "minimum": null,
+   "crēdulus": null,
+   "posterus": 877
+  }
  },
  {
   "id": "g-future",
@@ -1170,11 +2902,16 @@
   "subtype": "grammar",
   "unit": 7,
   "era": "empire",
-  "latin": "Nōn omnis moriar.",
-  "translation": "I shall not wholly die.",
-  "teaches": "Future of 3rd conjugation (-ar/-ēs/-et)",
+  "latin": "Regam, regēs, reget… Nōn omnis moriar.",
+  "translation": "I shall rule, you will rule, s/he will rule… I shall not wholly die.",
+  "teaches": "3rd-conj. future (-am, -ēs, -et) with regular regō first; Horace as the authentic sighting (moriar is deponent, flagged)",
   "context": "Horace closes Odes 3 confident his poetry will outlive him. Links to the existing 'Exēgī monumentum' card.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "morior",
+   "non",
+   "omnis",
+   "rego"
+  ],
   "grammar_tags": [
    "future"
   ],
@@ -1182,7 +2919,7 @@
    "description": "Horace bust or Odes incunable",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Odes (Horace) (Wikipedia)",
@@ -1193,7 +2930,63 @@
    "work": "Horace, Odes",
    "citation": "3.30.6"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/g-future.jpg",
+   "alt": "Numérisation effectuée à partir d'un document de substitution.\nCatalogus codicoum manuscriptorum bibliothecae regiae : 1.° Decimi Junii Juve",
+   "kind": "manuscript",
+   "aspect": "4310:6067",
+   "transparent": false,
+   "credit": "Juvénal (0060?-0130?). Auteur du texte\nPerse (0034-0062). Auteur du texte\n\nHorace (0065-0008 av. J.-C.). Auteur du texte / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Juvenalis,_Satirae._%E2%80%94_Persius,_Satyrae._%E2%80%94_Horatius,_Carmina._-_btv1b90664911_(003_of_231).jpg"
+  },
+  "attribution_note": "regam/regēs/reget constructed; Nōn omnis moriar = Horace Odes 3.30.6 (verified Latin Library).",
+  "gloss": [
+   {
+    "word": "Regam",
+    "lemma": "regō",
+    "meaning": "I shall rule",
+    "parse": "1st sg. fut."
+   },
+   {
+    "word": "regēs",
+    "lemma": "regō",
+    "meaning": "you will rule",
+    "parse": "2nd sg. fut."
+   },
+   {
+    "word": "reget",
+    "lemma": "regō",
+    "meaning": "s/he will rule",
+    "parse": "3rd sg. fut."
+   },
+   {
+    "word": "Nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "omnis",
+    "lemma": "omnis",
+    "meaning": "wholly, all",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "moriar",
+    "lemma": "morior",
+    "meaning": "I shall die",
+    "parse": "1st sg. fut. (deponent)"
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "regō": 554,
+   "nōn": 6,
+   "omnis": 18,
+   "morior": 253
+  }
  },
  {
   "id": "g-pronoun",
@@ -1205,7 +2998,10 @@
   "translation": "I, you; me, you; to me, to you",
   "teaches": "Personal pronouns",
   "context": "Poetry is full of ego and tū. Ovid's lover tells his girl to come to him: personal pronouns carry the drama of address.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "ego",
+   "tu"
+  ],
   "grammar_tags": [
    "pronouns"
   ],
@@ -1213,14 +3009,67 @@
    "description": "Ovid portrait or statue at Constanța",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Latin grammar (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Latin_grammar",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-pronoun.jpg",
+   "alt": "The pedestal of the Statue to Ovid (Constanța, Romania)",
+   "kind": "building",
+   "aspect": "2861:3278",
+   "transparent": false,
+   "credit": "Neoclassicism Enthusiast / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_pedestal_of_the_Statue_to_Ovid_(Constan%C8%9Ba,_Romania).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Ego",
+    "lemma": "ego",
+    "meaning": "I",
+    "parse": "nom."
+   },
+   {
+    "word": "tū",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "nom."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "acc."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "acc."
+   },
+   {
+    "word": "mihi",
+    "lemma": "ego",
+    "meaning": "to me",
+    "parse": "dat."
+   },
+   {
+    "word": "tibi",
+    "lemma": "tū",
+    "meaning": "to you",
+    "parse": "dat."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "ego": 11,
+   "tū": 9
+  }
  },
  {
   "id": "v-tempus",
@@ -1240,14 +3089,36 @@
    "description": "Roman sundial (Met)",
    "kind": "artifact",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Roman timekeeping (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Roman_timekeeping",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-tempus.jpg",
+   "alt": "Sundial at the western front of the cellarium, Maulbronn Monastery, Maulbronn, Germany",
+   "kind": "artifact",
+   "aspect": "2678:3675",
+   "transparent": false,
+   "credit": "H. Zell / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Sundial_-_Maulbronn_Monastery.jpg"
+  },
+  "gloss": [
+   {
+    "word": "tempus",
+    "lemma": "tempus",
+    "meaning": "time",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "tempus": 89
+  }
  },
  {
   "id": "x-meter",
@@ -1259,13 +3130,17 @@
   "translation": "I sing of arms and the man…",
   "teaches": "Hear dactylic hexameter: long/short tap rhythm",
   "context": "Tap along to a human reading of Aeneid 1.1 in restored pronunciation. Learners feel vowel length, which reinforces macrons.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "arma",
+   "cano",
+   "uir"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Vergilius Romanus folio",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Dactylic hexameter (Wikipedia)",
@@ -1276,7 +3151,44 @@
    "work": "Virgil, Aeneid",
    "citation": "1.1"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/x-meter.jpg",
+   "alt": "Folio 14r of the Vergilius Romanus.",
+   "kind": "manuscript",
+   "aspect": "2300:2056",
+   "transparent": false,
+   "credit": "Unknown authorUnknown author / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:RomanVirgilFolio014rVergilPortrait.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Arma",
+    "lemma": "arma",
+    "meaning": "arms",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "virumque",
+    "lemma": "vir",
+    "meaning": "and the man",
+    "parse": "acc. sg. m. + -que"
+   },
+   {
+    "word": "canō",
+    "lemma": "canō",
+    "meaning": "I sing",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "arma": 98,
+   "vir": 85,
+   "canō": 389
+  },
+  "person": "Virgil"
  },
  {
   "id": "v-animus",
@@ -1289,22 +3201,51 @@
   "teaches": "Close pairs; core vocab",
   "context": "Stoics trained the animus to stay calm. English 'animate', 'animal', 'unanimous' (ūnus + animus).",
   "vocab_ids": [
-   "animus",
-   "anima"
+   "anima",
+   "animus"
   ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Seneca double herm, cut-out",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Seneca the Younger (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/v-animus.png",
+   "alt": "Seneca, part of double-herm in Antikensammlung Berlin",
+   "kind": "statue_cutout",
+   "aspect": "1790:2208",
+   "transparent": true,
+   "credit": "Calidius / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
+  },
+  "gloss": [
+   {
+    "word": "animus",
+    "lemma": "animus",
+    "meaning": "mind, spirit",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "anima",
+    "lemma": "anima",
+    "meaning": "soul, breath",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "animus": 40,
+   "anima": 493
+  }
  },
  {
   "id": "g-infinitive",
@@ -1312,11 +3253,17 @@
   "subtype": "grammar",
   "unit": 8,
   "era": "empire",
-  "latin": "Vīvere, mī Lūcīlī, mīlitāre est.",
-  "translation": "To live, my Lucilius, is to be a soldier.",
+  "latin": "Atquī vīvere, Lūcīlī, mīlitāre est.",
+  "translation": "And yet to live, Lucilius, is to serve as a soldier.",
   "teaches": "Infinitive as noun/subject",
   "context": "Seneca compares life to military service in his letters to Lucilius. Infinitives end -re and can act as nouns.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "atqui",
+   "lucilius",
+   "milito",
+   "sum",
+   "uiuo"
+  ],
   "grammar_tags": [
    "infinitive"
   ],
@@ -1324,7 +3271,7 @@
    "description": "Seneca bust",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Epistulae Morales ad Lucilium (Wikipedia)",
@@ -1335,7 +3282,56 @@
    "work": "Seneca, Epistulae Morales",
    "citation": "96.5"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/g-infinitive.jpg",
+   "alt": "Seneca the Younger, Letters (Epistulae morales ad Lucilium). Latin manuscript. In ms. Florence, Biblioteca Medicea Laurenziana, Plut. 45.33,",
+   "kind": "manuscript",
+   "aspect": "2316:3269",
+   "transparent": false,
+   "credit": "Seneca / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Seneca_the_Younger,_Letters,_Florence,_Plut._45.33.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Atquī",
+    "lemma": "atquī",
+    "meaning": "and yet, but",
+    "parse": "conj."
+   },
+   {
+    "word": "vīvere",
+    "lemma": "vīvō",
+    "meaning": "to live",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "Lūcīlī",
+    "lemma": "Lūcīlius",
+    "meaning": "Lucilius",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "mīlitāre",
+    "lemma": "mīlitō",
+    "meaning": "to serve as a soldier",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "dcc_core_pct": 50,
+  "dcc_ranks": {
+   "atquī": null,
+   "vīvō": 156,
+   "mīlitō": null,
+   "sum": 2
+  }
  },
  {
   "id": "g-ind-stat",
@@ -1347,7 +3343,12 @@
   "translation": "They say that Romulus founded the city.",
   "teaches": "Indirect statement: accusative + infinitive",
   "context": "Latin has no word for 'that' here: the subject goes accusative, the verb infinitive. Livy uses this constantly to report legends he doubts.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "condo",
+   "dico",
+   "romulus",
+   "urbs"
+  ],
   "grammar_tags": [
    "indirect_statement"
   ],
@@ -1355,14 +3356,56 @@
    "description": "Romulus and Remus on Lupa, cut-out",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC0"
   },
   "learn_more": {
    "label": "Indirect speech (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Indirect_speech",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/g-ind-stat.png",
+   "alt": "Lupa Capitolina: she-wolf with Romulus and Remus. Bronze, 12th century AD[1], 5th century BC (the twins are a 15th-century addition).",
+   "kind": "statue_cutout",
+   "aspect": "7489:4876",
+   "transparent": true,
+   "credit": "Wikimedia Commons / Wikimedia Commons",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Dīcunt",
+    "lemma": "dīcō",
+    "meaning": "they say",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "Rōmulum",
+    "lemma": "Rōmulus",
+    "meaning": "Romulus",
+    "parse": "acc. sg. m. (subject of inf.)"
+   },
+   {
+    "word": "urbem",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "condidisse",
+    "lemma": "condō",
+    "meaning": "to have founded",
+    "parse": "perf. inf."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "dīcō": 33,
+   "urbs": 82,
+   "condō": 540
+  }
  },
  {
   "id": "d-video",
@@ -1375,6 +3418,7 @@
   "teaches": "Derivatives from supine stem",
   "context": "Philosophers prized seeing truly. Your 'video' is literally 'I see'; 'provide' is to see ahead.",
   "vocab_ids": [
+   "uideo",
    "video"
   ],
   "grammar_tags": [],
@@ -1382,14 +3426,36 @@
    "description": "Roman fresco eye/portrait of a woman (Sappho fresco)",
    "kind": "painting",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: CC BY 2.0"
   },
   "learn_more": {
    "label": "Latin influence in English (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Latin_influence_in_English",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/d-video.jpg",
+   "alt": "Naples Museum, Italy",
+   "kind": "painting",
+   "aspect": "2695:2744",
+   "transparent": false,
+   "credit": "TyB / Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fresco_of_a_Woman_(Sappho%3F)_Holding_Stylus_and_Tablet.jpg"
+  },
+  "gloss": [
+   {
+    "word": "videō",
+    "lemma": "videō",
+    "meaning": "I see",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "videō": 31
+  }
  },
  {
   "id": "x-greek-flag",
@@ -1401,20 +3467,82 @@
   "translation": "Marcus Aurelius wrote 'To Himself' in Latin. True or false?",
   "teaches": "Comprehension in simple Latin; cultural accuracy",
   "context": "False: the Meditations are in Greek, the language of philosophy for educated Romans. Bilingualism was normal among the elite.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "an",
+   "falsus",
+   "latine",
+   "marcus_aurelius",
+   "scribo",
+   "uerus"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Equestrian statue of Marcus Aurelius, Capitoline, cut-out",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Meditations (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Meditations",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/x-greek-flag.jpg",
+   "alt": "M. Antonini Imperatoris Romani, Et Philosophi De seipso seu vita sua Libri XII. : Graece et Latine nunc primum aediti, Gvilielmo Xylandro Au",
+   "kind": "manuscript",
+   "aspect": "3374:5592",
+   "transparent": false,
+   "credit": "Marcus Aurelius / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius._De_seipso,_seu_vita_sua_(Xylander,_1558).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Marcus Aurēlius",
+    "lemma": "Mārcus Aurēlius",
+    "meaning": "Marcus Aurelius",
+    "parse": "nom."
+   },
+   {
+    "word": "Latīnē",
+    "lemma": "Latīnē",
+    "meaning": "in Latin",
+    "parse": "adv."
+   },
+   {
+    "word": "scrīpsit",
+    "lemma": "scrībō",
+    "meaning": "wrote",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "word": "Vērum",
+    "lemma": "vērus",
+    "meaning": "true",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "an",
+    "lemma": "an",
+    "meaning": "or",
+    "parse": "conj."
+   },
+   {
+    "word": "falsum",
+    "lemma": "falsus",
+    "meaning": "false",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "scrībō": 568,
+   "vērus": 410,
+   "an": 94,
+   "falsus": 633
+  }
  },
  {
   "id": "l-schola",
@@ -1426,20 +3554,68 @@
   "translation": "school, teacher, wax tablet, stylus",
   "teaches": "School vocab",
   "context": "Roman children learned letters with a grammaticus or lūdī magister, writing on wax tablets with a stylus — whose flat end erased mistakes.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "ludus",
+   "magister",
+   "stilus",
+   "tabula"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Roman wax tablet and stylus (Commons/Met)",
    "kind": "artifact",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
   },
   "learn_more": {
    "label": "Wax tablet (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Wax_tablet",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/l-schola.jpg",
+   "alt": "Replica of wax writing tablet with stylus. Roman period. The sharp tip was used for writing and the flat end was for wiping it out.",
+   "kind": "artifact",
+   "aspect": "1600:1067",
+   "transparent": false,
+   "credit": "Peter van der Sluijs / Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Replica_of_roman_wax_writing_tablet_with_stylus.jpg"
+  },
+  "gloss": [
+   {
+    "word": "lūdus",
+    "lemma": "lūdus",
+    "meaning": "school, game",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "magister",
+    "lemma": "magister",
+    "meaning": "teacher",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "tabula",
+    "lemma": "tabula",
+    "meaning": "tablet",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "stilus",
+    "lemma": "stilus",
+    "meaning": "stylus",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "dcc_core_pct": 25,
+  "dcc_ranks": {
+   "lūdus": null,
+   "magister": 933,
+   "tabula": null,
+   "stilus": null
+  }
  },
  {
   "id": "g-passive",
@@ -1451,7 +3627,10 @@
   "translation": "Rome was captured.",
   "teaches": "Perfect passive: participle + est",
   "context": "Alaric's Visigoths sacked Rome in 410. The shock prompted Augustine to write the City of God. Present passive: -tur (capitur, 'is captured').",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "capio",
+   "roma"
+  ],
   "grammar_tags": [
    "passive"
   ],
@@ -1459,14 +3638,42 @@
    "description": "Sack of Rome painting (Joseph-Noël Sylvestre)",
    "kind": "painting",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Sack of Rome (410) (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Sack_of_Rome_%28410%29",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/g-passive.jpg",
+   "alt": "Painting by Joseph-Noel Silvestre \"The Plunder of Rome\"",
+   "kind": "painting",
+   "aspect": "2072:3190",
+   "transparent": false,
+   "credit": "Joseph-Noël Sylvestre / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Visigoths_sack_Rome.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Rōma",
+    "lemma": "Rōma",
+    "meaning": "Rome",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "capta est",
+    "lemma": "capiō",
+    "meaning": "was captured",
+    "parse": "3rd sg. perf. pass. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "capiō": 131
+  }
  },
  {
   "id": "i-chirho",
@@ -1474,17 +3681,23 @@
   "subtype": "coin",
   "unit": 9,
   "era": "late_antiquity",
-  "latin": "☧ (Chī-Rhō) on coins of Constantine; Vulgate: Ego sum α et ω",
-  "translation": "Chi-Rho; I am Alpha and Omega",
-  "teaches": "Reading Christian symbols on late Roman coins",
+  "latin": "Ego sum Alpha et Omega.",
+  "translation": "I am the Alpha and the Omega.",
+  "teaches": "Vulgate sentence with sum; reading ☧/Α/Ω symbols on late Roman coins (image)",
   "context": "Constantine adopted the Chi-Rho after 312. Later coins pair it with Alpha and Omega from Revelation (Apoc. 1:8 in the Vulgate).",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "alpha",
+   "ego",
+   "et",
+   "omega",
+   "sum"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Late Roman coin or silver plate with Chi-Rho",
    "kind": "coin",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Chi Rho (Wikipedia)",
@@ -1495,7 +3708,55 @@
    "work": "Vulgate, Apocalypsis",
    "citation": "1:8"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/i-chirho.png",
+   "alt": "A coin issued by the Emperor Valentinian III (425-455 AD), with a chi-rho on it, designed to circulate within the Roman Empire.",
+   "kind": "coin",
+   "aspect": "600:287",
+   "transparent": true,
+   "credit": "The government of the Roman Empire. / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_AE4_of_Valentinian_III_(425-455_AD),_with_chi-rho,_Roman_Empire_-_Coinsandrings.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Ego",
+    "lemma": "ego",
+    "meaning": "I",
+    "parse": "nom."
+   },
+   {
+    "word": "sum",
+    "lemma": "sum",
+    "meaning": "am",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "Alpha",
+    "lemma": "Alpha",
+    "meaning": "Alpha",
+    "parse": "indecl."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "Omega",
+    "lemma": "Omega",
+    "meaning": "Omega",
+    "parse": "indecl."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "ego": 11,
+   "sum": 2,
+   "et": 1
+  }
  },
  {
   "id": "v-rex",
@@ -1508,22 +3769,51 @@
   "teaches": "Core vocab revisited in a new era",
   "context": "After 476 Germanic kings ruled the West in Latin. Odoacer deposed Romulus Augustulus; Theodoric ruled Italy as rēx.",
   "vocab_ids": [
-   "rex",
-   "regnum"
+   "regnum",
+   "rex"
   ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Mausoleum of Theodoric, Ravenna",
    "kind": "building",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Odoacer (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Odoacer",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/v-rex.png",
+   "alt": "This half siliqua portrays, on the obverse, the image of the king himself, bare headed without any regalia, but a hairstyle and moustaches, ",
+   "kind": "coin",
+   "aspect": "1095:1192",
+   "transparent": true,
+   "credit": "British Museum (photo) / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Coin_of_Odoacer_at_the_British_Museum_(obverse).png"
+  },
+  "gloss": [
+   {
+    "word": "rēx",
+    "lemma": "rēx",
+    "meaning": "king",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "rēgnum",
+    "lemma": "rēgnum",
+    "meaning": "kingdom",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "rēx": 60,
+   "rēgnum": 121
+  }
  },
  {
   "id": "x-vulgate",
@@ -1535,7 +3825,14 @@
   "translation": "I am the way, and the truth, and the life.",
   "teaches": "Fill-in-the-blank with units 1–5 vocab (via, sum)",
   "context": "Jerome's Vulgate (c. 382–405) became the West's Bible for a millennium. Its plain Latin is ideal reading for beginners.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "ego",
+   "et",
+   "sum",
+   "ueritas",
+   "uia",
+   "uita"
+  ],
   "grammar_tags": [
    "sum"
   ],
@@ -1543,7 +3840,7 @@
    "description": "Codex Amiatinus Ezra page",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Vulgate (Wikipedia)",
@@ -1554,7 +3851,65 @@
    "work": "Vulgate, Ioannes",
    "citation": "14:6"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/x-vulgate.jpg",
+   "alt": "page 277 of the codex, with the Comma Johanneum at the bottom margin. Latin text there:\nsicut i.icelo [?] tre[s] sunt pat[er] &amp; uerbu[m]",
+   "kind": "manuscript",
+   "aspect": "4466:5412",
+   "transparent": false,
+   "credit": "Unknown authorUnknown author / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cod._Sangallensis_63_(277).jpg"
+  },
+  "gloss": [
+   {
+    "word": "Ego",
+    "lemma": "ego",
+    "meaning": "I",
+    "parse": "nom."
+   },
+   {
+    "word": "sum",
+    "lemma": "sum",
+    "meaning": "am",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "via",
+    "lemma": "via",
+    "meaning": "way",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "vēritās",
+    "lemma": "vēritās",
+    "meaning": "truth",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "vīta",
+    "lemma": "vīta",
+    "meaning": "life",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 83,
+  "dcc_ranks": {
+   "ego": 11,
+   "sum": 2,
+   "via": 196,
+   "et": 1,
+   "vēritās": null,
+   "vīta": 87
+  },
+  "person": "Jerome (translator)"
  },
  {
   "id": "d-crux",
@@ -1566,20 +3921,44 @@
   "translation": "cross",
   "teaches": "3rd-decl. stem crūc- in derivatives",
   "context": "Crucifixion was a Roman punishment, abolished by Constantine. 'Excruciating' literally means 'out of the cross'; 'crucial' first meant a crossroads.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "crux"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Early Christian cross or ivory panel (Met)",
    "kind": "artifact",
    "candidate_source": "Met Open Access",
-   "license_status": "CC0 (Met Open Access); verify object page"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
   },
   "learn_more": {
    "label": "Crucifixion (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Crucifixion",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/d-crux.png",
+   "alt": "Image of the Cross of Justin II",
+   "kind": "artifact",
+   "aspect": "839:1064",
+   "transparent": true,
+   "credit": "Gfawkes05 / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_Cross_of_Justin_II.jpg"
+  },
+  "gloss": [
+   {
+    "word": "crux",
+    "lemma": "crux",
+    "meaning": "cross",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 0,
+  "dcc_ranks": {
+   "crux": null
+  }
  },
  {
   "id": "l-annona",
@@ -1591,20 +3970,60 @@
   "translation": "bread, grain, grain supply",
   "teaches": "Food vocab; 3rd vs 2nd decl.",
   "context": "Rome fed citizens free grain, later bread. Losing Egypt and Africa's grain helped starve the late western capital; Juvenal's 'pānem et circēnsēs' card connects here.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "annona",
+   "frumentum",
+   "panis"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Carbonised loaf from Pompeii",
    "kind": "artifact",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verify"
+   "license_status": "verified on file page via Commons API: CC0"
   },
   "learn_more": {
    "label": "Cura Annonae (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Cura_Annonae",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/l-annona.png",
+   "alt": "Ancient roman fossilized bread, year 76 or 79 CE, from Pompeii, Italy.",
+   "kind": "artifact",
+   "aspect": "2264:2082",
+   "transparent": true,
+   "credit": "Jebulon / Wikimedia Commons",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_roman_bread_Pompeii_Museum_Boscoreale.jpg"
+  },
+  "gloss": [
+   {
+    "word": "pānis",
+    "lemma": "pānis",
+    "meaning": "bread",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "frūmentum",
+    "lemma": "frūmentum",
+    "meaning": "grain",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "annōna",
+    "lemma": "annōna",
+    "meaning": "grain supply",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 33,
+  "dcc_ranks": {
+   "pānis": null,
+   "frūmentum": 936,
+   "annōna": null
+  }
  },
  {
   "id": "g-relative",
@@ -1613,10 +4032,17 @@
   "unit": 10,
   "era": "early_medieval",
   "latin": "Pater noster, quī es in caelīs",
-  "translation": "Our Father, who art in heaven",
+  "translation": "Our Father, who are in heaven",
   "teaches": "Relative pronoun quī/quae/quod",
   "context": "The Lord's Prayer (Matt. 6:9) was the first Latin many medieval people learned. Already in medieval-cards; here it drives a relative-clause drill.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "caelum",
+   "in",
+   "noster",
+   "pater",
+   "qui",
+   "sum"
+  ],
   "grammar_tags": [
    "relative_clause"
   ],
@@ -1624,7 +4050,7 @@
    "description": "Carolingian Gospel book page",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Relative clause (Wikipedia)",
@@ -1635,7 +4061,64 @@
    "work": "Vulgate, Matthaeus",
    "citation": "6:9"
   },
-  "attribution_confidence": "verified"
+  "attribution_confidence": "verified",
+  "image": {
+   "src": "assets/learning/raw/g-relative.jpg",
+   "alt": "Christ in Majesty, from the Evangéliaire dit de Charlemagne.",
+   "kind": "manuscript",
+   "aspect": "3800:5622",
+   "transparent": false,
+   "credit": "Godescalc / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Evangeliarium_-_%C3%A9vang%C3%A9liaire_dit_de_Charlemagne_ou_de_Godescalc_-_J%C3%A9sus-Christ_-_BNF_Gallica.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Pater",
+    "lemma": "pater",
+    "meaning": "father",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "noster",
+    "lemma": "noster",
+    "meaning": "our",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "who",
+    "parse": "rel. pron. nom. sg. m."
+   },
+   {
+    "word": "es",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "2nd sg. pres."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "caelīs",
+    "lemma": "caelum",
+    "meaning": "heavens",
+    "parse": "abl. pl. n."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "pater": 71,
+   "noster": 52,
+   "quī": 3,
+   "sum": 2,
+   "in": 5,
+   "caelum": 117
+  }
  },
  {
   "id": "v-liber",
@@ -1648,22 +4131,51 @@
   "teaches": "Core vocab; e-dropping 2nd decl.",
   "context": "Monks copied books in the scriptorium. 'Library', 'lecture', 'legend' (things to be read). Don't confuse liber (book) with līber (free).",
   "vocab_ids": [
-   "liber",
-   "lego"
+   "lego",
+   "liber"
   ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Book of Kells folio",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Scriptorium (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Scriptorium",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/v-liber.jpg",
+   "alt": "Miniature of the book’s author, Vincent of Beauvais, within a border containing the arms of Edward IV, to whom this manuscript belonged. Mir",
+   "kind": "manuscript",
+   "aspect": "6204:8779",
+   "transparent": false,
+   "credit": "Medieval scribe and illuminator / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:BL_Royal_Vincent_of_Beauvais.jpg"
+  },
+  "gloss": [
+   {
+    "word": "liber",
+    "lemma": "liber",
+    "meaning": "book",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "legō",
+    "lemma": "legō",
+    "meaning": "I read",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "liber": 901,
+   "legō": 419
+  }
  },
  {
   "id": "l-monasterium",
@@ -1675,20 +4187,68 @@
   "translation": "monastery, abbot, monk, hour",
   "teaches": "Monastic vocab; Greek loans in Latin",
   "context": "Benedict's Rule organised the day into hours of prayer and work. 'Monk' and 'abbot' come from Greek and Aramaic through Latin.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "abbas",
+   "hora",
+   "monachus",
+   "monasterium"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Plan of St Gall (Cod. Sang. 1092)",
    "kind": "manuscript",
    "candidate_source": "e-codices / Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Plan of Saint Gall (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Plan_of_Saint_Gall",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/l-monasterium.jpg",
+   "alt": "Recto of Plan of Saint Gall\nsee catalogue entry (in German) on Stiftsbibliothek Sankt Gallen.",
+   "kind": "manuscript",
+   "aspect": "3332:4844",
+   "transparent": false,
+   "credit": "Unknown authorUnknown author / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Codex_Sangallensis_1092_recto.jpg"
+  },
+  "gloss": [
+   {
+    "word": "monasterium",
+    "lemma": "monastērium",
+    "meaning": "monastery",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "abbās",
+    "lemma": "abbās",
+    "meaning": "abbot",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "monachus",
+    "lemma": "monachus",
+    "meaning": "monk",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "hōra",
+    "lemma": "hōra",
+    "meaning": "hour",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 25,
+  "dcc_ranks": {
+   "monastērium": null,
+   "abbās": null,
+   "monachus": null,
+   "hōra": 664
+  }
  },
  {
   "id": "i-karolus",
@@ -1700,7 +4260,11 @@
   "translation": "Charles, Emperor, Augustus",
   "teaches": "Medieval coin legend reusing Roman titles",
   "context": "Charlemagne, crowned in 800, issued coins styling himself like a Roman emperor. Compare with Augustus' coins in Unit 6.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "augustus",
+   "imperator",
+   "karolus"
+  ],
   "grammar_tags": [
    "abbreviations"
   ],
@@ -1708,14 +4272,52 @@
    "description": "Denier of Charlemagne (Commons)",
    "kind": "coin",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Charlemagne (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Charlemagne",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "image": {
+   "src": "assets/learning/i-karolus.png",
+   "alt": "Appartient à l’ensemble documentaire : MonnFrCar",
+   "kind": "coin",
+   "aspect": "2070:2070",
+   "transparent": true,
+   "credit": "Charlemagne. Autorité émettrice de monnaie\n\nindéterminé. Atelier monétaire. Émetteur / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg"
+  },
+  "source": {
+   "work": "Coin legend",
+   "citation": "Charlemagne portrait denier, Mainz mint, c. 812–814 (legend KAROLVS IMP AVG)"
+  },
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "KAROLVS",
+    "lemma": "Karolus",
+    "meaning": "Charles",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "IMP",
+    "lemma": "imperātor",
+    "meaning": "emperor",
+    "parse": "abbr. nom."
+   },
+   {
+    "word": "AVG",
+    "lemma": "Augustus",
+    "meaning": "Augustus",
+    "parse": "abbr. nom."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "imperātor": 723
+  }
  },
  {
   "id": "x-colophon",
@@ -1727,7 +4329,13 @@
   "translation": "Here ends the book… Pray for the scribe.",
   "teaches": "Parse a scribe's colophon; imperative plural review",
   "context": "Scribes often signed off with a request for prayer or a complaint about cold fingers. 'Explicit' (it is unrolled) ended books; 'incipit' began them.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "explicit",
+   "liber",
+   "oro",
+   "pro",
+   "scriptor"
+  ],
   "grammar_tags": [
    "imperative",
    "relative_clause"
@@ -1736,14 +4344,64 @@
    "description": "Manuscript colophon page (Commons)",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Colophon (publishing) (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Colophon_%28publishing%29",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/x-colophon.jpg",
+   "alt": "* Listed in De Ricci, Seymour, Census of Medieval and Renaissance Manuscripts in the United States and Canada. New York. N.Y.: H.W. Wilson, ",
+   "kind": "manuscript",
+   "aspect": "3501:4394",
+   "transparent": false,
+   "credit": "Scan by NYPL / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Explicit_of_text,_note_by_scribe_of_copying_dates_(NYPL_b12455533-426359).tif"
+  },
+  "gloss": [
+   {
+    "word": "Explicit",
+    "lemma": "explicit",
+    "meaning": "(here) ends",
+    "parse": "3rd sg. (medieval formula)"
+   },
+   {
+    "word": "liber",
+    "lemma": "liber",
+    "meaning": "book",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Ōrāte",
+    "lemma": "ōrō",
+    "meaning": "pray",
+    "parse": "2nd pl. imper."
+   },
+   {
+    "word": "prō",
+    "lemma": "prō",
+    "meaning": "for",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "scrīptōre",
+    "lemma": "scrīptor",
+    "meaning": "scribe",
+    "parse": "abl. sg. m."
+   }
+  ],
+  "dcc_core_pct": 60,
+  "dcc_ranks": {
+   "explicit": null,
+   "liber": 901,
+   "ōrō": 755,
+   "prō": 128,
+   "scrīptor": null
+  }
  },
  {
   "id": "x-map-medieval",
@@ -1755,20 +4413,51 @@
   "translation": "Lindisfarne, Iona, St Gall, Aachen, Rome",
   "teaches": "Latin place names; map game",
   "context": "Tap where Latin learning survived and spread: Irish and Northumbrian monasteries, St Gall, Charlemagne's court at Aachen.",
-  "vocab_ids": [],
+  "vocab_ids": [
+   "roma",
+   "sanctus"
+  ],
   "grammar_tags": [],
   "image_idea": {
    "description": "Public-domain map of Carolingian Europe",
    "kind": "painting",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Carolingian Renaissance (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Carolingian_Renaissance",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/x-map-medieval.jpg",
+   "alt": "The Carolingian and Byzantine Empires and the Califate about 814",
+   "kind": "painting",
+   "aspect": "1932:1542",
+   "transparent": false,
+   "credit": "Historical Atlas by William R. Shepherd 1911 edition / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_Carolingian_and_Byzantine_Empires_and_the_Califate_about_814.jpg"
+  },
+  "gloss": [
+   {
+    "word": "Sanctus",
+    "lemma": "sānctus",
+    "meaning": "saint, holy",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Rōma",
+    "lemma": "Rōma",
+    "meaning": "Rome",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "sānctus": 659
+  }
  },
  {
   "id": "d-scribo",
@@ -1788,13 +4477,35 @@
    "description": "Evangelist portrait writing (Ebbo Gospels)",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "PD-art likely; verify file page"
+   "license_status": "verified on file page via Commons API: Public domain"
   },
   "learn_more": {
    "label": "Manuscript (Wikipedia)",
    "url": "https://en.wikipedia.org/wiki/Manuscript",
    "verified_http": "200"
   },
-  "attribution_note": "Constructed teaching sentence (not a quotation)."
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "image": {
+   "src": "assets/learning/raw/d-scribo.jpg",
+   "alt": "Evangelistar von Speyer, um 1220\nManuscript in the Badische Landesbibliothek, Karlsruhe, Germany\n\nDetail from Cod. Bruchsal 1, Bl. 68r",
+   "kind": "manuscript",
+   "aspect": "1883:2404",
+   "transparent": false,
+   "credit": "Wikimedia Commons / Wikimedia Commons",
+   "license": "Public domain",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Codex_Bruchsal_1_68r.jpg"
+  },
+  "gloss": [
+   {
+    "word": "scrībō",
+    "lemma": "scrībō",
+    "meaning": "I write",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "dcc_core_pct": 100,
+  "dcc_ranks": {
+   "scrībō": 568
+  }
  }
 ]

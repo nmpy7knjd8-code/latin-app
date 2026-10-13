@@ -1,0 +1,442 @@
+# id :: word|lemma|meaning|parse ; one card per block
+@q-vulg-fiat-lux
+Dīxitque|dīcō|and he said|3rd sg. perf. act. + -que
+Deus|deus|God|nom. sg. m.
+Fīat|fīō|let there be|3rd sg. pres. subj. (jussive)
+lūx|lūx|light|nom. sg. f.
+Et|et|and|conj.
+facta est|fīō|was made, came to be|3rd sg. perf. (passive form), f.
+lūx|lūx|light|nom. sg. f.
+@q-vulg-in-principio
+In|in|in|prep. + abl.
+prīncipiō|prīncipium|beginning|abl. sg. n.
+erat|sum|was|3rd sg. impf.
+Verbum|verbum|the Word|nom. sg. n.
+et|et|and|conj.
+Verbum|verbum|the Word|nom. sg. n.
+erat|sum|was|3rd sg. impf.
+apud|apud|with, in the presence of|prep. + acc.
+Deum|deus|God|acc. sg. m.
+et|et|and|conj.
+Deus|deus|God|nom. sg. m. (predicate)
+erat|sum|was|3rd sg. impf.
+Verbum|verbum|the Word|nom. sg. n. (subject)
+@q-aug-tolle-lege
+Tolle|tollō|pick up|2nd sg. pres. imper. (3rd conj.)
+lege|legō|read|2nd sg. pres. imper. (3rd conj.)
+@q-bede-discere
+Semper|semper|always|adv.
+aut|aut|either / or|conj.
+discere|discō|to learn|pres. act. inf.
+docēre|doceō|to teach|pres. act. inf.
+scrībere|scrībō|to write|pres. act. inf.
+dulce|dulcis|sweet|acc. sg. n. (predicate)
+habuī|habeō|I have held, considered|1st sg. perf. act.
+@q-alcuin-epitaph
+Quod|quī|what|rel. pron. acc./nom. sg. n.
+nunc|nunc|now|adv.
+es|sum|you are|2nd sg. pres.
+fueram|sum|I had been|1st sg. pluperf.
+et|et|and|conj.
+quod|quī|what|rel. pron. nom. sg. n.
+ego|ego|I|nom. sg.
+sum|sum|I am|1st sg. pres.
+tūque|tū + -que|and you (too)|nom. sg.
+futūrus eris|sum|you will be (going to be)|fut. part. nom. sg. m. + 2nd sg. fut.
+@q-vulg-pater-noster
+Pater|pater|Father|voc. sg. m.
+noster|noster|our|voc. sg. m.
+quī|quī|who|rel. pron. nom. sg. m.
+es|sum|are|2nd sg. pres.
+in|in|in|prep. + abl.
+caelīs|caelum|heaven(s)|abl. pl. n.
+sānctificētur|sānctificō|may it be made holy|3rd sg. pres. subj. pass. (jussive)
+nōmen|nōmen|name|nom. sg. n.
+tuum|tuus|your|nom. sg. n.
+@q-aug-inquietum
+Fēcistī|faciō|you made|2nd sg. perf. act.
+nōs|nōs|us|acc. pl.
+ad|ad|toward, for|prep. + acc.
+tē|tū|you|acc. sg.
+et|et|and|conj.
+inquiētum|inquiētus|restless|nom. sg. n. (predicate)
+est|sum|is|3rd sg. pres.
+cor|cor|heart|nom. sg. n.
+nostrum|noster|our|nom. sg. n.
+dōnec|dōnec|until|conj.
+requiēscat|requiēscō|it rests|3rd sg. pres. subj.
+in|in|in|prep. + abl.
+tē|tū|you|abl. sg.
+@q-ben-otiositas
+Ōtiōsitās|ōtiōsitās|idleness|nom. sg. f.
+inimīca|inimīcus|hostile, an enemy (to)|nom. sg. f.
+est|sum|is|3rd sg. pres.
+animae|anima|soul|dat. sg. f. (with inimīca)
+@q-ben-ausculta
+Obscultā|auscultō|listen|2nd sg. pres. imper. (MS spelling of auscultā)
+ō|ō|O|interj.
+fīlī|fīlius|son|voc. sg. m.
+praecepta|praeceptum|teachings, precepts|acc. pl. n.
+magistrī|magister|of the master|gen. sg. m.
+et|et|and|conj.
+inclīnā|inclīnō|bend, incline|2nd sg. pres. imper.
+aurem|auris|ear|acc. sg. f.
+cordis|cor|of the heart|gen. sg. n.
+tuī|tuus|your|gen. sg. n.
+@q-vulg-gloria
+Glōria|glōria|glory|nom. sg. f.
+in|in|in|prep. + abl.
+altissimīs|altus|the highest (places)|abl. pl. n. superl.
+Deō|deus|to God|dat. sg. m.
+et|et|and|conj.
+in|in|on|prep. + abl.
+terrā|terra|earth|abl. sg. f.
+pāx|pāx|peace|nom. sg. f.
+in|in|among|prep. + abl.
+hominibus|homō|people|abl. pl. m.
+bonae|bonus|good|gen. sg. f.
+voluntātis|voluntās|of will|gen. sg. f. (description)
+@q-aug-sero
+Sērō|sērō|late|adv.
+tē|tū|you|acc. sg.
+amāvī|amō|I loved, have loved|1st sg. perf. act.
+pulchritūdō|pulchritūdō|beauty|voc. sg. f.
+tam|tam|so|adv.
+antīqua|antīquus|ancient|voc. sg. f.
+et|et|and|conj.
+tam|tam|so|adv.
+nova|novus|new|voc. sg. f.
+sērō|sērō|late|adv.
+tē|tū|you|acc. sg.
+amāvī|amō|I have loved|1st sg. perf. act.
+@q-aug-da-mihi
+Dā|dō|give|2nd sg. pres. imper.
+mihi|ego|to me|dat. sg.
+castitātem|castitās|chastity|acc. sg. f.
+et|et|and|conj.
+continentiam|continentia|self-control|acc. sg. f.
+sed|sed|but|conj.
+nōlī|nōlō|don't (do it)|2nd sg. pres. imper.
+modo|modo|just now, yet|adv.
+@q-vulg-de-profundis
+Dē|dē|from, out of|prep. + abl.
+profundīs|profundum|the depths|abl. pl. n.
+clāmāvī|clāmō|I have cried|1st sg. perf. act.
+ad|ad|to|prep. + acc.
+tē|tū|you|acc. sg.
+Domine|dominus|Lord|voc. sg. m.
+@q-abelard-dubitando
+Dubitandō|dubitō|by doubting|gerund abl.
+quippe|quippe|indeed, for|particle
+ad|ad|to|prep. + acc.
+inquīsītiōnem|inquīsītiō|inquiry|acc. sg. f.
+venīmus|veniō|we come|1st pl. pres. act.
+inquīrendō|inquīrō|by inquiring|gerund abl.
+vēritātem|vēritās|truth|acc. sg. f.
+percipimus|percipiō|we grasp|1st pl. pres. act.
+@q-dies-irae
+Diēs|diēs|day|nom. sg. f.
+īrae|īra|of wrath|gen. sg. f.
+diēs|diēs|day|nom. sg. f.
+illa|ille|that|nom. sg. f.
+solvet|solvō|will dissolve|3rd sg. fut. act.
+saeclum|saeculum|the world, age|acc. sg. n. (syncopated)
+in|in|into|prep. + abl. (= into)
+favīllā|favīlla|ash|abl. sg. f.
+@q-magna-carta-39
+Nūllus|nūllus|no|nom. sg. m.
+līber|līber|free|nom. sg. m.
+homō|homō|man|nom. sg. m.
+capiātur|capiō|shall be seized|3rd sg. pres. subj. pass. (jussive)
+vel|vel|or|conj.
+imprisonētur|imprisonō|shall be imprisoned|3rd sg. pres. subj. pass. (Anglo-Norman legal coinage)
+nisi|nisi|except|conj.
+per|per|by|prep. + acc.
+lēgāle|lēgālis|lawful|acc. sg. n.
+iūdicium|iūdicium|judgement|acc. sg. n.
+parium|pār|of peers|gen. pl. m.
+suōrum|suus|his own|gen. pl. m.
+vel|vel|or|conj.
+per|per|by|prep. + acc.
+lēgem|lēx|law|acc. sg. f.
+terrae|terra|of the land|gen. sg. f. (MS terre)
+@q-bede-angli
+Bene|bene|good, well|adv.
+inquit|inquam|he said|3rd sg. (defective)
+nam|nam|for|conj.
+et|et|indeed, also|adv.
+angelicam|angelicus|angelic|acc. sg. f.
+habent|habeō|they have|3rd pl. pres. act.
+faciem|faciēs|face|acc. sg. f.
+@q-vulg-per-speculum
+Vidēmus|videō|we see|1st pl. pres. act.
+nunc|nunc|now|adv.
+per|per|through|prep. + acc.
+speculum|speculum|mirror|acc. sg. n.
+in|in|in|prep. + abl.
+aenigmate|aenigma|riddle|abl. sg. n.
+tunc|tunc|then|adv.
+autem|autem|but|conj.
+faciē|faciēs|face|abl. sg. f.
+ad|ad|to|prep. + acc.
+faciem|faciēs|face|acc. sg. f.
+@q-ben-hospites
+Omnēs|omnis|all|nom. pl. m.
+supervenientēs|superveniō|arriving|pres. part. nom. pl. m.
+hospitēs|hospes|guests|nom. pl. m.
+tamquam|tamquam|as, like|adv.
+Chrīstus|Chrīstus|Christ|nom. sg. m.
+suscipiantur|suscipiō|let them be received|3rd pl. pres. subj. pass. (jussive)
+@q-aquinas-tardiloquum
+Tardiloquum|tardiloquus|slow to speak|acc. sg. m.
+tē|tū|you|acc. sg. (subject of inf.)
+esse|sum|to be|pres. inf.
+iubeō|iubeō|I order|1st sg. pres. act.
+@q-ag-dei
+Agnus|agnus|Lamb|voc. (= nom.) sg. m.
+Deī|deus|of God|gen. sg. m.
+quī|quī|who|rel. pron. nom. sg. m.
+tollis|tollō|take away|2nd sg. pres. act.
+peccāta|peccātum|sins|acc. pl. n.
+mundī|mundus|of the world|gen. sg. m.
+miserēre|misereor|have mercy|2nd sg. pres. imper. (deponent)
+nōbīs|nōs|on us|dat. pl. (eccl.; classical uses gen.)
+@q-carmina-o-fortuna
+Ō|ō|O|interj.
+Fortūna|fortūna|Fortune|voc. sg. f.
+velut|velut|just like|adv.
+lūna|lūna|the moon|nom. sg. f.
+statū|status|in condition|abl. sg. m. (respect)
+variābilis|variābilis|changeable|nom. sg. f.
+semper|semper|always|adv.
+crēscis|crēscō|you grow|2nd sg. pres. act.
+aut|aut|or|conj.
+dēcrēscis|dēcrēscō|you shrink|2nd sg. pres. act.
+@q-vulg-vanitas
+Vānitās|vānitās|emptiness, vanity|nom. sg. f.
+vānitātum|vānitās|of vanities|gen. pl. f.
+dīxit|dīcō|said|3rd sg. perf. act.
+Ecclesiastēs|Ecclesiastēs|the Preacher|nom. sg. m.
+vānitās|vānitās|vanity|nom. sg. f.
+vānitātum|vānitās|of vanities|gen. pl. f.
+omnia|omnis|all things|nom. pl. n.
+vānitās|vānitās|vanity|nom. sg. f.
+@q-kempis-transit
+Ō|ō|O|interj.
+quam|quam|how|adv.
+citō|citō|quickly|adv.
+trānsit|trānseō|passes away|3rd sg. pres.
+glōria|glōria|glory|nom. sg. f.
+mundī|mundus|of the world|gen. sg. m.
+@q-heloise-meretrix
+Cārius|cārus|dearer|nom. sg. n. comp.
+mihi|ego|to me|dat. sg.
+et|et|and|conj.
+dignius|dignus|more honourable|nom. sg. n. comp.
+vidērētur|videō|it would seem|3rd sg. impf. subj. pass.
+tua|tuus|your|nom. sg. f.
+dīcī|dīcō|to be called|pres. pass. inf.
+meretrīx|meretrīx|mistress, courtesan|nom. sg. f.
+quam|quam|than|conj.
+illīus|ille|his (Augustus's)|gen. sg. m.
+imperātrīx|imperātrīx|empress|nom. sg. f.
+@q-boethius-rota
+Rotam|rota|wheel|acc. sg. f.
+volūbilī|volūbilis|spinning|abl. sg. m.
+orbe|orbis|circle|abl. sg. m. (means)
+versāmus|versō|we turn|1st pl. pres. act.
+@q-mon-unum
+hūmānum|hūmānus|human|acc. sg. n.
+genus|genus|race|acc. sg. n. (subj. of inf.)
+optimē|bene|best|adv. superl.
+sē|suī|itself|acc. sg. (reflexive)
+habēre|habeō|to be (in a state)|pres. inf. (sē habēre = to be)
+cum|cum|when|conj.
+ab|ab|by|prep. + abl.
+ūnō|ūnus|one (person)|abl. sg. m.
+regitur|regō|it is ruled|3rd sg. pres. pass.
+@q-bede-sparrow
+cum|cum|when|conj.
+adveniēns|adveniō|arriving|pres. part. nom. sg. m.
+ūnus|ūnus|one|nom. sg. m.
+passerum|passer|of the sparrows|gen. pl. m. (partitive)
+domum|domus|the house|acc. sg. f.
+citissimē|citō|very swiftly|adv. superl.
+pervolāverit|pervolō|has flown through|3rd sg. perf. subj.
+@q-archpoet-taberna
+Meum|meus|my|nom. sg. n.
+est|sum|is|3rd sg. pres.
+prōpositum|prōpositum|plan, intention|nom. sg. n.
+in|in|in|prep. + abl.
+tabernā|taberna|tavern|abl. sg. f.
+morī|morior|to die|pres. inf. (deponent)
+ut|ut|so that|conj. (purpose)
+sint|sum|may be|3rd pl. pres. subj.
+vīna|vīnum|wines|nom. pl. n.
+proxima|proximus|very near (to)|nom. pl. n. superl. + dat.
+morientis|morior|of (me) dying|pres. part. gen. sg.
+ōrī|ōs|mouth|dat. sg. n.
+@q-gesta-latro
+Sed|sed|but|conj.
+quia|quia|because|conj.
+ego|ego|I|nom. sg.
+hoc|hic|this|acc. sg. n.
+agō|agō|I do|1st sg. pres. act.
+ūnā|ūnus|one|abl. sg. f.
+galeā|galea|galley (ship)|abl. sg. f. (means)
+latrō|latrō|robber, pirate|nom. sg. m. (predicate)
+vocor|vocō|I am called|1st sg. pres. pass.
+tū|tū|you|nom. sg.
+vērō|vērō|but, indeed|adv.
+mundum|mundus|world|acc. sg. m.
+opprimēns|opprimō|oppressing|pres. part. nom. sg. m.
+nāvium|nāvis|of ships|gen. pl. f.
+multitūdine|multitūdō|crowd, great number|abl. sg. f. (means)
+magnā|magnus|great|abl. sg. f.
+dīceris|dīcō|you are called|2nd sg. pres. pass.
+imperātor|imperātor|emperor|nom. sg. m. (predicate)
+@q-paris-statute-1215
+Nōn|nōn|not|adv.
+legantur|legō|let (them) be lectured on|3rd pl. pres. subj. pass. (jussive)
+librī|liber|books|nom. pl. m.
+Aristotelis|Aristotelēs|of Aristotle|gen. sg. m.
+dē|dē|on, about|prep. + abl.
+metaphysicā|metaphysica|metaphysics|abl. sg. f. (MS methafisica)
+et|et|and|conj.
+dē|dē|on|prep. + abl.
+nātūrālī|nātūrālis|natural|abl. sg. f.
+philosophiā|philosophia|philosophy|abl. sg. f.
+@q-colophon-tres-digiti
+Trēs|trēs|three|nom. pl. m.
+digitī|digitus|fingers|nom. pl. m.
+scrībunt|scrībō|write|3rd pl. pres. act.
+sed|sed|but|conj.
+tōtum|tōtus|the whole|nom. sg. n.
+corpus|corpus|body|nom. sg. n.
+labōrat|labōrō|toils|3rd sg. pres. act.
+Sīcut|sīcut|just as|adv.
+nāvigantī|nāvigō|to one sailing|pres. part. dat. sg.
+dulcis|dulcis|sweet|nom. sg. m.
+est|sum|is|3rd sg. pres.
+portus|portus|harbour|nom. sg. m.
+ita|ita|so|adv.
+scrīptōrī|scrīptor|to the scribe|dat. sg. m.
+novissimus|novus|last|nom. sg. m. superl.
+versus|versus|line|nom. sg. m.
+@q-hildegard-aurora
+Tū|tū|you|nom. sg.
+rubēs|rubeō|blush, glow red|2nd sg. pres. act.
+ut|ut|like|adv. (comparison)
+aurōra|aurōra|dawn|nom. sg. f.
+et|et|and|conj.
+ārdēs|ārdeō|burn|2nd sg. pres. act.
+ut|ut|like|adv.
+sōlis|sōl|of the sun|gen. sg. m.
+flamma|flamma|flame|nom. sg. f.
+@r-vulg-john-1-5
+In|in|in|prep. + abl.
+prīncipiō|prīncipium|beginning|abl. sg. n.
+erat|sum|was|3rd sg. impf.
+Verbum|verbum|Word|nom. sg. n.
+et|et|and|conj.
+Verbum|verbum|Word|nom. sg. n.
+erat|sum|was|3rd sg. impf.
+apud|apud|with|prep. + acc.
+Deum|deus|God|acc. sg. m.
+et|et|and|conj.
+Deus|deus|God|nom. sg. m. (predicate)
+erat|sum|was|3rd sg. impf.
+Verbum|verbum|Word|nom. sg. n.
+Hoc|hic|this (one)|nom. sg. n.
+erat|sum|was|3rd sg. impf.
+in|in|in|prep. + abl.
+prīncipiō|prīncipium|beginning|abl. sg. n.
+apud|apud|with|prep. + acc.
+Deum|deus|God|acc. sg. m.
+Omnia|omnis|all things|nom. pl. n.
+per|per|through|prep. + acc.
+ipsum|ipse|him|acc. sg. m.
+facta sunt|faciō / fīō|were made|3rd pl. perf. pass. n.
+et|et|and|conj.
+sine|sine|without|prep. + abl.
+ipsō|ipse|him|abl. sg. m.
+factum est|faciō / fīō|was made|3rd sg. perf. pass. n.
+nihil|nihil|nothing|indecl. n.
+quod|quī|which|rel. pron. nom. sg. n.
+factum est|faciō / fīō|was made|3rd sg. perf. pass. n.
+In|in|in|prep. + abl.
+ipsō|ipse|him|abl. sg. m.
+vīta|vīta|life|nom. sg. f.
+erat|sum|was|3rd sg. impf.
+et|et|and|conj.
+vīta|vīta|life|nom. sg. f.
+erat|sum|was|3rd sg. impf.
+lūx|lūx|light|nom. sg. f.
+hominum|homō|of people|gen. pl. m.
+Et|et|and|conj.
+lūx|lūx|light|nom. sg. f.
+in|in|in|prep. + abl.
+tenebrīs|tenebrae|darkness|abl. pl. f.
+lūcet|lūceō|shines|3rd sg. pres. act.
+et|et|and|conj.
+tenebrae|tenebrae|darkness|nom. pl. f.
+eam|is|it|acc. sg. f.
+nōn|nōn|not|adv.
+conprehendērunt|comprehendō|grasped, overcame|3rd pl. perf. act.
+@r-vulg-genesis-1-5
+In|in|in|prep. + abl.
+prīncipiō|prīncipium|beginning|abl. sg. n.
+creāvit|creō|created|3rd sg. perf. act.
+Deus|deus|God|nom. sg. m.
+caelum|caelum|heaven, sky|acc. sg. n.
+et|et|and|conj.
+terram|terra|earth|acc. sg. f.
+Terra|terra|earth|nom. sg. f.
+autem|autem|but, now|conj.
+erat|sum|was|3rd sg. impf.
+inānis|inānis|empty|nom. sg. f.
+et|et|and|conj.
+vacua|vacuus|void|nom. sg. f.
+et|et|and|conj.
+tenebrae|tenebrae|darkness|nom. pl. f.
+erant|sum|were|3rd pl. impf.
+super|super|over|prep. + acc.
+faciem|faciēs|face, surface|acc. sg. f.
+abyssī|abyssus|of the deep|gen. sg. f.
+et|et|and|conj.
+spīritus|spīritus|spirit, breath|nom. sg. m.
+Deī|deus|of God|gen. sg. m.
+ferēbātur|ferō|was moving, was borne|3rd sg. impf. pass.
+super|super|over|prep. + acc.
+aquās|aqua|waters|acc. pl. f.
+Dīxitque|dīcō|and said|3rd sg. perf. act. + -que
+Deus|deus|God|nom. sg. m.
+Fīat|fīō|let there be|3rd sg. pres. subj.
+lūx|lūx|light|nom. sg. f.
+Et|et|and|conj.
+facta est|fīō|came to be|3rd sg. perf., f.
+lūx|lūx|light|nom. sg. f.
+Et|et|and|conj.
+vīdit|videō|saw|3rd sg. perf. act.
+Deus|deus|God|nom. sg. m.
+lūcem|lūx|the light|acc. sg. f.
+quod|quod|that|conj. (eccl. for acc. + inf.)
+esset|sum|it was|3rd sg. impf. subj.
+bona|bonus|good|nom. sg. f.
+et|et|and|conj.
+dīvīsit|dīvidō|divided|3rd sg. perf. act.
+lūcem|lūx|light|acc. sg. f.
+ā|ab|from|prep. + abl.
+tenebrīs|tenebrae|darkness|abl. pl. f.
+Appellāvitque|appellō|and he called|3rd sg. perf. act. + -que
+lūcem|lūx|the light|acc. sg. f.
+Diem|diēs|Day|acc. sg. m.
+et|et|and|conj.
+tenebrās|tenebrae|the darkness|acc. pl. f.
+Noctem|nox|Night|acc. sg. f.
+factumque est|fīō|and there was|3rd sg. perf., n. + -que
+vespere|vesper|evening|abl. sg. m.
+et|et|and|conj.
+māne|māne|morning|indecl. n.
+diēs|diēs|day|nom. sg. m.
+ūnus|ūnus|one|nom. sg. m.

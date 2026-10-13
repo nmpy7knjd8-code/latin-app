@@ -62,9 +62,53 @@ def card(id,unit,era,person,latin,tr,work,cit,date,url,conf,tags,ctx,teach,im,gl
     assert len(ctx)<=260,(id,len(ctx))
     C.append(c)
 exec(open(''+__import__('os').path.dirname(__import__('os').path.abspath(__file__))+'/rome_cards.py').read())
+
+import os,sys
+HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,HERE)
+from rome_meta import META,TAUGHT,IMGS,EXISTING,WP
+EXIST_IMG={}
+try:
+    js=open(os.path.join(HERE,'..','cards','cards.js')).read()
+    arr=json.loads(js[js.index('['):js.rindex(']')+1])
+    for c in arr:
+        if 'image' in c: EXIST_IMG[c['image']['src']]=c['image']
+except Exception as e: print('warn: cards.js',e)
+errs=[]
 for c in C:
-    s,t=c['teaching_value']['note']; c['teaching_value']['note']=t; c['teaching_value']['score']=s
+    s,t=c['teaching_value']['note']; c['teaching_value']['note']=t
+    unit,target,preview,ik,lml,lmt=META[c['id']]
+    c['unit']=unit
+    c['grammar_target']=target; c['grammar_preview']=preview; c['grammar_tags']=target+preview
+    for tg in target:
+        if tg not in TAUGHT: errs.append(f"{c['id']}: unknown tag {tg}")
+        elif TAUGHT[tg]>unit: errs.append(f"{c['id']}: target {tg} taught U{TAUGHT[tg]} > card U{unit}")
+    for tg in preview:
+        if tg not in TAUGHT: errs.append(f"{c['id']}: unknown preview tag {tg}")
+    pct=c['teaching_value']['dcc_core_pct']
+    if s==5 and pct<80: s=4
+    c['teaching_value']['score']=s
+    c['teaching_value']['role']='anchor' if (pct>=80 and target) else 'preview'
+    c['vocab_ids']=[v for v in c['vocab_ids'] if ' ' not in v]
+    if ik in EXISTING:
+        im=dict(EXIST_IMG.get(EXISTING[ik]) or {}); im['src']=EXISTING[ik]
+        if not im.get('source_url'): errs.append(f"{c['id']}: missing existing image meta {ik}")
+    else:
+        f,kind,alt,lic,cr,asp,tr=IMGS[ik]
+        im=dict(src=f'img/rome/{ik}.webp',alt=alt,kind=kind,aspect=asp,transparent=tr,license=lic,credit=cr,source_url='https://commons.wikimedia.org/wiki/File:'+f.replace(' ','_'))
+        if not os.path.exists(os.path.join(HERE,im['src'])): errs.append(f"{c['id']}: image file missing {im['src']}")
+    c['image']=im
+    c['learn_more']=dict(label=lml,url=WP+lmt)
+    for k in ('credit','source_url'):
+        v=str(im.get(k,''))
+        if 'see existing' in v or v.rstrip('/')=='https://commons.wikimedia.org': errs.append(f"{c['id']}: placeholder {k}")
+    if c.get('attribution_note','').startswith('Speech') : pass
+from collections import Counter
+dup=[k for k,v in Counter(c['image']['src'] for c in C).items() if v>1]
 C.sort(key=lambda c:(-c['teaching_value']['score'],-c['teaching_value']['dcc_core_pct'],c['unit']))
 for i,c in enumerate(C,1): c['teaching_value']['rank']=i
-json.dump(C,open('/workspace/latin-app/content/rome-cards.json','w'),ensure_ascii=False,indent=1)
-for c in C: print(c['teaching_value']['rank'],c['teaching_value']['score'],c['teaching_value']['dcc_core_pct'],c['unit'],c['id'],c['teaching_value']['non_core'])
+json.dump(C,open(os.path.join(HERE,'rome-cards.json'),'w'),ensure_ascii=False,indent=1)
+for c in C: print(c['teaching_value']['rank'],c['teaching_value']['score'],c['teaching_value']['role'],c['teaching_value']['dcc_core_pct'],'U%d'%c['unit'],c['id'])
+print('duplicate images:',dup)
+if errs:
+    print('LINT ERRORS:'); [print(' ',e) for e in errs]; sys.exit(1)
+print('lint ok')

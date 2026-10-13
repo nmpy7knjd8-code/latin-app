@@ -173,6 +173,118 @@
   "respelling": {
    "type": "string",
    "description": "English-reader respelling, stressed syllable in CAPS, e.g. WAY-nee WEE-dee WEE-kee."
+  },
+  "teaching_value": {
+   "type": "object",
+   "properties": {
+    "note": {
+     "type": "string"
+    },
+    "dcc_core_pct": {
+     "type": "number",
+     "minimum": 0,
+     "maximum": 100
+    },
+    "non_core": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "score": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 5
+    },
+    "rank": {
+     "type": "integer",
+     "minimum": 1
+    }
+   },
+   "required": [
+    "score"
+   ]
+  },
+  "register": {
+   "enum": [
+    "classical",
+    "ecclesiastical",
+    "medieval",
+    "medieval-legal"
+   ]
+  },
+  "grammar_preview": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Grammar seen but not yet taught; glossed, not tested."
+  },
+  "learn_more": {
+   "type": "object",
+   "required": [
+    "label",
+    "url"
+   ],
+   "properties": {
+    "label": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "verified_http": {
+     "type": "string"
+    }
+   }
+  },
+  "grammar_target": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Grammar the card's unit has already taught (tested). Build lint: unit >= max taught unit."
+  },
+  "source_url": {
+   "type": "string",
+   "format": "uri",
+   "description": "Online text the Latin was verified against."
+  },
+  "subtype": {
+   "enum": [
+    "vocab",
+    "grammar",
+    "derivative",
+    "inscription",
+    "coin",
+    "daily_life",
+    "mix:map",
+    "mix:who_said_it",
+    "mix:parse",
+    "mix:timeline",
+    "mix:listen",
+    "mix:true_false",
+    "mix:fill_blank"
+   ]
+  },
+  "teaches": {
+   "type": "string",
+   "maxLength": 200
+  },
+  "image_idea": {
+   "type": "object"
+  },
+  "dcc_core_pct": {
+   "type": [
+    "integer",
+    "null"
+   ],
+   "minimum": 0,
+   "maximum": 100
+  },
+  "dcc_ranks": {
+   "type": "object"
   }
  },
  "examples": [
@@ -632,7 +744,12 @@
       "Public domain",
       "CC BY 4.0",
       "CC BY-SA 4.0",
-      "Getty Open Content"
+      "Getty Open Content",
+      "CC BY 2.0",
+      "CC BY 3.0",
+      "CC BY-SA 2.0",
+      "CC BY-SA 2.5",
+      "CC BY-SA 3.0"
      ]
     },
     "source_url": {
@@ -647,6 +764,9 @@
      "type": "string",
      "format": "uri",
      "description": "'See in museum' link; defaults to source_url."
+    },
+    "license_note": {
+     "type": "string"
     }
    },
    "allOf": [

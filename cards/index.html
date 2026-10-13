@@ -1,6 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Latin cards prototype</title>
+<title>Lingua · Latin cards from Rome & the medieval West</title>
+<meta name="description" content="Learn Latin through real, source-checked quotes from Rome and the medieval West.">
 <style>
 :root{--ink:#2a2420}
 *{box-sizing:border-box}
@@ -21,6 +22,27 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .face{position:absolute;inset:0;border-radius:22px;backface-visibility:hidden;-webkit-backface-visibility:hidden;
  background:var(--bg);box-shadow:0 14px 30px rgba(40,25,10,.18),inset 0 0 0 1px rgba(255,255,255,.25);display:flex;flex-direction:column;padding:18px;color:#fff8ec}
 .back{transform:rotateY(180deg);background:var(--bg2);overflow:auto}
+/* iOS Safari flip fix */
+.inner{-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
+.front{-webkit-transform:translateZ(.1px);transform:translateZ(.1px)}
+.back{-webkit-transform:rotateY(180deg) translateZ(.1px);transform:rotateY(180deg) translateZ(.1px)}
+.face,.face *{-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.face{transition:visibility 0s linear .3s,opacity 0s linear .3s}
+.back{visibility:hidden;opacity:0}
+.card.flipped .back{visibility:visible;opacity:1}
+.card.flipped .front{visibility:hidden;opacity:0}
+.ph{width:78%;height:100%;border-radius:999px 999px 6px 6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:14px;color:var(--acc)}
+.ph b{font:italic 600 3.4rem Georgia,serif;opacity:.7}.ph small{font-size:.72rem;opacity:.8;margin-top:6px;line-height:1.3}
+.play{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1px solid var(--acc);border-radius:99px;background:none;color:var(--acc);font:600 .8rem system-ui;cursor:pointer;margin:0 auto 4px}
+.chips{display:flex;justify-content:center;flex-wrap:wrap;gap:6px}
+.back .credit a{color:inherit}
+.nav{display:flex;justify-content:center;align-items:center;gap:14px;padding:0 0 10px}
+.nav button{min-width:48px;min-height:48px;border-radius:50%;border:1px solid #8a7a6a;background:#fff8ec;font-size:1.3rem;cursor:pointer;color:var(--ink)}
+.nav span{font:600 .9rem system-ui;min-width:70px;text-align:center}
+.drafts{font:500 .8rem system-ui;margin-left:10px;display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.draftb{position:absolute;top:8px;left:8px;z-index:9;font:700 .6rem system-ui;letter-spacing:.1em;background:#e9c46a;color:#2a2420;border-radius:99px;padding:3px 8px}
+.latin .w{min-height:44px;padding:0 3px!important}
+.lic{display:none}
 /* era themes: all schema eras; text #fff8ec / accent checked >= 4.5:1 on darkest stop (see CHANGES.md) */
 .card{--bg:linear-gradient(165deg,#4a4038,#2e2722);--bg2:#211b17;--acc:#f0d8a8}
 .regal{--bg:linear-gradient(165deg,#7a5a2e,#553d1c);--bg2:#3a2912;--acc:#f6e2b3}
@@ -78,7 +100,7 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
  <button id="m-learn" aria-pressed="false">Learn</button><button id="m-review" aria-pressed="true">Review</button>
 </div></header>
 <main class="deck" id="deck" aria-label="Cards"></main>
-<nav class="dots" id="dots" aria-label="Card navigation"></nav>
+<nav class="nav" aria-label="Card navigation"><button id="prev" aria-label="Previous card">‹</button><span id="count" aria-live="polite"></span><button id="next" aria-label="Next card">›</button></nav><nav class="dots" id="dots" hidden></nav>
 <div class="hint" id="foot"></div>
 <script src="cards.js"></script>
 <script src="phonetics.js"></script>
@@ -87,12 +109,13 @@ const ERA={regal:"Regal Rome",republic:"Roman Republic",empire:"Roman Empire",la
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let mode="review";
 const fp=im=>im.focal_point?`object-position:${im.focal_point[0]*100}% ${im.focal_point[1]*100}%`:"";
-function art(im){
-  if(!im.src) return `<div class="frame arch" style="display:flex;align-items:center;justify-content:center;opacity:.5;font-size:.8em;padding:1em;text-align:center">${esc(im.alt||"image pending")}</div>`;
+function art(im,c){
+  if(!im.src) return `<div class="ph"><b>${esc((c&&c.latin||"·").replace(/[^A-Za-zĀ-ž]/g,"")[0]||"·")}</b><small>${esc(im.alt||"Image coming soon")}</small></div>`;
+  if(im.uncut){return im.kind==="manuscript"?`<div class="tornwrap"><img onerror="imgFail(this)" class="frame torn" src="${esc(im.src)}" alt="${esc(im.alt)}" loading="lazy"></div>`:`<img onerror="imgFail(this)" class="frame arch" src="${esc(im.src)}" alt="${esc(im.alt)}" loading="lazy">`;}
   const a=`src="${esc(im.src)}" alt="${esc(im.alt)}" style="${fp(im)}"`;
-  if(im.transparent) return `<img class="cut" ${a}>`;
-  if(im.kind==="manuscript") return `<div class="tornwrap"><img class="frame torn" ${a}></div>`;
-  return `<img class="frame arch" ${a}>`;
+  if(im.transparent) return `<img onerror="imgFail(this)" class="cut" ${a}>`;
+  if(im.kind==="manuscript") return `<div class="tornwrap"><img onerror="imgFail(this)" class="frame torn" ${a}></div>`;
+  return `<img onerror="imgFail(this)" class="frame arch" ${a}>`;
 }
 function latinHTML(c){
   if(mode!=="learn"||!c.gloss) return esc(c.latin);
@@ -105,19 +128,25 @@ function latinHTML(c){
     return `<button class="w" data-g="${esc(`${g.word}: ${g.lemma}, “${g.meaning}”${g.parse?" — "+g.parse:""}`)}">${esc(bare)}</button>${esc(tok.slice(bare.length))}`;
   }).join("");
 }
+window.imgFail=el=>{const d=document.createElement("div");d.className="ph";d.innerHTML="<b>·</b><small>Image coming soon</small>";(el.closest(".tornwrap")||el).replaceWith(d)};
+const AU=c=>{const a=(window.AUDIO||{})[c.id];return Array.isArray(a)?a:[]};
+const LU={"CC BY-SA 4.0":"https://creativecommons.org/licenses/by-sa/4.0/","CC BY-SA 3.0":"https://creativecommons.org/licenses/by-sa/3.0/","CC BY 4.0":"https://creativecommons.org/licenses/by/4.0/","CC0":"https://creativecommons.org/publicdomain/zero/1.0/"};
+const LL=l=>LU[l]?`<a href="${LU[l]}" target="_blank" rel="noopener">${esc(l)}</a>`:esc(l);
+let player=null;
 const P=c=>c.ipa?c:(window.PHONETICS||{})[c.id];
 function render(){
   const learn=mode==="learn";
-  document.getElementById("help").textContent=learn?"Learn: tap a word for its gloss · swipe for more":"Review: tap a card to reveal · swipe for more";
-  document.getElementById("deck").innerHTML=CARDS.map((c,i)=>`
-<article class="card ${c.era} ${c.image.kind}" ${learn?`aria-label="${esc(c.person)} card"`:`tabindex="0" role="button" aria-pressed="false" aria-label="Quote card: ${esc(c.latin)}, ${esc(c.person)}. Press to reveal translation."`} id="card-${i}">
- <div class="inner">
+  document.getElementById("help").textContent=learn?"Learn: tap a word for its gloss · swipe or use ‹ › for more":"Review: tap a card to reveal · swipe or use ‹ › for more";
+  document.getElementById("deck").innerHTML=VIS().map((c,i)=>`
+<article data-id="${esc(c.id)}" class="card ${c.era} ${c.image.kind}" ${learn?`aria-label="${esc(c.person)} card"`:`tabindex="0" role="button" aria-pressed="false" aria-label="Quote card: ${esc(c.latin)}, ${esc(c.person)}. Press to reveal translation."`} id="card-${i}">
+ ${c._draft?`<span class="draftb">DRAFT</span>`:""}<div class="inner">
   <div class="face front">
-   <div class="art">${art(c.image)}</div>
+   <div class="art">${art(c.image,c)}</div>
    <div class="band">
     <div class="latin" lang="la">${latinHTML(c)}</div>
     ${P(c)?`<button class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}. Tap for IPA.">${esc(P(c).respelling)}<span class="ipa" hidden>${esc(P(c).ipa)}</span></button>`:""}
     ${learn?`<div class="tr-front">“${esc(c.translation)}”</div><div class="gl" aria-live="polite"></div>`:""}
+    ${AU(c).length?`<div class="chips">${AU(c).map((a,k)=>`<button class="play" data-a="${esc(a.file)}" aria-label="Play recording, ${esc(a.style)}">▶ ${esc(a.style)}</button>`).join("")}</div>`:""}
     <div class="meta"><span>${esc(c.person)}</span><span aria-hidden="true">·</span><span class="era">${ERA[c.era]||c.era}</span></div>
     <div class="lic">${esc(c.image.license)} · ${learn?`<a href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener" style="color:inherit">see in museum</a>`:"credit on back"}</div>
    </div>
@@ -125,16 +154,20 @@ function render(){
   <div class="face back" aria-hidden="true" inert>
    <div class="meta" style="justify-content:flex-start"><span class="era">${ERA[c.era]||c.era}</span></div>
    ${P(c)?`<div class="ipa-b" aria-label="IPA">${esc(P(c).ipa)}</div>`:""}
+   ${P(c)&&P(c).ipa_verse?`<div class="ipa-b" aria-label="Verse reading with elision"><small>verse:</small> ${esc(P(c).ipa_verse)}<br><small>${esc(P(c).respelling_verse)}</small></div>`:""}
+   ${window.PHONETICS_LEGEND?`<details class="ipa-b"><summary><small>How to read the respelling</small></summary><small>${esc(PHONETICS_LEGEND)}</small></details>`:""}
    <div class="tr">“${esc(c.translation)}”</div>
    <div class="ctx">${esc(c.context)}</div>
    ${c.attribution_note?`<div class="note">${esc(c.attribution_note)}</div>`:""}
    <div class="src">${esc(c.person)} — <i>${esc(c.source.work)}</i> ${esc(c.source.citation)}<span class="badge">${esc(c.attribution_confidence)}</span></div>
-   <div class="credit">Image: ${esc(c.image.credit)} · ${esc(c.image.license)}</div>
+   <div class="credit">${c.image.src?`Image: ${esc(c.image.credit)} · ${LL(c.image.license)}${c.image.transparent&&!c.image.uncut?" · background removed":""}${c.image.uncut?" · hotlinked original":""}`:"Image: not yet chosen"}</div>${AU(c).map(a=>`<div class="credit">Audio (${esc(a.style)}): ${esc(a.credit)} · ${a.license_url?`<a href="${esc(a.license_url)}" target="_blank" rel="noopener">${esc(a.license)}</a>`:esc(a.license)} · <a href="${esc(a.source)}" target="_blank" rel="noopener">source</a> · ${esc(a.changes)}</div>`).join("")}
    ${c.learn_more&&c.learn_more.url?`<a class="museum" href="${esc(c.learn_more.url)}" target="_blank" rel="noopener">Learn more: ${esc(c.learn_more.label||"link")} ↗</a><br>`:""}
    <a class="museum" href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener">See in museum / source ↗</a>
   </div>
  </div>
 </article>`).join("");
+  document.querySelectorAll(".play").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();if(player)player.pause();player=new Audio("../audio/"+b.dataset.a);player.play().catch(()=>{})}));
+  setupDots();cur();
   document.querySelectorAll(".say").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();b.querySelector(".ipa").toggleAttribute("hidden")}));
   document.querySelectorAll(".card").forEach(el=>{
     if(learn){
@@ -148,20 +181,26 @@ function render(){
     el.addEventListener("click",e=>{if(e.target.closest("a"))return;t()});
     el.addEventListener("keydown",e=>{if(e.target!==el)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();t()}});
   });
-  const lics=[...new Set(CARDS.map(c=>c.image.license))].join(" / ");
-  document.getElementById("foot").textContent=`Prototype · images: ${lics} · full credits on each card`;
+  document.getElementById("foot").textContent="Credits on each card";
 }
 function setMode(m){mode=m;document.getElementById("m-learn").setAttribute("aria-pressed",m==="learn");document.getElementById("m-review").setAttribute("aria-pressed",m==="review");render();}
 document.getElementById("m-learn").onclick=()=>setMode("learn");
 document.getElementById("m-review").onclick=()=>setMode("review");
 const deck=document.getElementById("deck"),dots=document.getElementById("dots");
-function setupDots(){dots.innerHTML=CARDS.map((c,i)=>`<button aria-label="Card ${i+1} of ${CARDS.length}: ${esc(c.person)}" data-i="${i}"></button>`).join("");
+function setupDots(){dots.innerHTML=VIS().map((c,i)=>`<button aria-label="Card ${i+1} of ${CARDS.length}: ${esc(c.person)}" data-i="${i}"></button>`).join("");
 }
 dots.onclick=e=>{const b=e.target.closest("button");if(b)document.getElementById("card-"+b.dataset.i).scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"})};
 function cur(){const r=deck.getBoundingClientRect(),mid=r.left+r.width/2;let best=0,d=1e9;
  document.querySelectorAll(".card").forEach((c,i)=>{const b=c.getBoundingClientRect(),x=Math.abs(b.left+b.width/2-mid);if(x<d){d=x;best=i}});
- dots.querySelectorAll("button").forEach((b,i)=>b.setAttribute("aria-current",i===best))}
+ curI=best;document.getElementById("count").textContent=`${best+1} / ${VIS().length}`;dots.querySelectorAll("button").forEach((b,i)=>b.setAttribute("aria-current",i===best))}
 deck.addEventListener("scroll",cur,{passive:true});
+let showDrafts=/[?&]draft=1/.test(location.search);
+const isDraft=c=>{const im=c.image||{};const l=String(im.license||"")+String(c.attribution_confidence||"");return !im.src||im.uncut||/verify|likely|pending|varies/i.test(l)};
+const VIS=()=>CARDS.filter(c=>showDrafts||!c._draft);
+function go(d){const n=VIS().length;let i=Math.max(0,Math.min(n-1,curI+d));const el=document.getElementById("card-"+i);if(el)el.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"})}
+let curI=0;
+document.getElementById("prev").onclick=()=>go(-1);document.getElementById("next").onclick=()=>go(1);
+document.addEventListener("keydown",e=>{if(e.key==="ArrowRight")go(1);if(e.key==="ArrowLeft")go(-1)});
 async function loadAll(){
  const norm=c=>{c=Object.assign({},c);
   c.person=c.person||(c.subtype?c.subtype.replace(/_/g," "):"Latin");
@@ -170,15 +209,22 @@ async function loadAll(){
   let im=c.image;
   if(!im){const ii=c.image_idea||{};im={src:"",alt:ii.description||"",kind:ii.kind||"object",license:ii.license_status||"image pending",credit:ii.candidate_source||"",source_url:""};}
   im=Object.assign({},im);
+  if(String(im.src).startsWith("TODO:")){im.uncut=true;im.transparent=false;}
   if(String(im.src).startsWith("TODO:"))im.src="https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(im.src.slice(5).trim().replace(/ /g,"_"))+"?width=600";
   c.image=im;return c;};
  const seen=new Set(CARDS.map(c=>c.id));let extra=[];
  for(const f of ["rome-cards","medieval-cards","learning-cards"]){
   try{const r=await fetch("../content/"+f+".json");if(!r.ok)continue;
-   for(const c of await r.json()){if(!seen.has(c.id)){seen.add(c.id);extra.push(c)}}}catch(e){console.warn(f,e)}}
+   for(const c of await r.json()){if(!seen.has(c.id)){seen.add(c.id);const im=c.image;if(im&&im.src&&!/^(https?:|data:|TODO:|\.\.?\/|\/)/.test(im.src))im.src="../"+(im.src.startsWith("assets/")?"":"content/")+im.src;extra.push(c)}}}catch(e){console.warn(f,e)}}
  try{const r=await fetch("../content/phonetics.json");if(r.ok)window.PHONETICS=Object.assign({},window.PHONETICS||{},await r.json());}catch(e){}
  for(const a of ["../content/audio-map.json","../audio/audio-map.json"]){try{const r=await fetch(a);if(r.ok){window.AUDIO=await r.json();break}}catch(e){}}
- window.CARDS=CARDS.concat(extra).map(norm);
+ window.CARDS=CARDS.concat(extra).map(norm).map(c=>(c._draft=isDraft(c),c));
 }
-loadAll().finally(()=>{CARDS=window.CARDS;setupDots();render();cur();});
+document.getElementById("deck").innerHTML='<p style="margin:auto;color:#5a5048">Loading cards…</p>';
+loadAll().finally(()=>{CARDS=window.CARDS;
+ const t=document.createElement("label");t.className="drafts";t.innerHTML=`<input type="checkbox" ${showDrafts?"checked":""}> Show drafts (${CARDS.filter(c=>c._draft).length})`;
+ document.querySelector(".modes").after(t);t.querySelector("input").onchange=e=>{showDrafts=e.target.checked;render()};
+ render();
+ const h=decodeURIComponent(location.hash.slice(1));if(h){const i=VIS().findIndex(c=>c.id===h);if(i>=0)setTimeout(()=>document.getElementById("card-"+i).scrollIntoView({inline:"center",block:"nearest"}),50)}
+});
 </script></body></html>

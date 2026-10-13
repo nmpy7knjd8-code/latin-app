@@ -1,0 +1,123 @@
+{
+ "_note": "Ecclesiastical (Italianate church) pronunciation respelling; see phonetics_eccl.py docstring. Classical IPA/respelling remain in phonetics.json.",
+ "q-vulg-fiat-lux": {
+  "respelling_eccl": "deek-SEET-kweh DEH-oos FEE-aht looks eht FAHK-tah ehst looks",
+  "latin": "Dīxitque Deus: “Fīat lūx.” Et facta est lūx.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-in-principio": {
+  "respelling_eccl": "een preen-CHEE-pee-oh EH-raht VEHR-boom eht VEHR-boom EH-raht AH-pood DEH-oom eht DEH-oos EH-raht VEHR-boom",
+  "latin": "In prīncipiō erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "r-vulg-john-1-5": {
+  "respelling_eccl": "een preen-CHEE-pee-oh EH-raht VEHR-boom eht VEHR-boom EH-raht AH-pood DEH-oom eht DEH-oos EH-raht VEHR-boom ohk EH-raht een preen-CHEE-pee-oh AH-pood DEH-oom OHM-nee-ah pehr EEP-soom FAHK-tah soont eht SEE-neh EEP-soh FAHK-toom ehst NEE-keel kwohd FAHK-toom ehst een EEP-soh VEE-tah EH-raht eht VEE-tah EH-raht looks OH-mee-noom eht looks een TEH-neh-brees LOO-cheht eht TEH-neh-breh EH-ahm nohn kohn-preh-ehn-DEH-roont",
+  "latin": "In prīncipiō erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in prīncipiō apud Deum. Omnia per ipsum facta sunt, et sine ipsō factum est nihil quod factum est. In ipsō vīta erat, et vīta erat lūx hominum. Et lūx in tenebrīs lūcet, et tenebrae eam nōn conprehendērunt.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "r-vulg-genesis-1-5": {
+  "respelling_eccl": "een preen-CHEE-pee-oh kreh-AH-veet DEH-oos CHEH-loom eht TEHR-rahm TEHR-rah OW-tehm EH-raht ee-NAH-nees eht VAH-koo-ah eht TEH-neh-breh EH-rahnt SOO-pehr FAH-chee-ehm ah-BEES-see eht SPEE-ree-toos DEH-ee feh-reh-BAH-toor SOO-pehr AH-kwahs deek-SEET-kweh DEH-oos FEE-aht looks eht FAHK-tah ehst looks eht VEE-deet DEH-oos LOO-chehm kwohd EHS-seht BOH-nah eht dee-VEE-seet LOO-chehm ah TEH-neh-brees ahp-pehl-lah-VEET-kweh LOO-chehm DEE-ehm eht TEH-neh-brahs NOHK-tehm fahk-TOOM-kweh ehst VEHS-peh-reh eht MAH-neh DEE-ehs OO-noos",
+  "latin": "In prīncipiō creāvit Deus caelum et terram. Terra autem erat inānis et vacua, et tenebrae erant super faciem abyssī, et spīritus Deī ferēbātur super aquās. Dīxitque Deus: “Fīat lūx.” Et facta est lūx. Et vīdit Deus lūcem quod esset bona, et dīvīsit lūcem ā tenebrīs. Appellāvitque lūcem Diem, et tenebrās Noctem; factumque est vespere et māne, diēs ūnus.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-hildegard-aurora": {
+  "respelling_eccl": "too ROO-behs oot ow-ROH-rah eht AHR-dehs oot SOH-lees FLAHM-mah",
+  "latin": "Tū rubēs ut aurōra, et ārdēs ut sōlis flamma.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-aug-tolle-lege": {
+  "respelling_eccl": "TOHL-leh LEH-jeh TOHL-leh LEH-jeh",
+  "latin": "Tolle, lege; tolle, lege.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-gloria": {
+  "respelling_eccl": "GLOH-ree-ah een ahl-TEES-see-mees DEH-oh eht een TEHR-rah pahks een oh-MEE-nee-boos BOH-neh voh-loon-TAH-tees",
+  "latin": "Glōria in altissimīs Deō, et in terrā pāx in hominibus bonae voluntātis.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-pater-noster": {
+  "respelling_eccl": "PAH-tehr NOHS-tehr kwee ehs een CHEH-lees sahnk-tee-fee-CHEH-toor NOH-mehn TOO-oom",
+  "latin": "Pater noster, quī es in caelīs, sānctificētur nōmen tuum.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-dies-irae": {
+  "respelling_eccl": "DEE-ehs EE-reh DEE-ehs EEL-lah SOHL-veht SEH-kloom een fah-VEEL-lah",
+  "latin": "Diēs īrae, diēs illa, solvet saeclum in favīllā.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-aug-inquietum": {
+  "respelling_eccl": "feh-CHEES-tee nohs ahd teh eht een-kwee-EH-toom ehst kohr NOHS-troom DOH-nehk reh-kwee-EHS-kaht een teh",
+  "latin": "Fēcistī nōs ad tē, et inquiētum est cor nostrum, dōnec requiēscat in tē.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-per-speculum": {
+  "respelling_eccl": "vee-DEH-moos noonk pehr SPEH-koo-loom een eh-NEEG-mah-teh toonk OW-tehm FAH-chee-eh ahd FAH-chee-ehm",
+  "latin": "Vidēmus nunc per speculum in aenigmate, tunc autem faciē ad faciem.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-ben-hospites": {
+  "respelling_eccl": "OHM-nehs soo-pehr-veh-nee-EHN-tehs OHS-pee-tehs TAHM-kwahm KREES-toos soo-shee-pee-AHN-toor",
+  "latin": "Omnēs supervenientēs hospitēs tamquam Chrīstus suscipiantur.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-ben-otiositas": {
+  "respelling_eccl": "oh-tsee-OH-see-tahs ee-nee-MEE-kah ehst AH-nee-meh",
+  "latin": "Ōtiōsitās inimīca est animae.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-aug-sero": {
+  "respelling_eccl": "SEH-roh teh ah-MAH-vee pool-kree-TOO-doh tahm ahn-TEE-kwah eht tahm NOH-vah SEH-roh teh ah-MAH-vee",
+  "latin": "Sērō tē amāvī, pulchritūdō tam antīqua et tam nova, sērō tē amāvī!",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-aug-da-mihi": {
+  "respelling_eccl": "dah MEE-kee kahs-tee-TAH-tehm eht kohn-tee-NEHN-tsee-ahm sehd NOH-lee MOH-doh",
+  "latin": "Dā mihi castitātem et continentiam, sed nōlī modo.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-ben-ausculta": {
+  "respelling_eccl": "ohps-KOOL-tah oh FEE-lee preh-CHEHP-tah mah-JEES-tree eht een-KLEE-nah OW-rehm KOHR-dees TOO-ee",
+  "latin": "Obscultā, ō fīlī, praecepta magistrī, et inclīnā aurem cordis tuī.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-de-profundis": {
+  "respelling_eccl": "deh proh-FOON-dees klah-MAH-vee ahd teh DOH-mee-neh",
+  "latin": "Dē profundīs clāmāvī ad tē, Domine.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-ag-dei": {
+  "respelling_eccl": "AH-nyoos DEH-ee kwee TOHL-lees pehk-KAH-tah MOON-dee mee-seh-REH-reh NOH-bees",
+  "latin": "Agnus Deī, quī tollis peccāta mundī, miserēre nōbīs.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-vulg-vanitas": {
+  "respelling_eccl": "VAH-nee-tahs vah-nee-TAH-toom DEEK-seet ehk-kleh-see-AHS-tehs VAH-nee-tahs vah-nee-TAH-toom OHM-nee-ah VAH-nee-tahs",
+  "latin": "Vānitās vānitātum, dīxit Ecclesiastēs, vānitās vānitātum; omnia vānitās.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ },
+ "q-kempis-transit": {
+  "respelling_eccl": "oh kwahm CHEE-toh TRAHN-seet GLOH-ree-ah MOON-dee",
+  "latin": "Ō quam citō trānsit glōria mundī.",
+  "system": "italianate-ecclesiastical",
+  "src": "medieval-cards.json"
+ }
+}
