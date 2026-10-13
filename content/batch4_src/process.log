@@ -1,0 +1,24 @@
+roma (1000, 487)
+tiber (684, 913)
+forum (750, 1000)
+palatine (750, 1000)
+twins (750, 1000)
+jerome (750, 1000)
+willelm (750, 1000)
+distaff (1000, 102)
+cicero (544, 1000)
+marriage (806, 1000)
+neo (750, 1000)
+tab291 (1000, 750)
+caesardeath (696, 929)
+dioscuri (561, 1000)
+tabpeel2 (1000, 750)
+cupid (1000, 649)
+vespasian (783, 1000)
+sator (418, 627)
+Traceback (most recent call last):
+  File "/workspace/latin-app/content/batch4_images_process.py", line 17, in <module>
+    im=Image.open(src); im.load()
+  File "/workspace/venv/lib/python3.13/site-packages/PIL/Image.py", line 3639, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/latin-app/content/img/batch4/vergilms.src'

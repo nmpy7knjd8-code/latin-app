@@ -344,7 +344,7 @@
   "latin": "Septem montēs: Palātium, Capitōlium, Aventīnus…",
   "translation": "The seven hills: Palatine, Capitoline, Aventine…",
   "teaches": "Place names in the nominative; map-tap game",
-  "context": "Tap each hill as you hear its Latin name. The Palatine gave English 'palace', because emperors built their homes there. Rome grew up on hills beside the Tiber, which made them easy to defend. The Capitoline held the temple of Jupiter; the Forum lay in the marshy valley below, drained by the Cloaca Maxima.",
+  "context": "Rome's seven hills were the Palatine, Capitoline, Aventine, Quirinal, Viminal, Esquiline and Caelian. The Palatine gave English 'palace', because emperors built their homes there. Rome grew up on hills beside the Tiber, which made them easy to defend. The Capitoline held the temple of Jupiter; the Forum lay in the marshy valley below, drained by the Cloaca Maxima.",
   "vocab_ids": [
    "auentinus",
    "capitolium",
@@ -539,7 +539,7 @@
   "latin": "Pater fīlium amat. Fīlium pater amat.",
   "translation": "The father loves the son. (same meaning, different emphasis)",
   "teaches": "Accusative marks the object, so word order is free",
-  "context": "Endings, not position, show who does what: -um/-am object, -us/-a subject. Swap word order and the meaning stays. The accusative marks the direct object: the person or thing that receives the action. Pater fīlium amat and Fīlium pater amat mean the same, while Fīlius patrem amat reverses it.",
+  "context": "Endings, not position, show who does what: -um/-am object, -us/-a subject. Change the word order and the meaning stays the same. The accusative marks the direct object: the person or thing that receives the action. Pater fīlium amat and Fīlium pater amat mean the same, while Fīlius patrem amat reverses it.",
   "vocab_ids": [
    "amo",
    "filius",
@@ -802,7 +802,7 @@
   "latin": "Haec ornāmenta sunt mea. — Cornēlia? Līvia? Lucrētia?",
   "translation": "These are my jewels — who said it?",
   "teaches": "Recall of quote card; demonstratives haec",
-  "context": "Pick the speaker. Answer: Cornelia, mother of the Gracchi, per Valerius Maximus 4.4 pr. Links to existing card in rome-cards.json. Cornelia (c. 190–100 BC) was praised by Roman writers for her learning and her letters. A statue of her stood in Rome with the inscription 'Cornelia, mother of the Gracchi'.",
+  "context": "The speaker is Cornelia, mother of the Gracchi, as told by Valerius Maximus (4.4, preface). Cornelia (c. 190–100 BC) was praised by Roman writers for her learning and her letters. A statue of her stood in Rome with the inscription 'Cornelia, mother of the Gracchi'.",
   "vocab_ids": [
    "hic",
    "meus",
@@ -980,7 +980,7 @@
   "latin": "Mīlitēs ambulant. Legiō pugnat.",
   "translation": "The soldiers march. The legion fights.",
   "teaches": "1st conjugation present: -ō, -ās, -at, -āmus, -ātis, -ant",
-  "context": "Chant the endings like a marching cadence. Plural -nt vs singular -t tells you how many are acting. First-conjugation verbs have -ā- in their stem, like amāre and ambulāre. The personal endings -ō, -s, -t, -mus, -tis, -nt show who is acting, so Latin rarely needs a pronoun.",
+  "context": "Plural -nt vs singular -t tells you how many are acting. First-conjugation verbs have -ā- in their stem, like amāre and ambulāre. The personal endings -ō, -s, -t, -mus, -tis, -nt show who is acting, so Latin rarely needs a pronoun.",
   "vocab_ids": [
    "ambulo",
    "legio",
@@ -1287,7 +1287,7 @@
   "latin": "LEG XX V V",
   "translation": "Twentieth Legion, Valeria Victrix",
   "teaches": "Parse-the-inscription: unpack numerals and abbreviations",
-  "context": "Expansion: LEG(IO) XX V(ALERIA) V(ICTRIX). Tap each chunk to expand it. Legion XX served in Britain; its boar emblem appears on stamped tiles and building stones from Chester and Hadrian's Wall. The Twentieth Legion probably won the title Valeria Victrix in the defeat of Boudica in AD 60–61. It was based at Chester (Deva) for about two centuries.",
+  "context": "In full: LEG(IO) XX V(ALERIA) V(ICTRIX), 'Twentieth Legion, Valeria Victrix'. Legion XX served in Britain; its boar emblem appears on stamped tiles and building stones from Chester and Hadrian's Wall. The Twentieth Legion probably won the title Valeria Victrix in the defeat of Boudica in AD 60–61. It was based at Chester (Deva) for about two centuries.",
   "vocab_ids": [
    "legio",
    "ualeria",
@@ -1993,7 +1993,7 @@
   "latin": "in templō, cum deīs, ex urbe",
   "translation": "in the temple, with the gods, out of the city",
   "teaches": "Prepositions + ablative (in, cum, ex/ē, ā/ab, dē, sine)",
-  "context": "Mnemonic: SID & CAPPE. The fire of Vesta burned in aede Vestae, guarded by six Vestal Virgins. The ablative shows place, means and separation and is used after prepositions like in, cum, ex, ab and dē. The temple of Vesta held the sacred hearth fire of the Roman state.",
+  "context": "Prepositions that take the ablative are often remembered as SID & CAPPE: sine, in, dē, cum, ā/ab, prō, prae, ē/ex. The fire of Vesta burned in aede Vestae, guarded by six Vestal Virgins. The ablative shows place, means and separation and is used after prepositions like in, cum, ex, ab and dē. The temple of Vesta held the sacred hearth fire of the Roman state.",
   "vocab_ids": [
    "cum",
    "deus",
@@ -2086,7 +2086,7 @@
   "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT — Mārcus Agrippa Lūcī fīlius cōnsul tertium fēcit",
   "translation": "Marcus Agrippa, son of Lucius, consul for the third time, made this",
   "teaches": "Parse-the-inscription game built on existing card i-pantheon-agrippa",
-  "context": "Drag each abbreviation to its full form. Reuses CIL VI 896 already verified-pending in rome-cards; here it tests abbreviations and the perfect fēcit as a preview. L·F is Lūciī fīlius, 'son of Lucius'; COS is cōnsul. Romans used abbreviations constantly in inscriptions, because carving letters in stone was slow and costly.",
+  "context": "The inscription (CIL VI 896) is a compact lesson in Roman abbreviations, and fēcit, 'made', is a perfect tense. L·F is Lūciī fīlius, 'son of Lucius'; COS is cōnsul. Romans used abbreviations constantly in inscriptions, because carving letters in stone was slow and costly.",
   "vocab_ids": [
    "agrippa",
    "consul",
@@ -2546,7 +2546,7 @@
   "latin": "possum, potes, potest… + infinitive",
   "translation": "I can, you can, s/he can",
   "teaches": "possum = pot + sum",
-  "context": "Learn sum first, then glue pot- on (pos- before s). Pairs with an infinitive: venīre possum, I can come. Possum is a compound of pot- (able) and sum: pos-sum, pot-es, pot-est. Its infinitive is posse, and the English word 'possible' comes from it.",
+  "context": "Possum is built from pot- plus sum, with pot- becoming pos- before s. It pairs with an infinitive: venīre possum, I can come. Possum is a compound of pot- (able) and sum: pos-sum, pot-es, pot-est. Its infinitive is posse, and the English word 'possible' comes from it.",
   "vocab_ids": [
    "possum"
   ],
@@ -2755,7 +2755,7 @@
   "latin": "Augustus, Tiberius, Claudius, Nerō, Trāiānus, Hadriānus",
   "translation": "emperors in order",
   "teaches": "Ordering game with nominative names and dates",
-  "context": "Drag emperors onto the timeline. Trajan's conquests brought the empire to its largest extent in AD 117. Augustus ruled from 27 BC to AD 14. The empire in the west ended in 476, when Romulus Augustulus was deposed; the eastern empire lasted until 1453.",
+  "context": "Trajan's conquests brought the empire to its largest extent in AD 117. Augustus ruled from 27 BC to AD 14. The empire in the west ended in 476, when Romulus Augustulus was deposed; the eastern empire lasted until 1453.",
   "vocab_ids": [
    "augustus",
    "nero"
@@ -2956,7 +2956,7 @@
   "latin": "Regam, regēs, reget… Nōn omnis moriar.",
   "translation": "I shall rule, you will rule, s/he will rule… I shall not wholly die.",
   "teaches": "3rd-conj. future (-am, -ēs, -et) with regular regō first; Horace as the authentic sighting (moriar is deponent, flagged)",
-  "context": "Horace closes Odes 3 confident his poetry will outlive him. Links to the existing 'Exēgī monumentum' card. First- and second-conjugation verbs form the future with -bō, -bis, -bit (amābō); third and fourth use -am, -ēs, -et (regam). Nōn omnis moriar means 'I shall not wholly die'.",
+  "context": "Horace closes Odes 3 confident his poetry will outlive him. First- and second-conjugation verbs form the future with -bō, -bis, -bit (amābō); third and fourth use -am, -ēs, -et (regam). Nōn omnis moriar means 'I shall not wholly die'.",
   "vocab_ids": [
    "morior",
    "non",
@@ -3183,7 +3183,7 @@
   "latin": "Arma virumque canō…",
   "translation": "I sing of arms and the man…",
   "teaches": "Hear dactylic hexameter: long/short tap rhythm",
-  "context": "Tap along to a human reading of Aeneid 1.1 in restored pronunciation. Learners feel vowel length, which reinforces macrons. Each hexameter has six feet, made of long and short syllables in patterns of dactyls (long-short-short) and spondees (long-long). Reading aloud is the best way to hear the rhythm.",
+  "context": "The Aeneid's opening line is a dactylic hexameter, the metre of epic. Its rhythm depends on vowel length, which is why macrons matter. Each hexameter has six feet, made of long and short syllables in patterns of dactyls (long-short-short) and spondees (long-long). Reading aloud is the best way to hear the rhythm.",
   "vocab_ids": [
    "arma",
    "cano",
@@ -3525,7 +3525,7 @@
   "latin": "Marcus Aurēlius Latīnē scrīpsit 'Ad sē ipsum'. Vērum an falsum?",
   "translation": "Marcus Aurelius wrote 'To Himself' in Latin. True or false?",
   "teaches": "Comprehension in simple Latin; cultural accuracy",
-  "context": "False: the Meditations are in Greek, the language of philosophy for educated Romans. Bilingualism was normal among the elite. Marcus Aurelius (emperor 161–180) wrote his private notes during campaigns on the Danube. Educated Romans studied Greek from childhood and often travelled to Athens or Rhodes to complete their education.",
+  "context": "In fact, the Meditations are in Greek, the language of philosophy for educated Romans. Bilingualism was normal among the elite. Marcus Aurelius (emperor 161–180) wrote his private notes during campaigns on the Danube. Educated Romans studied Greek from childhood and often travelled to Athens or Rhodes to complete their education.",
   "vocab_ids": [
    "an",
    "falsus",
@@ -4035,7 +4035,7 @@
   "latin": "pānis, frūmentum, annōna",
   "translation": "bread, grain, grain supply",
   "teaches": "Food vocab; 3rd vs 2nd decl.",
-  "context": "Rome fed citizens free grain, later bread. Losing Egypt and Africa's grain helped starve the late western capital; Juvenal's 'pānem et circēnsēs' card connects here. Annōna comes from annus, 'year', the year's harvest; it was also the name of the official grain supply. About 200,000 citizens received free grain under Augustus. Egypt and North Africa supplied much of it.",
+  "context": "Rome fed citizens free grain, later bread. Losing Egypt and Africa's grain helped starve the late western capital. Juvenal's 'bread and circuses' mocks the same system. Annōna comes from annus, 'year', the year's harvest; it was also the name of the official grain supply. About 200,000 citizens received free grain under Augustus. Egypt and North Africa supplied much of it.",
   "vocab_ids": [
    "annona",
    "frumentum",
@@ -4101,7 +4101,7 @@
   "latin": "Pater noster, quī es in caelīs",
   "translation": "Our Father, who are in heaven",
   "teaches": "Relative pronoun quī/quae/quod",
-  "context": "The Lord's Prayer (Matt. 6:9) was the first Latin many medieval people learned. Already in medieval-cards; here it drives a relative-clause drill. The relative pronoun quī, quae, quod agrees with its antecedent in gender and number, but takes its case from its own clause. Here quī refers to Pater and is the subject of es.",
+  "context": "The Lord's Prayer (Matt. 6:9) was the first Latin many medieval people learned. The relative pronoun quī, quae, quod agrees with its antecedent in gender and number, but takes its case from its own clause. Here quī refers to Pater and is the subject of es.",
   "vocab_ids": [
    "caelum",
    "in",
@@ -4329,7 +4329,7 @@
   "latin": "KAROLVS IMP AVG — Karolus Imperātor Augustus",
   "translation": "Charles, Emperor, Augustus",
   "teaches": "Medieval coin legend reusing Roman titles",
-  "context": "Charlemagne, crowned in 800, issued coins styling himself like a Roman emperor. Compare with Augustus' coins in Unit 6. Pope Leo III crowned Charlemagne emperor in St Peter's, Rome, on Christmas Day 800. His coin reform introduced the silver penny (denarius) used across Europe for centuries.",
+  "context": "Charlemagne, crowned in 800, issued coins styling himself like a Roman emperor., deliberately echoing the coins of Augustus. Pope Leo III crowned Charlemagne emperor in St Peter's, Rome, on Christmas Day 800. His coin reform introduced the silver penny (denarius) used across Europe for centuries.",
   "vocab_ids": [
    "augustus",
    "imperator",
@@ -4484,7 +4484,7 @@
   "latin": "Lindisfarna, Iona, Sanctus Gallus, Aquīsgrānum, Rōma",
   "translation": "Lindisfarne, Iona, St Gall, Aachen, Rome",
   "teaches": "Latin place names; map game",
-  "context": "Tap where Latin learning survived and spread: Irish and Northumbrian monasteries, St Gall, Charlemagne's court at Aachen. Monasteries such as Lindisfarne, founded 635, and Iona copied and preserved Latin texts. Charlemagne's court at Aachen gathered scholars like Alcuin, and Carolingian scribes copied many classical works that survive only through them.",
+  "context": "After Rome fell, Latin learning survived in Irish and Northumbrian monasteries, at St Gall and at Charlemagne's court in Aachen. Monasteries such as Lindisfarne, founded 635, and Iona copied and preserved Latin texts. Charlemagne's court at Aachen gathered scholars like Alcuin, and Carolingian scribes copied many classical works that survive only through them.",
   "vocab_ids": [
    "roma",
    "sanctus"
@@ -4541,7 +4541,7 @@
   "latin": "scrībō, scrībere, scrīpsī, scrīptum → scribe, script, describe, manuscript",
   "translation": "write",
   "teaches": "Derivatives; manū scrīptum = written by hand",
-  "context": "A 'manuscript' is literally manū scrīptus, written by hand. Ties to the Scriba rank in the reward ladder. Scrībō, scrībere, scrīpsī, scrīptum is a third-conjugation verb. Medieval scribes wrote on parchment made from animal skin, using quills and ink made from oak galls.",
+  "context": "A 'manuscript' is literally manū scrīptus, written by hand. Scrībō, scrībere, scrīpsī, scrīptum is a third-conjugation verb. Medieval scribes wrote on parchment made from animal skin, using quills and ink made from oak galls.",
   "vocab_ids": [
    "scribo"
   ],

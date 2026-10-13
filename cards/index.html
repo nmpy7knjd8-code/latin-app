@@ -79,7 +79,9 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .say{font:600 1.02rem/1.3 system-ui,sans-serif;letter-spacing:.03em;text-align:center;color:var(--acc);margin:0;background:none;border:0;width:100%;cursor:pointer}
 .say .ipa{display:block;font:400 .8rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;opacity:.85}
 .say .ipa[hidden]{display:none}
-.ipa-b{font:400 .85rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;opacity:.85}
+.la-b.long{font-size:.8rem;line-height:1.25}
+.la-b{font:italic 600 1.1rem/1.25 Georgia,"Times New Roman",serif;color:#fff8ec}
+.ipa-b{font:400 .78rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;opacity:.85}
 .latin .w{font:inherit;color:inherit;background:none;border:0;padding:0 1px;cursor:pointer;border-bottom:1px dotted var(--acc)}
 .tr-front{text-align:center;font:500 .95rem/1.3 Georgia,serif;margin:2px 0 4px}
 .gl{min-height:1.2em;text-align:center;font-size:.8rem;color:var(--acc)}
@@ -188,20 +190,19 @@ function render(){
     ${P(c)?`<button class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}. Tap for IPA.">${esc(P(c).respelling)}<span class="ipa" hidden>${esc(P(c).ipa)}</span></button>${EC(c)?`<button class="reg" data-cl="${esc(P(c).respelling)}" data-ec="${esc(EC(c))}" aria-pressed="false">Classical · tap for Church pronunciation</button>`:""}`:""}
     ${learn?`<div class="tr-front">“${esc(c.translation)}”</div><div class="gl" aria-live="polite"></div>`:""}
     ${AU(c).length?`<div class="chips">${AU(c).map((a,k)=>`<button class="play" data-a="${esc(a.file)}" aria-label="Play recording, ${esc(a.style)}">▶ ${esc(a.style)}</button>`).join("")}</div>`:""}
-    <div class="meta"><span>${esc(c.person)}</span><span aria-hidden="true">·</span><span class="era">${ERA[c.era]||c.era}</span></div>
+    <div class="meta">${c.person?`<span>${esc(c.person)}</span><span aria-hidden="true">·</span>`:""}<span class="era">${ERA[c.era]||c.era}</span></div>
     <div class="lic">${esc(c.image.license)} · ${learn?`<a href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener" style="color:inherit">see in museum</a>`:"credit on back"}</div>
    </div>
   </div>
   <div class="face back" aria-hidden="true" inert>
    <div class="meta" style="justify-content:flex-start"><span class="era">${ERA[c.era]||c.era}</span></div>
-   ${c.latin.length>110?"":`${P(c)?`<div class="ipa-b" aria-label="IPA">${esc(P(c).ipa)}</div>`:""}
-   ${P(c)&&P(c).ipa_verse?`<div class="ipa-b" aria-label="Verse reading with elision"><small>verse:</small> ${esc(P(c).ipa_verse)}<br><small>${esc(P(c).respelling_verse)}</small></div>`:""}
-   ${window.PHONETICS_LEGEND?`${EC(c)?`<div class="note">Church: ${esc(EC(c))}</div>`:""}<details class="ipa-b"><summary><small>How to read the respelling</small></summary><small>${esc(PHONETICS_LEGEND)}</small></details>`:""}`}
+   ${P(c)&&c.latin.length<=110?`<div class="ipa-b" aria-label="IPA">${esc(P(c).ipa)}</div>`:""}
+   <div class="la-b${c.latin.length>110?" long":""}" lang="la">${esc(c.latin)}</div>
    <div class="tr${c.translation.length>120?" long":""}">“${esc(c.translation)}”</div>
    ${LM(c)?`<a class="lm" href="${esc(LM(c).url)}" target="_blank" rel="noopener">Learn more: ${esc(String(LM(c).label||"read about it").replace(/\s*[—(-]\s*Wikipedia\)?$/,""))} ↗</a>`:""}
    <div class="ctx">${esc(c.context)}</div>
-   <div class="src">${esc(c.person)} — <i>${esc(c.source.work)}</i> ${esc(c.source.citation)}<span class="badge">${esc(c.attribution_confidence)}</span></div>
-   <div class="rate"><button class="again">↺ Again</button><button class="ok">✓ Got it</button></div>
+   ${c._src?`<div class="src">${esc(c.person)}${c.person&&c.source.work?" — ":""}${c.source.work?`<i>${esc(c.source.work)}</i>`:""} ${esc(c.source.citation||"")}${c.attribution_confidence?`<span class="badge">${esc(c.attribution_confidence)}</span>`:""}</div>`:""}
+   <div class="rate"><button class="ok">✓ Got it</button></div>
    <details class="fine"><summary>ⓘ Credits · ${c.image.src?`Image ${esc(c.image.license)}`:"no image yet"}${AU(c).map(a=>` · Audio ${esc(a.license)}`).join("")}${c.attribution_note?" · source note":""}</summary>
     ${c.attribution_note?`<p>Source note: ${esc(c.attribution_note)}</p>`:""}
     <p>${c.image.src?`Image: ${esc(c.image.credit)} · ${LL(c.image.license)}${c.image.transparent&&!c.image.uncut?" · background removed":""}${c.image.uncut?" · hotlinked original":""} · <a href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener">source</a>`:"Image: not yet chosen"}</p>
@@ -213,7 +214,7 @@ function render(){
   document.querySelectorAll(".play").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();if(player)player.pause();player=new Audio("../audio/"+b.dataset.a);player.play().catch(()=>{})}));
   setupDots();cur();
   document.querySelectorAll(".rate button").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();const el=b.closest(".card"),id=el.dataset.id;
-    if(b.classList.contains("ok"))KN.add(id);else KN.delete(id);saveKN();el.classList.toggle("known",KN.has(id));
+    KN.add(id);saveKN();el.classList.toggle("known",KN.has(id));
     el.click();cur();const i=VIS().findIndex(c=>c.id===id);setTimeout(()=>go(1),350)}));
   requestAnimationFrame(fitBacks);
   document.querySelectorAll(".reg").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();const on=b.getAttribute("aria-pressed")!=="true";b.setAttribute("aria-pressed",on);
@@ -228,7 +229,7 @@ function render(){
     const t=()=>{const f=el.classList.toggle("flipped");el.setAttribute("aria-pressed",f);
       back.toggleAttribute("inert",!f);back.setAttribute("aria-hidden",!f);
       front.toggleAttribute("inert",f);front.setAttribute("aria-hidden",f);};
-    el.addEventListener("click",e=>{if(e.target.closest("a,details"))return;const cx=e.target.closest(".ctx");if(cx&&el.classList.contains("flipped")){cx.classList.toggle("open");return}t()});
+    el.addEventListener("click",e=>{if(e.target.closest("a,details"))return;t()});
     el.addEventListener("keydown",e=>{if(e.target!==el)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();t()}});
   });
 }
@@ -282,8 +283,9 @@ document.getElementById("prev").onclick=()=>go(-1);document.getElementById("next
 document.addEventListener("keydown",e=>{if(e.key==="ArrowRight")go(1);if(e.key==="ArrowLeft")go(-1)});
 async function loadAll(){
  const norm=c=>{c=Object.assign({},c);
-  c.person=c.person||(c.subtype?c.subtype.replace(/_/g," "):"Latin");
-  c.source=c.source||{work:c.teaches||"",citation:""};
+  c._src=!!(c.source&&(c.source.work||c.source.citation));
+  c.person=c.person||"";
+  c.source=c.source?Object.assign({},c.source,{citation:String(c.source.citation||"").replace(/\s*\((verified|checked)[^)]*\)/gi,"")}):{work:"",citation:""};
   c.attribution_confidence=c.attribution_confidence||"";
   let im=c.image;
   if(!im){const ii=c.image_idea||{};im={src:"",alt:ii.description||"",kind:ii.kind||"object",license:ii.license_status||"image pending",credit:ii.candidate_source||"",source_url:""};}

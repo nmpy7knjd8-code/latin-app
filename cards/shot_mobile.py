@@ -18,7 +18,7 @@ with sync_playwright() as p:
         pg.evaluate(f"document.getElementById('card-{i}').scrollIntoView({{inline:'center'}})"); pg.wait_for_timeout(500)
         pg.screenshot(path=O+f"{W}-front-{cid}.png"); pg.evaluate(f"document.getElementById('card-{i}').click()"); pg.wait_for_timeout(900)
         pg.screenshot(path=O+f"{W}-back-{cid}.png")
-    for cid in ["q-ovid-urbis","q-virgil-forsan","q-bede-sparrow","r-vulg-genesis-1-5","i-rib-regina"]: shot(cid)
+    for cid in ["x-map-roma","q-ovid-urbis","q-virgil-forsan","q-bede-sparrow","r-vulg-genesis-1-5","i-rib-regina"]: shot(cid)
     pg.goto(U); pg.wait_for_timeout(1500); pg.evaluate("localStorage.clear();localStorage.setItem('lingua.known',JSON.stringify(CARDS.filter(c=>unitOf(c)===1).map(c=>c.id).concat(CARDS.filter(c=>unitOf(c)===2).slice(0,3).map(c=>c.id))))"); pg.goto(U); pg.wait_for_timeout(1200)
     pg.screenshot(path=O+f"{W}-home.png"); pg.click("#logo"); pg.wait_for_timeout(300); pg.screenshot(path=O+f"{W}-sections.png")
     b.close()
