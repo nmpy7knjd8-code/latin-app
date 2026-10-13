@@ -1,0 +1,390 @@
+[
+ {
+  "ids": [
+   "q-caesar-veni"
+  ],
+  "file": "veni-vidi-vici.mp3",
+  "src": "vvv.wav",
+  "whole": 1,
+  "text": "Veni vidi vici",
+  "source": "https://commons.wikimedia.org/wiki/File:Veni,_Vidi,_Vici.wav",
+  "credit": "Westofines27, Wikimedia Commons",
+  "license": "CC BY-SA 4.0",
+  "style": "classical",
+  "label": "Restored classical",
+  "asr_override": "Whisper hears \"Wee-wee-wee-chee-chee\" (v=w onsets); short whole file, reviewer confirmed w- onsets."
+ },
+ {
+  "ids": [
+   "q-memento-mori"
+  ],
+  "file": "memento-mori-classical.mp3",
+  "src": "mm.wav",
+  "whole": 1,
+  "text": "Memento mori",
+  "source": "https://commons.wikimedia.org/wiki/File:Memento_mori_la.wav",
+  "credit": "SinaSabet28, Wikimedia Commons",
+  "license": "CC0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-caesar-gallia"
+  ],
+  "file": "gallia-est-omnis-classical.mp3",
+  "src": "bg-cls.ogg",
+  "win": [
+   0,
+   7.84
+  ],
+  "text": "Gallia est omnis divisa in partes tres",
+  "source": "https://commons.wikimedia.org/wiki/File:La-cls-de-bello-gallico.ogg",
+  "credit": "Robert.Baruch, Wikimedia Commons",
+  "license": "CC BY-SA 3.0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-caesar-gallia"
+  ],
+  "file": "gallia-est-omnis-ecclesiastical.mp3",
+  "src": "bg-ecc.ogg",
+  "win": [
+   0,
+   8.07
+  ],
+  "text": "Gallia est omnis divisa in partes tres",
+  "source": "https://commons.wikimedia.org/wiki/File:La-ecc-de-bello-gallico.ogg",
+  "credit": "Robert.Baruch, Wikimedia Commons",
+  "license": "CC BY-SA 3.0",
+  "style": "ecclesiastical",
+  "label": "Optional: Church Latin"
+ },
+ {
+  "ids": [
+   "q-caesar-gallia"
+  ],
+  "file": "gallia-est-omnis-librivox.mp3",
+  "src": "lv/bellumgallicum_01_caesar_64kb.mp3",
+  "win": [
+   30.05,
+   33.69
+  ],
+  "text": "Gallia est omnis divisa in partes tres",
+  "source": "https://archive.org/download/bellum_gallicum_1210_librivox/bellumgallicum_01_caesar_64kb.mp3",
+  "credit": "Christoph Merlein, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "classical",
+  "label": "Restored classical",
+  "asr_override": "medium/la heard \"Galia est omnis divisa in partes tres\" (repeated hallucination lowers score)."
+ },
+ {
+  "ids": [
+   "q-virgil-arma",
+   "x-meter"
+  ],
+  "file": "arma-virumque.mp3",
+  "src": "lv/aeneidis_01_maro_64kb.mp3",
+  "win": [
+   55.14,
+   61.44
+  ],
+  "text": "Arma virumque cano Troiae qui primus ab oris",
+  "note": "Covers the first line only.",
+  "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-virgil-tantae"
+  ],
+  "file": "tantae-molis.mp3",
+  "src": "lv/aeneidis_01_maro_64kb.mp3",
+  "win": [
+   244.32,
+   250.29
+  ],
+  "text": "Tantae molis erat Romanam condere gentem",
+  "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-virgil-forsan"
+  ],
+  "file": "forsan-et-haec.mp3",
+  "src": "lv/aeneidis_01_maro_64kb.mp3",
+  "win": [
+   1306.7,
+   1311.02
+  ],
+  "text": "forsan et haec olim meminisse iuvabit",
+  "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "classical",
+  "label": "Restored classical",
+  "asr_override": "medium heard \"For Sareth I call him a medicine you wabbit\" = forsan et haec olim meminisse iuvabit (phonetic). Ear check."
+ },
+ {
+  "ids": [
+   "q-virgil-timeo"
+  ],
+  "file": "timeo-danaos.mp3",
+  "src": "lv/aeneidis_03_maro_64kb.mp3",
+  "win": [
+   331.86,
+   337.57
+  ],
+  "text": "Quidquid id est timeo Danaos et dona ferentes",
+  "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_03_maro_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-virgil-fugit"
+  ],
+  "file": "fugit-irreparabile.mp3",
+  "src": "lv/georgics_6_vergil_64kb.mp3",
+  "win": [
+   50.4,
+   56.7
+  ],
+  "text": "Sed fugit interea fugit irreparabile tempus",
+  "source": "https://archive.org/download/georgica_dm_librivox/georgics_6_vergil_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-seneca-vindica"
+  ],
+  "file": "seneca-vindica.mp3",
+  "src": "lv/epistulae_01_seneca_64kb.mp3",
+  "win": [
+   58.61,
+   62.92
+  ],
+  "text": "Ita fac mi Lucili vindica te tibi",
+  "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "CC0",
+  "style": "classical",
+  "label": "Restored classical",
+  "asr_override": "medium heard \"Ita fac me Lucili, windy car te tibi\" = full line."
+ },
+ {
+  "ids": [
+   "q-seneca-differtur"
+  ],
+  "file": "seneca-differtur.mp3",
+  "src": "lv/epistulae_01_seneca_64kb.mp3",
+  "win": [
+   150.31,
+   153.45
+  ],
+  "text": "Dum differtur vita transcurrit",
+  "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "CC0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-seneca-aliena"
+  ],
+  "file": "seneca-aliena.mp3",
+  "src": "lv/epistulae_01_seneca_64kb.mp3",
+  "win": [
+   154.76,
+   160.75
+  ],
+  "text": "Omnia Lucili aliena sunt tempus tantum nostrum est",
+  "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "CC0",
+  "style": "classical",
+  "label": "Restored classical",
+  "asr_override": "medium heard \"Omnia, mi Lucili, aliena sunt, tempus tantum nostrum est\" — complete.",
+  "caption": "The reader’s edition has “Omnia, mī Lūcīlī…” (with mī); the card omits mī."
+ },
+ {
+  "ids": [
+   "q-seneca-nusquam"
+  ],
+  "file": "seneca-nusquam.mp3",
+  "src": "lv/epistulae_01_seneca_64kb.mp3",
+  "win": [
+   345.19,
+   348.34
+  ],
+  "text": "Nusquam est qui ubique est",
+  "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "CC0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-lucretius-religio"
+  ],
+  "file": "lucretius-religio.mp3",
+  "src": "lv/rerum_01_lucretius_64kb.mp3",
+  "win": [
+   600.35,
+   604.47
+  ],
+  "text": "Tantum religio potuit suadere malorum",
+  "source": "https://archive.org/download/rerum_natura_dm_librivox/rerum_01_lucretius_64kb.mp3",
+  "credit": "Malone, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "classical",
+  "label": "Restored classical"
+ },
+ {
+  "ids": [
+   "q-ben-ausculta"
+  ],
+  "file": "ausculta-o-fili.mp3",
+  "src": "lv/regulasanctibenedicti_01_benedictofnursia_64kb.mp3",
+  "win": [
+   30.58,
+   37.0
+  ],
+  "text": "Ausculta o fili praecepta magistri et inclina aurem cordis tui",
+  "caption": "The reader says “Ausculta”; the card prints the manuscript spelling “Obscultā”. Same word: “listen”.",
+  "source": "https://archive.org/download/regula_sancti_benedicti_1512_librivox/regulasanctibenedicti_01_benedictofnursia_64kb.mp3",
+  "credit": "bedwere, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "ecclesiastical",
+  "label": "Church Latin (ecclesiastical)",
+  "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical."
+ },
+ {
+  "ids": [
+   "q-ben-hospites"
+  ],
+  "file": "omnes-hospites.mp3",
+  "src": "lv/regulasanctibenedicti_07_benedictofnursia_64kb.mp3",
+  "win": [
+   14.85,
+   21.75
+  ],
+  "text": "Omnes supervenientes hospites tamquam Christus suscipiantur",
+  "source": "https://archive.org/download/regula_sancti_benedicti_1512_librivox/regulasanctibenedicti_07_benedictofnursia_64kb.mp3",
+  "credit": "bedwere, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "ecclesiastical",
+  "label": "Church Latin (ecclesiastical)",
+  "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical."
+ },
+ {
+  "ids": [
+   "q-aug-inquietum"
+  ],
+  "file": "fecisti-nos.mp3",
+  "src": "lv/confessionumlibritredecim_01_augustinus_64kb.mp3",
+  "win": [
+   70.04,
+   75.9
+  ],
+  "text": "Fecisti nos ad te et inquietum est cor nostrum donec requiescat in te",
+  "source": "https://archive.org/download/confessionsofaugustine_1310_librivox/confessionumlibritredecim_01_augustinus_64kb.mp3",
+  "credit": "bedwere, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "ecclesiastical",
+  "label": "Church Latin (ecclesiastical)",
+  "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical.",
+  "nopad_start": 1,
+  "asr_override": "medium heard \"(fe)cisti nos ad te, et inquietum est cor nostrum, donec requiescat in te\"; quia removed."
+ },
+ {
+  "ids": [
+   "q-aug-tolle-lege",
+   "q-augustine-tolle"
+  ],
+  "file": "tolle-lege.mp3",
+  "src": "lv/confessionumlibritredecim_15_augustinus_64kb.mp3",
+  "win": [
+   1367.3,
+   1369.45
+  ],
+  "text": "tolle lege tolle lege",
+  "source": "https://archive.org/download/confessionsofaugustine_1310_librivox/confessionumlibritredecim_15_augustinus_64kb.mp3",
+  "credit": "bedwere, LibriVox",
+  "license": "PD Mark 1.0",
+  "style": "ecclesiastical",
+  "label": "Church Latin (ecclesiastical)",
+  "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical."
+ },
+ {
+  "ids": [
+   "q-vulg-pater-noster"
+  ],
+  "file": "pater-noster-ecclesiastical.mp3",
+  "src": "pn-cc0.ogg",
+  "win": [
+   0.36,
+   6.65
+  ],
+  "text": "Pater noster qui es in caelis sanctificetur nomen tuum",
+  "source": "https://commons.wikimedia.org/wiki/File:Pater-Noster.ogg",
+  "credit": "Dan Palraz, Wikimedia Commons",
+  "license": "CC0",
+  "style": "ecclesiastical",
+  "label": "Church Latin (ecclesiastical)",
+  "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical."
+ },
+ {
+  "ids": [
+   "g-relative"
+  ],
+  "file": "pater-noster-qui-es.mp3",
+  "src": "pn-cc0.ogg",
+  "win": [
+   0.36,
+   5.29
+  ],
+  "text": "Pater noster qui es in caelis",
+  "source": "https://commons.wikimedia.org/wiki/File:Pater-Noster.ogg",
+  "credit": "Dan Palraz, Wikimedia Commons",
+  "license": "CC0",
+  "style": "ecclesiastical",
+  "label": "Church Latin (ecclesiastical)",
+  "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical."
+ },
+ {
+  "ids": [
+   "q-dies-irae"
+  ],
+  "file": "dies-irae-chant.mp3",
+  "src": "dies.ogg",
+  "win": [
+   0.94,
+   17.45
+  ],
+  "text": "Dies irae dies illa solvet saeclum in favilla",
+  "note": "Sung Gregorian chant, not speech.",
+  "source": "https://commons.wikimedia.org/wiki/File:Dies.irae.ogg",
+  "credit": "Membeth, Wikimedia Commons (own work, released PD-self)",
+  "license": "PD-self",
+  "style": "ecclesiastical",
+  "label": "Church Latin (ecclesiastical)",
+  "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical."
+ }
+]

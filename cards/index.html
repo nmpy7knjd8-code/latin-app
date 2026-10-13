@@ -1,28 +1,31 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Lingua · Latin cards from Rome & the medieval West</title>
+<title>Lingua</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml"><meta property="og:title" content="Lingua · Latin cards"><meta property="og:description" content="Learn Latin through real quotes from Rome and the medieval West."><meta property="og:image" content="https://nmpy7knjd8-code.github.io/latin-app/og.png"><meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="Learn Latin through real, source-checked quotes from Rome and the medieval West.">
 <style>
 :root{--ink:#2a2420}
 *{box-sizing:border-box}
-body{margin:0;background:#efe9df;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink)}
-header{padding:20px 20px 0;text-align:center}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none}
+body{display:flex;flex-direction:column;height:100vh;height:100dvh;position:fixed;inset:0;width:100%;margin:0;background:#efe9df;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink)}
+header{padding:calc(env(safe-area-inset-top) + 12px) 20px 0;text-align:center;flex:none}
 header h1{font:600 1.1rem Georgia,serif;letter-spacing:.2em;margin:0}
 header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .modes{display:inline-flex;margin-top:10px;border:1px solid #8a7a6a;border-radius:99px;overflow:hidden}
 .modes button{font:600 .85rem system-ui;padding:10px 18px;min-height:44px;border:0;background:transparent;color:var(--ink);cursor:pointer}
 .modes button[aria-pressed=true]{background:#2a2420;color:#fff8ec}
-.deck{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;padding:64px 9vw 20px;scrollbar-width:none}
+.deck{flex:1;min-height:0;display:flex;align-items:stretch;gap:28px;overflow-x:auto;overflow-y:hidden;overscroll-behavior:none;scroll-snap-type:x mandatory;padding:48px 7vw 14px;scrollbar-width:none}
 .deck::-webkit-scrollbar{display:none}
-.card{flex:0 0 min(82vw,320px);aspect-ratio:3/4;perspective:1200px;scroll-snap-align:center;-webkit-tap-highlight-color:transparent;border-radius:22px}
+.card{flex:0 0 min(86vw,340px);height:auto;max-height:600px;align-self:center;height:100%;perspective:1200px;scroll-snap-align:center;-webkit-tap-highlight-color:transparent;border-radius:22px}
 .card[role=button]{cursor:pointer}
 .card:focus-visible{outline:3px solid #1d4ed8;outline-offset:4px}
 .inner{position:relative;width:100%;height:100%;transition:transform .6s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d}
 .card.flipped .inner{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;border-radius:22px;backface-visibility:hidden;-webkit-backface-visibility:hidden;
  background:var(--bg);box-shadow:0 14px 30px rgba(40,25,10,.18),inset 0 0 0 1px rgba(255,255,255,.25);display:flex;flex-direction:column;padding:18px;color:#fff8ec}
-.back{transform:rotateY(180deg);background:var(--bg2);overflow:auto}
+.back{transform:rotateY(180deg);background:var(--bg2);overflow:hidden;gap:var(--g);padding:16px 16px 12px}
+.card{--g:7px}
+.back>*{margin:0!important}
 /* iOS Safari flip fix */
 .inner{-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
 .front{-webkit-transform:translateZ(.1px);transform:translateZ(.1px)}
@@ -39,7 +42,7 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .reg[aria-pressed=true]{background:rgba(255,255,255,.12)}
 .chips{display:flex;justify-content:center;flex-wrap:wrap;gap:6px}
 .back .credit a{color:inherit}
-.nav{display:flex;justify-content:center;align-items:center;gap:14px;padding:0 0 10px}
+.nav{flex:none;display:flex;justify-content:center;align-items:center;gap:14px;padding:0 0 calc(env(safe-area-inset-bottom) + 8px)}
 .nav button{min-width:48px;min-height:48px;border-radius:50%;border:1px solid #8a7a6a;background:#fff8ec;font-size:1.3rem;cursor:pointer;color:var(--ink)}
 .nav span{font:600 .9rem system-ui;min-width:70px;text-align:center}
 .drafts{font:500 .8rem system-ui;margin-left:10px;display:inline-flex;align-items:center;gap:6px;min-height:44px}
@@ -67,23 +70,35 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .tornwrap{width:80%;height:100%;filter:drop-shadow(0 10px 10px rgba(0,0,0,.3));display:flex}
 .tornwrap .frame{width:100%;box-shadow:none}
 /* text band (safe zone): era label lives here, never over the image */
-.band{position:relative;z-index:6}
-.latin{font:italic 600 1.4rem/1.2 Georgia,"Times New Roman",serif;margin:12px 0 4px;text-align:center;text-wrap:balance}
+.band{position:relative;z-index:6;display:flex;flex-direction:column;gap:var(--g);padding-top:10px}
+.band>*{margin:0!important}
+.latin{font:italic 600 1.4rem/1.2 Georgia,"Times New Roman",serif;text-align:center;text-wrap:balance}
 .say{font:600 .85rem/1.3 system-ui,sans-serif;letter-spacing:.03em;text-align:center;color:var(--acc);margin:0 0 6px;background:none;border:0;width:100%;cursor:pointer}
 .say .ipa{display:block;font:400 .8rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;opacity:.85}
 .say .ipa[hidden]{display:none}
-.ipa-b{font:400 .9rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;margin:4px 0 8px;opacity:.85}
+.ipa-b{font:400 .85rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;opacity:.85}
 .latin .w{font:inherit;color:inherit;background:none;border:0;padding:0 1px;cursor:pointer;border-bottom:1px dotted var(--acc)}
 .tr-front{text-align:center;font:500 .95rem/1.3 Georgia,serif;margin:2px 0 4px}
 .gl{min-height:1.2em;text-align:center;font-size:.8rem;color:var(--acc)}
 .meta{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;font-size:.78rem;color:var(--acc);letter-spacing:.04em}
 .era{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
-.lic{font-size:.72rem;text-align:center;margin-top:6px}
-.back .tr{font:500 1.2rem/1.3 Georgia,serif;margin:4px 0 12px}
-.back .ctx{font-size:.88rem;line-height:1.45}
-.back .note{font-size:.8rem;line-height:1.4;margin-top:8px;color:var(--acc)}
-.back .src{margin-top:auto;font-size:.78rem;color:var(--acc);padding-top:8px}
-.back .credit{font-size:.74rem;line-height:1.35;margin-top:6px}
+.lic{font-size:9.5px;text-align:center;opacity:.62}
+.back .tr{font:500 1.1rem/1.25 Georgia,serif}
+.back .ctx{font-size:.84rem;line-height:1.38;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:6;overflow:hidden;cursor:pointer}
+.latin.long{font-size:.95rem;line-height:1.25}
+.back .tr.long{font-size:.85rem;line-height:1.3}
+.back .tr.long~.ctx{-webkit-line-clamp:3}
+.back .ctx.open{-webkit-line-clamp:unset}
+.back .note{font-size:.76rem;line-height:1.35;color:var(--acc)}
+.back .src{font-size:.74rem;line-height:1.3;color:var(--acc)}
+.back .lm{display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 14px;border-radius:12px;background:var(--acc);color:var(--bg2);font:700 .85rem system-ui;text-decoration:none;text-align:center}
+.back .fine{margin-top:auto!important;font-size:9.5px;line-height:1.35;opacity:.62}
+.back .fine summary{cursor:pointer;list-style:none;min-height:24px;display:flex;align-items:center}
+.back .fine summary::-webkit-details-marker{display:none}
+.back .fine a{color:inherit}
+.back .fine p{margin:2px 0}
+.back .fine[open]{position:absolute;left:10px;right:10px;bottom:10px;background:var(--bg2);opacity:.95;padding:8px;border-radius:10px;box-shadow:0 -4px 14px rgba(0,0,0,.4);max-height:70%;overflow:auto;font-size:10px}
+
 .back a.museum{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;margin-top:6px;border:1px solid var(--acc);border-radius:99px;color:var(--acc);font-size:.8rem;text-decoration:none;align-self:flex-start}
 .badge{display:inline-block;font-size:.65rem;border:1px solid var(--acc);border-radius:99px;padding:1px 7px;margin-left:6px;text-transform:uppercase;letter-spacing:.1em}
 .dots{display:flex;justify-content:center;gap:10px;padding:0 0 10px}
@@ -97,14 +112,9 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
  .card.flipped .back{opacity:1}.card.flipped .front{opacity:0}
 }
 </style></head><body>
-<header><h1>LINGUA · CARDS</h1>
-<p id="help">Review: tap a card to reveal · swipe for more</p>
-<div class="modes" role="group" aria-label="Card mode">
- <button id="m-learn" aria-pressed="false">Learn</button><button id="m-review" aria-pressed="true">Review</button>
-</div></header>
+<header><h1>LINGUA</h1></header>
 <main class="deck" id="deck" aria-label="Cards"></main>
 <nav class="nav" aria-label="Card navigation"><button id="prev" aria-label="Previous card">‹</button><span id="count" aria-live="polite"></span><button id="next" aria-label="Next card">›</button></nav><nav class="dots" id="dots" hidden></nav>
-<div class="hint" id="foot"></div>
 <script src="cards.js"></script>
 <script src="phonetics.js"></script>
 <script>
@@ -137,17 +147,19 @@ const AU=c=>{const a=(window.AUDIO||{})[c.id];return Array.isArray(a)?a:[]};
 const LU={"CC BY-SA 4.0":"https://creativecommons.org/licenses/by-sa/4.0/","CC BY-SA 3.0":"https://creativecommons.org/licenses/by-sa/3.0/","CC BY 4.0":"https://creativecommons.org/licenses/by/4.0/","CC0":"https://creativecommons.org/publicdomain/zero/1.0/"};
 const LL=l=>LU[l]?`<a href="${LU[l]}" target="_blank" rel="noopener">${esc(l)}</a>`:esc(l);
 let player=null;
+const LMX={"q-caesar-veni":{label:"Veni, vidi, vici & the Battle of Zela",url:"https://en.wikipedia.org/wiki/Veni,_vidi,_vici"},"q-caesar-gallia":{label:"Caesar's Gallic War",url:"https://en.wikipedia.org/wiki/Commentarii_de_Bello_Gallico"},"q-cicero-tempora":{label:"O tempora, o mores!",url:"https://en.wikipedia.org/wiki/O_tempora,_o_mores!"},"q-horace-carpe":{label:"Carpe diem",url:"https://en.wikipedia.org/wiki/Carpe_diem"},"q-augustine-tolle":{label:"Tolle lege: Augustine's conversion",url:"https://en.wikipedia.org/wiki/Tolle_lege"}};
+const LM=c=>(c.learn_more&&c.learn_more.url)?c.learn_more:LMX[c.id];
 const P=c=>c.ipa?c:(window.PHONETICS||{})[c.id];
 function render(){
   const learn=mode==="learn";
-  document.getElementById("help").textContent=learn?"Learn: tap a word for its gloss · swipe or use ‹ › for more":"Review: tap a card to reveal · swipe or use ‹ › for more";
+  void learn?"Learn: tap a word for its gloss · swipe or use ‹ › for more":"Review: tap a card to reveal · swipe or use ‹ › for more";
   document.getElementById("deck").innerHTML=VIS().map((c,i)=>`
 <article data-id="${esc(c.id)}" class="card ${c.era} ${c.image.kind}" ${learn?`aria-label="${esc(c.person)} card"`:`tabindex="0" role="button" aria-pressed="false" aria-label="Quote card: ${esc(c.latin)}, ${esc(c.person)}. Press to reveal translation."`} id="card-${i}">
  ${c._draft?`<span class="draftb">DRAFT</span>`:""}<div class="inner">
   <div class="face front">
    <div class="art">${art(c.image,c)}</div>
    <div class="band">
-    <div class="latin" lang="la">${latinHTML(c)}</div>
+    <div class="latin${c.latin.length>110?" long":""}" lang="la">${latinHTML(c)}</div>
     ${P(c)?`<button class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}. Tap for IPA.">${esc(P(c).respelling)}<span class="ipa" hidden>${esc(P(c).ipa)}</span></button>${EC(c)?`<button class="reg" data-cl="${esc(P(c).respelling)}" data-ec="${esc(EC(c))}" aria-pressed="false">Classical · tap for Church pronunciation</button>`:""}`:""}
     ${learn?`<div class="tr-front">“${esc(c.translation)}”</div><div class="gl" aria-live="polite"></div>`:""}
     ${AU(c).length?`<div class="chips">${AU(c).map((a,k)=>`<button class="play" data-a="${esc(a.file)}" aria-label="Play recording, ${esc(a.style)}">▶ ${esc(a.style)}</button>`).join("")}</div>`:""}
@@ -157,16 +169,18 @@ function render(){
   </div>
   <div class="face back" aria-hidden="true" inert>
    <div class="meta" style="justify-content:flex-start"><span class="era">${ERA[c.era]||c.era}</span></div>
-   ${P(c)?`<div class="ipa-b" aria-label="IPA">${esc(P(c).ipa)}</div>`:""}
+   ${c.latin.length>110?"":`${P(c)?`<div class="ipa-b" aria-label="IPA">${esc(P(c).ipa)}</div>`:""}
    ${P(c)&&P(c).ipa_verse?`<div class="ipa-b" aria-label="Verse reading with elision"><small>verse:</small> ${esc(P(c).ipa_verse)}<br><small>${esc(P(c).respelling_verse)}</small></div>`:""}
-   ${window.PHONETICS_LEGEND?`${EC(c)?`<div class="note">Church pronunciation (Italianate ecclesiastical): ${esc(EC(c))}. Note: the church respelling does not mark vowel length; classical is the default.</div>`:""}<details class="ipa-b"><summary><small>How to read the respelling</small></summary><small>${esc(PHONETICS_LEGEND)}</small></details>`:""}
-   <div class="tr">“${esc(c.translation)}”</div>
+   ${window.PHONETICS_LEGEND?`${EC(c)?`<div class="note">Church: ${esc(EC(c))}</div>`:""}<details class="ipa-b"><summary><small>How to read the respelling</small></summary><small>${esc(PHONETICS_LEGEND)}</small></details>`:""}`}
+   <div class="tr${c.translation.length>120?" long":""}">“${esc(c.translation)}”</div>
+   ${LM(c)?`<a class="lm" href="${esc(LM(c).url)}" target="_blank" rel="noopener">Learn more: ${esc(String(LM(c).label||"read about it").replace(/\s*[—(-]\s*Wikipedia\)?$/,""))} ↗</a>`:""}
    <div class="ctx">${esc(c.context)}</div>
-   ${c.attribution_note?`<div class="note">${esc(c.attribution_note)}</div>`:""}
    <div class="src">${esc(c.person)} — <i>${esc(c.source.work)}</i> ${esc(c.source.citation)}<span class="badge">${esc(c.attribution_confidence)}</span></div>
-   <div class="credit">${c.image.src?`Image: ${esc(c.image.credit)} · ${LL(c.image.license)}${c.image.transparent&&!c.image.uncut?" · background removed":""}${c.image.uncut?" · hotlinked original":""}`:"Image: not yet chosen"}</div>${AU(c).map(a=>`<div class="credit">Audio (${esc(a.style)}): ${esc(a.credit)} · ${a.license_url?`<a href="${esc(a.license_url)}" target="_blank" rel="noopener">${esc(a.license)}</a>`:esc(a.license)} · <a href="${esc(a.source)}" target="_blank" rel="noopener">source</a> · ${esc(a.changes)}</div>`).join("")}
-   ${c.learn_more&&c.learn_more.url?`<a class="museum" href="${esc(c.learn_more.url)}" target="_blank" rel="noopener">Learn more: ${esc(c.learn_more.label||"link")} ↗</a><br>`:""}
-   <a class="museum" href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener">See in museum / source ↗</a>
+   <details class="fine"><summary>ⓘ Credits · ${c.image.src?`Image ${esc(c.image.license)}`:"no image yet"}${AU(c).map(a=>` · Audio ${esc(a.license)}`).join("")}${c.attribution_note?" · source note":""}</summary>
+    ${c.attribution_note?`<p>Source note: ${esc(c.attribution_note)}</p>`:""}
+    <p>${c.image.src?`Image: ${esc(c.image.credit)} · ${LL(c.image.license)}${c.image.transparent&&!c.image.uncut?" · background removed":""}${c.image.uncut?" · hotlinked original":""} · <a href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener">source</a>`:"Image: not yet chosen"}</p>
+    ${AU(c).map(a=>`<p>Audio, ${esc(String(a.style).replace(/\s*\((unverified)\)/i," – $1"))}: ${esc(a.credit)} · ${a.license_url?`<a href="${esc(a.license_url)}" target="_blank" rel="noopener">${esc(a.license)}</a>`:esc(a.license)} · <a href="${esc(a.source)}" target="_blank" rel="noopener">source</a> · ${esc(a.changes)}</p>`).join("")}
+   </details>
   </div>
  </div>
 </article>`).join("");
@@ -184,14 +198,11 @@ function render(){
     const t=()=>{const f=el.classList.toggle("flipped");el.setAttribute("aria-pressed",f);
       back.toggleAttribute("inert",!f);back.setAttribute("aria-hidden",!f);
       front.toggleAttribute("inert",f);front.setAttribute("aria-hidden",f);};
-    el.addEventListener("click",e=>{if(e.target.closest("a"))return;t()});
+    el.addEventListener("click",e=>{if(e.target.closest("a,details"))return;const cx=e.target.closest(".ctx");if(cx&&el.classList.contains("flipped")){cx.classList.toggle("open");return}t()});
     el.addEventListener("keydown",e=>{if(e.target!==el)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();t()}});
   });
-  document.getElementById("foot").textContent="Credits on each card";
 }
 function setMode(m){mode=m;document.getElementById("m-learn").setAttribute("aria-pressed",m==="learn");document.getElementById("m-review").setAttribute("aria-pressed",m==="review");render();}
-document.getElementById("m-learn").onclick=()=>setMode("learn");
-document.getElementById("m-review").onclick=()=>setMode("review");
 const deck=document.getElementById("deck"),dots=document.getElementById("dots");
 function setupDots(){dots.innerHTML=VIS().map((c,i)=>`<button aria-label="Card ${i+1} of ${CARDS.length}: ${esc(c.person)}" data-i="${i}"></button>`).join("");
 }
@@ -231,8 +242,6 @@ async function loadAll(){
 }
 document.getElementById("deck").innerHTML='<p style="margin:auto;color:#5a5048">Loading cards…</p>';
 loadAll().finally(()=>{CARDS=window.CARDS;
- const t=document.createElement("label");t.className="drafts";t.innerHTML=`<input type="checkbox" ${showDrafts?"checked":""}> Show drafts (${CARDS.filter(c=>c._draft).length})`;
- document.querySelector(".modes").after(t);t.querySelector("input").onchange=e=>{showDrafts=e.target.checked;render()};
  render();
  const h=decodeURIComponent(location.hash.slice(1));if(h){const i=VIS().findIndex(c=>c.id===h);if(i>=0)setTimeout(()=>document.getElementById("card-"+i).scrollIntoView({inline:"center",block:"nearest"}),50)}
 });

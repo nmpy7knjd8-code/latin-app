@@ -1,11 +1,1103 @@
 {
- "_note": "Temporary map built from audio-sources.md section A. Clips not yet checked by ear.",
- "q-caesar-veni":[{"file":"veni-vidi-vici.mp3","style":"Classical (unverified)","credit":"Westofines27, Wikimedia Commons","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","source":"https://commons.wikimedia.org/wiki/File:Veni,_Vidi,_Vici.wav","changes":"converted to mp3, normalised"}],
- "q-caesar-gallia":[{"file":"gallia-est-omnis-classical.mp3","style":"Restored classical","credit":"Robert.Baruch, Wikimedia Commons","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0/","source":"https://commons.wikimedia.org/wiki/File:La-cls-de-bello-gallico.ogg","changes":"trimmed, converted, normalised"},{"file":"gallia-est-omnis-ecclesiastical.mp3","style":"Ecclesiastical (medieval)","credit":"Robert.Baruch, Wikimedia Commons","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0/","source":"https://commons.wikimedia.org/wiki/File:La-ecc-de-bello-gallico.ogg","changes":"trimmed, converted, normalised"}],
- "q-memento-mori":[{"file":"memento-mori-classical.mp3","style":"Classical","credit":"SinaSabet28, Wikimedia Commons","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","source":"https://commons.wikimedia.org/wiki/File:Memento_mori_la.wav","changes":"converted"}],
- "q-vulg-pater-noster":[{"file":"pater-noster-ecclesiastical.mp3","style":"Ecclesiastical (medieval)","credit":"Dan Palraz, Wikimedia Commons","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","source":"https://commons.wikimedia.org/wiki/File:Pater-Noster.ogg","changes":"trimmed, converted"}],
- "g-relative":[{"file":"pater-noster-ecclesiastical.mp3","style":"Ecclesiastical (medieval)","credit":"Dan Palraz, Wikimedia Commons","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","source":"https://commons.wikimedia.org/wiki/File:Pater-Noster.ogg","changes":"trimmed, converted"}],
- "q-dies-irae":[{"file":"dies-irae-chant.mp3","style":"Gregorian chant (sung)","credit":"Membeth, Wikimedia Commons","license":"Public domain","license_url":"","source":"https://commons.wikimedia.org/wiki/File:Dies.irae.ogg","changes":"trimmed, converted"}],
- "q-horace-carpe":[{"file":"carpe-diem-fr-speaker.mp3","style":"French-accented, NOT classical (first 2 words only)","credit":"WikiLucas00 / Lingua Libre","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","source":"https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-WikiLucas00-carpe_diem.wav","changes":"converted, normalised"}],
- "q-vulg-fiat-lux":[{"file":"fiat-lux-fr-speaker.mp3","style":"French-accented, NOT classical (2 words only)","credit":"LoquaxFR / Lingua Libre","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0/","source":"https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-LoquaxFR-fiat_lux.wav","changes":"converted, normalised"}]
+ "_note": "Temporary map built from audio-sources.md section A. Clips not yet checked by ear. Merged 2026-10-13: single source of truth (content/audio-map.json retired). Entries: list of {file (relative to audio/), style (button label), pronunciation_style classical|ecclesiastical, credit, license, license_url, source, changes, note?, word?}. Clips not yet checked by ear.",
+ "q-caesar-veni": [
+  {
+   "file": "veni-vidi-vici.mp3",
+   "style": "Classical (unverified)",
+   "credit": "Westofines27, Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Veni,_Vidi,_Vici.wav",
+   "changes": "converted to mp3, normalised",
+   "pronunciation_style": "classical"
+  }
+ ],
+ "q-caesar-gallia": [
+  {
+   "file": "gallia-est-omnis-classical.mp3",
+   "style": "Restored classical",
+   "credit": "Robert.Baruch, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-de-bello-gallico.ogg",
+   "changes": "trimmed, converted, normalised",
+   "pronunciation_style": "classical"
+  },
+  {
+   "file": "gallia-est-omnis-ecclesiastical.mp3",
+   "style": "Ecclesiastical (medieval)",
+   "credit": "Robert.Baruch, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-ecc-de-bello-gallico.ogg",
+   "changes": "trimmed, converted, normalised",
+   "pronunciation_style": "ecclesiastical"
+  },
+  {
+   "file": "gallia-est-omnis-librivox.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Christoph Merlein, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/bellum_gallicum_1210_librivox/bellumgallicum_01_caesar_64kb.mp3",
+   "changes": "trimmed 0:29.85-0:33.8, converted to mp3, normalised"
+  }
+ ],
+ "q-memento-mori": [
+  {
+   "file": "memento-mori-classical.mp3",
+   "style": "Classical",
+   "credit": "SinaSabet28, Wikimedia Commons",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Memento_mori_la.wav",
+   "changes": "converted",
+   "pronunciation_style": "classical"
+  }
+ ],
+ "q-vulg-pater-noster": [
+  {
+   "file": "pater-noster-ecclesiastical.mp3",
+   "style": "Ecclesiastical (medieval)",
+   "credit": "Dan Palraz, Wikimedia Commons",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Pater-Noster.ogg",
+   "changes": "trimmed, converted",
+   "pronunciation_style": "ecclesiastical"
+  }
+ ],
+ "g-relative": [
+  {
+   "file": "pater-noster-ecclesiastical.mp3",
+   "style": "Ecclesiastical (medieval)",
+   "credit": "Dan Palraz, Wikimedia Commons",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Pater-Noster.ogg",
+   "changes": "trimmed, converted",
+   "pronunciation_style": "ecclesiastical"
+  },
+  {
+   "file": "words/pater.mp3",
+   "style": "Word: pater",
+   "pronunciation_style": "classical",
+   "word": "pater",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-pater.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/noster.mp3",
+   "style": "Word: noster",
+   "pronunciation_style": "classical",
+   "word": "noster",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-noster.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/qui.mp3",
+   "style": "Word: qui",
+   "pronunciation_style": "classical",
+   "word": "qui",
+   "credit": "Erutuon, Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-qui.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "q-dies-irae": [
+  {
+   "file": "dies-irae-chant.mp3",
+   "style": "Gregorian chant (sung)",
+   "credit": "Membeth, Wikimedia Commons",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Dies.irae.ogg",
+   "changes": "trimmed, converted",
+   "pronunciation_style": "ecclesiastical"
+  }
+ ],
+ "q-horace-carpe": [
+  {
+   "file": "carpe-diem-fr-speaker.mp3",
+   "style": "French-accented, NOT classical (first 2 words only)",
+   "credit": "WikiLucas00 / Lingua Libre",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-WikiLucas00-carpe_diem.wav",
+   "changes": "converted, normalised",
+   "pronunciation_style": "other"
+  }
+ ],
+ "q-vulg-fiat-lux": [
+  {
+   "file": "fiat-lux-fr-speaker.mp3",
+   "style": "French-accented, NOT classical (2 words only)",
+   "credit": "LoquaxFR / Lingua Libre",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:LL-Q150_(fra)-LoquaxFR-fiat_lux.wav",
+   "changes": "converted, normalised",
+   "pronunciation_style": "other"
+  }
+ ],
+ "q-virgil-arma": [
+  {
+   "file": "arma-virumque.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3",
+   "changes": "trimmed 0:55.0-1:01.5, converted to mp3, normalised",
+   "note": "covers \"Arma virumque cano, Troiae qui primus ab oris\" only"
+  }
+ ],
+ "x-meter": [
+  {
+   "file": "arma-virumque.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3",
+   "changes": "trimmed 0:55.0-1:01.5, converted to mp3, normalised",
+   "note": "covers \"Arma virumque cano, Troiae qui primus ab oris\" only"
+  }
+ ],
+ "q-virgil-timeo": [
+  {
+   "file": "timeo-danaos.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_03_maro_64kb.mp3",
+   "changes": "trimmed 5:31.7-5:37.65, converted to mp3, normalised"
+  }
+ ],
+ "q-seneca-vindica": [
+  {
+   "file": "seneca-vindica.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "CC0 (LibriVox)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
+   "changes": "trimmed 0:58.5-1:02.9, converted to mp3, normalised"
+  }
+ ],
+ "q-seneca-differtur": [
+  {
+   "file": "seneca-differtur.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "CC0 (LibriVox)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
+   "changes": "trimmed 2:29.6-2:33.5, converted to mp3, normalised"
+  }
+ ],
+ "q-seneca-aliena": [
+  {
+   "file": "seneca-aliena.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "CC0 (LibriVox)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
+   "changes": "trimmed 2:34.6-2:40.8, converted to mp3, normalised"
+  }
+ ],
+ "q-ben-ausculta": [
+  {
+   "file": "ausculta-o-fili.mp3",
+   "style": "Ecclesiastical (medieval)",
+   "pronunciation_style": "ecclesiastical",
+   "credit": "bedwere, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/regula_sancti_benedicti_1512_librivox/regulasanctibenedicti_01_benedictofnursia_64kb.mp3",
+   "changes": "trimmed 0:30.4-0:36.6, converted to mp3, normalised",
+   "note": "style inferred (Italianate ti->tsi)"
+  }
+ ],
+ "q-aug-inquietum": [
+  {
+   "file": "fecisti-nos.mp3",
+   "style": "Ecclesiastical (medieval)",
+   "pronunciation_style": "ecclesiastical",
+   "credit": "bedwere, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/confessionsofaugustine_1310_librivox/confessionumlibritredecim_01_augustinus_64kb.mp3",
+   "changes": "trimmed 1:09.65-1:15.95, converted to mp3, normalised",
+   "note": "style inferred"
+  }
+ ],
+ "q-virgil-tantae": [
+  {
+   "file": "tantae-molis.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3",
+   "changes": "trimmed 4:04.1-4:10.35, converted to mp3, normalised"
+  }
+ ],
+ "q-lucretius-religio": [
+  {
+   "file": "lucretius-religio.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/rerum_natura_dm_librivox/rerum_01_lucretius_64kb.mp3",
+   "changes": "trimmed 10:00.1-10:04.6, converted to mp3, normalised"
+  }
+ ],
+ "q-seneca-nusquam": [
+  {
+   "file": "seneca-nusquam.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "CC0 (LibriVox)",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
+   "changes": "trimmed 5:45.2-5:48.4, converted to mp3, normalised"
+  }
+ ],
+ "q-virgil-forsan": [
+  {
+   "file": "forsan-et-haec.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3",
+   "changes": "trimmed 21:46.6-21:51.05, converted to mp3, normalised"
+  }
+ ],
+ "q-virgil-fugit": [
+  {
+   "file": "fugit-irreparabile.mp3",
+   "style": "Restored classical",
+   "pronunciation_style": "classical",
+   "credit": "Malone, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/georgica_dm_librivox/georgics_6_vergil_64kb.mp3",
+   "changes": "trimmed 0:50.4-0:56.8, converted to mp3, normalised"
+  }
+ ],
+ "q-ben-hospites": [
+  {
+   "file": "omnes-hospites.mp3",
+   "style": "Ecclesiastical (medieval)",
+   "pronunciation_style": "ecclesiastical",
+   "credit": "bedwere, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/regula_sancti_benedicti_1512_librivox/regulasanctibenedicti_07_benedictofnursia_64kb.mp3",
+   "changes": "trimmed 0:14.85-0:21.8, converted to mp3, normalised"
+  }
+ ],
+ "q-aug-tolle-lege": [
+  {
+   "file": "tolle-lege.mp3",
+   "style": "Ecclesiastical (medieval)",
+   "pronunciation_style": "ecclesiastical",
+   "credit": "bedwere, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/confessionsofaugustine_1310_librivox/confessionumlibritredecim_15_augustinus_64kb.mp3",
+   "changes": "trimmed 22:47.2-22:49.6, converted to mp3, normalised"
+  }
+ ],
+ "q-augustine-tolle": [
+  {
+   "file": "tolle-lege.mp3",
+   "style": "Ecclesiastical (medieval)",
+   "pronunciation_style": "ecclesiastical",
+   "credit": "bedwere, LibriVox",
+   "license": "Public domain (LibriVox, PD Mark 1.0)",
+   "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "source": "https://archive.org/download/confessionsofaugustine_1310_librivox/confessionumlibritredecim_15_augustinus_64kb.mp3",
+   "changes": "trimmed 22:47.2-22:49.6, converted to mp3, normalised"
+  }
+ ],
+ "i-pantheon-agrippa": [
+  {
+   "file": "words/marcus.mp3",
+   "style": "Word: marcus",
+   "pronunciation_style": "classical",
+   "word": "marcus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-Marcus.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/filius.mp3",
+   "style": "Word: filius",
+   "pronunciation_style": "classical",
+   "word": "filius",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-filius.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-urbs": [
+  {
+   "file": "words/urbs.mp3",
+   "style": "Word: urbs",
+   "pronunciation_style": "classical",
+   "word": "urbs",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-urbs.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-via": [
+  {
+   "file": "words/via.mp3",
+   "style": "Word: via",
+   "pronunciation_style": "classical",
+   "word": "via",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-via.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-sum-est": [
+  {
+   "file": "words/urbs.mp3",
+   "style": "Word: urbs",
+   "pronunciation_style": "classical",
+   "word": "urbs",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-urbs.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/via.mp3",
+   "style": "Word: via",
+   "pronunciation_style": "classical",
+   "word": "via",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-via.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-1decl-nom": [
+  {
+   "file": "words/puella.mp3",
+   "style": "Word: puella",
+   "pronunciation_style": "classical",
+   "word": "puella",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-puella.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/regina.mp3",
+   "style": "Word: regina",
+   "pronunciation_style": "classical",
+   "word": "regina",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-regina.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "i-spqr": [
+  {
+   "file": "words/romanus.mp3",
+   "style": "Word: romanus",
+   "pronunciation_style": "classical",
+   "word": "romanus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-romanus.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "x-map-roma": [
+  {
+   "file": "words/septem.mp3",
+   "style": "Word: septem",
+   "pronunciation_style": "classical",
+   "word": "septem",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-septem.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-pater": [
+  {
+   "file": "words/pater.mp3",
+   "style": "Word: pater",
+   "pronunciation_style": "classical",
+   "word": "pater",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-pater.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/mater.mp3",
+   "style": "Word: mater",
+   "pronunciation_style": "classical",
+   "word": "mater",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-mater.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-filius": [
+  {
+   "file": "words/filius.mp3",
+   "style": "Word: filius",
+   "pronunciation_style": "classical",
+   "word": "filius",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-filius.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/filia.mp3",
+   "style": "Word: filia",
+   "pronunciation_style": "classical",
+   "word": "filia",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-filia.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-acc": [
+  {
+   "file": "words/pater.mp3",
+   "style": "Word: pater",
+   "pronunciation_style": "classical",
+   "word": "pater",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-pater.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-2decl": [
+  {
+   "file": "words/servus.mp3",
+   "style": "Word: servus",
+   "pronunciation_style": "classical",
+   "word": "servus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-servus.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/puer.mp3",
+   "style": "Word: puer",
+   "pronunciation_style": "classical",
+   "word": "puer",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-puer.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/donum.mp3",
+   "style": "Word: donum",
+   "pronunciation_style": "classical",
+   "word": "donum",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-donum.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "x-whosays-cornelia": [
+  {
+   "file": "words/mea.mp3",
+   "style": "Word: mea",
+   "pronunciation_style": "classical",
+   "word": "mea",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-mea.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-2conj": [
+  {
+   "file": "words/centurio.mp3",
+   "style": "Word: centurio",
+   "pronunciation_style": "classical",
+   "word": "centurio",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-centurio.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "i-vindolanda": [
+  {
+   "file": "words/vale.mp3",
+   "style": "Word: vale",
+   "pronunciation_style": "classical",
+   "word": "vale",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-vale.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/mea.mp3",
+   "style": "Word: mea",
+   "pronunciation_style": "classical",
+   "word": "mea",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-mea.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-adj": [
+  {
+   "file": "words/vir.mp3",
+   "style": "Word: vir",
+   "pronunciation_style": "classical",
+   "word": "vir",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-vir.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/bonus.mp3",
+   "style": "Word: bonus",
+   "pronunciation_style": "classical",
+   "word": "bonus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-bonus.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/femina.mp3",
+   "style": "Word: femina",
+   "pronunciation_style": "classical",
+   "word": "femina",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-femina.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "l-toga": [
+  {
+   "file": "words/toga.mp3",
+   "style": "Word: toga",
+   "pronunciation_style": "classical",
+   "word": "toga",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-toga.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "d-dico": [
+  {
+   "file": "words/dico.mp3",
+   "style": "Word: dico",
+   "pronunciation_style": "classical",
+   "word": "dico",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-dico.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-deus": [
+  {
+   "file": "words/deus.mp3",
+   "style": "Word: deus",
+   "pronunciation_style": "classical",
+   "word": "deus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-deus.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/dea.mp3",
+   "style": "Word: dea",
+   "pronunciation_style": "classical",
+   "word": "dea",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-dea.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-3decl": [
+  {
+   "file": "words/rex.mp3",
+   "style": "Word: rex",
+   "pronunciation_style": "classical",
+   "word": "rex",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-rex.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-abl-prep": [
+  {
+   "file": "words/cum.mp3",
+   "style": "Word: cum",
+   "pronunciation_style": "classical",
+   "word": "cum",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-cum.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "l-lares": [
+  {
+   "file": "words/lararium.mp3",
+   "style": "Word: lararium",
+   "pronunciation_style": "classical",
+   "word": "lararium",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-lararium.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-perf-rg": [
+  {
+   "file": "words/terra.mp3",
+   "style": "Word: terra",
+   "pronunciation_style": "classical",
+   "word": "terra",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-terra.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/saepe.mp3",
+   "style": "Word: saepe",
+   "pronunciation_style": "classical",
+   "word": "saepe",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-saepe.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-possum": [
+  {
+   "file": "words/possum.mp3",
+   "style": "Word: possum",
+   "pronunciation_style": "classical",
+   "word": "possum",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-possum.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "i-coin-divi-f": [
+  {
+   "file": "words/caesar.mp3",
+   "style": "Word: caesar",
+   "pronunciation_style": "classical",
+   "word": "caesar",
+   "credit": "Latisc, EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-Caesar.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-amo": [
+  {
+   "file": "words/amo.mp3",
+   "style": "Word: amo",
+   "pronunciation_style": "classical",
+   "word": "amo",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-amo.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-future": [
+  {
+   "file": "words/non.mp3",
+   "style": "Word: non",
+   "pronunciation_style": "classical",
+   "word": "non",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-non.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/omnis.mp3",
+   "style": "Word: omnis",
+   "pronunciation_style": "classical",
+   "word": "omnis",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-omnis.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "g-pronoun": [
+  {
+   "file": "words/mihi.mp3",
+   "style": "Word: mihi",
+   "pronunciation_style": "classical",
+   "word": "mihi",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-mihi.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/tibi.mp3",
+   "style": "Word: tibi",
+   "pronunciation_style": "classical",
+   "word": "tibi",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-tibi.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-tempus": [
+  {
+   "file": "words/tempus.mp3",
+   "style": "Word: tempus",
+   "pronunciation_style": "classical",
+   "word": "tempus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-tempus.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-animus": [
+  {
+   "file": "words/animus.mp3",
+   "style": "Word: animus",
+   "pronunciation_style": "classical",
+   "word": "animus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-animus.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "d-video": [
+  {
+   "file": "words/video.mp3",
+   "style": "Word: video",
+   "pronunciation_style": "classical",
+   "word": "video",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-video.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "x-greek-flag": [
+  {
+   "file": "words/marcus.mp3",
+   "style": "Word: marcus",
+   "pronunciation_style": "classical",
+   "word": "marcus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-Marcus.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/latine.mp3",
+   "style": "Word: latine",
+   "pronunciation_style": "classical",
+   "word": "latine",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-latine.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "l-schola": [
+  {
+   "file": "words/magister.mp3",
+   "style": "Word: magister",
+   "pronunciation_style": "classical",
+   "word": "magister",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-magister.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/tabula.mp3",
+   "style": "Word: tabula",
+   "pronunciation_style": "classical",
+   "word": "tabula",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-tabula.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "i-chirho": [
+  {
+   "file": "words/sum.mp3",
+   "style": "Word: sum",
+   "pronunciation_style": "classical",
+   "word": "sum",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-sum.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-rex": [
+  {
+   "file": "words/rex.mp3",
+   "style": "Word: rex",
+   "pronunciation_style": "classical",
+   "word": "rex",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-rex.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/regnum.mp3",
+   "style": "Word: regnum",
+   "pronunciation_style": "classical",
+   "word": "regnum",
+   "credit": "Erutuon, Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-regnum.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "x-vulgate": [
+  {
+   "file": "words/sum.mp3",
+   "style": "Word: sum",
+   "pronunciation_style": "classical",
+   "word": "sum",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-sum.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/via.mp3",
+   "style": "Word: via",
+   "pronunciation_style": "classical",
+   "word": "via",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-via.ogg",
+   "changes": "converted to mp3, normalised"
+  },
+  {
+   "file": "words/vita.mp3",
+   "style": "Word: vita",
+   "pronunciation_style": "classical",
+   "word": "vita",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-vita.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "d-crux": [
+  {
+   "file": "words/crux.mp3",
+   "style": "Word: crux",
+   "pronunciation_style": "classical",
+   "word": "crux",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-crux.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "l-annona": [
+  {
+   "file": "words/panis.mp3",
+   "style": "Word: panis",
+   "pronunciation_style": "classical",
+   "word": "panis",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-panis.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "v-liber": [
+  {
+   "file": "words/liber.mp3",
+   "style": "Word: liber",
+   "pronunciation_style": "classical",
+   "word": "liber",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-liber.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "l-monasterium": [
+  {
+   "file": "words/hora.mp3",
+   "style": "Word: hora",
+   "pronunciation_style": "classical",
+   "word": "hora",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-hora.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "x-colophon": [
+  {
+   "file": "words/liber.mp3",
+   "style": "Word: liber",
+   "pronunciation_style": "classical",
+   "word": "liber",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-liber.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "x-map-medieval": [
+  {
+   "file": "words/gallus.mp3",
+   "style": "Word: gallus",
+   "pronunciation_style": "classical",
+   "word": "gallus",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-gallus.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ],
+ "d-scribo": [
+  {
+   "file": "words/scribo.mp3",
+   "style": "Word: scribo",
+   "pronunciation_style": "classical",
+   "word": "scribo",
+   "credit": "EncycloPetey, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:La-cls-scribo.ogg",
+   "changes": "converted to mp3, normalised"
+  }
+ ]
 }
