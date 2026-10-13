@@ -6,7 +6,7 @@
   "unit": 9,
   "latin": "Dīxitque Deus: “Fīat lūx.” Et facta est lūx.",
   "translation": "And God said, “Let there be light.” And light was made.",
-  "context": "Jerome's Vulgate, made in Bethlehem around 400, became the Bible of the medieval West. Every monk who learned Latin met these words on day one.",
+  "context": "Jerome's Vulgate, made in Bethlehem around 400, became the Bible of the medieval West. Every monk who learned Latin met these words on day one. The words are Genesis 1:3. Fīat is a subjunctive of the irregular verb fierī, 'let it become'; lūx, lūcis is a third-declension noun. The phrase later became the motto of several universities, including the University of California.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Biblia Sacra Vulgata, Genesis",
@@ -96,7 +96,8 @@
    "et",
    "fio",
    "lux"
-  ]
+  ],
+  "context_original": "Jerome's Vulgate, made in Bethlehem around 400, became the Bible of the medieval West. Every monk who learned Latin met these words on day one."
  },
  {
   "id": "q-vulg-in-principio",
@@ -105,7 +106,7 @@
   "unit": 9,
   "latin": "In prīncipiō erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum.",
   "translation": "In the beginning was the Word, and the Word was with God, and the Word was God.",
-  "context": "The opening of John's Gospel in Jerome's Latin. Medieval scribes often gave its first word a full-page decorated initial.",
+  "context": "The opening of John's Gospel in Jerome's Latin. Medieval scribes often gave its first word a full-page decorated initial. The verse is John 1:1. Verbum translates the Greek logos, 'word, reason'. Erat, 'was', is the imperfect of sum. The Book of Kells and the Lindisfarne Gospels both decorate this opening.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Vulgate, John",
@@ -234,7 +235,8 @@
    "principium",
    "sum",
    "verbum"
-  ]
+  ],
+  "context_original": "The opening of John's Gospel in Jerome's Latin. Medieval scribes often gave its first word a full-page decorated initial."
  },
  {
   "id": "r-vulg-john-1-5",
@@ -245,7 +247,7 @@
   "card_role": "graded_reading",
   "latin": "In prīncipiō erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in prīncipiō apud Deum. Omnia per ipsum facta sunt, et sine ipsō factum est nihil quod factum est. In ipsō vīta erat, et vīta erat lūx hominum. Et lūx in tenebrīs lūcet, et tenebrae eam nōn conprehendērunt.",
   "translation": "In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through him, and without him nothing was made that was made. In him was life, and the life was the light of men. And the light shines in the darkness, and the darkness did not comprehend it.",
-  "context": "The opening of John's Gospel in Jerome's Vulgate: five short verses that recycle a handful of words. Ideal first continuous reading.",
+  "context": "The opening of John's Gospel in Jerome's Vulgate: five short verses that recycle a handful of words. Ideal first continuous reading. Read it aloud twice: erat, verbum, deus and lūx come back again and again. Recognising repeated words in a real text is how reading fluency builds.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Vulgate, John",
@@ -613,7 +615,8 @@
    "tenebrae",
    "verbum",
    "vita"
-  ]
+  ],
+  "context_original": "The opening of John's Gospel in Jerome's Vulgate: five short verses that recycle a handful of words. Ideal first continuous reading."
  },
  {
   "id": "r-vulg-genesis-1-5",
@@ -624,7 +627,7 @@
   "card_role": "graded_reading",
   "latin": "In prīncipiō creāvit Deus caelum et terram. Terra autem erat inānis et vacua, et tenebrae erant super faciem abyssī, et spīritus Deī ferēbātur super aquās. Dīxitque Deus: “Fīat lūx.” Et facta est lūx. Et vīdit Deus lūcem quod esset bona, et dīvīsit lūcem ā tenebrīs. Appellāvitque lūcem Diem, et tenebrās Noctem; factumque est vespere et māne, diēs ūnus.",
   "translation": "In the beginning God created heaven and earth. The earth was empty and void, and darkness was over the face of the deep, and the spirit of God moved over the waters. And God said, “Let there be light.” And light came to be. And God saw the light, that it was good, and he divided the light from the darkness. And he called the light Day, and the darkness Night; and there was evening and morning, one day.",
-  "context": "The first verses of the Bible in Jerome's Latin, read aloud in every medieval monastery. Short clauses, repeated nouns and a clear story make it a model beginner text.",
+  "context": "The first verses of the Bible in Jerome's Latin, read aloud in every medieval monastery. Short clauses, repeated nouns and a clear story make it a model beginner text. Monks chanted Genesis during the night office in the weeks before Lent, so these lines were heard every year.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Vulgate, Genesis",
@@ -1046,7 +1049,8 @@
    "vacuus",
    "vesper",
    "video"
-  ]
+  ],
+  "context_original": "The first verses of the Bible in Jerome's Latin, read aloud in every medieval monastery. Short clauses, repeated nouns and a clear story make it a model beginner text."
  },
  {
   "id": "q-gesta-latro",
@@ -1056,7 +1060,7 @@
   "register": "medieval",
   "latin": "Sed quia ego hoc agō ūnā galeā, latrō vocor; tū vērō, mundum opprimēns nāvium multitūdine magnā, dīceris imperātor.",
   "translation": "But because I do this with one ship, I am called a pirate; you, crushing the world with a great fleet, are called emperor.",
-  "context": "A captured pirate answers Alexander the Great. The Gesta Romanorum, a 14th-century preachers' story collection, retells it from Augustine's City of God (4.4).",
+  "context": "A captured pirate answers Alexander the Great. The Gesta Romanorum, a 14th-century preachers' story collection, retells it from Augustine's City of God (4.4). Augustine used the story to argue that a kingdom without justice is just a large band of robbers. The pirate's point is that the only difference between him and Alexander is scale.",
   "person": "Gesta Romanorum (anon.)",
   "source": {
    "work": "Gesta Romanorum",
@@ -1233,7 +1237,8 @@
    "unus",
    "vero",
    "voco"
-  ]
+  ],
+  "context_original": "A captured pirate answers Alexander the Great. The Gesta Romanorum, a 14th-century preachers' story collection, retells it from Augustine's City of God (4.4)."
  },
  {
   "id": "q-hildegard-aurora",
@@ -1243,7 +1248,7 @@
   "register": "ecclesiastical",
   "latin": "Tū rubēs ut aurōra, et ārdēs ut sōlis flamma.",
   "translation": "You glow red like the dawn, and you burn like the flame of the sun.",
-  "context": "From Hildegard of Bingen's chant 'O nobilissima viriditas' for virgins. Hildegard was a 12th-century abbess, visionary, composer and scientist, and is now a Doctor of the Church.",
+  "context": "From Hildegard of Bingen's chant 'O nobilissima viriditas' for virgins. Hildegard was a 12th-century abbess, visionary, composer and scientist, and is now a Doctor of the Church. Hildegard (1098–1179) founded a convent at Rupertsberg near Bingen and wrote about 77 chants, along with books on visions and medicine. Pope Benedict XVI made her a Doctor of the Church in 2012.",
   "person": "Hildegard of Bingen",
   "source": {
    "work": "O nobilissima viriditas (Symphonia), verse",
@@ -1350,7 +1355,8 @@
    "sol",
    "tu",
    "ut"
-  ]
+  ],
+  "context_original": "From Hildegard of Bingen's chant 'O nobilissima viriditas' for virgins. Hildegard was a 12th-century abbess, visionary, composer and scientist, and is now a Doctor of the Church."
  },
  {
   "id": "q-colophon-tres-digiti",
@@ -1360,7 +1366,7 @@
   "register": "medieval",
   "latin": "Trēs digitī scrībunt, sed tōtum corpus labōrat. Sīcut nāvigantī dulcis est portus, ita scrīptōrī novissimus versus.",
   "translation": "Three fingers write, but the whole body toils. As the harbour is sweet to the sailor, so is the last line to the scribe.",
-  "context": "A 9th-century scribe, Guarembertus, signed off a manuscript with this complaint (Paris, BnF lat. 12234). Scribes all over Europe copied these lines into their colophons.",
+  "context": "A 9th-century scribe, Guarembertus, signed off a manuscript with this complaint (Paris, BnF lat. 12234). Scribes all over Europe copied these lines into their colophons. A colophon is a scribe's note at the end of a book. Writing by hand with a quill, often in cold rooms, was hard physical work. Trēs digitī, 'three fingers', is the subject; scrībunt is plural.",
   "person": "Guarembertus (scribe)",
   "source": {
    "work": "Colophon, Paris BnF lat. 12234",
@@ -1525,7 +1531,8 @@
    "totus",
    "tres",
    "versus"
-  ]
+  ],
+  "context_original": "A 9th-century scribe, Guarembertus, signed off a manuscript with this complaint (Paris, BnF lat. 12234). Scribes all over Europe copied these lines into their colophons."
  },
  {
   "id": "q-aug-tolle-lege",
@@ -1534,7 +1541,7 @@
   "unit": 9,
   "latin": "Tolle, lege; tolle, lege.",
   "translation": "Pick up and read; pick up and read.",
-  "context": "In a Milan garden in 386, Augustine heard a child chanting these words, opened Paul's letters, and was converted.",
+  "context": "In a Milan garden in 386, Augustine heard a child chanting these words, opened Paul's letters, and was converted. He tells the story in Confessions 8.12. The passage he read was Romans 13:13–14. Tolle and lege are imperatives of tollere, 'pick up', and legere, 'read'. He became bishop of Hippo in North Africa in 395 or 396.",
   "person": "Augustine",
   "source": {
    "work": "Confessiones",
@@ -1591,7 +1598,8 @@
   "vocab_ids": [
    "lego",
    "tollo"
-  ]
+  ],
+  "context_original": "In a Milan garden in 386, Augustine heard a child chanting these words, opened Paul's letters, and was converted."
  },
  {
   "type": "quote",
@@ -1624,7 +1632,7 @@
    "score": 4,
    "rank": 9
   },
-  "context": "Bede on his life as a monk at Wearmouth (from age seven) and then Jarrow, where he wrote the first history of the English church and people.",
+  "context": "Bede on his life as a monk at Wearmouth (from age seven) and then Jarrow, where he wrote the first history of the English church and people. The words come from the short autobiography Bede added at the end of his Ecclesiastical History, finished in 731. Discere, docēre and scrībere are infinitives used as nouns.",
   "source_url": "https://www.thelatinlibrary.com/bede/bede5.shtml",
   "text_check": "verified vs Latin Library",
   "image": {
@@ -1694,7 +1702,8 @@
    "habeo",
    "scribo",
    "semper"
-  ]
+  ],
+  "context_original": "Bede on his life as a monk at Wearmouth (from age seven) and then Jarrow, where he wrote the first history of the English church and people."
  },
  {
   "type": "quote",
@@ -1727,7 +1736,7 @@
    "score": 4,
    "rank": 10
   },
-  "context": "Alcuin, Charlemagne's chief scholar, wrote his own epitaph speaking to passers-by: a common Roman tomb idea reused for a medieval abbot at Tours.",
+  "context": "Alcuin, Charlemagne's chief scholar, wrote his own epitaph speaking to passers-by: a common Roman tomb idea reused for a medieval abbot at Tours. Alcuin of York (c. 735–804) ran Charlemagne's palace school at Aachen and later became abbot of St Martin's at Tours. Ancient tombstones often addressed passers-by in the same 'what you are, I was' way.",
   "source_url": "https://www.thelatinlibrary.com/alcuin/epitaphium.shtml",
   "text_check": "verified vs Latin Library (omits 'famosus in orbe, viator')",
   "image": {
@@ -1822,7 +1831,8 @@
    "qui",
    "sum",
    "tu"
-  ]
+  ],
+  "context_original": "Alcuin, Charlemagne's chief scholar, wrote his own epitaph speaking to passers-by: a common Roman tomb idea reused for a medieval abbot at Tours."
  },
  {
   "id": "q-vulg-gloria",
@@ -1831,7 +1841,7 @@
   "unit": 9,
   "latin": "Glōria in altissimīs Deō, et in terrā pāx in hominibus bonae voluntātis.",
   "translation": "Glory to God in the highest, and on earth peace among men of good will.",
-  "context": "The angels' song at Christ's birth, later expanded into the Gloria of the Mass.",
+  "context": "The angels' song at Christ's birth, later expanded into the Gloria of the Mass. The words are Luke 2:14. In excelsīs means 'in the highest (places)'. The longer Gloria hymn was sung at Mass on Sundays and feast days.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Vulgate, Luke",
@@ -1961,7 +1971,8 @@
    "pax",
    "terra",
    "voluntas"
-  ]
+  ],
+  "context_original": "The angels' song at Christ's birth, later expanded into the Gloria of the Mass."
  },
  {
   "id": "q-vulg-pater-noster",
@@ -1970,7 +1981,7 @@
   "unit": 9,
   "latin": "Pater noster, quī es in caelīs, sānctificētur nōmen tuum.",
   "translation": "Our Father, who are in heaven, hallowed be your name.",
-  "context": "The Lord's Prayer: every medieval Christian, literate or not, knew it in Latin.",
+  "context": "The Lord's Prayer: every medieval Christian, literate or not, knew it in Latin. The prayer is Matthew 6:9–13. Noster, 'our', agrees with pater; quī es in caelīs is a relative clause, 'who are in the heavens'. Sanctificētur is a passive subjunctive: 'may it be made holy'.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Vulgate, Matthew",
@@ -2079,7 +2090,8 @@
    "sanctifico",
    "sum",
    "tvus"
-  ]
+  ],
+  "context_original": "The Lord's Prayer: every medieval Christian, literate or not, knew it in Latin."
  },
  {
   "id": "q-dies-irae",
@@ -2088,7 +2100,7 @@
   "unit": 11,
   "latin": "Diēs īrae, diēs illa, solvet saeclum in favīllā.",
   "translation": "Day of wrath, that day will dissolve the world in ashes.",
-  "context": "A medieval hymn on the Last Judgement, sung in Requiem Masses for centuries and set by Mozart and Verdi.",
+  "context": "A medieval hymn on the Last Judgement, sung in Requiem Masses for centuries and set by Mozart and Verdi. The hymn is usually attributed to the 13th-century Franciscan Thomas of Celano. Its rhymed three-line stanzas show how medieval Latin poetry used stress and rhyme rather than classical vowel length.",
   "person": "attrib. Thomas of Celano",
   "source": {
    "work": "Dies irae (sequence)",
@@ -2189,7 +2201,8 @@
    "ira",
    "saeculum",
    "solvo"
-  ]
+  ],
+  "context_original": "A medieval hymn on the Last Judgement, sung in Requiem Masses for centuries and set by Mozart and Verdi."
  },
  {
   "id": "q-magna-carta-39",
@@ -2198,7 +2211,7 @@
   "unit": 12,
   "latin": "Nūllus līber homō capiātur vel imprisonētur … nisi per lēgāle iūdicium parium suōrum vel per lēgem terrae.",
   "translation": "No free man shall be seized or imprisoned … except by the lawful judgement of his peers or by the law of the land.",
-  "context": "King John sealed this charter at Runnymede in 1215. Clause 39 became a foundation of due process.",
+  "context": "King John sealed this charter at Runnymede in 1215. Clause 39 became a foundation of due process. Nūllus liber homo means 'no free man'; in 1215 most English people were unfree peasants, so the clause first protected barons and freemen. Its idea of the lawful judgment of one's peers later shaped the US Bill of Rights.",
   "person": "Magna Carta",
   "source": {
    "work": "Magna Carta (1215)",
@@ -2361,7 +2374,8 @@
    "svus",
    "terra",
    "vel"
-  ]
+  ],
+  "context_original": "King John sealed this charter at Runnymede in 1215. Clause 39 became a foundation of due process."
  },
  {
   "id": "q-bede-angli",
@@ -2370,7 +2384,7 @@
   "unit": 10,
   "latin": "“Bene,” inquit; “nam et angelicam habent faciem.”",
   "translation": "“Good,” he said, “for they have the face of angels.”",
-  "context": "Bede tells how Gregory the Great saw English slave boys in Rome, punned on Anglī/angelī, and later sent missionaries to England (597).",
+  "context": "Bede tells how Gregory the Great saw English slave boys in Rome, punned on Anglī/angelī, and later sent missionaries to England (597). Bede wrote the story in his Ecclesiastical History (2.1). Gregory became pope in 590 and sent Augustine, later the first archbishop of Canterbury, to Kent in 597. The pun works because Anglī and angelī differ by one letter.",
   "person": "Bede",
   "source": {
    "work": "Historia ecclesiastica gentis Anglorum",
@@ -2465,7 +2479,8 @@
    "habeo",
    "inquam",
    "nam"
-  ]
+  ],
+  "context_original": "Bede tells how Gregory the Great saw English slave boys in Rome, punned on Anglī/angelī, and later sent missionaries to England (597)."
  },
  {
   "id": "q-aug-inquietum",
@@ -2474,7 +2489,7 @@
   "unit": 9,
   "latin": "Fēcistī nōs ad tē, et inquiētum est cor nostrum, dōnec requiēscat in tē.",
   "translation": "You made us for yourself, and our heart is restless until it rests in you.",
-  "context": "The first paragraph of Augustine's Confessions, written in North Africa c. 397, a prayer-autobiography that taught the West to write about the self.",
+  "context": "The first paragraph of Augustine's Confessions, written in North Africa c. 397, a prayer-autobiography that taught the West to write about the self. Augustine wrote the Confessions as a long prayer addressed to God, telling the story of his youth and conversion. Fēcistī is the perfect of facere, 'you made'; dōnec, 'until', introduces the time clause.",
   "person": "Augustine",
   "source": {
    "work": "Confessiones",
@@ -2615,7 +2630,8 @@
    "requiesco",
    "sum",
    "tu"
-  ]
+  ],
+  "context_original": "The first paragraph of Augustine's Confessions, written in North Africa c. 397, a prayer-autobiography that taught the West to write about the self."
  },
  {
   "id": "q-vulg-per-speculum",
@@ -2624,7 +2640,7 @@
   "unit": 9,
   "latin": "Vidēmus nunc per speculum in aenigmate, tunc autem faciē ad faciem.",
   "translation": "We see now through a mirror, in a riddle, but then face to face.",
-  "context": "Paul's image of partial knowledge, read by medieval thinkers as a theory of how we know God.",
+  "context": "Paul's image of partial knowledge, read by medieval thinkers as a theory of how we know God. The verse is 1 Corinthians 13:12, in Paul's chapter on love. Ancient mirrors were polished metal and gave a dim image. In aenigmate means 'in a riddle', from the Greek word that gives English 'enigma'.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Vulgate, 1 Corinthians",
@@ -2748,7 +2764,8 @@
    "speculum",
    "tunc",
    "video"
-  ]
+  ],
+  "context_original": "Paul's image of partial knowledge, read by medieval thinkers as a theory of how we know God."
  },
  {
   "id": "q-ben-hospites",
@@ -2757,7 +2774,7 @@
   "unit": 10,
   "latin": "Omnēs supervenientēs hospitēs tamquam Chrīstus suscipiantur.",
   "translation": "Let all guests who arrive be received as Christ.",
-  "context": "Benedict's chapter on hospitality: monasteries became the inns, hospitals and schools of early medieval Europe.",
+  "context": "Benedict's chapter on hospitality: monasteries became the inns, hospitals and schools of early medieval Europe. Benedict wrote that guests should be received 'as Christ', tamquam Christus, so monasteries took in travellers, pilgrims and the poor. The line is from Rule chapter 53.",
   "person": "Benedict of Nursia",
   "source": {
    "work": "Regula Benedicti",
@@ -2848,7 +2865,8 @@
    "supervenio",
    "suscipio",
    "tamquam"
-  ]
+  ],
+  "context_original": "Benedict's chapter on hospitality: monasteries became the inns, hospitals and schools of early medieval Europe."
  },
  {
   "id": "q-ben-otiositas",
@@ -2857,7 +2875,7 @@
   "unit": 10,
   "latin": "Ōtiōsitās inimīca est animae.",
   "translation": "Idleness is the enemy of the soul.",
-  "context": "Benedict's Rule organised monastic days into prayer, reading and manual work; it shaped Western monasteries for 1,500 years.",
+  "context": "Benedict's Rule organised monastic days into prayer, reading and manual work; it shaped Western monasteries for 1,500 years. The line opens Rule chapter 48, on daily manual labour. Benedict of Nursia wrote the Rule around 530–540, probably at Monte Cassino. Inimīca, 'enemy', is a feminine adjective agreeing with ōtiōsitās.",
   "person": "Benedict of Nursia",
   "source": {
    "work": "Regula Benedicti",
@@ -2936,7 +2954,8 @@
    "inimicus",
    "otiositas",
    "sum"
-  ]
+  ],
+  "context_original": "Benedict's Rule organised monastic days into prayer, reading and manual work; it shaped Western monasteries for 1,500 years."
  },
  {
   "id": "q-aug-sero",
@@ -2945,7 +2964,7 @@
   "unit": 9,
   "latin": "Sērō tē amāvī, pulchritūdō tam antīqua et tam nova, sērō tē amāvī!",
   "translation": "Late have I loved you, beauty so ancient and so new, late have I loved you!",
-  "context": "Augustine's most quoted prayer, regretting the years he spent searching for God outside himself.",
+  "context": "Augustine's most quoted prayer, regretting the years he spent searching for God outside himself. The prayer is Confessions 10.27. Augustine plays on time: the beauty is 'so ancient and so new', and he loved it 'late'. Sērō is an adverb; amāvī is the perfect of amō.",
   "person": "Augustine",
   "source": {
    "work": "Confessiones",
@@ -3073,7 +3092,8 @@
    "sero",
    "tam",
    "tu"
-  ]
+  ],
+  "context_original": "Augustine's most quoted prayer, regretting the years he spent searching for God outside himself."
  },
  {
   "id": "q-aug-da-mihi",
@@ -3082,7 +3102,7 @@
   "unit": 9,
   "latin": "Dā mihi castitātem et continentiam, sed nōlī modo.",
   "translation": "Give me chastity and self-control, but not yet.",
-  "context": "Augustine admits that as a young man he prayed for self-control while secretly hoping God would wait.",
+  "context": "Augustine admits that as a young man he prayed for self-control while secretly hoping God would wait. The line is Confessions 8.7. Augustine admits he feared that God would grant his prayer too quickly. Dā is the imperative of dare, 'give'; nōndum means 'not yet'.",
   "person": "Augustine",
   "source": {
    "work": "Confessiones",
@@ -3186,7 +3206,8 @@
    "modo",
    "nolo",
    "sed"
-  ]
+  ],
+  "context_original": "Augustine admits that as a young man he prayed for self-control while secretly hoping God would wait."
  },
  {
   "id": "q-aquinas-tardiloquum",
@@ -3195,7 +3216,7 @@
   "unit": 12,
   "latin": "Tardiloquum tē esse iubeō.",
   "translation": "I order you to be slow to speak.",
-  "context": "Advice on how to study, attributed to Aquinas in a short letter to a young friar named John.",
+  "context": "Advice on how to study, attributed to Aquinas in a short letter to a young friar named John. Thomas Aquinas (1225–1274) taught at Paris and Naples and wrote the Summa Theologiae. The letter, De modo studendi, gives sixteen pieces of advice on study; its authorship is not certain.",
   "person": "Thomas Aquinas (attrib.)",
   "source": {
    "work": "Epistola de modo studendi",
@@ -3272,7 +3293,8 @@
    "sum",
    "tardiloqvus",
    "tu"
-  ]
+  ],
+  "context_original": "Advice on how to study, attributed to Aquinas in a short letter to a young friar named John."
  },
  {
   "id": "q-archpoet-taberna",
@@ -3282,7 +3304,7 @@
   "register": "medieval",
   "latin": "Meum est prōpositum in tabernā morī, ut sint vīna proxima morientis ōrī.",
   "translation": "It is my plan to die in the tavern, so that wine may be near the mouth of the dying man.",
-  "context": "The 'Archpoet', an anonymous wandering scholar at Frederick Barbarossa's court, mock-confesses his vices (c. 1163). The stanza became a student drinking song.",
+  "context": "The 'Archpoet', an anonymous wandering scholar at Frederick Barbarossa's court, mock-confesses his vices (c. 1163). The stanza became a student drinking song. The poem is the Archpoet's 'Confession', also preserved in the Carmina Burana. Its stressed, rhymed lines are typical of medieval student poetry. Mihi est prōpositum, 'it is my plan', uses the dative of possession.",
   "person": "The Archpoet (Archipoeta)",
   "source": {
    "work": "Confessio (Estuans intrinsecus), st. 12",
@@ -3415,7 +3437,8 @@
    "taberna",
    "ut",
    "vinum"
-  ]
+  ],
+  "context_original": "The 'Archpoet', an anonymous wandering scholar at Frederick Barbarossa's court, mock-confesses his vices (c. 1163). The stanza became a student drinking song."
  },
  {
   "id": "q-ben-ausculta",
@@ -3424,7 +3447,7 @@
   "unit": 10,
   "latin": "Obscultā, ō fīlī, praecepta magistrī, et inclīnā aurem cordis tuī.",
   "translation": "Listen, O son, to the precepts of the master, and incline the ear of your heart.",
-  "context": "The first words of Benedict's Rule. Monks heard the Rule read aloud chapter by chapter every day.",
+  "context": "The first words of Benedict's Rule. Monks heard the Rule read aloud chapter by chapter every day. Auscultā is an imperative, 'listen', and the Rule begins with this call to attentive hearing. Benedictine communities around the world still read the Rule aloud daily.",
   "person": "Benedict of Nursia",
   "source": {
    "work": "Regula Benedicti",
@@ -3547,7 +3570,8 @@
    "o",
    "praeceptum",
    "tvus"
-  ]
+  ],
+  "context_original": "The first words of Benedict's Rule. Monks heard the Rule read aloud chapter by chapter every day."
  },
  {
   "id": "q-vulg-de-profundis",
@@ -3556,7 +3580,7 @@
   "unit": 9,
   "latin": "Dē profundīs clāmāvī ad tē, Domine.",
   "translation": "Out of the depths I have cried to you, O Lord.",
-  "context": "A penitential psalm prayed for the dead throughout the Middle Ages.",
+  "context": "A penitential psalm prayed for the dead throughout the Middle Ages. The words open Psalm 130 (129 in the Vulgate numbering). Clāmāvī is the perfect of clāmāre, 'to cry out'. Dē profundīs means 'out of the depths'.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Vulgate (Gallican Psalter), Psalm 129 [130]",
@@ -3645,7 +3669,8 @@
    "dominus",
    "profundum",
    "tu"
-  ]
+  ],
+  "context_original": "A penitential psalm prayed for the dead throughout the Middle Ages."
  },
  {
   "id": "q-paris-statute-1215",
@@ -3655,7 +3680,7 @@
   "register": "medieval-legal",
   "latin": "Nōn legantur librī Aristotelis dē metaphysicā et dē nātūrālī philosophiā.",
   "translation": "Let the books of Aristotle on metaphysics and on natural philosophy not be lectured on.",
-  "context": "In 1215 the papal legate Robert de Courçon laid down the arts curriculum at Paris: Aristotle's logic yes, his physics and metaphysics no. Within forty years they were required reading.",
+  "context": "In 1215 the papal legate Robert de Courçon laid down the arts curriculum at Paris: Aristotle's logic yes, his physics and metaphysics no. Within forty years they were required reading. Christian scholars were wary of Aristotle's ideas on the eternity of the world and the soul. By 1255 the Paris arts faculty required his works, and Aquinas and others built Christian thought around them.",
   "person": "Robert de Courçon (papal legate)",
   "source": {
    "work": "Statutes for the University of Paris",
@@ -3775,7 +3800,8 @@
    "naturalis",
    "non",
    "philosophia"
-  ]
+  ],
+  "context_original": "In 1215 the papal legate Robert de Courçon laid down the arts curriculum at Paris: Aristotle's logic yes, his physics and metaphysics no. Within forty years they were required reading."
  },
  {
   "id": "q-ag-dei",
@@ -3784,7 +3810,7 @@
   "unit": 10,
   "latin": "Agnus Deī, quī tollis peccāta mundī, miserēre nōbīs.",
   "translation": "Lamb of God, who take away the sins of the world, have mercy on us.",
-  "context": "Pope Sergius I added this chant to the Mass around 700; it was sung daily in every church.",
+  "context": "Pope Sergius I added this chant to the Mass around 700; it was sung daily in every church. The words echo John the Baptist in John 1:29. Agnus is second declension, 'lamb'; tollis, 'you take away', is the same verb as in Augustine's tolle, lege. The chant is repeated three times.",
   "person": "Roman Mass (Ordinary)",
   "source": {
    "work": "Agnus Dei",
@@ -3890,7 +3916,8 @@
    "peccatum",
    "qui",
    "tollo"
-  ]
+  ],
+  "context_original": "Pope Sergius I added this chant to the Mass around 700; it was sung daily in every church."
  },
  {
   "id": "q-carmina-o-fortuna",
@@ -3899,7 +3926,7 @@
   "unit": 11,
   "latin": "Ō Fortūna, velut lūna statū variābilis, semper crēscis aut dēcrēscis.",
   "translation": "O Fortune, like the moon, changeable in state, you are always waxing or waning.",
-  "context": "From a 13th-century songbook of student poets, probably written in South Tyrol or Carinthia and found at Benediktbeuern. Carl Orff set it to music in 1937.",
+  "context": "From a 13th-century songbook of student poets, probably written in South Tyrol or Carinthia and found at Benediktbeuern. Carl Orff set it to music in 1937. The manuscript, now in Munich, holds over 250 poems in Latin and German, on love, drinking, gambling and satire. Orff's setting of O Fortuna is one of the most played pieces of classical music.",
   "person": "Carmina Burana (anon.)",
   "source": {
    "work": "Carmina Burana 17",
@@ -4018,7 +4045,8 @@
    "status",
    "variabilis",
    "velut"
-  ]
+  ],
+  "context_original": "From a 13th-century songbook of student poets, probably written in South Tyrol or Carinthia and found at Benediktbeuern. Carl Orff set it to music in 1937."
  },
  {
   "id": "q-abelard-dubitando",
@@ -4027,7 +4055,7 @@
   "unit": 11,
   "latin": "Dubitandō quippe ad inquīsītiōnem venīmus; inquīrendō vēritātem percipimus.",
   "translation": "By doubting we come to inquiry; by inquiring we perceive the truth.",
-  "context": "Abelard's 'Yes and No' set contradictory authorities side by side so students would reason them out—the seed of scholastic method.",
+  "context": "Abelard's 'Yes and No' set contradictory authorities side by side so students would reason them out—the seed of scholastic method. Peter Abelard (1079–1142) was the most famous teacher in Paris. His method of setting out questions and conflicting answers became standard in medieval universities. Dubitandō is a gerund: 'by doubting'.",
   "person": "Peter Abelard",
   "source": {
    "work": "Sic et non, Prologue",
@@ -4137,7 +4165,8 @@
    "quippe",
    "venio",
    "veritas"
-  ]
+  ],
+  "context_original": "Abelard's 'Yes and No' set contradictory authorities side by side so students would reason them out—the seed of scholastic method."
  },
  {
   "id": "q-vulg-vanitas",
@@ -4146,7 +4175,7 @@
   "unit": 9,
   "latin": "Vānitās vānitātum, dīxit Ecclesiastēs, vānitās vānitātum; omnia vānitās.",
   "translation": "Vanity of vanities, said the Preacher, vanity of vanities; all is vanity.",
-  "context": "The Preacher's refrain. Medieval and Baroque 'vanitas' paintings of skulls and candles took their name from it.",
+  "context": "The Preacher's refrain. Medieval and Baroque 'vanitas' paintings of skulls and candles took their name from it. The words open Ecclesiastes (1:2). Vānitās means 'emptiness'; the repeated genitive, vānitātum, is a Hebrew way of saying 'utter emptiness'.",
   "person": "Jerome (Vulgate)",
   "source": {
    "work": "Vulgate, Ecclesiastes",
@@ -4245,7 +4274,8 @@
    "dico",
    "omnis",
    "vanitas"
-  ]
+  ],
+  "context_original": "The Preacher's refrain. Medieval and Baroque 'vanitas' paintings of skulls and candles took their name from it."
  },
  {
   "id": "q-kempis-transit",
@@ -4254,7 +4284,7 @@
   "unit": 12,
   "latin": "Ō quam citō trānsit glōria mundī.",
   "translation": "O how quickly the glory of the world passes away.",
-  "context": "From The Imitation of Christ, the most-read devotional book of the late Middle Ages. The similar 'Sic transit gloria mundi' was chanted at papal coronations from the early 1400s.",
+  "context": "From The Imitation of Christ, the most-read devotional book of the late Middle Ages. The similar 'Sic transit gloria mundi' was chanted at papal coronations from the early 1400s. Thomas à Kempis (c. 1380–1471) was a canon in the Low Countries. The Imitation of Christ was printed in many editions and translated into many languages. Transit is the present of trānsīre, 'to pass over'.",
   "person": "Thomas à Kempis",
   "source": {
    "work": "De imitatione Christi",
@@ -4341,7 +4371,8 @@
    "o",
    "quam",
    "transeo"
-  ]
+  ],
+  "context_original": "From The Imitation of Christ, the most-read devotional book of the late Middle Ages. The similar 'Sic transit gloria mundi' was chanted at papal coronations from the early 1400s."
  },
  {
   "id": "q-heloise-meretrix",
@@ -4350,7 +4381,7 @@
   "unit": 11,
   "latin": "Cārius mihi et dignius vidērētur tua dīcī meretrīx quam illīus imperātrīx.",
   "translation": "It would seem dearer and more honourable to me to be called your mistress than his [Augustus's] empress.",
-  "context": "Héloïse to Abelard: even if Augustus, ruler of the world, offered to marry her, she would rather be called Abelard's mistress than his empress.",
+  "context": "Héloïse to Abelard: even if Augustus, ruler of the world, offered to marry her, she would rather be called Abelard's mistress than his empress. Héloïse (d. 1164) was one of the most learned women of her time; her letters with Abelard were written after both had entered religious life. Their Latin is full of Cicero and the classical authors.",
   "person": "Héloïse",
   "source": {
    "work": "Epistola ad Abaelardum (Letter 2)",
@@ -4479,7 +4510,8 @@
    "quam",
    "tvus",
    "video"
-  ]
+  ],
+  "context_original": "Héloïse to Abelard: even if Augustus, ruler of the world, offered to marry her, she would rather be called Abelard's mistress than his empress."
  },
  {
   "id": "q-boethius-rota",
@@ -4488,7 +4520,7 @@
   "unit": 9,
   "latin": "Rotam volūbilī orbe versāmus.",
   "translation": "We turn the wheel in its spinning circle.",
-  "context": "Boethius wrote while awaiting execution in 524; Lady Philosophy and Fortune's wheel became the Middle Ages' favourite image of chance.",
+  "context": "Boethius wrote while awaiting execution in 524; Lady Philosophy and Fortune's wheel became the Middle Ages' favourite image of chance. Boethius, a Roman senator, was imprisoned by the Ostrogothic king Theodoric. The Consolation of Philosophy, written in alternating prose and verse, was translated by King Alfred and by Chaucer.",
   "person": "Boethius",
   "source": {
    "work": "De consolatione philosophiae",
@@ -4566,7 +4598,8 @@
    "rota",
    "verso",
    "volubilis"
-  ]
+  ],
+  "context_original": "Boethius wrote while awaiting execution in 524; Lady Philosophy and Fortune's wheel became the Middle Ages' favourite image of chance."
  },
  {
   "id": "q-mon-unum",
@@ -4575,7 +4608,7 @@
   "unit": 12,
   "latin": "…hūmānum genus optimē sē habēre cum ab ūnō regitur.",
   "translation": "…the human race is in the best condition when it is ruled by one.",
-  "context": "Dante, exiled from Florence, argued in Latin for a universal emperor to keep peace in Christendom.",
+  "context": "Dante, exiled from Florence, argued in Latin for a universal emperor to keep peace in Christendom. Dante (1265–1321) wrote De monarchia probably around 1312–1318; the Church later placed it on its list of banned books. Here he argues that peace needs one ruler, as one heart rules the body.",
   "person": "Dante Alighieri",
   "source": {
    "work": "Monarchia",
@@ -4687,7 +4720,8 @@
    "rego",
    "sui",
    "unus"
-  ]
+  ],
+  "context_original": "Dante, exiled from Florence, argued in Latin for a universal emperor to keep peace in Christendom."
  },
  {
   "id": "q-bede-sparrow",
@@ -4696,7 +4730,7 @@
   "unit": 10,
   "latin": "…cum … adveniēns ūnus passerum domum citissimē pervolāverit.",
   "translation": "…as when … a single sparrow, arriving, has flown very swiftly through the hall.",
-  "context": "A counsellor of King Edwin compares human life to a sparrow flying through a warm feasting hall out of winter darkness.",
+  "context": "A counsellor of King Edwin compares human life to a sparrow flying through a warm feasting hall out of winter darkness. In Bede's story (Ecclesiastical History 2.13, set in 627) the counsellor argues that if Christianity tells them more about what comes before and after life, they should accept it. Edwin was baptised at York.",
   "person": "Bede",
   "source": {
    "work": "Historia ecclesiastica",
@@ -4799,6 +4833,7 @@
    "passer",
    "pervolo",
    "unus"
-  ]
+  ],
+  "context_original": "A counsellor of King Edwin compares human life to a sparrow flying through a warm feasting hall out of winter darkness."
  }
 ]

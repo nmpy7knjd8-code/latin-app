@@ -6,7 +6,7 @@
   "unit": 7,
   "latin": "Quīntilī Vāre, legiōnēs redde!",
   "translation": "Quintilius Varus, give me back my legions!",
-  "context": "After three legions were wiped out in the Teutoburg Forest in AD 9, Augustus is said to have beaten his head on doors for months, shouting this at the dead general.",
+  "context": "After three legions were wiped out in the Teutoburg Forest in AD 9, Augustus is said to have beaten his head on doors for months, shouting this at the dead general. Suetonius (Augustus 23) says the emperor let his hair and beard grow and kept the day of the disaster as a day of mourning. The legion numbers XVII, XVIII and XIX were never used again. Note the vocative Vāre and the imperative redde.",
   "person": "Augustus (reported by Suetonius)",
   "source": {
    "work": "Suetonius, Divus Augustus",
@@ -85,7 +85,8 @@
   "learn_more": {
    "label": "Battle of the Teutoburg Forest",
    "url": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
-  }
+  },
+  "context_original": "After three legions were wiped out in the Teutoburg Forest in AD 9, Augustus is said to have beaten his head on doors for months, shouting this at the dead general."
  },
  {
   "id": "q-seneca-docent",
@@ -94,7 +95,7 @@
   "unit": 8,
   "latin": "Hominēs, dum docent, discunt.",
   "translation": "People learn while they teach.",
-  "context": "Seneca tells his friend Lucilius to keep company with people who make him better, because teaching and learning run both ways.",
+  "context": "Seneca tells his friend Lucilius to keep company with people who make him better, because teaching and learning run both ways. Seneca wrote 124 letters to Lucilius in his last years, around AD 62–65, as practical lessons in Stoic living. This line, from Letter 7, is a neat example of dum + present: 'while they teach'.",
   "person": "Lucius Annaeus Seneca",
   "source": {
    "work": "Epistulae Morales",
@@ -175,7 +176,8 @@
   "learn_more": {
    "label": "Epistulae Morales ad Lucilium",
    "url": "https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium"
-  }
+  },
+  "context_original": "Seneca tells his friend Lucilius to keep company with people who make him better, because teaching and learning run both ways."
  },
  {
   "id": "q-seneca-aliena",
@@ -184,7 +186,7 @@
   "unit": 8,
   "latin": "Omnia, Lūcīlī, aliēna sunt, tempus tantum nostrum est.",
   "translation": "Everything, Lucilius, belongs to others; only time is ours.",
-  "context": "From the opening letter of Seneca's Moral Letters: nature gave us one possession, time, and we let others take it from us.",
+  "context": "From the opening letter of Seneca's Moral Letters: nature gave us one possession, time, and we let others take it from us. Seneca's point is that we guard our money but waste our hours, the only thing that is truly ours. Notice tantum, 'only', and the vocative Lūcīlī.",
   "person": "Lucius Annaeus Seneca",
   "source": {
    "work": "Epistulae Morales",
@@ -290,7 +292,8 @@
   "learn_more": {
    "label": "Epistulae Morales ad Lucilium",
    "url": "https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium"
-  }
+  },
+  "context_original": "From the opening letter of Seneca's Moral Letters: nature gave us one possession, time, and we let others take it from us."
  },
  {
   "id": "q-martial-bona",
@@ -299,7 +302,7 @@
   "unit": 4,
   "latin": "Sunt bona, sunt quaedam mediocria, sunt mala plūra quae legis hīc.",
   "translation": "Some things you read here are good, some are average, more are bad.",
-  "context": "Martial teases his friend Avitus, admitting that his own book of epigrams is a mixed bag. That, he says, is simply how a book gets made.",
+  "context": "Martial teases his friend Avitus, admitting that his own book of epigrams is a mixed bag. That, he says, is simply how a book gets made. Martial (c. AD 40–104), from Bilbilis in Spain, published fifteen books of short, sharp epigrams about life in Rome. The repeated sunt shows how Latin builds a list by simply restating the verb.",
   "person": "Marcus Valerius Martialis",
   "source": {
    "work": "Epigrams",
@@ -419,7 +422,8 @@
   "learn_more": {
    "label": "Epigrams (Martial)",
    "url": "https://en.wikipedia.org/wiki/Epigrams_(Martial)"
-  }
+  },
+  "context_original": "Martial teases his friend Avitus, admitting that his own book of epigrams is a mixed bag. That, he says, is simply how a book gets made."
  },
  {
   "id": "i-pompeii-felices",
@@ -428,7 +432,7 @@
   "unit": 1,
   "latin": "Hīc sumus fēlīcēs; valeāmus rēctē.",
   "translation": "Here we are happy; may we fare well.",
-  "context": "Someone scratched this near Pompeii's amphitheatre, perhaps on a good day at the games. Ordinary Romans wrote cheerful notes like this all over their walls.",
+  "context": "Someone scratched this near Pompeii's amphitheatre, perhaps on a good day at the games. Ordinary Romans wrote cheerful notes like this all over their walls. More than 10,000 inscriptions survive from Pompeii, preserved when Vesuvius buried the town in AD 79. Valeāmus is a subjunctive of wish, 'may we be well', from the same verb as valē, 'goodbye'.",
   "person": "Anonymous graffito, Pompeii",
   "source": {
    "work": "Graffito, Pompeii, Campus by the amphitheatre (II.7.1)",
@@ -522,7 +526,8 @@
   "learn_more": {
    "label": "Graffiti in Pompeii (AGP)",
    "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR127399"
-  }
+  },
+  "context_original": "Someone scratched this near Pompeii's amphitheatre, perhaps on a good day at the games. Ordinary Romans wrote cheerful notes like this all over their walls."
  },
  {
   "id": "q-cicero-salus",
@@ -531,7 +536,7 @@
   "unit": 4,
   "latin": "Salūs populī suprēma lēx estō.",
   "translation": "Let the welfare of the people be the highest law.",
-  "context": "Part of the law code Cicero drafted, in an old-fashioned style, for an ideal Roman state. This clause sets out the duty of the consuls.",
+  "context": "Part of the law code Cicero drafted, in an old-fashioned style, for an ideal Roman state. This clause sets out the duty of the consuls. The line comes from On the Laws (3.8), written in the 50s BC. It has been used since as a motto by states and politicians, from John Locke's writings to the state of Missouri. Estō is an old future imperative, 'let it be'.",
   "person": "Marcus Tullius Cicero",
   "source": {
    "work": "De Legibus",
@@ -623,7 +628,8 @@
   "learn_more": {
    "label": "Salus populi suprema lex esto",
    "url": "https://en.wikipedia.org/wiki/Salus_populi_suprema_lex_esto"
-  }
+  },
+  "context_original": "Part of the law code Cicero drafted, in an old-fashioned style, for an ideal Roman state. This clause sets out the duty of the consuls."
  },
  {
   "id": "q-tacitus-solitudinem",
@@ -632,7 +638,7 @@
   "unit": 5,
   "latin": "Ubi sōlitūdinem faciunt, pācem appellant.",
   "translation": "Where they make a desert, they call it peace.",
-  "context": "Tacitus puts these words in the mouth of Calgacus, a Caledonian chief, as he condemns Roman conquest before the battle of Mons Graupius in AD 83.",
+  "context": "Tacitus puts these words in the mouth of Calgacus, a Caledonian chief, as he condemns Roman conquest before the battle of Mons Graupius in AD 83. Calgacus' speech in the Agricola is one of the sharpest critiques of empire in Latin, written by a Roman about his own father-in-law's campaign. Tacitus probably composed the words himself, as ancient historians often did with speeches.",
   "person": "Publius Cornelius Tacitus (speech of Calgacus)",
   "source": {
    "work": "Agricola",
@@ -721,7 +727,8 @@
   "learn_more": {
    "label": "Calgacus",
    "url": "https://en.wikipedia.org/wiki/Calgacus"
-  }
+  },
+  "context_original": "Tacitus puts these words in the mouth of Calgacus, a Caledonian chief, as he condemns Roman conquest before the battle of Mons Graupius in AD 83."
  },
  {
   "id": "i-pantheon-agrippa",
@@ -730,7 +737,7 @@
   "unit": 1,
   "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT — Mārcus Agrippa, Lūcī fīlius, cōnsul tertium, fēcit.",
   "translation": "Marcus Agrippa, son of Lucius, consul for the third time, made (this).",
-  "context": "Hadrian rebuilt the Pantheon about AD 125 but kept Agrippa's original dedication. Visitors still read it over the portico today.",
+  "context": "Hadrian rebuilt the Pantheon about AD 125 but kept Agrippa's original dedication. Visitors still read it over the portico today. Agrippa, Augustus' right-hand man, built the first Pantheon in 27–25 BC; the present building with its huge unreinforced concrete dome is Hadrian's. COS TERTIVM means 'consul for the third time', and FECIT, 'made', is the perfect tense.",
   "person": "Marcus Agrippa",
   "source": {
    "work": "Inscription, Pantheon, Rome (CIL VI 896)",
@@ -838,7 +845,8 @@
   "learn_more": {
    "label": "Pantheon, Rome",
    "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome"
-  }
+  },
+  "context_original": "Hadrian rebuilt the Pantheon about AD 125 but kept Agrippa's original dedication. Visitors still read it over the portico today."
  },
  {
   "id": "i-pompeii-cave",
@@ -847,7 +855,7 @@
   "unit": 2,
   "latin": "CAVE CANEM — Cavē canem!",
   "translation": "Beware of the dog!",
-  "context": "At the entrance of a Pompeian house, a chained black dog in mosaic warns visitors. Buried by Vesuvius in AD 79, it still greets tourists today.",
+  "context": "At the entrance of a Pompeian house, a chained black dog in mosaic warns visitors. Buried by Vesuvius in AD 79, it still greets tourists today. The House of the Tragic Poet was excavated in 1824 and is named after a mosaic of actors inside. Cavē is the imperative of cavēre, 'to beware'; canem is the accusative of canis, 'dog'.",
   "person": "House of the Tragic Poet, Pompeii",
   "source": {
    "work": "Floor mosaic inscription, House of the Tragic Poet, Pompeii",
@@ -919,7 +927,8 @@
   "learn_more": {
    "label": "House of the Tragic Poet",
    "url": "https://en.wikipedia.org/wiki/House_of_the_Tragic_Poet"
-  }
+  },
+  "context_original": "At the entrance of a Pompeian house, a chained black dog in mosaic warns visitors. Buried by Vesuvius in AD 79, it still greets tourists today."
  },
  {
   "id": "i-pompeii-romula",
@@ -928,7 +937,7 @@
   "unit": 3,
   "latin": "Rōmula hīc cum Staphylō morātur.",
   "translation": "Romula hangs out here with Staphylus.",
-  "context": "A bit of Pompeian gossip about a couple, scratched on a wall. It shows ordinary people, not emperors, and the gossip they wrote on their walls.",
+  "context": "A bit of Pompeian gossip about a couple, scratched on a wall. It shows ordinary people, not emperors, and the gossip they wrote on their walls. Graffiti like this were scratched into wall plaster with a stylus or nail. Hīc means 'here', and morārī, 'to linger, stay', is a deponent verb: passive in form, active in meaning.",
   "person": "Anonymous graffito, Pompeii",
   "source": {
    "work": "Graffito, Pompeii (VII.13.8)",
@@ -1021,7 +1030,8 @@
   "learn_more": {
    "label": "Graffito CIL IV 2060 (AGP)",
    "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR193346"
-  }
+  },
+  "context_original": "A bit of Pompeian gossip about a couple, scratched on a wall. It shows ordinary people, not emperors, and the gossip they wrote on their walls."
  },
  {
   "id": "q-martial-sabidi",
@@ -1030,7 +1040,7 @@
   "unit": 3,
   "latin": "Nōn amō tē, Sabidī, nec possum dīcere quārē: hoc tantum possum dīcere, nōn amō tē.",
   "translation": "I don't like you, Sabidius, and I can't say why: I can only say this: I don't like you.",
-  "context": "A two-line epigram of pure dislike. In 1680 Tom Brown famously adapted it into English as \"I do not love thee, Doctor Fell.\"",
+  "context": "A two-line epigram of pure dislike. In 1680 Tom Brown famously adapted it into English as \"I do not love thee, Doctor Fell.\" The epigram (1.32) works because Martial never gives a reason: the only reason is that he can't give one. The infinitive dīcere depends on possum, a structure you will see constantly.",
   "person": "Marcus Valerius Martialis",
   "source": {
    "work": "Epigrams",
@@ -1185,7 +1195,8 @@
   "learn_more": {
    "label": "I do not love thee, Doctor Fell",
    "url": "https://en.wikipedia.org/wiki/I_do_not_love_thee,_Doctor_Fell"
-  }
+  },
+  "context_original": "A two-line epigram of pure dislike. In 1680 Tom Brown famously adapted it into English as \"I do not love thee, Doctor Fell.\""
  },
  {
   "id": "q-terence-homo",
@@ -1194,7 +1205,7 @@
   "unit": 3,
   "latin": "Homō sum: hūmānī nīl ā mē aliēnum putō.",
   "translation": "I am human: I consider nothing human foreign to me.",
-  "context": "A nosy neighbour, Chremes, defends asking about another man's troubles. His excuse became one of the most quoted lines of Roman humanism.",
+  "context": "A nosy neighbour, Chremes, defends asking about another man's troubles. His excuse became one of the most quoted lines of Roman humanism. Terence (died c. 159 BC), a former slave from North Africa, adapted Greek comedies for Roman audiences; this line is from The Self-Tormentor (163 BC). Writers from Cicero to Montaigne and Maya Angelou quoted it.",
   "person": "Publius Terentius Afer",
   "source": {
    "work": "Heauton Timorumenos",
@@ -1306,7 +1317,8 @@
   "learn_more": {
    "label": "Homo sum, humani nihil a me alienum puto",
    "url": "https://en.wikipedia.org/wiki/Homo_sum,_humani_nihil_a_me_alienum_puto"
-  }
+  },
+  "context_original": "A nosy neighbour, Chremes, defends asking about another man's troubles. His excuse became one of the most quoted lines of Roman humanism."
  },
  {
   "id": "q-caesar-belgae",
@@ -1315,7 +1327,7 @@
   "unit": 4,
   "latin": "Hōrum omnium fortissimī sunt Belgae.",
   "translation": "Of all these, the bravest are the Belgae.",
-  "context": "Caesar explains why the Belgae were the toughest Gauls: they lived farthest from Roman luxuries and closest to the warlike Germans.",
+  "context": "Caesar explains why the Belgae were the toughest Gauls: they lived farthest from Roman luxuries and closest to the warlike Germans. The sentence comes from the very first chapter of Caesar's Gallic War (1.1), written as a third-person report of his campaigns of 58–50 BC. Fortissimī is a superlative: fortis, fortior, fortissimus.",
   "person": "Gaius Julius Caesar",
   "source": {
    "work": "De Bello Gallico",
@@ -1405,7 +1417,8 @@
   "learn_more": {
    "label": "Belgae",
    "url": "https://en.wikipedia.org/wiki/Belgae"
-  }
+  },
+  "context_original": "Caesar explains why the Belgae were the toughest Gauls: they lived farthest from Roman luxuries and closest to the warlike Germans."
  },
  {
   "id": "q-horace-modus",
@@ -1414,7 +1427,7 @@
   "unit": 5,
   "latin": "Est modus in rēbus, sunt certī dēnique fīnēs.",
   "translation": "There is a measure in things; there are, in short, fixed limits.",
-  "context": "Horace mocks greed. Between the miser and the spendthrift, he says, there is a sensible middle, the root of his ideal of moderation.",
+  "context": "Horace mocks greed. Between the miser and the spendthrift, he says, there is a sensible middle, the root of his ideal of moderation. The line is Satires 1.1.106, written in the 30s BC. Horace's ideal of the 'golden mean' (aurea mediocritās, Odes 2.10) runs through all his work. Note the parallel est … sunt.",
   "person": "Quintus Horatius Flaccus",
   "source": {
    "work": "Satires",
@@ -1522,7 +1535,8 @@
   "learn_more": {
    "label": "Satires (Horace)",
    "url": "https://en.wikipedia.org/wiki/Satires_(Horace)"
-  }
+  },
+  "context_original": "Horace mocks greed. Between the miser and the spendthrift, he says, there is a sensible middle, the root of his ideal of moderation."
  },
  {
   "id": "q-virgil-timeo",
@@ -1531,7 +1545,7 @@
   "unit": 5,
   "latin": "Quidquid id est, timeō Danaōs et dōna ferentēs.",
   "translation": "Whatever it is, I fear the Greeks even when they bring gifts.",
-  "context": "Laocoön, priest of Neptune, warns the Trojans against the wooden horse. Sea serpents sent by the gods kill him soon afterwards.",
+  "context": "Laocoön, priest of Neptune, warns the Trojans against the wooden horse. Sea serpents sent by the gods kill him soon afterwards. The line is Aeneid 2.49. Laocoön's death, crushed with his sons by serpents, is the subject of the famous marble group now in the Vatican Museums. Danaōs is a poetic name for the Greeks, and et here means 'even'.",
   "person": "Publius Vergilius Maro (speech of Laocoön)",
   "source": {
    "work": "Aeneid",
@@ -1637,7 +1651,8 @@
   "learn_more": {
    "label": "Laocoön",
    "url": "https://en.wikipedia.org/wiki/Laocoön"
-  }
+  },
+  "context_original": "Laocoön, priest of Neptune, warns the Trojans against the wooden horse. Sea serpents sent by the gods kill him soon afterwards."
  },
  {
   "id": "q-tacitus-urbem",
@@ -1646,7 +1661,7 @@
   "unit": 6,
   "latin": "Urbem Rōmam ā prīncipiō rēgēs habuēre.",
   "translation": "From the beginning, kings ruled the city of Rome.",
-  "context": "Tacitus opens his history of the emperors with a lightning summary of Rome before them: kings first, then Brutus and the Republic.",
+  "context": "Tacitus opens his history of the emperors with a lightning summary of Rome before them: kings first, then Brutus and the Republic. These are the first words of Tacitus' Annals, written c. AD 115–120, covering the emperors from Tiberius to Nero. Habuēre is a short form of habuērunt, 'they had'.",
   "person": "Publius Cornelius Tacitus",
   "source": {
    "work": "Annales",
@@ -1739,7 +1754,8 @@
   "learn_more": {
    "label": "Annals (Tacitus)",
    "url": "https://en.wikipedia.org/wiki/Annals_(Tacitus)"
-  }
+  },
+  "context_original": "Tacitus opens his history of the emperors with a lightning summary of Rome before them: kings first, then Brutus and the Republic."
  },
  {
   "id": "q-juvenal-mens",
@@ -1748,7 +1764,7 @@
   "unit": 8,
   "latin": "Ōrandum est ut sit mēns sāna in corpore sānō.",
   "translation": "You should pray for a sound mind in a sound body.",
-  "context": "Ending a satire on foolish prayers, Juvenal says the only thing worth asking the gods for is a healthy mind in a healthy body.",
+  "context": "Ending a satire on foolish prayers, Juvenal says the only thing worth asking the gods for is a healthy mind in a healthy body. The line is from Satire 10 (line 356), written in the early 2nd century AD. Juvenal goes on to list a brave heart that does not fear death. Ōrandum est is a gerundive: 'it must be prayed'.",
   "person": "Decimus Iunius Iuvenalis",
   "source": {
    "work": "Satires",
@@ -1858,7 +1874,8 @@
   "learn_more": {
    "label": "Mens sana in corpore sano",
    "url": "https://en.wikipedia.org/wiki/Mens_sana_in_corpore_sano"
-  }
+  },
+  "context_original": "Ending a satire on foolish prayers, Juvenal says the only thing worth asking the gods for is a healthy mind in a healthy body."
  },
  {
   "id": "i-sttl",
@@ -1867,7 +1884,7 @@
   "unit": 4,
   "latin": "D(īs) M(ānibus) s(acrum). Aur(ēliae) Lupulae mātrī piissimae Dionȳsius Fortūnātus fīlius. S(it) t(ibi) t(erra) l(evis).",
   "translation": "Sacred to the spirits of the departed (and) to his very devoted mother Aurelia Lupula: Dionysius Fortunatus, her son, (set this up). May the earth lie lightly on you.",
-  "context": "A son's tombstone for his mother at Risingham fort, north of Hadrian's Wall. It ends with S·T·T·L, the Roman equivalent of R.I.P., found on epitaphs across the empire.",
+  "context": "A son's tombstone for his mother at Risingham fort, north of Hadrian's Wall. It ends with S·T·T·L, the Roman equivalent of R.I.P., found on epitaphs across the empire. S·T·T·L stands for sit tibi terra levis, 'may the earth be light on you'. D·M, Dīs Mānibus, 'to the spirits of the dead', opens thousands of Roman tombstones. Abbreviations like these are the first thing to learn when reading inscriptions.",
   "person": "Dionysius Fortunatus",
   "source": {
    "work": "Tombstone, Risingham (RIB 1250 = CIL VII 1014)",
@@ -2024,7 +2041,8 @@
   "learn_more": {
    "label": "Sit tibi terra levis",
    "url": "https://en.wikipedia.org/wiki/Sit_tibi_terra_levis"
-  }
+  },
+  "context_original": "A son's tombstone for his mother at Risingham fort, north of Hadrian's Wall. It ends with S·T·T·L, the Roman equivalent of R.I.P., found on epitaphs across the empire."
  },
  {
   "id": "q-ovid-urbis",
@@ -2033,7 +2051,7 @@
   "unit": 1,
   "latin": "Rōmānae spatium est urbis et orbis idem.",
   "translation": "The extent of the Roman city and of the world is the same.",
-  "context": "At the festival of Terminus, god of boundary stones, Ovid notes that other peoples have fixed borders, but Rome's border is the whole world. Note the play on urbis/orbis.",
+  "context": "At the festival of Terminus, god of boundary stones, Ovid notes that other peoples have fixed borders, but Rome's border is the whole world. Note the play on urbis/orbis. The Fasti, a poem on the Roman calendar, covers January to June; Terminus' festival, the Terminalia, fell on 23 February (Fasti 2.684). The pun works because urbs, 'city', and orbis, 'world', sound alike.",
   "person": "Publius Ovidius Naso",
   "source": {
    "work": "Fasti",
@@ -2135,7 +2153,8 @@
   "learn_more": {
    "label": "Fasti (poem)",
    "url": "https://en.wikipedia.org/wiki/Fasti_(poem)"
-  }
+  },
+  "context_original": "At the festival of Terminus, god of boundary stones, Ovid notes that other peoples have fixed borders, but Rome's border is the whole world. Note the play on urbis/orbis."
  },
  {
   "id": "q-catullus-ave",
@@ -2144,7 +2163,7 @@
   "unit": 2,
   "latin": "Atque in perpetuum, frāter, avē atque valē.",
   "translation": "And forever, brother, hail and farewell.",
-  "context": "The last line of Catullus's elegy at his brother's grave near Troy. He came a long way to say goodbye with the old funeral words.",
+  "context": "The last line of Catullus's elegy at his brother's grave near Troy. He came a long way to say goodbye with the old funeral words. Poem 101 was probably written when Catullus visited his brother's grave in the Troad (north-west Turkey) around 57 BC. Avē atque valē, 'hail and farewell', were the ritual words spoken to the dead.",
   "person": "Gaius Valerius Catullus",
   "source": {
    "work": "Carmina",
@@ -2243,7 +2262,8 @@
   "learn_more": {
    "label": "Catullus 101",
    "url": "https://en.wikipedia.org/wiki/Catullus_101"
-  }
+  },
+  "context_original": "The last line of Catullus's elegy at his brother's grave near Troy. He came a long way to say goodbye with the old funeral words."
  },
  {
   "id": "i-titus-spqr",
@@ -2252,7 +2272,7 @@
   "unit": 6,
   "latin": "SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F(ILIO) VESPASIANO AVGVSTO — Senātus Populusque Rōmānus Dīvō Titō Dīvī Vespasiānī fīliō Vespasiānō Augustō",
   "translation": "The Senate and People of Rome, to the deified Titus Vespasian Augustus, son of the deified Vespasian.",
-  "context": "Domitian built the arch after his brother Titus died and was deified. Its reliefs show the spoils of the Temple in Jerusalem, captured in AD 70.",
+  "context": "Domitian built the arch after his brother Titus died and was deified. Its reliefs show the spoils of the Temple in Jerusalem, captured in AD 70. The Arch of Titus stands on the Via Sacra at the edge of the Roman Forum and was finished after AD 81. DIVO TITO is dative: the arch is dedicated 'to the deified Titus', son of the deified Vespasian.",
   "person": "Senate and People of Rome",
   "source": {
    "work": "Inscription, Arch of Titus, Rome (CIL VI 945)",
@@ -2385,7 +2405,8 @@
   "learn_more": {
    "label": "Arch of Titus",
    "url": "https://en.wikipedia.org/wiki/Arch_of_Titus"
-  }
+  },
+  "context_original": "Domitian built the arch after his brother Titus died and was deified. Its reliefs show the spoils of the Temple in Jerusalem, captured in AD 70."
  },
  {
   "id": "q-catullus-odi",
@@ -2394,7 +2415,7 @@
   "unit": 7,
   "latin": "Ōdī et amō. quārē id faciam, fortasse requīris. nesciō, sed fierī sentiō et excrucior.",
   "translation": "I hate and I love. Why I do this, perhaps you ask. I don't know, but I feel it happen and I am tormented.",
-  "context": "Catullus's two-line poem about his love for \"Lesbia\" has eight verbs and no nouns. It is probably the most compressed love poem in Latin.",
+  "context": "Catullus's two-line poem about his love for \"Lesbia\" has eight verbs and no nouns. It is probably the most compressed love poem in Latin. Poem 85 is an elegiac couplet. 'Lesbia' is usually identified with Clodia, a noblewoman of the Claudian family. Excrucior, the last word, is passive: 'I am tortured', literally 'crucified'.",
   "person": "Gaius Valerius Catullus",
   "source": {
    "work": "Carmina",
@@ -2551,7 +2572,8 @@
   "learn_more": {
    "label": "Catullus 85",
    "url": "https://en.wikipedia.org/wiki/Catullus_85"
-  }
+  },
+  "context_original": "Catullus's two-line poem about his love for \"Lesbia\" has eight verbs and no nouns. It is probably the most compressed love poem in Latin."
  },
  {
   "id": "q-horace-dulce",
@@ -2560,7 +2582,7 @@
   "unit": 8,
   "latin": "Dulce et decōrum est prō patriā morī.",
   "translation": "It is sweet and fitting to die for one's country.",
-  "context": "Horace praises military courage among his \"Roman Odes\". Wilfred Owen turned the line bitterly against itself in a 1917 poem.",
+  "context": "Horace praises military courage among his \"Roman Odes\". Wilfred Owen turned the line bitterly against itself in a 1917 poem. The line is Odes 3.2.13, from a group of six poems that praise the old Roman virtues promoted under Augustus. Morī, 'to die', is a deponent infinitive and acts as the subject: 'to die is sweet'.",
   "person": "Quintus Horatius Flaccus",
   "source": {
    "work": "Odes",
@@ -2664,7 +2686,8 @@
   "learn_more": {
    "label": "Dulce et decorum est",
    "url": "https://en.wikipedia.org/wiki/Dulce_et_decorum_est"
-  }
+  },
+  "context_original": "Horace praises military courage among his \"Roman Odes\". Wilfred Owen turned the line bitterly against itself in a 1917 poem."
  },
  {
   "id": "q-virgil-moenia",
@@ -2673,7 +2696,7 @@
   "unit": 2,
   "latin": "… Albānīque patrēs, atque altae moenia Rōmae.",
   "translation": "… (from whom came) the Alban fathers and the walls of lofty Rome.",
-  "context": "The climax of the Aeneid's opening sentence: Aeneas's wanderings lead to Alba Longa's founding fathers and, finally, to the walls of Rome.",
+  "context": "The climax of the Aeneid's opening sentence: Aeneas's wanderings lead to Alba Longa's founding fathers and, finally, to the walls of Rome. Virgil wrote the Aeneid between about 29 and 19 BC; this is line 1.7. Alba Longa was said to have been founded by Aeneas' son Ascanius, and Romulus and Remus descended from its kings.",
   "person": "Publius Vergilius Maro",
   "source": {
    "work": "Aeneid",
@@ -2774,7 +2797,8 @@
   "learn_more": {
    "label": "Aeneid",
    "url": "https://en.wikipedia.org/wiki/Aeneid"
-  }
+  },
+  "context_original": "The climax of the Aeneid's opening sentence: Aeneas's wanderings lead to Alba Longa's founding fathers and, finally, to the walls of Rome."
  },
  {
   "id": "q-plautus-lupus",
@@ -2783,7 +2807,7 @@
   "unit": 2,
   "latin": "Lupus est homō hominī, nōn homō, …",
   "translation": "A man is a wolf, not a man, to another man …",
-  "context": "A merchant refuses to hand money to a stranger: to someone who does not know you, a man is a wolf. The full line adds: to someone who doesn't know what sort he is.",
+  "context": "A merchant refuses to hand money to a stranger: to someone who does not know you, a man is a wolf. The full line adds: to someone who doesn't know what sort he is. Plautus (c. 254–184 BC) wrote the comedy The Donkeys (Asinaria, line 495), one of the oldest surviving Latin texts. The philosopher Thomas Hobbes made homo homini lupus famous in the 17th century.",
   "person": "Titus Maccius Plautus",
   "source": {
    "work": "Asinaria",
@@ -2877,7 +2901,8 @@
   "learn_more": {
    "label": "Homo homini lupus",
    "url": "https://en.wikipedia.org/wiki/Homo_homini_lupus"
-  }
+  },
+  "context_original": "A merchant refuses to hand money to a stranger: to someone who does not know you, a man is a wolf. The full line adds: to someone who doesn't know what sort he is."
  },
  {
   "id": "q-virgil-forsan",
@@ -2886,7 +2911,7 @@
   "unit": 7,
   "latin": "Forsan et haec ōlim meminisse iuvābit.",
   "translation": "Perhaps one day it will be a pleasure to remember even these things.",
-  "context": "Shipwrecked on the coast of Africa, Aeneas tries to cheer up his exhausted men with these words.",
+  "context": "Shipwrecked on the coast of Africa, Aeneas tries to cheer up his exhausted men with these words. The line is Aeneid 1.203. Aeneas hides his own worry and speaks hope to his men, a model of the leader's duty. Meminisse, 'to remember', is a perfect-form infinitive with present meaning.",
   "person": "Publius Vergilius Maro",
   "source": {
    "work": "Aeneid",
@@ -2983,7 +3008,8 @@
   "learn_more": {
    "label": "Aeneid",
    "url": "https://en.wikipedia.org/wiki/Aeneid"
-  }
+  },
+  "context_original": "Shipwrecked on the coast of Africa, Aeneas tries to cheer up his exhausted men with these words."
  },
  {
   "id": "q-seneca-vindica",
@@ -2992,7 +3018,7 @@
   "unit": 8,
   "latin": "Ita fac, mī Lūcīlī: vindicā tē tibi.",
   "translation": "Do this, my Lucilius: claim yourself for yourself.",
-  "context": "The first words of Seneca's first letter to Lucilius. He tells him to take back the time he loses to other people and other things.",
+  "context": "The first words of Seneca's first letter to Lucilius. He tells him to take back the time he loses to other people and other things. This is Letter 1.1. Seneca was Nero's tutor and adviser and was forced to kill himself in AD 65. Vindicā is an imperative from vindicāre, a legal word for claiming property or freeing a slave.",
   "person": "Lucius Annaeus Seneca",
   "source": {
    "work": "Epistulae Morales",
@@ -3091,7 +3117,8 @@
   "learn_more": {
    "label": "Epistulae Morales ad Lucilium",
    "url": "https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium"
-  }
+  },
+  "context_original": "The first words of Seneca's first letter to Lucilius. He tells him to take back the time he loses to other people and other things."
  },
  {
   "id": "q-resgestae-annos",
@@ -3100,7 +3127,7 @@
   "unit": 6,
   "latin": "Annōs ūndēvīgintī nātus exercitum prīvātō cōnsiliō et prīvātā impēnsā comparāvī.",
   "translation": "At the age of nineteen, on my own initiative and at my own expense, I raised an army.",
-  "context": "Augustus's own record of his deeds, set up in bronze at his mausoleum. It opens with the private army he raised in 44 BC after Caesar's murder.",
+  "context": "Augustus's own record of his deeds, set up in bronze at his mausoleum. It opens with the private army he raised in 44 BC after Caesar's murder. The text was copied onto temples across the empire; the best surviving copy is on the Temple of Augustus and Rome in Ankara, Turkey. Annōs ūndēvīgintī nātus means literally 'born nineteen years'.",
   "person": "Augustus",
   "source": {
    "work": "Res Gestae Divi Augusti",
@@ -3227,7 +3254,8 @@
   "learn_more": {
    "label": "Res Gestae Divi Augusti",
    "url": "https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti"
-  }
+  },
+  "context_original": "Augustus's own record of his deeds, set up in bronze at his mausoleum. It opens with the private army he raised in 44 BC after Caesar's murder."
  },
  {
   "id": "q-seneca-prope",
@@ -3236,7 +3264,7 @@
   "unit": 5,
   "latin": "Prope est ā tē deus, tēcum est, intus est.",
   "translation": "God is near you, he is with you, he is within you.",
-  "context": "Seneca tells Lucilius he need not raise his hands to the sky or ask a temple keeper to let him near a statue's ear. The divine is already within us.",
+  "context": "Seneca tells Lucilius he need not raise his hands to the sky or ask a temple keeper to let him near a statue's ear. The divine is already within us. This is Letter 41. Seneca's idea of a divine spark within each person is Stoic; Christian writers later found it close to their own thinking. Prope, tēcum and intus pile up three ways of saying 'near'.",
   "person": "Lucius Annaeus Seneca",
   "source": {
    "work": "Epistulae Morales",
@@ -3350,7 +3378,8 @@
   "learn_more": {
    "label": "Epistulae Morales ad Lucilium",
    "url": "https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium"
-  }
+  },
+  "context_original": "Seneca tells Lucilius he need not raise his hands to the sky or ask a temple keeper to let him near a statue's ear. The divine is already within us."
  },
  {
   "id": "i-spqr",
@@ -3359,7 +3388,7 @@
   "unit": 1,
   "latin": "S·P·Q·R — Senātus Populusque Rōmānus",
   "translation": "The Senate and the Roman People",
-  "context": "Four letters stamped on arches, coins, standards and even modern Roman manhole covers. They name the two powers of the Republic, Senate and People.",
+  "context": "Four letters stamped on arches, coins, standards and even modern Roman manhole covers. They name the two powers of the Republic, Senate and People. The phrase dates from the Republic and was carried on legionary standards and public buildings throughout Roman history. Populusque joins populus with -que, 'and', attached to the second word.",
   "person": "Senate and People of Rome",
   "source": {
    "work": "Formula on inscriptions, coins and standards",
@@ -3445,7 +3474,8 @@
   "learn_more": {
    "label": "SPQR",
    "url": "https://en.wikipedia.org/wiki/SPQR"
-  }
+  },
+  "context_original": "Four letters stamped on arches, coins, standards and even modern Roman manhole covers. They name the two powers of the Republic, Senate and People."
  },
  {
   "id": "q-terence-quot",
@@ -3454,7 +3484,7 @@
   "unit": 1,
   "latin": "Quot hominēs, tot sententiae.",
   "translation": "As many people, so many opinions.",
-  "context": "An old man asks three legal advisers what to do. Each gives a different answer, and one of them, Hegio, shrugs with this line.",
+  "context": "An old man asks three legal advisers what to do. Each gives a different answer, and one of them, Hegio, shrugs with this line. The line comes from Terence's Phormio (line 454), staged in 161 BC. Cicero also quoted it. Quot … tot is a pair of correlatives: 'as many … so many'.",
   "person": "Publius Terentius Afer",
   "source": {
    "work": "Phormio",
@@ -3530,7 +3560,8 @@
   "learn_more": {
    "label": "Phormio (play)",
    "url": "https://en.wikipedia.org/wiki/Phormio_(play)"
-  }
+  },
+  "context_original": "An old man asks three legal advisers what to do. Each gives a different answer, and one of them, Hegio, shrugs with this line."
  },
  {
   "id": "q-cornelia-ornamenta",
@@ -3539,7 +3570,7 @@
   "unit": 2,
   "latin": "Haec ōrnāmenta sunt mea.",
   "translation": "These are my jewels.",
-  "context": "A wealthy visitor showed off her jewellery. Cornelia kept her talking until her sons came home from school, then pointed to them.",
+  "context": "A wealthy visitor showed off her jewellery. Cornelia kept her talking until her sons came home from school, then pointed to them. Cornelia, daughter of Scipio Africanus, raised her sons Tiberius and Gaius Gracchus, both later reforming tribunes. Valerius Maximus (4.4) tells the story, and she became the Roman model of the ideal mother.",
   "person": "Cornelia, mother of the Gracchi",
   "source": {
    "work": "Valerius Maximus, Facta et Dicta Memorabilia",
@@ -3623,7 +3654,8 @@
   "learn_more": {
    "label": "Cornelia (mother of the Gracchi)",
    "url": "https://en.wikipedia.org/wiki/Cornelia_(mother_of_the_Gracchi)"
-  }
+  },
+  "context_original": "A wealthy visitor showed off her jewellery. Cornelia kept her talking until her sons came home from school, then pointed to them."
  },
  {
   "id": "i-pompeii-fullones",
@@ -3632,7 +3664,7 @@
   "unit": 3,
   "latin": "Fullōnēs ululamque canō, nōn arma virumque.",
   "translation": "I sing of fullers and an owl, not of arms and the man.",
-  "context": "A Pompeian parody of the Aeneid's first line, written on a laundry (fullonica). The fullers' guild had the owl, Minerva's bird, as its emblem.",
+  "context": "A Pompeian parody of the Aeneid's first line, written on a laundry (fullonica). The fullers' guild had the owl, Minerva's bird, as its emblem. Fullers cleaned and finished woollen cloth using water and urine, so laundries were noisy, smelly working places. The joke works because readers knew Arma virumque canō by heart.",
   "person": "Anonymous graffito, Pompeii",
   "source": {
    "work": "Graffito, Pompeii, Via dell'Abbondanza (IX.13.1-6)",
@@ -3754,7 +3786,8 @@
   "learn_more": {
    "label": "Fullonica",
    "url": "https://en.wikipedia.org/wiki/Fullonica"
-  }
+  },
+  "context_original": "A Pompeian parody of the Aeneid's first line, written on a laundry (fullonica). The fullers' guild had the owl, Minerva's bird, as its emblem."
  },
  {
   "id": "q-virgil-tantaene",
@@ -3763,7 +3796,7 @@
   "unit": 5,
   "latin": "Tantaene animīs caelestibus īrae?",
   "translation": "Can heavenly minds hold such great anger?",
-  "context": "Virgil marvels that a goddess, Juno, could nurse such fury against one good man. It sets up the epic's question about divine justice.",
+  "context": "Virgil marvels that a goddess, Juno, could nurse such fury against one good man. It sets up the epic's question about divine justice. The line is Aeneid 1.11. Juno hated the Trojans because of the judgment of Paris and because she favoured Carthage, which Rome was fated to destroy. -ne turns the line into a question.",
   "person": "Publius Vergilius Maro",
   "source": {
    "work": "Aeneid",
@@ -3842,7 +3875,8 @@
   "learn_more": {
    "label": "Juno (mythology)",
    "url": "https://en.wikipedia.org/wiki/Juno_(mythology)"
-  }
+  },
+  "context_original": "Virgil marvels that a goddess, Juno, could nurse such fury against one good man. It sets up the epic's question about divine justice."
  },
  {
   "id": "q-ovid-vesta",
@@ -3851,7 +3885,7 @@
   "unit": 5,
   "latin": "Vesta eadem est et terra: subest vigil ignis utrīque.",
   "translation": "Vesta and the earth are the same: a wakeful fire lies beneath both.",
-  "context": "Ovid explains why Vesta's temple in the Forum was round: like the earth, the goddess holds an eternal fire at her centre, tended by the Vestal Virgins.",
+  "context": "Ovid explains why Vesta's temple in the Forum was round: like the earth, the goddess holds an eternal fire at her centre, tended by the Vestal Virgins. The line is Fasti 6.267. The round temple of Vesta still partly stands in the Forum; the Vestals had to keep its fire alight, and letting it go out was a terrible omen.",
   "person": "Publius Ovidius Naso",
   "source": {
    "work": "Fasti",
@@ -3967,7 +4001,8 @@
   "learn_more": {
    "label": "Vesta (mythology)",
    "url": "https://en.wikipedia.org/wiki/Vesta_(mythology)"
-  }
+  },
+  "context_original": "Ovid explains why Vesta's temple in the Forum was round: like the earth, the goddess holds an eternal fire at her centre, tended by the Vestal Virgins."
  },
  {
   "id": "q-horace-sapere",
@@ -3976,7 +4011,7 @@
   "unit": 7,
   "latin": "Dīmidium factī, quī coepit, habet; sapere audē, incipe.",
   "translation": "He who has begun has half the deed done; dare to be wise, begin!",
-  "context": "Horace urges young Lollius not to put off living well, like a fool waiting for a river to finish flowing past before he crosses.",
+  "context": "Horace urges young Lollius not to put off living well, like a fool waiting for a river to finish flowing past before he crosses. These lines are Epistles 1.2.40. Sapere aude, 'dare to be wise', later became the motto of the Enlightenment through Immanuel Kant's essay of 1784.",
   "person": "Quintus Horatius Flaccus",
   "source": {
    "work": "Epistles",
@@ -4093,7 +4128,8 @@
   "learn_more": {
    "label": "Sapere aude",
    "url": "https://en.wikipedia.org/wiki/Sapere_aude"
-  }
+  },
+  "context_original": "Horace urges young Lollius not to put off living well, like a fool waiting for a river to finish flowing past before he crosses."
  },
  {
   "id": "q-virgil-regere",
@@ -4102,7 +4138,7 @@
   "unit": 6,
   "latin": "Tū regere imperiō populōs, Rōmāne, mementō … parcere subiectīs et dēbellāre superbōs.",
   "translation": "You, Roman, remember to rule the peoples with your power … to spare the conquered and to war down the proud.",
-  "context": "In the underworld, Anchises shows Aeneas his descendants and defines Rome's mission: leave art and science to the Greeks, and rule.",
+  "context": "In the underworld, Anchises shows Aeneas his descendants and defines Rome's mission: leave art and science to the Greeks, and rule. These lines are Aeneid 6.851–853. Anchises adds that Rome should 'spare the defeated and war down the proud', parcere subiectīs et dēbellāre superbōs. Mementō is the imperative of meminī, 'remember'.",
   "person": "Publius Vergilius Maro",
   "source": {
    "work": "Aeneid",
@@ -4238,7 +4274,8 @@
   "learn_more": {
    "label": "Pax Romana",
    "url": "https://en.wikipedia.org/wiki/Pax_Romana"
-  }
+  },
+  "context_original": "In the underworld, Anchises shows Aeneas his descendants and defines Rome's mission: leave art and science to the Greeks, and rule."
  },
  {
   "id": "q-virgil-arma",
@@ -4247,7 +4284,7 @@
   "unit": 7,
   "latin": "Arma virumque canō, Trōiae quī prīmus ab ōrīs Ītaliam … vēnit.",
   "translation": "I sing of arms and the man who first came from the shores of Troy to Italy.",
-  "context": "The opening of Rome's national epic. Virgil announces his subject: war, and Aeneas, the Trojan refugee whose descendants founded Rome.",
+  "context": "The opening of Rome's national epic. Virgil announces his subject: war, and Aeneas, the Trojan refugee whose descendants founded Rome. These are the first words of the Aeneid. The poem is written in dactylic hexameter, the metre of Homer, and was a school text across the Roman world and the Middle Ages. Canō, 'I sing', is first person present.",
   "person": "Publius Vergilius Maro",
   "source": {
    "work": "Aeneid",
@@ -4389,7 +4426,8 @@
   "learn_more": {
    "label": "Aeneid",
    "url": "https://en.wikipedia.org/wiki/Aeneid"
-  }
+  },
+  "context_original": "The opening of Rome's national epic. Virgil announces his subject: war, and Aeneas, the Trojan refugee whose descendants founded Rome."
  },
  {
   "id": "q-terence-fortis",
@@ -4398,7 +4436,7 @@
   "unit": 3,
   "latin": "Fortīs fortūna adiuvat.",
   "translation": "Fortune helps the brave.",
-  "context": "The clever slave Geta urges young Antipho to face his angry father bravely. The proverb later became the motto of countless regiments.",
+  "context": "The clever slave Geta urges young Antipho to face his angry father bravely. The proverb later became the motto of countless regiments. The proverb comes from Terence's Phormio (line 203). Virgil has a version, audentēs fortūna iuvat (Aeneid 10.284), and Pliny the Younger says his uncle quoted it as he sailed towards Vesuvius in AD 79. Fortīs is an older spelling of the accusative plural fortēs.",
   "person": "Publius Terentius Afer",
   "source": {
    "work": "Phormio",
@@ -4474,7 +4512,8 @@
   "learn_more": {
    "label": "Fortes fortuna adiuvat",
    "url": "https://en.wikipedia.org/wiki/Fortes_fortuna_adiuvat"
-  }
+  },
+  "context_original": "The clever slave Geta urges young Antipho to face his angry father bravely. The proverb later became the motto of countless regiments."
  },
  {
   "id": "i-rib-facilis",
@@ -4483,7 +4522,7 @@
   "unit": 3,
   "latin": "M(ārcus) Favōni(us) M(ārcī) f(īlius) Pol(liā tribū) Facilis (centuriō) leg(iōnis) XX; Verēcundus et Novīcius līb(ertī) posuērunt; h(īc) s(itus) e(st).",
   "translation": "Marcus Favonius Facilis, son of Marcus, of the Pollian voting-tribe, centurion of the Twentieth Legion, lies buried here; Verecundus and Novicius, his freedmen, set this up.",
-  "context": "A centurion's tombstone from Colchester, the first Roman capital of Britain. It shows him in full armour, holding his vine-staff. Boudica's rebels may have toppled it in AD 61.",
+  "context": "A centurion's tombstone from Colchester, the first Roman capital of Britain. It shows him in full armour, holding his vine-staff. Boudica's rebels may have toppled it in AD 61. The stone (RIB 200) was found in 1868 and is now in Colchester Castle Museum. Facilis served in the Twentieth Legion; the stone names the two freedmen, Verecundus and Novicius, who set it up.",
   "person": "Verecundus and Novicius, freedmen",
   "source": {
    "work": "Tombstone, Colchester (RIB 200)",
@@ -4653,7 +4692,8 @@
   "learn_more": {
    "label": "Tombstone of Marcus Favonius Facilis (RIB 200)",
    "url": "https://romaninscriptionsofbritain.org/inscriptions/200"
-  }
+  },
+  "context_original": "A centurion's tombstone from Colchester, the first Roman capital of Britain. It shows him in full armour, holding his vine-staff. Boudica's rebels may have toppled it in AD 61."
  },
  {
   "id": "q-virgil-fugit",
@@ -4662,7 +4702,7 @@
   "unit": 7,
   "latin": "Sed fugit intereā, fugit irreparābile tempus.",
   "translation": "But meanwhile it flees, time flees beyond recovery.",
-  "context": "In a poem on farming, Virgil catches himself lingering over details and reminds himself to move on. This is the source of \"tempus fugit\".",
+  "context": "In a poem on farming, Virgil catches himself lingering over details and reminds himself to move on. This is the source of \"tempus fugit\". The line is Georgics 3.284, from Virgil's four-book poem on farming (c. 29 BC). Irreparābile means 'that cannot be recovered'. Fugit is repeated for emphasis, a figure called anaphora.",
   "person": "Publius Vergilius Maro",
   "source": {
    "work": "Georgics",
@@ -4757,7 +4797,8 @@
   "learn_more": {
    "label": "Tempus fugit",
    "url": "https://en.wikipedia.org/wiki/Tempus_fugit"
-  }
+  },
+  "context_original": "In a poem on farming, Virgil catches himself lingering over details and reminds himself to move on. This is the source of \"tempus fugit\"."
  },
  {
   "id": "q-seneca-nusquam",
@@ -4766,7 +4807,7 @@
   "unit": 8,
   "latin": "Nusquam est quī ubīque est.",
   "translation": "The person who is everywhere is nowhere.",
-  "context": "Seneca warns against skimming many books. A reader who flits everywhere, like a constant traveller, makes acquaintances but never real friends.",
+  "context": "Seneca warns against skimming many books. A reader who flits everywhere, like a constant traveller, makes acquaintances but never real friends. This is Letter 2.2. Seneca advises Lucilius to read deeply in a few good authors rather than a little of everything. Quī ubīque est, 'the one who is everywhere', is a relative clause acting as the subject.",
   "person": "Lucius Annaeus Seneca",
   "source": {
    "work": "Epistulae Morales",
@@ -4852,7 +4893,8 @@
   "learn_more": {
    "label": "Epistulae Morales ad Lucilium",
    "url": "https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium"
-  }
+  },
+  "context_original": "Seneca warns against skimming many books. A reader who flits everywhere, like a constant traveller, makes acquaintances but never real friends."
  },
  {
   "id": "q-cicero-historia",
@@ -4861,7 +4903,7 @@
   "unit": 5,
   "latin": "Historia vērō testis temporum, lūx vēritātis, vīta memoriae, magistra vītae, nūntia vetustātis …",
   "translation": "History is truly the witness of the ages, the light of truth, the life of memory, the teacher of life, the messenger of the past.",
-  "context": "In Cicero's dialogue on the ideal orator, Antonius argues that only an orator's voice can give history immortality.",
+  "context": "In Cicero's dialogue on the ideal orator, Antonius argues that only an orator's voice can give history immortality. The line is On the Orator 2.36, written in 55 BC. Cicero's full list calls history the witness of the times, light of truth, life of memory, teacher of life and messenger of antiquity.",
   "person": "Marcus Tullius Cicero",
   "source": {
    "work": "De Oratore",
@@ -5001,7 +5043,8 @@
   "learn_more": {
    "label": "De Oratore",
    "url": "https://en.wikipedia.org/wiki/De_Oratore"
-  }
+  },
+  "context_original": "In Cicero's dialogue on the ideal orator, Antonius argues that only an orator's voice can give history immortality."
  },
  {
   "id": "q-virgil-musa",
@@ -5010,7 +5053,7 @@
   "unit": 5,
   "latin": "Mūsa, mihi causās memorā.",
   "translation": "Muse, tell me the reasons.",
-  "context": "Virgil calls on the Muse to explain why Juno, queen of the gods, hounded the dutiful Aeneas through so many disasters.",
+  "context": "Virgil calls on the Muse to explain why Juno, queen of the gods, hounded the dutiful Aeneas through so many disasters. The line is Aeneid 1.8. Like Homer, Virgil opens by calling on the Muse. Memorā is an imperative: 'tell, recall'. Mihi is dative, 'to me'.",
   "person": "Publius Vergilius Maro",
   "source": {
    "work": "Aeneid",
@@ -5094,7 +5137,8 @@
   "learn_more": {
    "label": "Aeneid",
    "url": "https://en.wikipedia.org/wiki/Aeneid"
-  }
+  },
+  "context_original": "Virgil calls on the Muse to explain why Juno, queen of the gods, hounded the dutiful Aeneas through so many disasters."
  },
  {
   "id": "q-virgil-facilis",
@@ -5103,7 +5147,7 @@
   "unit": 5,
   "latin": "Facilis dēscēnsus Avernō.",
   "translation": "The descent to Avernus is easy.",
-  "context": "The Sibyl of Cumae warns Aeneas: going down to the underworld is easy, the door of Dis stands open night and day. Coming back up is the real labour.",
+  "context": "The Sibyl of Cumae warns Aeneas: going down to the underworld is easy, the door of Dis stands open night and day. Coming back up is the real labour. These lines are Aeneid 6.126–129. Avernus, a crater lake near Naples, was believed to be an entrance to the underworld. The phrase facilis dēscēnsus Avernō is still used for any easy slide into trouble.",
   "person": "Publius Vergilius Maro (speech of the Sibyl)",
   "source": {
    "work": "Aeneid",
@@ -5177,7 +5221,8 @@
   "learn_more": {
    "label": "Lake Avernus",
    "url": "https://en.wikipedia.org/wiki/Lake_Avernus"
-  }
+  },
+  "context_original": "The Sibyl of Cumae warns Aeneas: going down to the underworld is easy, the door of Dis stands open night and day. Coming back up is the real labour."
  },
  {
   "id": "q-ovid-gutta",
@@ -5186,7 +5231,7 @@
   "unit": 7,
   "latin": "Gutta cavat lapidem, cōnsūmitur ānulus ūsū.",
   "translation": "A drop hollows out stone; a ring is worn away by use.",
-  "context": "Writing from exile on the Black Sea, Ovid tells his friend Albinovanus that everything wears down in time, except his own suffering.",
+  "context": "Writing from exile on the Black Sea, Ovid tells his friend Albinovanus that everything wears down in time, except his own suffering. These lines are from Letters from the Black Sea (Ex Ponto 4.10.5). Augustus exiled Ovid in AD 8 to Tomis, now Constanța in Romania, for 'a poem and a mistake'; he died there.",
   "person": "Publius Ovidius Naso",
   "source": {
    "work": "Epistulae ex Ponto",
@@ -5285,7 +5330,8 @@
   "learn_more": {
    "label": "Epistulae ex Ponto",
    "url": "https://en.wikipedia.org/wiki/Epistulae_ex_Ponto"
-  }
+  },
+  "context_original": "Writing from exile on the Black Sea, Ovid tells his friend Albinovanus that everything wears down in time, except his own suffering."
  },
  {
   "id": "i-rib-flavinus",
@@ -5294,7 +5340,7 @@
   "unit": 3,
   "latin": "Dīs Mānibus. Flāvīnus, eq(ues) ālae Petr(iānae), signifer, tur(ma) Candidī, an(nōrum) XXV, stīp(endiōrum) VII, h(īc) s(itus) (est).",
   "translation": "To the spirits of the departed: Flavinus, trooper of the cavalry regiment Petriana, standard-bearer, from the troop of Candidus, aged 25, of 7 years' service, lies buried here.",
-  "context": "A 25-year-old standard-bearer rides down a barbarian on his tombstone, now in Hexham Abbey near Hadrian's Wall. Its formula became a pattern for whole careers.",
+  "context": "A 25-year-old standard-bearer rides down a barbarian on his tombstone, now in Hexham Abbey near Hadrian's Wall. Its formula became a pattern for whole careers. Flavinus served in the cavalry regiment ala Petriana; his stone (RIB 1172) dates to the late 1st century AD. Images of a rider trampling a fallen enemy were a standard design for Roman cavalry tombstones.",
   "person": "Tombstone of Flavinus",
   "source": {
    "work": "Tombstone, Hexham Abbey (RIB 1172)",
@@ -5456,7 +5502,8 @@
   "learn_more": {
    "label": "Tombstone of Flavinus (RIB 1172)",
    "url": "https://romaninscriptionsofbritain.org/inscriptions/1172"
-  }
+  },
+  "context_original": "A 25-year-old standard-bearer rides down a barbarian on his tombstone, now in Hexham Abbey near Hadrian's Wall. Its formula became a pattern for whole careers."
  },
  {
   "id": "i-pompeii-successus",
@@ -5465,7 +5512,7 @@
   "unit": 3,
   "latin": "Successus textor amat cōpōnae ancillam nōmine Hiredem …",
   "translation": "Successus the weaver loves the innkeeper's slave-girl, named Iris …",
-  "context": "The start of a Pompeian love-triangle on a wall: a rival answers underneath, mocking Successus. Real people, real handwriting, ordinary Latin.",
+  "context": "The start of a Pompeian love-triangle on a wall: a rival answers underneath, mocking Successus. Real people, real handwriting, ordinary Latin. The graffito was found in a house in Pompeii. Graffiti like this show the everyday Latin of shopkeepers and workers, including spelling mistakes that reveal how the language was actually spoken.",
   "person": "Anonymous graffito, Pompeii",
   "source": {
    "work": "Graffito, Pompeii, Vicolo del Menandro (I.10.1-8)",
@@ -5578,7 +5625,8 @@
   "learn_more": {
    "label": "Graffito CIL IV 8259 (AGP)",
    "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR175589"
-  }
+  },
+  "context_original": "The start of a Pompeian love-triangle on a wall: a rival answers underneath, mocking Successus. Real people, real handwriting, ordinary Latin."
  },
  {
   "id": "c-brutus-eidmar",
@@ -5587,7 +5635,7 @@
   "unit": 5,
   "latin": "EID·MAR — Īdibus Mārtiīs",
   "translation": "On the Ides of March",
-  "context": "Brutus put this on a silver coin after murdering Caesar: a freedman's cap between two daggers, and the date of the deed. Propaganda you could hold in your hand.",
+  "context": "Brutus put this on a silver coin after murdering Caesar: a freedman's cap between two daggers, and the date of the deed. Propaganda you could hold in your hand. EID MAR is short for Eīdibus Mārtiīs, 'on the Ides of March', 15 March 44 BC. The cap (pilleus) was given to freed slaves, so the coin claims the murder freed Rome. Only about a hundred of these coins are known.",
   "person": "Marcus Junius Brutus",
   "source": {
    "work": "Coin legend, denarius of Brutus (Crawford, RRC 508/3)",
@@ -5661,7 +5709,8 @@
   "learn_more": {
    "label": "Ides of March coin",
    "url": "https://en.wikipedia.org/wiki/Ides_of_March_coin"
-  }
+  },
+  "context_original": "Brutus put this on a silver coin after murdering Caesar: a freedman's cap between two daggers, and the date of the deed. Propaganda you could hold in your hand."
  },
  {
   "id": "c-octavian-aegypto",
@@ -5670,7 +5719,7 @@
   "unit": 6,
   "latin": "AEGVPTO·CAPTA — Aegyptō captā",
   "translation": "Egypt having been captured",
-  "context": "After defeating Antony and Cleopatra, Octavian struck coins showing a crocodile, symbol of Egypt, now a Roman possession.",
+  "context": "After defeating Antony and Cleopatra, Octavian struck coins showing a crocodile, symbol of Egypt, now a Roman possession. The coins carry the legend AEGVPTO CAPTA, an ablative absolute: 'Egypt having been captured'. Antony and Cleopatra died in 30 BC after their defeat at Actium the year before.",
   "person": "Octavian (Augustus)",
   "source": {
    "work": "Coin legend, denarius of Octavian (RIC I² 275a)",
@@ -5740,7 +5789,8 @@
   "learn_more": {
    "label": "Coins of Augustus",
    "url": "https://en.wikipedia.org/wiki/Coins_of_Augustus"
-  }
+  },
+  "context_original": "After defeating Antony and Cleopatra, Octavian struck coins showing a crocodile, symbol of Egypt, now a Roman possession."
  },
  {
   "id": "q-catullus-vivamus",
@@ -5749,7 +5799,7 @@
   "unit": 7,
   "latin": "Vīvāmus, mea Lesbia, atque amēmus.",
   "translation": "Let us live, my Lesbia, and let us love.",
-  "context": "Catullus opens his most famous love poem: ignore the gossip of grumpy old men. Suns can set and rise; for us, once our brief light sets, there is one endless night to sleep. So kiss me.",
+  "context": "Catullus opens his most famous love poem: ignore the gossip of grumpy old men. Suns can set and rise; for us, once our brief light sets, there is one endless night to sleep. So kiss me. Vīvāmus and amēmus are subjunctives of exhortation: 'let us live, let us love'. The poem (Catullus 5) goes on to demand a thousand kisses, then a hundred, then a thousand more.",
   "person": "Gaius Valerius Catullus",
   "source": {
    "work": "Carmina",
@@ -5832,7 +5882,8 @@
   "learn_more": {
    "label": "Catullus 5",
    "url": "https://en.wikipedia.org/wiki/Catullus_5"
-  }
+  },
+  "context_original": "Catullus opens his most famous love poem: ignore the gossip of grumpy old men. Suns can set and rise; for us, once our brief light sets, there is one endless night to sleep. So kiss me."
  },
  {
   "id": "q-ovid-expedit",
@@ -5841,7 +5892,7 @@
   "unit": 5,
   "latin": "Expedit esse deōs, et, ut expedit, esse putēmus.",
   "translation": "It is useful that there are gods, and, since it is useful, let us believe they exist.",
-  "context": "In his cheeky handbook on love, Ovid shrugs at piety: believing in gods is convenient, so let us offer incense. A sceptical Roman voice for the Gods unit.",
+  "context": "In his cheeky handbook on love, Ovid shrugs at piety: believing in gods is convenient, so let us offer incense. A sceptical Roman voice for the Gods unit. The line is Art of Love 1.637. Ovid's playful, irreverent love poetry may have been part of the reason Augustus banished him. Expedit, 'it is useful', is an impersonal verb.",
   "person": "Publius Ovidius Naso",
   "source": {
    "work": "Ars Amatoria",
@@ -5955,7 +6006,8 @@
    "url": "https://en.wikipedia.org/wiki/Ars_Amatoria"
   },
   "bonus": true,
-  "bonus_set": "Lege plūra"
+  "bonus_set": "Lege plūra",
+  "context_original": "In his cheeky handbook on love, Ovid shrugs at piety: believing in gods is convenient, so let us offer incense. A sceptical Roman voice for the Gods unit."
  },
  {
   "id": "q-seneca-differtur",
@@ -5964,7 +6016,7 @@
   "unit": 8,
   "latin": "Dum differtur, vīta trānscurrit.",
   "translation": "While it is put off, life runs past.",
-  "context": "Seneca warns Lucilius that if he keeps waiting for tomorrow, his whole life will slip past while he waits.",
+  "context": "Seneca warns Lucilius that if he keeps waiting for tomorrow, his whole life will slip past while he waits. The line is Letter 1.3. Seneca's point is that delay is the greatest waste of life. Differtur is passive, 'it is put off'; dum means 'while'.",
   "person": "Lucius Annaeus Seneca",
   "source": {
    "work": "Epistulae Morales",
@@ -6045,7 +6097,8 @@
   "learn_more": {
    "label": "Memento mori",
    "url": "https://en.wikipedia.org/wiki/Memento_mori"
-  }
+  },
+  "context_original": "Seneca warns Lucilius that if he keeps waiting for tomorrow, his whole life will slip past while he waits."
  },
  {
   "id": "q-cicero-cedant",
@@ -6054,7 +6107,7 @@
   "unit": 4,
   "latin": "Cēdant arma togae, concēdat laurea laudī.",
   "translation": "Let arms yield to the toga, let the laurel give way to praise.",
-  "context": "Cicero quotes his own verse about his consulship: civilian leadership in the toga should rank above military glory. Critics mocked the line.",
+  "context": "Cicero quotes his own verse about his consulship: civilian leadership in the toga should rank above military glory. Critics mocked the line. The line is from Cicero's poem On His Consulship, quoted in On Duties (1.77). It celebrates how he crushed Catiline's conspiracy in 63 BC as a civilian. Cedant is a subjunctive of wish: 'let them yield'.",
   "person": "Marcus Tullius Cicero",
   "source": {
    "work": "De Officiis",
@@ -6149,7 +6202,8 @@
   "learn_more": {
    "label": "De Officiis",
    "url": "https://en.wikipedia.org/wiki/De_Officiis"
-  }
+  },
+  "context_original": "Cicero quotes his own verse about his consulship: civilian leadership in the toga should rank above military glory. Critics mocked the line."
  },
  {
   "id": "q-cicero-quousque",
@@ -6158,7 +6212,7 @@
   "unit": 4,
   "latin": "Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?",
   "translation": "How long, Catiline, will you go on abusing our patience?",
-  "context": "The opening line of Cicero's first speech against Catiline. He launched straight into it in front of the Senate, with the conspirator sitting in the room.",
+  "context": "The opening line of Cicero's first speech against Catiline. He launched straight into it in front of the Senate, with the conspirator sitting in the room. Cicero gave the speech on 8 November 63 BC in the Temple of Jupiter Stator; Catiline left Rome that night. Abūtēre is a future second-person form of the deponent abūtor, 'abuse'.",
   "person": "Marcus Tullius Cicero",
   "source": {
    "work": "In Catilinam I",
@@ -6265,7 +6319,8 @@
   "learn_more": {
    "label": "Catilinarian Orations",
    "url": "https://en.wikipedia.org/wiki/Catilinarian_Orations"
-  }
+  },
+  "context_original": "The opening line of Cicero's first speech against Catiline. He launched straight into it in front of the Senate, with the conspirator sitting in the room."
  },
  {
   "id": "q-suetonius-alea",
@@ -6274,7 +6329,7 @@
   "unit": 6,
   "latin": "Iacta ālea est.",
   "translation": "The die is cast.",
-  "context": "Crossing the Rubicon in January 49 BC meant civil war. Suetonius reports these words; Plutarch says Caesar spoke a Greek proverb instead.",
+  "context": "Crossing the Rubicon in January 49 BC meant civil war. Suetonius reports these words; Plutarch says Caesar spoke a Greek proverb instead. The Rubicon was a small river marking the boundary between Cisalpine Gaul and Italy; bringing an army across it was treason. Iacta est is a perfect passive: 'has been thrown'. Ālea is a die, as in a game of dice.",
   "person": "Gaius Julius Caesar (reported by Suetonius)",
   "source": {
    "work": "Suetonius, Divus Iulius",
@@ -6350,7 +6405,8 @@
   "learn_more": {
    "label": "Alea iacta est",
    "url": "https://en.wikipedia.org/wiki/Alea_iacta_est"
-  }
+  },
+  "context_original": "Crossing the Rubicon in January 49 BC meant civil war. Suetonius reports these words; Plutarch says Caesar spoke a Greek proverb instead."
  },
  {
   "id": "q-virgil-tantae",
@@ -6359,7 +6415,7 @@
   "unit": 6,
   "latin": "Tantae mōlis erat Rōmānam condere gentem!",
   "translation": "So great a labour it was to found the Roman people!",
-  "context": "Virgil sums up seven years of wandering for Aeneas and the Trojans. Founding Rome was a huge, painful effort.",
+  "context": "Virgil sums up seven years of wandering for Aeneas and the Trojans. Founding Rome was a huge, painful effort. This is Aeneid 1.33, the line that ends Virgil's opening section. Mōlis is genitive with tantae: '(a matter) of so great effort'. Condere means 'to found', as in ab urbe conditā.",
   "person": "Publius Vergilius Maro",
   "source": {
    "work": "Aeneid",
@@ -6460,7 +6516,8 @@
   "learn_more": {
    "label": "Aeneid",
    "url": "https://en.wikipedia.org/wiki/Aeneid"
-  }
+  },
+  "context_original": "Virgil sums up seven years of wandering for Aeneas and the Trojans. Founding Rome was a huge, painful effort."
  },
  {
   "id": "q-juvenal-panem",
@@ -6469,7 +6526,7 @@
   "unit": 6,
   "latin": "… duās tantum rēs ānxius optat, pānem et circēnsēs.",
   "translation": "… it anxiously longs for just two things: bread and circuses.",
-  "context": "Juvenal sneers that the Roman people (populus is the subject of optat), who once handed out commands and legions, now want only free grain and chariot races.",
+  "context": "Juvenal sneers that the Roman people (populus is the subject of optat), who once handed out commands and legions, now want only free grain and chariot races. The line is Satire 10.81. Free grain and chariot races in the Circus Maximus were indeed how emperors kept the city crowd content. Circēnsēs means 'circus games'.",
   "person": "Decimus Iunius Iuvenalis",
   "source": {
    "work": "Satires",
@@ -6579,7 +6636,8 @@
   "learn_more": {
    "label": "Bread and circuses",
    "url": "https://en.wikipedia.org/wiki/Bread_and_circuses"
-  }
+  },
+  "context_original": "Juvenal sneers that the Roman people (populus is the subject of optat), who once handed out commands and legions, now want only free grain and chariot races."
  },
  {
   "id": "q-lucretius-religio",
@@ -6588,7 +6646,7 @@
   "unit": 8,
   "latin": "Tantum religiō potuit suādēre malōrum.",
   "translation": "So great the evils that religion could prompt.",
-  "context": "After telling how Agamemnon sacrificed his daughter Iphigenia for a fair wind, the Epicurean poet Lucretius delivers this one-line verdict.",
+  "context": "After telling how Agamemnon sacrificed his daughter Iphigenia for a fair wind, the Epicurean poet Lucretius delivers this one-line verdict. The line is On the Nature of Things 1.101, from the 50s BC. Lucretius wanted to free readers from fear of the gods and death by explaining the world as atoms and void. Potuit, 'was able', takes the infinitive suādēre.",
   "person": "Titus Lucretius Carus",
   "source": {
    "work": "De Rerum Natura",
@@ -6676,7 +6734,8 @@
   "learn_more": {
    "label": "De rerum natura",
    "url": "https://en.wikipedia.org/wiki/De_rerum_natura"
-  }
+  },
+  "context_original": "After telling how Agamemnon sacrificed his daughter Iphigenia for a fair wind, the Epicurean poet Lucretius delivers this one-line verdict."
  },
  {
   "id": "q-ovid-edax",
@@ -6685,7 +6744,7 @@
   "unit": 7,
   "latin": "Tempus edāx rērum, tūque, invidiōsa vetustās, omnia dēstruitis.",
   "translation": "Time, devourer of things, and you, envious old age, you destroy everything.",
-  "context": "In the Metamorphoses' last book, Pythagoras preaches that everything changes. Even Helen weeps in her mirror at her wrinkles.",
+  "context": "In the Metamorphoses' last book, Pythagoras preaches that everything changes. Even Helen weeps in her mirror at her wrinkles. These lines are Metamorphoses 15.234. The poem, finished around AD 8, tells about 250 myths of transformation. Edāx, 'devouring', comes from edere, 'to eat'.",
   "person": "Publius Ovidius Naso",
   "source": {
    "work": "Metamorphoses",
@@ -6805,7 +6864,8 @@
   "learn_more": {
    "label": "Metamorphoses",
    "url": "https://en.wikipedia.org/wiki/Metamorphoses"
-  }
+  },
+  "context_original": "In the Metamorphoses' last book, Pythagoras preaches that everything changes. Even Helen weeps in her mirror at her wrinkles."
  },
  {
   "id": "q-livy-vae",
@@ -6814,7 +6874,7 @@
   "unit": 4,
   "latin": "Vae victīs!",
   "translation": "Woe to the conquered!",
-  "context": "After sacking Rome around 390 BC, the Gallic chief Brennus threw his sword onto the scales as the Romans weighed out their ransom in gold.",
+  "context": "After sacking Rome around 390 BC, the Gallic chief Brennus threw his sword onto the scales as the Romans weighed out their ransom in gold. Livy tells the story in his history of Rome (5.48). The Gallic sack, around 390 BC, left the Romans with a lasting fear of invasion. Vae victīs: vae, 'woe', takes the dative, 'to the conquered'.",
   "person": "Brennus (reported by Livy)",
   "source": {
    "work": "Ab Urbe Condita",
@@ -6880,7 +6940,8 @@
   "learn_more": {
    "label": "Brennus (4th century BC)",
    "url": "https://en.wikipedia.org/wiki/Brennus_(4th_century_BC)"
-  }
+  },
+  "context_original": "After sacking Rome around 390 BC, the Gallic chief Brennus threw his sword onto the scales as the Romans weighed out their ransom in gold."
  },
  {
   "id": "q-horace-exegi",
@@ -6889,7 +6950,7 @@
   "unit": 7,
   "latin": "Exēgī monumentum aere perennius.",
   "translation": "I have finished a monument more lasting than bronze.",
-  "context": "Horace closes his three books of Odes by boasting that his poetry will outlast the pyramids. Two thousand years later, he is still right.",
+  "context": "Horace closes his three books of Odes by boasting that his poetry will outlast the pyramids. Two thousand years later, he is still right. This is Odes 3.30.1, written about 23 BC. Exēgī is the perfect of exigō, 'I have completed'. Aere perennius uses a comparative with the ablative: 'more lasting than bronze'.",
   "person": "Quintus Horatius Flaccus",
   "source": {
    "work": "Odes",
@@ -6972,7 +7033,8 @@
   "learn_more": {
    "label": "Odes (Horace)",
    "url": "https://en.wikipedia.org/wiki/Odes_(Horace)"
-  }
+  },
+  "context_original": "Horace closes his three books of Odes by boasting that his poetry will outlast the pyramids. Two thousand years later, he is still right."
  },
  {
   "id": "i-pompeii-admiror",
@@ -6981,7 +7043,7 @@
   "unit": 8,
   "latin": "Admīror, ō pariēs, tē nōn cecidisse ruīnīs, quī tot scrīptōrum taedia sustineās.",
   "translation": "I'm amazed, O wall, that you haven't collapsed in ruins, since you hold up the tedious scribbles of so many writers.",
-  "context": "A Pompeian wrote this joke couplet, in verse, about graffiti, on a wall already covered in graffiti. Copies were found in at least three places in the town.",
+  "context": "A Pompeian wrote this joke couplet, in verse, about graffiti, on a wall already covered in graffiti. Copies were found in at least three places in the town. The couplet (CIL IV 1904 and copies) is a joke that the wall has not collapsed under the weight of so many writers' 'boredom'. Admīror is a deponent verb: passive form, active meaning.",
   "person": "Anonymous graffito, Pompeii",
   "source": {
    "work": "Graffito, Pompeii, Basilica (VIII.1.1)",
@@ -7137,7 +7199,8 @@
   "learn_more": {
    "label": "Graffito CIL IV 1904 (AGP)",
    "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR158840"
-  }
+  },
+  "context_original": "A Pompeian wrote this joke couplet, in verse, about graffiti, on a wall already covered in graffiti. Copies were found in at least three places in the town."
  },
  {
   "id": "i-rib-regina",
@@ -7146,7 +7209,7 @@
   "unit": 4,
   "latin": "D(īs) M(ānibus). Rēgīna līberta et coniuge Baratēs Palmyrēnus nātiōne Catuallauna an(nōrum) XXX.",
   "translation": "To the spirits of the departed: Regina, his freedwoman and wife, a Catuvellaunian by tribe, aged 30. Barates of Palmyra (set this up).",
-  "context": "A Syrian trader from Palmyra freed and married Regina, a British woman. He set up her tombstone at South Shields. Below the Latin he added a line in his own Palmyrene Aramaic.",
+  "context": "A Syrian trader from Palmyra freed and married Regina, a British woman. He set up her tombstone at South Shields. Below the Latin he added a line in his own Palmyrene Aramaic. The stone (RIB 1065), from the late 2nd century AD, shows Regina seated with her spindle and jewellery box. Her husband Barates came from Palmyra in Syria, showing how far people travelled across the empire.",
   "person": "Barates of Palmyra",
   "source": {
    "work": "Tombstone, South Shields (RIB 1065)",
@@ -7291,6 +7354,7 @@
   "learn_more": {
    "label": "Regina tombstone (RIB 1065)",
    "url": "https://romaninscriptionsofbritain.org/inscriptions/1065"
-  }
+  },
+  "context_original": "A Syrian trader from Palmyra freed and married Regina, a British woman. He set up her tombstone at South Shields. Below the Latin he added a line in his own Palmyrene Aramaic."
  }
 ]

@@ -37,7 +37,7 @@
    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
    "source": "https://commons.wikimedia.org/wiki/File:La-cls-de-bello-gallico.ogg",
    "changes": "trimmed 0.00-7.99 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 1.0
+   "asr_coverage": 0.86
   },
   {
    "file": "gallia-est-omnis-ecclesiastical.mp3",
@@ -48,7 +48,7 @@
    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
    "source": "https://commons.wikimedia.org/wiki/File:La-ecc-de-bello-gallico.ogg",
    "changes": "trimmed 0.00-8.24 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 0.86
+   "asr_coverage": 1.0
   },
   {
    "file": "gallia-est-omnis-librivox.mp3",
@@ -59,7 +59,7 @@
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://archive.org/download/bellum_gallicum_1210_librivox/bellumgallicum_01_caesar_64kb.mp3",
    "changes": "trimmed 29.90-33.85 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 1.0,
+   "asr_coverage": 0.86,
    "asr_override": "medium/la heard \"Galia est omnis divisa in partes tres\" (repeated hallucination lowers score)."
   }
  ],
@@ -114,7 +114,7 @@
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3",
    "changes": "trimmed 1306.55-1310.97 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 0.5,
+   "asr_coverage": 0.67,
    "asr_override": "medium heard \"For Sareth I call him a medicine you wabbit\" = forsan et haec olim meminisse iuvabit (phonetic). Ear check."
   }
  ],
@@ -128,7 +128,7 @@
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_03_maro_64kb.mp3",
    "changes": "trimmed 331.71-337.81 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 1.0
+   "asr_coverage": 0.88
   }
  ],
  "q-virgil-fugit": [
@@ -154,7 +154,7 @@
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
    "changes": "trimmed 58.46-63.07 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 0.43,
+   "asr_coverage": 0.71,
    "asr_override": "medium heard \"Ita fac me Lucili, windy car te tibi\" = full line."
   }
  ],
@@ -181,7 +181,9 @@
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3",
    "changes": "trimmed 154.61-161.05 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 0.75
+   "asr_coverage": 0.75,
+   "caption": "The reader’s edition has “Omnia, mī Lūcīlī…” (with mī); the card omits mī.",
+   "asr_override": "medium heard \"Omnia, mi Lucili, aliena sunt, tempus tantum nostrum est\" — complete."
   }
  ],
  "q-seneca-nusquam": [
@@ -220,7 +222,7 @@
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://archive.org/download/regula_sancti_benedicti_1512_librivox/regulasanctibenedicti_01_benedictofnursia_64kb.mp3",
    "changes": "trimmed 30.43-37.10 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 1.0,
+   "asr_coverage": 0.9,
    "caption": "The reader says “Ausculta”; the card prints the manuscript spelling “Obscultā”. Same word: “listen”.",
    "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical."
   }
@@ -249,7 +251,7 @@
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://archive.org/download/confessionsofaugustine_1310_librivox/confessionumlibritredecim_01_augustinus_64kb.mp3",
    "changes": "trimmed 70.04-76.07 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 1.0,
+   "asr_coverage": 0.92,
    "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical.",
    "asr_override": "medium heard \"(fe)cisti nos ad te, et inquietum est cor nostrum, donec requiescat in te\"; quia removed."
   }
@@ -353,7 +355,7 @@
    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
    "source": "https://commons.wikimedia.org/wiki/File:Dies.irae.ogg",
    "changes": "trimmed 0.79-18.43 s of source, loudness-normalised, converted to mp3",
-   "asr_coverage": 1.0,
+   "asr_coverage": 0.88,
    "register_note": "Church-register card: the recording uses ecclesiastical (Italianate) pronunciation; the app default is restored classical.",
    "note": "Sung Gregorian chant, not speech."
   }

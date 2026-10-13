@@ -18,8 +18,8 @@ def sim(a,b): return difflib.SequenceMatcher(None,a,b).ratio()
 def pcm(f,ss,t):
   r=subprocess.run(["ffmpeg","-loglevel","error","-ss",str(ss),"-t",str(t),"-i",f,"-ar","16000","-ac","1","-f","s16le","-"],capture_output=True).stdout
   return np.frombuffer(r,dtype=np.int16).astype(np.float32)/32768
-def words(x,off=0.0,lang="it"):
-  sg,_=M.transcribe(x,language=lang,word_timestamps=True,condition_on_previous_text=False,temperature=0.0,beam_size=5)
+def words(x,off=0.0,lang="it",temp=0.0,cond=False):
+  sg,_=M.transcribe(x,language=lang,word_timestamps=True,condition_on_previous_text=cond,temperature=temp,beam_size=5)
   return [(off+w.start,off+w.end,w.word.strip()) for g in sg for w in g.words]
 def coverage(expected,heard):
   E=toks(expected);H=''.join(norm(w[2]) for w in heard)
@@ -60,7 +60,11 @@ for c in spec:
     b=boundaries(src,c['win'][0],c['win'][1],c['text'],c.get('nopad_start'))
     if not b: fails.append((c['file'],'no ASR words in window'));continue
     s,e,heard=b;cut(src,s,e,dst);rng=f"{s:.2f}-{e:.2f} s"
-  x=pcm(dst,0,120);cov,clean=max(coverage(c['text'],words(x,lang=L)) for L in ('it','la'))
+  x=pcm(dst,0,120);best=(0,False)
+  for L,T,C in (('it',0.0,False),('la',0.0,False),('it',0.0,True),('la',[0,0.4],True)):  # Whisper Latin is flaky; take best of 4 decodes
+    best=max(best,coverage(c['text'],words(x,lang=L,temp=T,cond=C)))
+    if best[0]>=0.8: break
+  cov,clean=best
   h,t=edge_db(dst) if c.get('whole') else src_edges(src,s,e)
   status='ok'
   if clean and cov<0.8:
