@@ -146,6 +146,11 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 #psec,#nsec{min-width:44px;font-size:1.4rem;line-height:1}
 #pill{display:inline-flex;align-items:center;gap:8px;padding:0 10px;min-width:170px;justify-content:center;border-radius:99px;letter-spacing:.08em}
 #pill .lau{font-size:1rem}
+.latin,.la-b,.say,.ipa-b{padding-inline:3%!important}
+.latin,.la-b,.say,.ipa-b,.tr,.ctx,.src,.meta,.lm,.fine{overflow-wrap:anywhere;word-break:normal;min-width:0;max-width:100%}
+@media (max-height:700px){header{height:calc(env(safe-area-inset-top) + 60px)}header h1{font-size:1.7rem}
+.latin{font-size:1.4rem}.latin.mid{font-size:1.15rem}.latin.long{font-size:.95rem}.latin.xlong{font-size:.78rem}.say{font-size:.85rem}
+.la-b{font-size:.95rem}.la-b.long{font-size:.72rem}.back .tr{font-size:.95rem}.back .tr.long{font-size:.78rem}.ipa-b{font-size:.7rem}.back{padding:12px 14px 10px}}
 </style></head><body>
 <header><h1 id="logo" role="button" tabindex="0" aria-label="Lingua: choose a section">LINGUA</h1></header>
 <main class="deck" id="deck" aria-label="Cards"></main>
@@ -166,8 +171,9 @@ function art(im,c){
   if(im.kind==="manuscript") return `<div class="tornwrap"><img onerror="imgFail(this)" class="frame torn" ${a}></div>`;
   return `<img onerror="imgFail(this)" class="frame arch" ${a}>`;
 }
+const brk=h=>h.replace(/([·\/—–-])(?=\S)/g,"$1<wbr>");
 function latinHTML(c){
-  if(mode!=="learn"||!c.gloss) return esc(c.latin);
+  if(mode!=="learn"||!c.gloss) return brk(esc(c.latin));
   let out=esc(c.latin);
   const gs=[...c.gloss];
   return c.latin.split(/(\s+)/).map(tok=>{
@@ -206,7 +212,7 @@ function render(){
   <div class="face back" aria-hidden="true" inert>
    <div class="meta" style="justify-content:flex-start"><span class="era">${ERA[c.era]||c.era}</span></div>
    ${P(c)&&c.latin.length<=110?`<div class="ipa-b" aria-label="IPA">${esc(P(c).ipa)}</div>`:""}
-   <div class="la-b${c.latin.length>110?" long":""}" lang="la">${esc(c.latin)}</div>
+   <div class="la-b${c.latin.length>110?" long":""}" lang="la">${brk(esc(c.latin))}</div>
    <div class="tr${c.translation.length>120?" long":""}">“${esc(c.translation)}”</div>
    ${LM(c)?`<a class="lm" href="${esc(LM(c).url)}" target="_blank" rel="noopener">Learn more: ${esc(String(LM(c).label||"read about it").replace(/\s*[—(-]\s*Wikipedia\)?$/,""))} ↗</a>`:""}
    <div class="ctx">${esc(c.context)}</div>
@@ -242,13 +248,16 @@ function render(){
     el.addEventListener("keydown",e=>{if(e.target!==el)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();t()}});
   });
 }
-function fitBacks(){document.querySelectorAll(".back").forEach(bk=>{const cx=bk.querySelector(".ctx");if(!cx)return;
+function fitWide(){document.querySelectorAll(".face").forEach(fc=>{const W=fc.clientWidth-36;
+  fc.querySelectorAll(".latin,.la-b,.say,.ipa-b").forEach(el=>{let fs=parseFloat(getComputedStyle(el).fontSize),n=0;
+    while(el.scrollWidth>el.clientWidth+1&&n++<12){fs*=.94;el.style.fontSize=fs+"px"}})})}
+function fitBacks(){fitWide();document.querySelectorAll(".back").forEach(bk=>{const cx=bk.querySelector(".ctx");if(!cx)return;
   const kids=[...bk.children].filter(e=>e.offsetHeight>0);const k=kids.length;
   const cs=getComputedStyle(bk),inner=bk.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
   const used=()=>kids.reduce((t,e)=>t+e.offsetHeight,0);
   const fits=g=>used()+(k-1)*g<=inner;
   let f=.92;cx.style.fontSize=f+"rem";cx.classList.remove("clamp");
-  while(!fits(7)&&f>.76){f-=.02;cx.style.fontSize=f+"rem"}
+  while(!fits(7)&&f>(innerHeight<700?.68:.76)){f-=.02;cx.style.fontSize=f+"rem"}
   if(!fits(7)){const lh=parseFloat(getComputedStyle(cx).lineHeight)||14,over=used()+(k-1)*7-inner;cx.style.setProperty("--cl",Math.max(2,Math.floor((cx.offsetHeight-over)/lh)));cx.classList.add("clamp")}
   else{while(f<1.12){f+=.02;cx.style.fontSize=f+"rem";if(!fits(32)){f-=.02;cx.style.fontSize=f+"rem";break}}}
   const g=Math.max(7,Math.min(32,(inner-used())/(k-1)));bk.style.setProperty("--g",g+"px")})}
