@@ -10,7 +10,7 @@ try:
 except Exception as e:
     print("schema unavailable:", e); V = None
 bad = 0; total = 0
-for f in ["rome-cards", "medieval-cards", "learning-cards"]:
+for f in ["rome-cards", "medieval-cards", "learning-cards"] + [x for x in ("batch4-cards", "batch5-cards") if os.path.exists(f"content/{x}.json")]:
     cards = json.load(open(f"content/{f}.json"))  # parse errors abort
     for c in cards:
         total += 1

@@ -124,6 +124,36 @@
   "ambiguous": []
  },
  {
+  "id": "q-hadrian-animula",
+  "file": "batch4-cards.json",
+  "latin": "Animula vagula blandula, hospes comesque corporis",
+  "no_macrons_at_all": true,
+  "lexicon_fixed": [],
+  "unverified": [
+   "Animula",
+   "vagula",
+   "blandula",
+   "hospes",
+   "comesque",
+   "corporis"
+  ],
+  "ambiguous": []
+ },
+ {
+  "id": "q-seneca-philologia",
+  "file": "batch5-cards.json",
+  "latin": "Quae philosophia fuit, facta philologia est.",
+  "no_macrons_at_all": true,
+  "lexicon_fixed": [],
+  "unverified": [
+   "philosophia",
+   "fuit",
+   "facta",
+   "philologia"
+  ],
+  "ambiguous": []
+ },
+ {
   "id": "q-augustine-tolle",
   "file": "cards.js",
   "latin": "Tolle, lege; tolle, lege.",

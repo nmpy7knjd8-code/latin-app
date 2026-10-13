@@ -273,14 +273,15 @@
   },
   "image": {
    "src": "img/rome/seneca.webp",
-   "alt": "\"Pseudo-Seneca\" head, British Museum (identity uncertain)",
+   "alt": "\"Pseudo-Seneca\" bronze head from the Villa of the Papyri, Herculaneum, Naples Archaeological Museum (identity uncertain), cut out",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
-   "license": "Public domain",
-   "credit": "British Museum · Unknown artistUnknown artist",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg",
-   "modified": "background removed (cut-out), cropped, resized"
+   "license": "CC BY 2.5",
+   "credit": "“Pseudo-Seneca MAN Napoli Inv5616 n01” by Marie-Lan Nguyen (Jastrow), CC BY 2.5 (https://creativecommons.org/licenses/by/2.5), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_MAN_Napoli_Inv5616_n01.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by/2.5"
   },
   "grammar_target": [
    "sum",

@@ -110,13 +110,13 @@
   "problems": []
  },
  "tab291": {
-  "file": "Vindolanda tablet 291.jpg",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "artist": "Fæ",
-  "credit_line": "Own work",
-  "usage": "Creative Commons Attribution-Share Alike 3.0",
-  "descurl": "https://commons.wikimedia.org/wiki/File:Vindolanda_tablet_291.jpg",
+  "file": "Dear Sulpicia Lepidina, will you come to my Birthday Party^ - geograph.org.uk - 2395433.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "artist": "Ashley Dace",
+  "credit_line": "Geograph Britain and Ireland",
+  "usage": "Creative Commons Attribution-Share Alike 2.0",
+  "descurl": "https://commons.wikimedia.org/wiki/File:Dear_Sulpicia_Lepidina,_will_you_come_to_my_Birthday_Party%5E_-_geograph.org.uk_-_2395433.jpg",
   "problems": []
  },
  "caesardeath": {
@@ -133,7 +133,7 @@
   "file": "Grupo de San Ildefonso (Museo del Prado) 02.jpg",
   "license": "CC BY-SA 3.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "artist": "School of Pasiteles",
+  "artist": "Luis García (Zaqarbal)",
   "credit_line": "Luis García (Zaqarbal), 9 July 2006.",
   "usage": "Creative Commons Attribution-Share Alike 3.0",
   "descurl": "https://commons.wikimedia.org/wiki/File:Grupo_de_San_Ildefonso_(Museo_del_Prado)_02.jpg",
@@ -143,20 +143,10 @@
   "file": "Vindolanda tablets 2.jpg",
   "license": "CC BY-SA 4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "artist": "Mike Peel (www.mikepeel.net)",
   "credit_line": "Own work",
   "usage": "Creative Commons Attribution-Share Alike 4.0",
   "descurl": "https://commons.wikimedia.org/wiki/File:Vindolanda_tablets_2.jpg",
-  "problems": []
- },
- "cupid": {
-  "file": "Fragment of Cupid statue-MHL on display 4-P4140237-white.jpg",
-  "license": "CC BY-SA 3.0 fr",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en",
-  "artist": "Rama",
-  "credit_line": "Own work",
-  "usage": "Creative Commons Attribution-Share Alike 3.0 fr",
-  "descurl": "https://commons.wikimedia.org/wiki/File:Fragment_of_Cupid_statue-MHL_on_display_4-P4140237-white.jpg",
   "problems": []
  },
  "vespasian": {
@@ -313,7 +303,7 @@
   "file": "Roman surgical instruments- Forceps etc. Wellcome M0004995.jpg",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0",
-  "artist": "",
+  "artist": "Wellcome Collection",
   "credit_line": "https://wellcomeimages.org/indexplus/obf_images/2f/27/7e65935109c7b1b952831ac187b6.jpg Gallery: https://wellcomeimages.org/indexplus/image/M0004995.html Wellcome Collection gallery (2018-04-02): https://wellcomecollection.org/works/yct99mnk CC-BY-4.0",
   "usage": "Creative Commons Attribution 4.0",
   "descurl": "https://commons.wikimedia.org/wiki/File:Roman_surgical_instruments-_Forceps_etc._Wellcome_M0004995.jpg",
@@ -323,7 +313,7 @@
   "file": "Vindolanda tablets.jpg",
   "license": "CC BY-SA 4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "artist": "Mike Peel (www.mikepeel.net)",
   "credit_line": "Own work",
   "usage": "Creative Commons Attribution-Share Alike 4.0",
   "descurl": "https://commons.wikimedia.org/wiki/File:Vindolanda_tablets.jpg",
@@ -333,7 +323,7 @@
   "file": "Fragment of Roman iron shears AD.50-410. Object consists of one of the blades, with its tip missing, of a set of shears, part of the handle-spring remains attached. (FindID 766337).jpg",
   "license": "CC BY 2.0",
   "license_url": "https://creativecommons.org/licenses/by/2.0",
-  "artist": "Museum of London, Edwin Wood, 2016-02-08 10:45:48",
+  "artist": "Museum of London, Edwin Wood (Portable Antiquities Scheme)",
   "credit_line": "https://finds.org.uk/database/ajax/download/id/552311Catalog: https://finds.org.uk/database/images/image/id/552311/recordtype/artefacts archive copy at the Wayback MachineArtefact: https://finds.org.uk/database/artefacts/record/id/766337",
   "usage": "Creative Commons Attribution 2.0",
   "descurl": "https://commons.wikimedia.org/wiki/File:Fragment_of_Roman_iron_shears_AD.50-410._Object_consists_of_one_of_the_blades,_with_its_tip_missing,_of_a_set_of_shears,_part_of_the_handle-spring_remains_attached._(FindID_766337).jpg",
@@ -343,7 +333,7 @@
   "file": "Grégoire de Tours, Histoire des Francs, livres 1 à 6, page de frontispice.jpg",
   "license": "Public domain",
   "license_url": "",
-  "artist": "Gregory of Tours",
+  "artist": "unknown illuminator",
   "credit_line": "Bibliothèque Nationale",
   "usage": "Public domain",
   "descurl": "https://commons.wikimedia.org/wiki/File:Gr%C3%A9goire_de_Tours,_Histoire_des_Francs,_livres_1_%C3%A0_6,_page_de_frontispice.jpg",
@@ -357,16 +347,6 @@
   "credit_line": "Original: Nuremberg Chronicle",
   "usage": "Public domain",
   "descurl": "https://commons.wikimedia.org/wiki/File:Juvenal_Nuremberg_Chronicle.jpg",
-  "problems": []
- },
- "livia": {
-  "file": "Roman Marble Bust of Empress Livia as Ceres, 30-50 AD (28117371144).jpg",
-  "license": "CC0",
-  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "artist": "Gary Todd from Xinzheng, China",
-  "credit_line": "Roman Marble Bust of Empress Livia as Ceres, 30-50 AD",
-  "usage": "Creative Commons Zero, Public Domain Dedication",
-  "descurl": "https://commons.wikimedia.org/wiki/File:Roman_Marble_Bust_of_Empress_Livia_as_Ceres,_30-50_AD_(28117371144).jpg",
   "problems": []
  },
  "eagle": {
@@ -497,6 +477,26 @@
   "credit_line": "https://www.e-codices.unifr.ch/en/list/one/bbb/0167",
   "usage": "Public domain",
   "descurl": "https://commons.wikimedia.org/wiki/File:Bern,_Burgerbibliothek,_Cod._167,_f._50r_%E2%80%93_Vergilius_Bucolica,_Georgica,_Aeneis_-_Scholia_Bernensia.JPG",
+  "problems": []
+ },
+ "cupid": {
+  "file": "Statue of Eros-Ra 184-P9020802-white.jpg",
+  "license": "CC BY-SA 3.0 fr",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en",
+  "artist": "Rama",
+  "credit_line": "Own work",
+  "usage": "Creative Commons Attribution-Share Alike 3.0 fr",
+  "descurl": "https://commons.wikimedia.org/wiki/File:Statue_of_Eros-Ra_184-P9020802-white.jpg",
+  "problems": []
+ },
+ "livia": {
+  "file": "Livia Drusilla, marble head from the Forum, Grumentum, Italy - 46460940185.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "artist": "Carole Raddato",
+  "credit_line": "https://www.flickr.com/photos/carolemage/46460940185/",
+  "usage": "Creative Commons Attribution-Share Alike 2.0",
+  "descurl": "https://commons.wikimedia.org/wiki/File:Livia_Drusilla,_marble_head_from_the_Forum,_Grumentum,_Italy_-_46460940185.jpg",
   "problems": []
  }
 }

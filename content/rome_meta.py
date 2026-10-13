@@ -11,7 +11,7 @@ TAUGHT={'nominative':1,'sum':1,'word_order':1,'abbreviations':1,'subject_verb':1
  'passive_voice':9,'perfect_passive':9,'participle':9,'present_participle':9,'participle_as_noun':9,
  'relative_clause':10}
 # beyond the 10-unit core: preview only
-for t in ['comparative','ablative_of_comparison','subjunctive','jussive_subjunctive','hortatory_subjunctive','gerundive','deponent','future_imperative','dum_clause','impersonal_verb','ablative_absolute','dative_of_direction','indirect_question','ablative_with_deponent','superlative','perfect_infinitive']: TAUGHT[t]=99
+for t in ['comparative','ablative_of_comparison','subjunctive','jussive_subjunctive','hortatory_subjunctive','gerundive','deponent','future_imperative','dum_clause','impersonal_verb','ablative_absolute','dative_of_direction','indirect_question','ablative_with_deponent','superlative','perfect_infinitive','pluperfect']: TAUGHT[t]=99
 TAUGHT['possum_infinitive']=8
 WP='https://en.wikipedia.org/wiki/'
 # id: (unit, target, preview, image_key, learn_more_label, learn_more_title)
@@ -90,7 +90,7 @@ IMGS={
 'muses':('Marble sarcophagus with the contest between the Muses and the Sirens MET DP138718.jpg','artifact','Sarcophagus with Muses and Sirens (relief strip)','CC0',MET,'2:1',False),
 'lamp':('Oil Lamp MET cop0414s1.jpg','artifact','Ancient clay oil lamp','CC0',MET,'4:3',True),
 'cup':('Glass cup MET DP203343.jpg','artifact','Roman glass cup','CC0',MET,'3:4',True),
-'seneca':('Pseudo-Seneca BM GR1962.8-24.1.jpg','statue_cutout','"Pseudo-Seneca" head, British Museum (identity uncertain)','Public domain','British Museum','3:4',True),
+'seneca':('Pseudo-Seneca MAN Napoli Inv5616 n01.jpg','statue_cutout','"Pseudo-Seneca" bronze head, Naples Archaeological Museum (identity uncertain)','CC BY 2.5','Marie-Lan Nguyen (Jastrow)','3:4',True),
 'memento':('Roman Mosaic Reminder of Death, from the House 1, 5, 2 in Pompeii (48451661416).jpg','painting','Pompeian memento-mori mosaic: skull, level and wheel','Public domain','Naples Archaeological Museum','3:4',False),
 'resgestae':('Res gestae divi Augusti, GD006036.jpg','inscription','Res Gestae text on the Temple of Augustus, Ankara','Public domain','Wikimedia Commons','4:3',False),
 'tablet':('Wax writing tablet with part of a Roman will.jpg','artifact','Roman wax writing tablet','CC0','Wikimedia Commons (CC0)','4:3',False),

@@ -104,7 +104,8 @@
    "enum": [
     "verified",
     "traditional",
-    "apocryphal"
+    "apocryphal",
+    "constructed"
    ]
   },
   "attribution_note": {
@@ -787,6 +788,7 @@
       "Getty Open Content",
       "CC BY 2.0",
       "CC BY 3.0",
+      "CC BY 2.5",
       "CC BY-SA 2.0",
       "CC BY-SA 2.5",
       "CC BY-SA 3.0"

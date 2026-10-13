@@ -30,7 +30,7 @@ IM={
  'muses':img('Marble sarcophagus with the contest between the Muses and the Sirens MET DP138718.jpg','artifact','Sarcophagus with Muses and Sirens, The Met','CC0','The Metropolitan Museum of Art (Open Access)',None,'2:1'),
  'lamp':img('Oil Lamp MET cop0414s1.jpg','artifact','Ancient clay oil lamp, The Met','CC0','The Metropolitan Museum of Art (Open Access)',None,'4:3'),
  'cup':img('Glass cup MET DP203343.jpg','artifact','Roman glass cup, The Met','CC0','The Metropolitan Museum of Art (Open Access)'),
- 'seneca':img('Pseudo-Seneca BM GR1962.8-24.1.jpg','statue_cutout','"Pseudo-Seneca" bronze-type head, British Museum (identity uncertain)','Public domain','British Museum · Wikimedia Commons'),
+ 'seneca':img('Pseudo-Seneca MAN Napoli Inv5616 n01.jpg','statue_cutout','"Pseudo-Seneca" bronze head, Naples Archaeological Museum (identity uncertain)','CC BY 2.5','Marie-Lan Nguyen (Jastrow) · CC BY 2.5 · Wikimedia Commons'),
  'memento':img('Roman Mosaic Reminder of Death, from the House 1, 5, 2 in Pompeii (48451661416).jpg','painting','Pompeian memento-mori mosaic: skull, level and wheel','Public domain','Naples Archaeological Museum · Wikimedia Commons',False,'1:1'),
  'hannibal':img('Hannibal Barca bust from Capua photo.jpg','statue_cutout','Marble bust from Capua traditionally identified as Hannibal','Public domain','Wikimedia Commons (public domain)'),
  'resgestae':img('Res gestae divi Augusti, GD006036.jpg','inscription','Res Gestae text on the Temple of Augustus, Ankara','Public domain','Wikimedia Commons (public domain)',False,'4:3'),

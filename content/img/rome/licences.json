@@ -701,16 +701,16 @@
  },
  {
   "src": "img/rome/seneca.webp",
-  "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg",
-  "declared": "Public domain",
-  "credit": "British Museum · Unknown artistUnknown artist",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_MAN_Napoli_Inv5616_n01.jpg",
+  "declared": "CC BY 2.5",
+  "credit": "“Pseudo-Seneca MAN Napoli Inv5616 n01” by Marie-Lan Nguyen (Jastrow), CC BY 2.5 (https://creativecommons.org/licenses/by/2.5), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
   "cards": [
    "q-seneca-aliena"
   ],
-  "commons_licence": "Public domain",
-  "artist": "Unknown artistUnknown artist",
-  "attribution_required": "false",
-  "licence_url": "",
+  "commons_licence": "CC BY 2.5",
+  "artist": "Marie-Lan Nguyen (Jastrow)",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by/2.5",
   "match": true
  },
  {

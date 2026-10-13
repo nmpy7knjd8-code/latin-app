@@ -9,3 +9,4 @@ tmp/
 audio/src/
 assets/**/raw/
 content/img/**/raw/
+content/img/**/*.src

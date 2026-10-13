@@ -1,0 +1,228 @@
+{
+ "q-caesar-garumna": {
+  "source_check": "ok",
+  "alatius": [
+   "Garumna≠Garumnā"
+  ]
+ },
+ "q-caesar-castra-movent": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-seneca-si-vales": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "v-milites-aedificant": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-pontem-faciunt": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-martial-thais": {
+  "source_check": "ok",
+  "alatius": [
+   "Laecania≠Laecaniā"
+  ]
+ },
+ "q-virgil-varium": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-praeclara": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-catullus-libellum": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-juvenal-rara-avis": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-tacitus-reges": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-seneca-homo-sacra": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-horace-ibam": {
+  "source_check": "ok",
+  "alatius": [
+   "viā≠via",
+   "Sacrā≠Sacra"
+  ]
+ },
+ "q-martial-diaulus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-resgestae-bis-ovans": {
+  "source_check": "ok",
+  "alatius": [
+   "tris≠trīs"
+  ]
+ },
+ "q-cicero-abiit": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-pliny-misenum": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-caesar-gallia": {
+  "source_check": "ok",
+  "alatius": [
+   "Gallia≠Galliā",
+   "omnis≠omnīs"
+  ]
+ },
+ "q-martial-pauper": {
+  "source_check": "ok",
+  "alatius": [
+   "Aemiliāne≠Aemiliānē"
+  ]
+ },
+ "q-seneca-servi": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-seneca-naturam": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-seneca-brevitas": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-lucretius-nil-creari": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-lucretius-mors": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-vitam-regit": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-socrates-caelo": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-commentatio": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-non-nobis": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-tertullian-semen": {
+  "source_check": "ok",
+  "alatius": [
+   "metimur≠mētīmur"
+  ]
+ },
+ "q-tertullian-athenis": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-perpetua-christiana": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-augustine-carthago": {
+  "source_check": "ok",
+  "alatius": [
+   "Vēnī≠Venī"
+  ]
+ },
+ "q-boethius-infortunii": {
+  "source_check": "ok",
+  "alatius": [
+   "fēlīcem≠felicem"
+  ]
+ },
+ "q-vulg-verbum-caro": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-vulg-exiit-edictum": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-creed-pilato": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-tacitus-christus": {
+  "source_check": "MISSING: eius christus tiberio | christus tiberio imperitante | tiberio imperitante per",
+  "alatius": [
+   "eius≠ēius"
+  ]
+ },
+ "q-rutilius-patriam": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-pliny-carmen-christo": {
+  "source_check": "MISSING: carmen christo quasi",
+  "alatius": []
+ },
+ "q-jerome-capitur-urbs": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-bede-britannia": {
+  "source_check": "ok",
+  "alatius": [
+   "Brittania≠Brittānia"
+  ]
+ },
+ "q-benedict-mortem": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-benedict-genera": {
+  "source_check": "ok",
+  "alatius": [
+   "manifestum≠manifēstum"
+  ]
+ },
+ "q-isidore-litterae": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-alcuin-vox-populi": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-anselm-credo": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-seneca-pauper": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-seneca-philologia": {
+  "source_check": "MISSING: facta philologia est",
+  "alatius": []
+ },
+ "q-cicero-senex": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-horace-caelum": {
+  "source_check": "ok",
+  "alatius": []
+ }
+}

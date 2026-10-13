@@ -201,7 +201,7 @@ function render(){
    <div class="tr${c.translation.length>120?" long":""}">“${esc(c.translation)}”</div>
    ${LM(c)?`<a class="lm" href="${esc(LM(c).url)}" target="_blank" rel="noopener">Learn more: ${esc(String(LM(c).label||"read about it").replace(/\s*[—(-]\s*Wikipedia\)?$/,""))} ↗</a>`:""}
    <div class="ctx">${esc(c.context)}</div>
-   ${c._src?`<div class="src">${esc(c.person)}${c.person&&c.source.work?" — ":""}${c.source.work?`<i>${esc(c.source.work)}</i>`:""} ${esc(c.source.citation||"")}${c.attribution_confidence?`<span class="badge">${esc(c.attribution_confidence)}</span>`:""}</div>`:""}
+   ${c._src?`<div class="src">${esc(c.person)}${c.person&&c.source.work?" — ":""}${c.source.work?`<i>${esc(c.source.work)}</i>`:""} ${esc(c.source.citation||"")}${c.attribution_confidence?`<span class="badge">${esc(c.attribution_confidence==="constructed"?"teaching sentence":c.attribution_confidence)}</span>`:""}</div>`:""}
    <div class="rate"><button class="ok">✓ Got it</button></div>
    <details class="fine"><summary>ⓘ Credits · ${c.image.src?`Image ${esc(c.image.license)}`:"no image yet"}${AU(c).map(a=>` · Audio ${esc(a.license)}`).join("")}${c.attribution_note?" · source note":""}</summary>
     ${c.attribution_note?`<p>Source note: ${esc(c.attribution_note)}</p>`:""}
@@ -294,7 +294,7 @@ async function loadAll(){
   if(String(im.src).startsWith("TODO:"))im.src="https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(im.src.slice(5).trim().replace(/ /g,"_"))+"?width=600";
   c.image=im;return c;};
  const seen=new Set(CARDS.map(c=>c.id));let extra=[];
- for(const f of ["rome-cards","medieval-cards","learning-cards"]){
+ for(const f of ["rome-cards","medieval-cards","learning-cards","batch4-cards","batch5-cards"]){
   try{const r=await fetch("../content/"+f+".json");if(!r.ok)continue;
    for(const c of await r.json()){if(!seen.has(c.id)){seen.add(c.id);const im=c.image;if(im&&im.src&&!/^(https?:|data:|TODO:|\.\.?\/|\/)/.test(im.src))im.src="../"+(im.src.startsWith("assets/")?"":"content/")+im.src;extra.push(c)}}}catch(e){console.warn(f,e)}}
  try{const r=await fetch("../content/phonetics.json");if(r.ok)window.PHONETICS=Object.assign({},window.PHONETICS||{},await r.json());}catch(e){}

@@ -1,0 +1,240 @@
+{
+ "c-roma-denarius": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-tiberis": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "p-forum": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": [
+   "Hīc≠Hic"
+  ]
+ },
+ "p-palatium": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "p-romulus-remus": {
+  "source_check": "MISSING: romulus et remus | et remus fratres | remus fratres sunt",
+  "alatius": []
+ },
+ "q-jerome-ciceronianus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "i-bayeux-willelm": {
+  "source_check": "MISSING: hic est willelmus | est willelmus dux",
+  "alatius": [
+   "Hīc≠Hic"
+  ]
+ },
+ "i-claudia-lanam": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-cicero-desideria": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-gaius-gaia": {
+  "source_check": "ok",
+  "alatius": [
+   "Gāia≠Gāiā"
+  ]
+ },
+ "i-pompeii-methe": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": [
+   "Cominiaes≠Cominiaēs"
+  ]
+ },
+ "i-vindolanda-salutant": {
+  "source_check": "MISSING: cerialem tuum saluta | tuum saluta aelius | saluta aelius meus",
+  "alatius": []
+ },
+ "q-et-tu-brute": {
+  "source_check": "MISSING: et tu brute",
+  "alatius": []
+ },
+ "v-frater-soror": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "i-vindolanda-cervesa": {
+  "source_check": "ok",
+  "alatius": [
+   "habunt≠hābunt"
+  ]
+ },
+ "q-ovid-militat": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-vespasian-deus": {
+  "source_check": "MISSING: uae puto deus",
+  "alatius": []
+ },
+ "i-sator": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": [
+   "operā≠opera"
+  ]
+ },
+ "q-virgil-lacrimae": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "i-pompeii-celadus": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-statius-appia": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "i-turia": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": [
+   "diūturna≠diuturna"
+  ]
+ },
+ "q-hadrian-animula": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "i-rib-818": {
+  "source_check": "MISSING: ioui optimo maximo | optimo maximo gaius | maximo gaius caballius | caballius priscus tribunus",
+  "alatius": []
+ },
+ "q-ennius-moribus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-martial-amphitheatro": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-respublica": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-virgil-omnia-vincit": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-livy-vestigia": {
+  "source_check": "ok",
+  "alatius": [
+   "Collātīne≠Collātīnē"
+  ]
+ },
+ "q-nero-qualis": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "i-vindolanda-brittunculi": {
+  "source_check": "MISSING: non utuntur nec | utuntur nec residunt",
+  "alatius": [
+   "gladīs≠gladis",
+   "Brittunculī≠Brittuncūlī"
+  ]
+ },
+ "q-titus-diem": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "i-vindolanda-aegri": {
+  "source_check": "ok",
+  "alatius": [
+   "VI≠VĪ"
+  ]
+ },
+ "i-vindolanda-socks": {
+  "source_check": "MISSING: tibi paria udonum | paria udonum ab | udonum ab sattua",
+  "alatius": [
+   "paria≠pariā",
+   "Sattuā≠Sattua",
+   "subligāriōrum≠sublīgāriōrum"
+  ]
+ },
+ "i-vindolanda-miror": {
+  "source_check": "ok",
+  "alatius": [
+   "rescrīpstī≠rescripstī"
+  ]
+ },
+ "q-gregory-vae": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-juvenal-custodes": {
+  "source_check": "ok",
+  "alatius": [
+   "custōdiet≠cūstōdiet",
+   "custōdēs≠cūstōdēs"
+  ]
+ },
+ "q-augustus-livia": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-caesar-aquilifer": {
+  "source_check": "MISSING: desilite milites nisi",
+  "alatius": []
+ },
+ "q-virgil-care-pater": {
+  "source_check": "ok",
+  "alatius": [
+   "cāre≠cārē"
+  ]
+ },
+ "q-morituri": {
+  "source_check": "ok",
+  "alatius": [
+   "Havē≠Have"
+  ]
+ },
+ "q-constantine-hoc-signo": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-einhard-temptabat": {
+  "source_check": "ok",
+  "alatius": [
+   "cōdicellōs≠codicellōs"
+  ]
+ },
+ "q-hugh-omnia-disce": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "i-vindolanda-viae": {
+  "source_check": "MISSING: non curaui uexare | curaui uexare dum | uexare dum uiae",
+  "alatius": []
+ },
+ "i-bayeux-harold": {
+  "source_check": "ok",
+  "alatius": [
+   "Hīc≠Hic"
+  ]
+ },
+ "q-augustine-regna": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-virgil-felix": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-bernard-nanos": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-vegetius-pacem": {
+  "source_check": "ok",
+  "alatius": []
+ }
+}
