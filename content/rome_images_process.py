@@ -14,8 +14,10 @@ for k,(f,kind,alt,lic,cr,asp,tr) in IMGS.items():
     if os.path.exists(dst): continue
     im=Image.open(src); im.load()
     if tr:
-        im=remove(im.convert('RGB'),session=S)
-        bb=im.getbbox(); im=im.crop(bb) if bb else im
+        im=remove(im.convert('RGB'),session=S,post_process_mask=True)
+        a=im.getchannel('A').point(lambda v: 0 if v<48 else (255 if v>200 else v))
+        im.putalpha(a)
+        bb=a.point(lambda v:255 if v>48 else 0).getbbox(); im=im.crop(bb) if bb else im
         im.thumbnail((1000,1000)); im.save(dst,'WEBP',quality=88)
     else:
         im=crop(im.convert('RGB'),asp); im.thumbnail((1000,1000)); im.save(dst,'WEBP',quality=85)

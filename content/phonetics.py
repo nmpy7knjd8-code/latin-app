@@ -154,7 +154,21 @@ def word_tx(word):
 NASAL={'a':'ã','ɛ':'ẽ','ɪ':'ĩ','ɔ':'õ','ʊ':'ũ','aː':'ã','eː':'ẽ','iː':'ĩ','oː':'õ','uː':'ũ'}
 NASAL_R={'ã':'ah','ẽ':'ay','ĩ':'ee','õ':'oh','ũ':'oo'}
 TOKEN=re.compile(r"[A-Za-zĀĒĪŌŪȲāēīōūȳëÿ]+")
+def caps_v(w):
+    """Roman capitals use V for both u and v: V is a vowel unless it precedes a vowel (QV = qu)."""
+    if not (w.isupper() and 'V' in w): return w
+    o=''
+    for k,ch in enumerate(w):
+        if ch=='V':
+            nx=w[k+1] if k+1<len(w) else ''
+            pv=o[-1] if o else ''
+            o+= 'u' if ((pv and pv in 'Qq') or nx not in 'AEIOU' or (pv and pv not in 'AEIOUaeiou' and nx in 'AEIOU' and False)) else 'v'
+        else: o+=ch
+    return o.lower()
+
 def words_of(text):
+    text=text.split('→')[0]                    # derivative cards: English after the arrow is not Latin
+    text=re.sub(r'(\w)\((\w+)\)',r'\1\2',text)   # F(ILIO) -> FILIO
     out=[]
     for raw in re.split(r"\s+", text):
         if raw.startswith('-') : continue
@@ -162,7 +176,8 @@ def words_of(text):
         if len(parts)==1 and len(parts[0])==1 and parts[0].lower() not in 'aeiouāēīōū': continue
         if '·' in raw and all(len(p)==1 for p in parts): continue
         if ('…' in raw or '...' in raw) and out: out[-1]=out[-1]+'|'   # lacuna: blocks elision
-        out+=parts
+        if re.search(r'[a-zāēīōū]',text): parts=[p for p in parts if not (p.isupper() and len(p)>1)]
+        out+=[caps_v(p) for p in parts]
         if ('…' in raw.rstrip('…') or raw.endswith('…') or raw.endswith('...')) and out: out[-1]=out[-1].rstrip('|')+'|'
     return out
 
@@ -180,7 +195,7 @@ def load_lexicon(texts, dcc_path=None):
         w=w.strip(".,;:!?“”\"'()[]·—…").lower()
         if not w or w.startswith('-') or not any(c in MACRONS for c in w): return
         forms.setdefault(plain(w),set()).add(w)
-    for t in texts:
+    for t in texts:   # dictionary forms only (gloss lemmas); inflected card text is NOT used (homographs: legis/lēgis)
         for w in TOKEN.findall(t or ''): add(w)
     if dcc_path and os.path.exists(dcc_path):
         for row in json.load(open(dcc_path)):
@@ -189,9 +204,11 @@ def load_lexicon(texts, dcc_path=None):
     for k,v in forms.items(): LEX[k]=next(iter(v)) if len(v)==1 else None
     return LEX
 
+CARD_LEX={}     # per-card plain->macronized from that card's own gloss words (context-correct)
+LEX_ACTIVE=[True]
 def lex_fix(w):
-    if any(c in MACRONS for c in w.lower()): return w
-    m=LEX.get(plain(w))
+    if not LEX_ACTIVE[0] or any(c in MACRONS for c in w.lower()): return w
+    k=plain(w); m=CARD_LEX.get(k) or LEX.get(k)
     if not m: return w
     fixed=''.join(mc.upper() if oc.isupper() else mc for oc,mc in zip(w,m)) if len(m)==len(w) else m
     FALLBACK_LOG.append((w,fixed)); return fixed
@@ -202,6 +219,10 @@ def transcribe(text, verse=False):
     Elided material is dropped; the remnant is joined to the next word with ‿ (IPA) / ' (respelling)."""
     if not text: return None
     raw=words_of(text)
+    if re.search(r'[a-zāēīōū]',text):   # epigraphic CAPS transcription with a lower-case reading: speak only the reading
+        pass
+    # Policy: a card that already uses macrons is trusted (unmarked vowel = short); lexicon fallback only for unmacronized text
+    LEX_ACTIVE[0]=not any(ch in MACRONS for ch in text.lower())
     brk={k for k,w in enumerate(raw) if w.endswith('|')}
     raw=[('|' if w.endswith('|') else '') and lex_fix(w.rstrip('|'))+'|' or lex_fix(w) for w in raw]
     ws=[(w.rstrip('|'),word_parse(w.rstrip('|')),k in brk) for k,w in enumerate(raw)]
@@ -259,6 +280,13 @@ TESTS = {
 }
 RESP_TESTS = {'huic':'hoo-eek','cuius':'KOOY-yus','Pompēius':'pom-PAY-yus','māior':'MEYE-yor','Trōia':'TROY-ya',
  'suāvis':'SWAH-wis','vēnī':'WAY-nee','Rōma':'ROH-ma','pater':'PA-ter','māter':'MAH-ter','lūna':'LOO-na','hominēs':'HO-mi-nays'}
+RESP_TESTS.update({'euge':'EW-ge','rēgīna':'ray-GEE-na'})
+FALLBACK_TESTS = {  # unmacronized input -> lexicon/caps handling (needs init_lexicon)
+ 'regina':'/reː.ˈgiː.na/', 'SENATVS POPVLVSQVE':'/sɛ.ˈnaː.tʊs pɔ.pʊ.ˈlʊs.kʷɛ/', 'VESPASIANO':'/wɛs.pa.ˈsɪ.a.nɔ/',  # not in lexicon -> stays unmarked & is flagged in macron-report (true: Vespasiānō)
+
+ 'CAVE CANEM — Cavē canem!':'/ˈka.weː ˈka.nɛm/', 'familia → family':'/fa.ˈmɪ.lɪ.a/',
+ 'regina rēgīna legis':'/ˈrɛ.gɪ.na reː.ˈgiː.na ˈlɛ.gɪs/',   # policy: macronized text is trusted (no fallback; avoids legis->lēgis)
+}
 VERSE_TESTS = {  # Allen VL on elision/final -m; Aen. 1.3, Hor. Od. 3.2.13, Cat. 85
  'multum ille et terrīs':'/ˈmʊl.t‿ˈɪl.l‿ɛt ˈtɛr.riːs/',
  'Dulce et decōrum est':'/ˈdʊl.k‿ɛt dɛ.ˈkoː.rʊm‿st/',
@@ -279,7 +307,15 @@ def run_tests():
     for t,exp in VERSE_TESTS.items():
         got=transcribe(t,verse=True)[0].replace('.ˈ','ˈ'); n+=1; ok+=got==exp.replace('.ˈ','ˈ')
         if got!=exp.replace('.ˈ','ˈ'): print('FAIL verse',t,got,'expected',exp)
-    print(f'{ok}/{n} passed (IPA words, respellings, verse)'); return ok==n
+    init_lexicon()
+    for t,exp in FALLBACK_TESTS.items():
+        got=transcribe(t)[0]; n+=1; ok+=got==exp
+        if got!=exp: print('FAIL fallback',t,got,'expected',exp)
+    import subprocess
+    cli=subprocess.run([sys.executable,os.path.abspath(__file__),'--verse','multum ille'],capture_output=True,text=True); n+=1
+    ok+= cli.returncode==0 and 'mʊl.t‿' in cli.stdout
+    if cli.returncode: print('FAIL cli --verse',cli.stderr[-200:])
+    print(f'{ok}/{n} passed (IPA words, respellings, verse, lexicon fallback, CLI)'); return ok==n
 
 VERSE_WORKS=re.compile(r"Aeneid|Georgic|Eclogue|Odes|Satires|Epistles|Epigram|Carmina$|^Carmina|Fasti|Metamorphoses|Ars Amatoria|Epistulae ex Ponto|De Rerum Natura|Epitaphium|Amores|Tristia",re.I)
 def is_verse(c):
@@ -289,6 +325,10 @@ def is_verse(c):
     return bool(VERSE_WORKS.search(w))
 
 def entry(c,f):
+    CARD_LEX.clear()
+    for g in c.get('gloss') or []:
+        w=(g.get('word') or '').strip(".,;:!?").lower()
+        if any(ch in MACRONS for ch in w): CARD_LEX[plain(w)]=w
     r=transcribe(c.get('latin',''))
     if not r: return None
     e={'ipa':r[0],'respelling':r[1]}
@@ -310,8 +350,7 @@ def init_lexicon():
     base=os.path.dirname(os.path.abspath(__file__))
     texts=[]
     for c,_ in all_cards():
-        texts.append(c.get('latin',''))
-        texts+=[g.get('word','')+' '+g.get('lemma','') for g in c.get('gloss') or []]
+        texts+=[g.get('lemma','') for g in c.get('gloss') or []]
     return load_lexicon(texts, os.path.join(base,'data','dcc-core.json'))
 
 def macron_check(c):
@@ -319,11 +358,16 @@ def macron_check(c):
     with no macron and no lexicon entry (may be genuinely all-short, e.g. pater; needs a human/dictionary check);
     'ambiguous' = lexicon has conflicting macronizations."""
     fixed=[];unver=[];amb=[]
-    for w in words_of(c.get('latin','')):
+    t=c.get('latin','')
+    if any(ch in MACRONS for ch in t.lower()): return fixed,unver,amb   # macronized card: trusted
+    entry(c,'')  # load card gloss lexicon
+    for w in words_of(t):
         w=w.rstrip('|')
+        if re.search(r'[a-z]',t) and w.isupper() and len(w)>1: continue
         if any(ch in MACRONS for ch in w.lower()): continue
         k=plain(w)
-        if k in LEX:
+        if CARD_LEX.get(k): fixed.append([w,CARD_LEX[k]])
+        elif k in LEX:
             (fixed.append([w,LEX[k]]) if LEX[k] else amb.append(w))
         else:
             seg=segment(w)
@@ -350,7 +394,7 @@ def build():
     L=['# Macron report (generated by phonetics.py --build)','',
        f'Lexicon: {sum(1 for v in LEX.values() if v)} unambiguous macronized forms (card Latin + glosses + DCC core headwords).','',
        '- **fixed**: the word had no macron in the card; the engine used the lexicon form for IPA/respelling. The card text itself should be corrected.',
-       '- **unverified**: polysyllable with no macron and no lexicon entry; may be all-short (pater) or missing macrons. Check against L&S.',
+       '- Only cards whose Latin has NO macrons are checked; macronized cards are trusted (unmarked = short).\n- **unverified**: polysyllable with no macron and no lexicon entry; may be all-short (pater) or missing macrons. Check against L&S.',
        '- **ambiguous**: lexicon has conflicting forms (e.g. -a vs -ā); left as written.','']
     for r in rep:
         L.append(f"## {r['id']} ({r['file']}){' — NO MACRONS AT ALL' if r['no_macrons_at_all'] else ''}")

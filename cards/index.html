@@ -35,6 +35,8 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .ph{width:78%;height:100%;border-radius:999px 999px 6px 6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:14px;color:var(--acc)}
 .ph b{font:italic 600 3.4rem Georgia,serif;opacity:.7}.ph small{font-size:.72rem;opacity:.8;margin-top:6px;line-height:1.3}
 .play{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1px solid var(--acc);border-radius:99px;background:none;color:var(--acc);font:600 .8rem system-ui;cursor:pointer;margin:0 auto 4px}
+.reg{display:block;margin:0 auto 6px;min-height:36px;padding:0 12px;border:1px dashed var(--acc);border-radius:99px;background:none;color:var(--acc);font:500 .72rem system-ui;cursor:pointer}
+.reg[aria-pressed=true]{background:rgba(255,255,255,.12)}
 .chips{display:flex;justify-content:center;flex-wrap:wrap;gap:6px}
 .back .credit a{color:inherit}
 .nav{display:flex;justify-content:center;align-items:center;gap:14px;padding:0 0 10px}
@@ -130,6 +132,7 @@ function latinHTML(c){
   }).join("");
 }
 window.imgFail=el=>{const d=document.createElement("div");d.className="ph";d.innerHTML="<b>·</b><small>Image coming soon</small>";(el.closest(".tornwrap")||el).replaceWith(d)};
+const EC=c=>{const e=(window.PHON_ECCL||{})[c.id];return e&&e.respelling_eccl};
 const AU=c=>{const a=(window.AUDIO||{})[c.id];return Array.isArray(a)?a:[]};
 const LU={"CC BY-SA 4.0":"https://creativecommons.org/licenses/by-sa/4.0/","CC BY-SA 3.0":"https://creativecommons.org/licenses/by-sa/3.0/","CC BY 4.0":"https://creativecommons.org/licenses/by/4.0/","CC0":"https://creativecommons.org/publicdomain/zero/1.0/"};
 const LL=l=>LU[l]?`<a href="${LU[l]}" target="_blank" rel="noopener">${esc(l)}</a>`:esc(l);
@@ -145,7 +148,7 @@ function render(){
    <div class="art">${art(c.image,c)}</div>
    <div class="band">
     <div class="latin" lang="la">${latinHTML(c)}</div>
-    ${P(c)?`<button class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}. Tap for IPA.">${esc(P(c).respelling)}<span class="ipa" hidden>${esc(P(c).ipa)}</span></button>`:""}
+    ${P(c)?`<button class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}. Tap for IPA.">${esc(P(c).respelling)}<span class="ipa" hidden>${esc(P(c).ipa)}</span></button>${EC(c)?`<button class="reg" data-cl="${esc(P(c).respelling)}" data-ec="${esc(EC(c))}" aria-pressed="false">Classical · tap for Church pronunciation</button>`:""}`:""}
     ${learn?`<div class="tr-front">“${esc(c.translation)}”</div><div class="gl" aria-live="polite"></div>`:""}
     ${AU(c).length?`<div class="chips">${AU(c).map((a,k)=>`<button class="play" data-a="${esc(a.file)}" aria-label="Play recording, ${esc(a.style)}">▶ ${esc(a.style)}</button>`).join("")}</div>`:""}
     <div class="meta"><span>${esc(c.person)}</span><span aria-hidden="true">·</span><span class="era">${ERA[c.era]||c.era}</span></div>
@@ -156,7 +159,7 @@ function render(){
    <div class="meta" style="justify-content:flex-start"><span class="era">${ERA[c.era]||c.era}</span></div>
    ${P(c)?`<div class="ipa-b" aria-label="IPA">${esc(P(c).ipa)}</div>`:""}
    ${P(c)&&P(c).ipa_verse?`<div class="ipa-b" aria-label="Verse reading with elision"><small>verse:</small> ${esc(P(c).ipa_verse)}<br><small>${esc(P(c).respelling_verse)}</small></div>`:""}
-   ${window.PHONETICS_LEGEND?`<details class="ipa-b"><summary><small>How to read the respelling</small></summary><small>${esc(PHONETICS_LEGEND)}</small></details>`:""}
+   ${window.PHONETICS_LEGEND?`${EC(c)?`<div class="note">Church pronunciation (Italianate ecclesiastical): ${esc(EC(c))}. Note: the church respelling does not mark vowel length; classical is the default.</div>`:""}<details class="ipa-b"><summary><small>How to read the respelling</small></summary><small>${esc(PHONETICS_LEGEND)}</small></details>`:""}
    <div class="tr">“${esc(c.translation)}”</div>
    <div class="ctx">${esc(c.context)}</div>
    ${c.attribution_note?`<div class="note">${esc(c.attribution_note)}</div>`:""}
@@ -169,6 +172,8 @@ function render(){
 </article>`).join("");
   document.querySelectorAll(".play").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();if(player)player.pause();player=new Audio("../audio/"+b.dataset.a);player.play().catch(()=>{})}));
   setupDots();cur();
+  document.querySelectorAll(".reg").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();const on=b.getAttribute("aria-pressed")!=="true";b.setAttribute("aria-pressed",on);
+    const say=b.previousElementSibling;say.firstChild.textContent=on?b.dataset.ec:b.dataset.cl;b.textContent=on?"Church pronunciation · tap for Classical":"Classical · tap for Church pronunciation"}));
   document.querySelectorAll(".say").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();b.querySelector(".ipa").toggleAttribute("hidden")}));
   document.querySelectorAll(".card").forEach(el=>{
     if(learn){
@@ -220,6 +225,7 @@ async function loadAll(){
    for(const c of await r.json()){if(!seen.has(c.id)){seen.add(c.id);const im=c.image;if(im&&im.src&&!/^(https?:|data:|TODO:|\.\.?\/|\/)/.test(im.src))im.src="../"+(im.src.startsWith("assets/")?"":"content/")+im.src;extra.push(c)}}}catch(e){console.warn(f,e)}}
  try{const r=await fetch("../content/phonetics.json");if(r.ok)window.PHONETICS=Object.assign({},window.PHONETICS||{},await r.json());}catch(e){}
  for(const a of ["../audio/audio-map.json"]){try{const r=await fetch(a);if(r.ok){window.AUDIO=await r.json();break}}catch(e){}}
+ try{const r=await fetch("../content/phonetics-eccl.json");if(r.ok)window.PHON_ECCL=await r.json();}catch(e){}
  try{const r=await fetch("manifest.json");if(r.ok)window.MANIFEST=new Set(await r.json());}catch(e){}
  window.CARDS=CARDS.concat(extra).map(norm).map(c=>(c._draft=isDraft(c),c));
 }
