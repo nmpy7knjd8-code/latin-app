@@ -181,10 +181,6 @@ window.PHONETICS = {
   "ipa_verse": "/ˈar.ma wɪ.ˈrʊm.kʷɛ ˈka.noː ˈtrɔj.jae̯ kʷiː ˈpriː.mʊs ab ˈoː.riːs iː.ˈta.lɪ.ãː ˈweː.nɪt/",
   "respelling_verse": "AR-ma wi-RUM-kwe KA-noh TROY-yeye kwee PREE-mus ab OH-rees ee-TA-li-ahn WAY-nit"
  },
- "i-pompeii-successus": {
-  "ipa": "/sʊk.ˈkɛs.sʊs ˈtɛk.stɔr ˈa.mat koː.ˈpoː.nae̯ aŋ.ˈkɪl.lam ˈnoː.mɪ.nɛ ˈhɪ.rɛ.dɛm kʷae̯ ˈkʷɪ.dɛm ˈɪl.lʊm noːn ˈkuː.rat/",
-  "respelling": "suk-KES-sus TEK-stor A-mat koh-POH-neye ang-KIL-lam NOH-mi-ne HI-re-dem kweye KWI-dem IL-lum nohn KOO-rat"
- },
  "q-terence-fortis": {
   "ipa": "/ˈfɔr.tiːs fɔr.ˈtuː.na a.ˈdɪ.ʊ.wat/",
   "respelling": "FOR-tees for-TOO-na a-DI-u-wat"
@@ -222,6 +218,10 @@ window.PHONETICS = {
  "i-rib-flavinus": {
   "ipa": "/diːs ˈmaː.nɪ.bʊs flaː.ˈwiː.nʊs ˈɛ.kʷɛs ˈaː.lae̯ pɛ.trɪ.ˈaː.nae̯ ˈsɪŋ.nɪ.fɛr ˈtʊr.ma ˈkan.dɪ.diː an.ˈnoː.rʊm stiː.pɛn.dɪ.ˈoː.rʊm hiːk ˈsɪ.tʊs ɛst/",
   "respelling": "dees MAH-ni-bus flah-WEE-nus E-kwes AH-leye pe-tri-AH-neye SING-ni-fer TUR-ma KAN-di-dee an-NOH-rum stee-pen-di-OH-rum heek SI-tus est"
+ },
+ "i-pompeii-successus": {
+  "ipa": "/sʊk.ˈkɛs.sʊs ˈtɛk.stɔr ˈa.mat koː.ˈpoː.nae̯ aŋ.ˈkɪl.lam ˈnoː.mɪ.nɛ ˈhɪ.rɛ.dɛm/",
+  "respelling": "suk-KES-sus TEK-stor A-mat koh-POH-neye ang-KIL-lam NOH-mi-ne HI-re-dem"
  },
  "c-brutus-eidmar": {
   "ipa": "/ˈiː.dɪ.bʊs ˈmaːr.tɪ.iːs/",
@@ -281,10 +281,6 @@ window.PHONETICS = {
   "ipa_verse": "/ˈtɛm.pʊs ˈɛ.daːks ˈreː.rũː ˈtuː.kʷ‿ɪn.wɪ.dɪ.ˈoː.sa wɛ.ˈtʊs.taːs ˈɔm.nɪ.a deːs.ˈtrʊ.ɪ.tɪs/",
   "respelling_verse": "TEM-pus E-dahks RAY-roon TOO-kw'in-wi-di-OH-sa we-TUS-tahs OM-ni-a days-TRU-i-tis"
  },
- "i-pompeii-admiror": {
-  "ipa": "/ad.ˈmiː.rɔr oː ˈpa.rɪ.eːs teː noːn kɛ.kɪ.ˈdɪs.sɛ rʊ.ˈiː.niːs kʷiː tɔt skriːp.ˈtoː.rʊm ˈtae̯.dɪ.a sʊs.ˈtɪ.nɛ.aːs/",
-  "respelling": "ad-MEE-ror oh PA-ri-ays tay nohn ke-ki-DIS-se ru-EE-nees kwee tot skreep-TOH-rum TEYE-di-a sus-TI-ne-ahs"
- },
  "q-livy-vae": {
   "ipa": "/wae̯ ˈwɪk.tiːs/",
   "respelling": "weye WIK-tees"
@@ -295,9 +291,13 @@ window.PHONETICS = {
   "ipa_verse": "/ɛk.ˈseː.giː mɔ.nʊ.ˈmɛn.t‿ˈae̯.rɛ pɛ.ˈrɛn.nɪ.ʊs/",
   "respelling_verse": "ek-SAY-gee mo-nu-MEN-t'EYE-re pe-REN-ni-us"
  },
+ "i-pompeii-admiror": {
+  "ipa": "/ad.ˈmiː.rɔr oː ˈpa.rɪ.eːs teː noːn kɛ.kɪ.ˈdɪs.sɛ rʊ.ˈiː.niːs kʷiː tɔt skriːp.ˈtoː.rʊm ˈtae̯.dɪ.a sʊs.ˈtɪ.nɛ.aːs/",
+  "respelling": "ad-MEE-ror oh PA-ri-ays tay nohn ke-ki-DIS-se ru-EE-nees kwee tot skreep-TOH-rum TEYE-di-a sus-TI-ne-ahs"
+ },
  "i-rib-regina": {
-  "ipa": "/diːs ˈmaː.nɪ.bʊs reː.ˈgiː.na liː.ˈbɛr.ta ɛt kɔ.ˈnɪ.ʊ.gɛ ba.ˈraː.teːs pal.mʏ.ˈreː.nʊs naː.tɪ.ˈoː.nɛ ka.tʊ.al.ˈlau̯.na an.ˈnoː.rʊm/",
-  "respelling": "dees MAH-ni-bus ray-GEE-na lee-BER-ta et ko-NI-u-ge ba-RAH-tays pal-mü-RAY-nus nah-ti-OH-ne ka-tu-al-LOW-na an-NOH-rum"
+  "ipa": "/diːs ˈmaː.nɪ.bʊs reː.ˈgiː.na liː.ˈbɛr.ta ɛt kɔ.ˈnɪ.ʊ.gɛ ˈba.ra.teːs pal.mʏ.ˈreː.nʊs naː.tɪ.ˈoː.nɛ ka.tʊ.al.ˈlau̯.na an.ˈnoː.rʊm/",
+  "respelling": "dees MAH-ni-bus ray-GEE-na lee-BER-ta et ko-NI-u-ge BA-ra-tays pal-mü-RAY-nus nah-ti-OH-ne ka-tu-al-LOW-na an-NOH-rum"
  },
  "q-vulg-fiat-lux": {
   "ipa": "/diːk.ˈsɪt.kʷɛ ˈdɛ.ʊs ˈfiː.at luːks ɛt ˈfak.ta ɛst luːks/",

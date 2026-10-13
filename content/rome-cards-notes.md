@@ -141,3 +141,23 @@ Results go to `img/rome/`.
 **Licences:** `rome_licences.py` re-queries Commons for every image. It writes `img/rome/LICENCES.md` and `licences.json`, covering 64 images with 0 mismatches. CC BY and CC BY-SA images need the credit shown.
 
 **Not done:** the Vindolanda tablets. vindolanda.csad.ox.ac.uk failed with a TLS error from the box and a 504 through the fetcher.
+
+## Review-rome-2 applied (13 Oct 2026, ~1:50 AM ET)
+- **CC BY / BY-SA credits (13 images).** `rome_credits.py` pulls each author and licence URL from Commons into `data/rome-image-credits.json`. The build then writes a full credit for each: “title” by author, licence (URL), via Wikimedia Commons; modified: …. Every image also gets a `modified` field, and CC BY ones a `license_url`. The lint fails if a CC BY credit has no author or URL.
+- **Cut-outs.**
+  - `tablet` and `romulus` (a print) are now framed images, not cut-outs.
+  - `epicurus`, `seatedmuse`, `womanhead` and `cicero2` were redone with a cleaned-up mask and a hard alpha threshold, which removes the pedestal and shadow leftovers. I checked them on red.
+- **Coins.**
+  - EID MAR: **RRC 508/3**. Verified in the CNG catalogue and the Commons file description, which also give the obverse BRVT IMP / L PLAET CEST.
+  - AEGVPTO CAPTA: **RIC I² 275a**. Verified in the Forum Ancient Coins catalogue (Italian mint, 28 BC, obverse CAESAR COS VI) and PAS record SUSS-BA7F45.
+- **STTL** now quotes a real tombstone: RIB 1250 = CIL VII 1014, Aurelia Lupula, Risingham. The text and translation come from RIB online.
+- **Stand-in captions:** the Varus card (Rufus Sita tombstone) and the Calgacus card (Gallic warrior) now say "Stand-in image: …" in their alt text.
+- **Macron policy:** `MACRON-POLICY.md` marks hidden quantities following Alatius, with the OLD as tiebreaker. A fresh Alatius run over all 64 Rome lines left only the documented context overrides. Arch of Titus now has an expanded reading after the capitals. `lc_macron_readings.py` patches learning-cards.json the same way: Pantheon parse, IMP CAESAR DIVI F, KAROLVS IMP AVG, *Ōmega*.
+- **Unit cap:** cards beyond 10 in a unit get `bonus: true` and `bonus_set: "Lege plūra"`. Right now that's 1 card in U5. The build warns when a unit has fewer than 4 or more than 10 cards.
+- **Nits:** *animīs* parsed as a dative of possession; the `indirect_question` tag removed from Aeneid 1.8; note added for *Avernō* vs *Avernī*.
+
+## Review 3 (2026-10-13)
+- Baratēs → Barates (no long vowel in the source); Plautus Asin. 495 shown with "…", and the full line goes in a note (it is about strangers, not Hobbes's maxim); Aeneid 1.7 now starts with "…"; Successus is cut to its first clause.
+- Moves: admiror → U8 (marked as a preview); Regina → U4 (dative is now a target). Regina's image has a license_note: Commons lists CC BY 4.0, but the image came from a ResearchGate figure whose filename says "Copyright".
+- New fields: raw_text (the "What the wall actually says" text), related_cards (fullers ↔ arma virumque), card_role, formula_glossed. The lint now checks two things: at most one preview point per card in U1–3, and that every inscription or coin has a raw_text.
+- All 13 CC BY(-SA) credits name an author.

@@ -59,7 +59,7 @@
   "src": "img/rome/abbondanza.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeii_Via_dell'_Abbondanza_01.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“Pompeii Via dell' Abbondanza 01” by Ad Meskens, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
   "cards": [
    "i-pompeii-romula"
   ],
@@ -73,7 +73,7 @@
   "src": "img/rome/aegypto.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Denario_Aegypto_capta.jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Telo",
   "cards": [
    "c-octavian-aegypto"
   ],
@@ -101,7 +101,7 @@
   "src": "img/rome/basilica.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Basilica,_Pompeii_01.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“Basilica, Pompeii 01” by Adam Harangozó, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
   "cards": [
    "i-pompeii-admiror"
   ],
@@ -129,7 +129,7 @@
   "src": "img/rome/brennus.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Brennus_and_Sulpicius_(illustration).jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Paul Lehugeur (1854-1916)",
   "cards": [
    "q-livy-vae"
   ],
@@ -143,7 +143,7 @@
   "src": "img/rome/caesarberlin.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_bust_of_Julius_Caesar_(Berlin_Ant_Sk_342)_02.jpg",
   "declared": "CC BY 4.0",
-  "credit": "Wikimedia Commons (CC BY 4.0)",
+  "credit": "“Portrait bust of Julius Caesar (Berlin Ant Sk 342) 02” by Mark Landon, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
   "cards": [
    "q-caesar-belgae"
   ],
@@ -157,7 +157,7 @@
   "src": "img/rome/calgacus.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Musee-romanite-guerrier-casque-1.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“Musee-romanite-guerrier-casque-1” by Christelle Molinié, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
   "cards": [
    "q-tacitus-solitudinem"
   ],
@@ -171,7 +171,7 @@
   "src": "img/rome/cave.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Cave_Canem_Poeta_Trágico_03.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“Cave Canem Poeta Trágico 03” by Miguel Hermoso Cuesta, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
   "cards": [
    "i-pompeii-cave"
   ],
@@ -185,7 +185,7 @@
   "src": "img/rome/cestius.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Pyramide_564.jpg",
   "declared": "CC BY 4.0",
-  "credit": "Wikimedia Commons (CC BY 4.0)",
+  "credit": "“Pyramide 564” by Tyrhénienne, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
   "cards": [
    "q-horace-exegi"
   ],
@@ -199,7 +199,7 @@
   "src": "img/rome/cicero2.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“Bust of Cicero (1st-cent. BC) - Palazzo Nuovo - Musei Capitolini - Rome 2016” by José Luiz, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
   "cards": [
    "q-cicero-salus"
   ],
@@ -213,7 +213,7 @@
   "src": "img/rome/cicero3.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(GL_325).jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“Bust of Cicero (GL 325)” by Yair-haklai, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
   "cards": [
    "q-cicero-quousque"
   ],
@@ -227,7 +227,7 @@
   "src": "img/rome/colosseum.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi,_The_Colosseum.png",
   "declared": "Public domain",
-  "credit": "Giovanni Battista Piranesi",
+  "credit": "Giovanni Battista Piranesi · Giovanni Battista Piranesi",
   "cards": [
    "q-juvenal-panem"
   ],
@@ -241,7 +241,7 @@
   "src": "img/rome/cornelia.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Bartolozzi_-_Cornelia,_Mother_of_the_Gracchi_-_B1977.14.19782_-_Yale_Center_for_British_Art.jpg",
   "declared": "CC0",
-  "credit": "Yale Center for British Art",
+  "credit": "Yale Center for British Art · Francesco Bartolozzi",
   "cards": [
    "q-cornelia-ornamenta"
   ],
@@ -255,7 +255,7 @@
   "src": "img/rome/couple.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg",
   "declared": "CC0",
-  "credit": "Naples Archaeological Museum",
+  "credit": "Naples Archaeological Museum · Jebulon",
   "cards": [
    "i-pompeii-successus"
   ],
@@ -297,7 +297,7 @@
   "src": "img/rome/eidmar.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Ides_of_march_coin.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“Ides of march coin” by British Museum, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
   "cards": [
    "c-brutus-eidmar"
   ],
@@ -311,7 +311,7 @@
   "src": "img/rome/epicurus.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_Bust_of_Epicurus,_Roman_Copy.jpg",
   "declared": "CC0",
-  "credit": "Wikimedia Commons (CC0)",
+  "credit": "Wikimedia Commons (CC0) · Gary Todd",
   "cards": [
    "q-lucretius-religio"
   ],
@@ -325,7 +325,7 @@
   "src": "img/rome/facilis.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:RIB_200.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“RIB 200” by Udimu, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 2:3, resized",
   "cards": [
    "i-rib-facilis"
   ],
@@ -339,7 +339,7 @@
   "src": "img/rome/flavinus.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Bruce_Page107_Flavinus.jpg",
   "declared": "Public domain",
-  "credit": "J. Collingwood Bruce, Lapidarium Septentrionale",
+  "credit": "J. Collingwood Bruce, Lapidarium Septentrionale · John Collingwood Bruce",
   "cards": [
    "i-rib-flavinus"
   ],
@@ -353,7 +353,7 @@
   "src": "img/rome/formaurbis.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Rudolfo_Lancani_-_Forma_Urbis_Romae_XV.jpg",
   "declared": "Public domain",
-  "credit": "Rodolfo Lanciani",
+  "credit": "Rodolfo Lanciani · Rodolfo Lanciani",
   "cards": [
    "q-ovid-urbis"
   ],
@@ -367,7 +367,7 @@
   "src": "img/rome/fullonica.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Fullonica_of_Stephanus_(Pompeii)_(48443555206).jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Gary Todd from Xinzheng, China",
   "cards": [
    "i-pompeii-fullones"
   ],
@@ -381,7 +381,7 @@
   "src": "img/rome/horace2.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Quintus_Horatius_Flaccus.jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Anton von Werner",
   "cards": [
    "q-horace-modus"
   ],
@@ -395,7 +395,7 @@
   "src": "img/rome/juno.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Juno_Sospita_(Vaticano).jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · AnonymousUnknown author",
   "cards": [
    "q-virgil-tantaene"
   ],
@@ -409,7 +409,7 @@
   "src": "img/rome/jupiter.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Jupiter_Smyrna_Louvre_Ma13.jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Marie-Lan Nguyen",
   "cards": [
    "q-ovid-expedit"
   ],
@@ -437,7 +437,7 @@
   "src": "img/rome/laocoon.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Laocoön_and_his_sons_group.jpg",
   "declared": "CC0",
-  "credit": "Wikimedia Commons (CC0)",
+  "credit": "Wikimedia Commons (CC0) · Wilfredor",
   "cards": [
    "q-virgil-timeo"
   ],
@@ -465,7 +465,7 @@
   "src": "img/rome/martialgem.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Martial,_engraved_from_an_ancient_gem_(cropped).jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Unknown",
   "cards": [
    "q-martial-sabidi"
   ],
@@ -507,7 +507,7 @@
   "src": "img/rome/memento.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Mosaic_Reminder_of_Death,_from_the_House_1,_5,_2_in_Pompeii_(48451661416).jpg",
   "declared": "Public domain",
-  "credit": "Naples Archaeological Museum",
+  "credit": "Naples Archaeological Museum · Gary Todd from Xinzheng, China",
   "cards": [
    "q-seneca-differtur"
   ],
@@ -563,7 +563,7 @@
   "src": "img/rome/pantheon.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Fotografi._Pantheon_di_Agrippa._Rom,_Italien_-_Hallwylska_museet_-_104733.tif",
   "declared": "Public domain",
-  "credit": "Hallwyl Museum, Stockholm",
+  "credit": "Hallwyl Museum, Stockholm · Unknown authorUnknown author",
   "cards": [
    "i-pantheon-agrippa"
   ],
@@ -577,7 +577,7 @@
   "src": "img/rome/plautus.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Plautus,_Mostellaria,_Vaticanus_Palatinus_lat._1615.jpg",
   "declared": "Public domain",
-  "credit": "Biblioteca Apostolica Vaticana",
+  "credit": "Biblioteca Apostolica Vaticana · Plautus",
   "cards": [
    "q-plautus-lupus"
   ],
@@ -591,7 +591,7 @@
   "src": "img/rome/pluto.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Standbeeld_van_Pluto,_RP-P-OB-44.317.jpg",
   "declared": "CC0",
-  "credit": "Rijksmuseum",
+  "credit": "Rijksmuseum · Rijksmuseum",
   "cards": [
    "q-virgil-facilis"
   ],
@@ -605,7 +605,7 @@
   "src": "img/rome/primaporta.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Till Niermann",
   "cards": [
    "q-virgil-regere"
   ],
@@ -619,7 +619,7 @@
   "src": "img/rome/regina.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright.jpg",
   "declared": "CC BY 4.0",
-  "credit": "Wikimedia Commons (CC BY 4.0)",
+  "credit": "“Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright” by Abigail Baker and Alison Cooley, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons; modified: cropped to 2:3, resized",
   "cards": [
    "i-rib-regina"
   ],
@@ -633,7 +633,7 @@
   "src": "img/rome/resgestae.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Res_gestae_divi_Augusti,_GD006036.jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Unknown authorUnknown author",
   "cards": [
    "q-resgestae-annos"
   ],
@@ -647,7 +647,7 @@
   "src": "img/rome/riot.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeian_mural_depicting_the_Amphitheatre_riots.jpg",
   "declared": "Public domain",
-  "credit": "Naples Archaeological Museum",
+  "credit": "Naples Archaeological Museum · U.D.F., Paris",
   "cards": [
    "i-pompeii-felices"
   ],
@@ -661,7 +661,7 @@
   "src": "img/rome/romulus.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Romulus_and_Remus_MET_DP822897.jpg",
   "declared": "CC0",
-  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "credit": "The Metropolitan Museum of Art (Open Access) · Giulio Romano / Wenceslaus Hollar",
   "cards": [
    "q-tacitus-urbem"
   ],
@@ -675,7 +675,7 @@
   "src": "img/rome/rufussita.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Rufus_Sita_Tombstone.jpg",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · Unknown authorUnknown author",
   "cards": [
    "q-suetonius-vare"
   ],
@@ -703,7 +703,7 @@
   "src": "img/rome/seneca.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg",
   "declared": "Public domain",
-  "credit": "British Museum",
+  "credit": "British Museum · Unknown artistUnknown artist",
   "cards": [
    "q-seneca-aliena"
   ],
@@ -717,7 +717,7 @@
   "src": "img/rome/servian.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Servian_at_Termini.JPG",
   "declared": "Public domain",
-  "credit": "Wikimedia Commons",
+  "credit": "Wikimedia Commons · User: (WT-shared) Roundtheworld at wts wikivoyage",
   "cards": [
    "q-virgil-moenia"
   ],
@@ -745,7 +745,7 @@
   "src": "img/rome/sundial.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_sundial,_Antikensammlung_Berlin,_141306.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“Ancient Roman sundial, Antikensammlung Berlin, 141306” by Zde, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
   "cards": [
    "q-virgil-fugit"
   ],
@@ -759,7 +759,7 @@
   "src": "img/rome/tablet.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Wax_writing_tablet_with_part_of_a_Roman_will.jpg",
   "declared": "CC0",
-  "credit": "Wikimedia Commons (CC0)",
+  "credit": "Wikimedia Commons (CC0) · Mx. Granger",
   "cards": [
    "q-martial-bona"
   ],
@@ -773,7 +773,7 @@
   "src": "img/rome/terence.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Terence_Andria_1.1_Vat3868f4v.jpg",
   "declared": "Public domain",
-  "credit": "Biblioteca Apostolica Vaticana",
+  "credit": "Biblioteca Apostolica Vaticana · unknown Carolingian scribe, 9th century AD",
   "cards": [
    "q-terence-homo"
   ],
@@ -787,7 +787,7 @@
   "src": "img/rome/titus.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:ArcoTitoIscrizione.jpg",
   "declared": "CC BY-SA 4.0",
-  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "credit": "“ArcoTitoIscrizione” by MM, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 2:1, resized",
   "cards": [
    "i-titus-spqr"
   ],
@@ -815,7 +815,7 @@
   "src": "img/rome/vesta.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Statue_called_\"Vesta_Giustiniani\"_-_DPLA_-_5b55ce712f0fe863cb1e6318b78ea51c.jpg",
   "declared": "Public domain",
-  "credit": "DPLA via Wikimedia Commons",
+  "credit": "DPLA via Wikimedia Commons · Catsimpoolas, Nicholas; Scull, S. A. (Sarah Amelia)",
   "cards": [
    "q-ovid-vesta"
   ],
@@ -829,7 +829,7 @@
   "src": "img/rome/virgil.webp",
   "source_url": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg",
   "declared": "Public domain",
-  "credit": "Bardo Museum, Tunis",
+  "credit": "Bardo Museum, Tunis · Boyd Dwyer",
   "cards": [
    "q-virgil-arma"
   ],

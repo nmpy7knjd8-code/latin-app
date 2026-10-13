@@ -12,6 +12,7 @@ TAUGHT={'nominative':1,'sum':1,'word_order':1,'abbreviations':1,'subject_verb':1
  'relative_clause':10}
 # beyond the 10-unit core: preview only
 for t in ['comparative','ablative_of_comparison','subjunctive','jussive_subjunctive','hortatory_subjunctive','gerundive','deponent','future_imperative','dum_clause','impersonal_verb','ablative_absolute','dative_of_direction','indirect_question','ablative_with_deponent','superlative','perfect_infinitive']: TAUGHT[t]=99
+TAUGHT['possum_infinitive']=8
 WP='https://en.wikipedia.org/wiki/'
 # id: (unit, target, preview, image_key, learn_more_label, learn_more_title)
 META={
@@ -49,7 +50,7 @@ META={
 'q-horace-dulce':(8,['infinitive_as_subject','pro_ablative','neuter_plural'],['deponent'],'soldier','Dulce et decorum est','Dulce_et_decorum_est'),
 'q-juvenal-mens':(8,['in_ablative','adjective_agreement','third_declension'],['gerundive','subjunctive'],'mercury','Mens sana in corpore sano','Mens_sana_in_corpore_sano'),
 'q-lucretius-religio':(8,['possum','infinitive','genitive'],[],'epicurus','De rerum natura','De_rerum_natura'),
-'i-pantheon-agrippa':(1,['nominative','abbreviations','subject_verb'],['perfect_tense','genitive'],'pantheon','Pantheon, Rome','Pantheon,_Rome'),
+'i-pantheon-agrippa':(1,['nominative','abbreviations','subject_verb'],['perfect_tense'],'pantheon','Pantheon, Rome','Pantheon,_Rome'),
 'i-titus-spqr':(6,['nominative','dative','genitive','enclitic_que'],[],'titus','Arch of Titus','Arch_of_Titus'),
 # new
 'q-suetonius-vare':(7,['vocative','imperative','accusative','third_declension'],[],'rufussita','Battle of the Teutoburg Forest','Battle_of_the_Teutoburg_Forest'),
@@ -61,7 +62,7 @@ META={
 'q-virgil-facilis':(5,['third_declension','nominative'],['dative_of_direction'],'pluto','Lake Avernus','Lake_Avernus'),
 'c-brutus-eidmar':(5,['abbreviations','ablative_of_time','third_declension'],[],'eidmar','Ides of March coin','Ides_of_March_coin'),
 'c-octavian-aegypto':(6,['abbreviations'],['ablative_absolute','perfect_passive'],'aegypto','Coins of Augustus','Coins_of_Augustus'),
-'i-pompeii-cave':(2,['accusative'],['imperative','third_declension'],'cave','House of the Tragic Poet','House_of_the_Tragic_Poet'),
+'i-pompeii-cave':(2,['accusative'],['imperative'],'cave','House of the Tragic Poet','House_of_the_Tragic_Poet'),
 'i-sttl':(4,['dative','abbreviations','nominative'],['subjunctive','superlative'],'urn','Sit tibi terra levis','Sit_tibi_terra_levis'),
 'i-spqr':(1,['nominative','abbreviations'],['enclitic_que'],'wolf','SPQR','SPQR'),
 }
@@ -117,21 +118,21 @@ IMGS={
 EXISTING={'cicero':'img/cicero.webp','caesar':'img/caesar.webp','coin':'img/coin.webp','horace':'img/horace.webp'}
 META.update({
 'q-ovid-urbis':(1,['sum','nominative'],['genitive'],'formaurbis','Fasti (poem)','Fasti_(poem)'),
-'q-virgil-moenia':(1,['nominative'],['enclitic_que','genitive'],'servian','Servian Wall','Servian_Wall'),
+'q-virgil-moenia':(2,['nominative','enclitic_que'],['genitive'],'servian','Servian Wall','Servian_Wall'),
 'q-terence-quot':(1,['nominative'],[],'mask1','Phormio (play)','Phormio_(play)'),
 'i-pompeii-felices':(1,['sum','nominative'],['subjunctive'],'riot','Graffiti in Pompeii (AGP)','AGP:AGP-EDR127399'),
-'i-rib-regina':(2,['nominative','abbreviations'],['dative','ablative','genitive','numerals'],'regina','Regina tombstone (RIB 1065)','RIB:1065'),
-'i-pompeii-romula':(2,['nominative'],['prep_ablative','deponent','present_tense'],'abbondanza','Graffito CIL IV 2060 (AGP)','AGP:AGP-EDR193346'),
+'i-rib-regina':(4,['nominative','abbreviations','dative'],['ablative','genitive','numerals'],'regina','Regina tombstone (RIB 1065)','RIB:1065'),
+'i-pompeii-romula':(3,['nominative','present_tense'],['deponent'],'abbondanza','Graffito CIL IV 2060 (AGP)','AGP:AGP-EDR193346'),
 'q-plautus-lupus':(2,['sum','nominative'],['dative'],'plautus','Homo homini lupus','Homo_homini_lupus'),
-'i-pompeii-admiror':(2,['vocative'],['indirect_statement','perfect_infinitive','subjunctive','relative_clause','genitive'],'basilica','Graffito CIL IV 1904 (AGP)','AGP:AGP-EDR158840'),
-'i-pompeii-successus':(3,['present_tense','nominative','accusative'],['genitive','relative_clause','third_declension'],'couple','Graffito CIL IV 8259 (AGP)','AGP:AGP-EDR175589'),
+'i-pompeii-admiror':(8,['vocative','indirect_statement','infinitive'],['perfect_infinitive','subjunctive','relative_clause'],'basilica','Graffito CIL IV 1904 (AGP)','AGP:AGP-EDR158840'),
+'i-pompeii-successus':(3,['present_tense','nominative','accusative'],['genitive'],'couple','Graffito CIL IV 8259 (AGP)','AGP:AGP-EDR175589'),
 'i-pompeii-fullones':(3,['present_tense','first_person','accusative','enclitic_que'],['third_conjugation'],'fullonica','Fullonica','Fullonica'),
 'q-terence-fortis':(3,['present_tense','accusative','nominative'],['third_declension'],'mask2','Fortes fortuna adiuvat','Fortes_fortuna_adiuvat'),
-'q-martial-sabidi':(3,['present_tense','vocative','first_person'],['possum','infinitive','personal_pronouns'],'martialgem','I do not love thee, Doctor Fell','I_do_not_love_thee,_Doctor_Fell'),
-'q-terence-homo':(3,['sum','present_tense','first_person'],['genitive','prep_ablative'],'terence','Homo sum, humani nihil a me alienum puto','Homo_sum,_humani_nihil_a_me_alienum_puto'),
-'i-rib-facilis':(3,['nominative','abbreviations'],['genitive','perfect_tense','participle'],'facilis','Tombstone of Marcus Favonius Facilis (RIB 200)','RIB:200'),
-'i-rib-flavinus':(3,['nominative','abbreviations'],['dative','genitive','numerals','participle'],'flavinus','Tombstone of Flavinus (RIB 1172)','RIB:1172'),
-'q-caesar-belgae':(3,['sum','nominative','third_person_plural'],['genitive','superlative'],'caesarberlin','Belgae','Belgae'),
+'q-martial-sabidi':(3,['present_tense','vocative','first_person'],['possum_infinitive'],'martialgem','I do not love thee, Doctor Fell','I_do_not_love_thee,_Doctor_Fell'),
+'q-terence-homo':(3,['sum','present_tense','first_person'],['genitive'],'terence','Homo sum, humani nihil a me alienum puto','Homo_sum,_humani_nihil_a_me_alienum_puto'),
+'i-rib-facilis':(3,['nominative','abbreviations'],['perfect_tense'],'facilis','Tombstone of Marcus Favonius Facilis (RIB 200)','RIB:200'),
+'i-rib-flavinus':(3,['nominative','abbreviations'],['genitive'],'flavinus','Tombstone of Flavinus (RIB 1172)','RIB:1172'),
+'q-caesar-belgae':(4,['sum','nominative','third_person_plural','genitive'],['superlative'],'caesarberlin','Belgae','Belgae'),
 })
 IMGS.update({
 'formaurbis':('Rudolfo Lancani - Forma Urbis Romae XV.jpg','painting','Lanciani\'s map of ancient Rome (Forma Urbis Romae, sheet XV)','Public domain','Rodolfo Lanciani','4:3',False),
@@ -141,7 +142,7 @@ IMGS.update({
 'riot':('Pompeian mural depicting the Amphitheatre riots.jpg','painting','Pompeian fresco of the amphitheatre riot of AD 59','Public domain','Naples Archaeological Museum','3:4',False),
 'regina':('Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright.jpg','inscription','Tombstone of Regina, South Shields, with Latin and Palmyrene text','CC BY 4.0','Wikimedia Commons (CC BY 4.0)','2:3',False),
 'abbondanza':('Pompeii Via dell\' Abbondanza 01.jpg','building','Via dell\'Abbondanza, Pompeii','CC BY-SA 4.0','Wikimedia Commons (CC BY-SA 4.0)','3:4',False),
-'plautus':('Plautus, Mostellaria, Vaticanus Palatinus lat. 1615.jpg','manuscript','Manuscript page of Plautus, Vatican Pal. lat. 1615','Public domain','Biblioteca Apostolica Vaticana','3:4',False),
+'plautus':('Plautus, Mostellaria, Vaticanus Palatinus lat. 1615.jpg','manuscript','Manuscript page of Plautus (Mostellaria), Vatican Pal. lat. 1615','Public domain','Biblioteca Apostolica Vaticana','3:4',False),
 'basilica':('Basilica, Pompeii 01.jpg','building','The Basilica at Pompeii','CC BY-SA 4.0','Wikimedia Commons (CC BY-SA 4.0)','4:3',False),
 'couple':('MANNapoli 9058 couple painting.jpg','painting','Pompeian portrait of a couple (Terentius Neo and his wife)','CC0','Naples Archaeological Museum','3:4',False),
 'fullonica':('Fullonica of Stephanus (Pompeii) (48443555206).jpg','building','Fullonica (laundry) of Stephanus, Pompeii','Public domain','Wikimedia Commons','4:3',False),
@@ -151,3 +152,35 @@ IMGS.update({
 'flavinus':('Bruce Page107 Flavinus.jpg','inscription','Engraving of the tombstone of Flavinus, Hexham (Bruce, 1875)','Public domain','J. Collingwood Bruce, Lapidarium Septentrionale','2:3',False),
 'caesarberlin':('Portrait bust of Julius Caesar (Berlin Ant Sk 342) 02.jpg','statue_cutout','Green-stone portrait of Julius Caesar, Berlin','CC BY 4.0','Wikimedia Commons (CC BY 4.0)','2:3',True),
 })
+
+# Fixed phrases glossed as vocabulary in U1-3 (not counted as preview grammar points)
+FORMULA={
+'i-pantheon-agrippa':['L·F = Lūcī fīlius (filiation formula)'],
+'i-pompeii-cave':['canem: acc. of canis, glossed'],
+'i-pompeii-romula':['cum Staphylō: "with Staphylus", glossed phrase'],
+'i-pompeii-successus':['nōmine: "by name", glossed'],
+'q-martial-sabidi':['tē: "you" (acc.), glossed'],
+'q-terence-homo':['ā mē: "from me", glossed'],
+'i-rib-facilis':['M·F (Mārcī fīlius), leg(iōnis) XX, H·S·E (hīc situs est): tombstone formulas'],
+'i-rib-flavinus':['D·M (Dīs Mānibus), an(nōrum), stīp(endiōrum), H·S·(E): tombstone formulas'],
+'i-pompeii-felices':[],
+}
+RELATED={'i-pompeii-fullones':['q-virgil-arma'],'q-virgil-arma':['i-pompeii-fullones']}
+ROLE={'i-pompeii-admiror':'preview_reading'}
+RAW={
+'i-pompeii-felices':('Ic sumus felices valiamus recte','AGP-EDR127399 (AGP/EDR reading)'),
+'i-pompeii-romula':('Romula hic cum Staphylo moratur','AGP-EDR193346'),
+'i-pompeii-admiror':('Admiror o pariens te non cecidisse ruinis qui tot scriptorum taedia sustineas','AGP-EDR158840'),
+'i-pompeii-successus':('Successus textor amat coponiaes ancilla(m) nomine Hiredem quae quidem illum non curat','AGP-EDR175589 (first lines)'),
+'i-pompeii-fullones':('Fullones ululamque cano non arma virumq(ue)','AGP-EDR072663'),
+'i-pompeii-cave':('CAVE CANEM','mosaic, House of the Tragic Poet'),
+'i-rib-regina':('DM‣REGINA‣LIBERTA‣ET‣CONIVGE‣ BARATES‣PALMYRENVS‣NATIONE‣ CATVALLAVNA‣AN‣XXX‣','RIB 1065, diplomatic text'),
+'i-rib-facilis':('M FAVONI M F POL FACI LIS 𐆛 LEG XX VERECVND VS ET NOVICIVS LIB POSV ERVNT H S E','RIB 200, diplomatic text'),
+'i-rib-flavinus':('DIS MANIBVS FLAV I͡N VS EQ ALΛE PETR SIGNIFER TVRCANDIDI ANXXV STIPVII H S','RIB 1172, diplomatic text'),
+'i-sttl':('D M S AVR LVPV LE MATRI PIISSIME DIONYSIVS FORTVNA TVS FILIVS S T T L','RIB 1250, diplomatic text'),
+'i-pantheon-agrippa':('M·AGRIPPA·L·F·COS·TERTIVM·FECIT','CIL VI 896'),
+'i-titus-spqr':('SENATVS POPVLVSQVE·ROMANVS DIVO·TITO·DIVI·VESPASIANI·F VESPASIANO·AVGVSTO','CIL VI 945'),
+'c-brutus-eidmar':('EID·MAR','RRC 508/3 reverse'),
+'c-octavian-aegypto':('AEGVPTO CAPTA','RIC I² 275a reverse'),
+'i-spqr':('S·P·Q·R','standard abbreviation on inscriptions, coins and standards'),
+}

@@ -503,6 +503,11 @@
   "grammar_preview": [
    "subjunctive"
   ],
+  "raw_text": {
+   "text": "Ic sumus felices valiamus recte",
+   "source": "AGP-EDR127399 (AGP/EDR reading)",
+   "label": "What the wall actually says"
+  },
   "image": {
    "src": "img/rome/riot.webp",
    "alt": "Pompeian fresco of the amphitheatre riot of AD 59",
@@ -783,8 +788,7 @@
    "nominative",
    "abbreviations",
    "subject_verb",
-   "perfect_tense",
-   "genitive"
+   "perfect_tense"
   ],
   "vocab_ids": [
    "consul",
@@ -821,9 +825,16 @@
    "subject_verb"
   ],
   "grammar_preview": [
-   "perfect_tense",
-   "genitive"
+   "perfect_tense"
   ],
+  "formula_glossed": [
+   "L·F = Lūcī fīlius (filiation formula)"
+  ],
+  "raw_text": {
+   "text": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT",
+   "source": "CIL VI 896",
+   "label": "What the stone/coin actually says"
+  },
   "learn_more": {
    "label": "Pantheon, Rome",
    "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome"
@@ -861,8 +872,7 @@
   ],
   "grammar_tags": [
    "accusative",
-   "imperative",
-   "third_declension"
+   "imperative"
   ],
   "vocab_ids": [
    "canis",
@@ -884,9 +894,16 @@
    "accusative"
   ],
   "grammar_preview": [
-   "imperative",
-   "third_declension"
+   "imperative"
   ],
+  "formula_glossed": [
+   "canem: acc. of canis, glossed"
+  ],
+  "raw_text": {
+   "text": "CAVE CANEM",
+   "source": "mosaic, House of the Tragic Poet",
+   "label": "What the wall actually says"
+  },
   "image": {
    "src": "img/rome/cave.webp",
    "alt": "\"Cave canem\" dog mosaic, House of the Tragic Poet, Pompeii",
@@ -908,7 +925,7 @@
   "id": "i-pompeii-romula",
   "type": "quote",
   "era": "empire",
-  "unit": 2,
+  "unit": 3,
   "latin": "Rōmula hīc cum Staphylō morātur.",
   "translation": "Romula hangs out here with Staphylus.",
   "context": "A bit of Pompeian gossip about a couple, scratched on a wall. It shows ordinary people, not emperors, and the gossip they wrote on their walls.",
@@ -954,9 +971,8 @@
   ],
   "grammar_tags": [
    "nominative",
-   "prep_ablative",
-   "deponent",
-   "present_tense"
+   "present_tense",
+   "deponent"
   ],
   "vocab_ids": [
    "cum",
@@ -976,13 +992,20 @@
    "review_threshold": 0.9
   },
   "grammar_target": [
-   "nominative"
-  ],
-  "grammar_preview": [
-   "prep_ablative",
-   "deponent",
+   "nominative",
    "present_tense"
   ],
+  "grammar_preview": [
+   "deponent"
+  ],
+  "formula_glossed": [
+   "cum Staphylō: \"with Staphylus\", glossed phrase"
+  ],
+  "raw_text": {
+   "text": "Romula hic cum Staphylo moratur",
+   "source": "AGP-EDR193346",
+   "label": "What the wall actually says"
+  },
   "image": {
    "src": "img/rome/abbondanza.webp",
    "alt": "Via dell'Abbondanza, Pompeii",
@@ -1112,9 +1135,7 @@
    "present_tense",
    "vocative",
    "first_person",
-   "possum",
-   "infinitive",
-   "personal_pronouns"
+   "possum_infinitive"
   ],
   "vocab_ids": [
    "amo",
@@ -1145,9 +1166,10 @@
    "first_person"
   ],
   "grammar_preview": [
-   "possum",
-   "infinitive",
-   "personal_pronouns"
+   "possum_infinitive"
+  ],
+  "formula_glossed": [
+   "tē: \"you\" (acc.), glossed"
   ],
   "image": {
    "src": "img/rome/martialgem.webp",
@@ -1235,8 +1257,7 @@
    "sum",
    "present_tense",
    "first_person",
-   "genitive",
-   "prep_ablative"
+   "genitive"
   ],
   "vocab_ids": [
    "ab",
@@ -1266,8 +1287,10 @@
    "first_person"
   ],
   "grammar_preview": [
-   "genitive",
-   "prep_ablative"
+   "genitive"
+  ],
+  "formula_glossed": [
+   "ā mē: \"from me\", glossed"
   ],
   "image": {
    "src": "img/rome/terence.webp",
@@ -1289,7 +1312,7 @@
   "id": "q-caesar-belgae",
   "type": "quote",
   "era": "republic",
-  "unit": 3,
+  "unit": 4,
   "latin": "Hōrum omnium fortissimī sunt Belgae.",
   "translation": "Of all these, the bravest are the Belgae.",
   "context": "Caesar explains why the Belgae were the toughest Gauls: they lived farthest from Roman luxuries and closest to the warlike Germans.",
@@ -1361,10 +1384,10 @@
   "grammar_target": [
    "sum",
    "nominative",
-   "third_person_plural"
+   "third_person_plural",
+   "genitive"
   ],
   "grammar_preview": [
-   "genitive",
    "superlative"
   ],
   "image": {
@@ -1982,6 +2005,11 @@
    "subjunctive",
    "superlative"
   ],
+  "raw_text": {
+   "text": "D M S AVR LVPV LE MATRI PIISSIME DIONYSIVS FORTVNA TVS FILIVS S T T L",
+   "source": "RIB 1250, diplomatic text",
+   "label": "What the stone/coin actually says"
+  },
   "image": {
    "src": "img/rome/urn.webp",
    "alt": "Roman marble cinerary urn",
@@ -2349,6 +2377,11 @@
    "enclitic_que"
   ],
   "grammar_preview": [],
+  "raw_text": {
+   "text": "SENATVS POPVLVSQVE·ROMANVS DIVO·TITO·DIVI·VESPASIANI·F VESPASIANO·AVGVSTO",
+   "source": "CIL VI 945",
+   "label": "What the stone/coin actually says"
+  },
   "learn_more": {
    "label": "Arch of Titus",
    "url": "https://en.wikipedia.org/wiki/Arch_of_Titus"
@@ -2637,9 +2670,9 @@
   "id": "q-virgil-moenia",
   "type": "quote",
   "era": "empire",
-  "unit": 1,
-  "latin": "Albānīque patrēs, atque altae moenia Rōmae.",
-  "translation": "And the Alban fathers, and the walls of lofty Rome.",
+  "unit": 2,
+  "latin": "… Albānīque patrēs, atque altae moenia Rōmae.",
+  "translation": "… (from whom came) the Alban fathers and the walls of lofty Rome.",
   "context": "The climax of the Aeneid's opening sentence: Aeneas's wanderings lead to Alba Longa's founding fathers and, finally, to the walls of Rome.",
   "person": "Publius Vergilius Maro",
   "source": {
@@ -2707,7 +2740,7 @@
    "pater"
   ],
   "teaching_value": {
-   "note": "Nominative plurals (patrēs, moenia), with -que and atque for \"and\". The genitive altae … Rōmae is a glossed preview.",
+   "note": "Nominative plurals (patrēs, moenia) as the subjects of an understood \"came\" (genus unde Latīnum … 1.6), joined by -que and atque. The genitive altae … Rōmae is a glossed preview.",
    "dcc_core_pct": 83,
    "non_core": [
     "albanus"
@@ -2721,10 +2754,10 @@
    "review_threshold": 0.9
   },
   "grammar_target": [
-   "nominative"
+   "nominative",
+   "enclitic_que"
   ],
   "grammar_preview": [
-   "enclitic_que",
    "genitive"
   ],
   "image": {
@@ -2748,9 +2781,9 @@
   "type": "quote",
   "era": "republic",
   "unit": 2,
-  "latin": "Lupus est homō hominī, nōn homō.",
-  "translation": "Man is a wolf to man, not a man.",
-  "context": "A merchant refuses to hand money to a stranger: to someone who does not know you, a man is a wolf. The line continues \"quom quālis sit nōn nōvit\".",
+  "latin": "Lupus est homō hominī, nōn homō, …",
+  "translation": "A man is a wolf, not a man, to another man …",
+  "context": "A merchant refuses to hand money to a stranger: to someone who does not know you, a man is a wolf. The full line adds: to someone who doesn't know what sort he is.",
   "person": "Titus Maccius Plautus",
   "source": {
    "work": "Asinaria",
@@ -2759,6 +2792,7 @@
   },
   "source_url": "https://www.thelatinlibrary.com/plautus/asinaria.shtml",
   "attribution_confidence": "verified",
+  "attribution_note": "Full line (Asin. 495): lupus est homo homini, non homo, quom qualis sit non novit: a man is a wolf, not a man, to someone who does not know what sort he is. A warning about trusting strangers, not Hobbes's general maxim homo homini lupus.",
   "gloss": [
    {
     "word": "Lupus",
@@ -2831,7 +2865,7 @@
   ],
   "image": {
    "src": "img/rome/plautus.webp",
-   "alt": "Manuscript page of Plautus, Vatican Pal. lat. 1615",
+   "alt": "Manuscript page of Plautus (Mostellaria), Vatican Pal. lat. 1615",
    "kind": "manuscript",
    "aspect": "3:4",
    "transparent": false,
@@ -3392,6 +3426,11 @@
   "grammar_preview": [
    "enclitic_que"
   ],
+  "raw_text": {
+   "text": "S·P·Q·R",
+   "source": "standard abbreviation on inscriptions, coins and standards",
+   "label": "What the stone/coin actually says"
+  },
   "image": {
    "src": "img/rome/wolf.webp",
    "alt": "Bronze she-wolf, Capitoline Museums",
@@ -3693,6 +3732,14 @@
   "grammar_preview": [
    "third_conjugation"
   ],
+  "related_cards": [
+   "q-virgil-arma"
+  ],
+  "raw_text": {
+   "text": "Fullones ululamque cano non arma virumq(ue)",
+   "source": "AGP-EDR072663",
+   "label": "What the wall actually says"
+  },
   "image": {
    "src": "img/rome/fullonica.webp",
    "alt": "Fullonica (laundry) of Stephanus, Pompeii",
@@ -4336,162 +4383,12 @@
   "grammar_preview": [
    "relative_clause"
   ],
+  "related_cards": [
+   "i-pompeii-fullones"
+  ],
   "learn_more": {
    "label": "Aeneid",
    "url": "https://en.wikipedia.org/wiki/Aeneid"
-  }
- },
- {
-  "id": "i-pompeii-successus",
-  "type": "quote",
-  "era": "empire",
-  "unit": 3,
-  "latin": "Successus textor amat cōpōnae ancillam nōmine Hiredem, quae quidem illum nōn cūrat.",
-  "translation": "Successus the weaver loves the innkeeper's slave-girl, named Iris, who does not care for him at all.",
-  "context": "The start of a Pompeian love-triangle on a wall: a rival answers underneath, mocking Successus. Real people, real handwriting, ordinary Latin.",
-  "person": "Anonymous graffito, Pompeii",
-  "source": {
-   "work": "Graffito, Pompeii, Vicolo del Menandro (I.10.1-8)",
-   "citation": "CIL IV 8259 (AGP-EDR175589)",
-   "date": "before AD 79"
-  },
-  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR175589",
-  "attribution_confidence": "verified",
-  "attribution_note": "AGP text: \"coponiaes ancilla(m)\", \"Hiredem (:Iridem)\". The spelling here is normalized.",
-  "gloss": [
-   {
-    "word": "Successus",
-    "lemma": "Successus",
-    "meaning": "Successus",
-    "parse": "nom."
-   },
-   {
-    "word": "textor",
-    "lemma": "textor",
-    "meaning": "weaver",
-    "parse": "nom. sg. m."
-   },
-   {
-    "word": "amat",
-    "lemma": "amō",
-    "meaning": "loves",
-    "parse": "3rd sg. pres."
-   },
-   {
-    "word": "cōpōnae",
-    "lemma": "cōpōna",
-    "meaning": "of the innkeeper",
-    "parse": "gen. sg. f."
-   },
-   {
-    "word": "ancillam",
-    "lemma": "ancilla",
-    "meaning": "slave-girl",
-    "parse": "acc. sg. f."
-   },
-   {
-    "word": "nōmine",
-    "lemma": "nōmen",
-    "meaning": "by name",
-    "parse": "abl. sg. n."
-   },
-   {
-    "word": "Hiredem",
-    "lemma": "Īris",
-    "meaning": "Iris",
-    "parse": "acc."
-   },
-   {
-    "word": "quae",
-    "lemma": "quī",
-    "meaning": "who",
-    "parse": "rel. pron. nom. f."
-   },
-   {
-    "word": "quidem",
-    "lemma": "quidem",
-    "meaning": "indeed",
-    "parse": "adv."
-   },
-   {
-    "word": "illum",
-    "lemma": "ille",
-    "meaning": "him",
-    "parse": "acc. sg. m."
-   },
-   {
-    "word": "nōn",
-    "lemma": "nōn",
-    "meaning": "not",
-    "parse": "adv."
-   },
-   {
-    "word": "cūrat",
-    "lemma": "cūrō",
-    "meaning": "cares for",
-    "parse": "3rd sg. pres."
-   }
-  ],
-  "grammar_tags": [
-   "present_tense",
-   "nominative",
-   "accusative",
-   "genitive",
-   "relative_clause",
-   "third_declension"
-  ],
-  "vocab_ids": [
-   "amo",
-   "ancilla",
-   "copona",
-   "curo",
-   "ille",
-   "nomen",
-   "non",
-   "qui",
-   "quidem",
-   "textor"
-  ],
-  "teaching_value": {
-   "note": "S-O-V with 1st-conj. present amat and cūrat, nominative and accusative 1st-decl. nouns. The genitive and relative clause are glossed previews.",
-   "dcc_core_pct": 70,
-   "non_core": [
-    "textor",
-    "copona",
-    "ancilla"
-   ],
-   "score": 4,
-   "role": "preview",
-   "rank": 39
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "grammar_target": [
-   "present_tense",
-   "nominative",
-   "accusative"
-  ],
-  "grammar_preview": [
-   "genitive",
-   "relative_clause",
-   "third_declension"
-  ],
-  "image": {
-   "src": "img/rome/couple.webp",
-   "alt": "Pompeian portrait of a couple (Terentius Neo and his wife)",
-   "kind": "painting",
-   "aspect": "3:4",
-   "transparent": false,
-   "license": "CC0",
-   "credit": "Naples Archaeological Museum · Jebulon",
-   "source_url": "https://commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg",
-   "modified": "cropped to 3:4, resized"
-  },
-  "learn_more": {
-   "label": "Graffito CIL IV 8259 (AGP)",
-   "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR175589"
   }
  },
  {
@@ -4549,7 +4446,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 40
+   "rank": 39
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4697,9 +4594,7 @@
   "grammar_tags": [
    "nominative",
    "abbreviations",
-   "genitive",
-   "perfect_tense",
-   "participle"
+   "perfect_tense"
   ],
   "vocab_ids": [
    "centurio",
@@ -4722,7 +4617,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 41
+   "rank": 40
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4733,10 +4628,16 @@
    "abbreviations"
   ],
   "grammar_preview": [
-   "genitive",
-   "perfect_tense",
-   "participle"
+   "perfect_tense"
   ],
+  "formula_glossed": [
+   "M·F (Mārcī fīlius), leg(iōnis) XX, H·S·E (hīc situs est): tombstone formulas"
+  ],
+  "raw_text": {
+   "text": "M FAVONI M F POL FACI LIS 𐆛 LEG XX VERECVND VS ET NOVICIVS LIB POSV ERVNT H S E",
+   "source": "RIB 200, diplomatic text",
+   "label": "What the stone/coin actually says"
+  },
   "image": {
    "src": "img/rome/facilis.webp",
    "alt": "Tombstone of the centurion Marcus Favonius Facilis, Colchester",
@@ -4829,7 +4730,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 42
+   "rank": 41
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4925,7 +4826,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 43
+   "rank": 42
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -5072,7 +4973,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 44
+   "rank": 43
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -5165,7 +5066,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 45
+   "rank": 44
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -5249,7 +5150,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 46
+   "rank": 45
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -5356,7 +5257,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 47
+   "rank": 46
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -5492,10 +5393,7 @@
   "grammar_tags": [
    "nominative",
    "abbreviations",
-   "dative",
-   "genitive",
-   "numerals",
-   "participle"
+   "genitive"
   ],
   "vocab_ids": [
    "ala",
@@ -5523,7 +5421,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 48
+   "rank": 47
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -5534,11 +5432,16 @@
    "abbreviations"
   ],
   "grammar_preview": [
-   "dative",
-   "genitive",
-   "numerals",
-   "participle"
+   "genitive"
   ],
+  "formula_glossed": [
+   "D·M (Dīs Mānibus), an(nōrum), stīp(endiōrum), H·S·(E): tombstone formulas"
+  ],
+  "raw_text": {
+   "text": "DIS MANIBVS FLAV I͡N VS EQ ALΛE PETR SIGNIFER TVRCANDIDI ANXXV STIPVII H S",
+   "source": "RIB 1172, diplomatic text",
+   "label": "What the stone/coin actually says"
+  },
   "image": {
    "src": "img/rome/flavinus.webp",
    "alt": "Engraving of the tombstone of Flavinus, Hexham (Bruce, 1875)",
@@ -5553,6 +5456,128 @@
   "learn_more": {
    "label": "Tombstone of Flavinus (RIB 1172)",
    "url": "https://romaninscriptionsofbritain.org/inscriptions/1172"
+  }
+ },
+ {
+  "id": "i-pompeii-successus",
+  "type": "quote",
+  "era": "empire",
+  "unit": 3,
+  "latin": "Successus textor amat cōpōnae ancillam nōmine Hiredem …",
+  "translation": "Successus the weaver loves the innkeeper's slave-girl, named Iris …",
+  "context": "The start of a Pompeian love-triangle on a wall: a rival answers underneath, mocking Successus. Real people, real handwriting, ordinary Latin.",
+  "person": "Anonymous graffito, Pompeii",
+  "source": {
+   "work": "Graffito, Pompeii, Vicolo del Menandro (I.10.1-8)",
+   "citation": "CIL IV 8259 (AGP-EDR175589)",
+   "date": "before AD 79"
+  },
+  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR175589",
+  "attribution_confidence": "verified",
+  "attribution_note": "AGP text: \"coponiaes ancilla(m)\", \"Hiredem (:Iridem)\". The spelling here is normalized; the card shows the first clause only.",
+  "gloss": [
+   {
+    "word": "Successus",
+    "lemma": "Successus",
+    "meaning": "Successus",
+    "parse": "nom."
+   },
+   {
+    "word": "textor",
+    "lemma": "textor",
+    "meaning": "weaver",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "amat",
+    "lemma": "amō",
+    "meaning": "loves",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "cōpōnae",
+    "lemma": "cōpōna",
+    "meaning": "of the innkeeper",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "ancillam",
+    "lemma": "ancilla",
+    "meaning": "slave-girl",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "nōmine",
+    "lemma": "nōmen",
+    "meaning": "by name",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "Hiredem",
+    "lemma": "Īris",
+    "meaning": "Iris",
+    "parse": "acc."
+   }
+  ],
+  "grammar_tags": [
+   "present_tense",
+   "nominative",
+   "accusative",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "amo",
+   "ancilla",
+   "copona",
+   "nomen",
+   "textor"
+  ],
+  "teaching_value": {
+   "note": "S-O-V with 1st-conj. present amat and cūrat, nominative and accusative 1st-decl. nouns. The genitive cōpōnae is the one glossed preview. The wall goes on: quae quidem illum nōn cūrat (\"who doesn't care for him at all\").",
+   "dcc_core_pct": 40,
+   "non_core": [
+    "textor",
+    "copona",
+    "ancilla"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 48
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "present_tense",
+   "nominative",
+   "accusative"
+  ],
+  "grammar_preview": [
+   "genitive"
+  ],
+  "formula_glossed": [
+   "nōmine: \"by name\", glossed"
+  ],
+  "raw_text": {
+   "text": "Successus textor amat coponiaes ancilla(m) nomine Hiredem quae quidem illum non curat",
+   "source": "AGP-EDR175589 (first lines)",
+   "label": "What the wall actually says"
+  },
+  "image": {
+   "src": "img/rome/couple.webp",
+   "alt": "Pompeian portrait of a couple (Terentius Neo and his wife)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Naples Archaeological Museum · Jebulon",
+   "source_url": "https://commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Graffito CIL IV 8259 (AGP)",
+   "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR175589"
   }
  },
  {
@@ -5616,6 +5641,11 @@
    "third_declension"
   ],
   "grammar_preview": [],
+  "raw_text": {
+   "text": "EID·MAR",
+   "source": "RRC 508/3 reverse",
+   "label": "What the stone/coin actually says"
+  },
   "image": {
    "src": "img/rome/eidmar.webp",
    "alt": "Denarius of Brutus: cap of liberty between two daggers, EID MAR",
@@ -5691,6 +5721,11 @@
    "ablative_absolute",
    "perfect_passive"
   ],
+  "raw_text": {
+   "text": "AEGVPTO CAPTA",
+   "source": "RIC I² 275a reverse",
+   "label": "What the stone/coin actually says"
+  },
   "image": {
    "src": "img/rome/aegypto.webp",
    "alt": "Denarius of Octavian with crocodile, AEGVPTO CAPTA",
@@ -6773,165 +6808,6 @@
   }
  },
  {
-  "id": "i-pompeii-admiror",
-  "type": "quote",
-  "era": "empire",
-  "unit": 2,
-  "latin": "Admīror, ō pariēs, tē nōn cecidisse ruīnīs, quī tot scrīptōrum taedia sustineās.",
-  "translation": "I'm amazed, O wall, that you haven't collapsed in ruins, since you hold up the tedious scribbles of so many writers.",
-  "context": "A Pompeian wrote this joke couplet, in verse, about graffiti, on a wall already covered in graffiti. Copies were found in at least three places in the town.",
-  "person": "Anonymous graffito, Pompeii",
-  "source": {
-   "work": "Graffito, Pompeii, Basilica (VIII.1.1)",
-   "citation": "CIL IV 1904 (AGP-EDR158840)",
-   "date": "before AD 79"
-  },
-  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR158840",
-  "attribution_confidence": "verified",
-  "attribution_note": "AGP text reads \"pariens (:paries)\"; duplicates EDR158841-2.",
-  "gloss": [
-   {
-    "word": "Admīror",
-    "lemma": "admīror",
-    "meaning": "I am amazed",
-    "parse": "1st sg. pres. deponent"
-   },
-   {
-    "word": "ō",
-    "lemma": "ō",
-    "meaning": "O",
-    "parse": "interj."
-   },
-   {
-    "word": "pariēs",
-    "lemma": "pariēs",
-    "meaning": "wall",
-    "parse": "voc. sg. m."
-   },
-   {
-    "word": "tē",
-    "lemma": "tū",
-    "meaning": "you",
-    "parse": "acc."
-   },
-   {
-    "word": "nōn",
-    "lemma": "nōn",
-    "meaning": "not",
-    "parse": "adv."
-   },
-   {
-    "word": "cecidisse",
-    "lemma": "cadō",
-    "meaning": "to have fallen",
-    "parse": "perf. inf."
-   },
-   {
-    "word": "ruīnīs",
-    "lemma": "ruīna",
-    "meaning": "in ruins",
-    "parse": "abl. pl. f."
-   },
-   {
-    "word": "quī",
-    "lemma": "quī",
-    "meaning": "(you) who",
-    "parse": "rel. pron."
-   },
-   {
-    "word": "tot",
-    "lemma": "tot",
-    "meaning": "so many",
-    "parse": "indecl."
-   },
-   {
-    "word": "scrīptōrum",
-    "lemma": "scrīptor",
-    "meaning": "of writers",
-    "parse": "gen. pl. m."
-   },
-   {
-    "word": "taedia",
-    "lemma": "taedium",
-    "meaning": "tedious things",
-    "parse": "acc. pl. n."
-   },
-   {
-    "word": "sustineās",
-    "lemma": "sustineō",
-    "meaning": "you hold up",
-    "parse": "2nd sg. pres. subj."
-   }
-  ],
-  "grammar_tags": [
-   "vocative",
-   "indirect_statement",
-   "perfect_infinitive",
-   "subjunctive",
-   "relative_clause",
-   "genitive"
-  ],
-  "vocab_ids": [
-   "admiror",
-   "cado",
-   "non",
-   "o",
-   "paries",
-   "qui",
-   "ruina",
-   "scriptor",
-   "sustineo",
-   "taedium",
-   "tot",
-   "tu"
-  ],
-  "teaching_value": {
-   "note": "Vocative ō pariēs is the target. Everything else (an infinitive clause, a subjunctive) is glossed. The point is the joke and the fact that real people wrote it.",
-   "dcc_core_pct": 50,
-   "non_core": [
-    "admiror",
-    "o",
-    "paries",
-    "ruina",
-    "scriptor",
-    "taedium"
-   ],
-   "score": 3,
-   "role": "preview",
-   "rank": 61
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "grammar_target": [
-   "vocative"
-  ],
-  "grammar_preview": [
-   "indirect_statement",
-   "perfect_infinitive",
-   "subjunctive",
-   "relative_clause",
-   "genitive"
-  ],
-  "image": {
-   "src": "img/rome/basilica.webp",
-   "alt": "The Basilica at Pompeii",
-   "kind": "building",
-   "aspect": "4:3",
-   "transparent": false,
-   "license": "CC BY-SA 4.0",
-   "credit": "“Basilica, Pompeii 01” by Adam Harangozó, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Basilica,_Pompeii_01.jpg",
-   "modified": "cropped to 4:3, resized",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  "learn_more": {
-   "label": "Graffito CIL IV 1904 (AGP)",
-   "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR158840"
-  }
- },
- {
   "id": "q-livy-vae",
   "type": "quote",
   "era": "republic",
@@ -6978,7 +6854,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 62
+   "rank": 61
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -7068,7 +6944,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 63
+   "rank": 62
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -7099,11 +6975,176 @@
   }
  },
  {
+  "id": "i-pompeii-admiror",
+  "type": "quote",
+  "era": "empire",
+  "unit": 8,
+  "latin": "Admīror, ō pariēs, tē nōn cecidisse ruīnīs, quī tot scrīptōrum taedia sustineās.",
+  "translation": "I'm amazed, O wall, that you haven't collapsed in ruins, since you hold up the tedious scribbles of so many writers.",
+  "context": "A Pompeian wrote this joke couplet, in verse, about graffiti, on a wall already covered in graffiti. Copies were found in at least three places in the town.",
+  "person": "Anonymous graffito, Pompeii",
+  "source": {
+   "work": "Graffito, Pompeii, Basilica (VIII.1.1)",
+   "citation": "CIL IV 1904 (AGP-EDR158840)",
+   "date": "before AD 79"
+  },
+  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR158840",
+  "attribution_confidence": "verified",
+  "attribution_note": "AGP text reads \"pariens (:paries)\"; duplicates EDR158841-2.",
+  "gloss": [
+   {
+    "word": "Admīror",
+    "lemma": "admīror",
+    "meaning": "I am amazed",
+    "parse": "1st sg. pres. deponent"
+   },
+   {
+    "word": "ō",
+    "lemma": "ō",
+    "meaning": "O",
+    "parse": "interj."
+   },
+   {
+    "word": "pariēs",
+    "lemma": "pariēs",
+    "meaning": "wall",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "acc."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "cecidisse",
+    "lemma": "cadō",
+    "meaning": "to have fallen",
+    "parse": "perf. inf."
+   },
+   {
+    "word": "ruīnīs",
+    "lemma": "ruīna",
+    "meaning": "in ruins",
+    "parse": "abl. pl. f."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "(you) who",
+    "parse": "rel. pron."
+   },
+   {
+    "word": "tot",
+    "lemma": "tot",
+    "meaning": "so many",
+    "parse": "indecl."
+   },
+   {
+    "word": "scrīptōrum",
+    "lemma": "scrīptor",
+    "meaning": "of writers",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "taedia",
+    "lemma": "taedium",
+    "meaning": "tedious things",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "sustineās",
+    "lemma": "sustineō",
+    "meaning": "you hold up",
+    "parse": "2nd sg. pres. subj."
+   }
+  ],
+  "grammar_tags": [
+   "vocative",
+   "indirect_statement",
+   "infinitive",
+   "perfect_infinitive",
+   "subjunctive",
+   "relative_clause"
+  ],
+  "vocab_ids": [
+   "admiror",
+   "cado",
+   "non",
+   "o",
+   "paries",
+   "qui",
+   "ruina",
+   "scriptor",
+   "sustineo",
+   "taedium",
+   "tot",
+   "tu"
+  ],
+  "teaching_value": {
+   "note": "Vocative ō pariēs is the target. Everything else (an infinitive clause, a subjunctive) is glossed. The point is the joke and the fact that real people wrote it.",
+   "dcc_core_pct": 50,
+   "non_core": [
+    "admiror",
+    "o",
+    "paries",
+    "ruina",
+    "scriptor",
+    "taedium"
+   ],
+   "score": 3,
+   "role": "preview",
+   "rank": 63
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "vocative",
+   "indirect_statement",
+   "infinitive"
+  ],
+  "grammar_preview": [
+   "perfect_infinitive",
+   "subjunctive",
+   "relative_clause"
+  ],
+  "card_role": "preview_reading",
+  "raw_text": {
+   "text": "Admiror o pariens te non cecidisse ruinis qui tot scriptorum taedia sustineas",
+   "source": "AGP-EDR158840",
+   "label": "What the wall actually says"
+  },
+  "image": {
+   "src": "img/rome/basilica.webp",
+   "alt": "The Basilica at Pompeii",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Basilica, Pompeii 01” by Adam Harangozó, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Basilica,_Pompeii_01.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Graffito CIL IV 1904 (AGP)",
+   "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR158840"
+  }
+ },
+ {
   "id": "i-rib-regina",
   "type": "quote",
   "era": "empire",
-  "unit": 2,
-  "latin": "D(īs) M(ānibus). Rēgīna līberta et coniuge Barātēs Palmyrēnus nātiōne Catuallauna an(nōrum) XXX.",
+  "unit": 4,
+  "latin": "D(īs) M(ānibus). Rēgīna līberta et coniuge Baratēs Palmyrēnus nātiōne Catuallauna an(nōrum) XXX.",
   "translation": "To the spirits of the departed: Regina, his freedwoman and wife, a Catuvellaunian by tribe, aged 30. Barates of Palmyra (set this up).",
   "context": "A Syrian trader from Palmyra freed and married Regina, a British woman. He set up her tombstone at South Shields. Below the Latin he added a line in his own Palmyrene Aramaic.",
   "person": "Barates of Palmyra",
@@ -7153,8 +7194,8 @@
     "parse": "abl. form for nom."
    },
    {
-    "word": "Barātēs",
-    "lemma": "Barātēs",
+    "word": "Baratēs",
+    "lemma": "Baratēs",
     "meaning": "Barates",
     "parse": "nom."
    },
@@ -7221,14 +7262,19 @@
   },
   "grammar_target": [
    "nominative",
-   "abbreviations"
+   "abbreviations",
+   "dative"
   ],
   "grammar_preview": [
-   "dative",
    "ablative",
    "genitive",
    "numerals"
   ],
+  "raw_text": {
+   "text": "DM‣REGINA‣LIBERTA‣ET‣CONIVGE‣ BARATES‣PALMYRENVS‣NATIONE‣ CATVALLAVNA‣AN‣XXX‣",
+   "source": "RIB 1065, diplomatic text",
+   "label": "What the stone/coin actually says"
+  },
   "image": {
    "src": "img/rome/regina.webp",
    "alt": "Tombstone of Regina, South Shields, with Latin and Palmyrene text",
@@ -7239,7 +7285,8 @@
    "credit": "“Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright” by Abigail Baker and Alison Cooley, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons; modified: cropped to 2:3, resized",
    "source_url": "https://commons.wikimedia.org/wiki/File:Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright.jpg",
    "modified": "cropped to 2:3, resized",
-   "license_url": "https://creativecommons.org/licenses/by/4.0"
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "license_note": "CC BY 4.0 per the Commons file page ({{cc-by-4.0}}, author Abigail Baker and Alison Cooley); uploaded from a ResearchGate figure whose file name says \"Copyright\". Provenance not independently confirmed; consider replacing."
   },
   "learn_more": {
    "label": "Regina tombstone (RIB 1065)",

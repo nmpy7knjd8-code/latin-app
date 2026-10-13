@@ -157,13 +157,13 @@
   "respelling": "al-bah-NEE-kwe PA-trays AT-kwe AL-teye MOY-ni-a ROH-meye",
   "ipa_verse": "/al.baː.ˈniː.kʷɛ ˈpa.treːs ˈat.kʷ‿ˈal.tae̯ ˈmoe̯.nɪ.a ˈroː.mae̯/",
   "respelling_verse": "al-bah-NEE-kwe PA-trays AT-kw'AL-teye MOY-ni-a ROH-meye",
-  "latin": "Albānīque patrēs, atque altae moenia Rōmae.",
+  "latin": "… Albānīque patrēs, atque altae moenia Rōmae.",
   "src": "rome-cards.json"
  },
  "q-plautus-lupus": {
   "ipa": "/ˈlʊ.pʊs ɛst ˈhɔ.moː ˈhɔ.mɪ.niː noːn ˈhɔ.moː/",
   "respelling": "LU-pus est HO-moh HO-mi-nee nohn HO-moh",
-  "latin": "Lupus est homō hominī, nōn homō.",
+  "latin": "Lupus est homō hominī, nōn homō, …",
   "src": "rome-cards.json"
  },
  "q-virgil-forsan": {
@@ -256,12 +256,6 @@
   "latin": "Arma virumque canō, Trōiae quī prīmus ab ōrīs Ītaliam … vēnit.",
   "src": "rome-cards.json"
  },
- "i-pompeii-successus": {
-  "ipa": "/sʊk.ˈkɛs.sʊs ˈtɛk.stɔr ˈa.mat koː.ˈpoː.nae̯ aŋ.ˈkɪl.lam ˈnoː.mɪ.nɛ ˈhɪ.rɛ.dɛm kʷae̯ ˈkʷɪ.dɛm ˈɪl.lʊm noːn ˈkuː.rat/",
-  "respelling": "suk-KES-sus TEK-stor A-mat koh-POH-neye ang-KIL-lam NOH-mi-ne HI-re-dem kweye KWI-dem IL-lum nohn KOO-rat",
-  "latin": "Successus textor amat cōpōnae ancillam nōmine Hiredem, quae quidem illum nōn cūrat.",
-  "src": "rome-cards.json"
- },
  "q-terence-fortis": {
   "ipa": "/ˈfɔr.tiːs fɔr.ˈtuː.na a.ˈdɪ.ʊ.wat/",
   "respelling": "FOR-tees for-TOO-na a-DI-u-wat",
@@ -316,6 +310,12 @@
   "ipa": "/diːs ˈmaː.nɪ.bʊs flaː.ˈwiː.nʊs ˈɛ.kʷɛs ˈaː.lae̯ pɛ.trɪ.ˈaː.nae̯ ˈsɪŋ.nɪ.fɛr ˈtʊr.ma ˈkan.dɪ.diː an.ˈnoː.rʊm stiː.pɛn.dɪ.ˈoː.rʊm hiːk ˈsɪ.tʊs ɛst/",
   "respelling": "dees MAH-ni-bus flah-WEE-nus E-kwes AH-leye pe-tri-AH-neye SING-ni-fer TUR-ma KAN-di-dee an-NOH-rum stee-pen-di-OH-rum heek SI-tus est",
   "latin": "Dīs Mānibus. Flāvīnus, eq(ues) ālae Petr(iānae), signifer, tur(ma) Candidī, an(nōrum) XXV, stīp(endiōrum) VII, h(īc) s(itus) (est).",
+  "src": "rome-cards.json"
+ },
+ "i-pompeii-successus": {
+  "ipa": "/sʊk.ˈkɛs.sʊs ˈtɛk.stɔr ˈa.mat koː.ˈpoː.nae̯ aŋ.ˈkɪl.lam ˈnoː.mɪ.nɛ ˈhɪ.rɛ.dɛm/",
+  "respelling": "suk-KES-sus TEK-stor A-mat koh-POH-neye ang-KIL-lam NOH-mi-ne HI-re-dem",
+  "latin": "Successus textor amat cōpōnae ancillam nōmine Hiredem …",
   "src": "rome-cards.json"
  },
  "c-brutus-eidmar": {
@@ -400,12 +400,6 @@
   "latin": "Tempus edāx rērum, tūque, invidiōsa vetustās, omnia dēstruitis.",
   "src": "rome-cards.json"
  },
- "i-pompeii-admiror": {
-  "ipa": "/ad.ˈmiː.rɔr oː ˈpa.rɪ.eːs teː noːn kɛ.kɪ.ˈdɪs.sɛ rʊ.ˈiː.niːs kʷiː tɔt skriːp.ˈtoː.rʊm ˈtae̯.dɪ.a sʊs.ˈtɪ.nɛ.aːs/",
-  "respelling": "ad-MEE-ror oh PA-ri-ays tay nohn ke-ki-DIS-se ru-EE-nees kwee tot skreep-TOH-rum TEYE-di-a sus-TI-ne-ahs",
-  "latin": "Admīror, ō pariēs, tē nōn cecidisse ruīnīs, quī tot scrīptōrum taedia sustineās.",
-  "src": "rome-cards.json"
- },
  "q-livy-vae": {
   "ipa": "/wae̯ ˈwɪk.tiːs/",
   "respelling": "weye WIK-tees",
@@ -420,10 +414,16 @@
   "latin": "Exēgī monumentum aere perennius.",
   "src": "rome-cards.json"
  },
+ "i-pompeii-admiror": {
+  "ipa": "/ad.ˈmiː.rɔr oː ˈpa.rɪ.eːs teː noːn kɛ.kɪ.ˈdɪs.sɛ rʊ.ˈiː.niːs kʷiː tɔt skriːp.ˈtoː.rʊm ˈtae̯.dɪ.a sʊs.ˈtɪ.nɛ.aːs/",
+  "respelling": "ad-MEE-ror oh PA-ri-ays tay nohn ke-ki-DIS-se ru-EE-nees kwee tot skreep-TOH-rum TEYE-di-a sus-TI-ne-ahs",
+  "latin": "Admīror, ō pariēs, tē nōn cecidisse ruīnīs, quī tot scrīptōrum taedia sustineās.",
+  "src": "rome-cards.json"
+ },
  "i-rib-regina": {
-  "ipa": "/diːs ˈmaː.nɪ.bʊs reː.ˈgiː.na liː.ˈbɛr.ta ɛt kɔ.ˈnɪ.ʊ.gɛ ba.ˈraː.teːs pal.mʏ.ˈreː.nʊs naː.tɪ.ˈoː.nɛ ka.tʊ.al.ˈlau̯.na an.ˈnoː.rʊm/",
-  "respelling": "dees MAH-ni-bus ray-GEE-na lee-BER-ta et ko-NI-u-ge ba-RAH-tays pal-mü-RAY-nus nah-ti-OH-ne ka-tu-al-LOW-na an-NOH-rum",
-  "latin": "D(īs) M(ānibus). Rēgīna līberta et coniuge Barātēs Palmyrēnus nātiōne Catuallauna an(nōrum) XXX.",
+  "ipa": "/diːs ˈmaː.nɪ.bʊs reː.ˈgiː.na liː.ˈbɛr.ta ɛt kɔ.ˈnɪ.ʊ.gɛ ˈba.ra.teːs pal.mʏ.ˈreː.nʊs naː.tɪ.ˈoː.nɛ ka.tʊ.al.ˈlau̯.na an.ˈnoː.rʊm/",
+  "respelling": "dees MAH-ni-bus ray-GEE-na lee-BER-ta et ko-NI-u-ge BA-ra-tays pal-mü-RAY-nus nah-ti-OH-ne ka-tu-al-LOW-na an-NOH-rum",
+  "latin": "D(īs) M(ānibus). Rēgīna līberta et coniuge Baratēs Palmyrēnus nātiōne Catuallauna an(nōrum) XXX.",
   "src": "rome-cards.json"
  },
  "q-vulg-fiat-lux": {

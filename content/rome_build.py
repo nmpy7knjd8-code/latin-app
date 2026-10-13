@@ -65,7 +65,7 @@ exec(open(''+__import__('os').path.dirname(__import__('os').path.abspath(__file_
 
 import os,sys
 HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,HERE)
-from rome_meta import META,TAUGHT,IMGS,EXISTING,WP
+from rome_meta import META,TAUGHT,IMGS,EXISTING,WP,FORMULA,RELATED,ROLE,RAW
 CRED=json.load(open(os.path.join(HERE,'data','rome-image-credits.json')))
 EXIST_IMG={}
 try:
@@ -85,6 +85,12 @@ for c in C:
         elif TAUGHT[tg]>unit: errs.append(f"{c['id']}: target {tg} taught U{TAUGHT[tg]} > card U{unit}")
     for tg in preview:
         if tg not in TAUGHT: errs.append(f"{c['id']}: unknown preview tag {tg}")
+    if c['id'] in FORMULA and FORMULA[c['id']]: c['formula_glossed']=FORMULA[c['id']]
+    if c['id'] in RELATED: c['related_cards']=RELATED[c['id']]
+    if c['id'] in ROLE: c['card_role']=ROLE[c['id']]
+    if c['id'] in RAW: c['raw_text']=dict(text=RAW[c['id']][0],source=RAW[c['id']][1],label='What the wall actually says' if c['id'].startswith('i-pompeii') else 'What the stone/coin actually says')
+    elif c['id'].startswith(('i-','c-')): errs.append(f"{c['id']}: inscription/coin without raw_text")
+    if unit<=3 and len(preview)>1: errs.append(f"{c['id']}: U{unit} card has {len(preview)} preview points (max 1 in U1-3)")
     pct=c['teaching_value']['dcc_core_pct']
     if s==5 and pct<80: s=4
     c['teaching_value']['score']=s
@@ -106,6 +112,7 @@ for c in C:
             im['credit']=f'“{title}” by {art or "unknown"}, {lic} ({cr.get("licence_url","")}), via Wikimedia Commons; modified: {im["modified"]}'
             if not art or not cr.get('licence_url'): errs.append(f"{c['id']}: CC BY credit incomplete")
         elif art: im['credit']=f'{cr_ if (cr_:=im["credit"]) else ""} · {art}'[:240]
+    if ik=='regina': im['license_note']='CC BY 4.0 per the Commons file page ({{cc-by-4.0}}, author Abigail Baker and Alison Cooley); uploaded from a ResearchGate figure whose file name says "Copyright". Provenance not independently confirmed; consider replacing.'
     c['image']=im
     url=('https://ancientgraffiti.org/Graffiti/graffito/'+lmt[4:]) if lmt.startswith('AGP:') else ('https://romaninscriptionsofbritain.org/inscriptions/'+lmt[4:]) if lmt.startswith('RIB:') else WP+lmt
     c['learn_more']=dict(label=lml,url=url)

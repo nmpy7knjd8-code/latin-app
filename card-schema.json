@@ -285,6 +285,46 @@
   },
   "dcc_ranks": {
    "type": "object"
+  },
+  "raw_text": {
+   "type": "object",
+   "required": [
+    "text"
+   ],
+   "properties": {
+    "text": {
+     "type": "string"
+    },
+    "source": {
+     "type": "string"
+    },
+    "label": {
+     "type": "string"
+    }
+   },
+   "description": "Unnormalized reading (AGP/RIB diplomatic text): the 'What the wall actually says' toggle."
+  },
+  "related_cards": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "formula_glossed": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Fixed phrases glossed as vocabulary, not counted as preview grammar."
+  },
+  "card_role": {
+   "type": "string"
+  },
+  "bonus": {
+   "type": "boolean"
+  },
+  "bonus_set": {
+   "type": "string"
   }
  },
  "examples": [
