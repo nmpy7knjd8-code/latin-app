@@ -66,6 +66,7 @@ exec(open(''+__import__('os').path.dirname(__import__('os').path.abspath(__file_
 import os,sys
 HERE=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,HERE)
 from rome_meta import META,TAUGHT,IMGS,EXISTING,WP
+CRED=json.load(open(os.path.join(HERE,'data','rome-image-credits.json')))
 EXIST_IMG={}
 try:
     js=open(os.path.join(HERE,'..','cards','cards.js')).read()
@@ -96,6 +97,15 @@ for c in C:
         f,kind,alt,lic,cr,asp,tr=IMGS[ik]
         im=dict(src=f'img/rome/{ik}.webp',alt=alt,kind=kind,aspect=asp,transparent=tr,license=lic,credit=cr,source_url='https://commons.wikimedia.org/wiki/File:'+f.replace(' ','_'))
         if not os.path.exists(os.path.join(HERE,im['src'])): errs.append(f"{c['id']}: image file missing {im['src']}")
+    if ik not in EXISTING:
+        cr=CRED.get(ik,{}); art=re.split(r' You are free| \(talk\)',cr.get('artist',''))[0].strip()
+        title=f.rsplit('.',1)[0]
+        im['modified']='background removed (cut-out), cropped, resized' if tr else 'cropped to %s, resized'%asp
+        if 'BY' in lic:
+            im['license_url']=cr.get('licence_url','')
+            im['credit']=f'“{title}” by {art or "unknown"}, {lic} ({cr.get("licence_url","")}), via Wikimedia Commons; modified: {im["modified"]}'
+            if not art or not cr.get('licence_url'): errs.append(f"{c['id']}: CC BY credit incomplete")
+        elif art: im['credit']=f'{cr_ if (cr_:=im["credit"]) else ""} · {art}'[:240]
     c['image']=im
     url=('https://ancientgraffiti.org/Graffiti/graffito/'+lmt[4:]) if lmt.startswith('AGP:') else ('https://romaninscriptionsofbritain.org/inscriptions/'+lmt[4:]) if lmt.startswith('RIB:') else WP+lmt
     c['learn_more']=dict(label=lml,url=url)
@@ -107,9 +117,20 @@ from collections import Counter
 dup=[k for k,v in Counter(c['image']['src'] for c in C).items() if v>1]
 C.sort(key=lambda c:(-c['teaching_value']['score'],-c['teaching_value']['dcc_core_pct'],c['unit']))
 for i,c in enumerate(C,1): c['teaching_value']['rank']=i
+from collections import defaultdict
+byu=defaultdict(list)
+for c in C: byu[c['unit']].append(c)
+warn=[]
+for u,L in sorted(byu.items()):
+    for k,c in enumerate(L):
+        if k>=10: c['bonus']=True; c['bonus_set']='Lege plūra'
+        else: c.pop('bonus',None); c.pop('bonus_set',None)
+    core=min(len(L),10)
+    if core<4 or len(L)>10: warn.append(f'U{u}: {len(L)} cards ({len(L)-core} bonus)')
 json.dump(C,open(os.path.join(HERE,'rome-cards.json'),'w'),ensure_ascii=False,indent=1)
 for c in C: print(c['teaching_value']['rank'],c['teaching_value']['score'],c['teaching_value']['role'],c['teaching_value']['dcc_core_pct'],'U%d'%c['unit'],c['id'])
 print('duplicate images:',dup)
+print('unit balance warnings:',warn)
 if errs:
     print('LINT ERRORS:'); [print(' ',e) for e in errs]; sys.exit(1)
 print('lint ok')

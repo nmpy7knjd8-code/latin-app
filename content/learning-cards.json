@@ -2052,7 +2052,7 @@
   "subtype": "mix:parse",
   "unit": 5,
   "era": "empire",
-  "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT",
+  "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT — Mārcus Agrippa Lūcī fīlius cōnsul tertium fēcit",
   "translation": "Marcus Agrippa, son of Lucius, consul for the third time, made this",
   "teaches": "Parse-the-inscription game built on existing card i-pantheon-agrippa",
   "context": "Drag each abbreviation to its full form. Reuses CIL VI 896 already verified-pending in rome-cards; here it tests abbreviations and the perfect fēcit as a preview.",
@@ -2570,7 +2570,7 @@
   "subtype": "coin",
   "unit": 6,
   "era": "empire",
-  "latin": "IMP·CAESAR·DIVI·F",
+  "latin": "IMP·CAESAR·DIVI·F — Imperātor Caesar Dīvī fīlius",
   "translation": "Imperator Caesar, son of the deified (Julius)",
   "teaches": "Coin legend reading; genitive + abbreviation",
   "context": "Octavian stressed his adoption by the deified Julius on coins. DIVI F = dīvī fīlius, a powerful propaganda line before the name Augustus (27 BC).",
@@ -3690,7 +3690,7 @@
   "subtype": "coin",
   "unit": 9,
   "era": "late_antiquity",
-  "latin": "Ego sum Alpha et Omega.",
+  "latin": "Ego sum Alpha et Ōmega.",
   "translation": "I am the Alpha and the Omega.",
   "teaches": "Vulgate sentence with sum; reading ☧/Α/Ω symbols on late Roman coins (image)",
   "context": "Constantine adopted the Chi-Rho after 312. Later coins pair it with Alpha and Omega from Revelation (Apoc. 1:8 in the Vulgate).",
@@ -3754,8 +3754,8 @@
     "parse": "conj."
    },
    {
-    "word": "Omega",
-    "lemma": "Omega",
+    "word": "Ōmega",
+    "lemma": "Ōmega",
     "meaning": "Omega",
     "parse": "indecl."
    }
@@ -4265,7 +4265,7 @@
   "subtype": "coin",
   "unit": 10,
   "era": "early_medieval",
-  "latin": "KAROLVS IMP AVG",
+  "latin": "KAROLVS IMP AVG — Karolus Imperātor Augustus",
   "translation": "Charles, Emperor, Augustus",
   "teaches": "Medieval coin legend reusing Roman titles",
   "context": "Charlemagne, crowned in 800, issued coins styling himself like a Roman emperor. Compare with Augustus' coins in Unit 6.",

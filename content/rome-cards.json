@@ -73,13 +73,14 @@
   "grammar_preview": [],
   "image": {
    "src": "img/rome/rufussita.webp",
-   "alt": "Tombstone of the Roman cavalryman Rufus Sita, Gloucester",
+   "alt": "Stand-in image: a Roman soldier's tombstone from Britain (Rufus Sita, Thracian auxiliary cavalryman, Gloucester), not one of Varus's legionaries",
    "kind": "inscription",
    "aspect": "2:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Rufus_Sita_Tombstone.jpg"
+   "credit": "Wikimedia Commons · Unknown authorUnknown author",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rufus_Sita_Tombstone.jpg",
+   "modified": "cropped to 2:3, resized"
   },
   "learn_more": {
    "label": "Battle of the Teutoburg Forest",
@@ -160,7 +161,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_a_boy_MET_DP328527.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_a_boy_MET_DP328527.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "present_tense",
@@ -274,8 +276,9 @@
    "aspect": "3:4",
    "transparent": true,
    "license": "Public domain",
-   "credit": "British Museum",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg"
+   "credit": "British Museum · Unknown artistUnknown artist",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "sum",
@@ -398,10 +401,11 @@
    "alt": "Roman wax writing tablet",
    "kind": "artifact",
    "aspect": "4:3",
-   "transparent": true,
+   "transparent": false,
    "license": "CC0",
-   "credit": "Wikimedia Commons (CC0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Wax_writing_tablet_with_part_of_a_Roman_will.jpg"
+   "credit": "Wikimedia Commons (CC0) · Mx. Granger",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Wax_writing_tablet_with_part_of_a_Roman_will.jpg",
+   "modified": "cropped to 4:3, resized"
   },
   "grammar_target": [
    "sum",
@@ -506,8 +510,9 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Naples Archaeological Museum",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeian_mural_depicting_the_Amphitheatre_riots.jpg"
+   "credit": "Naples Archaeological Museum · U.D.F., Paris",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeian_mural_depicting_the_Amphitheatre_riots.jpg",
+   "modified": "cropped to 3:4, resized"
   },
   "learn_more": {
    "label": "Graffiti in Pompeii (AGP)",
@@ -597,8 +602,10 @@
    "aspect": "2:3",
    "transparent": true,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg"
+   "credit": "“Bust of Cicero (1st-cent. BC) - Palazzo Nuovo - Musei Capitolini - Rome 2016” by José Luiz, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "grammar_target": [
    "genitive",
@@ -690,13 +697,15 @@
   },
   "image": {
    "src": "img/rome/calgacus.webp",
-   "alt": "Stone statue of a Gallic warrior, Musée de la Romanité, Nîmes",
+   "alt": "Stand-in image: Gallic warrior statue, Musée de la Romanité, Nîmes (not a Caledonian)",
    "kind": "statue_cutout",
    "aspect": "3:4",
    "transparent": true,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Musee-romanite-guerrier-casque-1.jpg"
+   "credit": "“Musee-romanite-guerrier-casque-1” by Christelle Molinié, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Musee-romanite-guerrier-casque-1.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "grammar_target": [
    "present_tense",
@@ -802,8 +811,9 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Hallwyl Museum, Stockholm",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Fotografi._Pantheon_di_Agrippa._Rom,_Italien_-_Hallwylska_museet_-_104733.tif"
+   "credit": "Hallwyl Museum, Stockholm · Unknown authorUnknown author",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fotografi._Pantheon_di_Agrippa._Rom,_Italien_-_Hallwylska_museet_-_104733.tif",
+   "modified": "cropped to 4:3, resized"
   },
   "grammar_target": [
    "nominative",
@@ -884,8 +894,10 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Cave_Canem_Poeta_Trágico_03.jpg"
+   "credit": "“Cave Canem Poeta Trágico 03” by Miguel Hermoso Cuesta, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cave_Canem_Poeta_Trágico_03.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "learn_more": {
    "label": "House of the Tragic Poet",
@@ -978,8 +990,10 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeii_Via_dell'_Abbondanza_01.jpg"
+   "credit": "“Pompeii Via dell' Abbondanza 01” by Ad Meskens, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeii_Via_dell'_Abbondanza_01.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "learn_more": {
    "label": "Graffito CIL IV 2060 (AGP)",
@@ -1142,8 +1156,9 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Martial,_engraved_from_an_ancient_gem_(cropped).jpg"
+   "credit": "Wikimedia Commons · Unknown",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Martial,_engraved_from_an_ancient_gem_(cropped).jpg",
+   "modified": "cropped to 3:4, resized"
   },
   "learn_more": {
    "label": "I do not love thee, Doctor Fell",
@@ -1261,8 +1276,9 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Biblioteca Apostolica Vaticana",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Terence_Andria_1.1_Vat3868f4v.jpg"
+   "credit": "Biblioteca Apostolica Vaticana · unknown Carolingian scribe, 9th century AD",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Terence_Andria_1.1_Vat3868f4v.jpg",
+   "modified": "cropped to 4:3, resized"
   },
   "learn_more": {
    "label": "Homo sum, humani nihil a me alienum puto",
@@ -1358,100 +1374,14 @@
    "aspect": "2:3",
    "transparent": true,
    "license": "CC BY 4.0",
-   "credit": "Wikimedia Commons (CC BY 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_bust_of_Julius_Caesar_(Berlin_Ant_Sk_342)_02.jpg"
+   "credit": "“Portrait bust of Julius Caesar (Berlin Ant Sk 342) 02” by Mark Landon, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_bust_of_Julius_Caesar_(Berlin_Ant_Sk_342)_02.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "learn_more": {
    "label": "Belgae",
    "url": "https://en.wikipedia.org/wiki/Belgae"
-  }
- },
- {
-  "id": "i-sttl",
-  "type": "quote",
-  "era": "empire",
-  "unit": 4,
-  "latin": "S·T·T·L — Sit tibi terra levis.",
-  "translation": "May the earth lie lightly on you.",
-  "context": "Romans ended countless epitaphs with these four letters, the ancient equivalent of R.I.P. Learners will spot them on tombstones in any museum.",
-  "person": "Roman epitaph formula",
-  "source": {
-   "work": "Funerary inscription formula",
-   "citation": "common on Roman tombstones",
-   "date": "1st-3rd c. AD"
-  },
-  "source_url": "https://en.wikipedia.org/wiki/Sit_tibi_terra_levis",
-  "attribution_confidence": "verified",
-  "attribution_note": "Formula per Wikipedia \"List of Latin abbreviations\" / \"Sit tibi terra levis\". A generic formula, not one inscription.",
-  "gloss": [
-   {
-    "word": "Sit",
-    "lemma": "sum",
-    "meaning": "may it be",
-    "parse": "3rd sg. pres. subj."
-   },
-   {
-    "word": "tibi",
-    "lemma": "tū",
-    "meaning": "to/for you",
-    "parse": "dat."
-   },
-   {
-    "word": "terra",
-    "lemma": "terra",
-    "meaning": "earth",
-    "parse": "nom. sg. f."
-   },
-   {
-    "word": "levis",
-    "lemma": "levis",
-    "meaning": "light",
-    "parse": "nom. sg. f."
-   }
-  ],
-  "grammar_tags": [
-   "dative",
-   "abbreviations",
-   "subjunctive"
-  ],
-  "vocab_ids": [
-   "levis",
-   "sum",
-   "terra",
-   "tu"
-  ],
-  "teaching_value": {
-   "note": "Dative tibi, nominative + adjective (terra levis); jussive subjunctive sit as a preview. Teaches the abbreviation habit of inscriptions.",
-   "dcc_core_pct": 100,
-   "non_core": [],
-   "score": 4,
-   "role": "anchor",
-   "rank": 14
-  },
-  "unlock_rule": {
-   "min_vocab_known": 0.7,
-   "review_threshold": 0.9
-  },
-  "grammar_target": [
-   "dative",
-   "abbreviations"
-  ],
-  "grammar_preview": [
-   "subjunctive"
-  ],
-  "image": {
-   "src": "img/rome/urn.webp",
-   "alt": "Roman marble cinerary urn",
-   "kind": "artifact",
-   "aspect": "4:3",
-   "transparent": true,
-   "license": "CC0",
-   "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_cinerary_urn_MET_DT5413.jpg"
-  },
-  "learn_more": {
-   "label": "Sit tibi terra levis",
-   "url": "https://en.wikipedia.org/wiki/Sit_tibi_terra_levis"
   }
  },
  {
@@ -1541,7 +1471,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 15
+   "rank": 14
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1554,8 +1484,9 @@
    "aspect": "2:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Quintus_Horatius_Flaccus.jpg"
+   "credit": "Wikimedia Commons · Anton von Werner",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Quintus_Horatius_Flaccus.jpg",
+   "modified": "cropped to 2:3, resized"
   },
   "grammar_target": [
    "sum",
@@ -1656,7 +1587,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 16
+   "rank": 15
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1669,8 +1600,9 @@
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
-   "credit": "Wikimedia Commons (CC0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Laocoön_and_his_sons_group.jpg"
+   "credit": "Wikimedia Commons (CC0) · Wilfredor",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Laocoön_and_his_sons_group.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "present_tense",
@@ -1757,7 +1689,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 17
+   "rank": 16
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1768,10 +1700,11 @@
    "alt": "Romulus and Remus with the she-wolf",
    "kind": "artifact",
    "aspect": "4:3",
-   "transparent": true,
+   "transparent": false,
    "license": "CC0",
-   "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Romulus_and_Remus_MET_DP822897.jpg"
+   "credit": "The Metropolitan Museum of Art (Open Access) · Giulio Romano / Wenceslaus Hollar",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Romulus_and_Remus_MET_DP822897.jpg",
+   "modified": "cropped to 4:3, resized"
   },
   "grammar_target": [
    "perfect_tense",
@@ -1873,7 +1806,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 18
+   "rank": 17
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1887,7 +1820,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_statuette_of_Mercury_MET_DP105597.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_statuette_of_Mercury_MET_DP105597.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "in_ablative",
@@ -1901,6 +1835,167 @@
   "learn_more": {
    "label": "Mens sana in corpore sano",
    "url": "https://en.wikipedia.org/wiki/Mens_sana_in_corpore_sano"
+  }
+ },
+ {
+  "id": "i-sttl",
+  "type": "quote",
+  "era": "empire",
+  "unit": 4,
+  "latin": "D(īs) M(ānibus) s(acrum). Aur(ēliae) Lupulae mātrī piissimae Dionȳsius Fortūnātus fīlius. S(it) t(ibi) t(erra) l(evis).",
+  "translation": "Sacred to the spirits of the departed (and) to his very devoted mother Aurelia Lupula: Dionysius Fortunatus, her son, (set this up). May the earth lie lightly on you.",
+  "context": "A son's tombstone for his mother at Risingham fort, north of Hadrian's Wall. It ends with S·T·T·L, the Roman equivalent of R.I.P., found on epitaphs across the empire.",
+  "person": "Dionysius Fortunatus",
+  "source": {
+   "work": "Tombstone, Risingham (RIB 1250 = CIL VII 1014)",
+   "citation": "RIB 1250",
+   "date": "Roman period (undated)"
+  },
+  "source_url": "https://romaninscriptionsofbritain.org/inscriptions/1250",
+  "attribution_confidence": "verified",
+  "attribution_note": "Text and translation from RIB online (1250). The same formula is spelled out on RIB 693, 1258 and 1405. Stone spelling Lupule/piissime is normalized to -ae.",
+  "gloss": [
+   {
+    "word": "D(īs)",
+    "lemma": "deus",
+    "meaning": "to the gods",
+    "parse": "dat. pl."
+   },
+   {
+    "word": "M(ānibus)",
+    "lemma": "Mānēs",
+    "meaning": "spirits of the dead",
+    "parse": "dat. pl."
+   },
+   {
+    "word": "s(acrum)",
+    "lemma": "sacer",
+    "meaning": "sacred",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Aur(ēliae)",
+    "lemma": "Aurēlia",
+    "meaning": "Aurelia",
+    "parse": "dat."
+   },
+   {
+    "word": "Lupulae",
+    "lemma": "Lupula",
+    "meaning": "Lupula",
+    "parse": "dat."
+   },
+   {
+    "word": "mātrī",
+    "lemma": "māter",
+    "meaning": "to (his) mother",
+    "parse": "dat. sg. f."
+   },
+   {
+    "word": "piissimae",
+    "lemma": "pius",
+    "meaning": "most devoted",
+    "parse": "superl. dat. sg. f."
+   },
+   {
+    "word": "Dionȳsius",
+    "lemma": "Dionȳsius",
+    "meaning": "Dionysius",
+    "parse": "nom."
+   },
+   {
+    "word": "Fortūnātus",
+    "lemma": "Fortūnātus",
+    "meaning": "Fortunatus",
+    "parse": "nom."
+   },
+   {
+    "word": "fīlius",
+    "lemma": "fīlius",
+    "meaning": "son",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "S(it)",
+    "lemma": "sum",
+    "meaning": "may (it) be",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "t(ibi)",
+    "lemma": "tū",
+    "meaning": "to you",
+    "parse": "dat."
+   },
+   {
+    "word": "t(erra)",
+    "lemma": "terra",
+    "meaning": "earth",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "l(evis)",
+    "lemma": "levis",
+    "meaning": "light",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "grammar_tags": [
+   "dative",
+   "abbreviations",
+   "nominative",
+   "subjunctive",
+   "superlative"
+  ],
+  "vocab_ids": [
+   "deus",
+   "filius",
+   "levis",
+   "manes",
+   "mater",
+   "pius",
+   "sacer",
+   "sum",
+   "terra",
+   "tu"
+  ],
+  "teaching_value": {
+   "note": "Datives of the person honoured (mātrī piissimae), nominative of the dedicator (fīlius), and the formula abbreviations D·M·S and S·T·T·L. The subjunctive sit is a glossed preview.",
+   "dcc_core_pct": 90,
+   "non_core": [
+    "manes"
+   ],
+   "score": 4,
+   "role": "anchor",
+   "rank": 18
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "dative",
+   "abbreviations",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "subjunctive",
+   "superlative"
+  ],
+  "image": {
+   "src": "img/rome/urn.webp",
+   "alt": "Roman marble cinerary urn",
+   "kind": "artifact",
+   "aspect": "4:3",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_cinerary_urn_MET_DT5413.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
+  },
+  "learn_more": {
+   "label": "Sit tibi terra levis",
+   "url": "https://en.wikipedia.org/wiki/Sit_tibi_terra_levis"
   }
  },
  {
@@ -2005,8 +2100,9 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Rodolfo Lanciani",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Rudolfo_Lancani_-_Forma_Urbis_Romae_XV.jpg"
+   "credit": "Rodolfo Lanciani · Rodolfo Lanciani",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rudolfo_Lancani_-_Forma_Urbis_Romae_XV.jpg",
+   "modified": "cropped to 4:3, resized"
   },
   "learn_more": {
    "label": "Fasti (poem)",
@@ -2107,7 +2203,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_funerary_altar_of_Cominia_Tyche_MET_DP138727.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_funerary_altar_of_Cominia_Tyche_MET_DP138727.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "vocative"
@@ -2125,7 +2222,7 @@
   "type": "quote",
   "era": "empire",
   "unit": 6,
-  "latin": "SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F(ILIO) VESPASIANO AVGVSTO",
+  "latin": "SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F(ILIO) VESPASIANO AVGVSTO — Senātus Populusque Rōmānus Dīvō Titō Dīvī Vespasiānī fīliō Vespasiānō Augustō",
   "translation": "The Senate and People of Rome, to the deified Titus Vespasian Augustus, son of the deified Vespasian.",
   "context": "Domitian built the arch after his brother Titus died and was deified. Its reliefs show the spoils of the Temple in Jerusalem, captured in AD 70.",
   "person": "Senate and People of Rome",
@@ -2240,8 +2337,10 @@
    "aspect": "2:1",
    "transparent": false,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:ArcoTitoIscrizione.jpg"
+   "credit": "“ArcoTitoIscrizione” by MM, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 2:1, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ArcoTitoIscrizione.jpg",
+   "modified": "cropped to 2:1, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "grammar_target": [
    "nominative",
@@ -2403,7 +2502,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DT261885.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DT261885.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "present_tense",
@@ -2517,7 +2617,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Fragmentary_marble_head_of_a_helmeted_soldier_MET_DP106984.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fragmentary_marble_head_of_a_helmeted_soldier_MET_DP106984.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "infinitive_as_subject",
@@ -2633,8 +2734,9 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Servian_at_Termini.JPG"
+   "credit": "Wikimedia Commons · User: (WT-shared) Roundtheworld at wts wikivoyage",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Servian_at_Termini.JPG",
+   "modified": "cropped to 4:3, resized"
   },
   "learn_more": {
    "label": "Servian Wall",
@@ -2734,8 +2836,9 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Biblioteca Apostolica Vaticana",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Plautus,_Mostellaria,_Vaticanus_Palatinus_lat._1615.jpg"
+   "credit": "Biblioteca Apostolica Vaticana · Plautus",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Plautus,_Mostellaria,_Vaticanus_Palatinus_lat._1615.jpg",
+   "modified": "cropped to 3:4, resized"
   },
   "learn_more": {
    "label": "Homo homini lupus",
@@ -2832,7 +2935,8 @@
    "transparent": false,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_sarcophagus_with_the_contest_between_the_Muses_and_the_Sirens_MET_DP138718.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_sarcophagus_with_the_contest_between_the_Muses_and_the_Sirens_MET_DP138718.jpg",
+   "modified": "cropped to 2:1, resized"
   },
   "grammar_target": [
    "future_tense",
@@ -2941,7 +3045,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337291.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337291.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "imperative",
@@ -3072,8 +3177,9 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Res_gestae_divi_Augusti,_GD006036.jpg"
+   "credit": "Wikimedia Commons · Unknown authorUnknown author",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Res_gestae_divi_Augusti,_GD006036.jpg",
+   "modified": "cropped to 4:3, resized"
   },
   "grammar_target": [
    "perfect_tense",
@@ -3204,7 +3310,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_statuette_of_Mercury_MET_DP20178.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_statuette_of_Mercury_MET_DP20178.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "Seneca the Younger",
@@ -3293,7 +3400,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "Wikimedia Commons (CC0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "SPQR",
@@ -3377,7 +3485,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Comic_mask_MET_DP100625.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Comic_mask_MET_DP100625.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "Phormio (play)",
@@ -3460,8 +3569,9 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "CC0",
-   "credit": "Yale Center for British Art",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Bartolozzi_-_Cornelia,_Mother_of_the_Gracchi_-_B1977.14.19782_-_Yale_Center_for_British_Art.jpg"
+   "credit": "Yale Center for British Art · Francesco Bartolozzi",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Bartolozzi_-_Cornelia,_Mother_of_the_Gracchi_-_B1977.14.19782_-_Yale_Center_for_British_Art.jpg",
+   "modified": "cropped to 4:3, resized"
   },
   "grammar_target": [
    "sum",
@@ -3590,8 +3700,9 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Fullonica_of_Stephanus_(Pompeii)_(48443555206).jpg"
+   "credit": "Wikimedia Commons · Gary Todd from Xinzheng, China",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fullonica_of_Stephanus_(Pompeii)_(48443555206).jpg",
+   "modified": "cropped to 4:3, resized"
   },
   "learn_more": {
    "label": "Fullonica",
@@ -3625,7 +3736,7 @@
     "word": "animīs",
     "lemma": "animus",
     "meaning": "minds",
-    "parse": "dat. pl. m."
+    "parse": "dat. pl. m. (dative of possession)"
    },
    {
     "word": "caelestibus",
@@ -3677,8 +3788,9 @@
    "aspect": "2:3",
    "transparent": true,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Juno_Sospita_(Vaticano).jpg"
+   "credit": "Wikimedia Commons · AnonymousUnknown author",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Juno_Sospita_(Vaticano).jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "Juno (mythology)",
@@ -3801,8 +3913,9 @@
    "aspect": "2:3",
    "transparent": true,
    "license": "Public domain",
-   "credit": "DPLA via Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Statue_called_\"Vesta_Giustiniani\"_-_DPLA_-_5b55ce712f0fe863cb1e6318b78ea51c.jpg"
+   "credit": "DPLA via Wikimedia Commons · Catsimpoolas, Nicholas; Scull, S. A. (Sarah Amelia)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statue_called_\"Vesta_Giustiniani\"_-_DPLA_-_5b55ce712f0fe863cb1e6318b78ea51c.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "Vesta (mythology)",
@@ -4062,8 +4175,9 @@
    "aspect": "2:3",
    "transparent": true,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg"
+   "credit": "Wikimedia Commons · Till Niermann",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "vocative",
@@ -4209,8 +4323,9 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Bardo Museum, Tunis",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg"
+   "credit": "Bardo Museum, Tunis · Boyd Dwyer",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg",
+   "modified": "cropped to 3:4, resized"
   },
   "grammar_target": [
    "accusative",
@@ -4370,8 +4485,9 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "CC0",
-   "credit": "Naples Archaeological Museum",
-   "source_url": "https://commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg"
+   "credit": "Naples Archaeological Museum · Jebulon",
+   "source_url": "https://commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg",
+   "modified": "cropped to 3:4, resized"
   },
   "learn_more": {
    "label": "Graffito CIL IV 8259 (AGP)",
@@ -4455,7 +4571,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Terracotta_comic_mask_MET_DP101365.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Terracotta_comic_mask_MET_DP101365.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "Fortes fortuna adiuvat",
@@ -4627,8 +4744,10 @@
    "aspect": "2:3",
    "transparent": false,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:RIB_200.jpg"
+   "credit": "“RIB 200” by Udimu, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 2:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:RIB_200.jpg",
+   "modified": "cropped to 2:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "learn_more": {
    "label": "Tombstone of Marcus Favonius Facilis (RIB 200)",
@@ -4723,8 +4842,10 @@
    "aspect": "2:3",
    "transparent": true,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_sundial,_Antikensammlung_Berlin,_141306.jpg"
+   "credit": "“Ancient Roman sundial, Antikensammlung Berlin, 141306” by Zde, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_sundial,_Antikensammlung_Berlin,_141306.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "grammar_target": [
    "present_tense",
@@ -4818,7 +4939,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Oil_Lamp_MET_cop0414s1.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Oil_Lamp_MET_cop0414s1.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "sum"
@@ -5026,8 +5148,7 @@
    "vocative",
    "accusative",
    "dative",
-   "imperative",
-   "indirect_question"
+   "imperative"
   ],
   "vocab_ids": [
    "causa",
@@ -5056,8 +5177,7 @@
    "dative"
   ],
   "grammar_preview": [
-   "imperative",
-   "indirect_question"
+   "imperative"
   ],
   "image": {
    "src": "img/rome/seatedmuse.webp",
@@ -5067,7 +5187,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_statue_of_a_seated_muse_MET_118553.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_statue_of_a_seated_muse_MET_118553.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "Muses",
@@ -5090,6 +5211,7 @@
   },
   "source_url": "https://www.thelatinlibrary.com/vergil/aen6.shtml",
   "attribution_confidence": "verified",
+  "attribution_note": "Mynors (OCT) prints Avernō; some manuscripts read Avernī.",
   "gloss": [
    {
     "word": "Facilis",
@@ -5147,8 +5269,9 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "CC0",
-   "credit": "Rijksmuseum",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Standbeeld_van_Pluto,_RP-P-OB-44.317.jpg"
+   "credit": "Rijksmuseum · Rijksmuseum",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Standbeeld_van_Pluto,_RP-P-OB-44.317.jpg",
+   "modified": "cropped to 3:4, resized"
   },
   "learn_more": {
    "label": "Lake Avernus",
@@ -5247,7 +5370,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Glass_cup_MET_DP203343.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Glass_cup_MET_DP203343.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "present_tense",
@@ -5422,8 +5546,9 @@
    "aspect": "2:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "J. Collingwood Bruce, Lapidarium Septentrionale",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bruce_Page107_Flavinus.jpg"
+   "credit": "J. Collingwood Bruce, Lapidarium Septentrionale · John Collingwood Bruce",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bruce_Page107_Flavinus.jpg",
+   "modified": "cropped to 2:3, resized"
   },
   "learn_more": {
    "label": "Tombstone of Flavinus (RIB 1172)",
@@ -5440,13 +5565,13 @@
   "context": "Brutus put this on a silver coin after murdering Caesar: a freedman's cap between two daggers, and the date of the deed. Propaganda you could hold in your hand.",
   "person": "Marcus Junius Brutus",
   "source": {
-   "work": "Coin legend, denarius of Brutus",
-   "citation": "reverse legend",
+   "work": "Coin legend, denarius of Brutus (Crawford, RRC 508/3)",
+   "citation": "RRC 508/3",
    "date": "43-42 BC"
   },
   "source_url": "https://en.wikipedia.org/wiki/Ides_of_March_coin",
   "attribution_confidence": "verified",
-  "attribution_note": "Legend per Wikipedia \"Ides of March coin\".",
+  "attribution_note": "Legend per Wikipedia \"Ides of March coin\"; RRC 508/3 per CNG catalogue and the Commons file description (obv. BRVT IMP / L PLAET CEST).",
   "gloss": [
    {
     "word": "EID",
@@ -5498,8 +5623,10 @@
    "aspect": "4:3",
    "transparent": true,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Ides_of_march_coin.jpg"
+   "credit": "“Ides of march coin” by British Museum, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ides_of_march_coin.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "learn_more": {
    "label": "Ides of March coin",
@@ -5516,13 +5643,13 @@
   "context": "After defeating Antony and Cleopatra, Octavian struck coins showing a crocodile, symbol of Egypt, now a Roman possession.",
   "person": "Octavian (Augustus)",
   "source": {
-   "work": "Coin legend, denarius of Octavian",
-   "citation": "reverse legend",
+   "work": "Coin legend, denarius of Octavian (RIC I² 275a)",
+   "citation": "RIC I² 275a",
    "date": "28 BC"
   },
   "source_url": "https://en.wikipedia.org/wiki/Coins_of_Augustus",
   "attribution_confidence": "verified",
-  "attribution_note": "Legend per Wikipedia \"Coins of Augustus\" (citing Dartmouth numismatic collection).",
+  "attribution_note": "Legend per Wikipedia \"Coins of Augustus\"; RIC I² 275a (Italian mint, 28 BC; obv. CAESAR COS VI) per Forum Ancient Coins catalogue and the PAS record SUSS-BA7F45.",
   "gloss": [
    {
     "word": "AEGVPTO",
@@ -5571,8 +5698,9 @@
    "aspect": "4:3",
    "transparent": true,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Denario_Aegypto_capta.jpg"
+   "credit": "Wikimedia Commons · Telo",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Denario_Aegypto_capta.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "Coins of Augustus",
@@ -5657,7 +5785,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DP331280.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DP331280.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "vocative"
@@ -5782,13 +5911,16 @@
    "aspect": "2:3",
    "transparent": true,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Jupiter_Smyrna_Louvre_Ma13.jpg"
+   "credit": "Wikimedia Commons · Marie-Lan Nguyen",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jupiter_Smyrna_Louvre_Ma13.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "learn_more": {
    "label": "Ars Amatoria",
    "url": "https://en.wikipedia.org/wiki/Ars_Amatoria"
-  }
+  },
+  "bonus": true,
+  "bonus_set": "Lege plūra"
  },
  {
   "id": "q-seneca-differtur",
@@ -5864,8 +5996,9 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Naples Archaeological Museum",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Mosaic_Reminder_of_Death,_from_the_House_1,_5,_2_in_Pompeii_(48451661416).jpg"
+   "credit": "Naples Archaeological Museum · Gary Todd from Xinzheng, China",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Mosaic_Reminder_of_Death,_from_the_House_1,_5,_2_in_Pompeii_(48451661416).jpg",
+   "modified": "cropped to 3:4, resized"
   },
   "grammar_target": [
    "present_tense"
@@ -5969,7 +6102,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_torso_from_an_equestrian_statue_wearing_a_cuirass_MET_DP108183.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_torso_from_an_equestrian_statue_wearing_a_cuirass_MET_DP108183.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "dative"
@@ -6079,8 +6213,10 @@
    "aspect": "2:3",
    "transparent": true,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(GL_325).jpg"
+   "credit": "“Bust of Cicero (GL 325)” by Yair-haklai, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(GL_325).jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "grammar_target": [
    "vocative",
@@ -6395,8 +6531,9 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Giovanni Battista Piranesi",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi,_The_Colosseum.png"
+   "credit": "Giovanni Battista Piranesi · Giovanni Battista Piranesi",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi,_The_Colosseum.png",
+   "modified": "cropped to 4:3, resized"
   },
   "grammar_target": [
    "accusative",
@@ -6491,8 +6628,9 @@
    "aspect": "3:4",
    "transparent": true,
    "license": "CC0",
-   "credit": "Wikimedia Commons (CC0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_Bust_of_Epicurus,_Roman_Copy.jpg"
+   "credit": "Wikimedia Commons (CC0) · Gary Todd",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_Bust_of_Epicurus,_Roman_Copy.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "possum",
@@ -6619,7 +6757,8 @@
    "transparent": true,
    "license": "CC0",
    "credit": "The Metropolitan Museum of Art (Open Access)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_head_of_a_woman_MET_DP333686.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_head_of_a_woman_MET_DP333686.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
   },
   "grammar_target": [
    "vocative",
@@ -6782,8 +6921,10 @@
    "aspect": "4:3",
    "transparent": false,
    "license": "CC BY-SA 4.0",
-   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Basilica,_Pompeii_01.jpg"
+   "credit": "“Basilica, Pompeii 01” by Adam Harangozó, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Basilica,_Pompeii_01.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "learn_more": {
    "label": "Graffito CIL IV 1904 (AGP)",
@@ -6850,8 +6991,9 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "Public domain",
-   "credit": "Wikimedia Commons",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Brennus_and_Sulpicius_(illustration).jpg"
+   "credit": "Wikimedia Commons · Paul Lehugeur (1854-1916)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Brennus_and_Sulpicius_(illustration).jpg",
+   "modified": "cropped to 3:4, resized"
   },
   "grammar_target": [
    "dative"
@@ -6939,8 +7081,10 @@
    "aspect": "3:4",
    "transparent": false,
    "license": "CC BY 4.0",
-   "credit": "Wikimedia Commons (CC BY 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Pyramide_564.jpg"
+   "credit": "“Pyramide 564” by Tyrhénienne, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pyramide_564.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "grammar_target": [
    "perfect_tense"
@@ -7092,8 +7236,10 @@
    "aspect": "2:3",
    "transparent": false,
    "license": "CC BY 4.0",
-   "credit": "Wikimedia Commons (CC BY 4.0)",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright.jpg"
+   "credit": "“Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright” by Abigail Baker and Alison Cooley, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons; modified: cropped to 2:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright.jpg",
+   "modified": "cropped to 2:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by/4.0"
   },
   "learn_more": {
    "label": "Regina tombstone (RIB 1065)",

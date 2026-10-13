@@ -57,10 +57,6 @@ window.PHONETICS = {
   "ipa": "/ˈhoː.rʊm ˈɔm.nɪ.ʊm fɔr.ˈtɪs.sɪ.miː sʊnt ˈbɛl.gae̯/",
   "respelling": "HOH-rum OM-ni-um for-TIS-si-mee sunt BEL-geye"
  },
- "i-sttl": {
-  "ipa": "/sɪt ˈtɪ.bɪ ˈtɛr.ra ˈlɛ.wɪs/",
-  "respelling": "sit TI-bi TER-ra LE-wis"
- },
  "q-horace-modus": {
   "ipa": "/ɛst ˈmɔ.dʊs ɪn ˈreː.bʊs sʊnt ˈkɛr.tiː ˈdeː.nɪ.kʷɛ ˈfiː.neːs/",
   "respelling": "est MO-dus in RAY-bus sunt KER-tee DAY-ni-kwe FEE-nays"
@@ -79,6 +75,10 @@ window.PHONETICS = {
   "ipa_verse": "/oː.ˈran.dʊm‿st ʊt sɪt meːns ˈsaː.n‿ɪn ˈkɔr.pɔ.rɛ ˈsaː.noː/",
   "respelling_verse": "oh-RAN-dum'st ut sit mayns SAH-n'in KOR-po-re SAH-noh"
  },
+ "i-sttl": {
+  "ipa": "/diːs ˈmaː.nɪ.bʊs ˈsa.krʊm au̯.ˈreː.lɪ.ae̯ ˈlʊ.pʊ.lae̯ ˈmaː.triː pɪ.ˈɪs.sɪ.mae̯ dɪ.ɔ.ˈnyː.sɪ.ʊs fɔr.tuː.ˈnaː.tʊs ˈfiː.lɪ.ʊs sɪt ˈtɪ.bɪ ˈtɛr.ra ˈlɛ.wɪs/",
+  "respelling": "dees MAH-ni-bus SA-krum ow-RAY-li-eye LU-pu-leye MAH-tree pi-IS-si-meye di-o-NÜÜ-si-us for-too-NAH-tus FEE-li-us sit TI-bi TER-ra LE-wis"
+ },
  "q-ovid-urbis": {
   "ipa": "/roː.ˈmaː.nae̯ ˈspa.tɪ.ʊm ɛst ˈʊr.bɪs ɛt ˈɔr.bɪs ˈɪ.dɛm/",
   "respelling": "roh-MAH-neye SPA-ti-um est UR-bis et OR-bis I-dem",
@@ -92,8 +92,8 @@ window.PHONETICS = {
   "respelling_verse": "AT-kw'in per-PE-tu-oon FRAH-ter A-w'AT-kwe WA-lay"
  },
  "i-titus-spqr": {
-  "ipa": "/sɛ.ˈnaː.tʊs pɔ.pʊ.ˈlʊs.kʷɛ roː.ˈmaː.nʊs ˈdɪ.wɔ ˈtɪ.tɔ ˈdɪ.wɪ wɛs.pa.ˈsɪ.a.nɪ ˈfɪ.lɪ.ɔ wɛs.pa.ˈsɪ.a.nɔ au̯.ˈgʊs.tɔ/",
-  "respelling": "se-NAH-tus po-pu-LUS-kwe roh-MAH-nus DI-wo TI-to DI-wi wes-pa-SI-a-ni FI-li-o wes-pa-SI-a-no ow-GUS-to"
+  "ipa": "/sɛ.ˈnaː.tʊs pɔ.pʊ.ˈlʊs.kʷɛ roː.ˈmaː.nʊs ˈdiː.woː ˈtɪ.toː ˈdiː.wiː wɛs.pa.sɪ.ˈaː.niː ˈfiː.lɪ.oː wɛs.pa.sɪ.ˈaː.noː au̯.ˈgʊs.toː/",
+  "respelling": "se-NAH-tus po-pu-LUS-kwe roh-MAH-nus DEE-woh TI-toh DEE-wee wes-pa-si-AH-nee FEE-li-oh wes-pa-si-AH-noh ow-GUS-toh"
  },
  "q-catullus-odi": {
   "ipa": "/ˈoː.diː ɛt ˈa.moː ˈkʷaː.reː ɪd ˈfa.kɪ.am fɔr.ˈtas.sɛ rɛ.ˈkʷiː.rɪs ˈnɛs.kɪ.oː sɛd ˈfɪ.ɛ.riː ˈsɛn.tɪ.oː ɛt ɛk.ˈskrʊ.kɪ.ɔr/",
@@ -562,8 +562,8 @@ window.PHONETICS = {
   "respelling": "in TEM-ploh kum DE-ees eks UR-be"
  },
  "i-pantheon-parse": {
-  "ipa": "/a.ˈgrɪp.pa kɔs ˈtɛr.tɪ.ʊm ˈfɛ.kɪt/",
-  "respelling": "a-GRIP-pa kos TER-ti-um FE-kit"
+  "ipa": "/ˈmaːr.kʊs a.ˈgrɪp.pa ˈluː.kiː ˈfiː.lɪ.ʊs ˈkoːn.sʊl ˈtɛr.tɪ.ʊm ˈfeː.kɪt/",
+  "respelling": "MAHR-kus a-GRIP-pa LOO-kee FEE-li-us KOHN-sul TER-ti-um FAY-kit"
  },
  "l-lares": {
   "ipa": "/la.ˈraː.rɪ.ʊm ˈla.reːs ɛt pɛ.ˈnaː.teːs/",
@@ -586,8 +586,8 @@ window.PHONETICS = {
   "respelling": "POS-sum PO-tes PO-test in-fi-NI-ti-we"
  },
  "i-coin-divi-f": {
-  "ipa": "/ɪmp ˈkae̯.sar ˈdɪ.wɪ/",
-  "respelling": "imp KEYE-sar DI-wi"
+  "ipa": "/ɪm.pɛ.ˈraː.tɔr ˈkae̯.sar ˈdiː.wiː ˈfiː.lɪ.ʊs/",
+  "respelling": "im-pe-RAH-tor KEYE-sar DEE-wee FEE-li-us"
  },
  "l-denarius": {
   "ipa": "/deː.ˈnaː.rɪ.ʊs as seːs.ˈtɛr.tɪ.ʊs/",
@@ -654,8 +654,8 @@ window.PHONETICS = {
   "respelling": "ROH-ma KAP-ta est"
  },
  "i-chirho": {
-  "ipa": "/ˈɛ.gɔ sʊm ˈal.pʰa ɛt ˈɔ.mɛ.ga/",
-  "respelling": "E-go sum AL-pa et O-me-ga"
+  "ipa": "/ˈɛ.gɔ sʊm ˈal.pʰa ɛt ˈoː.mɛ.ga/",
+  "respelling": "E-go sum AL-pa et OH-me-ga"
  },
  "v-rex": {
   "ipa": "/reːks ˈreː.gɪs ˈreːŋ.nʊm/",
@@ -686,8 +686,8 @@ window.PHONETICS = {
   "respelling": "mo-nas-TE-ri-um AB-bahs MO-na-kus HOH-ra"
  },
  "i-karolus": {
-  "ipa": "/ˈka.rɔ.lʊs ɪmp au̯g/",
-  "respelling": "KA-ro-lus imp owg"
+  "ipa": "/ˈka.rɔ.lʊs ɪm.pɛ.ˈraː.tɔr au̯.ˈgʊs.tʊs/",
+  "respelling": "KA-ro-lus im-pe-RAH-tor ow-GUS-tus"
  },
  "x-colophon": {
   "ipa": "/ˈɛk.splɪ.kɪt ˈlɪ.bɛr oː.ˈraː.tɛ proː skriːp.ˈtoː.rɛ/",

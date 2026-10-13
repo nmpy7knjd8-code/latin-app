@@ -1,45 +1,5 @@
 [
  {
-  "id": "i-sttl",
-  "file": "rome-cards.json",
-  "latin": "S·T·T·L — Sit tibi terra levis.",
-  "no_macrons_at_all": true,
-  "lexicon_fixed": [],
-  "unverified": [
-   "tibi",
-   "terra",
-   "levis"
-  ],
-  "ambiguous": []
- },
- {
-  "id": "i-titus-spqr",
-  "file": "rome-cards.json",
-  "latin": "SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F(ILIO) VESPASIANO AVGVSTO",
-  "no_macrons_at_all": true,
-  "lexicon_fixed": [
-   [
-    "senatus",
-    "senātus"
-   ],
-   [
-    "romanus",
-    "rōmānus"
-   ]
-  ],
-  "unverified": [
-   "populusque",
-   "divo",
-   "TITO",
-   "divi",
-   "vespasiani",
-   "FILIO",
-   "vespasiano",
-   "augusto"
-  ],
-  "ambiguous": []
- },
- {
   "id": "q-aug-tolle-lege",
   "file": "medieval-cards.json",
   "latin": "Tolle, lege; tolle, lege.",
@@ -127,19 +87,6 @@
   "ambiguous": []
  },
  {
-  "id": "i-pantheon-parse",
-  "file": "learning-cards.json",
-  "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT",
-  "no_macrons_at_all": true,
-  "lexicon_fixed": [],
-  "unverified": [
-   "AGRIPPA",
-   "tertium",
-   "FECIT"
-  ],
-  "ambiguous": []
- },
- {
   "id": "g-possum",
   "file": "learning-cards.json",
   "latin": "possum, potes, potest… + infinitive",
@@ -150,18 +97,6 @@
    "potes",
    "potest",
    "infinitive"
-  ],
-  "ambiguous": []
- },
- {
-  "id": "i-coin-divi-f",
-  "file": "learning-cards.json",
-  "latin": "IMP·CAESAR·DIVI·F",
-  "no_macrons_at_all": true,
-  "lexicon_fixed": [],
-  "unverified": [
-   "CAESAR",
-   "divi"
   ],
   "ambiguous": []
  },
@@ -178,19 +113,6 @@
   "ambiguous": []
  },
  {
-  "id": "i-chirho",
-  "file": "learning-cards.json",
-  "latin": "Ego sum Alpha et Omega.",
-  "no_macrons_at_all": true,
-  "lexicon_fixed": [],
-  "unverified": [
-   "Ego",
-   "Alpha",
-   "Omega"
-  ],
-  "ambiguous": []
- },
- {
   "id": "d-crux",
   "file": "learning-cards.json",
   "latin": "crux, crucis → crucial, crucify, crusade, excruciating",
@@ -198,17 +120,6 @@
   "lexicon_fixed": [],
   "unverified": [
    "crucis"
-  ],
-  "ambiguous": []
- },
- {
-  "id": "i-karolus",
-  "file": "learning-cards.json",
-  "latin": "KAROLVS IMP AVG",
-  "no_macrons_at_all": true,
-  "lexicon_fixed": [],
-  "unverified": [
-   "karolus"
   ],
   "ambiguous": []
  },
