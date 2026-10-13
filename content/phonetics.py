@@ -14,11 +14,11 @@ LONG = {'ā':'aː','ē':'eː','ī':'iː','ō':'oː','ū':'uː','ȳ':'yː'}
 # Respelling convention: SHORT vowels are bare letters (a e i o u, u as in "put"),
 # LONG vowels are digraphs (ah ay ee oh oo). Stressed syllable in CAPS.
 RESP_V = {'a':'a','ɛ':'e','ɪ':'i','ɔ':'o','ʊ':'u','ʏ':'ü','aː':'ah','eː':'ay','iː':'ee','oː':'oh','uː':'oo','yː':'üü',
-          'ae̯':'eye','au̯':'ow','oe̯':'oy','ei̯':'ay','eu̯':'eh-oo','ui̯':'oo-ee'}
+          'ae̯':'eye','au̯':'ow','oe̯':'oy','ei̯':'ay','eu̯':'ew','ui̯':'oo-ee'}
 # short vowel + coda j (before a jj geminate): maior MEYE-yor, Pompeius pom-PAY-yus, Troia TROY-ya, cuius KOOY-yus
-RESP_VJ = {'a':'eye','ɛ':'ay','ɪ':'ee','ɔ':'oy','ʊ':'ooy','ae̯':'eye','oe̯':'oy','ei̯':'ay','eu̯':'eh-oo'}
-LEGEND = ('Short vowels: a e i o u (u as in "put"). Long vowels: ah ay ee oh oo. CAPS = stressed syllable. '
-          'w = Latin v; k = c (always hard); g always hard; ngn = gn; p/t/k after an aspirated ph/th/ch are breathy p/t/k, NOT f/th.')
+RESP_VJ = {'a':'eye','ɛ':'ay','ɪ':'ee','ɔ':'oy','ʊ':'ooy','ae̯':'eye','oe̯':'oy','ei̯':'ay','eu̯':'ew'}
+LEGEND = ('Short vowels: a e i o u (u as in "put"). Long vowels: ah ay ee oh oo (pure, held longer; "ay" with no glide). ew = Latin eu as one syllable (e+oo). CAPS = stressed syllable. '
+          'w = Latin v; k = c (always hard); g always hard; gn sounds like ngn (magnus = MANG-nus; at the start of a word it is g+n); p/t/k after an aspirated ph/th/ch are breathy p/t/k, NOT f/th. z = dz (Allen; some sources give a long z between vowels).')
 RESP_C = {'k':'k','kʰ':'k','kʷ':'kw','gʷ':'gw','g':'g','w':'w','j':'y','pʰ':'p','tʰ':'t','ŋ':'ng','h':'h','dz':'dz','r̥':'r'}
 STOPS = {'p','b','t','d','k','g','pʰ','tʰ','kʰ'}
 EU_WORDS = {'heu','ēheu','eheu','seu','neu','ceu','euge','euhoe','euoe','neuter','neutrum','neutra','neutrī','neutrō','neutram'}
@@ -166,6 +166,36 @@ def words_of(text):
         if ('…' in raw.rstrip('…') or raw.endswith('…') or raw.endswith('...')) and out: out[-1]=out[-1].rstrip('|')+'|'
     return out
 
+MACRONS='āēīōūȳ'
+_PLAIN=str.maketrans('āēīōūȳĀĒĪŌŪȲ','aeiouyAEIOUY')
+def plain(w): return w.translate(_PLAIN).lower()
+LEX={}          # plain form -> unique macronized form (None if ambiguous)
+FALLBACK_LOG=[] # (word, replacement) applied during the current transcribe call
+
+def load_lexicon(texts, dcc_path=None):
+    """Build plain->macronized lookup from all macronized card Latin/gloss words and the DCC core headwords.
+    A key is kept only if every macronized attestation agrees; conflicting keys map to None (no guess)."""
+    forms={}
+    def add(w):
+        w=w.strip(".,;:!?“”\"'()[]·—…").lower()
+        if not w or w.startswith('-') or not any(c in MACRONS for c in w): return
+        forms.setdefault(plain(w),set()).add(w)
+    for t in texts:
+        for w in TOKEN.findall(t or ''): add(w)
+    if dcc_path and os.path.exists(dcc_path):
+        for row in json.load(open(dcc_path)):
+            for w in re.split(r"[\s,]+",row[0]): add(w)
+    LEX.clear()
+    for k,v in forms.items(): LEX[k]=next(iter(v)) if len(v)==1 else None
+    return LEX
+
+def lex_fix(w):
+    if any(c in MACRONS for c in w.lower()): return w
+    m=LEX.get(plain(w))
+    if not m: return w
+    fixed=''.join(mc.upper() if oc.isupper() else mc for oc,mc in zip(w,m)) if len(m)==len(w) else m
+    FALLBACK_LOG.append((w,fixed)); return fixed
+
 def transcribe(text, verse=False):
     """verse=True: synaloepha/elision of final V or Vm before an initial vowel or h+vowel
     (prodelision with es/est: facta'st), and nasalised final -m elsewhere (Allen VL 30-31, 78-82).
@@ -173,6 +203,7 @@ def transcribe(text, verse=False):
     if not text: return None
     raw=words_of(text)
     brk={k for k,w in enumerate(raw) if w.endswith('|')}
+    raw=[('|' if w.endswith('|') else '') and lex_fix(w.rstrip('|'))+'|' or lex_fix(w) for w in raw]
     ws=[(w.rstrip('|'),word_parse(w.rstrip('|')),k in brk) for k,w in enumerate(raw)]
     brk2=[b for w,p,b in ws if p]
     ws=[(w,p) for w,p,b in ws if p]
@@ -266,25 +297,83 @@ def entry(c,f):
         if v and v!=r: e['ipa_verse'],e['respelling_verse']=v
     return e
 
+def all_cards():
+    base=os.path.dirname(os.path.abspath(__file__)); root=os.path.dirname(base)
+    cards=[]
+    for f in ('rome-cards.json','medieval-cards.json','learning-cards.json'):
+        cards+=[(c,f) for c in json.load(open(os.path.join(base,f)))]
+    js=open(os.path.join(root,'cards','cards.js')).read()
+    cards+=[(c,'cards.js') for c in json.loads(js[js.index('['):js.rindex(']')+1])]
+    return cards
+
+def init_lexicon():
+    base=os.path.dirname(os.path.abspath(__file__))
+    texts=[]
+    for c,_ in all_cards():
+        texts.append(c.get('latin',''))
+        texts+=[g.get('word','')+' '+g.get('lemma','') for g in c.get('gloss') or []]
+    return load_lexicon(texts, os.path.join(base,'data','dcc-core.json'))
+
+def macron_check(c):
+    """Words in card Latin with no macron: 'fixed' = lexicon supplied length; 'unverified' = polysyllable
+    with no macron and no lexicon entry (may be genuinely all-short, e.g. pater; needs a human/dictionary check);
+    'ambiguous' = lexicon has conflicting macronizations."""
+    fixed=[];unver=[];amb=[]
+    for w in words_of(c.get('latin','')):
+        w=w.rstrip('|')
+        if any(ch in MACRONS for ch in w.lower()): continue
+        k=plain(w)
+        if k in LEX:
+            (fixed.append([w,LEX[k]]) if LEX[k] else amb.append(w))
+        else:
+            seg=segment(w)
+            if seg and sum(t=='V' for _,t in seg)>=2: unver.append(w)
+    return fixed,unver,amb
+
 def build():
     base=os.path.dirname(os.path.abspath(__file__)); root=os.path.dirname(base)
-    out={}
-    for f in ('rome-cards.json','medieval-cards.json','learning-cards.json'):
-        for c in json.load(open(os.path.join(base,f))):
-            e=entry(c,f)
-            if e: out[c['id']]=dict(e,latin=c['latin'],src=f)
-    js=open(os.path.join(root,'cards','cards.js')).read()
-    for c in json.loads(js[js.index('['):js.rindex(']')+1]):
-        e=entry(c,'cards.js')
-        if e: out[c['id']]=dict(e,latin=c['latin'],src='cards.js')
+    init_lexicon()
+    out={}; rep=[]
+    for c,f in all_cards():
+        e=entry(c,f)
+        if e: out[c['id']]=dict(e,latin=c['latin'],src=f)
+        fx,un,am=macron_check(c)
+        nomac=not any(ch in MACRONS for ch in c.get('latin','').lower())
+        if fx or un or am:
+            rep.append({'id':c['id'],'file':f,'latin':c.get('latin',''),'no_macrons_at_all':nomac,
+                        'lexicon_fixed':fx,'unverified':un,'ambiguous':am})
+            if e and fx: out[c['id']]['macron_fallback']=fx
     json.dump({'_legend':LEGEND,**out},open(os.path.join(base,'phonetics.json'),'w'),ensure_ascii=False,indent=1)
-    slim={k:{x:y for x,y in v.items() if x not in('latin','src')} for k,v in out.items()}
+    slim={k:{x:y for x,y in v.items() if x not in('latin','src','macron_fallback')} for k,v in out.items()}
     open(os.path.join(root,'cards','phonetics.js'),'w').write('// Generated by content/phonetics.py --build. Do not edit.\nwindow.PHONETICS_LEGEND = '+json.dumps(LEGEND,ensure_ascii=False)+';\nwindow.PHONETICS = '+json.dumps(slim,ensure_ascii=False,indent=1)+';\n')
-    print(len(out),'entries;',sum('ipa_verse' in v for v in out.values()),'with verse variants')
+    json.dump(rep,open(os.path.join(base,'macron-report.json'),'w'),ensure_ascii=False,indent=1)
+    L=['# Macron report (generated by phonetics.py --build)','',
+       f'Lexicon: {sum(1 for v in LEX.values() if v)} unambiguous macronized forms (card Latin + glosses + DCC core headwords).','',
+       '- **fixed**: the word had no macron in the card; the engine used the lexicon form for IPA/respelling. The card text itself should be corrected.',
+       '- **unverified**: polysyllable with no macron and no lexicon entry; may be all-short (pater) or missing macrons. Check against L&S.',
+       '- **ambiguous**: lexicon has conflicting forms (e.g. -a vs -ā); left as written.','']
+    for r in rep:
+        L.append(f"## {r['id']} ({r['file']}){' — NO MACRONS AT ALL' if r['no_macrons_at_all'] else ''}")
+        L.append(f"> {r['latin']}")
+        if r['lexicon_fixed']: L.append('- fixed: '+', '.join(f'{a}→{b}' for a,b in r['lexicon_fixed']))
+        if r['unverified']: L.append('- unverified: '+', '.join(r['unverified']))
+        if r['ambiguous']: L.append('- ambiguous: '+', '.join(r['ambiguous']))
+        L.append('')
+    open(os.path.join(base,'macron-report.md'),'w').write('\n'.join(L))
+    print(len(out),'entries;',sum('ipa_verse' in v for v in out.values()),'verse variants;',
+          len(rep),'cards flagged;',sum(len(r['lexicon_fixed']) for r in rep),'words fixed by lexicon;',
+          sum(r['no_macrons_at_all'] for r in rep),'cards with no macrons at all')
 
 if __name__=='__main__':
     a=sys.argv[1:]
+    if a and a[0] not in('--test','--build'):
+        try: init_lexicon()
+        except Exception: pass
+    if a and a[0]=='--verse':
+        r=transcribe(' '.join(a[1:]),verse=True)
+        print(r[0] if r else '(no Latin)'); print(r[1] if r else ''); sys.exit(0)
     if a==['--test']: sys.exit(0 if run_tests() else 1)
     elif a==['--build']: build()
     else:
-        r=transcribe(' '.join(a)); print(r[0]); print(r[1])
+        r=transcribe(' '.join(a))
+        print(r[0] if r else '(no Latin)'); print(r[1] if r else '')

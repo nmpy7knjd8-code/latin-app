@@ -418,6 +418,103 @@
   }
  },
  {
+  "id": "i-pompeii-felices",
+  "type": "quote",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Hīc sumus fēlīcēs; valeāmus rēctē.",
+  "translation": "Here we are happy; may we fare well.",
+  "context": "Someone scratched this near Pompeii's amphitheatre, perhaps on a good day at the games. Ordinary Romans wrote cheerful notes like this all over their walls.",
+  "person": "Anonymous graffito, Pompeii",
+  "source": {
+   "work": "Graffito, Pompeii, Campus by the amphitheatre (II.7.1)",
+   "citation": "CIL IV 8657 (AGP-EDR127399)",
+   "date": "before AD 79"
+  },
+  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR127399",
+  "attribution_confidence": "verified",
+  "attribution_note": "AGP text: \"Ic (:hic) sumus felices valiamus (:valeamus) recte\". Spelling is normalized here. AGP lists CIL IV 1321 and 8657.",
+  "gloss": [
+   {
+    "word": "Hīc",
+    "lemma": "hīc",
+    "meaning": "here",
+    "parse": "adv."
+   },
+   {
+    "word": "sumus",
+    "lemma": "sum",
+    "meaning": "we are",
+    "parse": "1st pl."
+   },
+   {
+    "word": "fēlīcēs",
+    "lemma": "fēlīx",
+    "meaning": "happy",
+    "parse": "nom. pl."
+   },
+   {
+    "word": "valeāmus",
+    "lemma": "valeō",
+    "meaning": "may we fare well",
+    "parse": "1st pl. pres. subj."
+   },
+   {
+    "word": "rēctē",
+    "lemma": "rēctē",
+    "meaning": "rightly, well",
+    "parse": "adv."
+   }
+  ],
+  "grammar_tags": [
+   "sum",
+   "nominative",
+   "subjunctive"
+  ],
+  "vocab_ids": [
+   "felix",
+   "hic",
+   "recte",
+   "sum",
+   "valeo"
+  ],
+  "teaching_value": {
+   "note": "sumus + a predicate nominative plural (fēlīcēs). The subjunctive valeāmus is a glossed preview.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "recte"
+   ],
+   "score": 5,
+   "role": "anchor",
+   "rank": 5
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "sum",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "subjunctive"
+  ],
+  "image": {
+   "src": "img/rome/riot.webp",
+   "alt": "Pompeian fresco of the amphitheatre riot of AD 59",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Naples Archaeological Museum",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeian_mural_depicting_the_Amphitheatre_riots.jpg"
+  },
+  "learn_more": {
+   "label": "Graffiti in Pompeii (AGP)",
+   "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR127399"
+  }
+ },
+ {
   "id": "q-cicero-salus",
   "type": "quote",
   "era": "republic",
@@ -487,7 +584,7 @@
    ],
    "score": 5,
    "role": "anchor",
-   "rank": 5
+   "rank": 6
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -585,7 +682,7 @@
    ],
    "score": 5,
    "role": "anchor",
-   "rank": 6
+   "rank": 7
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -692,7 +789,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 7
+   "rank": 8
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -767,7 +864,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 8
+   "rank": 9
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -793,6 +890,480 @@
   "learn_more": {
    "label": "House of the Tragic Poet",
    "url": "https://en.wikipedia.org/wiki/House_of_the_Tragic_Poet"
+  }
+ },
+ {
+  "id": "i-pompeii-romula",
+  "type": "quote",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Rōmula hīc cum Staphylō morātur.",
+  "translation": "Romula hangs out here with Staphylus.",
+  "context": "A bit of Pompeian gossip about a couple, scratched on a wall. It shows ordinary people, not emperors, and the gossip they wrote on their walls.",
+  "person": "Anonymous graffito, Pompeii",
+  "source": {
+   "work": "Graffito, Pompeii (VII.13.8)",
+   "citation": "CIL IV 2060 (AGP-EDR193346)",
+   "date": "before AD 79"
+  },
+  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR193346",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Rōmula",
+    "lemma": "Rōmula",
+    "meaning": "Romula",
+    "parse": "nom."
+   },
+   {
+    "word": "hīc",
+    "lemma": "hīc",
+    "meaning": "here",
+    "parse": "adv."
+   },
+   {
+    "word": "cum",
+    "lemma": "cum",
+    "meaning": "with",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "Staphylō",
+    "lemma": "Staphylus",
+    "meaning": "Staphylus",
+    "parse": "abl."
+   },
+   {
+    "word": "morātur",
+    "lemma": "moror",
+    "meaning": "lingers, stays",
+    "parse": "3rd sg. pres. deponent"
+   }
+  ],
+  "grammar_tags": [
+   "nominative",
+   "prep_ablative",
+   "deponent",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "cum",
+   "hic",
+   "moror"
+  ],
+  "teaching_value": {
+   "note": "Nominative subject + verb; cum + ablative and the deponent morātur are glossed previews. Short and human.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 4,
+   "role": "anchor",
+   "rank": 10
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "nominative"
+  ],
+  "grammar_preview": [
+   "prep_ablative",
+   "deponent",
+   "present_tense"
+  ],
+  "image": {
+   "src": "img/rome/abbondanza.webp",
+   "alt": "Via dell'Abbondanza, Pompeii",
+   "kind": "building",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeii_Via_dell'_Abbondanza_01.jpg"
+  },
+  "learn_more": {
+   "label": "Graffito CIL IV 2060 (AGP)",
+   "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR193346"
+  }
+ },
+ {
+  "id": "q-martial-sabidi",
+  "type": "quote",
+  "era": "empire",
+  "unit": 3,
+  "latin": "Nōn amō tē, Sabidī, nec possum dīcere quārē: hoc tantum possum dīcere, nōn amō tē.",
+  "translation": "I don't like you, Sabidius, and I can't say why: I can only say this: I don't like you.",
+  "context": "A two-line epigram of pure dislike. In 1680 Tom Brown famously adapted it into English as \"I do not love thee, Doctor Fell.\"",
+  "person": "Marcus Valerius Martialis",
+  "source": {
+   "work": "Epigrams",
+   "citation": "1.32",
+   "date": "c. AD 86"
+  },
+  "source_url": "https://www.thelatinlibrary.com/martial/mart1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "amō",
+    "lemma": "amō",
+    "meaning": "I love, like",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "acc."
+   },
+   {
+    "word": "Sabidī",
+    "lemma": "Sabidius",
+    "meaning": "Sabidius",
+    "parse": "voc."
+   },
+   {
+    "word": "nec",
+    "lemma": "nec",
+    "meaning": "and not",
+    "parse": "conj."
+   },
+   {
+    "word": "possum",
+    "lemma": "possum",
+    "meaning": "I can",
+    "parse": "1st sg."
+   },
+   {
+    "word": "dīcere",
+    "lemma": "dīcō",
+    "meaning": "to say",
+    "parse": "inf."
+   },
+   {
+    "word": "quārē",
+    "lemma": "quārē",
+    "meaning": "why",
+    "parse": "adv."
+   },
+   {
+    "word": "hoc",
+    "lemma": "hic",
+    "meaning": "this",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "tantum",
+    "lemma": "tantum",
+    "meaning": "only",
+    "parse": "adv."
+   },
+   {
+    "word": "possum",
+    "lemma": "possum",
+    "meaning": "I can",
+    "parse": "1st sg."
+   },
+   {
+    "word": "dīcere",
+    "lemma": "dīcō",
+    "meaning": "to say",
+    "parse": "inf."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "amō",
+    "lemma": "amō",
+    "meaning": "I like",
+    "parse": "1st sg."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "acc."
+   }
+  ],
+  "grammar_tags": [
+   "present_tense",
+   "vocative",
+   "first_person",
+   "possum",
+   "infinitive",
+   "personal_pronouns"
+  ],
+  "vocab_ids": [
+   "amo",
+   "dico",
+   "hic",
+   "nec",
+   "non",
+   "possum",
+   "quare",
+   "tantum",
+   "tu"
+  ],
+  "teaching_value": {
+   "note": "amō + accusative tē, vocative Sabidī. possum + infinitive is a glossed preview. The repeated frame makes it easy to remember.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 4,
+   "role": "anchor",
+   "rank": 11
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "present_tense",
+   "vocative",
+   "first_person"
+  ],
+  "grammar_preview": [
+   "possum",
+   "infinitive",
+   "personal_pronouns"
+  ],
+  "image": {
+   "src": "img/rome/martialgem.webp",
+   "alt": "Engraving of Martial after an ancient gem (identification traditional)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Martial,_engraved_from_an_ancient_gem_(cropped).jpg"
+  },
+  "learn_more": {
+   "label": "I do not love thee, Doctor Fell",
+   "url": "https://en.wikipedia.org/wiki/I_do_not_love_thee,_Doctor_Fell"
+  }
+ },
+ {
+  "id": "q-terence-homo",
+  "type": "quote",
+  "era": "republic",
+  "unit": 3,
+  "latin": "Homō sum: hūmānī nīl ā mē aliēnum putō.",
+  "translation": "I am human: I consider nothing human foreign to me.",
+  "context": "A nosy neighbour, Chremes, defends asking about another man's troubles. His excuse became one of the most quoted lines of Roman humanism.",
+  "person": "Publius Terentius Afer",
+  "source": {
+   "work": "Heauton Timorumenos",
+   "citation": "77",
+   "date": "163 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ter.heauton.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Homō",
+    "lemma": "homō",
+    "meaning": "human being",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "sum",
+    "lemma": "sum",
+    "meaning": "I am",
+    "parse": "1st sg."
+   },
+   {
+    "word": "hūmānī",
+    "lemma": "hūmānus",
+    "meaning": "(of) human",
+    "parse": "gen. sg. n. (partitive)"
+   },
+   {
+    "word": "nīl",
+    "lemma": "nihil",
+    "meaning": "nothing",
+    "parse": "acc. n."
+   },
+   {
+    "word": "ā",
+    "lemma": "ab",
+    "meaning": "from",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "abl."
+   },
+   {
+    "word": "aliēnum",
+    "lemma": "aliēnus",
+    "meaning": "foreign",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "putō",
+    "lemma": "putō",
+    "meaning": "I consider",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "grammar_tags": [
+   "sum",
+   "present_tense",
+   "first_person",
+   "genitive",
+   "prep_ablative"
+  ],
+  "vocab_ids": [
+   "ab",
+   "alienus",
+   "ego",
+   "homo",
+   "humanus",
+   "nihil",
+   "puto",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Homō sum, then 1st-conj. putō with an object and predicate. The genitive hūmānī and ā mē are glossed previews.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 4,
+   "role": "anchor",
+   "rank": 12
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "sum",
+   "present_tense",
+   "first_person"
+  ],
+  "grammar_preview": [
+   "genitive",
+   "prep_ablative"
+  ],
+  "image": {
+   "src": "img/rome/terence.webp",
+   "alt": "Illustrated Terence manuscript (Vat. lat. 3868), Andria 1.1",
+   "kind": "manuscript",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Biblioteca Apostolica Vaticana",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Terence_Andria_1.1_Vat3868f4v.jpg"
+  },
+  "learn_more": {
+   "label": "Homo sum, humani nihil a me alienum puto",
+   "url": "https://en.wikipedia.org/wiki/Homo_sum,_humani_nihil_a_me_alienum_puto"
+  }
+ },
+ {
+  "id": "q-caesar-belgae",
+  "type": "quote",
+  "era": "republic",
+  "unit": 3,
+  "latin": "Hōrum omnium fortissimī sunt Belgae.",
+  "translation": "Of all these, the bravest are the Belgae.",
+  "context": "Caesar explains why the Belgae were the toughest Gauls: they lived farthest from Roman luxuries and closest to the warlike Germans.",
+  "person": "Gaius Julius Caesar",
+  "source": {
+   "work": "De Bello Gallico",
+   "citation": "1.1.3",
+   "date": "c. 50s BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/caesar/gall1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Hōrum",
+    "lemma": "hic",
+    "meaning": "of these",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "omnium",
+    "lemma": "omnis",
+    "meaning": "of all",
+    "parse": "gen. pl."
+   },
+   {
+    "word": "fortissimī",
+    "lemma": "fortis",
+    "meaning": "bravest",
+    "parse": "superl. nom. pl. m."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl."
+   },
+   {
+    "word": "Belgae",
+    "lemma": "Belgae",
+    "meaning": "the Belgae",
+    "parse": "nom. pl. m."
+   }
+  ],
+  "grammar_tags": [
+   "sum",
+   "nominative",
+   "third_person_plural",
+   "genitive",
+   "superlative"
+  ],
+  "vocab_ids": [
+   "fortis",
+   "hic",
+   "omnis",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "sunt + nominative plural subject and predicate. The genitive and the superlative are glossed previews. A companion to \"Gallia est omnis dīvīsa\".",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 4,
+   "role": "anchor",
+   "rank": 13
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "sum",
+   "nominative",
+   "third_person_plural"
+  ],
+  "grammar_preview": [
+   "genitive",
+   "superlative"
+  ],
+  "image": {
+   "src": "img/rome/caesarberlin.webp",
+   "alt": "Green-stone portrait of Julius Caesar, Berlin",
+   "kind": "statue_cutout",
+   "aspect": "2:3",
+   "transparent": true,
+   "license": "CC BY 4.0",
+   "credit": "Wikimedia Commons (CC BY 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_bust_of_Julius_Caesar_(Berlin_Ant_Sk_342)_02.jpg"
+  },
+  "learn_more": {
+   "label": "Belgae",
+   "url": "https://en.wikipedia.org/wiki/Belgae"
   }
  },
  {
@@ -855,7 +1426,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 9
+   "rank": 14
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -970,7 +1541,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 10
+   "rank": 15
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1085,7 +1656,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 11
+   "rank": 16
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1186,7 +1757,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 12
+   "rank": 17
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1302,7 +1873,7 @@
    "non_core": [],
    "score": 4,
    "role": "anchor",
-   "rank": 13
+   "rank": 18
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1330,6 +1901,116 @@
   "learn_more": {
    "label": "Mens sana in corpore sano",
    "url": "https://en.wikipedia.org/wiki/Mens_sana_in_corpore_sano"
+  }
+ },
+ {
+  "id": "q-ovid-urbis",
+  "type": "quote",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Rōmānae spatium est urbis et orbis idem.",
+  "translation": "The extent of the Roman city and of the world is the same.",
+  "context": "At the festival of Terminus, god of boundary stones, Ovid notes that other peoples have fixed borders, but Rome's border is the whole world. Note the play on urbis/orbis.",
+  "person": "Publius Ovidius Naso",
+  "source": {
+   "work": "Fasti",
+   "citation": "2.684",
+   "date": "c. AD 8"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.fasti2.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Rōmānae",
+    "lemma": "Rōmānus",
+    "meaning": "Roman",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "spatium",
+    "lemma": "spatium",
+    "meaning": "extent, space",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg."
+   },
+   {
+    "word": "urbis",
+    "lemma": "urbs",
+    "meaning": "of the city",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "orbis",
+    "lemma": "orbis",
+    "meaning": "of the world",
+    "parse": "gen. sg. m."
+   },
+   {
+    "word": "idem",
+    "lemma": "īdem",
+    "meaning": "the same",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "grammar_tags": [
+   "sum",
+   "nominative",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "et",
+   "idem",
+   "orbis",
+   "romanus",
+   "spatium",
+   "sum",
+   "urbs"
+  ],
+  "teaching_value": {
+   "note": "est with a nominative subject and predicate (spatium … idem); the genitives urbis/orbis are a glossed preview. A pun learners remember.",
+   "dcc_core_pct": 86,
+   "non_core": [
+    "romanus"
+   ],
+   "score": 4,
+   "role": "anchor",
+   "rank": 19
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "sum",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "genitive"
+  ],
+  "image": {
+   "src": "img/rome/formaurbis.webp",
+   "alt": "Lanciani's map of ancient Rome (Forma Urbis Romae, sheet XV)",
+   "kind": "painting",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Rodolfo Lanciani",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rudolfo_Lancani_-_Forma_Urbis_Romae_XV.jpg"
+  },
+  "learn_more": {
+   "label": "Fasti (poem)",
+   "url": "https://en.wikipedia.org/wiki/Fasti_(poem)"
   }
  },
  {
@@ -1412,7 +2093,7 @@
    ],
    "score": 4,
    "role": "anchor",
-   "rank": 14
+   "rank": 20
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1546,7 +2227,7 @@
    ],
    "score": 4,
    "role": "anchor",
-   "rank": 15
+   "rank": 21
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1708,7 +2389,7 @@
    ],
    "score": 4,
    "role": "anchor",
-   "rank": 16
+   "rank": 22
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1822,7 +2503,7 @@
    ],
    "score": 4,
    "role": "anchor",
-   "rank": 17
+   "rank": 23
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -1849,6 +2530,216 @@
   "learn_more": {
    "label": "Dulce et decorum est",
    "url": "https://en.wikipedia.org/wiki/Dulce_et_decorum_est"
+  }
+ },
+ {
+  "id": "q-virgil-moenia",
+  "type": "quote",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Albānīque patrēs, atque altae moenia Rōmae.",
+  "translation": "And the Alban fathers, and the walls of lofty Rome.",
+  "context": "The climax of the Aeneid's opening sentence: Aeneas's wanderings lead to Alba Longa's founding fathers and, finally, to the walls of Rome.",
+  "person": "Publius Vergilius Maro",
+  "source": {
+   "work": "Aeneid",
+   "citation": "1.7",
+   "date": "c. 29-19 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/vergil/aen1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Albānī",
+    "lemma": "Albānus",
+    "meaning": "Alban",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
+   },
+   {
+    "word": "patrēs",
+    "lemma": "pater",
+    "meaning": "fathers",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "atque",
+    "lemma": "atque",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "altae",
+    "lemma": "altus",
+    "meaning": "lofty",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "moenia",
+    "lemma": "moenia",
+    "meaning": "walls",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "Rōmae",
+    "lemma": "Rōma",
+    "meaning": "of Rome",
+    "parse": "gen."
+   }
+  ],
+  "grammar_tags": [
+   "nominative",
+   "enclitic_que",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "-que",
+   "albanus",
+   "altus",
+   "atque",
+   "moenia",
+   "pater"
+  ],
+  "teaching_value": {
+   "note": "Nominative plurals (patrēs, moenia), with -que and atque for \"and\". The genitive altae … Rōmae is a glossed preview.",
+   "dcc_core_pct": 83,
+   "non_core": [
+    "albanus"
+   ],
+   "score": 4,
+   "role": "anchor",
+   "rank": 24
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "nominative"
+  ],
+  "grammar_preview": [
+   "enclitic_que",
+   "genitive"
+  ],
+  "image": {
+   "src": "img/rome/servian.webp",
+   "alt": "Surviving stretch of the Servian Wall outside Termini station, Rome",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Servian_at_Termini.JPG"
+  },
+  "learn_more": {
+   "label": "Servian Wall",
+   "url": "https://en.wikipedia.org/wiki/Servian_Wall"
+  }
+ },
+ {
+  "id": "q-plautus-lupus",
+  "type": "quote",
+  "era": "republic",
+  "unit": 2,
+  "latin": "Lupus est homō hominī, nōn homō.",
+  "translation": "Man is a wolf to man, not a man.",
+  "context": "A merchant refuses to hand money to a stranger: to someone who does not know you, a man is a wolf. The line continues \"quom quālis sit nōn nōvit\".",
+  "person": "Titus Maccius Plautus",
+  "source": {
+   "work": "Asinaria",
+   "citation": "495",
+   "date": "c. 211 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/plautus/asinaria.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Lupus",
+    "lemma": "lupus",
+    "meaning": "wolf",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg."
+   },
+   {
+    "word": "homō",
+    "lemma": "homō",
+    "meaning": "man, human",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "hominī",
+    "lemma": "homō",
+    "meaning": "to a man",
+    "parse": "dat. sg."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "homō",
+    "lemma": "homō",
+    "meaning": "man",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "grammar_tags": [
+   "sum",
+   "nominative",
+   "dative"
+  ],
+  "vocab_ids": [
+   "homo",
+   "lupus",
+   "non",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "est linking two nominatives (lupus … homō); the dative hominī is a glossed preview. Fits the Romulus and she-wolf theme.",
+   "dcc_core_pct": 83,
+   "non_core": [
+    "lupus"
+   ],
+   "score": 4,
+   "role": "anchor",
+   "rank": 25
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "sum",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "dative"
+  ],
+  "image": {
+   "src": "img/rome/plautus.webp",
+   "alt": "Manuscript page of Plautus, Vatican Pal. lat. 1615",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Biblioteca Apostolica Vaticana",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Plautus,_Mostellaria,_Vaticanus_Palatinus_lat._1615.jpg"
+  },
+  "learn_more": {
+   "label": "Homo homini lupus",
+   "url": "https://en.wikipedia.org/wiki/Homo_homini_lupus"
   }
  },
  {
@@ -1927,7 +2818,7 @@
    ],
    "score": 4,
    "role": "anchor",
-   "rank": 18
+   "rank": 26
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2036,7 +2927,7 @@
    ],
    "score": 4,
    "role": "anchor",
-   "rank": 19
+   "rank": 27
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2168,7 +3059,7 @@
    ],
    "score": 4,
    "role": "anchor",
-   "rank": 20
+   "rank": 28
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2292,7 +3183,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 21
+   "rank": 29
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2381,7 +3272,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 22
+   "rank": 30
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2407,6 +3298,90 @@
   "learn_more": {
    "label": "SPQR",
    "url": "https://en.wikipedia.org/wiki/SPQR"
+  }
+ },
+ {
+  "id": "q-terence-quot",
+  "type": "quote",
+  "era": "republic",
+  "unit": 1,
+  "latin": "Quot hominēs, tot sententiae.",
+  "translation": "As many people, so many opinions.",
+  "context": "An old man asks three legal advisers what to do. Each gives a different answer, and one of them, Hegio, shrugs with this line.",
+  "person": "Publius Terentius Afer",
+  "source": {
+   "work": "Phormio",
+   "citation": "454",
+   "date": "161 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ter.phormio.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Quot",
+    "lemma": "quot",
+    "meaning": "as many as",
+    "parse": "indecl."
+   },
+   {
+    "word": "hominēs",
+    "lemma": "homō",
+    "meaning": "people",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "tot",
+    "lemma": "tot",
+    "meaning": "so many",
+    "parse": "indecl."
+   },
+   {
+    "word": "sententiae",
+    "lemma": "sententia",
+    "meaning": "opinions",
+    "parse": "nom. pl. f."
+   }
+  ],
+  "grammar_tags": [
+   "nominative"
+  ],
+  "vocab_ids": [
+   "homo",
+   "quot",
+   "sententia",
+   "tot"
+  ],
+  "teaching_value": {
+   "note": "No verb at all: two nominative plurals balanced by quot … tot. All core words; a perfect first-week sentence.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "quot"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 31
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "nominative"
+  ],
+  "grammar_preview": [],
+  "image": {
+   "src": "img/rome/mask1.webp",
+   "alt": "Ancient comic theatre mask",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Comic_mask_MET_DP100625.jpg"
+  },
+  "learn_more": {
+   "label": "Phormio (play)",
+   "url": "https://en.wikipedia.org/wiki/Phormio_(play)"
   }
  },
  {
@@ -2472,7 +3447,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 23
+   "rank": 32
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2499,6 +3474,128 @@
   "learn_more": {
    "label": "Cornelia (mother of the Gracchi)",
    "url": "https://en.wikipedia.org/wiki/Cornelia_(mother_of_the_Gracchi)"
+  }
+ },
+ {
+  "id": "i-pompeii-fullones",
+  "type": "quote",
+  "era": "empire",
+  "unit": 3,
+  "latin": "Fullōnēs ululamque canō, nōn arma virumque.",
+  "translation": "I sing of fullers and an owl, not of arms and the man.",
+  "context": "A Pompeian parody of the Aeneid's first line, written on a laundry (fullonica). The fullers' guild had the owl, Minerva's bird, as its emblem.",
+  "person": "Anonymous graffito, Pompeii",
+  "source": {
+   "work": "Graffito, Pompeii, Via dell'Abbondanza (IX.13.1-6)",
+   "citation": "CIL IV 9131 (AGP-EDR072663)",
+   "date": "before AD 79"
+  },
+  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR072663",
+  "attribution_confidence": "verified",
+  "attribution_note": "AGP lists CIL IV 9128 and 9131.",
+  "gloss": [
+   {
+    "word": "Fullōnēs",
+    "lemma": "fullō",
+    "meaning": "fullers, launderers",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "ululam",
+    "lemma": "ulula",
+    "meaning": "owl",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
+   },
+   {
+    "word": "canō",
+    "lemma": "canō",
+    "meaning": "I sing",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "arma",
+    "lemma": "arma",
+    "meaning": "arms",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "virum",
+    "lemma": "vir",
+    "meaning": "man",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
+   }
+  ],
+  "grammar_tags": [
+   "present_tense",
+   "first_person",
+   "accusative",
+   "enclitic_que",
+   "third_conjugation"
+  ],
+  "vocab_ids": [
+   "-que",
+   "arma",
+   "cano",
+   "fullo",
+   "non",
+   "ulula",
+   "vir"
+  ],
+  "teaching_value": {
+   "note": "Present canō with accusative objects and -que twice. Pairs with the Aeneid \"Arma virumque\" card (U7) to show real Romans quoting Virgil.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "fullo",
+    "ulula"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 33
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "present_tense",
+   "first_person",
+   "accusative",
+   "enclitic_que"
+  ],
+  "grammar_preview": [
+   "third_conjugation"
+  ],
+  "image": {
+   "src": "img/rome/fullonica.webp",
+   "alt": "Fullonica (laundry) of Stephanus, Pompeii",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fullonica_of_Stephanus_(Pompeii)_(48443555206).jpg"
+  },
+  "learn_more": {
+   "label": "Fullonica",
+   "url": "https://en.wikipedia.org/wiki/Fullonica"
   }
  },
  {
@@ -2561,7 +3658,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 24
+   "rank": 34
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2684,7 +3781,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 25
+   "rank": 35
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2804,7 +3901,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 26
+   "rank": 36
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2952,7 +4049,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 27
+   "rank": 37
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3099,7 +4196,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 28
+   "rank": 38
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3127,6 +4224,415 @@
   "learn_more": {
    "label": "Aeneid",
    "url": "https://en.wikipedia.org/wiki/Aeneid"
+  }
+ },
+ {
+  "id": "i-pompeii-successus",
+  "type": "quote",
+  "era": "empire",
+  "unit": 3,
+  "latin": "Successus textor amat cōpōnae ancillam nōmine Hiredem, quae quidem illum nōn cūrat.",
+  "translation": "Successus the weaver loves the innkeeper's slave-girl, named Iris, who does not care for him at all.",
+  "context": "The start of a Pompeian love-triangle on a wall: a rival answers underneath, mocking Successus. Real people, real handwriting, ordinary Latin.",
+  "person": "Anonymous graffito, Pompeii",
+  "source": {
+   "work": "Graffito, Pompeii, Vicolo del Menandro (I.10.1-8)",
+   "citation": "CIL IV 8259 (AGP-EDR175589)",
+   "date": "before AD 79"
+  },
+  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR175589",
+  "attribution_confidence": "verified",
+  "attribution_note": "AGP text: \"coponiaes ancilla(m)\", \"Hiredem (:Iridem)\". The spelling here is normalized.",
+  "gloss": [
+   {
+    "word": "Successus",
+    "lemma": "Successus",
+    "meaning": "Successus",
+    "parse": "nom."
+   },
+   {
+    "word": "textor",
+    "lemma": "textor",
+    "meaning": "weaver",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "amat",
+    "lemma": "amō",
+    "meaning": "loves",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "cōpōnae",
+    "lemma": "cōpōna",
+    "meaning": "of the innkeeper",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "ancillam",
+    "lemma": "ancilla",
+    "meaning": "slave-girl",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "nōmine",
+    "lemma": "nōmen",
+    "meaning": "by name",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "Hiredem",
+    "lemma": "Īris",
+    "meaning": "Iris",
+    "parse": "acc."
+   },
+   {
+    "word": "quae",
+    "lemma": "quī",
+    "meaning": "who",
+    "parse": "rel. pron. nom. f."
+   },
+   {
+    "word": "quidem",
+    "lemma": "quidem",
+    "meaning": "indeed",
+    "parse": "adv."
+   },
+   {
+    "word": "illum",
+    "lemma": "ille",
+    "meaning": "him",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "cūrat",
+    "lemma": "cūrō",
+    "meaning": "cares for",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_tags": [
+   "present_tense",
+   "nominative",
+   "accusative",
+   "genitive",
+   "relative_clause",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "amo",
+   "ancilla",
+   "copona",
+   "curo",
+   "ille",
+   "nomen",
+   "non",
+   "qui",
+   "quidem",
+   "textor"
+  ],
+  "teaching_value": {
+   "note": "S-O-V with 1st-conj. present amat and cūrat, nominative and accusative 1st-decl. nouns. The genitive and relative clause are glossed previews.",
+   "dcc_core_pct": 70,
+   "non_core": [
+    "textor",
+    "copona",
+    "ancilla"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 39
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "present_tense",
+   "nominative",
+   "accusative"
+  ],
+  "grammar_preview": [
+   "genitive",
+   "relative_clause",
+   "third_declension"
+  ],
+  "image": {
+   "src": "img/rome/couple.webp",
+   "alt": "Pompeian portrait of a couple (Terentius Neo and his wife)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Naples Archaeological Museum",
+   "source_url": "https://commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg"
+  },
+  "learn_more": {
+   "label": "Graffito CIL IV 8259 (AGP)",
+   "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR175589"
+  }
+ },
+ {
+  "id": "q-terence-fortis",
+  "type": "quote",
+  "era": "republic",
+  "unit": 3,
+  "latin": "Fortīs fortūna adiuvat.",
+  "translation": "Fortune helps the brave.",
+  "context": "The clever slave Geta urges young Antipho to face his angry father bravely. The proverb later became the motto of countless regiments.",
+  "person": "Publius Terentius Afer",
+  "source": {
+   "work": "Phormio",
+   "citation": "203",
+   "date": "161 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ter.phormio.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Fortīs",
+    "lemma": "fortis",
+    "meaning": "the brave",
+    "parse": "acc. pl. (= fortēs)"
+   },
+   {
+    "word": "fortūna",
+    "lemma": "fortūna",
+    "meaning": "fortune",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "adiuvat",
+    "lemma": "adiuvō",
+    "meaning": "helps",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_tags": [
+   "present_tense",
+   "accusative",
+   "nominative",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "adiuvo",
+   "fortis",
+   "fortuna"
+  ],
+  "teaching_value": {
+   "note": "Three words: subject + object + 1st-conj. present. fortīs (= fortēs, acc. pl.) shows word order is free. All core words.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "adiuvo"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 40
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "present_tense",
+   "accusative",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "third_declension"
+  ],
+  "image": {
+   "src": "img/rome/mask2.webp",
+   "alt": "Terracotta comic theatre mask",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "The Metropolitan Museum of Art (Open Access)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Terracotta_comic_mask_MET_DP101365.jpg"
+  },
+  "learn_more": {
+   "label": "Fortes fortuna adiuvat",
+   "url": "https://en.wikipedia.org/wiki/Fortes_fortuna_adiuvat"
+  }
+ },
+ {
+  "id": "i-rib-facilis",
+  "type": "quote",
+  "era": "empire",
+  "unit": 3,
+  "latin": "M(ārcus) Favōni(us) M(ārcī) f(īlius) Pol(liā tribū) Facilis (centuriō) leg(iōnis) XX; Verēcundus et Novīcius līb(ertī) posuērunt; h(īc) s(itus) e(st).",
+  "translation": "Marcus Favonius Facilis, son of Marcus, of the Pollian voting-tribe, centurion of the Twentieth Legion, lies buried here; Verecundus and Novicius, his freedmen, set this up.",
+  "context": "A centurion's tombstone from Colchester, the first Roman capital of Britain. It shows him in full armour, holding his vine-staff. Boudica's rebels may have toppled it in AD 61.",
+  "person": "Verecundus and Novicius, freedmen",
+  "source": {
+   "work": "Tombstone, Colchester (RIB 200)",
+   "citation": "RIB 200",
+   "date": "before AD 61"
+  },
+  "source_url": "https://romaninscriptionsofbritain.org/inscriptions/200",
+  "attribution_confidence": "verified",
+  "attribution_note": "Text and translation from RIB online (200). Boudica connection is a common interpretation of the damage, not certain.",
+  "gloss": [
+   {
+    "word": "M(ārcus)",
+    "lemma": "Mārcus",
+    "meaning": "Marcus",
+    "parse": "nom."
+   },
+   {
+    "word": "Favōni(us)",
+    "lemma": "Favōnius",
+    "meaning": "Favonius",
+    "parse": "nom."
+   },
+   {
+    "word": "M(ārcī)",
+    "lemma": "Mārcus",
+    "meaning": "of Marcus",
+    "parse": "gen."
+   },
+   {
+    "word": "f(īlius)",
+    "lemma": "fīlius",
+    "meaning": "son",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Pol(liā)",
+    "lemma": "Pollia",
+    "meaning": "Pollian (voting-tribe)",
+    "parse": "abl."
+   },
+   {
+    "word": "Facilis",
+    "lemma": "Facilis",
+    "meaning": "Facilis",
+    "parse": "nom."
+   },
+   {
+    "word": "(centuriō)",
+    "lemma": "centuriō",
+    "meaning": "centurion",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "leg(iōnis)",
+    "lemma": "legiō",
+    "meaning": "of the legion",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "Verēcundus",
+    "lemma": "Verēcundus",
+    "meaning": "Verecundus",
+    "parse": "nom."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "Novīcius",
+    "lemma": "Novīcius",
+    "meaning": "Novicius",
+    "parse": "nom."
+   },
+   {
+    "word": "līb(ertī)",
+    "lemma": "lībertus",
+    "meaning": "freedmen",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "posuērunt",
+    "lemma": "pōnō",
+    "meaning": "set up",
+    "parse": "3rd pl. perf."
+   },
+   {
+    "word": "h(īc)",
+    "lemma": "hīc",
+    "meaning": "here",
+    "parse": "adv."
+   },
+   {
+    "word": "s(itus)",
+    "lemma": "situs",
+    "meaning": "laid, buried",
+    "parse": "perf. part. nom. sg. m."
+   },
+   {
+    "word": "e(st)",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg."
+   }
+  ],
+  "grammar_tags": [
+   "nominative",
+   "abbreviations",
+   "genitive",
+   "perfect_tense",
+   "participle"
+  ],
+  "vocab_ids": [
+   "centurio",
+   "et",
+   "filius",
+   "hic",
+   "legio",
+   "libertus",
+   "pono",
+   "situs",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "A soldier's ID card in Latin: nominative name, rank and legion number with standard abbreviations. The perfect posuērunt and the genitives are glossed previews.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "centurio",
+    "libertus",
+    "situs"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 41
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "nominative",
+   "abbreviations"
+  ],
+  "grammar_preview": [
+   "genitive",
+   "perfect_tense",
+   "participle"
+  ],
+  "image": {
+   "src": "img/rome/facilis.webp",
+   "alt": "Tombstone of the centurion Marcus Favonius Facilis, Colchester",
+   "kind": "inscription",
+   "aspect": "2:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:RIB_200.jpg"
+  },
+  "learn_more": {
+   "label": "Tombstone of Marcus Favonius Facilis (RIB 200)",
+   "url": "https://romaninscriptionsofbritain.org/inscriptions/200"
   }
  },
  {
@@ -3204,7 +4710,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 29
+   "rank": 42
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3298,7 +4804,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 30
+   "rank": 43
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3444,7 +4950,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 31
+   "rank": 44
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3538,7 +5044,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 32
+   "rank": 45
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3621,7 +5127,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 33
+   "rank": 46
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3727,7 +5233,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 34
+   "rank": 47
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3754,6 +5260,174 @@
   "learn_more": {
    "label": "Epistulae ex Ponto",
    "url": "https://en.wikipedia.org/wiki/Epistulae_ex_Ponto"
+  }
+ },
+ {
+  "id": "i-rib-flavinus",
+  "type": "quote",
+  "era": "empire",
+  "unit": 3,
+  "latin": "Dīs Mānibus. Flāvīnus, eq(ues) ālae Petr(iānae), signifer, tur(ma) Candidī, an(nōrum) XXV, stīp(endiōrum) VII, h(īc) s(itus) (est).",
+  "translation": "To the spirits of the departed: Flavinus, trooper of the cavalry regiment Petriana, standard-bearer, from the troop of Candidus, aged 25, of 7 years' service, lies buried here.",
+  "context": "A 25-year-old standard-bearer rides down a barbarian on his tombstone, now in Hexham Abbey near Hadrian's Wall. Its formula became a pattern for whole careers.",
+  "person": "Tombstone of Flavinus",
+  "source": {
+   "work": "Tombstone, Hexham Abbey (RIB 1172)",
+   "citation": "RIB 1172",
+   "date": "late 1st c. AD"
+  },
+  "source_url": "https://romaninscriptionsofbritain.org/inscriptions/1172",
+  "attribution_confidence": "verified",
+  "attribution_note": "Text and translation from RIB online (1172).",
+  "gloss": [
+   {
+    "word": "Dīs",
+    "lemma": "deus",
+    "meaning": "to the gods",
+    "parse": "dat. pl."
+   },
+   {
+    "word": "Mānibus",
+    "lemma": "Mānēs",
+    "meaning": "spirits of the dead",
+    "parse": "dat. pl."
+   },
+   {
+    "word": "Flāvīnus",
+    "lemma": "Flāvīnus",
+    "meaning": "Flavinus",
+    "parse": "nom."
+   },
+   {
+    "word": "eq(ues)",
+    "lemma": "eques",
+    "meaning": "cavalryman",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "ālae",
+    "lemma": "āla",
+    "meaning": "of the cavalry regiment",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "Petr(iānae)",
+    "lemma": "Petriāna",
+    "meaning": "Petriana",
+    "parse": "gen."
+   },
+   {
+    "word": "signifer",
+    "lemma": "signifer",
+    "meaning": "standard-bearer",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "tur(ma)",
+    "lemma": "turma",
+    "meaning": "troop",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "Candidī",
+    "lemma": "Candidus",
+    "meaning": "of Candidus",
+    "parse": "gen."
+   },
+   {
+    "word": "an(nōrum)",
+    "lemma": "annus",
+    "meaning": "of years",
+    "parse": "gen. pl."
+   },
+   {
+    "word": "stīp(endiōrum)",
+    "lemma": "stīpendium",
+    "meaning": "of service",
+    "parse": "gen. pl. n."
+   },
+   {
+    "word": "h(īc)",
+    "lemma": "hīc",
+    "meaning": "here",
+    "parse": "adv."
+   },
+   {
+    "word": "s(itus)",
+    "lemma": "situs",
+    "meaning": "buried",
+    "parse": "perf. part."
+   },
+   {
+    "word": "(est)",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg."
+   }
+  ],
+  "grammar_tags": [
+   "nominative",
+   "abbreviations",
+   "dative",
+   "genitive",
+   "numerals",
+   "participle"
+  ],
+  "vocab_ids": [
+   "ala",
+   "annus",
+   "deus",
+   "eques",
+   "hic",
+   "manes",
+   "signifer",
+   "situs",
+   "stipendium",
+   "sum",
+   "turma"
+  ],
+  "teaching_value": {
+   "note": "Nominative rank titles (eques, signifer) and Roman numerals for age and service. The datives and genitives are glossed previews. The same formula appears on hundreds of stones.",
+   "dcc_core_pct": 45,
+   "non_core": [
+    "manes",
+    "ala",
+    "signifer",
+    "turma",
+    "stipendium",
+    "situs"
+   ],
+   "score": 4,
+   "role": "preview",
+   "rank": 48
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "nominative",
+   "abbreviations"
+  ],
+  "grammar_preview": [
+   "dative",
+   "genitive",
+   "numerals",
+   "participle"
+  ],
+  "image": {
+   "src": "img/rome/flavinus.webp",
+   "alt": "Engraving of the tombstone of Flavinus, Hexham (Bruce, 1875)",
+   "kind": "inscription",
+   "aspect": "2:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "J. Collingwood Bruce, Lapidarium Septentrionale",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bruce_Page107_Flavinus.jpg"
+  },
+  "learn_more": {
+   "label": "Tombstone of Flavinus (RIB 1172)",
+   "url": "https://romaninscriptionsofbritain.org/inscriptions/1172"
   }
  },
  {
@@ -3805,7 +5479,7 @@
    ],
    "score": 4,
    "role": "preview",
-   "rank": 35
+   "rank": 49
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3877,7 +5551,7 @@
    "non_core": [],
    "score": 3,
    "role": "anchor",
-   "rank": 36
+   "rank": 50
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3969,7 +5643,7 @@
    "non_core": [],
    "score": 3,
    "role": "anchor",
-   "rank": 37
+   "rank": 51
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4086,7 +5760,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 38
+   "rank": 52
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4177,7 +5851,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 39
+   "rank": 53
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4281,7 +5955,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 40
+   "rank": 54
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4392,7 +6066,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 41
+   "rank": 55
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4476,7 +6150,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 42
+   "rank": 56
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4584,7 +6258,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 43
+   "rank": 57
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4708,7 +6382,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 44
+   "rank": 58
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4804,7 +6478,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 45
+   "rank": 59
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4931,7 +6605,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 46
+   "rank": 60
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4957,6 +6631,163 @@
   "learn_more": {
    "label": "Metamorphoses",
    "url": "https://en.wikipedia.org/wiki/Metamorphoses"
+  }
+ },
+ {
+  "id": "i-pompeii-admiror",
+  "type": "quote",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Admīror, ō pariēs, tē nōn cecidisse ruīnīs, quī tot scrīptōrum taedia sustineās.",
+  "translation": "I'm amazed, O wall, that you haven't collapsed in ruins, since you hold up the tedious scribbles of so many writers.",
+  "context": "A Pompeian wrote this joke couplet, in verse, about graffiti, on a wall already covered in graffiti. Copies were found in at least three places in the town.",
+  "person": "Anonymous graffito, Pompeii",
+  "source": {
+   "work": "Graffito, Pompeii, Basilica (VIII.1.1)",
+   "citation": "CIL IV 1904 (AGP-EDR158840)",
+   "date": "before AD 79"
+  },
+  "source_url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR158840",
+  "attribution_confidence": "verified",
+  "attribution_note": "AGP text reads \"pariens (:paries)\"; duplicates EDR158841-2.",
+  "gloss": [
+   {
+    "word": "Admīror",
+    "lemma": "admīror",
+    "meaning": "I am amazed",
+    "parse": "1st sg. pres. deponent"
+   },
+   {
+    "word": "ō",
+    "lemma": "ō",
+    "meaning": "O",
+    "parse": "interj."
+   },
+   {
+    "word": "pariēs",
+    "lemma": "pariēs",
+    "meaning": "wall",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "acc."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "cecidisse",
+    "lemma": "cadō",
+    "meaning": "to have fallen",
+    "parse": "perf. inf."
+   },
+   {
+    "word": "ruīnīs",
+    "lemma": "ruīna",
+    "meaning": "in ruins",
+    "parse": "abl. pl. f."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "(you) who",
+    "parse": "rel. pron."
+   },
+   {
+    "word": "tot",
+    "lemma": "tot",
+    "meaning": "so many",
+    "parse": "indecl."
+   },
+   {
+    "word": "scrīptōrum",
+    "lemma": "scrīptor",
+    "meaning": "of writers",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "taedia",
+    "lemma": "taedium",
+    "meaning": "tedious things",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "sustineās",
+    "lemma": "sustineō",
+    "meaning": "you hold up",
+    "parse": "2nd sg. pres. subj."
+   }
+  ],
+  "grammar_tags": [
+   "vocative",
+   "indirect_statement",
+   "perfect_infinitive",
+   "subjunctive",
+   "relative_clause",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "admiror",
+   "cado",
+   "non",
+   "o",
+   "paries",
+   "qui",
+   "ruina",
+   "scriptor",
+   "sustineo",
+   "taedium",
+   "tot",
+   "tu"
+  ],
+  "teaching_value": {
+   "note": "Vocative ō pariēs is the target. Everything else (an infinitive clause, a subjunctive) is glossed. The point is the joke and the fact that real people wrote it.",
+   "dcc_core_pct": 50,
+   "non_core": [
+    "admiror",
+    "o",
+    "paries",
+    "ruina",
+    "scriptor",
+    "taedium"
+   ],
+   "score": 3,
+   "role": "preview",
+   "rank": 61
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "vocative"
+  ],
+  "grammar_preview": [
+   "indirect_statement",
+   "perfect_infinitive",
+   "subjunctive",
+   "relative_clause",
+   "genitive"
+  ],
+  "image": {
+   "src": "img/rome/basilica.webp",
+   "alt": "The Basilica at Pompeii",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Basilica,_Pompeii_01.jpg"
+  },
+  "learn_more": {
+   "label": "Graffito CIL IV 1904 (AGP)",
+   "url": "https://ancientgraffiti.org/Graffiti/graffito/AGP-EDR158840"
   }
  },
  {
@@ -5006,7 +6837,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 47
+   "rank": 62
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -5095,7 +6926,7 @@
    ],
    "score": 3,
    "role": "preview",
-   "rank": 48
+   "rank": 63
   },
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -5121,6 +6952,152 @@
   "learn_more": {
    "label": "Odes (Horace)",
    "url": "https://en.wikipedia.org/wiki/Odes_(Horace)"
+  }
+ },
+ {
+  "id": "i-rib-regina",
+  "type": "quote",
+  "era": "empire",
+  "unit": 2,
+  "latin": "D(īs) M(ānibus). Rēgīna līberta et coniuge Barātēs Palmyrēnus nātiōne Catuallauna an(nōrum) XXX.",
+  "translation": "To the spirits of the departed: Regina, his freedwoman and wife, a Catuvellaunian by tribe, aged 30. Barates of Palmyra (set this up).",
+  "context": "A Syrian trader from Palmyra freed and married Regina, a British woman. He set up her tombstone at South Shields. Below the Latin he added a line in his own Palmyrene Aramaic.",
+  "person": "Barates of Palmyra",
+  "source": {
+   "work": "Tombstone, South Shields (RIB 1065)",
+   "citation": "RIB 1065",
+   "date": "late 2nd c. AD"
+  },
+  "source_url": "https://romaninscriptionsofbritain.org/inscriptions/1065",
+  "attribution_confidence": "verified",
+  "attribution_note": "Text and translation from RIB online (1065). coniuge for coniunx is the stonecutter's.",
+  "gloss": [
+   {
+    "word": "D(īs)",
+    "lemma": "dīs",
+    "meaning": "to the gods",
+    "parse": "dat. pl. (abbr.)"
+   },
+   {
+    "word": "M(ānibus)",
+    "lemma": "Mānēs",
+    "meaning": "spirits of the dead",
+    "parse": "dat. pl. (abbr.)"
+   },
+   {
+    "word": "Rēgīna",
+    "lemma": "Rēgīna",
+    "meaning": "Regina",
+    "parse": "nom."
+   },
+   {
+    "word": "līberta",
+    "lemma": "līberta",
+    "meaning": "freedwoman",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "coniuge",
+    "lemma": "coniūnx",
+    "meaning": "wife",
+    "parse": "abl. form for nom."
+   },
+   {
+    "word": "Barātēs",
+    "lemma": "Barātēs",
+    "meaning": "Barates",
+    "parse": "nom."
+   },
+   {
+    "word": "Palmyrēnus",
+    "lemma": "Palmyrēnus",
+    "meaning": "of Palmyra",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "nātiōne",
+    "lemma": "nātiō",
+    "meaning": "by tribe",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "Catuallauna",
+    "lemma": "Catuvellaunus",
+    "meaning": "Catuvellaunian",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "an(nōrum)",
+    "lemma": "annus",
+    "meaning": "of years",
+    "parse": "gen. pl. (abbr.)"
+   }
+  ],
+  "grammar_tags": [
+   "nominative",
+   "abbreviations",
+   "dative",
+   "ablative",
+   "genitive",
+   "numerals"
+  ],
+  "vocab_ids": [
+   "annus",
+   "coniunx",
+   "dis",
+   "et",
+   "liberta",
+   "manes",
+   "natio",
+   "palmyrenus"
+  ],
+  "teaching_value": {
+   "note": "Family words in the nominative (Rēgīna, līberta) and abbreviations (D M, AN). The case of coniuge is non-standard (it stands for coniūnx), so the grammar beyond nominatives is preview only.",
+   "dcc_core_pct": 38,
+   "non_core": [
+    "dis",
+    "manes",
+    "liberta",
+    "palmyrenus",
+    "natio"
+   ],
+   "score": 3,
+   "role": "preview",
+   "rank": 64
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "grammar_target": [
+   "nominative",
+   "abbreviations"
+  ],
+  "grammar_preview": [
+   "dative",
+   "ablative",
+   "genitive",
+   "numerals"
+  ],
+  "image": {
+   "src": "img/rome/regina.webp",
+   "alt": "Tombstone of Regina, South Shields, with Latin and Palmyrene text",
+   "kind": "inscription",
+   "aspect": "2:3",
+   "transparent": false,
+   "license": "CC BY 4.0",
+   "credit": "Wikimedia Commons (CC BY 4.0)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright.jpg"
+  },
+  "learn_more": {
+   "label": "Regina tombstone (RIB 1065)",
+   "url": "https://romaninscriptionsofbritain.org/inscriptions/1065"
   }
  }
 ]

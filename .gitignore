@@ -5,3 +5,7 @@ __pycache__/
 node_modules/
 .DS_Store
 tmp/
+# raw sources (kept on the box, not published)
+audio/src/
+assets/**/raw/
+content/img/**/raw/

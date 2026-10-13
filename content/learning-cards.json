@@ -124,7 +124,7 @@
    "description": "Cut-out Capitoline Wolf",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verified on file page via Commons API: CC0"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0 (visual pass Oct 13)"
   },
   "learn_more": {
    "label": "Capitoline Wolf (Wikipedia)",
@@ -133,14 +133,14 @@
   },
   "attribution_note": "Constructed teaching sentence (not a quotation).",
   "image": {
-   "src": "assets/learning/g-sum-est.png",
-   "alt": "Lupa Capitolina: she-wolf with Romulus and Remus. Bronze, 12th century AD[1], 5th century BC (the twins are a 15th-century addition).",
-   "kind": "statue_cutout",
-   "aspect": "7489:4876",
-   "transparent": true,
-   "credit": "Wikimedia Commons / Wikimedia Commons",
-   "license": "CC0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+   "src": "assets/learning/raw/g-sum-est.jpg",
+   "alt": "Exterior panoramic view of the Colosseum (Flavian amphitheatre) in Rome",
+   "kind": "building",
+   "aspect": "7303:3423",
+   "transparent": false,
+   "credit": "Nicholas Hartmann / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rome_Colosseum_exterior_panorama.jpg"
   },
   "gloss": [
    {
@@ -776,7 +776,10 @@
   "dcc_ranks": {
    "bulla": null,
    "aureus": 691
-  }
+  },
+  "grammar_preview": [
+   "adjective_agreement (taught Unit 4)"
+  ]
  },
  {
   "id": "x-whosays-cornelia",
@@ -1137,7 +1140,7 @@
    "description": "Vindolanda tablet 291 photo (British Museum)",
    "kind": "manuscript",
    "candidate_source": "British Museum / Commons",
-   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0 (visual pass Oct 13)"
   },
   "learn_more": {
    "label": "Vindolanda tablets (Wikipedia)",
@@ -1151,14 +1154,13 @@
   "attribution_confidence": "verified",
   "image": {
    "src": "assets/learning/raw/i-vindolanda.jpg",
-   "alt": "Vindolanda tablet 291",
-   "kind": "inscription",
-   "aspect": "3591:1560",
+   "alt": "Vindolanda tablets in the British Museum.",
+   "kind": "artifact",
+   "aspect": "2592:3888",
    "transparent": false,
-   "credit": "Fæ / Wikimedia Commons",
-   "license": "CC BY-SA 3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Vindolanda_tablet_291.jpg",
-   "license_note": "Commons lists CC BY-SA 3.0, but if the photo derives from British Museum imagery the BM terms are CC BY-NC-SA 4.0 — confirm before commercial use."
+   "credit": "Photograph by Mike Peel (www.mikepeel.net). / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Vindolanda_tablets_1.jpg"
   },
   "gloss": [
    {
@@ -1281,7 +1283,7 @@
    "description": "Legio XX building stone (Commons)",
    "kind": "inscription",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
+   "license_status": "verified on file page via Commons API: CC BY-SA 3.0 (visual pass Oct 13)"
   },
   "learn_more": {
    "label": "Legio XX Valeria Victrix (Wikipedia)",
@@ -1290,14 +1292,14 @@
   },
   "attribution_note": "Constructed teaching sentence (not a quotation).",
   "image": {
-   "src": "assets/learning/raw/x-parse-signum.jpg",
-   "alt": "Chester ( England ). Grosvenor Museums: Tombstone of Caecilius Avitus, optio of Legio XX, with inscription D:M:CAECILIUS:AVITUS:EMER:AUG:OPT",
-   "kind": "inscription",
-   "aspect": "1712:2560",
-   "transparent": false,
-   "credit": "Wolfgang Sauber / Wikimedia Commons",
+   "src": "assets/learning/x-parse-signum.png",
+   "alt": "Tile antefix with the name of Legion XX and a boar, the legionary symbol, from Holt, Clwyd, Wales. 2nd - 3rd century AD. British Museum, Lon",
+   "kind": "artifact",
+   "aspect": "1180:1214",
+   "transparent": true,
+   "credit": "AgTigress / Wikimedia Commons",
    "license": "CC BY-SA 3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Grosvenor_Museums_-_Grabstein_7_Optio.jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_tile_antefix-cleared.png"
   },
   "gloss": [
    {
@@ -2568,14 +2570,15 @@
   "subtype": "coin",
   "unit": 6,
   "era": "empire",
-  "latin": "CAESAR DIVI F",
-  "translation": "Caesar, son of the deified (Julius)",
+  "latin": "IMP·CAESAR·DIVI·F",
+  "translation": "Imperator Caesar, son of the deified (Julius)",
   "teaches": "Coin legend reading; genitive + abbreviation",
   "context": "Octavian stressed his adoption by the deified Julius on coins. DIVI F = dīvī fīlius, a powerful propaganda line before the name Augustus (27 BC).",
   "vocab_ids": [
    "caesar",
    "diuus",
-   "filius"
+   "filius",
+   "imperator"
   ],
   "grammar_tags": [
    "genitive",
@@ -2585,7 +2588,7 @@
    "description": "Denarius of Octavian, CAESAR DIVI F (ANS/Met)",
    "kind": "coin",
    "candidate_source": "Met Open Access / ANS",
-   "license_status": "verified on file page via Commons API: CC BY-SA 2.5"
+   "license_status": "verified on file page via Commons API: CC BY 4.0 (visual pass Oct 13)"
   },
   "learn_more": {
    "label": "Augustus (Wikipedia)",
@@ -2594,20 +2597,26 @@
   },
   "image": {
    "src": "assets/learning/i-coin-divi-f.png",
-   "alt": "Augustus, with Divus Julius Caesar. AR Denarius (17mm, 3.20 g, 3h). Rome mint; M. Sanquinius, moneyer. Struck 17 BC. AVGVSTVS DIVI • F, bare",
+   "alt": "Obverse: IMP·CAESAR__DIVI·F·III·VIR·ITER·R·P·C\nhead of Octavianus Caesar right\n\nReverse: COS·ITER·ET·TER·DESIG\nsacrificial implements: simpu",
    "kind": "coin",
-   "aspect": "800:389",
+   "aspect": "3450:1725",
    "transparent": true,
-   "credit": "CNG / Wikimedia Commons",
-   "license": "CC BY-SA 2.5",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Rare_denarius_of_Octavian_%26_Caesar.jpg"
+   "credit": "Johny SYSEL / Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:C._Octavianus_C._f._Cr538-1.jpg"
   },
   "source": {
    "work": "Coin legend",
-   "citation": "Octavian's denarius issues, c. 32–29 BC (legend CAESAR DIVI F); catalogue number (RIC I² Augustus) to be added from the imaged coin"
+   "citation": "Denarius of Octavian, Crawford RRC 538/1 (c. 37 BC), obverse IMP·CAESAR·DIVI·F·III·VIR·ITER·R·P·C"
   },
   "attribution_confidence": "verified",
   "gloss": [
+   {
+    "word": "IMP",
+    "lemma": "imperātor",
+    "meaning": "commander (title)",
+    "parse": "abbr. nom."
+   },
    {
     "word": "CAESAR",
     "lemma": "Caesar",
@@ -2919,7 +2928,7 @@
    "description": "Horace bust or Odes incunable",
    "kind": "manuscript",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verified on file page via Commons API: Public domain"
+   "license_status": "reuses g-imperative Horace Odes MS (Public domain)"
   },
   "learn_more": {
    "label": "Odes (Horace) (Wikipedia)",
@@ -2932,14 +2941,14 @@
   },
   "attribution_confidence": "verified",
   "image": {
-   "src": "assets/learning/raw/g-future.jpg",
-   "alt": "Numérisation effectuée à partir d'un document de substitution.\nCatalogus codicoum manuscriptorum bibliothecae regiae : 1.° Decimi Junii Juve",
+   "src": "assets/learning/raw/g-imperative.jpg",
+   "alt": "Horace Odes 1.4, C11 (\"φ\"), Parisinus latinus 7974 4v (Bibliothèque nationale de France)",
    "kind": "manuscript",
-   "aspect": "4310:6067",
+   "aspect": "3127:4242",
    "transparent": false,
-   "credit": "Juvénal (0060?-0130?). Auteur du texte\nPerse (0034-0062). Auteur du texte\n\nHorace (0065-0008 av. J.-C.). Auteur du texte / Wikimedia Commons",
+   "credit": "C11 scribe unknown / Wikimedia Commons",
    "license": "Public domain",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Juvenalis,_Satirae._%E2%80%94_Persius,_Satyrae._%E2%80%94_Horatius,_Carmina._-_btv1b90664911_(003_of_231).jpg"
+   "source_url": "https://commons.wikimedia.org/wiki/File:Horace_Odes_1.4_(%CF%86)_(BnF_Parisinus_latinus_7974).jpg"
   },
   "attribution_note": "regam/regēs/reget constructed; Nōn omnis moriar = Horace Odes 3.30.6 (verified Latin Library).",
   "gloss": [
@@ -3009,7 +3018,7 @@
    "description": "Ovid portrait or statue at Constanța",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verified on file page via Commons API: CC BY-SA 4.0"
+   "license_status": "verified on file page via Commons API: CC BY 2.0 (visual pass Oct 13)"
   },
   "learn_more": {
    "label": "Latin grammar (Wikipedia)",
@@ -3019,13 +3028,13 @@
   "attribution_note": "Constructed teaching sentence (not a quotation).",
   "image": {
    "src": "assets/learning/raw/g-pronoun.jpg",
-   "alt": "The pedestal of the Statue to Ovid (Constanța, Romania)",
+   "alt": "The statue of Ovid in front of the National History Museum in Constantza, Romania.",
    "kind": "building",
-   "aspect": "2861:3278",
+   "aspect": "2520:3776",
    "transparent": false,
-   "credit": "Neoclassicism Enthusiast / Wikimedia Commons",
-   "license": "CC BY-SA 4.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:The_pedestal_of_the_Statue_to_Ovid_(Constan%C8%9Ba,_Romania).jpg"
+   "credit": "Alexandru Panoiu / Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Ovid_in_Constantza.jpg"
   },
   "gloss": [
    {
@@ -3089,7 +3098,7 @@
    "description": "Roman sundial (Met)",
    "kind": "artifact",
    "candidate_source": "Met Open Access",
-   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
+   "license_status": "verified on file page via Commons API: CC BY-SA 4.0 (visual pass Oct 13)"
   },
   "learn_more": {
    "label": "Roman timekeeping (Wikipedia)",
@@ -3098,14 +3107,14 @@
   },
   "attribution_note": "Constructed teaching sentence (not a quotation).",
   "image": {
-   "src": "assets/learning/raw/v-tempus.jpg",
-   "alt": "Sundial at the western front of the cellarium, Maulbronn Monastery, Maulbronn, Germany",
+   "src": "assets/learning/v-tempus.png",
+   "alt": "Ancient Roman sundial iwth rosettes, marble, 2nd century AD. Antikensammlung Berlin (Altes Museum).",
    "kind": "artifact",
-   "aspect": "2678:3675",
-   "transparent": false,
-   "credit": "H. Zell / Wikimedia Commons",
-   "license": "CC BY-SA 3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Sundial_-_Maulbronn_Monastery.jpg"
+   "aspect": "3121:4682",
+   "transparent": true,
+   "credit": "Zde / Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_sundial,_Antikensammlung_Berlin,_141306.jpg"
   },
   "gloss": [
    {
@@ -3209,7 +3218,7 @@
    "description": "Seneca double herm, cut-out",
    "kind": "statue_cutout",
    "candidate_source": "Wikimedia Commons",
-   "license_status": "verified on file page via Commons API: CC BY-SA 3.0"
+   "license_status": "verified on file page via Commons API: CC BY-SA 2.0 (visual pass Oct 13)"
   },
   "learn_more": {
    "label": "Seneca the Younger (Wikipedia)",
@@ -3219,13 +3228,13 @@
   "attribution_note": "Constructed teaching sentence (not a quotation).",
   "image": {
    "src": "assets/learning/v-animus.png",
-   "alt": "Seneca, part of double-herm in Antikensammlung Berlin",
+   "alt": "The So-Called Pseudo-Seneca 02",
    "kind": "statue_cutout",
-   "aspect": "1790:2208",
+   "aspect": "1960:4032",
    "transparent": true,
-   "credit": "Calidius / Wikimedia Commons",
-   "license": "CC BY-SA 3.0",
-   "source_url": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
+   "credit": "Jamie Heath / Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_So-Called_Pseudo-Seneca_02_(49345468782).jpg"
   },
   "gloss": [
    {

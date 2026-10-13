@@ -1,6 +1,898 @@
-{
- "titus": "CC BY-SA 4.0",
- "woman": "CC0",
- "youngwoman": "CC0",
- "womanhead": "CC0"
-}
+[
+ {
+  "src": "img/caesar.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Head_of_Julius_Caesar_from_Tusculum_MAntTorino_2089_n01.jpg",
+  "declared": "Public domain",
+  "credit": "Tusculum portrait, Museo di Antichità, Turin · photo Marie-Lan Taÿ Pamart (Jastrow)",
+  "cards": [
+   "q-suetonius-alea"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Marie-Lan Taÿ Pamart",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/cicero.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:M._Tullius_Cicero,_Capitoline_Museum,_Rome_(cropped).png",
+  "declared": "CC0",
+  "credit": "Bust of Cicero, Capitoline Museums, Rome · photo Wilfredo Rafael Rodriguez Hernandez",
+  "cards": [
+   "q-cicero-historia"
+  ],
+  "commons_licence": "CC0",
+  "artist": "Wilfredo Rafael Rodriguez Hernandez",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/coin.webp",
+  "source_url": "https://www.metmuseum.org/art/collection/search/248033",
+  "declared": "CC0",
+  "credit": "Silver denarius of Julius Caesar, 47–46 BCE · The Met, Rogers Fund, 1908 (248033)",
+  "cards": [
+   "q-virgil-tantae"
+  ],
+  "commons_licence": "(not on Commons: CC0 per source)",
+  "artist": "",
+  "attribution_required": "",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/horace.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Horace,_Odes,_Florence,_Plut._34.1.jpg",
+  "declared": "Public domain",
+  "credit": "Horace, Odes · Biblioteca Medicea Laurenziana, Plut. 34.1",
+  "cards": [
+   "q-horace-sapere"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Horace",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/abbondanza.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pompeii_Via_dell'_Abbondanza_01.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "i-pompeii-romula"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "Ad Meskens\nYou are free to use this picture for any purpose as long as you credit its author, Ad Meskens.\nExample:  © Ad",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/aegypto.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Denario_Aegypto_capta.jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "c-octavian-aegypto"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Telo",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/altar.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_funerary_altar_of_Cominia_Tyche_MET_DP138727.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-catullus-ave"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/basilica.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Basilica,_Pompeii_01.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "i-pompeii-admiror"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "Adam Harangozó",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/boy.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_a_boy_MET_DP328527.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-seneca-docent"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/brennus.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Brennus_and_Sulpicius_(illustration).jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-livy-vae"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Paul Lehugeur (1854-1916)",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/caesarberlin.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_bust_of_Julius_Caesar_(Berlin_Ant_Sk_342)_02.jpg",
+  "declared": "CC BY 4.0",
+  "credit": "Wikimedia Commons (CC BY 4.0)",
+  "cards": [
+   "q-caesar-belgae"
+  ],
+  "commons_licence": "CC BY 4.0",
+  "artist": "Mark Landon",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/calgacus.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Musee-romanite-guerrier-casque-1.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "q-tacitus-solitudinem"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "Christelle Molinié",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/cave.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Cave_Canem_Poeta_Trágico_03.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "i-pompeii-cave"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "Miguel Hermoso Cuesta",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/cestius.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pyramide_564.jpg",
+  "declared": "CC BY 4.0",
+  "credit": "Wikimedia Commons (CC BY 4.0)",
+  "cards": [
+   "q-horace-exegi"
+  ],
+  "commons_licence": "CC BY 4.0",
+  "artist": "Tyrhénienne",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/cicero2.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "q-cicero-salus"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "José Luiz",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/cicero3.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(GL_325).jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "q-cicero-quousque"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "Yair-haklai",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/colosseum.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Piranesi,_The_Colosseum.png",
+  "declared": "Public domain",
+  "credit": "Giovanni Battista Piranesi",
+  "cards": [
+   "q-juvenal-panem"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Giovanni Battista Piranesi",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/cornelia.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Bartolozzi_-_Cornelia,_Mother_of_the_Gracchi_-_B1977.14.19782_-_Yale_Center_for_British_Art.jpg",
+  "declared": "CC0",
+  "credit": "Yale Center for British Art",
+  "cards": [
+   "q-cornelia-ornamenta"
+  ],
+  "commons_licence": "CC0",
+  "artist": "Francesco Bartolozzi",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/couple.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg",
+  "declared": "CC0",
+  "credit": "Naples Archaeological Museum",
+  "cards": [
+   "i-pompeii-successus"
+  ],
+  "commons_licence": "CC0",
+  "artist": "Jebulon",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/cuirass.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_torso_from_an_equestrian_statue_wearing_a_cuirass_MET_DP108183.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-cicero-cedant"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/cup.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Glass_cup_MET_DP203343.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-ovid-gutta"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/eidmar.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Ides_of_march_coin.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "c-brutus-eidmar"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "British Museum",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/epicurus.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_Bust_of_Epicurus,_Roman_Copy.jpg",
+  "declared": "CC0",
+  "credit": "Wikimedia Commons (CC0)",
+  "cards": [
+   "q-lucretius-religio"
+  ],
+  "commons_licence": "CC0",
+  "artist": "Gary Todd",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/facilis.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:RIB_200.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "i-rib-facilis"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "Udimu",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/flavinus.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Bruce_Page107_Flavinus.jpg",
+  "declared": "Public domain",
+  "credit": "J. Collingwood Bruce, Lapidarium Septentrionale",
+  "cards": [
+   "i-rib-flavinus"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "John Collingwood Bruce",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/formaurbis.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Rudolfo_Lancani_-_Forma_Urbis_Romae_XV.jpg",
+  "declared": "Public domain",
+  "credit": "Rodolfo Lanciani",
+  "cards": [
+   "q-ovid-urbis"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Rodolfo Lanciani",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/fullonica.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Fullonica_of_Stephanus_(Pompeii)_(48443555206).jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "i-pompeii-fullones"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Gary Todd from Xinzheng, China",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/horace2.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Quintus_Horatius_Flaccus.jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-horace-modus"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Anton von Werner",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/juno.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Juno_Sospita_(Vaticano).jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-virgil-tantaene"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "AnonymousUnknown author",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/jupiter.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Jupiter_Smyrna_Louvre_Ma13.jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-ovid-expedit"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Marie-Lan Nguyen",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/lamp.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Oil_Lamp_MET_cop0414s1.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-seneca-nusquam"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/laocoon.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Laocoön_and_his_sons_group.jpg",
+  "declared": "CC0",
+  "credit": "Wikimedia Commons (CC0)",
+  "cards": [
+   "q-virgil-timeo"
+  ],
+  "commons_licence": "CC0",
+  "artist": "Wilfredor",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/man.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_man_from_a_funerary_relief_MET_DP337291.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-seneca-vindica"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/martialgem.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Martial,_engraved_from_an_ancient_gem_(cropped).jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-martial-sabidi"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Unknown",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/mask1.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Comic_mask_MET_DP100625.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-terence-quot"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/mask2.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Terracotta_comic_mask_MET_DP101365.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-terence-fortis"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/memento.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Mosaic_Reminder_of_Death,_from_the_House_1,_5,_2_in_Pompeii_(48451661416).jpg",
+  "declared": "Public domain",
+  "credit": "Naples Archaeological Museum",
+  "cards": [
+   "q-seneca-differtur"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Gary Todd from Xinzheng, China",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/mercury.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_statuette_of_Mercury_MET_DP105597.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-juvenal-mens"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/mercury2.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_statuette_of_Mercury_MET_DP20178.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-seneca-prope"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/muses.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_sarcophagus_with_the_contest_between_the_Muses_and_the_Sirens_MET_DP138718.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-virgil-forsan"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/pantheon.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Fotografi._Pantheon_di_Agrippa._Rom,_Italien_-_Hallwylska_museet_-_104733.tif",
+  "declared": "Public domain",
+  "credit": "Hallwyl Museum, Stockholm",
+  "cards": [
+   "i-pantheon-agrippa"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/plautus.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Plautus,_Mostellaria,_Vaticanus_Palatinus_lat._1615.jpg",
+  "declared": "Public domain",
+  "credit": "Biblioteca Apostolica Vaticana",
+  "cards": [
+   "q-plautus-lupus"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Plautus",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/pluto.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Standbeeld_van_Pluto,_RP-P-OB-44.317.jpg",
+  "declared": "CC0",
+  "credit": "Rijksmuseum",
+  "cards": [
+   "q-virgil-facilis"
+  ],
+  "commons_licence": "CC0",
+  "artist": "Rijksmuseum",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/primaporta.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-virgil-regere"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Till Niermann",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/regina.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright.jpg",
+  "declared": "CC BY 4.0",
+  "credit": "Wikimedia Commons (CC BY 4.0)",
+  "cards": [
+   "i-rib-regina"
+  ],
+  "commons_licence": "CC BY 4.0",
+  "artist": "Abigail Baker and Alison Cooley",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/resgestae.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Res_gestae_divi_Augusti,_GD006036.jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-resgestae-annos"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/riot.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pompeian_mural_depicting_the_Amphitheatre_riots.jpg",
+  "declared": "Public domain",
+  "credit": "Naples Archaeological Museum",
+  "cards": [
+   "i-pompeii-felices"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "U.D.F., Paris",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/romulus.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Romulus_and_Remus_MET_DP822897.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-tacitus-urbem"
+  ],
+  "commons_licence": "CC0",
+  "artist": "Giulio Romano / Wenceslaus Hollar",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/rufussita.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Rufus_Sita_Tombstone.jpg",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-suetonius-vare"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/seatedmuse.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_statue_of_a_seated_muse_MET_118553.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-virgil-musa"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/seneca.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pseudo-Seneca_BM_GR1962.8-24.1.jpg",
+  "declared": "Public domain",
+  "credit": "British Museum",
+  "cards": [
+   "q-seneca-aliena"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Unknown artistUnknown artist",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/servian.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Servian_at_Termini.JPG",
+  "declared": "Public domain",
+  "credit": "Wikimedia Commons",
+  "cards": [
+   "q-virgil-moenia"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "User: (WT-shared) Roundtheworld at  wts wikivoyage",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/soldier.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Fragmentary_marble_head_of_a_helmeted_soldier_MET_DP106984.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-horace-dulce"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/sundial.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_sundial,_Antikensammlung_Berlin,_141306.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "q-virgil-fugit"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "Zde",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/tablet.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Wax_writing_tablet_with_part_of_a_Roman_will.jpg",
+  "declared": "CC0",
+  "credit": "Wikimedia Commons (CC0)",
+  "cards": [
+   "q-martial-bona"
+  ],
+  "commons_licence": "CC0",
+  "artist": "Mx. Granger",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/terence.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Terence_Andria_1.1_Vat3868f4v.jpg",
+  "declared": "Public domain",
+  "credit": "Biblioteca Apostolica Vaticana",
+  "cards": [
+   "q-terence-homo"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "unknown Carolingian scribe, 9th century AD",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/titus.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:ArcoTitoIscrizione.jpg",
+  "declared": "CC BY-SA 4.0",
+  "credit": "Wikimedia Commons (CC BY-SA 4.0)",
+  "cards": [
+   "i-titus-spqr"
+  ],
+  "commons_licence": "CC BY-SA 4.0",
+  "artist": "MM",
+  "attribution_required": "true",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "match": true
+ },
+ {
+  "src": "img/rome/urn.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_cinerary_urn_MET_DT5413.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "i-sttl"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/vesta.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Statue_called_\"Vesta_Giustiniani\"_-_DPLA_-_5b55ce712f0fe863cb1e6318b78ea51c.jpg",
+  "declared": "Public domain",
+  "credit": "DPLA via Wikimedia Commons",
+  "cards": [
+   "q-ovid-vesta"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Catsimpoolas, Nicholas; Scull, S. A. (Sarah Amelia)",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/virgil.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg",
+  "declared": "Public domain",
+  "credit": "Bardo Museum, Tunis",
+  "cards": [
+   "q-virgil-arma"
+  ],
+  "commons_licence": "Public domain",
+  "artist": "Boyd Dwyer",
+  "attribution_required": "false",
+  "licence_url": "",
+  "match": true
+ },
+ {
+  "src": "img/rome/wolf.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg",
+  "declared": "CC0",
+  "credit": "Wikimedia Commons (CC0)",
+  "cards": [
+   "i-spqr"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/woman.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DP331280.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-catullus-vivamus"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/womanhead.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_head_of_a_woman_MET_DP333686.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-ovid-edax"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ },
+ {
+  "src": "img/rome/youngwoman.webp",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DT261885.jpg",
+  "declared": "CC0",
+  "credit": "The Metropolitan Museum of Art (Open Access)",
+  "cards": [
+   "q-catullus-odi"
+  ],
+  "commons_licence": "CC0",
+  "artist": "",
+  "attribution_required": "false",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "match": true
+ }
+]

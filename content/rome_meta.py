@@ -11,7 +11,7 @@ TAUGHT={'nominative':1,'sum':1,'word_order':1,'abbreviations':1,'subject_verb':1
  'passive_voice':9,'perfect_passive':9,'participle':9,'present_participle':9,'participle_as_noun':9,
  'relative_clause':10}
 # beyond the 10-unit core: preview only
-for t in ['comparative','ablative_of_comparison','subjunctive','jussive_subjunctive','hortatory_subjunctive','gerundive','deponent','future_imperative','dum_clause','impersonal_verb','ablative_absolute','dative_of_direction','indirect_question','ablative_with_deponent']: TAUGHT[t]=99
+for t in ['comparative','ablative_of_comparison','subjunctive','jussive_subjunctive','hortatory_subjunctive','gerundive','deponent','future_imperative','dum_clause','impersonal_verb','ablative_absolute','dative_of_direction','indirect_question','ablative_with_deponent','superlative','perfect_infinitive']: TAUGHT[t]=99
 WP='https://en.wikipedia.org/wiki/'
 # id: (unit, target, preview, image_key, learn_more_label, learn_more_title)
 META={
@@ -115,3 +115,39 @@ IMGS={
 'horace2':('Quintus Horatius Flaccus.jpg','painting','Imagined portrait of Horace','Public domain','Wikimedia Commons','2:3',False),
 }
 EXISTING={'cicero':'img/cicero.webp','caesar':'img/caesar.webp','coin':'img/coin.webp','horace':'img/horace.webp'}
+META.update({
+'q-ovid-urbis':(1,['sum','nominative'],['genitive'],'formaurbis','Fasti (poem)','Fasti_(poem)'),
+'q-virgil-moenia':(1,['nominative'],['enclitic_que','genitive'],'servian','Servian Wall','Servian_Wall'),
+'q-terence-quot':(1,['nominative'],[],'mask1','Phormio (play)','Phormio_(play)'),
+'i-pompeii-felices':(1,['sum','nominative'],['subjunctive'],'riot','Graffiti in Pompeii (AGP)','AGP:AGP-EDR127399'),
+'i-rib-regina':(2,['nominative','abbreviations'],['dative','ablative','genitive','numerals'],'regina','Regina tombstone (RIB 1065)','RIB:1065'),
+'i-pompeii-romula':(2,['nominative'],['prep_ablative','deponent','present_tense'],'abbondanza','Graffito CIL IV 2060 (AGP)','AGP:AGP-EDR193346'),
+'q-plautus-lupus':(2,['sum','nominative'],['dative'],'plautus','Homo homini lupus','Homo_homini_lupus'),
+'i-pompeii-admiror':(2,['vocative'],['indirect_statement','perfect_infinitive','subjunctive','relative_clause','genitive'],'basilica','Graffito CIL IV 1904 (AGP)','AGP:AGP-EDR158840'),
+'i-pompeii-successus':(3,['present_tense','nominative','accusative'],['genitive','relative_clause','third_declension'],'couple','Graffito CIL IV 8259 (AGP)','AGP:AGP-EDR175589'),
+'i-pompeii-fullones':(3,['present_tense','first_person','accusative','enclitic_que'],['third_conjugation'],'fullonica','Fullonica','Fullonica'),
+'q-terence-fortis':(3,['present_tense','accusative','nominative'],['third_declension'],'mask2','Fortes fortuna adiuvat','Fortes_fortuna_adiuvat'),
+'q-martial-sabidi':(3,['present_tense','vocative','first_person'],['possum','infinitive','personal_pronouns'],'martialgem','I do not love thee, Doctor Fell','I_do_not_love_thee,_Doctor_Fell'),
+'q-terence-homo':(3,['sum','present_tense','first_person'],['genitive','prep_ablative'],'terence','Homo sum, humani nihil a me alienum puto','Homo_sum,_humani_nihil_a_me_alienum_puto'),
+'i-rib-facilis':(3,['nominative','abbreviations'],['genitive','perfect_tense','participle'],'facilis','Tombstone of Marcus Favonius Facilis (RIB 200)','RIB:200'),
+'i-rib-flavinus':(3,['nominative','abbreviations'],['dative','genitive','numerals','participle'],'flavinus','Tombstone of Flavinus (RIB 1172)','RIB:1172'),
+'q-caesar-belgae':(3,['sum','nominative','third_person_plural'],['genitive','superlative'],'caesarberlin','Belgae','Belgae'),
+})
+IMGS.update({
+'formaurbis':('Rudolfo Lancani - Forma Urbis Romae XV.jpg','painting','Lanciani\'s map of ancient Rome (Forma Urbis Romae, sheet XV)','Public domain','Rodolfo Lanciani','4:3',False),
+'servian':('Servian at Termini.JPG','building','Surviving stretch of the Servian Wall outside Termini station, Rome','Public domain','Wikimedia Commons','4:3',False),
+'mask1':('Comic mask MET DP100625.jpg','artifact','Ancient comic theatre mask','CC0',MET,'3:4',True),
+'mask2':('Terracotta comic mask MET DP101365.jpg','artifact','Terracotta comic theatre mask','CC0',MET,'3:4',True),
+'riot':('Pompeian mural depicting the Amphitheatre riots.jpg','painting','Pompeian fresco of the amphitheatre riot of AD 59','Public domain','Naples Archaeological Museum','3:4',False),
+'regina':('Reginas-Tombstone-a-relief-portrait-with-inscriptions-in-Latin-and-Palmyrene-Copyright.jpg','inscription','Tombstone of Regina, South Shields, with Latin and Palmyrene text','CC BY 4.0','Wikimedia Commons (CC BY 4.0)','2:3',False),
+'abbondanza':('Pompeii Via dell\' Abbondanza 01.jpg','building','Via dell\'Abbondanza, Pompeii','CC BY-SA 4.0','Wikimedia Commons (CC BY-SA 4.0)','3:4',False),
+'plautus':('Plautus, Mostellaria, Vaticanus Palatinus lat. 1615.jpg','manuscript','Manuscript page of Plautus, Vatican Pal. lat. 1615','Public domain','Biblioteca Apostolica Vaticana','3:4',False),
+'basilica':('Basilica, Pompeii 01.jpg','building','The Basilica at Pompeii','CC BY-SA 4.0','Wikimedia Commons (CC BY-SA 4.0)','4:3',False),
+'couple':('MANNapoli 9058 couple painting.jpg','painting','Pompeian portrait of a couple (Terentius Neo and his wife)','CC0','Naples Archaeological Museum','3:4',False),
+'fullonica':('Fullonica of Stephanus (Pompeii) (48443555206).jpg','building','Fullonica (laundry) of Stephanus, Pompeii','Public domain','Wikimedia Commons','4:3',False),
+'martialgem':('Martial, engraved from an ancient gem (cropped).jpg','painting','Engraving of Martial after an ancient gem (identification traditional)','Public domain','Wikimedia Commons','3:4',False),
+'terence':('Terence Andria 1.1 Vat3868f4v.jpg','manuscript','Illustrated Terence manuscript (Vat. lat. 3868), Andria 1.1','Public domain','Biblioteca Apostolica Vaticana','4:3',False),
+'facilis':('RIB 200.jpg','inscription','Tombstone of the centurion Marcus Favonius Facilis, Colchester','CC BY-SA 4.0','Wikimedia Commons (CC BY-SA 4.0)','2:3',False),
+'flavinus':('Bruce Page107 Flavinus.jpg','inscription','Engraving of the tombstone of Flavinus, Hexham (Bruce, 1875)','Public domain','J. Collingwood Bruce, Lapidarium Septentrionale','2:3',False),
+'caesarberlin':('Portrait bust of Julius Caesar (Berlin Ant Sk 342) 02.jpg','statue_cutout','Green-stone portrait of Julius Caesar, Berlin','CC BY 4.0','Wikimedia Commons (CC BY 4.0)','2:3',True),
+})

@@ -1,6 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Lingua · Latin cards from Rome & the medieval West</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><meta property="og:title" content="Lingua · Latin cards"><meta property="og:description" content="Learn Latin through real quotes from Rome and the medieval West."><meta property="og:image" content="https://nmpy7knjd8-code.github.io/latin-app/og.png"><meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="Learn Latin through real, source-checked quotes from Rome and the medieval West.">
 <style>
 :root{--ink:#2a2420}
@@ -195,7 +196,8 @@ function cur(){const r=deck.getBoundingClientRect(),mid=r.left+r.width/2;let bes
  curI=best;document.getElementById("count").textContent=`${best+1} / ${VIS().length}`;dots.querySelectorAll("button").forEach((b,i)=>b.setAttribute("aria-current",i===best))}
 deck.addEventListener("scroll",cur,{passive:true});
 let showDrafts=/[?&]draft=1/.test(location.search);
-const isDraft=c=>{const im=c.image||{};const l=String(im.license||"")+String(c.attribution_confidence||"");return !im.src||im.uncut||/verify|likely|pending|varies/i.test(l)};
+const repoPath=src=>/^(https?:|data:)/.test(src)?null:(src.startsWith("../")?src.slice(3):"cards/"+src);
+const isDraft=c=>{const im=c.image||{};const rp=im.src&&repoPath(im.src);if(rp&&window.MANIFEST&&!window.MANIFEST.has(rp))return true;const l=String(im.license||"")+String(c.attribution_confidence||"");return !im.src||im.uncut||/verify|likely|pending|varies/i.test(l)};
 const VIS=()=>CARDS.filter(c=>showDrafts||!c._draft);
 function go(d){const n=VIS().length;let i=Math.max(0,Math.min(n-1,curI+d));const el=document.getElementById("card-"+i);if(el)el.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"})}
 let curI=0;
@@ -217,7 +219,8 @@ async function loadAll(){
   try{const r=await fetch("../content/"+f+".json");if(!r.ok)continue;
    for(const c of await r.json()){if(!seen.has(c.id)){seen.add(c.id);const im=c.image;if(im&&im.src&&!/^(https?:|data:|TODO:|\.\.?\/|\/)/.test(im.src))im.src="../"+(im.src.startsWith("assets/")?"":"content/")+im.src;extra.push(c)}}}catch(e){console.warn(f,e)}}
  try{const r=await fetch("../content/phonetics.json");if(r.ok)window.PHONETICS=Object.assign({},window.PHONETICS||{},await r.json());}catch(e){}
- for(const a of ["../content/audio-map.json","../audio/audio-map.json"]){try{const r=await fetch(a);if(r.ok){window.AUDIO=await r.json();break}}catch(e){}}
+ for(const a of ["../audio/audio-map.json"]){try{const r=await fetch(a);if(r.ok){window.AUDIO=await r.json();break}}catch(e){}}
+ try{const r=await fetch("manifest.json");if(r.ok)window.MANIFEST=new Set(await r.json());}catch(e){}
  window.CARDS=CARDS.concat(extra).map(norm).map(c=>(c._draft=isDraft(c),c));
 }
 document.getElementById("deck").innerHTML='<p style="margin:auto;color:#5a5048">Loading cards…</p>';

@@ -4,6 +4,7 @@ Conventions follow the Liber Usualis-style 'Italian' pronunciation: c/cc before 
 g before front vowel = j; gn = ny; sc before front vowel = sh; ti + vowel (not after s,t,x) = tsee;
 ae/oe = eh; h silent (mihi, nihil = MEE-kee, NEE-keel); v = v; consonantal i = y; ph = f; th = t; ch = k;
 vowel length not distinguished (a ah, e eh, i ee, o oh, u oo). Stress as classical (penult rule), from phonetics.py.
+Intervocalic s is unvoiced (Liber Usualis preference; some Italian usage voices it, e.g. YEH-zoos). Vowel length is not distinguished, as in Italianate practice (UI legend should say so). cui/huic = KOO-ee / OO-eek.
 Simplifications: x is always ks (no 'egz'); no regional (German/French) variants.
 Usage: python3 phonetics_eccl.py --build  -> content/phonetics-eccl.json"""
 import json,os,re,sys
@@ -13,7 +14,9 @@ FRONT={'ɛ','eː','ɪ','iː','ʏ','yː','ae̯','oe̯'}
 V={'a':'ah','aː':'ah','ɛ':'eh','eː':'eh','ɪ':'ee','iː':'ee','ɔ':'oh','oː':'oh','ʊ':'oo','uː':'oo','ʏ':'ee','yː':'ee',
    'ae̯':'eh','oe̯':'eh','au̯':'ow','ei̯':'ay','eu̯':'eh-oo','ui̯':'wee'}
 C={'k':'k','g':'g','w':'v','j':'y','pʰ':'f','tʰ':'t','kʰ':'k','kʷ':'kw','gʷ':'gw','ŋ':'n','dz':'dz'}
+SPECIAL={'cui':'KOO-ee','huic':'OO-eek','cuique':'koo-EE-kweh'}
 def word(w):
+    if w.lower() in SPECIAL: return SPECIAL[w.lower()]
     seg=P.segment(w)
     if not seg: return None
     syl=P.syllabify(seg)
@@ -45,9 +48,10 @@ def build():
     for f in ('medieval-cards.json','rome-cards.json'):
         for c in json.load(open(os.path.join(base,f))):
             if c.get('register')=='ecclesiastical':
+                if not any(ch in c['latin'] for ch in 'āēīōūȳ'): print('WARN no macrons, stress unreliable:',c['id'],file=sys.stderr)
                 out[c['id']]={'respelling_eccl':transcribe(c['latin']),'latin':c['latin'],'system':'italianate-ecclesiastical','src':f}
     json.dump(out,open(os.path.join(base,'phonetics-eccl.json'),'w'),ensure_ascii=False,indent=1); print(len(out)-1,'entries')
-TESTS={'caelīs':'CHEH-lees','gēns':'jehns','agnus':'AH-nyoos','Deī':'DEH-ee','mihi':'MEE-kee','glōria':'GLOH-ree-ah','grātia':'GRAH-tsee-ah','scientia':'shee-EHN-tsee-ah','ecce':'EHT-cheh','excelsīs':'ehk-SHEHL-sees'}
+TESTS={'caelīs':'CHEH-lees','gēns':'jehns','agnus':'AH-nyoos','Deī':'DEH-ee','mihi':'MEE-kee','glōria':'GLOH-ree-ah','grātia':'GRAH-tsee-ah','scientia':'shee-EHN-tsee-ah','ecce':'EHT-cheh','excelsīs':'ehk-SHEHL-sees','cui':'KOO-ee','huic':'OO-eek'}
 if __name__=='__main__':
     if sys.argv[1:]==['--test']:
         for w,e in TESTS.items(): g=word(w); print('PASS' if g.lower()==e.lower() else 'FAIL',w,g,e)

@@ -29,3 +29,7 @@
   - Sutton Hoo drawing is now credited to A. T. Chester / OS 1966 as a modern reconstruction.
   - Bede and Alcuin are now register medieval; Augustine is ecclesiastical.
 - Run order: medieval_variety.py → medieval_review2.py → medieval_dcc.py → phonetics.py --build → phonetics_eccl.py --build.
+
+## v5 (review-medieval-3)
+- John 1:5 now reads "did not comprehend it". In the Gesta card, galea is glossed "galley (medieval; classical = helmet)", and diceris is confirmed against the Latin Library. The colophon was checked word for word against Bibale 18684, so the singular nāvigantī and "sed tōtum corpus" stay, with a note that the formula varies. The Archpoet translation now uses the substantive morientis. The Paris image has a "Bologna, not Paris" caption.
+- phonetics_eccl.py: cui/huic = KOO-ee/OO-eek. The build warns when a card has no macrons. The script now documents unvoiced intervocalic s and that vowel length is not marked. Run medieval_review3.py after medieval_review2.py.

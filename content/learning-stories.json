@@ -11,7 +11,7 @@
    "Lupa in Palātiō est.",
    "Lupa nōn mala est; lupa bona est."
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-urbs",
    "v-via",
@@ -19,6 +19,202 @@
    "g-1decl-nom",
    "i-spqr",
    "x-map-roma"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "Rōma",
+    "lemma": "Rōma",
+    "meaning": "Rome",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 0,
+    "word": "urbs",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 0,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 1,
+    "word": "Urbs",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 1,
+    "word": "magna",
+    "lemma": "magnus",
+    "meaning": "great, big",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 1,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 2,
+    "word": "In",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 2,
+    "word": "urbe",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "abl. sg. f."
+   },
+   {
+    "line": 2,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 2,
+    "word": "via",
+    "lemma": "via",
+    "meaning": "road",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 2,
+    "word": "longa",
+    "lemma": "longus",
+    "meaning": "long",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 3,
+    "word": "Via",
+    "lemma": "via",
+    "meaning": "road",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 3,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 3,
+    "word": "Via",
+    "lemma": "via",
+    "meaning": "road",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 3,
+    "word": "Appia",
+    "lemma": "Appius",
+    "meaning": "Appian",
+    "parse": "nom. sg. f. adj."
+   },
+   {
+    "line": 4,
+    "word": "Lupa",
+    "lemma": "lupa",
+    "meaning": "she-wolf",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 4,
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 4,
+    "word": "Palātiō",
+    "lemma": "Palātium",
+    "meaning": "the Palatine",
+    "parse": "abl. sg. n."
+   },
+   {
+    "line": 4,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 5,
+    "word": "Lupa",
+    "lemma": "lupa",
+    "meaning": "she-wolf",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "line": 5,
+    "word": "mala",
+    "lemma": "malus",
+    "meaning": "bad",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 5,
+    "word": "lupa",
+    "lemma": "lupa",
+    "meaning": "she-wolf",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "bona",
+    "lemma": "bonus",
+    "meaning": "good",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "vocab_ids": [
+   "bonus",
+   "in",
+   "longus",
+   "lupa",
+   "magnus",
+   "malus",
+   "non",
+   "sum",
+   "urbs",
+   "via"
   ]
  },
  {
@@ -33,7 +229,7 @@
    "Cornēlia fīliōs vocat.",
    "'Haec ornāmenta sunt mea,' Cornēlia dīcit."
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-pater",
    "v-filius",
@@ -41,6 +237,190 @@
    "g-2decl",
    "d-familia",
    "l-bulla"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "Cornēlia",
+    "lemma": "Cornēlia",
+    "meaning": "Cornelia",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 0,
+    "word": "māter",
+    "lemma": "māter",
+    "meaning": "mother",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 0,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 1,
+    "word": "Gracchī",
+    "lemma": "Gracchus",
+    "meaning": "the Gracchi",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 1,
+    "word": "fīliī",
+    "lemma": "fīlius",
+    "meaning": "sons",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 1,
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 2,
+    "word": "Pater",
+    "lemma": "pater",
+    "meaning": "father",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 2,
+    "word": "fīliōs",
+    "lemma": "fīlius",
+    "meaning": "sons",
+    "parse": "acc. pl. m."
+   },
+   {
+    "line": 2,
+    "word": "amat",
+    "lemma": "amō",
+    "meaning": "loves",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 2,
+    "word": "māter",
+    "lemma": "māter",
+    "meaning": "mother",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 2,
+    "word": "fīliōs",
+    "lemma": "fīlius",
+    "meaning": "sons",
+    "parse": "acc. pl. m."
+   },
+   {
+    "line": 2,
+    "word": "amat",
+    "lemma": "amō",
+    "meaning": "loves",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 3,
+    "word": "Fēmina",
+    "lemma": "fēmina",
+    "meaning": "woman",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 3,
+    "word": "ornāmenta",
+    "lemma": "ornāmentum",
+    "meaning": "jewels",
+    "parse": "acc./nom. pl. n."
+   },
+   {
+    "line": 3,
+    "word": "habet",
+    "lemma": "habeō",
+    "meaning": "has",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 4,
+    "word": "Cornēlia",
+    "lemma": "Cornēlia",
+    "meaning": "Cornelia",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 4,
+    "word": "fīliōs",
+    "lemma": "fīlius",
+    "meaning": "sons",
+    "parse": "acc. pl. m."
+   },
+   {
+    "line": 4,
+    "word": "vocat",
+    "lemma": "vocō",
+    "meaning": "calls",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 5,
+    "word": "Haec",
+    "lemma": "hic",
+    "meaning": "these",
+    "parse": "nom. pl. n."
+   },
+   {
+    "line": 5,
+    "word": "ornāmenta",
+    "lemma": "ornāmentum",
+    "meaning": "jewels",
+    "parse": "acc./nom. pl. n."
+   },
+   {
+    "line": 5,
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 5,
+    "word": "mea",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "nom. pl. n."
+   },
+   {
+    "line": 5,
+    "word": "Cornēlia",
+    "lemma": "Cornēlia",
+    "meaning": "Cornelia",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "dīcit",
+    "lemma": "dīcō",
+    "meaning": "says",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "vocab_ids": [
+   "amo",
+   "dico",
+   "femina",
+   "filius",
+   "habeo",
+   "hic",
+   "mater",
+   "meus",
+   "ornamentum",
+   "pater",
+   "sum",
+   "voco"
   ]
  },
  {
@@ -55,7 +435,7 @@
    "Mīlitēs pīla portant.",
    "Legiō pugnat et superat."
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-miles",
    "v-castra",
@@ -63,6 +443,172 @@
    "g-2conj",
    "l-pila",
    "x-parse-signum"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "Mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom./acc. pl. m."
+   },
+   {
+    "line": 0,
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 0,
+    "word": "castrīs",
+    "lemma": "castra",
+    "meaning": "camp",
+    "parse": "abl. pl. n."
+   },
+   {
+    "line": 0,
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 1,
+    "word": "Centuriō",
+    "lemma": "centuriō",
+    "meaning": "centurion",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 1,
+    "word": "mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom./acc. pl. m."
+   },
+   {
+    "line": 1,
+    "word": "videt",
+    "lemma": "videō",
+    "meaning": "sees",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 2,
+    "word": "Mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom./acc. pl. m."
+   },
+   {
+    "line": 2,
+    "word": "ambulant",
+    "lemma": "ambulō",
+    "meaning": "march",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 2,
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "line": 2,
+    "word": "labōrant",
+    "lemma": "labōrō",
+    "meaning": "work",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 3,
+    "word": "Centuriō",
+    "lemma": "centuriō",
+    "meaning": "centurion",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom./acc. pl. m."
+   },
+   {
+    "line": 3,
+    "word": "monet",
+    "lemma": "moneō",
+    "meaning": "warns",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 4,
+    "word": "Mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom./acc. pl. m."
+   },
+   {
+    "line": 4,
+    "word": "pīla",
+    "lemma": "pīlum",
+    "meaning": "javelins",
+    "parse": "acc. pl. n."
+   },
+   {
+    "line": 4,
+    "word": "portant",
+    "lemma": "portō",
+    "meaning": "carry",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 5,
+    "word": "Legiō",
+    "lemma": "legiō",
+    "meaning": "legion",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "pugnat",
+    "lemma": "pugnō",
+    "meaning": "fights",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 5,
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "line": 5,
+    "word": "superat",
+    "lemma": "superō",
+    "meaning": "wins, overcomes",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "vocab_ids": [
+   "ambulo",
+   "castra",
+   "centurio",
+   "et",
+   "in",
+   "laboro",
+   "legio",
+   "miles",
+   "moneo",
+   "pilum",
+   "porto",
+   "pugno",
+   "sum",
+   "supero",
+   "video"
   ]
  },
  {
@@ -72,12 +618,13 @@
   "lines": [
    "Forum Rōmānōrum magnum est.",
    "Senātus in Cūriā est.",
+   "Sed Cicerō in templō Iovis Statōris dīcit.",
    "Cicerō senātōribus verba dat.",
    "Cōnsul bonus rem pūblicam servat.",
    "Catilīna est vir malus.",
    "Populus Cicerōnī grātiās agit."
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-res-publica",
    "v-senatus",
@@ -86,6 +633,256 @@
    "g-adj",
    "l-toga",
    "d-dico"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "Forum",
+    "lemma": "forum",
+    "meaning": "forum",
+    "parse": "nom. sg. n."
+   },
+   {
+    "line": 0,
+    "word": "Rōmānōrum",
+    "lemma": "Rōmānus",
+    "meaning": "of the Romans",
+    "parse": "gen. pl. m."
+   },
+   {
+    "line": 0,
+    "word": "magnum",
+    "lemma": "magnus",
+    "meaning": "great",
+    "parse": "nom. sg. n."
+   },
+   {
+    "line": 0,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 1,
+    "word": "Senātus",
+    "lemma": "senātus",
+    "meaning": "senate",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 1,
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 1,
+    "word": "Cūriā",
+    "lemma": "cūria",
+    "meaning": "senate house",
+    "parse": "abl. sg. f."
+   },
+   {
+    "line": 1,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 2,
+    "word": "Sed",
+    "lemma": "sed",
+    "meaning": "but",
+    "parse": "conj."
+   },
+   {
+    "line": 2,
+    "word": "Cicerō",
+    "lemma": "Cicerō",
+    "meaning": "Cicero",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 2,
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 2,
+    "word": "templō",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "abl. sg. n."
+   },
+   {
+    "line": 2,
+    "word": "Iovis",
+    "lemma": "Iuppiter",
+    "meaning": "of Jupiter",
+    "parse": "gen. sg. m."
+   },
+   {
+    "line": 2,
+    "word": "Statōris",
+    "lemma": "Stator",
+    "meaning": "the Stayer (cult title)",
+    "parse": "gen. sg. m."
+   },
+   {
+    "line": 2,
+    "word": "dīcit",
+    "lemma": "dīcō",
+    "meaning": "says",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 3,
+    "word": "Cicerō",
+    "lemma": "Cicerō",
+    "meaning": "Cicero",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "senātōribus",
+    "lemma": "senātor",
+    "meaning": "to the senators",
+    "parse": "dat. pl. m."
+   },
+   {
+    "line": 3,
+    "word": "verba",
+    "lemma": "verbum",
+    "meaning": "words",
+    "parse": "acc. pl. n."
+   },
+   {
+    "line": 3,
+    "word": "dat",
+    "lemma": "dō",
+    "meaning": "gives",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 4,
+    "word": "Cōnsul",
+    "lemma": "cōnsul",
+    "meaning": "consul",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 4,
+    "word": "bonus",
+    "lemma": "bonus",
+    "meaning": "good",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 4,
+    "word": "rem",
+    "lemma": "rēs",
+    "meaning": "thing",
+    "parse": "acc. sg. f."
+   },
+   {
+    "line": 4,
+    "word": "pūblicam",
+    "lemma": "pūblicus",
+    "meaning": "public",
+    "parse": "acc. sg. f."
+   },
+   {
+    "line": 4,
+    "word": "servat",
+    "lemma": "servō",
+    "meaning": "saves, keeps",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 5,
+    "word": "Catilīna",
+    "lemma": "Catilīna",
+    "meaning": "Catiline",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 5,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 5,
+    "word": "vir",
+    "lemma": "vir",
+    "meaning": "man",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 5,
+    "word": "malus",
+    "lemma": "malus",
+    "meaning": "bad",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 6,
+    "word": "Populus",
+    "lemma": "populus",
+    "meaning": "people",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 6,
+    "word": "Cicerōnī",
+    "lemma": "Cicerō",
+    "meaning": "to Cicero",
+    "parse": "dat. sg. m."
+   },
+   {
+    "line": 6,
+    "word": "grātiās",
+    "lemma": "grātia",
+    "meaning": "thanks",
+    "parse": "acc. pl. f. (grātiās agere = to thank)"
+   },
+   {
+    "line": 6,
+    "word": "agit",
+    "lemma": "agō",
+    "meaning": "does, gives (thanks)",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "vocab_ids": [
+   "ago",
+   "bonus",
+   "consul",
+   "curia",
+   "dico",
+   "do",
+   "forum",
+   "gratia",
+   "in",
+   "magnus",
+   "malus",
+   "populus",
+   "publicus",
+   "res",
+   "sed",
+   "senator",
+   "senatus",
+   "servo",
+   "sum",
+   "templum",
+   "verbum",
+   "vir"
   ]
  },
  {
@@ -97,16 +894,240 @@
    "Virginēs in templō sunt.",
    "Ignis in templō semper ārdet.",
    "Cum virginibus est sacerdōs.",
-   "Ex templō aqua nōn venit, sed ignis.",
+   "Virginēs aquam ex fonte portant.",
    "Sine igne Rōma nōn est tūta."
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-deus",
    "v-templum",
    "g-3decl",
    "g-abl-prep",
    "l-lares"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "In",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 0,
+    "word": "urbe",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "abl. sg. f."
+   },
+   {
+    "line": 0,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 0,
+    "word": "templum",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "nom. sg. n."
+   },
+   {
+    "line": 0,
+    "word": "Vestae",
+    "lemma": "Vesta",
+    "meaning": "of Vesta",
+    "parse": "gen. sg. f."
+   },
+   {
+    "line": 1,
+    "word": "Virginēs",
+    "lemma": "virgō",
+    "meaning": "maidens, Vestals",
+    "parse": "nom. pl. f."
+   },
+   {
+    "line": 1,
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 1,
+    "word": "templō",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "abl. sg. n."
+   },
+   {
+    "line": 1,
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 2,
+    "word": "Ignis",
+    "lemma": "ignis",
+    "meaning": "fire",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 2,
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 2,
+    "word": "templō",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "abl. sg. n."
+   },
+   {
+    "line": 2,
+    "word": "semper",
+    "lemma": "semper",
+    "meaning": "always",
+    "parse": "adv."
+   },
+   {
+    "line": 2,
+    "word": "ārdet",
+    "lemma": "ārdeō",
+    "meaning": "burns",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 3,
+    "word": "Cum",
+    "lemma": "cum",
+    "meaning": "with",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 3,
+    "word": "virginibus",
+    "lemma": "virgō",
+    "meaning": "maidens",
+    "parse": "abl. pl. f."
+   },
+   {
+    "line": 3,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 3,
+    "word": "sacerdōs",
+    "lemma": "sacerdōs",
+    "meaning": "priest(ess)",
+    "parse": "nom. sg."
+   },
+   {
+    "line": 4,
+    "word": "Virginēs",
+    "lemma": "virgō",
+    "meaning": "maidens, Vestals",
+    "parse": "nom. pl. f."
+   },
+   {
+    "line": 4,
+    "word": "aquam",
+    "lemma": "aqua",
+    "meaning": "water",
+    "parse": "acc. sg. f."
+   },
+   {
+    "line": 4,
+    "word": "ex",
+    "lemma": "ex",
+    "meaning": "out of",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 4,
+    "word": "fonte",
+    "lemma": "fōns",
+    "meaning": "spring",
+    "parse": "abl. sg. m."
+   },
+   {
+    "line": 4,
+    "word": "portant",
+    "lemma": "portō",
+    "meaning": "carry",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 5,
+    "word": "Sine",
+    "lemma": "sine",
+    "meaning": "without",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 5,
+    "word": "igne",
+    "lemma": "ignis",
+    "meaning": "fire",
+    "parse": "abl. sg. m."
+   },
+   {
+    "line": 5,
+    "word": "Rōma",
+    "lemma": "Rōma",
+    "meaning": "Rome",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "line": 5,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 5,
+    "word": "tūta",
+    "lemma": "tūtus",
+    "meaning": "safe",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "vocab_ids": [
+   "aqua",
+   "ardeo",
+   "cum",
+   "ex",
+   "fons",
+   "ignis",
+   "in",
+   "non",
+   "porto",
+   "sacerdos",
+   "semper",
+   "sine",
+   "sum",
+   "templum",
+   "tutus",
+   "urbs",
+   "virgo"
   ]
  },
  {
@@ -121,14 +1142,209 @@
    "Nummī nōmen eius portābant.",
    "Augustus dīcere poterat: 'Urbem marmoream relīquī.'"
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-imperator",
    "g-impf",
    "g-possum",
    "l-denarius",
    "x-timeline-emp"
-  ]
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "Rōmānī",
+    "lemma": "Rōmānus",
+    "meaning": "the Romans",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 0,
+    "word": "lateribus",
+    "lemma": "later",
+    "meaning": "bricks",
+    "parse": "abl. pl. m."
+   },
+   {
+    "line": 0,
+    "word": "aedificābant",
+    "lemma": "aedificō",
+    "meaning": "used to build",
+    "parse": "3rd pl. impf."
+   },
+   {
+    "line": 1,
+    "word": "Augustus",
+    "lemma": "Augustus",
+    "meaning": "Augustus",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 1,
+    "word": "templa",
+    "lemma": "templum",
+    "meaning": "temples",
+    "parse": "acc. pl. n."
+   },
+   {
+    "line": 1,
+    "word": "marmore",
+    "lemma": "marmor",
+    "meaning": "marble",
+    "parse": "abl. sg. n."
+   },
+   {
+    "line": 1,
+    "word": "aedificāvit",
+    "lemma": "aedificō",
+    "meaning": "built",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "line": 2,
+    "word": "Multa",
+    "lemma": "multus",
+    "meaning": "many",
+    "parse": "acc. pl. n."
+   },
+   {
+    "line": 2,
+    "word": "bella",
+    "lemma": "bellum",
+    "meaning": "wars",
+    "parse": "acc. pl. n."
+   },
+   {
+    "line": 2,
+    "word": "gessit",
+    "lemma": "gerō",
+    "meaning": "waged",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "line": 3,
+    "word": "Mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom./acc. pl. m."
+   },
+   {
+    "line": 3,
+    "word": "eum",
+    "lemma": "is",
+    "meaning": "him",
+    "parse": "acc. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "imperātōrem",
+    "lemma": "imperātor",
+    "meaning": "commander, emperor",
+    "parse": "acc. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "vocābant",
+    "lemma": "vocō",
+    "meaning": "used to call",
+    "parse": "3rd pl. impf."
+   },
+   {
+    "line": 4,
+    "word": "Nummī",
+    "lemma": "nummus",
+    "meaning": "coins",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 4,
+    "word": "nōmen",
+    "lemma": "nōmen",
+    "meaning": "name",
+    "parse": "acc. sg. n."
+   },
+   {
+    "line": 4,
+    "word": "eius",
+    "lemma": "is",
+    "meaning": "his",
+    "parse": "gen. sg."
+   },
+   {
+    "line": 4,
+    "word": "portābant",
+    "lemma": "portō",
+    "meaning": "used to carry",
+    "parse": "3rd pl. impf."
+   },
+   {
+    "line": 5,
+    "word": "Augustus",
+    "lemma": "Augustus",
+    "meaning": "Augustus",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 5,
+    "word": "dīcere",
+    "lemma": "dīcō",
+    "meaning": "to say",
+    "parse": "pres. inf."
+   },
+   {
+    "line": 5,
+    "word": "poterat",
+    "lemma": "possum",
+    "meaning": "was able",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 5,
+    "word": "Urbem",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "acc. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "marmoream",
+    "lemma": "marmoreus",
+    "meaning": "(of) marble",
+    "parse": "acc. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "relīquī",
+    "lemma": "relinquō",
+    "meaning": "I have left",
+    "parse": "1st sg. perf."
+   }
+  ],
+  "vocab_ids": [
+   "aedifico",
+   "bellum",
+   "dico",
+   "gero",
+   "imperator",
+   "is",
+   "later",
+   "marmor",
+   "marmoreus",
+   "miles",
+   "multus",
+   "nomen",
+   "nummus",
+   "porto",
+   "possum",
+   "relinquo",
+   "templum",
+   "urbs",
+   "voco"
+  ],
+  "grammar_preview": [
+   "eius/eum pronouns (taught Unit 7)"
+  ],
+  "attribution_note": "'Urbem marmoream relīquī' adapted from Suetonius, Aug. 28.3."
  },
  {
   "id": "story-u7",
@@ -142,11 +1358,195 @@
    "'Nōn omnis moriar.'",
    "Etiam nunc versūs eius legimus."
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-amo",
    "g-pronoun",
    "v-tempus"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "Horātius",
+    "lemma": "Horātius",
+    "meaning": "Horace",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "poēta",
+    "lemma": "poēta",
+    "meaning": "poet",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "erat",
+    "lemma": "sum",
+    "meaning": "was",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 1,
+    "word": "Carpe",
+    "lemma": "carpō",
+    "meaning": "pluck, seize",
+    "parse": "2nd sg. imper."
+   },
+   {
+    "line": 1,
+    "word": "diem",
+    "lemma": "diēs",
+    "meaning": "day",
+    "parse": "acc. sg. m."
+   },
+   {
+    "line": 1,
+    "word": "amīcae",
+    "lemma": "amīca",
+    "meaning": "to (his) friend",
+    "parse": "dat. sg. f."
+   },
+   {
+    "line": 1,
+    "word": "dīxit",
+    "lemma": "dīcō",
+    "meaning": "said",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "line": 2,
+    "word": "Crās",
+    "lemma": "crās",
+    "meaning": "tomorrow",
+    "parse": "adv."
+   },
+   {
+    "line": 2,
+    "word": "fortasse",
+    "lemma": "fortasse",
+    "meaning": "perhaps",
+    "parse": "adv."
+   },
+   {
+    "line": 2,
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "line": 2,
+    "word": "erō",
+    "lemma": "sum",
+    "meaning": "I shall be",
+    "parse": "1st sg. fut."
+   },
+   {
+    "line": 3,
+    "word": "Sed",
+    "lemma": "sed",
+    "meaning": "but",
+    "parse": "conj."
+   },
+   {
+    "line": 3,
+    "word": "versūs",
+    "lemma": "versus",
+    "meaning": "verses",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 3,
+    "word": "meī",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 3,
+    "word": "manēbunt",
+    "lemma": "maneō",
+    "meaning": "will remain",
+    "parse": "3rd pl. fut."
+   },
+   {
+    "line": 4,
+    "word": "Nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "line": 4,
+    "word": "omnis",
+    "lemma": "omnis",
+    "meaning": "wholly, all",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 4,
+    "word": "moriar",
+    "lemma": "morior",
+    "meaning": "I shall die",
+    "parse": "1st sg. fut. (deponent)"
+   },
+   {
+    "line": 5,
+    "word": "Etiam",
+    "lemma": "etiam",
+    "meaning": "even, also",
+    "parse": "adv."
+   },
+   {
+    "line": 5,
+    "word": "nunc",
+    "lemma": "nunc",
+    "meaning": "now",
+    "parse": "adv."
+   },
+   {
+    "line": 5,
+    "word": "versūs",
+    "lemma": "versus",
+    "meaning": "verses",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 5,
+    "word": "eius",
+    "lemma": "is",
+    "meaning": "his",
+    "parse": "gen. sg."
+   },
+   {
+    "line": 5,
+    "word": "legimus",
+    "lemma": "legō",
+    "meaning": "we read",
+    "parse": "1st pl. pres."
+   }
+  ],
+  "vocab_ids": [
+   "amica",
+   "carpo",
+   "cras",
+   "dico",
+   "dies",
+   "etiam",
+   "fortasse",
+   "is",
+   "lego",
+   "maneo",
+   "meus",
+   "morior",
+   "non",
+   "nunc",
+   "omnis",
+   "poeta",
+   "sed",
+   "sum",
+   "versus"
   ]
  },
  {
@@ -161,13 +1561,179 @@
    "Vīvere est discere.",
    "Nōs quoque discere possumus."
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-animus",
    "g-ind-stat",
    "d-video",
    "x-greek-flag",
    "l-schola"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "Seneca",
+    "lemma": "Seneca",
+    "meaning": "Seneca",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "philosophus",
+    "lemma": "philosophus",
+    "meaning": "philosopher",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "erat",
+    "lemma": "sum",
+    "meaning": "was",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 1,
+    "word": "Lūcīliō",
+    "lemma": "Lūcīlius",
+    "meaning": "to Lucilius",
+    "parse": "dat. sg. m."
+   },
+   {
+    "line": 1,
+    "word": "epistulās",
+    "lemma": "epistula",
+    "meaning": "letters",
+    "parse": "acc. pl. f."
+   },
+   {
+    "line": 1,
+    "word": "scrībēbat",
+    "lemma": "scrībō",
+    "meaning": "used to write",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 2,
+    "word": "Dīcit",
+    "lemma": "dīcō",
+    "meaning": "says",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 2,
+    "word": "vītam",
+    "lemma": "vīta",
+    "meaning": "life",
+    "parse": "acc. sg. f."
+   },
+   {
+    "line": 2,
+    "word": "esse",
+    "lemma": "sum",
+    "meaning": "to be",
+    "parse": "pres. inf."
+   },
+   {
+    "line": 2,
+    "word": "mīlitiam",
+    "lemma": "mīlitia",
+    "meaning": "military service",
+    "parse": "acc. sg. f."
+   },
+   {
+    "line": 3,
+    "word": "Animus",
+    "lemma": "animus",
+    "meaning": "mind, spirit",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "fortis",
+    "lemma": "fortis",
+    "meaning": "brave, strong",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "esse",
+    "lemma": "sum",
+    "meaning": "to be",
+    "parse": "pres. inf."
+   },
+   {
+    "line": 3,
+    "word": "dēbet",
+    "lemma": "dēbeō",
+    "meaning": "ought",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 4,
+    "word": "Vīvere",
+    "lemma": "vīvō",
+    "meaning": "to live",
+    "parse": "pres. inf."
+   },
+   {
+    "line": 4,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 4,
+    "word": "discere",
+    "lemma": "discō",
+    "meaning": "to learn",
+    "parse": "pres. inf."
+   },
+   {
+    "line": 5,
+    "word": "Nōs",
+    "lemma": "nōs",
+    "meaning": "we",
+    "parse": "nom. pl."
+   },
+   {
+    "line": 5,
+    "word": "quoque",
+    "lemma": "quoque",
+    "meaning": "also",
+    "parse": "adv."
+   },
+   {
+    "line": 5,
+    "word": "discere",
+    "lemma": "discō",
+    "meaning": "to learn",
+    "parse": "pres. inf."
+   },
+   {
+    "line": 5,
+    "word": "possumus",
+    "lemma": "possum",
+    "meaning": "we can",
+    "parse": "1st pl. pres."
+   }
+  ],
+  "vocab_ids": [
+   "animus",
+   "debeo",
+   "dico",
+   "disco",
+   "epistula",
+   "fortis",
+   "militia",
+   "nos",
+   "philosophus",
+   "possum",
+   "quoque",
+   "scribo",
+   "sum",
+   "vita",
+   "vivo"
   ]
  },
  {
@@ -182,12 +1748,211 @@
    "In librō Cīvitās Deī laudātur.",
    "Urbs terrēna cadit; verba manent."
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "g-passive",
    "v-rex",
    "d-crux",
    "l-annona"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "Annō",
+    "lemma": "annus",
+    "meaning": "in the year",
+    "parse": "abl. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "quadringentēsimō",
+    "lemma": "quadringentēsimus",
+    "meaning": "four hundredth",
+    "parse": "abl. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "decimō",
+    "lemma": "decimus",
+    "meaning": "tenth",
+    "parse": "abl. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "Gothī",
+    "lemma": "Gothus",
+    "meaning": "the Goths",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 0,
+    "word": "vēnērunt",
+    "lemma": "veniō",
+    "meaning": "came",
+    "parse": "3rd pl. perf."
+   },
+   {
+    "line": 1,
+    "word": "Rōma",
+    "lemma": "Rōma",
+    "meaning": "Rome",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 1,
+    "word": "capta",
+    "lemma": "capiō",
+    "meaning": "captured",
+    "parse": "perf. pass. part. nom. sg. f. (capta est = was captured)"
+   },
+   {
+    "line": 1,
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 2,
+    "word": "Multī",
+    "lemma": "multus",
+    "meaning": "many",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 2,
+    "word": "cīvēs",
+    "lemma": "cīvis",
+    "meaning": "citizens",
+    "parse": "nom. pl. m."
+   },
+   {
+    "line": 2,
+    "word": "territī",
+    "lemma": "terreō",
+    "meaning": "frightened",
+    "parse": "perf. pass. part. nom. pl. m."
+   },
+   {
+    "line": 2,
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "line": 3,
+    "word": "Augustīnus",
+    "lemma": "Augustīnus",
+    "meaning": "Augustine",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "librum",
+    "lemma": "liber",
+    "meaning": "book",
+    "parse": "acc. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "scrīpsit",
+    "lemma": "scrībō",
+    "meaning": "wrote",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "line": 4,
+    "word": "In",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 4,
+    "word": "librō",
+    "lemma": "liber",
+    "meaning": "book",
+    "parse": "abl. sg. m."
+   },
+   {
+    "line": 4,
+    "word": "Cīvitās",
+    "lemma": "cīvitās",
+    "meaning": "city, state",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 4,
+    "word": "Deī",
+    "lemma": "deus",
+    "meaning": "of God",
+    "parse": "gen. sg. m."
+   },
+   {
+    "line": 4,
+    "word": "laudātur",
+    "lemma": "laudō",
+    "meaning": "is praised",
+    "parse": "3rd sg. pres. pass."
+   },
+   {
+    "line": 5,
+    "word": "Urbs",
+    "lemma": "urbs",
+    "meaning": "city",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "terrēna",
+    "lemma": "terrēnus",
+    "meaning": "earthly",
+    "parse": "nom. sg. f."
+   },
+   {
+    "line": 5,
+    "word": "cadit",
+    "lemma": "cadō",
+    "meaning": "falls",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "line": 5,
+    "word": "verba",
+    "lemma": "verbum",
+    "meaning": "words",
+    "parse": "acc. pl. n."
+   },
+   {
+    "line": 5,
+    "word": "manent",
+    "lemma": "maneō",
+    "meaning": "remain",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "vocab_ids": [
+   "annus",
+   "cado",
+   "capio",
+   "civis",
+   "civitas",
+   "decimus",
+   "deus",
+   "in",
+   "laudo",
+   "liber",
+   "maneo",
+   "multus",
+   "quadringentesimus",
+   "scribo",
+   "sum",
+   "terrenus",
+   "terreo",
+   "urbs",
+   "venio",
+   "verbum"
   ]
  },
  {
@@ -198,17 +1963,250 @@
    "In monastēriō erat monachus quī librōs scrībēbat.",
    "Liber quem scrībēbat erat Ēvangelium.",
    "Manūs eius frīgidae erant.",
-   "Abbās, quī eum vidēbat, laudāvit.",
+   "Abbās, quī monachum vidēbat, eum laudāvit.",
    "Tandem monachus scrīpsit: 'Explicit liber.'",
    "'Ōrāte prō scrīptōre!'"
   ],
-  "status": "constructed micro-story (Ørberg-style); needs reviewer Latin check + glosses",
+  "status": "constructed micro-story (Ørberg-style); glossed; Latin to be reviewed",
   "drills": [
    "v-liber",
    "l-monasterium",
    "x-colophon",
    "x-map-medieval",
    "d-scribo"
+  ],
+  "gloss": [
+   {
+    "line": 0,
+    "word": "In",
+    "lemma": "in",
+    "meaning": "in, on",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 0,
+    "word": "monastēriō",
+    "lemma": "monastērium",
+    "meaning": "monastery",
+    "parse": "abl. sg. n."
+   },
+   {
+    "line": 0,
+    "word": "erat",
+    "lemma": "sum",
+    "meaning": "was",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 0,
+    "word": "monachus",
+    "lemma": "monachus",
+    "meaning": "monk",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "who",
+    "parse": "rel. pron. nom. sg. m."
+   },
+   {
+    "line": 0,
+    "word": "librōs",
+    "lemma": "liber",
+    "meaning": "books",
+    "parse": "acc. pl. m."
+   },
+   {
+    "line": 0,
+    "word": "scrībēbat",
+    "lemma": "scrībō",
+    "meaning": "used to write",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 1,
+    "word": "Liber",
+    "lemma": "liber",
+    "meaning": "book",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 1,
+    "word": "quem",
+    "lemma": "quī",
+    "meaning": "which",
+    "parse": "rel. pron. acc. sg. m."
+   },
+   {
+    "line": 1,
+    "word": "scrībēbat",
+    "lemma": "scrībō",
+    "meaning": "used to write",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 1,
+    "word": "erat",
+    "lemma": "sum",
+    "meaning": "was",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 1,
+    "word": "Ēvangelium",
+    "lemma": "ēvangelium",
+    "meaning": "Gospel",
+    "parse": "nom. sg. n."
+   },
+   {
+    "line": 2,
+    "word": "Manūs",
+    "lemma": "manus",
+    "meaning": "hands",
+    "parse": "nom. pl. f."
+   },
+   {
+    "line": 2,
+    "word": "eius",
+    "lemma": "is",
+    "meaning": "his",
+    "parse": "gen. sg."
+   },
+   {
+    "line": 2,
+    "word": "frīgidae",
+    "lemma": "frīgidus",
+    "meaning": "cold",
+    "parse": "nom. pl. f."
+   },
+   {
+    "line": 2,
+    "word": "erant",
+    "lemma": "sum",
+    "meaning": "were",
+    "parse": "3rd pl. impf."
+   },
+   {
+    "line": 3,
+    "word": "Abbās",
+    "lemma": "abbās",
+    "meaning": "abbot",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "who",
+    "parse": "rel. pron. nom. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "monachum",
+    "lemma": "monachus",
+    "meaning": "monk",
+    "parse": "acc. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "vidēbat",
+    "lemma": "videō",
+    "meaning": "was watching",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "line": 3,
+    "word": "eum",
+    "lemma": "is",
+    "meaning": "him",
+    "parse": "acc. sg. m."
+   },
+   {
+    "line": 3,
+    "word": "laudāvit",
+    "lemma": "laudō",
+    "meaning": "praised",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "line": 4,
+    "word": "Tandem",
+    "lemma": "tandem",
+    "meaning": "at last",
+    "parse": "adv."
+   },
+   {
+    "line": 4,
+    "word": "monachus",
+    "lemma": "monachus",
+    "meaning": "monk",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 4,
+    "word": "scrīpsit",
+    "lemma": "scrībō",
+    "meaning": "wrote",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "line": 4,
+    "word": "Explicit",
+    "lemma": "explicit",
+    "meaning": "(here) ends",
+    "parse": "medieval formula"
+   },
+   {
+    "line": 4,
+    "word": "liber",
+    "lemma": "liber",
+    "meaning": "book",
+    "parse": "nom. sg. m."
+   },
+   {
+    "line": 5,
+    "word": "Ōrāte",
+    "lemma": "ōrō",
+    "meaning": "pray",
+    "parse": "2nd pl. imper."
+   },
+   {
+    "line": 5,
+    "word": "prō",
+    "lemma": "prō",
+    "meaning": "for",
+    "parse": "prep. + abl."
+   },
+   {
+    "line": 5,
+    "word": "scrīptōre",
+    "lemma": "scrīptor",
+    "meaning": "scribe",
+    "parse": "abl. sg. m."
+   }
+  ],
+  "vocab_ids": [
+   "abbas",
+   "evangelium",
+   "explicit",
+   "frigidus",
+   "in",
+   "is",
+   "laudo",
+   "liber",
+   "manus",
+   "monachus",
+   "monasterium",
+   "oro",
+   "pro",
+   "qui",
+   "scribo",
+   "scriptor",
+   "sum",
+   "tandem",
+   "video"
   ]
  }
 ]

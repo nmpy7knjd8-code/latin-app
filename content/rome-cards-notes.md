@@ -108,3 +108,36 @@ Results go to `img/rome/`.
 - **U3 (Legio) now has 0 cards**, because the review's grammar rules pushed its old cards later. It needs simple present-tense military Latin, such as tombstones of legionaries.
 - U1 has 2 cards and U2 has 3.
 - `img/rome/licences.json` only lists the last re-fetch. Every licence was checked through the API at download time.
+
+## Batch 3: Units 1–3 (13 Oct 2026, 1:40 AM ET)
+**Totals:** 64 cards. By unit: U1 6, U2 7, U3 8, U4 6, U5 11, U6 8, U7 10, U8 8. 30 are anchors. Lint and schema both pass.
+
+**16 new cards. Every target tag is grammar the card's unit has already taught; the rest are glossed previews.**
+- **U1 (City):**
+  - Ovid, Fasti 2.684: *Rōmānae spatium est urbis et orbis idem*
+  - Aeneid 1.7: *altae moenia Rōmae*
+  - Terence, Phormio 454: *Quot hominēs, tot sententiae*
+  - Pompeii graffito, CIL IV 8657: *Hīc sumus fēlīcēs*
+- **U2 (Family):**
+  - Regina's tombstone (RIB 1065)
+  - Graffiti: *Rōmula hīc cum Staphylō morātur* (CIL IV 2060) and *Admīror, ō pariēs* (CIL IV 1904)
+  - Plautus, Asinaria 495: *Lupus est homō hominī*
+- **U3 (Legion):**
+  - Tombstones: Favonius Facilis (RIB 200) and Flavinus (RIB 1172)
+  - Caesar, BG 1.1.3: *fortissimī sunt Belgae*
+  - Terence, Phormio 203: *Fortīs fortūna adiuvat*
+  - Terence, Heauton Timorumenos 77: *Homō sum*
+  - Martial 1.32: *Nōn amō tē, Sabidī*
+  - Graffiti: *Successus textor amat* (CIL IV 8259) and the Aeneid parody *Fullōnēs ululamque canō* (CIL IV 9131)
+
+**Sources checked:**
+- Graffiti texts and CIL numbers: Ancient Graffiti Project pages (AGP-EDR…), which are now reachable. Each card links to its AGP page as both `source_url` and `learn_more`.
+- Tombstones: RIB online, both edition and translation.
+- Literary lines: Latin Library.
+- Every new URL returned HTTP 200.
+
+**Macronizer:** the new lines went through Alatius. I adopted *līb(ertī)* and *stīp(endiōrum)*. I kept *idem* (neuter, short i), *hīc* (adverb), *Fortīs* (acc. pl.) and *Flāvīnus*.
+
+**Licences:** `rome_licences.py` re-queries Commons for every image. It writes `img/rome/LICENCES.md` and `licences.json`, covering 64 images with 0 mismatches. CC BY and CC BY-SA images need the credit shown.
+
+**Not done:** the Vindolanda tablets. vindolanda.csad.ox.ac.uk failed with a TLS error from the box and a 504 through the fetcher.

@@ -1,12 +1,12 @@
 # Learning cards (65)
 
-All quotes verified against online editions (Oct 13). Images: Commons file-page licences via API; 21 rembg cut-outs. Micro-stories in learning-stories.json.
+All quotes verified against online editions (Oct 13). Images: Commons file-page licences via API; 22 rembg cut-outs (visually checked). Micro-stories in learning-stories.json.
 
 | id | unit | subtype | Latin | English | DCC % | source | image licence | learn more |
 |---|---|---|---|---|---|---|---|---|
 | v-urbs | 1 | vocab | urbs, urbis f. | city | 100 | constructed | Public domain | [Rome (Wikipedia)](https://en.wikipedia.org/wiki/Rome) |
 | v-via | 1 | vocab | via, viae f. | road, way | 100 | constructed | CC BY-SA 4.0 | [Appian Way (Wikipedia)](https://en.wikipedia.org/wiki/Appian_Way) |
-| g-sum-est | 1 | grammar | Rōma urbs est. Via longa est. | Rome is a city. The road is long. | 100 | constructed | CC0 | [Capitoline Wolf (Wikipedia)](https://en.wikipedia.org/wiki/Capitoline_Wolf) |
+| g-sum-est | 1 | grammar | Rōma urbs est. Via longa est. | Rome is a city. The road is long. | 100 | constructed | CC BY-SA 4.0 | [Capitoline Wolf (Wikipedia)](https://en.wikipedia.org/wiki/Capitoline_Wolf) |
 | g-1decl-nom | 1 | grammar | Lupa, puella, rēgīna, Rōma | she-wolf, girl, queen, Rome | 33 | constructed | CC0 | [First declension (Wikipedia)](https://en.wikipedia.org/wiki/First_declension) |
 | i-spqr | 1 | inscription | S·P·Q·R — Senātus Populusque Rōmānus | The Senate and the Roman People | 100 | constructed | CC BY-SA 3.0 | [SPQR (Wikipedia)](https://en.wikipedia.org/wiki/SPQR) |
 | x-map-roma | 1 | mix:map | Septem montēs: Palātium, Capitōlium, Aventīnus… | The seven hills: Palatine, Capitoline, Aventine… | 50 | constructed | Public domain | [Seven hills of Rome (Wikipedia)](https://en.wikipedia.org/wiki/Seven_hills_of_Rome) |
@@ -21,7 +21,7 @@ All quotes verified against online editions (Oct 13). Images: Commons file-page 
 | v-castra | 3 | vocab | castra, -ōrum n. pl. | army camp | 0 | constructed | CC BY-SA 4.0 | [Castra (Wikipedia)](https://en.wikipedia.org/wiki/Castra) |
 | g-1conj | 3 | grammar | Mīlitēs ambulant. Legiō pugnat. | The soldiers march. The legion fights. | 75 | constructed | Public domain | [Latin conjugation (Wikipedia)](https://en.wikipedia.org/wiki/Latin_conjugation) |
 | g-2conj | 3 | grammar | Centuriō mīlitēs videt et monet. | The centurion sees and warns the soldiers. | 80 | constructed | CC BY-SA 2.0 | [Centurion (Wikipedia)](https://en.wikipedia.org/wiki/Centurion) |
-| i-vindolanda | 3 | inscription | … spērābō tē, soror. Valē, soror, anima mea … | … I shall expect you, sister. Farewell, sister, my dearest soul … | 100 | Tabulae Vindolandenses Tab. Vindol. II 291, lines 11–14 (verified against RIB Online TabVindol291) | CC BY-SA 3.0 | [Vindolanda tablets (Wikipedia)](https://en.wikipedia.org/wiki/Vindolanda_tablets) |
+| i-vindolanda | 3 | inscription | … spērābō tē, soror. Valē, soror, anima mea … | … I shall expect you, sister. Farewell, sister, my dearest soul … | 100 | Tabulae Vindolandenses Tab. Vindol. II 291, lines 11–14 (verified against RIB Online TabVindol291) | CC BY-SA 4.0 | [Vindolanda tablets (Wikipedia)](https://en.wikipedia.org/wiki/Vindolanda_tablets) |
 | l-pila | 3 | daily_life | pīlum, -ī n. | javelin | 0 | constructed | Public domain | [Pilum (Wikipedia)](https://en.wikipedia.org/wiki/Pilum) |
 | x-parse-signum | 3 | mix:parse | LEG XX V V | Twentieth Legion, Valeria Victrix | 33 | constructed | CC BY-SA 3.0 | [Legio XX Valeria Victrix (Wikipedia)](https://en.wikipedia.org/wiki/Legio_XX_Valeria_Victrix) |
 | v-res-publica | 4 | vocab | rēs pūblica, reī pūblicae f. | the state, commonwealth | 100 | constructed | Public domain | [Roman Republic (Wikipedia)](https://en.wikipedia.org/wiki/Roman_Republic) |
@@ -41,16 +41,16 @@ All quotes verified against online editions (Oct 13). Images: Commons file-page 
 | g-perf-rg | 6 | grammar | Bella terrā et marī cīvīlia externaque tōtō in orbe terrārum saepe gessī. | I often waged wars, civil and foreign, on land and sea throughout the whole world. | 83 | Res Gestae Divi Augusti 3.1 | CC BY-SA 2.0 | [Res Gestae Divi Augusti (Wikipedia)](https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti) |
 | g-impf | 6 | grammar | Rōmānī lateribus aedificābant; Augustus marmore aedificābat. | The Romans used to build with bricks; Augustus was building with marble. | 0 | constructed | CC BY-SA 4.0 | [Forum of Augustus (Wikipedia)](https://en.wikipedia.org/wiki/Forum_of_Augustus) |
 | g-possum | 6 | grammar | possum, potes, potest… + infinitive | I can, you can, s/he can | 100 | constructed | CC0 | [Latin grammar (Wikipedia)](https://en.wikipedia.org/wiki/Latin_grammar) |
-| i-coin-divi-f | 6 | coin | CAESAR DIVI F | Caesar, son of the deified (Julius) | 100 | Coin legend Octavian's denarius issues, c. 32–29 BC (legend CAESAR DIVI F); catalogue number (RIC I² Augustus) to be added from the imaged coin | CC BY-SA 2.5 | [Augustus (Wikipedia)](https://en.wikipedia.org/wiki/Augustus) |
+| i-coin-divi-f | 6 | coin | IMP·CAESAR·DIVI·F | Imperator Caesar, son of the deified (Julius) | 100 | Coin legend Denarius of Octavian, Crawford RRC 538/1 (c. 37 BC), obverse IMP·CAESAR·DIVI·F·III·VIR·ITER·R·P·C | CC BY 4.0 | [Augustus (Wikipedia)](https://en.wikipedia.org/wiki/Augustus) |
 | l-denarius | 6 | daily_life | dēnārius, as, sēstertius | denarius, as, sestertius (coins) | 0 | constructed | CC BY-SA 4.0 | [Denarius (Wikipedia)](https://en.wikipedia.org/wiki/Denarius) |
 | x-timeline-emp | 6 | mix:timeline | Augustus, Tiberius, Claudius, Nerō, Trāiānus, Hadriānus | emperors in order | None | constructed | CC BY-SA 4.0 | [List of Roman emperors (Wikipedia)](https://en.wikipedia.org/wiki/List_of_Roman_emperors) |
 | v-amo | 7 | vocab | amō, amāre, amāvī, amātum | love | 100 | constructed | CC BY-SA 3.0 | [Catullus (Wikipedia)](https://en.wikipedia.org/wiki/Catullus) |
 | g-imperative | 7 | grammar | Carpe diem, quam minimum crēdula posterō. | Pluck the day, trusting as little as possible in tomorrow. | 50 | Horace, Odes 1.11.8 | Public domain | [Carpe diem (Wikipedia)](https://en.wikipedia.org/wiki/Carpe_diem) |
 | g-future | 7 | grammar | Regam, regēs, reget… Nōn omnis moriar. | I shall rule, you will rule, s/he will rule… I shall not wholly die. | 100 | Horace, Odes 3.30.6 | Public domain | [Odes (Horace) (Wikipedia)](https://en.wikipedia.org/wiki/Odes_%28Horace%29) |
-| g-pronoun | 7 | grammar | Ego, tū; mē, tē; mihi, tibi | I, you; me, you; to me, to you | 100 | constructed | CC BY-SA 4.0 | [Latin grammar (Wikipedia)](https://en.wikipedia.org/wiki/Latin_grammar) |
-| v-tempus | 7 | vocab | tempus, temporis n. | time | 100 | constructed | CC BY-SA 3.0 | [Roman timekeeping (Wikipedia)](https://en.wikipedia.org/wiki/Roman_timekeeping) |
+| g-pronoun | 7 | grammar | Ego, tū; mē, tē; mihi, tibi | I, you; me, you; to me, to you | 100 | constructed | CC BY 2.0 | [Latin grammar (Wikipedia)](https://en.wikipedia.org/wiki/Latin_grammar) |
+| v-tempus | 7 | vocab | tempus, temporis n. | time | 100 | constructed | CC BY-SA 4.0 | [Roman timekeeping (Wikipedia)](https://en.wikipedia.org/wiki/Roman_timekeeping) |
 | x-meter | 7 | mix:listen | Arma virumque canō… | I sing of arms and the man… | 100 | Virgil, Aeneid 1.1 | Public domain | [Dactylic hexameter (Wikipedia)](https://en.wikipedia.org/wiki/Dactylic_hexameter) |
-| v-animus | 8 | vocab | animus, -ī m.; anima, -ae f. | mind, spirit; soul, breath | 100 | constructed | CC BY-SA 3.0 | [Seneca the Younger (Wikipedia)](https://en.wikipedia.org/wiki/Seneca_the_Younger) |
+| v-animus | 8 | vocab | animus, -ī m.; anima, -ae f. | mind, spirit; soul, breath | 100 | constructed | CC BY-SA 2.0 | [Seneca the Younger (Wikipedia)](https://en.wikipedia.org/wiki/Seneca_the_Younger) |
 | g-infinitive | 8 | grammar | Atquī vīvere, Lūcīlī, mīlitāre est. | And yet to live, Lucilius, is to serve as a soldier. | 50 | Seneca, Epistulae Morales 96.5 | Public domain | [Epistulae Morales ad Lucilium (Wikipedia)](https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium) |
 | g-ind-stat | 8 | grammar | Dīcunt Rōmulum urbem condidisse. | They say that Romulus founded the city. | 100 | constructed | CC0 | [Indirect speech (Wikipedia)](https://en.wikipedia.org/wiki/Indirect_speech) |
 | d-video | 8 | derivative | videō, vidēre, vīdī, vīsum → video, vision, evident, provide, visa | see | 100 | constructed | CC BY 2.0 | [Latin influence in English (Wikipedia)](https://en.wikipedia.org/wiki/Latin_influence_in_English) |

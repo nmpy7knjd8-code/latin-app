@@ -97,7 +97,8 @@ for c in C:
         im=dict(src=f'img/rome/{ik}.webp',alt=alt,kind=kind,aspect=asp,transparent=tr,license=lic,credit=cr,source_url='https://commons.wikimedia.org/wiki/File:'+f.replace(' ','_'))
         if not os.path.exists(os.path.join(HERE,im['src'])): errs.append(f"{c['id']}: image file missing {im['src']}")
     c['image']=im
-    c['learn_more']=dict(label=lml,url=WP+lmt)
+    url=('https://ancientgraffiti.org/Graffiti/graffito/'+lmt[4:]) if lmt.startswith('AGP:') else ('https://romaninscriptionsofbritain.org/inscriptions/'+lmt[4:]) if lmt.startswith('RIB:') else WP+lmt
+    c['learn_more']=dict(label=lml,url=url)
     for k in ('credit','source_url'):
         v=str(im.get(k,''))
         if 'see existing' in v or v.rstrip('/')=='https://commons.wikimedia.org': errs.append(f"{c['id']}: placeholder {k}")

@@ -1,0 +1,329 @@
+{
+ "q-caesar-veni": {
+  "file": "audio/veni-vidi-vici.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Veni,_Vidi,_Vici.wav",
+  "licence": "CC BY-SA 4.0",
+  "attribution": "Westofines27 / Wikimedia Commons",
+  "note": "style not stated by uploader; check by ear"
+ },
+ "q-caesar-gallia": {
+  "file": "audio/gallia-est-omnis-classical.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-de-bello-gallico.ogg (0:00-0:04.85)",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "Robert.Baruch / Wikimedia Commons",
+  "alternates": [
+   {
+    "file": "audio/gallia-est-omnis-librivox.mp3",
+    "style": "classical",
+    "source_url": "https://archive.org/download/bellum_gallicum_1210_librivox/bellumgallicum_01_caesar_64kb.mp3 (0:29.85-0:33.8)",
+    "licence": "Public domain (LibriVox, PD Mark 1.0)",
+    "attribution": "Read by Christoph Merlein for LibriVox"
+   }
+  ]
+ },
+ "q-memento-mori": {
+  "file": "audio/memento-mori-classical.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Memento_mori_la.wav",
+  "licence": "CC0",
+  "attribution": "SinaSabet28 / Wikimedia Commons"
+ },
+ "q-virgil-arma": {
+  "file": "audio/arma-virumque.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3 (0:55.0-1:01.5)",
+  "licence": "Public domain (LibriVox, PD Mark 1.0)",
+  "attribution": "Read by Malone for LibriVox",
+  "note": "covers \"Arma virumque cano, Troiae qui primus ab oris\" only"
+ },
+ "x-meter": {
+  "file": "audio/arma-virumque.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_01_maro_64kb.mp3 (0:55.0-1:01.5)",
+  "licence": "Public domain (LibriVox, PD Mark 1.0)",
+  "attribution": "Read by Malone for LibriVox",
+  "note": "covers \"Arma virumque cano, Troiae qui primus ab oris\" only"
+ },
+ "q-virgil-timeo": {
+  "file": "audio/timeo-danaos.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://archive.org/download/aeneidis_libri_xii_dm_librivox/aeneidis_03_maro_64kb.mp3 (5:31.7-5:37.65)",
+  "licence": "Public domain (LibriVox, PD Mark 1.0)",
+  "attribution": "Read by Malone for LibriVox"
+ },
+ "q-seneca-vindica": {
+  "file": "audio/seneca-vindica.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3 (0:58.5-1:02.9)",
+  "licence": "CC0 (LibriVox)",
+  "attribution": "Read by Malone for LibriVox"
+ },
+ "q-seneca-differtur": {
+  "file": "audio/seneca-differtur.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3 (2:29.6-2:33.5)",
+  "licence": "CC0 (LibriVox)",
+  "attribution": "Read by Malone for LibriVox"
+ },
+ "q-seneca-aliena": {
+  "file": "audio/seneca-aliena.mp3",
+  "style": "classical",
+  "pronunciation_style": "classical",
+  "source_url": "https://archive.org/download/epistulaemorales_1306/epistulae_01_seneca_64kb.mp3 (2:34.6-2:40.8)",
+  "licence": "CC0 (LibriVox)",
+  "attribution": "Read by Malone for LibriVox"
+ },
+ "q-ben-ausculta": {
+  "file": "audio/ausculta-o-fili.mp3",
+  "style": "ecclesiastical",
+  "pronunciation_style": "ecclesiastical",
+  "source_url": "https://archive.org/download/regula_sancti_benedicti_1512_librivox/regulasanctibenedicti_01_benedictofnursia_64kb.mp3 (0:30.4-0:36.6)",
+  "licence": "Public domain (LibriVox, PD Mark 1.0)",
+  "attribution": "Read by bedwere for LibriVox",
+  "note": "style inferred (Italianate ti->tsi)"
+ },
+ "q-aug-inquietum": {
+  "file": "audio/fecisti-nos.mp3",
+  "style": "ecclesiastical",
+  "pronunciation_style": "ecclesiastical",
+  "source_url": "https://archive.org/download/confessionsofaugustine_1310_librivox/confessionumlibritredecim_01_augustinus_64kb.mp3 (1:09.65-1:15.95)",
+  "licence": "Public domain (LibriVox, PD Mark 1.0)",
+  "attribution": "Read by bedwere for LibriVox",
+  "note": "style inferred"
+ },
+ "q-vulg-pater-noster": {
+  "file": "audio/pater-noster-ecclesiastical.mp3",
+  "style": "ecclesiastical",
+  "pronunciation_style": "ecclesiastical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pater-Noster.ogg (0:00-0:08.3)",
+  "licence": "CC0",
+  "attribution": "Dan Palraz / Wikimedia Commons"
+ },
+ "g-relative": {
+  "file": "audio/pater-noster-ecclesiastical.mp3",
+  "style": "ecclesiastical",
+  "pronunciation_style": "ecclesiastical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pater-Noster.ogg (0:00-0:08.3)",
+  "licence": "CC0",
+  "attribution": "Dan Palraz / Wikimedia Commons"
+ },
+ "q-dies-irae": {
+  "file": "audio/dies-irae-chant.mp3",
+  "style": "ecclesiastical",
+  "pronunciation_style": "ecclesiastical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Dies.irae.ogg (0:00.5-0:17.9)",
+  "licence": "Public domain (as tagged on Commons)",
+  "attribution": "Membeth / Wikimedia Commons",
+  "note": "sung Gregorian chant, not spoken"
+ },
+ "v-urbs": {
+  "word": "urbs",
+  "file": "audio/words/urbs.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-urbs.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical"
+ },
+ "v-via": {
+  "word": "via",
+  "file": "audio/words/via.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-via.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical"
+ },
+ "v-pater": {
+  "word": "pater",
+  "file": "audio/words/pater.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-pater.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical",
+  "words": [
+   {
+    "word": "pater",
+    "file": "audio/words/pater.mp3",
+    "style": "classical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-pater.ogg",
+    "licence": "CC BY-SA 3.0",
+    "attribution": "EncycloPetey / Wikimedia Commons"
+   },
+   {
+    "word": "mater",
+    "file": "audio/words/mater.mp3",
+    "style": "classical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-mater.ogg",
+    "licence": "CC BY-SA 3.0",
+    "attribution": "EncycloPetey / Wikimedia Commons"
+   }
+  ]
+ },
+ "v-filius": {
+  "word": "filius",
+  "file": "audio/words/filius.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-filius.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical",
+  "words": [
+   {
+    "word": "filius",
+    "file": "audio/words/filius.mp3",
+    "style": "classical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-filius.ogg",
+    "licence": "CC BY-SA 3.0",
+    "attribution": "EncycloPetey / Wikimedia Commons"
+   },
+   {
+    "word": "filia",
+    "file": "audio/words/filia.mp3",
+    "style": "classical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-filia.ogg",
+    "licence": "CC BY-SA 3.0",
+    "attribution": "EncycloPetey / Wikimedia Commons"
+   }
+  ]
+ },
+ "d-dico": {
+  "word": "dico",
+  "file": "audio/words/dico.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-dico.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical"
+ },
+ "v-deus": {
+  "word": "deus",
+  "file": "audio/words/deus.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-deus.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical",
+  "words": [
+   {
+    "word": "deus",
+    "file": "audio/words/deus.mp3",
+    "style": "classical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-deus.ogg",
+    "licence": "CC BY-SA 3.0",
+    "attribution": "EncycloPetey / Wikimedia Commons"
+   },
+   {
+    "word": "dea",
+    "file": "audio/words/dea.mp3",
+    "style": "classical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-dea.ogg",
+    "licence": "CC BY-SA 3.0",
+    "attribution": "EncycloPetey / Wikimedia Commons"
+   }
+  ]
+ },
+ "v-amo": {
+  "word": "amo",
+  "file": "audio/words/amo.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-amo.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical"
+ },
+ "v-tempus": {
+  "word": "tempus",
+  "file": "audio/words/tempus.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-tempus.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical"
+ },
+ "v-animus": {
+  "word": "animus",
+  "file": "audio/words/animus.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-animus.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical",
+  "note": "covers 1/2 headwords"
+ },
+ "d-video": {
+  "word": "video",
+  "file": "audio/words/video.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-video.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical"
+ },
+ "v-rex": {
+  "word": "rex",
+  "file": "audio/words/rex.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-rex.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical",
+  "words": [
+   {
+    "word": "rex",
+    "file": "audio/words/rex.mp3",
+    "style": "classical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-rex.ogg",
+    "licence": "CC BY-SA 3.0",
+    "attribution": "EncycloPetey / Wikimedia Commons"
+   },
+   {
+    "word": "regnum",
+    "file": "audio/words/regnum.mp3",
+    "style": "classical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-regnum.ogg",
+    "licence": "CC BY-SA 4.0",
+    "attribution": "Erutuon / Wikimedia Commons"
+   }
+  ]
+ },
+ "d-crux": {
+  "word": "crux",
+  "file": "audio/words/crux.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-crux.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical"
+ },
+ "v-liber": {
+  "word": "liber",
+  "file": "audio/words/liber.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-liber.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical",
+  "note": "covers 1/2 headwords"
+ },
+ "d-scribo": {
+  "word": "scribo",
+  "file": "audio/words/scribo.mp3",
+  "style": "classical",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La-cls-scribo.ogg",
+  "licence": "CC BY-SA 3.0",
+  "attribution": "EncycloPetey / Wikimedia Commons",
+  "pronunciation_style": "classical"
+ }
+}

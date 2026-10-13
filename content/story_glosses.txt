@@ -1,0 +1,178 @@
+rōma|Rōma|Rome|nom. sg. f.
+urbs|urbs|city|nom. sg. f.
+est|sum|is|3rd sg. pres.
+magna|magnus|great, big|nom. sg. f.
+in|in|in, on|prep. + abl.
+urbe|urbs|city|abl. sg. f.
+via|via|road|nom. sg. f.
+longa|longus|long|nom. sg. f.
+appia|Appius|Appian|nom. sg. f. adj.
+lupa|lupa|she-wolf|nom. sg. f.
+palātiō|Palātium|the Palatine|abl. sg. n.
+nōn|nōn|not|adv.
+mala|malus|bad|nom. sg. f.
+bona|bonus|good|nom. sg. f.
+cornēlia|Cornēlia|Cornelia|nom. sg. f.
+māter|māter|mother|nom. sg. f.
+gracchī|Gracchus|the Gracchi|nom. pl. m.
+fīliī|fīlius|sons|nom. pl. m.
+sunt|sum|are|3rd pl. pres.
+pater|pater|father|nom. sg. m.
+fīliōs|fīlius|sons|acc. pl. m.
+amat|amō|loves|3rd sg. pres.
+fēmina|fēmina|woman|nom. sg. f.
+ornāmenta|ornāmentum|jewels|acc./nom. pl. n.
+habet|habeō|has|3rd sg. pres.
+vocat|vocō|calls|3rd sg. pres.
+haec|hic|these|nom. pl. n.
+mea|meus|my|nom. pl. n.
+dīcit|dīcō|says|3rd sg. pres.
+mīlitēs|mīles|soldiers|nom./acc. pl. m.
+castrīs|castra|camp|abl. pl. n.
+centuriō|centuriō|centurion|nom. sg. m.
+videt|videō|sees|3rd sg. pres.
+ambulant|ambulō|march|3rd pl. pres.
+et|et|and|conj.
+labōrant|labōrō|work|3rd pl. pres.
+monet|moneō|warns|3rd sg. pres.
+pīla|pīlum|javelins|acc. pl. n.
+portant|portō|carry|3rd pl. pres.
+legiō|legiō|legion|nom. sg. f.
+pugnat|pugnō|fights|3rd sg. pres.
+superat|superō|wins, overcomes|3rd sg. pres.
+forum|forum|forum|nom. sg. n.
+rōmānōrum|Rōmānus|of the Romans|gen. pl. m.
+magnum|magnus|great|nom. sg. n.
+senātus|senātus|senate|nom. sg. m.
+cūriā|cūria|senate house|abl. sg. f.
+cicerō|Cicerō|Cicero|nom. sg. m.
+senātōribus|senātor|to the senators|dat. pl. m.
+verba|verbum|words|acc. pl. n.
+dat|dō|gives|3rd sg. pres.
+cōnsul|cōnsul|consul|nom. sg. m.
+bonus|bonus|good|nom. sg. m.
+rem|rēs|thing|acc. sg. f.
+pūblicam|pūblicus|public|acc. sg. f.
+servat|servō|saves, keeps|3rd sg. pres.
+catilīna|Catilīna|Catiline|nom. sg. m.
+vir|vir|man|nom. sg. m.
+malus|malus|bad|nom. sg. m.
+populus|populus|people|nom. sg. m.
+cicerōnī|Cicerō|to Cicero|dat. sg. m.
+grātiās|grātia|thanks|acc. pl. f. (grātiās agere = to thank)
+agit|agō|does, gives (thanks)|3rd sg. pres.
+templum|templum|temple|nom. sg. n.
+vestae|Vesta|of Vesta|gen. sg. f.
+virginēs|virgō|maidens, Vestals|nom. pl. f.
+templō|templum|temple|abl. sg. n.
+ignis|ignis|fire|nom. sg. m.
+semper|semper|always|adv.
+ārdet|ārdeō|burns|3rd sg. pres.
+cum|cum|with|prep. + abl.
+virginibus|virgō|maidens|abl. pl. f.
+sacerdōs|sacerdōs|priest(ess)|nom. sg.
+ex|ex|out of|prep. + abl.
+aqua|aqua|water|nom. sg. f.
+venit|veniō|comes|3rd sg. pres.
+sed|sed|but|conj.
+sine|sine|without|prep. + abl.
+igne|ignis|fire|abl. sg. m.
+tūta|tūtus|safe|nom. sg. f.
+rōmānī|Rōmānus|the Romans|nom. pl. m.
+lateribus|later|bricks|abl. pl. m.
+aedificābant|aedificō|used to build|3rd pl. impf.
+augustus|Augustus|Augustus|nom. sg. m.
+templa|templum|temples|acc. pl. n.
+marmore|marmor|marble|abl. sg. n.
+aedificāvit|aedificō|built|3rd sg. perf.
+multa|multus|many|acc. pl. n.
+bella|bellum|wars|acc. pl. n.
+gessit|gerō|waged|3rd sg. perf.
+eum|is|him|acc. sg. m.
+imperātōrem|imperātor|commander, emperor|acc. sg. m.
+vocābant|vocō|used to call|3rd pl. impf.
+nummī|nummus|coins|nom. pl. m.
+nōmen|nōmen|name|acc. sg. n.
+eius|is|his|gen. sg.
+portābant|portō|used to carry|3rd pl. impf.
+dīcere|dīcō|to say|pres. inf.
+poterat|possum|was able|3rd sg. impf.
+urbem|urbs|city|acc. sg. f.
+marmoream|marmoreus|(of) marble|acc. sg. f.
+relīquī|relinquō|I have left|1st sg. perf.
+horātius|Horātius|Horace|nom. sg. m.
+poēta|poēta|poet|nom. sg. m.
+erat|sum|was|3rd sg. impf.
+carpe|carpō|pluck, seize|2nd sg. imper.
+diem|diēs|day|acc. sg. m.
+amīcae|amīca|to (his) friend|dat. sg. f.
+dīxit|dīcō|said|3rd sg. perf.
+crās|crās|tomorrow|adv.
+fortasse|fortasse|perhaps|adv.
+erō|sum|I shall be|1st sg. fut.
+versūs|versus|verses|nom. pl. m.
+meī|meus|my|nom. pl. m.
+manēbunt|maneō|will remain|3rd pl. fut.
+omnis|omnis|wholly, all|nom. sg. m.
+moriar|morior|I shall die|1st sg. fut. (deponent)
+etiam|etiam|even, also|adv.
+nunc|nunc|now|adv.
+legimus|legō|we read|1st pl. pres.
+seneca|Seneca|Seneca|nom. sg. m.
+philosophus|philosophus|philosopher|nom. sg. m.
+lūcīliō|Lūcīlius|to Lucilius|dat. sg. m.
+epistulās|epistula|letters|acc. pl. f.
+scrībēbat|scrībō|used to write|3rd sg. impf.
+vītam|vīta|life|acc. sg. f.
+esse|sum|to be|pres. inf.
+mīlitiam|mīlitia|military service|acc. sg. f.
+animus|animus|mind, spirit|nom. sg. m.
+fortis|fortis|brave, strong|nom. sg. m.
+dēbet|dēbeō|ought|3rd sg. pres.
+vīvere|vīvō|to live|pres. inf.
+discere|discō|to learn|pres. inf.
+nōs|nōs|we|nom. pl.
+quoque|quoque|also|adv.
+possumus|possum|we can|1st pl. pres.
+annō|annus|in the year|abl. sg. m.
+quadringentēsimō|quadringentēsimus|four hundredth|abl. sg. m.
+decimō|decimus|tenth|abl. sg. m.
+gothī|Gothus|the Goths|nom. pl. m.
+vēnērunt|veniō|came|3rd pl. perf.
+capta|capiō|captured|perf. pass. part. nom. sg. f. (capta est = was captured)
+multī|multus|many|nom. pl. m.
+cīvēs|cīvis|citizens|nom. pl. m.
+territī|terreō|frightened|perf. pass. part. nom. pl. m.
+augustīnus|Augustīnus|Augustine|nom. sg. m.
+librum|liber|book|acc. sg. m.
+scrīpsit|scrībō|wrote|3rd sg. perf.
+librō|liber|book|abl. sg. m.
+cīvitās|cīvitās|city, state|nom. sg. f.
+deī|deus|of God|gen. sg. m.
+laudātur|laudō|is praised|3rd sg. pres. pass.
+terrēna|terrēnus|earthly|nom. sg. f.
+cadit|cadō|falls|3rd sg. pres.
+manent|maneō|remain|3rd pl. pres.
+monastēriō|monastērium|monastery|abl. sg. n.
+monachus|monachus|monk|nom. sg. m.
+quī|quī|who|rel. pron. nom. sg. m.
+librōs|liber|books|acc. pl. m.
+liber|liber|book|nom. sg. m.
+quem|quī|which|rel. pron. acc. sg. m.
+ēvangelium|ēvangelium|Gospel|nom. sg. n.
+manūs|manus|hands|nom. pl. f.
+frīgidae|frīgidus|cold|nom. pl. f.
+erant|sum|were|3rd pl. impf.
+abbās|abbās|abbot|nom. sg. m.
+vidēbat|videō|was watching|3rd sg. impf.
+laudāvit|laudō|praised|3rd sg. perf.
+tandem|tandem|at last|adv.
+explicit|explicit|(here) ends|medieval formula
+ōrāte|ōrō|pray|2nd pl. imper.
+prō|prō|for|prep. + abl.
+scrīptōre|scrīptor|scribe|abl. sg. m.
+iovis|Iuppiter|of Jupiter|gen. sg. m.
+statōris|Stator|the Stayer (cult title)|gen. sg. m.
+aquam|aqua|water|acc. sg. f.
+fonte|fōns|spring|abl. sg. m.
+monachum|monachus|monk|acc. sg. m.
