@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Lingua</title>
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="../apple-touch-icon.png"><link rel="manifest" href="../app.webmanifest"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lingua"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="theme-color" content="#efe9df"><meta property="og:title" content="Lingua · Latin cards"><meta property="og:description" content="Learn Latin through real quotes from Rome and the medieval West."><meta property="og:image" content="https://nmpy7knjd8-code.github.io/latin-app/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="../apple-touch-icon-v2.png"><link rel="manifest" href="../app.webmanifest?v=2"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lingua"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="theme-color" content="#efe9df"><meta property="og:title" content="Lingua · Latin cards"><meta property="og:description" content="Learn Latin through real quotes from Rome and the medieval West."><meta property="og:image" content="https://nmpy7knjd8-code.github.io/latin-app/og.png"><meta name="twitter:card" content="summary_large_image">
 <meta name="description" content="Learn Latin through real, source-checked quotes from Rome and the medieval West.">
 <style>
 :root{--ink:#2a2420}
@@ -233,10 +233,15 @@ function render(){
   });
 }
 function fitBacks(){document.querySelectorAll(".back").forEach(bk=>{const cx=bk.querySelector(".ctx");if(!cx)return;
-  bk.style.visibility="hidden";bk.style.display="flex";let f=.92;cx.style.fontSize=f+"rem";cx.classList.remove("clamp");
-  while(bk.scrollHeight>bk.clientHeight+1&&f>.76){f-=.02;cx.style.fontSize=f+"rem"}
-  if(bk.scrollHeight>bk.clientHeight+1){const lh=parseFloat(getComputedStyle(cx).lineHeight)||14,over=bk.scrollHeight-bk.clientHeight;const n=Math.max(2,Math.floor((cx.clientHeight-over)/lh));cx.style.setProperty("--cl",n);cx.classList.add("clamp")}
-  bk.style.visibility="";bk.style.display=""})}
+  const kids=[...bk.children].filter(e=>e.offsetHeight>0);const k=kids.length;
+  const cs=getComputedStyle(bk),inner=bk.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
+  const used=()=>kids.reduce((t,e)=>t+e.offsetHeight,0);
+  const fits=g=>used()+(k-1)*g<=inner;
+  let f=.92;cx.style.fontSize=f+"rem";cx.classList.remove("clamp");
+  while(!fits(7)&&f>.76){f-=.02;cx.style.fontSize=f+"rem"}
+  if(!fits(7)){const lh=parseFloat(getComputedStyle(cx).lineHeight)||14,over=used()+(k-1)*7-inner;cx.style.setProperty("--cl",Math.max(2,Math.floor((cx.offsetHeight-over)/lh)));cx.classList.add("clamp")}
+  else{while(f<1.12){f+=.02;cx.style.fontSize=f+"rem";if(!fits(32)){f-=.02;cx.style.fontSize=f+"rem";break}}}
+  const g=Math.max(7,Math.min(32,(inner-used())/(k-1)));bk.style.setProperty("--g",g+"px")})}
 addEventListener("resize",()=>requestAnimationFrame(fitBacks));
 function setMode(m){mode=m;document.getElementById("m-learn").setAttribute("aria-pressed",m==="learn");document.getElementById("m-review").setAttribute("aria-pressed",m==="review");render();}
 const deck=document.getElementById("deck"),dots=document.getElementById("dots");
