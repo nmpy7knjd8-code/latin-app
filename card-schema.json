@@ -73,8 +73,8 @@
   },
   "context": {
    "type": "string",
-   "maxLength": 260,
-   "description": "Max 40 words (design §6); 260 chars is the enforceable proxy."
+   "maxLength": 900,
+   "description": "Longer context allowed now that the card back has room (Garrett, Oct 2026)."
   },
   "more": {
    "type": "string"
