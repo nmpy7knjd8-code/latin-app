@@ -151,6 +151,10 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 @media (max-height:700px){header{height:calc(env(safe-area-inset-top) + 60px)}header h1{font-size:1.7rem}
 .latin{font-size:1.4rem}.latin.mid{font-size:1.15rem}.latin.long{font-size:.95rem}.latin.xlong{font-size:.78rem}.say{font-size:.85rem}
 .la-b{font-size:.95rem}.la-b.long{font-size:.72rem}.back .tr{font-size:.95rem}.back .tr.long{font-size:.78rem}.ipa-b{font-size:.7rem}.back{padding:12px 14px 10px}}
+.meta{align-items:baseline;line-height:1.25;column-gap:8px;row-gap:2px}
+.meta>span{line-height:1.25}
+.front .meta .era{font-size:.74rem}
+.meta .sep.wrapped{display:none}
 </style></head><body>
 <header><h1 id="logo" role="button" tabindex="0" aria-label="Lingua: choose a section">LINGUA</h1></header>
 <main class="deck" id="deck" aria-label="Cards"></main>
@@ -205,7 +209,7 @@ function render(){
     ${P(c)?`<button class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}. Tap for IPA.">${esc(P(c).respelling)}<span class="ipa" hidden>${esc(P(c).ipa)}</span></button>${EC(c)?`<button class="reg" data-cl="${esc(P(c).respelling)}" data-ec="${esc(EC(c))}" aria-pressed="false">Classical · tap for Church pronunciation</button>`:""}`:""}
     ${learn?`<div class="tr-front">“${esc(c.translation)}”</div><div class="gl" aria-live="polite"></div>`:""}
     ${AU(c).length?`<div class="chips">${AU(c).map((a,k)=>`<button class="play" data-a="${esc(a.file)}" aria-label="Play recording, ${esc(a.style)}">▶ ${esc(a.style)}</button>`).join("")}</div>`:""}
-    <div class="meta">${c.person?`<span>${esc(c.person)}</span><span aria-hidden="true">·</span>`:""}<span class="era">${ERA[c.era]||c.era}</span></div>
+    <div class="meta">${c.person?`<span>${esc(c.person)}</span><span class="sep" aria-hidden="true">·</span>`:""}<span class="era">${ERA[c.era]||c.era}</span></div>
     <div class="lic">${esc(c.image.license)} · ${learn?`<a href="${esc(c.image.museum_url||c.image.source_url)}" target="_blank" rel="noopener" style="color:inherit">see in museum</a>`:"credit on back"}</div>
    </div>
   </div>
@@ -251,7 +255,8 @@ function render(){
 function fitWide(){document.querySelectorAll(".face").forEach(fc=>{const W=fc.clientWidth-36;
   fc.querySelectorAll(".latin,.la-b,.say,.ipa-b").forEach(el=>{let fs=parseFloat(getComputedStyle(el).fontSize),n=0;
     while(el.scrollWidth>el.clientWidth+1&&n++<12){fs*=.94;el.style.fontSize=fs+"px"}})})}
-function fitBacks(){fitWide();document.querySelectorAll(".back").forEach(bk=>{const cx=bk.querySelector(".ctx");if(!cx)return;
+function fitMeta(){document.querySelectorAll(".meta").forEach(m=>{const sp=m.querySelector(".sep");if(!sp)return;sp.classList.remove("wrapped");const a=m.firstElementChild,e=m.querySelector(".era");if(a&&e&&Math.abs(a.offsetTop-e.offsetTop)>4)sp.classList.add("wrapped")})}
+function fitBacks(){fitWide();fitMeta();document.querySelectorAll(".back").forEach(bk=>{const cx=bk.querySelector(".ctx");if(!cx)return;
   const kids=[...bk.children].filter(e=>e.offsetHeight>0);const k=kids.length;
   const cs=getComputedStyle(bk),inner=bk.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
   const used=()=>kids.reduce((t,e)=>t+e.offsetHeight,0);
