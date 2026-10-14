@@ -1,0 +1,4981 @@
+[
+ {
+  "id": "v-vesta-dea",
+  "type": "vocab",
+  "era": "regal",
+  "unit": 1,
+  "latin": "Vesta dea est; Vestālēs sacerdōtēs sunt.",
+  "translation": "Vesta is a goddess; the Vestals are priestesses.",
+  "context": "Vesta was the goddess of the hearth, and her sacred fire in the Forum was believed to keep Rome safe. Six Vestal Virgins tended it day and night, serving for thirty years from childhood. If the fire went out, it was taken as a terrible omen. Dea is a singular noun and sacerdōtēs a plural one, so the verbs are est and sunt.",
+  "more": "Vestals had rare privileges: they could make wills and travel in carriages, and a condemned prisoner who met one by chance was pardoned. A Vestal who broke her vow of chastity was buried alive.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Vesta",
+    "lemma": "Vesta",
+    "meaning": "Vesta",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "dea",
+    "lemma": "dea",
+    "meaning": "goddess",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "Vestālēs",
+    "lemma": "Vestālis",
+    "meaning": "the Vestals",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "sacerdōtēs",
+    "lemma": "sacerdōs",
+    "meaning": "priestesses",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "sum"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "nominative",
+   "sum"
+  ],
+  "vocab_ids": [
+   "dea",
+   "sum",
+   "sacerdos"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, sum.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/vestal.webp",
+   "alt": "A Vestal Virgin, engraving after an ancient statue (William Musgrave)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "William Musgrave · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Virgo_Vestalis_(Musgrave).jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Vestal Virgin",
+   "url": "https://en.wikipedia.org/wiki/Vestal_Virgin",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-trias-capitolina",
+  "type": "vocab",
+  "era": "regal",
+  "unit": 1,
+  "latin": "Iuppiter, Iūnō et Minerva deī sunt.",
+  "translation": "Jupiter, Juno and Minerva are gods.",
+  "context": "These three were the Capitoline Triad, worshipped together in Rome's greatest temple on the Capitoline Hill. Jupiter was king of the gods, Juno his wife and queen, and Minerva the goddess of wisdom and crafts. Roman colonies across the empire built their own capitolium temples to the same three gods. Deī is the plural of deus, and a mixed group of gods and goddesses takes the masculine plural.",
+  "more": "The Guidonia group, found near Rome in 1992, is the only surviving statue group of all three gods together, with Jupiter's eagle, Juno's peacock and Minerva's owl.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Iuppiter",
+    "lemma": "Iuppiter",
+    "meaning": "Jupiter",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Iūnō",
+    "lemma": "Iūnō",
+    "meaning": "Juno",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "Minerva",
+    "lemma": "Minerva",
+    "meaning": "Minerva",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "deī",
+    "lemma": "deus",
+    "meaning": "gods",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "sum"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "nominative",
+   "sum"
+  ],
+  "vocab_ids": [
+   "et",
+   "deus",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, sum.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/triad.webp",
+   "alt": "The Capitoline Triad of Guidonia: Minerva, Jupiter and Juno (AD 160–180)",
+   "kind": "artifact",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY 3.0",
+   "credit": "“Arte romana, triade capitolina, 160-180 dc (guidonia montecelio, museo civico archeologico) 01” by Sailko, CC BY 3.0 (https://creativecommons.org/licenses/by/3.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Arte_romana,_triade_capitolina,_160-180_dc_(guidonia_montecelio,_museo_civico_archeologico)_01.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "learn_more": {
+   "label": "Capitoline Triad",
+   "url": "https://en.wikipedia.org/wiki/Capitoline_Triad",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "i-pompeii-felicitas",
+  "type": "artifact",
+  "era": "empire",
+  "unit": 1,
+  "latin": "HIC HABITAT FELICITAS — Hīc habitat Fēlīcitās.",
+  "translation": "Here lives Good Luck.",
+  "context": "This short sign was carved on a plaque above an oven in a Pompeian bakery, beside a lucky charm meant to ward off the evil eye. Fēlīcitās, 'good fortune', was also worshipped as a goddess. The verb habitat sits between the adverb hīc, 'here', and its subject, the nominative Fēlīcitās. Pompeian shopkeepers often painted wishes for profit and luck on their walls.",
+  "more": "The plaque is now in the Naples Archaeological Museum. English felicity and Felicity come from fēlīcitās.",
+  "source": {
+   "work": "Pompeii inscription (CIL IV 1454)",
+   "citation": "—",
+   "date": "before AD 79"
+  },
+  "source_url": "https://edcs.hist.uzh.ch/search",
+  "attribution_confidence": "verified",
+  "attribution_note": "Text checked in EDCS (CIL IV 1454).",
+  "gloss": [
+   {
+    "word": "Hīc",
+    "lemma": "hīc",
+    "meaning": "here",
+    "parse": "adv."
+   },
+   {
+    "word": "habitat",
+    "lemma": "habitō",
+    "meaning": "lives",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "Fēlīcitās",
+    "lemma": "fēlīcitās",
+    "meaning": "Good Luck, Happiness",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "word_order"
+  ],
+  "grammar_preview": [
+   "present_tense"
+  ],
+  "grammar_tags": [
+   "nominative",
+   "word_order",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "hic",
+   "habito",
+   "felicitas"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, word_order; previews present_tense.",
+   "dcc_core_pct": 33,
+   "non_core": [
+    "habito",
+    "felicitas"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "inscription",
+  "raw_text": {
+   "text": "HIC HABITAT FELICITAS",
+   "source": "EDCS (CIL IV 1454)",
+   "label": "What the original actually says"
+  },
+  "image": {
+   "src": "img/batch6/pompeii.webp",
+   "alt": "A bakery with lava millstones and oven at Pompeii (Giacomo Brogi photograph)",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "PDM",
+   "credit": "Giacomo Brogi · PDM · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeii-_House_with_oven_and_mills,_No._5049_(SM_stf1542).png",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Pompeii",
+   "url": "https://en.wikipedia.org/wiki/Pompeii",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "i-pompeii-salve-lucru",
+  "type": "artifact",
+  "era": "empire",
+  "unit": 2,
+  "latin": "SALVE LVCRV — Salvē, lucrum!",
+  "translation": "Welcome, profit!",
+  "context": "Visitors to the House of Siricus at Pompeii stepped over this greeting set into the entrance mosaic. Instead of welcoming the guest, it hails profit, as if money were a friend arriving at the door. Lucrum is addressed directly, in the vocative, which for neuter nouns looks the same as the nominative. Merchants' houses in Pompeii often show this frank delight in gain.",
+  "more": "The final M of lucrum is missing in the mosaic, as it often was in everyday speech. English lucrative and lucre come from lucrum.",
+  "source": {
+   "work": "Pompeii mosaic inscription (CIL X 874)",
+   "citation": "—",
+   "date": "before AD 79"
+  },
+  "source_url": "https://edcs.hist.uzh.ch/search",
+  "attribution_confidence": "verified",
+  "attribution_note": "Text checked in EDCS (EDCS-11400966, CIL X 874): Salve lucru[m].",
+  "gloss": [
+   {
+    "word": "Salvē",
+    "lemma": "salveō",
+    "meaning": "welcome, hello",
+    "parse": "imperative"
+   },
+   {
+    "word": "lucrum",
+    "lemma": "lucrum",
+    "meaning": "profit",
+    "parse": "voc. sg. n."
+   }
+  ],
+  "grammar_target": [
+   "vocative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "vocative"
+  ],
+  "vocab_ids": [
+   "salveo",
+   "lucrum"
+  ],
+  "teaching_value": {
+   "note": "Targets vocative.",
+   "dcc_core_pct": 0,
+   "non_core": [
+    "salveo",
+    "lucrum"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "inscription",
+  "raw_text": {
+   "text": "SALVE LVCRV",
+   "source": "EDCS-11400966 (CIL X 874)",
+   "label": "What the original actually says"
+  },
+  "image": {
+   "src": "img/batch6/salve.webp",
+   "alt": "Entrance mosaic SALVE LVCRV in the House of Siricus, Pompeii",
+   "kind": "inscription",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Casa di sirico, androne d'ingresso con saluto al guadagno (salve lucru)” by Sailko, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Casa_di_sirico,_androne_d%27ingresso_con_saluto_al_guadagno_(salve_lucru).jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Pompeii",
+   "url": "https://en.wikipedia.org/wiki/Pompeii",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-virgil-nate",
+  "type": "quote",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Nāte, meae vīrēs, mea magna potentia sōlus",
+  "translation": "My son, my strength, you alone my great power",
+  "context": "In Aeneid 1 Venus calls on her son Cupid to make Queen Dido fall in love with Aeneas, so that Carthage will shelter him. She heaps up titles in the vocative: nāte, 'son', then 'my strength', 'my great power'. The possessive adjectives meae and mea agree with the nouns they describe. Venus's plan works, and leads to Dido's tragedy in Book 4.",
+  "more": "Cupid takes the shape of Aeneas's little son Ascanius and sits on Dido's lap at the banquet. Vīrēs, 'strength', is the plural of vīs.",
+  "person": "Virgil (speech of Venus)",
+  "source": {
+   "work": "Virgil, Aeneid",
+   "citation": "1.664",
+   "date": "c. 19 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/vergil/aen1.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Spoken by Venus in the poem.",
+  "gloss": [
+   {
+    "word": "Nāte",
+    "lemma": "nātus",
+    "meaning": "son",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "meae",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "vīrēs",
+    "lemma": "vīs",
+    "meaning": "strength",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "mea",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "magna",
+    "lemma": "magnus",
+    "meaning": "great",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "potentia",
+    "lemma": "potentia",
+    "meaning": "power",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "sōlus",
+    "lemma": "sōlus",
+    "meaning": "alone",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "vocative",
+   "possessive_adjectives"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "vocative",
+   "possessive_adjectives"
+  ],
+  "vocab_ids": [
+   "natus",
+   "meus",
+   "vis",
+   "magnus",
+   "potentia",
+   "solus"
+  ],
+  "teaching_value": {
+   "note": "Targets vocative, possessive_adjectives.",
+   "dcc_core_pct": 83,
+   "non_core": [
+    "potentia"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/venuscupid.webp",
+   "alt": "Palma il Giovane, Venus and Cupid (detail)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Palma il Giovane · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Palma_il_Giovane_-_Venus_and_Cupid_at_Vulcan%27s_Forge_(detail)_-_WGA16923.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Cupid",
+   "url": "https://en.wikipedia.org/wiki/Cupid",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-hannibal-ad-portas",
+  "type": "quote",
+  "era": "republic",
+  "unit": 3,
+  "latin": "Hannibal ad portās!",
+  "translation": "Hannibal is at the gates!",
+  "context": "After Hannibal crushed the Romans at Cannae in 216 BC, panic swept Rome, and in 211 BC he marched right up to the city walls. The cry became a proverb for any danger on the doorstep. Cicero uses it in this form in On Ends, and 'Hannibal ante portās' in his first Philippic. The sentence has no verb: portās is accusative after ad, 'to, at'.",
+  "more": "Roman parents were said to frighten children with the phrase. Hannibal never attacked Rome itself, as he lacked siege equipment.",
+  "person": "Proverb (quoted by Cicero)",
+  "source": {
+   "work": "Cicero, De finibus",
+   "citation": "4.22",
+   "date": "45 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/cicero/fin4.shtml",
+  "attribution_confidence": "traditional",
+  "attribution_note": "A proverb. Cicero has si Hannibal ad portas venisset (De fin. 4.22) and Hannibal ante portas (Phil. 1.11).",
+  "gloss": [
+   {
+    "word": "Hannibal",
+    "lemma": "Hannibal",
+    "meaning": "Hannibal",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "ad",
+    "lemma": "ad",
+    "meaning": "at, to",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "portās",
+    "lemma": "porta",
+    "meaning": "the gates",
+    "parse": "acc. pl. f."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "accusative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "nominative",
+   "accusative"
+  ],
+  "vocab_ids": [
+   "ad",
+   "porta"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, accusative.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/hannibal.webp",
+   "alt": "Marble bust from Capua traditionally identified as Hannibal (Alinari photograph), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Fratelli Alinari · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hannibal_Barca_bust_from_Capua_photo.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
+  },
+  "learn_more": {
+   "label": "Hannibal ad portas",
+   "url": "https://en.wikipedia.org/wiki/Hannibal_ad_portas",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-centurio-vocat",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 3,
+  "latin": "Centuriō mīlitēs vocat; mīlitēs currunt.",
+  "translation": "The centurion calls the soldiers; the soldiers run.",
+  "context": "A centurion commanded a century, which in the imperial army meant about 80 men, not 100. Centurions were the army's professional backbone, promoted for long service and courage, and they carried a vine stick for discipline. In the first clause mīlitēs is the accusative object; in the second it is the nominative subject, so the verb is plural.",
+  "more": "A legion had about sixty centurions. The senior one, the prīmus pīlus, was among the most respected men in the army.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Centuriō",
+    "lemma": "centuriō",
+    "meaning": "centurion",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "vocat",
+    "lemma": "vocō",
+    "meaning": "calls",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "currunt",
+    "lemma": "currō",
+    "meaning": "they run",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "grammar_target": [
+   "third_person_plural",
+   "accusative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "third_person_plural",
+   "accusative"
+  ],
+  "vocab_ids": [
+   "centurio",
+   "miles",
+   "voco",
+   "curro"
+  ],
+  "teaching_value": {
+   "note": "Targets third_person_plural, accusative.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "centurio"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/centurion.webp",
+   "alt": "Re-enactor equipped as a Roman centurion",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 3.0",
+   "credit": "“Centurion 2 Boulogne Luc Viatour” by Luc Viatour, CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Centurion_2_Boulogne_Luc_Viatour.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "learn_more": {
+   "label": "Centurion",
+   "url": "https://en.wikipedia.org/wiki/Centurion",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-cornicen",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 3,
+  "latin": "Cornicen cornū īnflat; mīlitēs signa movent.",
+  "translation": "The horn-player blows the horn; the soldiers move the standards.",
+  "context": "Roman armies passed orders by sound. The cornicen blew the cornū, a large curved bronze horn, and the soldiers followed the standards, signa, which showed where each unit should go. 'Moving the standards' meant setting off on the march or into battle. Signa is a neuter plural ending in -a.",
+  "more": "Cornicen is made from cornū, 'horn', and canō, 'sing, play'. The tubicen played the straight trumpet, the tuba.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Cornicen",
+    "lemma": "cornicen",
+    "meaning": "horn-player",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "cornū",
+    "lemma": "cornū",
+    "meaning": "horn",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "īnflat",
+    "lemma": "īnflō",
+    "meaning": "blows",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "signa",
+    "lemma": "signum",
+    "meaning": "standards",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "movent",
+    "lemma": "moveō",
+    "meaning": "they move",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "grammar_target": [
+   "third_person_plural",
+   "neuter_plural"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "third_person_plural",
+   "neuter_plural"
+  ],
+  "vocab_ids": [
+   "cornicen",
+   "cornu",
+   "inflo",
+   "miles",
+   "signum",
+   "moveo"
+  ],
+  "teaching_value": {
+   "note": "Targets third_person_plural, neuter_plural.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "cornicen",
+    "inflo"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/cornicen.webp",
+   "alt": "A cornicen (horn-blower), drawing from Anthony Rich's Illustrated Companion to the Latin Dictionary",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "AnonymousUnknown author · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cornicen_1.1_-_Anthony_Rich,_Illustrated_Companion_to_the_Latin_Dictionary,_and_Greek_Lexicon,_p._203.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Cornicen",
+   "url": "https://en.wikipedia.org/wiki/Cornicen",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-pila-iaciunt",
+  "type": "vocab",
+  "era": "republic",
+  "unit": 3,
+  "latin": "Mīlitēs pīla in hostēs iaciunt.",
+  "translation": "The soldiers throw their javelins at the enemy.",
+  "context": "A legionary carried two heavy javelins, pīla. Just before the lines met, the soldiers threw them, then charged with their swords. The long soft-iron shank of a pīlum bent on impact, so the enemy could not throw it back and a shield it stuck in became useless. Hostēs, 'the enemy', is plural in Latin.",
+  "more": "Caesar describes Gauls throwing away their shields because pīla had pinned them together (Gallic War 1.25).",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Mīlitēs",
+    "lemma": "mīles",
+    "meaning": "soldiers",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "pīla",
+    "lemma": "pīlum",
+    "meaning": "javelins",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "against, at",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "hostēs",
+    "lemma": "hostis",
+    "meaning": "the enemy",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "iaciunt",
+    "lemma": "iaciō",
+    "meaning": "they throw",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "grammar_target": [
+   "third_person_plural",
+   "neuter_plural"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "third_person_plural",
+   "neuter_plural"
+  ],
+  "vocab_ids": [
+   "miles",
+   "pilum",
+   "in",
+   "hostis",
+   "iacio"
+  ],
+  "teaching_value": {
+   "note": "Targets third_person_plural, neuter_plural.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "pilum"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/pilum.webp",
+   "alt": "Replica Roman pilum (Athens War Museum)",
+   "kind": "artifact",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Replica of a Roman pilum at Athens War Museum on November 22, 2022” by George E. Koronaios, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Replica_of_a_Roman_pilum_at_Athens_War_Museum_on_November_22,_2022.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Pilum",
+   "url": "https://en.wikipedia.org/wiki/Pilum",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-gladius-scutum",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 3,
+  "latin": "Legiōnārius gladium et scūtum portat.",
+  "translation": "The legionary carries a sword and a shield.",
+  "context": "The gladius was a short stabbing sword about 50 cm long, worn on the right side. The curved rectangular scūtum covered the body from shoulder to knee and let soldiers lock shields into a wall. Both nouns are accusative, the things being carried. English gladiator comes from gladius, a 'swordsman'.",
+  "more": "Gladiolus, the flower, means 'little sword', after its blade-shaped leaves.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Legiōnārius",
+    "lemma": "legiōnārius",
+    "meaning": "legionary",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "gladium",
+    "lemma": "gladius",
+    "meaning": "sword",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "scūtum",
+    "lemma": "scūtum",
+    "meaning": "shield",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "portat",
+    "lemma": "portō",
+    "meaning": "carries",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "accusative",
+   "present_tense"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "accusative",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "legionarius",
+   "gladius",
+   "et",
+   "scutum",
+   "porto"
+  ],
+  "teaching_value": {
+   "note": "Targets accusative, present_tense.",
+   "dcc_core_pct": 60,
+   "non_core": [
+    "legionarius",
+    "scutum"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/gladius.webp",
+   "alt": "Replica Roman gladius (short sword)",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY 2.0",
+   "credit": "“Albion Pedite Roman Gladius 1 (6094245944)” by Søren Niedziella from Denmark, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Albion_Pedite_Roman_Gladius_1_(6094245944).jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "learn_more": {
+   "label": "Gladius",
+   "url": "https://en.wikipedia.org/wiki/Gladius",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cicero-o-tempora",
+  "type": "quote",
+  "era": "republic",
+  "unit": 4,
+  "latin": "Ō tempora, ō mōrēs! Senātus haec intellegit. Cōnsul videt; hic tamen vīvit.",
+  "translation": "What times, what morals! The Senate understands these things. The consul sees them; and yet this man lives.",
+  "context": "Cicero, consul in 63 BC, hurled these words at Catiline in the Senate, with the conspirator sitting in front of him. The Senate knows of the plot, the consul sees it, and still the traitor is alive. The short sentences hit like blows. Ō tempora and ō mōrēs are exclamations, and senātus is a fourth-declension noun.",
+  "more": "Haec, 'these things', and hic, 'this man', are demonstratives. The phrase ō tempora, ō mōrēs is still used to complain about modern times.",
+  "person": "Cicero",
+  "source": {
+   "work": "Cicero, In Catilinam",
+   "citation": "1.2",
+   "date": "63 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/cicero/cat1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Ō",
+    "lemma": "ō",
+    "meaning": "O",
+    "parse": "interj."
+   },
+   {
+    "word": "tempora",
+    "lemma": "tempus",
+    "meaning": "times",
+    "parse": "acc. pl. n. (exclam.)"
+   },
+   {
+    "word": "mōrēs",
+    "lemma": "mōs",
+    "meaning": "morals, customs",
+    "parse": "acc. pl. m. (exclam.)"
+   },
+   {
+    "word": "Senātus",
+    "lemma": "senātus",
+    "meaning": "the Senate",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "haec",
+    "lemma": "hic",
+    "meaning": "these things",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "intellegit",
+    "lemma": "intellegō",
+    "meaning": "understands",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "Cōnsul",
+    "lemma": "cōnsul",
+    "meaning": "the consul",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "videt",
+    "lemma": "videō",
+    "meaning": "sees",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "hic",
+    "lemma": "hic",
+    "meaning": "this man",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "tamen",
+    "lemma": "tamen",
+    "meaning": "yet",
+    "parse": "adv."
+   },
+   {
+    "word": "vīvit",
+    "lemma": "vīvō",
+    "meaning": "lives",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "present_tense",
+   "neuter_plural"
+  ],
+  "grammar_preview": [
+   "demonstratives"
+  ],
+  "grammar_tags": [
+   "present_tense",
+   "neuter_plural",
+   "demonstratives"
+  ],
+  "vocab_ids": [
+   "o",
+   "tempus",
+   "mos",
+   "senatus",
+   "hic",
+   "intellego",
+   "consul",
+   "video",
+   "tamen",
+   "vivo"
+  ],
+  "teaching_value": {
+   "note": "Targets present_tense, neuter_plural; previews demonstratives.",
+   "dcc_core_pct": 90,
+   "non_core": [
+    "o"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/ciceroapsley.webp",
+   "alt": "Marble bust of Cicero, Apsley House, London, cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Daderot · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cicero,_1st_century_BC_-_Apsley_House_-_London,_UK_-_DSC06572.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
+  },
+  "learn_more": {
+   "label": "Catilinarian Orations",
+   "url": "https://en.wikipedia.org/wiki/Catilinarian_orations",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cicero-civis",
+  "type": "quote",
+  "era": "republic",
+  "unit": 4,
+  "latin": "Cīvis Rōmānus sum.",
+  "translation": "I am a Roman citizen.",
+  "context": "Cicero prosecuted Verres, governor of Sicily, in 70 BC for corruption and cruelty. His most shocking charge was that Verres had a man named Gavius flogged and crucified, although Gavius kept crying out this sentence. A Roman citizen had the right to appeal and could not legally be flogged or crucified. Cicero says the cry had brought help to many in faraway lands.",
+  "more": "Saint Paul claims the same right in Acts 22:25. Lord Palmerston echoed the phrase in 1850 to defend British subjects abroad.",
+  "person": "Gavius (reported by Cicero)",
+  "source": {
+   "work": "Cicero, In Verrem",
+   "citation": "2.5.162",
+   "date": "70 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/cicero/verres.2.5.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Cīvis",
+    "lemma": "cīvis",
+    "meaning": "citizen",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Rōmānus",
+    "lemma": "Rōmānus",
+    "meaning": "Roman",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "sum",
+    "lemma": "sum",
+    "meaning": "I am",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "adjective_agreement",
+   "first_person"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "adjective_agreement",
+   "first_person"
+  ],
+  "vocab_ids": [
+   "civis",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets adjective_agreement, first_person.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/togatus.webp",
+   "alt": "The \"Togatus Barberini\": a Roman in a toga holding busts of his ancestors, cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC BY-SA 2.0",
+   "credit": "“The so-called Togatus Barberini group, a funerary statue depicting a Roman senator holding the imagines (effigies) of deceased ancestors, late 1st century BC, head (not belonging) middle 1st century BC, Centrale Montemartini, Rome” by Carole Raddato, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_so-called_Togatus_Barberini_group,_a_funerary_statue_depicting_a_Roman_senator_holding_the_imagines_(effigies)_of_deceased_ancestors,_late_1st_century_BC,_head_(not_belonging)_middle_1st_century_BC,_Centrale_Montemartini,_Rome.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "learn_more": {
+   "label": "Roman citizenship",
+   "url": "https://en.wikipedia.org/wiki/Roman_citizenship",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cicero-cui-bono",
+  "type": "quote",
+  "era": "republic",
+  "unit": 4,
+  "latin": "Cui bonō?",
+  "translation": "Who benefits?",
+  "context": "Cicero (defending Sextus Roscius on a murder charge, 80 BC) recalls the judge Lucius Cassius, famous for asking 'to whom was it a benefit?' in every case. People rarely commit crimes without hoping to gain something, so find who gains and you may find the culprit. Cui and bonō are both datives: literally 'to whom (is it) for a benefit?'",
+  "more": "This 'double dative' pairs a person with a purpose. The question is still used by detectives, lawyers and journalists.",
+  "person": "Lucius Cassius Longinus Ravilla (quoted by Cicero)",
+  "source": {
+   "work": "Cicero, Pro Sexto Roscio Amerino",
+   "citation": "84",
+   "date": "80 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/cicero/sex.rosc.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Cicero attributes the question to the judge L. Cassius.",
+  "gloss": [
+   {
+    "word": "Cui",
+    "lemma": "quis",
+    "meaning": "to whom",
+    "parse": "dat. sg. (interrog.)"
+   },
+   {
+    "word": "bonō",
+    "lemma": "bonum",
+    "meaning": "for a benefit",
+    "parse": "dat. sg. n."
+   }
+  ],
+  "grammar_target": [
+   "dative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "dative"
+  ],
+  "vocab_ids": [
+   "quis",
+   "bonum"
+  ],
+  "teaching_value": {
+   "note": "Targets dative.",
+   "dcc_core_pct": 50,
+   "non_core": [
+    "bonum"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/basilica.webp",
+   "alt": "Remains of the Basilica Julia, the law-court hall in the Roman Forum",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“L06 667 Forum Romanum, Basilica Iulia” by Falk2, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:L06_667_Forum_Romanum,_Basilica_Iulia.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Cui bono",
+   "url": "https://en.wikipedia.org/wiki/Cui_bono",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cicero-o-fortunatam",
+  "type": "quote",
+  "era": "republic",
+  "unit": 4,
+  "latin": "Ō fortūnātam nātam mē cōnsule Rōmam!",
+  "translation": "O lucky Rome, born in my consulship!",
+  "context": "Cicero wrote an epic poem about his own consulship of 63 BC, and this line made him a laughing-stock for centuries. Juvenal quotes it in Satire 10 (about AD 120) and jokes that if Cicero had only written such poetry, Antony's swords would have spared him. The jingle fortūnātam nātam is part of what made it ridiculous. Every word agrees with Rōmam, an accusative of exclamation.",
+  "more": "Mē cōnsule, 'with me as consul', is an ablative absolute. Cicero was killed on Antony's orders in 43 BC.",
+  "person": "Cicero (quoted by Juvenal)",
+  "source": {
+   "work": "Juvenal, Saturae",
+   "citation": "10.122",
+   "date": "c. AD 120"
+  },
+  "source_url": "https://www.thelatinlibrary.com/juvenal/10.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Fragment of Cicero's lost poem De consulatu suo, preserved by Juvenal and Quintilian.",
+  "gloss": [
+   {
+    "word": "Ō",
+    "lemma": "ō",
+    "meaning": "O",
+    "parse": "interj."
+   },
+   {
+    "word": "fortūnātam",
+    "lemma": "fortūnātus",
+    "meaning": "lucky",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "nātam",
+    "lemma": "nāscor",
+    "meaning": "born",
+    "parse": "acc. sg. f. perf. part."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "abl. sg."
+   },
+   {
+    "word": "cōnsule",
+    "lemma": "cōnsul",
+    "meaning": "consul",
+    "parse": "abl. sg. m."
+   },
+   {
+    "word": "Rōmam",
+    "lemma": "Rōma",
+    "meaning": "Rome",
+    "parse": "acc. sg. f. (exclam.)"
+   }
+  ],
+  "grammar_target": [
+   "adjective_agreement",
+   "accusative"
+  ],
+  "grammar_preview": [
+   "ablative_absolute"
+  ],
+  "grammar_tags": [
+   "adjective_agreement",
+   "accusative",
+   "ablative_absolute"
+  ],
+  "vocab_ids": [
+   "o",
+   "fortunatus",
+   "nascor",
+   "ego",
+   "consul"
+  ],
+  "teaching_value": {
+   "note": "Targets adjective_agreement, accusative; previews ablative_absolute.",
+   "dcc_core_pct": 60,
+   "non_core": [
+    "o",
+    "fortunatus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/ciceroludovisi.webp",
+   "alt": "Bust after the Ludovisi Cicero (Cleveland Museum of Art), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "unknown · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Italy,_17th_century_or_later_-_Bust_of_the_Ludovisi_Cicero_-_1916.1004_-_Cleveland_Museum_of_Art.tif",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Cicero",
+   "url": "https://en.wikipedia.org/wiki/Cicero",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cato-vir-bonus",
+  "type": "quote",
+  "era": "republic",
+  "unit": 4,
+  "latin": "Vir bonus dīcendī perītus",
+  "translation": "A good man skilled in speaking",
+  "context": "This was Cato the Elder's definition of an orator, quoted by Quintilian at the start of the last book of his Training of the Orator (about AD 95). For Cato and Quintilian, eloquence without good character was dangerous, so the good man came first. Dīcendī is a genitive, 'of speaking', depending on the adjective perītus, 'skilled in'.",
+  "more": "Dīcendī is a gerund, a verbal noun. Cato (234–149 BC) also gave the advice rem tenē, verba sequentur: 'hold on to the matter, the words will follow'.",
+  "person": "Cato the Elder (quoted by Quintilian)",
+  "source": {
+   "work": "Quintilian, Institutio oratoria",
+   "citation": "12.1.1",
+   "date": "c. AD 95"
+  },
+  "source_url": "https://www.thelatinlibrary.com/quintilian/quintilian.institutio12.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Quintilian says the definition is Cato's.",
+  "gloss": [
+   {
+    "word": "Vir",
+    "lemma": "vir",
+    "meaning": "man",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "bonus",
+    "lemma": "bonus",
+    "meaning": "good",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "dīcendī",
+    "lemma": "dīcō",
+    "meaning": "of speaking",
+    "parse": "gen. gerund"
+   },
+   {
+    "word": "perītus",
+    "lemma": "perītus",
+    "meaning": "skilled",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "adjectives",
+   "genitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "adjectives",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "vir",
+   "bonus",
+   "dico",
+   "peritus"
+  ],
+  "teaching_value": {
+   "note": "Targets adjectives, genitive.",
+   "dcc_core_pct": 75,
+   "non_core": [
+    "peritus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/arringatore.webp",
+   "alt": "The \"Arringatore\" (Orator), bronze statue of Aule Metele (Florence), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC BY 2.0",
+   "credit": "“Arringatore” by corneliagraco, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Arringatore.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "learn_more": {
+   "label": "Quintilian",
+   "url": "https://en.wikipedia.org/wiki/Quintilian",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cicero-silent-leges",
+  "type": "quote",
+  "era": "republic",
+  "unit": 4,
+  "latin": "Silent enim lēgēs inter arma.",
+  "translation": "For laws fall silent amid weapons.",
+  "context": "In 52 BC Milo's armed escort killed his rival Clodius in a brawl on the Appian Way, and Cicero defended Milo for murder. He argued that killing in self-defence is lawful, because when weapons are drawn the laws cannot protect you. Soldiers guarded the court, and Cicero reportedly spoke badly. Milo was convicted and went into exile at Massilia.",
+  "more": "The phrase is often quoted as inter arma silent lēgēs, especially in debates about civil liberties in wartime.",
+  "person": "Cicero",
+  "source": {
+   "work": "Cicero, Pro Milone",
+   "citation": "11",
+   "date": "52 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/cicero/milo.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Silent",
+    "lemma": "sileō",
+    "meaning": "are silent",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "enim",
+    "lemma": "enim",
+    "meaning": "for",
+    "parse": "conj."
+   },
+   {
+    "word": "lēgēs",
+    "lemma": "lēx",
+    "meaning": "laws",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "inter",
+    "lemma": "inter",
+    "meaning": "among, amid",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "arma",
+    "lemma": "arma",
+    "meaning": "weapons",
+    "parse": "acc. pl. n."
+   }
+  ],
+  "grammar_target": [
+   "third_person_plural",
+   "neuter_plural"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "third_person_plural",
+   "neuter_plural"
+  ],
+  "vocab_ids": [
+   "sileo",
+   "enim",
+   "lex",
+   "inter",
+   "arma"
+  ],
+  "teaching_value": {
+   "note": "Targets third_person_plural, neuter_plural.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "sileo"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/curia.webp",
+   "alt": "The Curia Julia, the Senate house, in the Roman Forum",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY 2.0",
+   "credit": "“Curia Julia, Santi Luca e Martina, Arch of Septimius Severus, Roman Forum (32525713358)” by Sonse, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Curia_Julia,_Santi_Luca_e_Martina,_Arch_of_Septimius_Severus,_Roman_Forum_(32525713358).jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "learn_more": {
+   "label": "Pro Milone",
+   "url": "https://en.wikipedia.org/wiki/Pro_Milone",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-consul-senatui",
+  "type": "vocab",
+  "era": "republic",
+  "unit": 4,
+  "latin": "Cōnsul senātuī ōrātiōnem habet.",
+  "translation": "The consul gives a speech to the Senate.",
+  "context": "Two consuls were elected every year as the Republic's highest magistrates, and they called the Senate together and put business to it. Senators then spoke in order of rank before a vote. Senātuī is the dative, 'to the Senate', and ōrātiōnem habēre is the normal Latin for 'to make a speech'. The Senate usually met in the Curia in the Forum.",
+  "more": "The Senate's decrees were technically only advice, senātūs cōnsulta, but magistrates rarely ignored them.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Cōnsul",
+    "lemma": "cōnsul",
+    "meaning": "the consul",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "senātuī",
+    "lemma": "senātus",
+    "meaning": "to the Senate",
+    "parse": "dat. sg. m."
+   },
+   {
+    "word": "ōrātiōnem",
+    "lemma": "ōrātiō",
+    "meaning": "speech",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "habet",
+    "lemma": "habeō",
+    "meaning": "gives, delivers",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "dative",
+   "accusative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "dative",
+   "accusative"
+  ],
+  "vocab_ids": [
+   "consul",
+   "senatus",
+   "oratio",
+   "habeo"
+  ],
+  "teaching_value": {
+   "note": "Targets dative, accusative.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/plutei.webp",
+   "alt": "The Plutei of Trajan, reliefs displayed inside the Senate house",
+   "kind": "artifact",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 2.0",
+   "credit": "“Plutei of Trajan, on display inside the Curia Julia on the Forum Romanum, Rome (9465256365)” by Carole Raddato from FRANKFURT, Germany, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Plutei_of_Trajan,_on_display_inside_the_Curia_Julia_on_the_Forum_Romanum,_Rome_(9465256365).jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "learn_more": {
+   "label": "Roman Senate",
+   "url": "https://en.wikipedia.org/wiki/Roman_Senate",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-catullus-dianae",
+  "type": "quote",
+  "era": "republic",
+  "unit": 5,
+  "latin": "Diānae sumus in fidē puellae et puerī integrī",
+  "translation": "We are in Diana's care, girls and boys untouched",
+  "context": "Catullus 34 is a hymn to Diana written for a chorus of girls and boys, the kind sung at Roman festivals. Diana was goddess of the moon, hunting and childbirth, and protector of the young. In fidē means 'under the protection': fidē is a fifth-declension ablative. Diānae is a genitive, 'of Diana'.",
+  "more": "Horace's Carmen Saeculare of 17 BC was sung by just such a chorus of 27 girls and 27 boys.",
+  "person": "Catullus",
+  "source": {
+   "work": "Catullus, Carmina",
+   "citation": "34.1–2",
+   "date": "c. 55 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/catullus.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "The first i of Diana is short in Catullus's metre and is left unmarked.",
+  "gloss": [
+   {
+    "word": "Diānae",
+    "lemma": "Diāna",
+    "meaning": "of Diana",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "sumus",
+    "lemma": "sum",
+    "meaning": "we are",
+    "parse": "1st pl. pres."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "fidē",
+    "lemma": "fidēs",
+    "meaning": "protection, trust",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "puellae",
+    "lemma": "puella",
+    "meaning": "girls",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "puerī",
+    "lemma": "puer",
+    "meaning": "boys",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "integrī",
+    "lemma": "integer",
+    "meaning": "pure, untouched",
+    "parse": "nom. pl. m."
+   }
+  ],
+  "grammar_target": [
+   "fifth_declension",
+   "in_ablative",
+   "genitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "fifth_declension",
+   "in_ablative",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "sum",
+   "in",
+   "fides",
+   "puella",
+   "et",
+   "puer",
+   "integer"
+  ],
+  "teaching_value": {
+   "note": "Targets fifth_declension, in_ablative, genitive.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/diana.webp",
+   "alt": "The Diana of Versailles (Louvre), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "Shonagon · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Diane_de_Versailles_-_Mus%C3%A9e_du_Louvre_AGER_Ma_589.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Diana (mythology)",
+   "url": "https://en.wikipedia.org/wiki/Diana_(mythology)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-lucretius-aeneadum",
+  "type": "quote",
+  "era": "republic",
+  "unit": 5,
+  "latin": "Aeneadum genetrīx, hominum dīvomque voluptās, alma Venus",
+  "translation": "Mother of Aeneas's people, delight of men and gods, nurturing Venus",
+  "context": "Lucretius opens his poem On the Nature of Things with a hymn to Venus, mother of Aeneas and so of the Romans. This is surprising, since his Epicurean philosophy teaches that the gods take no interest in human life. Venus here stands for the creative force of nature. The vocatives pile up titles, each with a genitive: 'of the Aeneadae', 'of men and gods'.",
+  "more": "Dīvom is an old genitive plural of dīvus, 'god', the same as dīvōrum. Aeneadum is likewise a short genitive plural, 'of the descendants of Aeneas'.",
+  "person": "Lucretius",
+  "source": {
+   "work": "Lucretius, De rerum natura",
+   "citation": "1.1–2",
+   "date": "c. 55 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/lucretius/lucretius1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Aeneadum",
+    "lemma": "Aeneadae",
+    "meaning": "of the descendants of Aeneas",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "genetrīx",
+    "lemma": "genetrīx",
+    "meaning": "mother",
+    "parse": "voc. sg. f."
+   },
+   {
+    "word": "hominum",
+    "lemma": "homō",
+    "meaning": "of men",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "dīvom",
+    "lemma": "dīvus",
+    "meaning": "of gods",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
+   },
+   {
+    "word": "voluptās",
+    "lemma": "voluptās",
+    "meaning": "delight",
+    "parse": "voc. sg. f."
+   },
+   {
+    "word": "alma",
+    "lemma": "almus",
+    "meaning": "nurturing",
+    "parse": "voc. sg. f."
+   },
+   {
+    "word": "Venus",
+    "lemma": "Venus",
+    "meaning": "Venus",
+    "parse": "voc. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "vocative",
+   "genitive",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "vocative",
+   "genitive",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "genetrix",
+   "homo",
+   "divus",
+   "voluptas",
+   "almus"
+  ],
+  "teaching_value": {
+   "note": "Targets vocative, genitive, third_declension.",
+   "dcc_core_pct": 60,
+   "non_core": [
+    "genetrix",
+    "almus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/venus.webp",
+   "alt": "Sandro Botticelli, The Birth of Venus (Uffizi)",
+   "kind": "painting",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Sandro Botticelli · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_Birth_of_Venus_(Botticelli)_1.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "De rerum natura",
+   "url": "https://en.wikipedia.org/wiki/De_rerum_natura",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-virgil-ab-iove",
+  "type": "quote",
+  "era": "republic",
+  "unit": 5,
+  "latin": "Ab Iove prīncipium, Mūsae; Iovis omnia plēna.",
+  "translation": "From Jupiter the beginning, Muses; all things are full of Jupiter.",
+  "context": "In Eclogue 3 (about 39 BC) two shepherds hold a singing contest, and Damoetas begins with Jupiter, as Greek poets traditionally did. The line echoes the opening of Aratus's Phaenomena, a Greek poem about the stars. Ab Iove uses the ablative after a preposition, Iovis is the genitive, and Mūsae is a vocative plural.",
+  "more": "Iuppiter is irregular: Iovem, Iovis, Iovī, Iove. English jovial comes from Iovis, because the planet Jupiter was thought to make people cheerful.",
+  "person": "Virgil (speech of Damoetas)",
+  "source": {
+   "work": "Virgil, Eclogues",
+   "citation": "3.60",
+   "date": "c. 39 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/vergil/ec3.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Spoken by the shepherd Damoetas in the poem.",
+  "gloss": [
+   {
+    "word": "Ab",
+    "lemma": "ab",
+    "meaning": "from",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "Iove",
+    "lemma": "Iuppiter",
+    "meaning": "Jupiter",
+    "parse": "abl. sg. m."
+   },
+   {
+    "word": "prīncipium",
+    "lemma": "prīncipium",
+    "meaning": "beginning",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Mūsae",
+    "lemma": "Mūsa",
+    "meaning": "Muses",
+    "parse": "voc. pl. f."
+   },
+   {
+    "word": "Iovis",
+    "lemma": "Iuppiter",
+    "meaning": "of Jupiter",
+    "parse": "gen. sg. m."
+   },
+   {
+    "word": "omnia",
+    "lemma": "omnis",
+    "meaning": "all things",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "plēna",
+    "lemma": "plēnus",
+    "meaning": "full",
+    "parse": "nom. pl. n."
+   }
+  ],
+  "grammar_target": [
+   "prep_ablative",
+   "genitive",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "prep_ablative",
+   "genitive",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "ab",
+   "principium",
+   "omnis",
+   "plenus"
+  ],
+  "teaching_value": {
+   "note": "Targets prep_ablative, genitive, third_declension.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/jupiter.webp",
+   "alt": "The Jupiter of Versailles (Louvre), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Marie-Lan Nguyen · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jupiter_Versailles_Louvre_Ma78.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
+  },
+  "learn_more": {
+   "label": "Eclogues",
+   "url": "https://en.wikipedia.org/wiki/Eclogues",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-horace-mercuri",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Mercurī, fācunde nepōs Atlantis",
+  "translation": "Mercury, eloquent grandson of Atlas",
+  "context": "Horace's Ode 1.10 is a hymn to Mercury, messenger of the gods and patron of speakers, travellers, merchants and thieves. The god's mother Maia was a daughter of the Titan Atlas, hence 'grandson of Atlas'. Horace praises him for civilising early humans through speech and for stealing Apollo's cattle as a baby. Mercurī is a vocative, and Atlantis a third-declension genitive.",
+  "more": "Mercury, the god of trade, may take his name from merx, 'goods'. Wednesday is mercredi in French and mercoledì in Italian, 'Mercury's day'.",
+  "person": "Horace",
+  "source": {
+   "work": "Horace, Odes",
+   "citation": "1.10.1",
+   "date": "c. 23 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/horace/carm1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Mercurī",
+    "lemma": "Mercurius",
+    "meaning": "Mercury",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "fācunde",
+    "lemma": "fācundus",
+    "meaning": "eloquent",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "nepōs",
+    "lemma": "nepōs",
+    "meaning": "grandson",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "Atlantis",
+    "lemma": "Atlās",
+    "meaning": "of Atlas",
+    "parse": "gen. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "vocative",
+   "genitive",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "vocative",
+   "genitive",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "facundus",
+   "nepos"
+  ],
+  "teaching_value": {
+   "note": "Targets vocative, genitive, third_declension.",
+   "dcc_core_pct": 0,
+   "non_core": [
+    "facundus",
+    "nepos"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/mercury.webp",
+   "alt": "Giambologna, Flying Mercury (Bargello, Florence), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Mercurius by Giambologna-Bargello” by Yair Haklai, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mercurius_by_Giambologna-Bargello.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Mercury (mythology)",
+   "url": "https://en.wikipedia.org/wiki/Mercury_(mythology)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-ovid-iane",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Iāne biceps, annī tacitē lābentis orīgō",
+  "translation": "Two-headed Janus, source of the silently gliding year",
+  "context": "Ovid's Fasti is a poem on the Roman calendar, and its first god is Janus, god of doors, gates and beginnings. January, the first month, takes his name. Janus had two faces, looking forward and back, and his name was spoken first in Roman prayers. Iāne is a vocative, and annī lābentis a genitive phrase, 'of the gliding year'.",
+  "more": "Lābentis is a present participle, 'slipping by'. A iānua is a door, from the same root.",
+  "person": "Ovid",
+  "source": {
+   "work": "Ovid, Fasti",
+   "citation": "1.65",
+   "date": "c. AD 8"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.fasti1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Iāne",
+    "lemma": "Iānus",
+    "meaning": "Janus",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "biceps",
+    "lemma": "biceps",
+    "meaning": "two-headed",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "annī",
+    "lemma": "annus",
+    "meaning": "of the year",
+    "parse": "gen. sg. m."
+   },
+   {
+    "word": "tacitē",
+    "lemma": "tacitē",
+    "meaning": "silently",
+    "parse": "adv."
+   },
+   {
+    "word": "lābentis",
+    "lemma": "lābor",
+    "meaning": "gliding",
+    "parse": "gen. sg. pres. part."
+   },
+   {
+    "word": "orīgō",
+    "lemma": "orīgō",
+    "meaning": "source, origin",
+    "parse": "voc. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "vocative",
+   "genitive",
+   "third_declension"
+  ],
+  "grammar_preview": [
+   "present_participle"
+  ],
+  "grammar_tags": [
+   "vocative",
+   "genitive",
+   "third_declension",
+   "present_participle"
+  ],
+  "vocab_ids": [
+   "biceps",
+   "annus",
+   "tacite",
+   "labor",
+   "origo"
+  ],
+  "teaching_value": {
+   "note": "Targets vocative, genitive, third_declension; previews present_participle.",
+   "dcc_core_pct": 40,
+   "non_core": [
+    "biceps",
+    "tacite",
+    "origo"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/janus.webp",
+   "alt": "Double-faced bust of Janus (Vatican Museums), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Museos Vaticanos - Galería de los Mapas - Busto de Jano - 001” by Américo Toledano, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Museos_Vaticanos_-_Galer%C3%ADa_de_los_Mapas_-_Busto_de_Jano_-_001.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Janus",
+   "url": "https://en.wikipedia.org/wiki/Janus",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-ovid-est-deus",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Est deus in nōbīs; agitante calēscimus illō.",
+  "translation": "There is a god within us; when he stirs us, we grow warm.",
+  "context": "Ovid opens Book 6 of the Fasti by claiming that poets are inspired: a god lives in them and fires them up. Romans spoke of a poet as vātēs, a prophet, and believed the Muses or Apollo breathed songs into him. Ovid immediately admits that some readers will say he made it all up. In nōbīs is an ablative after in, 'in us'.",
+  "more": "Agitante illō, 'with him stirring', is an ablative absolute. English enthusiasm comes from Greek for 'having a god within'.",
+  "person": "Ovid",
+  "source": {
+   "work": "Ovid, Fasti",
+   "citation": "6.5",
+   "date": "c. AD 8"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.fasti6.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Est",
+    "lemma": "sum",
+    "meaning": "there is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "deus",
+    "lemma": "deus",
+    "meaning": "a god",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "nōbīs",
+    "lemma": "nōs",
+    "meaning": "us",
+    "parse": "abl. pl."
+   },
+   {
+    "word": "agitante",
+    "lemma": "agitō",
+    "meaning": "stirring",
+    "parse": "abl. sg. pres. part."
+   },
+   {
+    "word": "calēscimus",
+    "lemma": "calēscō",
+    "meaning": "we grow warm",
+    "parse": "1st pl. pres."
+   },
+   {
+    "word": "illō",
+    "lemma": "ille",
+    "meaning": "he",
+    "parse": "abl. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "in_ablative",
+   "first_person"
+  ],
+  "grammar_preview": [
+   "ablative_absolute"
+  ],
+  "grammar_tags": [
+   "in_ablative",
+   "first_person",
+   "ablative_absolute"
+  ],
+  "vocab_ids": [
+   "sum",
+   "deus",
+   "in",
+   "nos",
+   "agito",
+   "calesco",
+   "ille"
+  ],
+  "teaching_value": {
+   "note": "Targets in_ablative, first_person; previews ablative_absolute.",
+   "dcc_core_pct": 86,
+   "non_core": [
+    "calesco"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/ovidstatue.webp",
+   "alt": "Leaning Muse, probably Polyhymnia (Walters Art Museum), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Anonymous (Greece)Unknown author · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Greek_-_Leaning_Muse,_Probably_Polyhymnia_-_Walters_2390.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
+  },
+  "learn_more": {
+   "label": "Fasti (poem)",
+   "url": "https://en.wikipedia.org/wiki/Fasti_(poem)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "i-rib-1534",
+  "type": "artifact",
+  "era": "empire",
+  "unit": 5,
+  "latin": "DEAE COVVENTINAE T D COSCONIANVS PR COH I BAT L M — Deae Coventinae T(itus) D(…) Cosconiānus, praefectus cohortis I Batāvōrum, libēns meritō.",
+  "translation": "To the goddess Coventina, Titus D… Cosconianus, prefect of the First Cohort of Batavians, willingly and deservedly.",
+  "context": "Coventina was a local water goddess worshipped at a sacred spring beside the fort at Carrawburgh on Hadrian's Wall. When the well was excavated in 1876 it held over 13,000 coins, altars, carved reliefs and other offerings. This slab was set up by the commander of a cohort from the Rhine delta. Deae Coventinae is dative, 'to the goddess', and cohortis is genitive.",
+  "more": "L M stands for libēns meritō, 'willingly, as she deserved'. The formula thanks a god for an answered prayer.",
+  "source": {
+   "work": "Dedication slab from Coventina's Well, Carrawburgh (RIB 1534)",
+   "citation": "—",
+   "date": "2nd–3rd c. AD"
+  },
+  "source_url": "https://romaninscriptionsofbritain.org/inscriptions/1534",
+  "attribution_confidence": "verified",
+  "attribution_note": "The quantities of the vowels in Coventina are unknown and left unmarked. The text is the RIB online edition.",
+  "gloss": [
+   {
+    "word": "Deae",
+    "lemma": "dea",
+    "meaning": "to the goddess",
+    "parse": "dat. sg. f."
+   },
+   {
+    "word": "Coventinae",
+    "lemma": "Coventina",
+    "meaning": "Coventina",
+    "parse": "dat. sg. f."
+   },
+   {
+    "word": "Cosconiānus",
+    "lemma": "Cosconiānus",
+    "meaning": "Cosconianus",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "praefectus",
+    "lemma": "praefectus",
+    "meaning": "commander",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "cohortis",
+    "lemma": "cohors",
+    "meaning": "of the cohort",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "Batāvōrum",
+    "lemma": "Batāvī",
+    "meaning": "of the Batavians",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "libēns",
+    "lemma": "libēns",
+    "meaning": "willingly",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "meritō",
+    "lemma": "meritō",
+    "meaning": "deservedly",
+    "parse": "adv."
+   }
+  ],
+  "grammar_target": [
+   "dative",
+   "genitive",
+   "abbreviations"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "dative",
+   "genitive",
+   "abbreviations"
+  ],
+  "vocab_ids": [
+   "dea",
+   "praefectus",
+   "cohors",
+   "libens",
+   "merito"
+  ],
+  "teaching_value": {
+   "note": "Targets dative, genitive, abbreviations.",
+   "dcc_core_pct": 40,
+   "non_core": [
+    "praefectus",
+    "libens",
+    "merito"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "inscription",
+  "raw_text": {
+   "text": "DEAE / COVVENTINAE / T D COSCONIA / NVS PR COH / I BAT L M",
+   "source": "RIB online, 1534",
+   "label": "What the original actually says"
+  },
+  "image": {
+   "src": "img/batch6/coventina.webp",
+   "alt": "Altars and reliefs from Coventina's Well, Carrawburgh (drawing, J. C. Bruce, 1885)",
+   "kind": "inscription",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "John Collingwood Bruce · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bruce_Page168_Coventina_altar_1885.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Coventina",
+   "url": "https://en.wikipedia.org/wiki/Coventina",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "i-rib-1545",
+  "type": "artifact",
+  "era": "empire",
+  "unit": 5,
+  "latin": "D IN M S AVL CLVENTIVS HABITVS PRAF COH I BATAVORVM … V S L M — Deō Invictō Mithrae sacrum. Aulus Cluentius Habitus, praefectus cohortis I Batāvōrum, … vōtum solvit libēns meritō.",
+  "translation": "Sacred to the Unconquered God Mithras. Aulus Cluentius Habitus, prefect of the First Cohort of Batavians, … fulfilled his vow willingly and deservedly.",
+  "context": "This altar stood at the end of a small Mithraic temple at Carrawburgh, found in 1949. Mithras was a god of Persian origin whose secret cult spread among Roman soldiers and officials. His worshippers met in dark, cave-like temples for initiation and sacred meals. Deō Invictō Mithrae is dative: the altar is 'for' the god.",
+  "more": "The dedicator came from Larinum in Italy. A man of the same name from Larinum was Cicero's client in the Pro Cluentio (66 BC), perhaps an ancestor.",
+  "source": {
+   "work": "Altar from the Mithraeum at Carrawburgh (RIB 1545)",
+   "citation": "—",
+   "date": "3rd c. AD"
+  },
+  "source_url": "https://romaninscriptionsofbritain.org/inscriptions/1545",
+  "attribution_confidence": "verified",
+  "attribution_note": "Lines 6–8 (his home town, Colonia Septimia Aurelia Larinum) are omitted. The text is the RIB online edition.",
+  "gloss": [
+   {
+    "word": "Deō",
+    "lemma": "deus",
+    "meaning": "to the god",
+    "parse": "dat. sg. m."
+   },
+   {
+    "word": "Invictō",
+    "lemma": "invictus",
+    "meaning": "unconquered",
+    "parse": "dat. sg. m."
+   },
+   {
+    "word": "Mithrae",
+    "lemma": "Mithrās",
+    "meaning": "Mithras",
+    "parse": "dat. sg. m."
+   },
+   {
+    "word": "sacrum",
+    "lemma": "sacer",
+    "meaning": "sacred",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Aulus Cluentius Habitus",
+    "lemma": "Aulus Cluentius Habitus",
+    "meaning": "Aulus Cluentius Habitus",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "praefectus",
+    "lemma": "praefectus",
+    "meaning": "commander",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "cohortis",
+    "lemma": "cohors",
+    "meaning": "of the cohort",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "Batāvōrum",
+    "lemma": "Batāvī",
+    "meaning": "of the Batavians",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "vōtum",
+    "lemma": "vōtum",
+    "meaning": "vow",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "solvit",
+    "lemma": "solvō",
+    "meaning": "fulfilled",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "word": "libēns",
+    "lemma": "libēns",
+    "meaning": "willingly",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "meritō",
+    "lemma": "meritō",
+    "meaning": "deservedly",
+    "parse": "adv."
+   }
+  ],
+  "grammar_target": [
+   "dative",
+   "genitive",
+   "abbreviations"
+  ],
+  "grammar_preview": [
+   "perfect_tense"
+  ],
+  "grammar_tags": [
+   "dative",
+   "genitive",
+   "abbreviations",
+   "perfect_tense"
+  ],
+  "vocab_ids": [
+   "deus",
+   "invictus",
+   "sacer",
+   "praefectus",
+   "cohors",
+   "votum",
+   "solvo",
+   "libens",
+   "merito"
+  ],
+  "teaching_value": {
+   "note": "Targets dative, genitive, abbreviations; previews perfect_tense.",
+   "dcc_core_pct": 56,
+   "non_core": [
+    "invictus",
+    "praefectus",
+    "libens",
+    "merito"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "inscription",
+  "raw_text": {
+   "text": "D IN M S / AVL CLVENTIVS / HABITVS PRAF / COH I / BATAVORVM / DOMV VLTI / NA COLON SEPT AVR L / V S L M",
+   "source": "RIB online, 1545",
+   "label": "What the original actually says"
+  },
+  "image": {
+   "src": "img/batch6/mithraeum.webp",
+   "alt": "The three altars at the end of the Mithraeum at Carrawburgh (replicas in situ)",
+   "kind": "inscription",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 2.0",
+   "credit": "“Altars, Carrawburgh Mithraeum” by Alun Salt, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Altars,_Carrawburgh_Mithraeum.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "learn_more": {
+   "label": "Brocolitia (Carrawburgh)",
+   "url": "https://en.wikipedia.org/wiki/Brocolitia",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-templum-iovis",
+  "type": "vocab",
+  "era": "republic",
+  "unit": 5,
+  "latin": "Templum Iovis in Capitōliō est.",
+  "translation": "The temple of Jupiter is on the Capitol.",
+  "context": "The Temple of Jupiter Optimus Maximus on the Capitoline Hill was the religious heart of Rome, traditionally dedicated in 509 BC, the first year of the Republic. Generals ended their triumphs there, and consuls made vows there when taking office. It burned down several times and was always rebuilt on a grander scale. In Capitōliō is an ablative of place.",
+  "more": "English capitol and Capitol Hill in Washington come from Capitōlium. The temple was shared with Juno and Minerva.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Templum",
+    "lemma": "templum",
+    "meaning": "temple",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "Iovis",
+    "lemma": "Iuppiter",
+    "meaning": "of Jupiter",
+    "parse": "gen. sg. m."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "on",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "Capitōliō",
+    "lemma": "Capitōlium",
+    "meaning": "the Capitol",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "in_ablative",
+   "genitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "in_ablative",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "templum",
+   "in",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets in_ablative, genitive.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/capitolium.webp",
+   "alt": "Model of the Temple of Jupiter Optimus Maximus on the Capitol",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 3.0",
+   "credit": "“TempleofCapitoliumRome” by Hiro-o at Japanese Wikipedia, CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:TempleofCapitoliumRome.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "learn_more": {
+   "label": "Temple of Jupiter Optimus Maximus",
+   "url": "https://en.wikipedia.org/wiki/Temple_of_Jupiter_Optimus_Maximus",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-vestales-ignem",
+  "type": "vocab",
+  "era": "republic",
+  "unit": 5,
+  "latin": "Vestālēs ignem sacrum in aede Vestae servant.",
+  "translation": "The Vestals keep the sacred fire in the temple of Vesta.",
+  "context": "Vesta's temple in the Forum was round, recalling the huts of early Rome, and held no statue, only the eternal flame. Besides the fire it guarded sacred objects said to have come from Troy. Each year on 1 March the fire was ritually renewed. Ignem and aede are third-declension nouns; aedēs means a temple building.",
+  "more": "Vesta's temple was rebuilt many times, most recently by Julia Domna around AD 191. The surviving ruins date from that rebuilding.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Vestālēs",
+    "lemma": "Vestālis",
+    "meaning": "the Vestals",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "ignem",
+    "lemma": "ignis",
+    "meaning": "fire",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "sacrum",
+    "lemma": "sacer",
+    "meaning": "sacred",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "aede",
+    "lemma": "aedēs",
+    "meaning": "temple",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "Vestae",
+    "lemma": "Vesta",
+    "meaning": "of Vesta",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "servant",
+    "lemma": "servō",
+    "meaning": "they keep",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "grammar_target": [
+   "third_declension",
+   "in_ablative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "third_declension",
+   "in_ablative"
+  ],
+  "vocab_ids": [
+   "ignis",
+   "sacer",
+   "in",
+   "aedes",
+   "servo"
+  ],
+  "teaching_value": {
+   "note": "Targets third_declension, in_ablative.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/vestatemple.webp",
+   "alt": "The round Temple of Vesta in the Roman Forum",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Jebulon · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Temple_Vesta_Forum_Romanum_Rome_Italy.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Temple of Vesta",
+   "url": "https://en.wikipedia.org/wiki/Temple_of_Vesta",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-sacerdos-sacrificat",
+  "type": "vocab",
+  "era": "republic",
+  "unit": 5,
+  "latin": "Sacerdōs porcum, ovem et taurum Mārtī sacrificat.",
+  "translation": "The priest sacrifices a pig, a sheep and a bull to Mars.",
+  "context": "The suovetaurilia, from sūs, ovis and taurus, was the sacrifice of a pig, a sheep and a bull to Mars. It purified farmland, armies and, every five years, the whole Roman people at the census. The animals were led around the area to be purified before being killed. Mārtī is dative, 'to Mars', and the three animals are accusative.",
+  "more": "Romans sacrificed with the head covered by a fold of the toga, capite vēlātō. The animal's internal organs were then examined for signs from the gods.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Sacerdōs",
+    "lemma": "sacerdōs",
+    "meaning": "priest",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "porcum",
+    "lemma": "porcus",
+    "meaning": "pig",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "ovem",
+    "lemma": "ovis",
+    "meaning": "sheep",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "taurum",
+    "lemma": "taurus",
+    "meaning": "bull",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "Mārtī",
+    "lemma": "Mārs",
+    "meaning": "to Mars",
+    "parse": "dat. sg. m."
+   },
+   {
+    "word": "sacrificat",
+    "lemma": "sacrificō",
+    "meaning": "sacrifices",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "dative",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "dative",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "sacerdos",
+   "porcus",
+   "ovis",
+   "et",
+   "taurus",
+   "sacrifico"
+  ],
+  "teaching_value": {
+   "note": "Targets dative, third_declension.",
+   "dcc_core_pct": 33,
+   "non_core": [
+    "porcus",
+    "ovis",
+    "taurus",
+    "sacrifico"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch6/suovetaurilia.webp",
+   "alt": "Relief of a suovetaurilia: a pig, a sheep and a bull led to sacrifice (Louvre)",
+   "kind": "artifact",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "unknown · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Suovetaurile_Louvre.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Suovetaurilia",
+   "url": "https://en.wikipedia.org/wiki/Suovetaurilia",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-horace-phoebe",
+  "type": "quote",
+  "era": "empire",
+  "unit": 5,
+  "latin": "Phoebe silvārumque potēns Diāna",
+  "translation": "Phoebus, and Diana, ruler of the woods",
+  "context": "In 17 BC Augustus held the Secular Games to mark a new age for Rome, and Horace wrote the official hymn, the Carmen Saeculare. A choir of girls and boys sang it to Apollo (Phoebus) and his sister Diana on the Palatine and the Capitol. An inscription recording the games survives and names Horace as the author of the hymn. Phoebe is vocative, and silvārum a genitive after potēns, 'powerful over'.",
+  "more": "Apollo was Augustus's patron god: his temple stood beside Augustus's house on the Palatine.",
+  "person": "Horace",
+  "source": {
+   "work": "Horace, Carmen Saeculare",
+   "citation": "1",
+   "date": "17 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/horace/carmsaec.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Phoebe",
+    "lemma": "Phoebus",
+    "meaning": "Phoebus (Apollo)",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "silvārum",
+    "lemma": "silva",
+    "meaning": "of the woods",
+    "parse": "gen. pl. f."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
+   },
+   {
+    "word": "potēns",
+    "lemma": "potēns",
+    "meaning": "powerful, ruling",
+    "parse": "voc. sg. f."
+   },
+   {
+    "word": "Diāna",
+    "lemma": "Diāna",
+    "meaning": "Diana",
+    "parse": "voc. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "vocative",
+   "genitive",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "vocative",
+   "genitive",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "silva",
+   "potens"
+  ],
+  "teaching_value": {
+   "note": "Targets vocative, genitive, third_declension.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/apollo.webp",
+   "alt": "The Apollo Belvedere (Vatican Museums), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Apollo of the Belvedere” by Livioandronico2013, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_of_the_Belvedere.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Carmen Saeculare",
+   "url": "https://en.wikipedia.org/wiki/Carmen_Saeculare",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-caesar-veni-vidi-vici",
+  "type": "quote",
+  "era": "republic",
+  "unit": 6,
+  "latin": "Vēnī, vīdī, vīcī.",
+  "translation": "I came, I saw, I conquered.",
+  "context": "In 47 BC Caesar defeated King Pharnaces of Pontus at Zela in a battle of about four hours. At his Pontic triumph in 46 BC a placard was carried with just these three words. Suetonius says it showed how quickly the war was finished. The three perfects, each two syllables starting with v, are a perfect example of Latin brevity.",
+  "more": "Plutarch says Caesar also wrote the phrase in a letter to a friend in Rome. Venī, vīdī, vīcī are the first-person perfects of veniō, videō and vincō.",
+  "person": "Julius Caesar",
+  "source": {
+   "work": "Suetonius, Divus Iulius",
+   "citation": "37.2",
+   "date": "early 2nd c. AD"
+  },
+  "source_url": "https://www.thelatinlibrary.com/suetonius/suet.caesar.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "Suetonius reports the words as the title carried in Caesar's Pontic triumph.",
+  "gloss": [
+   {
+    "word": "Vēnī",
+    "lemma": "veniō",
+    "meaning": "I came",
+    "parse": "1st sg. perf."
+   },
+   {
+    "word": "vīdī",
+    "lemma": "videō",
+    "meaning": "I saw",
+    "parse": "1st sg. perf."
+   },
+   {
+    "word": "vīcī",
+    "lemma": "vincō",
+    "meaning": "I conquered",
+    "parse": "1st sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "perfect_tense",
+   "first_person"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "perfect_tense",
+   "first_person"
+  ],
+  "vocab_ids": [
+   "venio",
+   "video",
+   "vinco"
+  ],
+  "teaching_value": {
+   "note": "Targets perfect_tense, first_person.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/caesar.webp",
+   "alt": "Marble portrait of Julius Caesar, cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Ángel M. Felicísimo from Mérida, España · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg",
+   "modified": "background removed (cut-out), cropped, resized"
+  },
+  "learn_more": {
+   "label": "Veni, vidi, vici",
+   "url": "https://en.wikipedia.org/wiki/Veni,_vidi,_vici",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-resgestae-templa",
+  "type": "quote",
+  "era": "empire",
+  "unit": 6,
+  "latin": "Duo et octōgintā templa deum in urbe … refēcī.",
+  "translation": "I restored eighty-two temples of the gods in the city.",
+  "context": "Augustus presented himself as the restorer of Roman religion after the civil wars. In 28 BC, by decree of the Senate, he repaired 82 temples in a single year, 'leaving out none that needed repair'. He also built new ones, such as Mars Ultor in his own forum. Duo et octōgintā is a numeral, and refēcī a perfect, 'I rebuilt'.",
+  "more": "Deum is an old genitive plural, the same as deōrum. The omitted words are cōnsul sextum ex auctōritāte senātūs, 'in my sixth consulship, by authority of the Senate'.",
+  "person": "Augustus",
+  "source": {
+   "work": "Res Gestae Divi Augusti",
+   "citation": "20.4",
+   "date": "AD 14"
+  },
+  "source_url": "https://www.thelatinlibrary.com/resgestae.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Duo et octōgintā",
+    "lemma": "duo et octōgintā",
+    "meaning": "eighty-two",
+    "parse": "numeral"
+   },
+   {
+    "word": "templa",
+    "lemma": "templum",
+    "meaning": "temples",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "deum",
+    "lemma": "deus",
+    "meaning": "of the gods",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "urbe",
+    "lemma": "urbs",
+    "meaning": "the city",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "refēcī",
+    "lemma": "reficiō",
+    "meaning": "I restored",
+    "parse": "1st sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "numerals",
+   "perfect_tense"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "numerals",
+   "perfect_tense"
+  ],
+  "vocab_ids": [
+   "duo et octoginta",
+   "templum",
+   "deus",
+   "in",
+   "urbs",
+   "reficio"
+  ],
+  "teaching_value": {
+   "note": "Targets numerals, perfect_tense.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "duo et octoginta",
+    "reficio"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/marsultor.webp",
+   "alt": "Temple of Mars Ultor in the Forum of Augustus, Rome",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Szilas · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Forum_of_Augustus,_Temple_of_Mars_Ultor_2013.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Res Gestae Divi Augusti",
+   "url": "https://en.wikipedia.org/wiki/Res_Gestae_Divi_Augusti",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-ha-hadrian-murum",
+  "type": "quote",
+  "era": "empire",
+  "unit": 6,
+  "latin": "Mūrum per octōgintā mīlia passuum prīmus dūxit.",
+  "translation": "He was the first to build a wall for eighty miles.",
+  "context": "The Historia Augusta's life of Hadrian says that on his visit to Britain in AD 122 he built a wall 'to divide the barbarians from the Romans'. Hadrian's Wall ran 80 Roman miles from coast to coast, with forts, milecastles and turrets. A Roman mile, mīlle passūs, was a thousand paces, about 1,480 m. Octōgintā is a numeral and dūxit a perfect: literally 'he led a wall'.",
+  "more": "The text goes on: quī barbarōs Rōmānōsque dīvideret. About twenty years later Antoninus Pius built a turf wall further north in Scotland.",
+  "person": "Historia Augusta (anonymous)",
+  "source": {
+   "work": "Historia Augusta, Vita Hadriani",
+   "citation": "11.2",
+   "date": "late 4th c. AD"
+  },
+  "source_url": "https://www.thelatinlibrary.com/sha/hadr.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Source reads murumque; the card drops -que.",
+  "gloss": [
+   {
+    "word": "Mūrum",
+    "lemma": "mūrus",
+    "meaning": "wall",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "per",
+    "lemma": "per",
+    "meaning": "for, through",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "octōgintā",
+    "lemma": "octōgintā",
+    "meaning": "eighty",
+    "parse": "numeral"
+   },
+   {
+    "word": "mīlia",
+    "lemma": "mīlle",
+    "meaning": "thousands",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "passuum",
+    "lemma": "passus",
+    "meaning": "of paces",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "prīmus",
+    "lemma": "prīmus",
+    "meaning": "first",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "dūxit",
+    "lemma": "dūcō",
+    "meaning": "he built, drew",
+    "parse": "3rd sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "numerals",
+   "perfect_tense"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "numerals",
+   "perfect_tense"
+  ],
+  "vocab_ids": [
+   "murus",
+   "per",
+   "octoginta",
+   "mille",
+   "passus",
+   "primus",
+   "duco"
+  ],
+  "teaching_value": {
+   "note": "Targets numerals, perfect_tense.",
+   "dcc_core_pct": 71,
+   "non_core": [
+    "octoginta",
+    "passus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/wall.webp",
+   "alt": "Hadrian's Wall on Housesteads Crags, Northumberland",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Hadrian's Wall on Housesteads Crags - 06” by Benjamin Smith, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hadrian%27s_Wall_on_Housesteads_Crags_-_06.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Hadrian's Wall",
+   "url": "https://en.wikipedia.org/wiki/Hadrian%27s_Wall",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-caligula-oderint",
+  "type": "quote",
+  "era": "empire",
+  "unit": 6,
+  "latin": "Ōderint, dum metuant.",
+  "translation": "Let them hate, so long as they fear.",
+  "context": "Suetonius says the emperor Caligula (AD 37–41) kept repeating this line from a tragedy by Accius, a Roman poet of the 2nd century BC. In the play it was spoken by Atreus, the cruel king of Mycenae. Caligula was murdered by officers of his own guard. Ōdī, 'I hate', has only perfect forms but present meaning.",
+  "more": "Ōderint and metuant are subjunctives. Cicero and Seneca also quote the line as the motto of a tyrant.",
+  "person": "Accius (quoted by Caligula)",
+  "source": {
+   "work": "Suetonius, Gaius Caligula",
+   "citation": "30.1",
+   "date": "early 2nd c. AD"
+  },
+  "source_url": "https://www.thelatinlibrary.com/suetonius/suet.cal.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "The line comes from Accius's tragedy Atreus. Suetonius says Caligula often quoted it.",
+  "gloss": [
+   {
+    "word": "Ōderint",
+    "lemma": "ōdī",
+    "meaning": "let them hate",
+    "parse": "3rd pl. perf. subj."
+   },
+   {
+    "word": "dum",
+    "lemma": "dum",
+    "meaning": "so long as",
+    "parse": "conj."
+   },
+   {
+    "word": "metuant",
+    "lemma": "metuō",
+    "meaning": "they fear",
+    "parse": "3rd pl. pres. subj."
+   }
+  ],
+  "grammar_target": [
+   "perfect_form_present_meaning"
+  ],
+  "grammar_preview": [
+   "subjunctive"
+  ],
+  "grammar_tags": [
+   "perfect_form_present_meaning",
+   "subjunctive"
+  ],
+  "vocab_ids": [
+   "odi",
+   "dum",
+   "metuo"
+  ],
+  "teaching_value": {
+   "note": "Targets perfect_form_present_meaning; previews subjunctive.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/caligula.webp",
+   "alt": "Marble portrait bust of Caligula (The Met), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "unknown · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_bust_of_the_emperor_Gaius,_known_as_Caligula_MET_DP337262.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Caligula",
+   "url": "https://en.wikipedia.org/wiki/Caligula",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-eutropius-augustus",
+  "type": "quote",
+  "era": "empire",
+  "unit": 6,
+  "latin": "Ex eō rem pūblicam per quadrāgintā et quattuor annōs sōlus obtinuit.",
+  "translation": "From then on he held the state alone for forty-four years.",
+  "context": "Eutropius wrote a short history of Rome around AD 369 for the emperor Valens, and his plain Latin made him a school author for centuries. Here he describes Augustus after the defeat of Antony and Cleopatra. Counting from 30 BC to his death in AD 14 gives 44 years. Quadrāgintā et quattuor is a numeral and obtinuit a perfect.",
+  "more": "Rēs pūblica, literally 'public thing', means the state, and gives English republic.",
+  "person": "Eutropius",
+  "source": {
+   "work": "Eutropius, Breviarium ab urbe condita",
+   "citation": "7.8",
+   "date": "c. AD 369"
+  },
+  "source_url": "https://www.thelatinlibrary.com/eutropius/eutropius7.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Ex",
+    "lemma": "ex",
+    "meaning": "from",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "eō",
+    "lemma": "is",
+    "meaning": "that (time)",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "rem pūblicam",
+    "lemma": "rēs pūblica",
+    "meaning": "the state",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "per",
+    "lemma": "per",
+    "meaning": "for",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "quadrāgintā et quattuor",
+    "lemma": "quadrāgintā et quattuor",
+    "meaning": "forty-four",
+    "parse": "numeral"
+   },
+   {
+    "word": "annōs",
+    "lemma": "annus",
+    "meaning": "years",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "sōlus",
+    "lemma": "sōlus",
+    "meaning": "alone",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "obtinuit",
+    "lemma": "obtineō",
+    "meaning": "held",
+    "parse": "3rd sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "numerals",
+   "perfect_tense"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "numerals",
+   "perfect_tense"
+  ],
+  "vocab_ids": [
+   "ex",
+   "is",
+   "res publica",
+   "per",
+   "quadraginta et quattuor",
+   "annus",
+   "solus",
+   "obtineo"
+  ],
+  "teaching_value": {
+   "note": "Targets numerals, perfect_tense.",
+   "dcc_core_pct": 62,
+   "non_core": [
+    "res publica",
+    "quadraginta et quattuor",
+    "obtineo"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/augustus.webp",
+   "alt": "Augustus of Prima Porta, marble statue (Vatican Museums), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "Public domain",
+   "credit": "Till Niermann · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg",
+   "modified": "background removed (cut-out), cropped, resized"
+  },
+  "learn_more": {
+   "label": "Eutropius",
+   "url": "https://en.wikipedia.org/wiki/Eutropius",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-eutropius-titus",
+  "type": "quote",
+  "era": "empire",
+  "unit": 6,
+  "latin": "Hic Rōmae amphitheātrum aedificāvit et quīnque mīlia ferārum in dēdicātiōne eius occīdit.",
+  "translation": "He built an amphitheatre at Rome and killed five thousand wild animals at its dedication.",
+  "context": "Eutropius credits the emperor Titus with the Colosseum, begun by his father Vespasian and opened by Titus in AD 80 with a hundred days of games. Five thousand beasts in a day is the figure Suetonius also gives. Rōmae is a locative, 'at Rome', and both verbs are perfects. Quīnque mīlia, 'five thousand', takes the genitive ferārum.",
+  "more": "The building's ancient name was the Flavian Amphitheatre. The name Colosseum came later, probably from a colossal statue of Nero nearby.",
+  "person": "Eutropius",
+  "source": {
+   "work": "Eutropius, Breviarium ab urbe condita",
+   "citation": "7.21",
+   "date": "c. AD 369"
+  },
+  "source_url": "https://www.thelatinlibrary.com/eutropius/eutropius7.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Hic",
+    "lemma": "hic",
+    "meaning": "he, this man",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "Rōmae",
+    "lemma": "Rōma",
+    "meaning": "at Rome",
+    "parse": "locative"
+   },
+   {
+    "word": "amphitheātrum",
+    "lemma": "amphitheātrum",
+    "meaning": "amphitheatre",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "aedificāvit",
+    "lemma": "aedificō",
+    "meaning": "built",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "quīnque",
+    "lemma": "quīnque",
+    "meaning": "five",
+    "parse": "numeral"
+   },
+   {
+    "word": "mīlia",
+    "lemma": "mīlle",
+    "meaning": "thousands",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "ferārum",
+    "lemma": "fera",
+    "meaning": "of wild beasts",
+    "parse": "gen. pl. f."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "at",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "dēdicātiōne",
+    "lemma": "dēdicātiō",
+    "meaning": "dedication",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "eius",
+    "lemma": "is",
+    "meaning": "its",
+    "parse": "gen. sg."
+   },
+   {
+    "word": "occīdit",
+    "lemma": "occīdō",
+    "meaning": "killed",
+    "parse": "3rd sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "numerals",
+   "perfect_tense"
+  ],
+  "grammar_preview": [
+   "demonstratives"
+  ],
+  "grammar_tags": [
+   "numerals",
+   "perfect_tense",
+   "demonstratives"
+  ],
+  "vocab_ids": [
+   "hic",
+   "amphitheatrum",
+   "aedifico",
+   "et",
+   "quinque",
+   "mille",
+   "fera",
+   "in",
+   "dedicatio",
+   "is",
+   "occido"
+  ],
+  "teaching_value": {
+   "note": "Targets numerals, perfect_tense; previews demonstratives.",
+   "dcc_core_pct": 55,
+   "non_core": [
+    "amphitheatrum",
+    "aedifico",
+    "quinque",
+    "fera",
+    "dedicatio"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/colosseum.webp",
+   "alt": "Exterior of the Colosseum (Flavian Amphitheatre), Rome",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 2.0",
+   "credit": "“Rome - Exterior of the Colosseum (5178267201)” by Dennis G. Jarvis, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rome_-_Exterior_of_the_Colosseum_(5178267201).jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "learn_more": {
+   "label": "Colosseum",
+   "url": "https://en.wikipedia.org/wiki/Colosseum",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-resgestae-ianum",
+  "type": "quote",
+  "era": "empire",
+  "unit": 6,
+  "latin": "Iānum Quirīnum … ter mē prīncipe senātus claudendum esse cēnsuit.",
+  "translation": "The Senate decreed three times while I was leader that Janus Quirinus should be closed.",
+  "context": "The doors of the shrine of Janus in the Forum were closed only when Rome was at peace on land and sea. Augustus boasts that this had happened only twice in all Roman history before him, and three times in his own reign. Peace was a central theme of his propaganda. Ter, 'three times', is a numeral adverb, and cēnsuit a perfect.",
+  "more": "Mē prīncipe, 'with me as leader', is an ablative absolute and claudendum a gerundive. Nero later struck coins showing the closed doors.",
+  "person": "Augustus",
+  "source": {
+   "work": "Res Gestae Divi Augusti",
+   "citation": "13",
+   "date": "AD 14"
+  },
+  "source_url": "https://www.thelatinlibrary.com/resgestae.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "Ellipsis omits a long clause on how peace had been won by victories on land and sea. The Latin Library text misprints Quinnum for Quirinum.",
+  "gloss": [
+   {
+    "word": "Iānum",
+    "lemma": "Iānus",
+    "meaning": "Janus",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "Quirīnum",
+    "lemma": "Quirīnus",
+    "meaning": "Quirinus (title of Janus)",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "ter",
+    "lemma": "ter",
+    "meaning": "three times",
+    "parse": "adv."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "abl. sg."
+   },
+   {
+    "word": "prīncipe",
+    "lemma": "prīnceps",
+    "meaning": "leader",
+    "parse": "abl. sg. m."
+   },
+   {
+    "word": "senātus",
+    "lemma": "senātus",
+    "meaning": "the Senate",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "claudendum esse",
+    "lemma": "claudō",
+    "meaning": "should be closed",
+    "parse": "gerundive + inf."
+   },
+   {
+    "word": "cēnsuit",
+    "lemma": "cēnseō",
+    "meaning": "decreed",
+    "parse": "3rd sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "numerals",
+   "perfect_tense"
+  ],
+  "grammar_preview": [
+   "ablative_absolute",
+   "gerundive"
+  ],
+  "grammar_tags": [
+   "numerals",
+   "perfect_tense",
+   "ablative_absolute",
+   "gerundive"
+  ],
+  "vocab_ids": [
+   "ter",
+   "ego",
+   "princeps",
+   "senatus",
+   "claudo",
+   "censeo"
+  ],
+  "teaching_value": {
+   "note": "Targets numerals, perfect_tense; previews ablative_absolute, gerundive.",
+   "dcc_core_pct": 83,
+   "non_core": [
+    "ter"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/januscoin.webp",
+   "alt": "Bronze sestertius of Nero (AD 65) showing the Temple of Janus with its doors closed",
+   "kind": "coin",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 2.5",
+   "credit": "“Nero Sestertius 65 90020174” by Classical Numismatic Group, CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Nero_Sestertius_65_90020174.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "learn_more": {
+   "label": "Temple of Janus (Roman Forum)",
+   "url": "https://en.wikipedia.org/wiki/Temple_of_Janus_(Roman_Forum)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-ovid-parve",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Parve (nec invideō) sine mē, liber, ībis in urbem",
+  "translation": "Little book, you will go to the city without me (I don't begrudge it)",
+  "context": "In AD 8 Augustus banished Ovid to Tomis on the Black Sea, modern Constanța in Romania, for 'a poem and a mistake'. The first poem of his Sorrows (Tristia) sends his book off to Rome, where its author may not go. Ībis is a future, 'you will go', and parve and liber are vocatives, as Ovid speaks to the book. He never returned and died in exile around AD 17.",
+  "more": "The 'poem' was probably his Art of Love. The 'mistake' has never been explained.",
+  "person": "Ovid",
+  "source": {
+   "work": "Ovid, Tristia",
+   "citation": "1.1.1",
+   "date": "c. AD 9"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.tristia1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Parve",
+    "lemma": "parvus",
+    "meaning": "little",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "nec",
+    "lemma": "nec",
+    "meaning": "and not",
+    "parse": "conj."
+   },
+   {
+    "word": "invideō",
+    "lemma": "invideō",
+    "meaning": "I begrudge",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "sine",
+    "lemma": "sine",
+    "meaning": "without",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "abl. sg."
+   },
+   {
+    "word": "liber",
+    "lemma": "liber",
+    "meaning": "book",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "ībis",
+    "lemma": "eō",
+    "meaning": "you will go",
+    "parse": "2nd sg. fut."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "into",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "urbem",
+    "lemma": "urbs",
+    "meaning": "the city",
+    "parse": "acc. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "future_tense",
+   "vocative",
+   "personal_pronouns"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "future_tense",
+   "vocative",
+   "personal_pronouns"
+  ],
+  "vocab_ids": [
+   "parvus",
+   "nec",
+   "invideo",
+   "sine",
+   "ego",
+   "liber",
+   "eo",
+   "in",
+   "urbs"
+  ],
+  "teaching_value": {
+   "note": "Targets future_tense, vocative, personal_pronouns.",
+   "dcc_core_pct": 89,
+   "non_core": [
+    "invideo"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/delacroix.webp",
+   "alt": "Eugène Delacroix, Ovid among the Scythians (1859)",
+   "kind": "painting",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Eugène Delacroix · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Ovide_chez_les_Scythes_(1859).jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Tristia",
+   "url": "https://en.wikipedia.org/wiki/Tristia",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-catullus-lugete",
+  "type": "quote",
+  "era": "republic",
+  "unit": 7,
+  "latin": "Lūgēte, ō Venerēs Cupīdinēsque",
+  "translation": "Mourn, O Venuses and Cupids",
+  "context": "Catullus 3 is a mock funeral song for the pet sparrow of his girlfriend Lesbia. He calls on all the goddesses and gods of love, and 'all charming people', to grieve. The imperative lūgēte is plural, because he addresses a crowd. The poem mixes real tenderness with the comedy of a grand lament for a small bird.",
+  "more": "Lesbia's real name was probably Clodia, from one of Rome's grandest families. Catullus's poems about the sparrow were famous enough for Martial to imitate them.",
+  "person": "Catullus",
+  "source": {
+   "work": "Catullus, Carmina",
+   "citation": "3.1",
+   "date": "c. 55 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/catullus.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Lūgēte",
+    "lemma": "lūgeō",
+    "meaning": "mourn",
+    "parse": "2nd pl. imperative"
+   },
+   {
+    "word": "ō",
+    "lemma": "ō",
+    "meaning": "O",
+    "parse": "interj."
+   },
+   {
+    "word": "Venerēs",
+    "lemma": "Venus",
+    "meaning": "Venuses",
+    "parse": "voc. pl. f."
+   },
+   {
+    "word": "Cupīdinēs",
+    "lemma": "Cupīdō",
+    "meaning": "Cupids",
+    "parse": "voc. pl. m."
+   },
+   {
+    "word": "-que",
+    "lemma": "-que",
+    "meaning": "and",
+    "parse": "enclitic"
+   }
+  ],
+  "grammar_target": [
+   "imperative",
+   "vocative",
+   "enclitic_que"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "imperative",
+   "vocative",
+   "enclitic_que"
+  ],
+  "vocab_ids": [
+   "lugeo",
+   "o"
+  ],
+  "teaching_value": {
+   "note": "Targets imperative, vocative, enclitic_que.",
+   "dcc_core_pct": 0,
+   "non_core": [
+    "lugeo",
+    "o"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/sparrow.webp",
+   "alt": "Edward Poynter, Lesbia and her Sparrow (1907)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Edward Poynter · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Sir_Edward_John_Poynter_lesbia_and_her_sparrow.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Catullus 3",
+   "url": "https://en.wikipedia.org/wiki/Catullus_3",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-catullus-basia",
+  "type": "quote",
+  "era": "republic",
+  "unit": 7,
+  "latin": "Dā mī bāsia mīlle, deinde centum",
+  "translation": "Give me a thousand kisses, then a hundred",
+  "context": "In Catullus 5 the poet urges Lesbia to ignore the gossip of grumpy old men and love while life lasts, for 'one endless night must be slept'. Then he demands kisses: a thousand, a hundred, another thousand, until they lose count so that no one can cast the evil eye on them. Dā is an imperative and mīlle and centum are numerals. Mī is a short form of mihi.",
+  "more": "Ben Jonson's 'Come, my Celia' and many other love poems imitate this one.",
+  "person": "Catullus",
+  "source": {
+   "work": "Catullus, Carmina",
+   "citation": "5.7",
+   "date": "c. 55 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/catullus.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Dā",
+    "lemma": "dō",
+    "meaning": "give",
+    "parse": "2nd sg. imperative"
+   },
+   {
+    "word": "mī",
+    "lemma": "ego",
+    "meaning": "to me",
+    "parse": "dat. sg."
+   },
+   {
+    "word": "bāsia",
+    "lemma": "bāsium",
+    "meaning": "kisses",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "mīlle",
+    "lemma": "mīlle",
+    "meaning": "a thousand",
+    "parse": "numeral"
+   },
+   {
+    "word": "deinde",
+    "lemma": "deinde",
+    "meaning": "then",
+    "parse": "adv."
+   },
+   {
+    "word": "centum",
+    "lemma": "centum",
+    "meaning": "a hundred",
+    "parse": "numeral"
+   }
+  ],
+  "grammar_target": [
+   "imperative",
+   "numerals",
+   "personal_pronouns"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "imperative",
+   "numerals",
+   "personal_pronouns"
+  ],
+  "vocab_ids": [
+   "do",
+   "ego",
+   "basium",
+   "mille",
+   "deinde",
+   "centum"
+  ],
+  "teaching_value": {
+   "note": "Targets imperative, numerals, personal_pronouns.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "basium",
+    "deinde"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/lesbia.webp",
+   "alt": "Lawrence Alma-Tadema, Catullus at Lesbia's (1865)",
+   "kind": "painting",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Lawrence Alma-Tadema · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Catullus-at-Lesbia%27s-large.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Catullus 5",
+   "url": "https://en.wikipedia.org/wiki/Catullus_5",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-propertius-cynthia",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Cynthia prīma suīs miserum mē cēpit ocellīs",
+  "translation": "Cynthia was the first to capture wretched me with her eyes",
+  "context": "Propertius's first book of elegies (about 29 BC) is named after Cynthia, and her name is its very first word. The Latin love-poet makes himself the helpless captive of his mistress, a pose Ovid would later parody. Mē is the object of cēpit, 'captured', and ocellīs, 'little eyes', is an ablative of means.",
+  "more": "Cynthia was a pen-name, perhaps for a woman called Hostia. It is also a title of Diana, born on Mount Cynthus.",
+  "person": "Propertius",
+  "source": {
+   "work": "Propertius, Elegiae",
+   "citation": "1.1.1",
+   "date": "c. 29 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/propertius1.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Cynthia",
+    "lemma": "Cynthia",
+    "meaning": "Cynthia",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "prīma",
+    "lemma": "prīmus",
+    "meaning": "first",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "suīs",
+    "lemma": "suus",
+    "meaning": "her",
+    "parse": "abl. pl. m."
+   },
+   {
+    "word": "miserum",
+    "lemma": "miser",
+    "meaning": "wretched",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "cēpit",
+    "lemma": "capiō",
+    "meaning": "captured",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "word": "ocellīs",
+    "lemma": "ocellus",
+    "meaning": "with little eyes",
+    "parse": "abl. pl. m."
+   }
+  ],
+  "grammar_target": [
+   "personal_pronouns",
+   "perfect_tense"
+  ],
+  "grammar_preview": [
+   "ablative_means"
+  ],
+  "grammar_tags": [
+   "personal_pronouns",
+   "perfect_tense",
+   "ablative_means"
+  ],
+  "vocab_ids": [
+   "primus",
+   "suus",
+   "miser",
+   "ego",
+   "capio",
+   "ocellus"
+  ],
+  "teaching_value": {
+   "note": "Targets personal_pronouns, perfect_tense; previews ablative_means.",
+   "dcc_core_pct": 83,
+   "non_core": [
+    "ocellus"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/propertius.webp",
+   "alt": "Auguste Vinchon, Propertius and Cynthia at Tivoli",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Auguste Vinchon · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Prop_and_Cynth.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Propertius",
+   "url": "https://en.wikipedia.org/wiki/Propertius",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-horace-eheu",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Ēheu fugācēs, Postume, Postume, lābuntur annī",
+  "translation": "Alas, Postumus, Postumus, the fleeting years slip by",
+  "context": "Horace's Ode 2.14 is a meditation on death addressed to a friend called Postumus. No piety, he says, can delay wrinkles and old age, and an heir will drink the fine wine Postumus has hoarded. Repeating the name gives the line the sound of a sigh. Postume is a vocative, and fugācēs, 'fleeting', agrees with annī.",
+  "more": "Lābuntur comes from the deponent verb lābor, 'slip, glide'. Romans liked mosaics like the Pompeian skull to remind diners that life is short.",
+  "person": "Horace",
+  "source": {
+   "work": "Horace, Odes",
+   "citation": "2.14.1–2",
+   "date": "c. 23 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/horace/carm2.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Ēheu",
+    "lemma": "ēheu",
+    "meaning": "alas",
+    "parse": "interj."
+   },
+   {
+    "word": "fugācēs",
+    "lemma": "fugāx",
+    "meaning": "fleeting",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "Postume",
+    "lemma": "Postumus",
+    "meaning": "Postumus",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "lābuntur",
+    "lemma": "lābor",
+    "meaning": "slip by",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "annī",
+    "lemma": "annus",
+    "meaning": "years",
+    "parse": "nom. pl. m."
+   }
+  ],
+  "grammar_target": [
+   "vocative",
+   "adjective_agreement"
+  ],
+  "grammar_preview": [
+   "deponent"
+  ],
+  "grammar_tags": [
+   "vocative",
+   "adjective_agreement",
+   "deponent"
+  ],
+  "vocab_ids": [
+   "eheu",
+   "fugax",
+   "labor",
+   "annus"
+  ],
+  "teaching_value": {
+   "note": "Targets vocative, adjective_agreement; previews deponent.",
+   "dcc_core_pct": 50,
+   "non_core": [
+    "eheu",
+    "fugax"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/skull.webp",
+   "alt": "Memento mori mosaic from Pompeii: a skull, a level and the wheel of fortune (Naples)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "MatthiasKabel · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Skull_mosaic_MAN_Naples_Inv_109982.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Odes (Horace)",
+   "url": "https://en.wikipedia.org/wiki/Odes_(Horace)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-ovid-arbor",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Arbor eris certē mea!",
+  "translation": "You will certainly be my tree!",
+  "context": "In Ovid's Metamorphoses Apollo chases the nymph Daphne, who prays to escape and is turned into a laurel tree. Since she cannot be his wife, the god declares that she will be his tree. Laurel wreaths would crown his lyre, his quiver and Roman generals in triumph. Eris is the future of sum, 'you will be'.",
+  "more": "Daphne is Greek for 'laurel'. Bernini's marble statue in the Galleria Borghese shows the moment her fingers sprout leaves.",
+  "person": "Ovid (speech of Apollo)",
+  "source": {
+   "work": "Ovid, Metamorphoses",
+   "citation": "1.557–58",
+   "date": "c. AD 8"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.met1.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Spoken by Apollo in the poem. The source has arbor eris certe, dixit, mea; the card omits dixit (he said).",
+  "gloss": [
+   {
+    "word": "Arbor",
+    "lemma": "arbor",
+    "meaning": "tree",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "eris",
+    "lemma": "sum",
+    "meaning": "you will be",
+    "parse": "2nd sg. fut."
+   },
+   {
+    "word": "certē",
+    "lemma": "certē",
+    "meaning": "certainly",
+    "parse": "adv."
+   },
+   {
+    "word": "mea",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "future_tense",
+   "possessive_adjectives"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "future_tense",
+   "possessive_adjectives"
+  ],
+  "vocab_ids": [
+   "arbor",
+   "sum",
+   "certe",
+   "meus"
+  ],
+  "teaching_value": {
+   "note": "Targets future_tense, possessive_adjectives.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/daphne.webp",
+   "alt": "Gian Lorenzo Bernini, Apollo and Daphne (Galleria Borghese), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Apollo and Daphne (Bernini) (cropped)” by Architas, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Apollo_and_Daphne_(Bernini)_(cropped).jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Apollo and Daphne",
+   "url": "https://en.wikipedia.org/wiki/Apollo_and_Daphne",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-virgil-tityre",
+  "type": "quote",
+  "era": "republic",
+  "unit": 7,
+  "latin": "Tītyre, tū patulae recubāns sub tegmine fāgī",
+  "translation": "Tityrus, you, lying back under the cover of a spreading beech",
+  "context": "These are the first words of Virgil's Eclogues (about 39 BC). The shepherd Meliboeus, driven off his land, envies Tityrus, who can relax and sing in the shade. The poem reflects real confiscations of farmland to settle veterans after the civil wars. Tītyre is a vocative and tū a personal pronoun.",
+  "more": "Recubāns is a present participle, 'lying back'. The Vergilius Romanus, a 5th-century manuscript in the Vatican, illustrates this scene.",
+  "person": "Virgil (speech of Meliboeus)",
+  "source": {
+   "work": "Virgil, Eclogues",
+   "citation": "1.1",
+   "date": "c. 39 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/vergil/ec1.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Spoken by Meliboeus in the poem.",
+  "gloss": [
+   {
+    "word": "Tītyre",
+    "lemma": "Tītyrus",
+    "meaning": "Tityrus",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "tū",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "nom. sg."
+   },
+   {
+    "word": "patulae",
+    "lemma": "patulus",
+    "meaning": "spreading",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "recubāns",
+    "lemma": "recubō",
+    "meaning": "lying back",
+    "parse": "nom. sg. pres. part."
+   },
+   {
+    "word": "sub",
+    "lemma": "sub",
+    "meaning": "under",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "tegmine",
+    "lemma": "tegmen",
+    "meaning": "cover",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "fāgī",
+    "lemma": "fāgus",
+    "meaning": "of a beech",
+    "parse": "gen. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "vocative",
+   "personal_pronouns"
+  ],
+  "grammar_preview": [
+   "present_participle"
+  ],
+  "grammar_tags": [
+   "vocative",
+   "personal_pronouns",
+   "present_participle"
+  ],
+  "vocab_ids": [
+   "tu",
+   "patulus",
+   "recubo",
+   "sub",
+   "tegmen",
+   "fagus"
+  ],
+  "teaching_value": {
+   "note": "Targets vocative, personal_pronouns; previews present_participle.",
+   "dcc_core_pct": 33,
+   "non_core": [
+    "patulus",
+    "recubo",
+    "tegmen",
+    "fagus"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/tityrus.webp",
+   "alt": "Opening of the Eclogues in the Vergilius Romanus (5th century): Tityrus and Meliboeus",
+   "kind": "manuscript",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "unknown · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:RomanVirgilFolio001rEclogues.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Eclogue 1",
+   "url": "https://en.wikipedia.org/wiki/Eclogue_1",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-ovid-penelope",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Haec tua Pēnelopē lentō tibi mittit, Ulixe",
+  "translation": "Your Penelope sends this to you, slow Ulysses",
+  "context": "Ovid's Heroines are imaginary letters from mythical women to absent lovers, and the first is from Penelope to Ulysses, still not home twenty years after leaving for Troy. Troy has fallen, she writes, so why has he not come back? Haec, 'these (words)', is a neuter plural demonstrative, the object of mittit, tibi a dative, and Ulixe a vocative. Lentō, 'slow', is a reproach.",
+  "more": "Ulixēs is the Latin form of Odysseus. Penelope kept her suitors waiting by weaving and secretly unweaving a shroud.",
+  "person": "Ovid (as Penelope)",
+  "source": {
+   "work": "Ovid, Heroides",
+   "citation": "1.1",
+   "date": "c. 15 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ovid/ovid.her1.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "Written by Ovid in the voice of Penelope. The quantity of the final e of the vocative Ulixe is uncertain and left unmarked. Some editions read Hanc (sc. epistulam), 'this letter'.",
+  "gloss": [
+   {
+    "word": "Haec",
+    "lemma": "hic",
+    "meaning": "this",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "tua",
+    "lemma": "tuus",
+    "meaning": "your",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "Pēnelopē",
+    "lemma": "Pēnelopē",
+    "meaning": "Penelope",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "lentō",
+    "lemma": "lentus",
+    "meaning": "slow",
+    "parse": "dat. sg. m."
+   },
+   {
+    "word": "tibi",
+    "lemma": "tū",
+    "meaning": "to you",
+    "parse": "dat. sg."
+   },
+   {
+    "word": "mittit",
+    "lemma": "mittō",
+    "meaning": "sends",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "Ulixe",
+    "lemma": "Ulixēs",
+    "meaning": "Ulysses",
+    "parse": "voc. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "demonstratives",
+   "dative",
+   "personal_pronouns"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "demonstratives",
+   "dative",
+   "personal_pronouns"
+  ],
+  "vocab_ids": [
+   "hic",
+   "tuus",
+   "lentus",
+   "tu",
+   "mitto"
+  ],
+  "teaching_value": {
+   "note": "Targets demonstratives, dative, personal_pronouns.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "lentus"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/penelope.webp",
+   "alt": "Francesco Primaticcio, Ulysses and Penelope (about 1560)",
+   "kind": "painting",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Francesco Primaticcio · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Primaticcio_-_Ulysses_and_Penelope_-_WGA18409.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Heroides",
+   "url": "https://en.wikipedia.org/wiki/Heroides",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-sulpicia-tandem",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Tandem vēnit amor",
+  "translation": "At last love has come",
+  "context": "Sulpicia, a young noblewoman and niece of Augustus's general Messalla, is the only Roman woman poet whose verse survives in any quantity. Her six short elegies were preserved among the poems of Tibullus. This one opens with frank joy: love has come at last, and she would rather people talk about it than hide it. Vēnit is a perfect, 'has come'.",
+  "more": "She calls her lover Cerinthus. Scholars long doubted a woman could have written the poems, but most now accept them as hers.",
+  "person": "Sulpicia",
+  "source": {
+   "work": "Corpus Tibullianum (Sulpicia)",
+   "citation": "3.13.1",
+   "date": "late 1st c. BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/tibullus3.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Tandem",
+    "lemma": "tandem",
+    "meaning": "at last",
+    "parse": "adv."
+   },
+   {
+    "word": "vēnit",
+    "lemma": "veniō",
+    "meaning": "has come",
+    "parse": "3rd sg. perf."
+   },
+   {
+    "word": "amor",
+    "lemma": "amor",
+    "meaning": "love",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "perfect_tense",
+   "nominative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "perfect_tense",
+   "nominative"
+  ],
+  "vocab_ids": [
+   "tandem",
+   "venio",
+   "amor"
+  ],
+  "teaching_value": {
+   "note": "Targets perfect_tense, nominative.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/woman.webp",
+   "alt": "Roman marble portrait of a young woman (The Met), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC0",
+   "credit": "unknown · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Marble_portrait_of_a_young_woman_MET_DP331253.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Sulpicia",
+   "url": "https://en.wikipedia.org/wiki/Sulpicia",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-horace-persicos",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Persicōs ōdī, puer, apparātūs",
+  "translation": "I hate Persian fuss, boy",
+  "context": "Ode 1.38 closes Horace's first book of odes with a tiny poem to a slave boy. Horace wants no elaborate wreaths or late roses, only plain myrtle as he drinks under a vine. The 'Persian' luxury stands for showy excess, set against the poet's simple pleasures. Ōdī has a perfect form but present meaning, 'I hate', and puer is a vocative.",
+  "more": "Apparātūs is a fourth-declension accusative plural. Horace's farm in the Sabine hills, a gift from his patron Maecenas, became a symbol of the simple life.",
+  "person": "Horace",
+  "source": {
+   "work": "Horace, Odes",
+   "citation": "1.38.1",
+   "date": "c. 23 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/horace/carm1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Persicōs",
+    "lemma": "Persicus",
+    "meaning": "Persian",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "ōdī",
+    "lemma": "ōdī",
+    "meaning": "I hate",
+    "parse": "1st sg. perf. (pres. meaning)"
+   },
+   {
+    "word": "puer",
+    "lemma": "puer",
+    "meaning": "boy",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "apparātūs",
+    "lemma": "apparātus",
+    "meaning": "fuss, elaborate preparations",
+    "parse": "acc. pl. m."
+   }
+  ],
+  "grammar_target": [
+   "perfect_form_present_meaning",
+   "vocative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "perfect_form_present_meaning",
+   "vocative"
+  ],
+  "vocab_ids": [
+   "odi",
+   "puer",
+   "apparatus"
+  ],
+  "teaching_value": {
+   "note": "Targets perfect_form_present_meaning, vocative.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "apparatus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/drinkers.webp",
+   "alt": "Garden fresco with plants and birds, House of the Golden Bracelet, Pompeii",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 2.0",
+   "credit": "“House of the Golden Bracelet Oecus Fresco - Pompeii e Santorini- L'Eternita e un Giorno” by MumblerJamie, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:House_of_the_Golden_Bracelet_Oecus_Fresco_-_Pompeii_e_Santorini-_L%27Eternita_e_un_Giorno.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "learn_more": {
+   "label": "Odes (Horace)",
+   "url": "https://en.wikipedia.org/wiki/Odes_(Horace)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-horace-odi-profanum",
+  "type": "quote",
+  "era": "empire",
+  "unit": 7,
+  "latin": "Ōdī profānum volgus et arceō.",
+  "translation": "I hate the uninitiated crowd and keep it away.",
+  "context": "Book 3 of Horace's Odes opens like a religious ceremony: a priest orders the uninitiated to stand back before the sacred rite begins. Horace calls himself 'priest of the Muses' and offers new songs to girls and boys. Profānum literally means 'in front of the temple', outside the sacred space. Ōdī is a perfect with present meaning.",
+  "more": "Volgus is the older spelling of vulgus, 'crowd', the root of English vulgar. Profane comes from profānus.",
+  "person": "Horace",
+  "source": {
+   "work": "Horace, Odes",
+   "citation": "3.1.1",
+   "date": "c. 23 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/horace/carm3.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Ōdī",
+    "lemma": "ōdī",
+    "meaning": "I hate",
+    "parse": "1st sg. perf. (pres. meaning)"
+   },
+   {
+    "word": "profānum",
+    "lemma": "profānus",
+    "meaning": "uninitiated, profane",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "volgus",
+    "lemma": "vulgus",
+    "meaning": "crowd",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "arceō",
+    "lemma": "arceō",
+    "meaning": "I keep away",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "perfect_form_present_meaning",
+   "first_person"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "perfect_form_present_meaning",
+   "first_person"
+  ],
+  "vocab_ids": [
+   "odi",
+   "profanus",
+   "vulgus",
+   "et",
+   "arceo"
+  ],
+  "teaching_value": {
+   "note": "Targets perfect_form_present_meaning, first_person.",
+   "dcc_core_pct": 60,
+   "non_core": [
+    "profanus",
+    "arceo"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/priest.webp",
+   "alt": "Statue of Augustus as a priest, head veiled (capite velato), cut out",
+   "kind": "statue_cutout",
+   "aspect": "3:4",
+   "transparent": true,
+   "license": "CC BY-SA 3.0",
+   "credit": "“MANA - Augustus Priester” by Wolfgang Sauber, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons; modified: background removed (cut-out), cropped, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:MANA_-_Augustus_Priester.jpg",
+   "modified": "background removed (cut-out), cropped, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "learn_more": {
+   "label": "Odes (Horace)",
+   "url": "https://en.wikipedia.org/wiki/Odes_(Horace)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-catullus-cenabis",
+  "type": "quote",
+  "era": "republic",
+  "unit": 7,
+  "latin": "Cēnābis bene, mī Fabulle, apud mē",
+  "translation": "You will dine well, my Fabullus, at my house",
+  "context": "Catullus 13 is a joking dinner invitation. Fabullus will dine splendidly, the poet promises, as long as he brings the food, the wine, the girl and the wit, because Catullus's purse is 'full of cobwebs'. In return Catullus will provide a perfume so lovely that Fabullus will pray to become all nose. Cēnābis is a future and mī Fabulle a vocative.",
+  "more": "Mī is the vocative of meus. Apud mē means 'at my house', like French chez moi.",
+  "person": "Catullus",
+  "source": {
+   "work": "Catullus, Carmina",
+   "citation": "13.1",
+   "date": "c. 55 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/catullus.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Cēnābis",
+    "lemma": "cēnō",
+    "meaning": "you will dine",
+    "parse": "2nd sg. fut."
+   },
+   {
+    "word": "bene",
+    "lemma": "bene",
+    "meaning": "well",
+    "parse": "adv."
+   },
+   {
+    "word": "mī",
+    "lemma": "meus",
+    "meaning": "my",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "Fabulle",
+    "lemma": "Fabullus",
+    "meaning": "Fabullus",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "apud",
+    "lemma": "apud",
+    "meaning": "at the house of",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "acc. sg."
+   }
+  ],
+  "grammar_target": [
+   "future_tense",
+   "vocative",
+   "personal_pronouns"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "future_tense",
+   "vocative",
+   "personal_pronouns"
+  ],
+  "vocab_ids": [
+   "ceno",
+   "bene",
+   "meus",
+   "apud",
+   "ego"
+  ],
+  "teaching_value": {
+   "note": "Targets future_tense, vocative, personal_pronouns.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "ceno"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch6/banquet.webp",
+   "alt": "Banquet scene, House of the Chaste Lovers, Pompeii",
+   "kind": "painting",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "WolfgangRieger · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pompeii_-_Casa_dei_Casti_Amanti_-_Banquet.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Catullus 13",
+   "url": "https://en.wikipedia.org/wiki/Catullus_13",
+   "verified_http": "200"
+  }
+ }
+]

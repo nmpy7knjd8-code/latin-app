@@ -1,0 +1,226 @@
+{
+ "v-vesta-dea": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-trias-capitolina": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "i-pompeii-felicitas": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": [
+   "Hīc≠Hic"
+  ]
+ },
+ "i-pompeii-salve-lucru": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-virgil-nate": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-hannibal-ad-portas": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "v-centurio-vocat": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-cornicen": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-pila-iaciunt": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-gladius-scutum": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-cicero-o-tempora": {
+  "source_check": "ok",
+  "alatius": [
+   "hic≠hīc"
+  ]
+ },
+ "q-cicero-civis": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-cui-bono": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-o-fortunatam": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cato-vir-bonus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-silent-leges": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "v-consul-senatui": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-catullus-dianae": {
+  "source_check": "ok",
+  "alatius": [
+   "fidē≠fide"
+  ]
+ },
+ "q-lucretius-aeneadum": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-virgil-ab-iove": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-horace-mercuri": {
+  "source_check": "ok",
+  "alatius": [
+   "fācunde≠fācundē"
+  ]
+ },
+ "q-ovid-iane": {
+  "source_check": "ok",
+  "alatius": [
+   "lābentis≠lābentīs"
+  ]
+ },
+ "q-ovid-est-deus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "i-rib-1534": {
+  "source_check": "MISSING: deae couentinae t | cosconianus praefectus cohortis | praefectus cohortis i | cohortis i batauorum",
+  "alatius": [
+   "Coventinae≠Coventīnae",
+   "cohortis≠cohortīs",
+   "I≠Ī"
+  ]
+ },
+ "i-rib-1545": {
+  "source_check": "MISSING: deo inuicto mithrae | inuicto mithrae sacrum | mithrae sacrum aulus | sacrum aulus cluentius",
+  "alatius": [
+   "cohortis≠cohortīs",
+   "I≠Ī"
+  ]
+ },
+ "v-templum-iovis": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-vestales-ignem": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-sacerdos-sacrificat": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-horace-phoebe": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-caesar-veni-vidi-vici": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-resgestae-templa": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-ha-hadrian-murum": {
+  "source_check": "MISSING: murum per octoginta",
+  "alatius": []
+ },
+ "q-caligula-oderint": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-eutropius-augustus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-eutropius-titus": {
+  "source_check": "ok",
+  "alatius": [
+   "eius≠ēius"
+  ]
+ },
+ "q-resgestae-ianum": {
+  "source_check": "MISSING: ianum quirinum",
+  "alatius": [
+   "senātus≠senātūs"
+  ]
+ },
+ "q-ovid-parve": {
+  "source_check": "ok",
+  "alatius": [
+   "Parve≠Parvē"
+  ]
+ },
+ "q-catullus-lugete": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-catullus-basia": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-propertius-cynthia": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-horace-eheu": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-ovid-arbor": {
+  "source_check": "MISSING: eris certe mea",
+  "alatius": []
+ },
+ "q-virgil-tityre": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-ovid-penelope": {
+  "source_check": "ok",
+  "alatius": [
+   "Pēnelopē≠Pēnelope"
+  ]
+ },
+ "q-sulpicia-tandem": {
+  "source_check": "ok",
+  "alatius": [
+   "vēnit≠venit"
+  ]
+ },
+ "q-horace-persicos": {
+  "source_check": "ok",
+  "alatius": [
+   "ōdī≠odī",
+   "apparātūs≠apparātus"
+  ]
+ },
+ "q-horace-odi-profanum": {
+  "source_check": "ok",
+  "alatius": [
+   "Ōdī≠Odī"
+  ]
+ },
+ "q-catullus-cenabis": {
+  "source_check": "ok",
+  "alatius": []
+ }
+}
