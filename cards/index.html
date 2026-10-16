@@ -76,7 +76,7 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .meta{font-size:.85rem!important}
 .band>*{margin:0!important}
 .latin{font:italic 600 1.8rem/1.18 Georgia,"Times New Roman",serif;text-align:center;text-wrap:balance}
-.say{font:600 1.02rem/1.3 system-ui,sans-serif;letter-spacing:.03em;text-align:center;color:var(--acc);margin:0;background:none;border:0;width:100%;cursor:pointer}
+.say{cursor:inherit!important;font:600 1.02rem/1.3 system-ui,sans-serif;letter-spacing:.03em;text-align:center;color:var(--acc);margin:0;background:none;border:0;width:100%;cursor:pointer}
 .say .ipa{display:block;font:400 .8rem/1.3 "Doulos SIL","Charis SIL","Gentium Plus","Noto Sans",serif;opacity:.85}
 .say .ipa[hidden]{display:none}
 .la-b.long{font-size:.8rem;line-height:1.25}
@@ -155,6 +155,13 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .meta>span{line-height:1.25}
 .front .meta .era{font-size:.74rem}
 .meta .sep.wrapped{display:none}
+.back .more{position:relative;align-self:center;min-height:36px;padding:0 16px;border-radius:99px;border:1px solid var(--acc);background:var(--bg2);color:var(--acc);font:700 .8rem system-ui;cursor:pointer}
+.back .more[hidden]{display:none}
+.back .ctx.clamp{-webkit-line-clamp:unset!important;display:block;overflow:hidden;-webkit-mask-image:linear-gradient(#000 55%,transparent);mask-image:linear-gradient(#000 55%,transparent)}
+.xov{position:fixed;inset:0;z-index:40;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:rgba(239,233,223,.0);transition:background .2s;display:block;height:auto;flex:none;aspect-ratio:auto;perspective:none}
+.xov.on{background:rgba(239,233,223,.96)}
+.xov .xback{position:relative;inset:auto;transform:none!important;visibility:visible!important;opacity:1!important;overflow:visible;height:auto;display:flex;flex-direction:column;gap:12px}
+.xov .xback::before{display:none}.xov .more::before{display:none}
 </style></head><body>
 <header><h1 id="logo" role="button" tabindex="0" aria-label="Lingua: choose a section">LINGUA</h1></header>
 <main class="deck" id="deck" aria-label="Cards"></main>
@@ -206,7 +213,7 @@ function render(){
    <div class="art">${art(c.image,c)}</div>
    <div class="band">
     <div class="latin${c.latin.length>260?" long xlong":c.latin.length>110?" long":c.latin.length>55?" mid":""}" lang="la">${latinHTML(c)}</div>
-    ${P(c)?`<button class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}. Tap for IPA.">${esc(P(c).respelling)}<span class="ipa" hidden>${esc(P(c).ipa)}</span></button>${EC(c)?`<button class="reg" data-cl="${esc(P(c).respelling)}" data-ec="${esc(EC(c))}" aria-pressed="false">Classical · tap for Church pronunciation</button>`:""}`:""}
+    ${P(c)?`<div class="say" aria-label="Pronunciation: ${esc(P(c).respelling)}"><span>${esc(P(c).respelling)}</span></div>`:""}
     ${learn?`<div class="tr-front">“${esc(c.translation)}”</div><div class="gl" aria-live="polite"></div>`:""}
     ${AU(c).length?`<div class="chips">${AU(c).map((a,k)=>`<button class="play" data-a="${esc(a.file)}" aria-label="Play recording, ${esc(a.style)}">▶ ${esc(a.style)}</button>`).join("")}</div>`:""}
     <div class="meta">${c.person?`<span>${esc(c.person)}</span><span class="sep" aria-hidden="true">·</span>`:""}<span class="era">${ERA[c.era]||c.era}</span></div>
@@ -238,14 +245,14 @@ function render(){
   requestAnimationFrame(fitBacks);
   document.querySelectorAll(".reg").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();const on=b.getAttribute("aria-pressed")!=="true";b.setAttribute("aria-pressed",on);
     const say=b.previousElementSibling;say.firstChild.textContent=on?b.dataset.ec:b.dataset.cl;b.textContent=on?"Church pronunciation · tap for Classical":"Classical · tap for Church pronunciation"}));
-  document.querySelectorAll(".say").forEach(b=>b.addEventListener("click",e=>{e.stopPropagation();b.querySelector(".ipa").toggleAttribute("hidden")}));
+  
   document.querySelectorAll(".card").forEach(el=>{
     if(learn){
       el.querySelectorAll(".w").forEach(b=>b.addEventListener("click",()=>{el.querySelector(".gl").textContent=b.dataset.g}));
       return;
     }
     const front=el.querySelector(".front"),back=el.querySelector(".back");
-    const t=()=>{const f=el.classList.toggle("flipped");el.setAttribute("aria-pressed",f);
+    const t=()=>{collapse();const f=el.classList.toggle("flipped");if(f)fitSoon();el.setAttribute("aria-pressed",f);
       back.toggleAttribute("inert",!f);back.setAttribute("aria-hidden",!f);
       front.toggleAttribute("inert",f);front.setAttribute("aria-hidden",f);};
     el.addEventListener("click",e=>{if(e.target.closest("a,details"))return;t()});
@@ -256,17 +263,38 @@ function fitWide(){document.querySelectorAll(".face").forEach(fc=>{const W=fc.cl
   fc.querySelectorAll(".latin,.la-b,.say,.ipa-b").forEach(el=>{let fs=parseFloat(getComputedStyle(el).fontSize),n=0;
     while(el.scrollWidth>el.clientWidth+1&&n++<12){fs*=.94;el.style.fontSize=fs+"px"}})})}
 function fitMeta(){document.querySelectorAll(".meta").forEach(m=>{const sp=m.querySelector(".sep");if(!sp)return;sp.classList.remove("wrapped");const a=m.firstElementChild,e=m.querySelector(".era");if(a&&e&&Math.abs(a.offsetTop-e.offsetTop)>4)sp.classList.add("wrapped")})}
+function expand(card){collapse();const bk=card.querySelector(".back"),r=card.getBoundingClientRect();
+  const ov=document.createElement("div");ov.id="xov";ov.className="xov "+card.className.split(" ").filter(c=>/^(regal|republic|empire|late_antiquity|early_medieval|high_medieval|late_medieval)$/.test(c)).join(" ");
+  ov.innerHTML=`<div class="face back xback" style="margin:${r.top}px auto 24px;width:${r.width}px;min-height:${r.height}px">${bk.innerHTML}</div>`;
+  const xb=ov.querySelector(".xback");xb.querySelectorAll(".ctx").forEach(c=>{c.classList.remove("clamp");c.style.fontSize="";c.style.maxHeight=""});xb.querySelectorAll(".ipa-b").forEach(e=>e.style.display="");
+  const m=xb.querySelector(".more");m.hidden=false;m.innerHTML="Show less <span aria-hidden=true>⌃</span>";
+  ov.addEventListener("click",e=>{if(e.target.closest("a,details"))return;const ok=e.target.closest(".rate .ok");if(ok){collapse();card.querySelector(".rate .ok").click();return}collapse()});
+  document.body.appendChild(ov);requestAnimationFrame(()=>ov.classList.add("on"))}
+function collapse(){const o=document.getElementById("xov");if(o)o.remove()}
+document.addEventListener("click",e=>{const m=e.target.closest(".card .more");if(!m)return;e.stopPropagation();e.preventDefault();expand(m.closest(".card"))},true);
+document.getElementById("deck").addEventListener("scroll",collapse,{passive:true});
 function fitBacks(){fitWide();fitMeta();document.querySelectorAll(".back").forEach(bk=>{const cx=bk.querySelector(".ctx");if(!cx)return;
   const kids=[...bk.children].filter(e=>e.offsetHeight>0);const k=kids.length;
   const cs=getComputedStyle(bk),inner=bk.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
   const used=()=>kids.reduce((t,e)=>t+e.offsetHeight,0);
   const fits=g=>used()+(k-1)*g<=inner;
-  let f=.92;cx.style.fontSize=f+"rem";cx.classList.remove("clamp");
+  let mb=bk.querySelector(".more");if(!mb){mb=document.createElement("button");mb.className="more";mb.type="button";mb.innerHTML="Show more <span aria-hidden=true>⌄</span>";cx.after(mb)}
+  mb.hidden=true;
+  let f=.92;cx.style.fontSize=f+"rem";cx.classList.remove("clamp");cx.style.maxHeight="";bk.style.overflowY="";bk.querySelectorAll(".ipa-b").forEach(e=>e.style.display="");
   while(!fits(7)&&f>(innerHeight<700?.68:.76)){f-=.02;cx.style.fontSize=f+"rem"}
-  if(!fits(7)){const lh=parseFloat(getComputedStyle(cx).lineHeight)||14,over=used()+(k-1)*7-inner;cx.style.setProperty("--cl",Math.max(2,Math.floor((cx.offsetHeight-over)/lh)));cx.classList.add("clamp")}
+  const clampIt=()=>{mb.hidden=false;cx.classList.add("clamp");bk.style.setProperty("--g","7px");const lh=parseFloat(getComputedStyle(cx).lineHeight)||14;
+    let n=Math.floor(cx.scrollHeight/lh);cx.style.maxHeight=n*lh+"px";
+    while(n>0&&bk.scrollHeight>bk.clientHeight+1){n--;cx.style.maxHeight=n*lh+"px"}
+    if(bk.scrollHeight>bk.clientHeight+1){bk.querySelectorAll(".ipa-b").forEach(e=>e.style.display="none");n=Math.floor(cx.scrollHeight/lh);cx.style.maxHeight=n*lh+"px";while(n>0&&bk.scrollHeight>bk.clientHeight+1){n--;cx.style.maxHeight=n*lh+"px"}}
+    bk.style.overflowY=bk.scrollHeight>bk.clientHeight+1?"auto":""};
+  if(!fits(7)){clampIt()}
   else{while(f<1.12){f+=.02;cx.style.fontSize=f+"rem";if(!fits(32)){f-=.02;cx.style.fontSize=f+"rem";break}}}
-  const g=Math.max(7,Math.min(32,(inner-used())/(k-1)));bk.style.setProperty("--g",g+"px")})}
-addEventListener("resize",()=>requestAnimationFrame(fitBacks));
+  const kk=[...bk.children].filter(e=>e.offsetHeight>0);const u2=kk.reduce((t,e)=>t+e.offsetHeight,0);
+  bk.style.setProperty("--g",Math.max(7,Math.min(32,(inner-u2)/(kk.length-1)))+"px");
+  if(bk.scrollHeight>bk.clientHeight+1&&!cx.classList.contains("clamp"))clampIt();
+  bk.style.overflowY=bk.scrollHeight>bk.clientHeight+1?"auto":""})}
+function fitSoon(){requestAnimationFrame(()=>requestAnimationFrame(fitBacks))}
+addEventListener("resize",fitSoon);addEventListener("pageshow",fitSoon);addEventListener("orientationchange",fitSoon);if(document.fonts)document.fonts.ready.then(()=>requestAnimationFrame(fitBacks));if(window.visualViewport)visualViewport.addEventListener("resize",fitSoon);addEventListener("pageshow",fitSoon);addEventListener("orientationchange",fitSoon);
 function setMode(m){mode=m;document.getElementById("m-learn").setAttribute("aria-pressed",m==="learn");document.getElementById("m-review").setAttribute("aria-pressed",m==="review");render();}
 const deck=document.getElementById("deck"),dots=document.getElementById("dots");
 function setupDots(){dots.innerHTML=VIS().map((c,i)=>`<button aria-label="Card ${i+1} of ${CARDS.length}: ${esc(c.person)}" data-i="${i}"></button>`).join("");
