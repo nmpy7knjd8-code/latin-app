@@ -250,8 +250,8 @@ window.PHONETICS = {
   "respelling": "KAY-dant AR-ma TO-geye kong-KAY-dat LOW-re-a LOW-dee"
  },
  "q-cicero-quousque": {
-  "ipa": "/kʷoː ˈuːs.kʷɛ ˈtan.dɛm a.buː.ˈteː.rɛ ka.tɪ.ˈliː.na pa.tɪ.ˈɛn.tɪ.aː ˈnɔs.traː/",
-  "respelling": "kwoh OOS-kwe TAN-dem a-boo-TAY-re ka-ti-LEE-na pa-ti-EN-ti-ah NOS-trah"
+  "ipa": "/kʷoː ˈʊs.kʷɛ ˈtan.dɛm a.buː.ˈteː.rɛ ka.tɪ.ˈliː.na pa.tɪ.ˈɛn.tɪ.aː ˈnɔs.traː/",
+  "respelling": "kwoh US-kwe TAN-dem a-boo-TAY-re ka-ti-LEE-na pa-ti-EN-ti-ah NOS-trah"
  },
  "q-suetonius-alea": {
   "ipa": "/ˈjak.ta ˈaː.lɛ.a ɛst/",
@@ -486,8 +486,8 @@ window.PHONETICS = {
   "respelling": "BUL-la OW-re-a"
  },
  "x-whosays-cornelia": {
-  "ipa": "/hae̯k ɔr.naː.ˈmɛn.ta sʊnt ˈmɛ.a kɔr.ˈneː.lɪ.a ˈliː.wɪ.a lʊ.ˈkreː.tɪ.a/",
-  "respelling": "heyek or-nah-MEN-ta sunt ME-a kor-NAY-li-a LEE-wi-a lu-KRAY-ti-a"
+  "ipa": "/hae̯k oːr.naː.ˈmɛn.ta sʊnt ˈmɛ.a kɔr.ˈneː.lɪ.a ˈliː.wɪ.a lʊ.ˈkreː.tɪ.a/",
+  "respelling": "heyek ohr-nah-MEN-ta sunt ME-a kor-NAY-li-a LEE-wi-a lu-KRAY-ti-a"
  },
  "v-miles": {
   "ipa": "/ˈmiː.lɛs ˈmiː.lɪ.tɪs/",
@@ -642,8 +642,8 @@ window.PHONETICS = {
   "respelling": "WI-de-oh wi-DAY-re WEE-dee WEE-sum"
  },
  "x-greek-flag": {
-  "ipa": "/ˈmar.kʊs au̯.ˈreː.lɪ.ʊs la.ˈtiː.neː ˈskriːp.sɪt ad seː ˈɪp.sʊm ˈweː.rʊm an ˈfal.sʊm/",
-  "respelling": "MAR-kus ow-RAY-li-us la-TEE-nay SKREEP-sit ad say IP-sum WAY-rum an FAL-sum"
+  "ipa": "/ˈmaːr.kʊs au̯.ˈreː.lɪ.ʊs la.ˈtiː.neː ˈskriːp.sɪt ad seː ˈɪp.sʊm ˈweː.rʊm an ˈfal.sʊm/",
+  "respelling": "MAHR-kus ow-RAY-li-us la-TEE-nay SKREEP-sit ad say IP-sum WAY-rum an FAL-sum"
  },
  "l-schola": {
   "ipa": "/ˈluː.dʊs ma.ˈgɪs.tɛr ˈta.bʊ.la ˈstɪ.lʊs/",
@@ -682,8 +682,8 @@ window.PHONETICS = {
   "respelling": "LI-ber LI-bree LE-goh LE-ge-re LAY-gee LAYK-tum"
  },
  "l-monasterium": {
-  "ipa": "/mɔ.nas.ˈtɛ.rɪ.ʊm ˈab.baːs ˈmɔ.na.kʰʊs ˈhoː.ra/",
-  "respelling": "mo-nas-TE-ri-um AB-bahs MO-na-kus HOH-ra"
+  "ipa": "/mɔ.nas.ˈteː.rɪ.ʊm ˈab.baːs ˈmɔ.na.kʰʊs ˈhoː.ra/",
+  "respelling": "mo-nas-TAY-ri-um AB-bahs MO-na-kus HOH-ra"
  },
  "i-karolus": {
   "ipa": "/ˈka.rɔ.lʊs ɪm.pɛ.ˈraː.tɔr au̯.ˈgʊs.tʊs/",

@@ -111,7 +111,7 @@ K('q-ovid-militat','quote','empire',3,'Mīlitat omnis amāns, et habet sua castr
 K('q-vespasian-deus','quote','empire',3,'Vae, putō, deus fīō.','Oh dear, I think I am becoming a god.',
  'Dead emperors were officially declared gods, so when Vespasian fell ill in AD 79 he joked about his coming divinity (Suetonius, Vesp. 23.4). Near the end he struggled to his feet: an emperor, he said, should die standing. He was the first emperor to be succeeded by his own son, Titus.',
  "Vespasian rose from a modest family to end the civil wars of AD 69 and began the Colosseum. Fīō, 'I become', is the present tense, first person.",
- 'Vespasian','Suetonius, Divus Vespasianus','23.4','AD 79',LL+'suetonius/suet.vesp.html','verified','Checked against the Latin Library preface: "vae diebus nostris, quia periit studium litterarum a nobis".',
+ 'Vespasian','Suetonius, Divus Vespasianus','23.4','AD 79',LL+'suetonius/suet.vesp.html','verified','Checked against the Latin Library text of Suetonius, Vesp. 23.4: "prima quoque morbi accessione: \'vae\', inquit, \'puto deus fio\'". Card omits inquit.',
  'Vae|vae|alas, oh dear|interjection; putō|putō|I think|1st sg. pres.; deus|deus|a god|nom. sg. m.; fīō|fīō|I become|1st sg. pres.',
  ['present_tense','first_person','nominative'],[],'vespasian','Vespasian',WP+'Vespasian')
 K('i-sator','artifact','empire',3,'ROTAS OPERA TENET AREPO SATOR — Sator Arepo tenet operā rotās.','The sower Arepo holds the wheels with care (the meaning is disputed).',

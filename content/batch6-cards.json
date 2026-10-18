@@ -398,37 +398,37 @@
     "word": "meae",
     "lemma": "meus",
     "meaning": "my",
-    "parse": "nom. pl. f."
+    "parse": "voc. pl. f."
    },
    {
     "word": "vīrēs",
     "lemma": "vīs",
     "meaning": "strength",
-    "parse": "nom. pl. f."
+    "parse": "voc. pl. f."
    },
    {
     "word": "mea",
     "lemma": "meus",
     "meaning": "my",
-    "parse": "nom. sg. f."
+    "parse": "voc. sg. f."
    },
    {
     "word": "magna",
     "lemma": "magnus",
     "meaning": "great",
-    "parse": "nom. sg. f."
+    "parse": "voc. sg. f."
    },
    {
     "word": "potentia",
     "lemma": "potentia",
     "meaning": "power",
-    "parse": "nom. sg. f."
+    "parse": "voc. sg. f."
    },
    {
     "word": "sōlus",
     "lemma": "sōlus",
     "meaning": "alone",
-    "parse": "nom. sg. m."
+    "parse": "nom. sg. m. (used for voc.)"
    }
   ],
   "grammar_target": [
@@ -486,7 +486,7 @@
   "unit": 3,
   "latin": "Hannibal ad portās!",
   "translation": "Hannibal is at the gates!",
-  "context": "After Hannibal crushed the Romans at Cannae in 216 BC, panic swept Rome, and in 211 BC he marched right up to the city walls. The cry became a proverb for any danger on the doorstep. Cicero uses it in this form in On Ends, and 'Hannibal ante portās' in his first Philippic. The sentence has no verb: portās is accusative after ad, 'to, at'.",
+  "context": "After Hannibal crushed the Romans at Cannae in 216 BC, panic swept Rome, and in 211 BC he marched right up to the city walls. The cry became a proverb for any danger on the doorstep. Cicero uses the words in On Ends (4.22) and in his first Philippic, 'Hannibal, credō, erat ad portās'; the form 'Hannibal ante portās' is a later variant. The sentence has no verb: portās is accusative after ad, 'to, at'.",
   "more": "Roman parents were said to frighten children with the phrase. Hannibal never attacked Rome itself, as he lacked siege equipment.",
   "person": "Proverb (quoted by Cicero)",
   "source": {
@@ -496,7 +496,7 @@
   },
   "source_url": "https://www.thelatinlibrary.com/cicero/fin4.shtml",
   "attribution_confidence": "traditional",
-  "attribution_note": "A proverb. Cicero has si Hannibal ad portas venisset (De fin. 4.22) and Hannibal ante portas (Phil. 1.11).",
+  "attribution_note": "A proverb. Cicero has si Hannibal ad portas venisset (De fin. 4.22) and Hannibal, credo, erat ad portas (Phil. 1.11).",
   "gloss": [
    {
     "word": "Hannibal",

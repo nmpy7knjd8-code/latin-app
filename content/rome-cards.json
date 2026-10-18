@@ -4352,12 +4352,8 @@
    {
     "word": "Ītaliam",
     "lemma": "Italia",
-    "meaning": "to Italy (Ī lengthened for metre"
-   },
-   {
-    "word": "normally Ĭtalia)",
-    "lemma": "acc. of motion",
-    "meaning": "proper"
+    "meaning": "to Italy",
+    "parse": "acc. of motion (Ī lengthened for metre; normally Ĭtalia)"
    },
    {
     "word": "vēnit",
@@ -5892,7 +5888,7 @@
   "era": "empire",
   "unit": 5,
   "latin": "Expedit esse deōs, et, ut expedit, esse putēmus.",
-  "translation": "It is useful that there are gods, and, since it is useful, let us believe they exist.",
+  "translation": "It is useful that there are gods, and, as it is useful, let us believe they exist.",
   "context": "In his cheeky handbook on love, Ovid shrugs at piety: believing in gods is convenient, so let us offer incense. A sceptical Roman voice for the Gods unit. The line is Art of Love 1.637. Ovid's playful, irreverent love poetry may have been part of the reason Augustus banished him. Expedit, 'it is useful', is an impersonal verb.",
   "person": "Publius Ovidius Naso",
   "source": {
@@ -6108,7 +6104,7 @@
   "unit": 4,
   "latin": "Cēdant arma togae, concēdat laurea laudī.",
   "translation": "Let arms yield to the toga, let the laurel give way to praise.",
-  "context": "Cicero quotes his own verse about his consulship: civilian leadership in the toga should rank above military glory. Critics mocked the line. The line is from Cicero's poem On His Consulship, quoted in On Duties (1.77). It celebrates how he crushed Catiline's conspiracy in 63 BC as a civilian. Cedant is a subjunctive of wish: 'let them yield'.",
+  "context": "Cicero quotes his own verse about his consulship: civilian leadership in the toga should rank above military glory. Critics mocked the line. The line is from Cicero's poem On His Consulship, quoted in On Duties (1.77). It celebrates how he crushed Catiline's conspiracy in 63 BC as a civilian. Cēdant is a subjunctive of wish: 'let them yield'.",
   "person": "Marcus Tullius Cicero",
   "source": {
    "work": "De Officiis",
@@ -6211,7 +6207,7 @@
   "type": "quote",
   "era": "republic",
   "unit": 4,
-  "latin": "Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?",
+  "latin": "Quō usque tandem abūtēre, Catilīna, patientiā nostrā?",
   "translation": "How long, Catiline, will you go on abusing our patience?",
   "context": "The opening line of Cicero's first speech against Catiline. He launched straight into it in front of the Senate, with the conspirator sitting in the room. Cicero gave the speech on 8 November 63 BC in the Temple of Jupiter Stator; Catiline left Rome that night. Abūtēre is a future second-person form of the deponent abūtor, 'abuse'.",
   "person": "Marcus Tullius Cicero",
@@ -6230,8 +6226,8 @@
     "parse": "adv."
    },
    {
-    "word": "ūsque",
-    "lemma": "ūsque",
+    "word": "usque",
+    "lemma": "usque",
     "meaning": "all the way",
     "parse": "adv."
    },

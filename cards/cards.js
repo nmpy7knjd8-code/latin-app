@@ -123,7 +123,6 @@ window.CARDS = [
    }
   ],
   "grammar_tags": [
-   "preview",
    "third_declension",
    "perfect_passive_participle"
   ],

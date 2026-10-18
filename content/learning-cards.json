@@ -789,7 +789,7 @@
    "aureus": 691
   },
   "grammar_preview": [
-   "adjective_agreement (taught Unit 4)"
+   "adjective_agreement"
   ],
   "context_original": "Freeborn Roman boys wore a bulla amulet until about age 16, when they dedicated it to the household gods (Larēs) and put on the adult toga."
  },
@@ -799,7 +799,7 @@
   "subtype": "mix:who_said_it",
   "unit": 2,
   "era": "republic",
-  "latin": "Haec ornāmenta sunt mea. — Cornēlia? Līvia? Lucrētia?",
+  "latin": "Haec ōrnāmenta sunt mea. — Cornēlia? Līvia? Lucrētia?",
   "translation": "These are my jewels — who said it?",
   "teaches": "Recall of quote card; demonstratives haec",
   "context": "The speaker is Cornelia, mother of the Gracchi, as told by Valerius Maximus (4.4, preface). Cornelia (c. 190–100 BC) was praised by Roman writers for her learning and her letters. A statue of her stood in Rome with the inscription 'Cornelia, mother of the Gracchi'.",
@@ -844,8 +844,8 @@
     "parse": "nom. pl. n."
    },
    {
-    "word": "ornāmenta",
-    "lemma": "ornāmentum",
+    "word": "ōrnāmenta",
+    "lemma": "ōrnāmentum",
     "meaning": "ornaments, jewels",
     "parse": "nom. pl. n."
    },
@@ -2086,7 +2086,7 @@
   "latin": "M·AGRIPPA·L·F·COS·TERTIVM·FECIT — Mārcus Agrippa Lūcī fīlius cōnsul tertium fēcit",
   "translation": "Marcus Agrippa, son of Lucius, consul for the third time, made this",
   "teaches": "Parse-the-inscription game built on existing card i-pantheon-agrippa",
-  "context": "The inscription (CIL VI 896) is a compact lesson in Roman abbreviations, and fēcit, 'made', is a perfect tense. L·F is Lūciī fīlius, 'son of Lucius'; COS is cōnsul. Romans used abbreviations constantly in inscriptions, because carving letters in stone was slow and costly.",
+  "context": "The inscription (CIL VI 896) is a compact lesson in Roman abbreviations, and fēcit, 'made', is a perfect tense. L·F is Lūcī fīlius, 'son of Lucius'; COS is cōnsul. Romans used abbreviations constantly in inscriptions, because carving letters in stone was slow and costly.",
   "vocab_ids": [
    "agrippa",
    "consul",
@@ -3522,7 +3522,7 @@
   "subtype": "mix:true_false",
   "unit": 8,
   "era": "empire",
-  "latin": "Marcus Aurēlius Latīnē scrīpsit 'Ad sē ipsum'. Vērum an falsum?",
+  "latin": "Mārcus Aurēlius Latīnē scrīpsit 'Ad sē ipsum'. Vērum an falsum?",
   "translation": "Marcus Aurelius wrote 'To Himself' in Latin. True or false?",
   "teaches": "Comprehension in simple Latin; cultural accuracy",
   "context": "In fact, the Meditations are in Greek, the language of philosophy for educated Romans. Bilingualism was normal among the elite. Marcus Aurelius (emperor 161–180) wrote his private notes during campaigns on the Danube. Educated Romans studied Greek from childhood and often travelled to Athens or Rhodes to complete their education.",
@@ -3559,7 +3559,7 @@
   },
   "gloss": [
    {
-    "word": "Marcus Aurēlius",
+    "word": "Mārcus Aurēlius",
     "lemma": "Mārcus Aurēlius",
     "meaning": "Marcus Aurelius",
     "parse": "nom."
@@ -4252,7 +4252,7 @@
   "subtype": "daily_life",
   "unit": 10,
   "era": "early_medieval",
-  "latin": "monasterium, abbās, monachus, hōra",
+  "latin": "monastērium, abbās, monachus, hōra",
   "translation": "monastery, abbot, monk, hour",
   "teaches": "Monastic vocab; Greek loans in Latin",
   "context": "Benedict's Rule organised the day into hours of prayer and work. 'Monk' and 'abbot' come from Greek and Aramaic through Latin. Monasterium comes from the Greek monos, 'alone'. The Plan of Saint Gall (c. 820) is a drawing of an ideal monastery with church, library, school, kitchens, gardens and workshops.",
@@ -4287,7 +4287,7 @@
   },
   "gloss": [
    {
-    "word": "monasterium",
+    "word": "monastērium",
     "lemma": "monastērium",
     "meaning": "monastery",
     "parse": "nom. sg. n."
@@ -4329,7 +4329,7 @@
   "latin": "KAROLVS IMP AVG — Karolus Imperātor Augustus",
   "translation": "Charles, Emperor, Augustus",
   "teaches": "Medieval coin legend reusing Roman titles",
-  "context": "Charlemagne, crowned in 800, issued coins styling himself like a Roman emperor., deliberately echoing the coins of Augustus. Pope Leo III crowned Charlemagne emperor in St Peter's, Rome, on Christmas Day 800. His coin reform introduced the silver penny (denarius) used across Europe for centuries.",
+  "context": "Charlemagne, crowned in 800, issued coins styling himself like a Roman emperor, deliberately echoing the coins of Augustus. Pope Leo III crowned Charlemagne emperor in St Peter's, Rome, on Christmas Day 800. His coin reform introduced the silver penny (denarius) used across Europe for centuries.",
   "vocab_ids": [
    "augustus",
    "imperator",
@@ -4408,8 +4408,7 @@
    "scriptor"
   ],
   "grammar_tags": [
-   "imperative",
-   "relative_clause"
+   "imperative"
   ],
   "image_idea": {
    "description": "Manuscript colophon page (Commons)",

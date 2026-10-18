@@ -39,14 +39,14 @@ K('q-virgil-nate','quote','empire',2,'Nāte, meae vīrēs, mea magna potentia s�
  "In Aeneid 1 Venus calls on her son Cupid to make Queen Dido fall in love with Aeneas, so that Carthage will shelter him. She heaps up titles in the vocative: nāte, 'son', then 'my strength', 'my great power'. The possessive adjectives meae and mea agree with the nouns they describe. Venus's plan works, and leads to Dido's tragedy in Book 4.",
  "Cupid takes the shape of Aeneas's little son Ascanius and sits on Dido's lap at the banquet. Vīrēs, 'strength', is the plural of vīs.",
  'Virgil (speech of Venus)','Virgil, Aeneid','1.664','c. 19 BC',LL+'vergil/aen1.shtml','verified','Spoken by Venus in the poem.',
- 'Nāte|nātus|son|voc. sg. m.; meae|meus|my|nom. pl. f.; vīrēs|vīs|strength|nom. pl. f.; mea|meus|my|nom. sg. f.; magna|magnus|great|nom. sg. f.; potentia|potentia|power|nom. sg. f.; sōlus|sōlus|alone|nom. sg. m.',
+ 'Nāte|nātus|son|voc. sg. m.; meae|meus|my|voc. pl. f.; vīrēs|vīs|strength|voc. pl. f.; mea|meus|my|voc. sg. f.; magna|magnus|great|voc. sg. f.; potentia|potentia|power|voc. sg. f.; sōlus|sōlus|alone|nom. sg. m. (used for voc.)',
  ['vocative','possessive_adjectives'],[],'venuscupid','Cupid',WP+'Cupid')
 
 # ---------------- UNIT 3: Legio ----------------
 K('q-hannibal-ad-portas','quote','republic',3,'Hannibal ad portās!','Hannibal is at the gates!',
- "After Hannibal crushed the Romans at Cannae in 216 BC, panic swept Rome, and in 211 BC he marched right up to the city walls. The cry became a proverb for any danger on the doorstep. Cicero uses it in this form in On Ends, and 'Hannibal ante portās' in his first Philippic. The sentence has no verb: portās is accusative after ad, 'to, at'.",
+ "After Hannibal crushed the Romans at Cannae in 216 BC, panic swept Rome, and in 211 BC he marched right up to the city walls. The cry became a proverb for any danger on the doorstep. Cicero uses the words in On Ends (4.22) and in his first Philippic, 'Hannibal, credō, erat ad portās'; the form 'Hannibal ante portās' is a later variant. The sentence has no verb: portās is accusative after ad, 'to, at'.",
  "Roman parents were said to frighten children with the phrase. Hannibal never attacked Rome itself, as he lacked siege equipment.",
- 'Proverb (quoted by Cicero)','Cicero, De finibus','4.22','45 BC',LL+'cicero/fin4.shtml','traditional','A proverb. Cicero has si Hannibal ad portas venisset (De fin. 4.22) and Hannibal ante portas (Phil. 1.11).',
+ 'Proverb (quoted by Cicero)','Cicero, De finibus','4.22','45 BC',LL+'cicero/fin4.shtml','traditional','A proverb. Cicero has si Hannibal ad portas venisset (De fin. 4.22) and Hannibal, credo, erat ad portas (Phil. 1.11).',
  'Hannibal|Hannibal|Hannibal|nom. sg. m.; ad|ad|at, to|prep. + acc.; portās|porta|the gates|acc. pl. f.',
  ['nominative','accusative'],[],'hannibal','Hannibal ad portas',WP+'Hannibal_ad_portas')
 K('v-centurio-vocat','vocab','empire',3,'Centuriō mīlitēs vocat; mīlitēs currunt.','The centurion calls the soldiers; the soldiers run.',

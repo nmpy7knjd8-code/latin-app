@@ -357,9 +357,9 @@
   "src": "rome-cards.json"
  },
  "q-cicero-quousque": {
-  "ipa": "/kʷoː ˈuːs.kʷɛ ˈtan.dɛm a.buː.ˈteː.rɛ ka.tɪ.ˈliː.na pa.tɪ.ˈɛn.tɪ.aː ˈnɔs.traː/",
-  "respelling": "kwoh OOS-kwe TAN-dem a-boo-TAY-re ka-ti-LEE-na pa-ti-EN-ti-ah NOS-trah",
-  "latin": "Quō ūsque tandem abūtēre, Catilīna, patientiā nostrā?",
+  "ipa": "/kʷoː ˈʊs.kʷɛ ˈtan.dɛm a.buː.ˈteː.rɛ ka.tɪ.ˈliː.na pa.tɪ.ˈɛn.tɪ.aː ˈnɔs.traː/",
+  "respelling": "kwoh US-kwe TAN-dem a-boo-TAY-re ka-ti-LEE-na pa-ti-EN-ti-ah NOS-trah",
+  "latin": "Quō usque tandem abūtēre, Catilīna, patientiā nostrā?",
   "src": "rome-cards.json"
  },
  "q-suetonius-alea": {
@@ -705,9 +705,9 @@
   "src": "learning-cards.json"
  },
  "x-whosays-cornelia": {
-  "ipa": "/hae̯k ɔr.naː.ˈmɛn.ta sʊnt ˈmɛ.a kɔr.ˈneː.lɪ.a ˈliː.wɪ.a lʊ.ˈkreː.tɪ.a/",
-  "respelling": "heyek or-nah-MEN-ta sunt ME-a kor-NAY-li-a LEE-wi-a lu-KRAY-ti-a",
-  "latin": "Haec ornāmenta sunt mea. — Cornēlia? Līvia? Lucrētia?",
+  "ipa": "/hae̯k oːr.naː.ˈmɛn.ta sʊnt ˈmɛ.a kɔr.ˈneː.lɪ.a ˈliː.wɪ.a lʊ.ˈkreː.tɪ.a/",
+  "respelling": "heyek ohr-nah-MEN-ta sunt ME-a kor-NAY-li-a LEE-wi-a lu-KRAY-ti-a",
+  "latin": "Haec ōrnāmenta sunt mea. — Cornēlia? Līvia? Lucrētia?",
   "src": "learning-cards.json"
  },
  "v-miles": {
@@ -937,9 +937,9 @@
   "src": "learning-cards.json"
  },
  "x-greek-flag": {
-  "ipa": "/ˈmar.kʊs au̯.ˈreː.lɪ.ʊs la.ˈtiː.neː ˈskriːp.sɪt ad seː ˈɪp.sʊm ˈweː.rʊm an ˈfal.sʊm/",
-  "respelling": "MAR-kus ow-RAY-li-us la-TEE-nay SKREEP-sit ad say IP-sum WAY-rum an FAL-sum",
-  "latin": "Marcus Aurēlius Latīnē scrīpsit 'Ad sē ipsum'. Vērum an falsum?",
+  "ipa": "/ˈmaːr.kʊs au̯.ˈreː.lɪ.ʊs la.ˈtiː.neː ˈskriːp.sɪt ad seː ˈɪp.sʊm ˈweː.rʊm an ˈfal.sʊm/",
+  "respelling": "MAHR-kus ow-RAY-li-us la-TEE-nay SKREEP-sit ad say IP-sum WAY-rum an FAL-sum",
+  "latin": "Mārcus Aurēlius Latīnē scrīpsit 'Ad sē ipsum'. Vērum an falsum?",
   "src": "learning-cards.json"
  },
  "l-schola": {
@@ -997,9 +997,9 @@
   "src": "learning-cards.json"
  },
  "l-monasterium": {
-  "ipa": "/mɔ.nas.ˈtɛ.rɪ.ʊm ˈab.baːs ˈmɔ.na.kʰʊs ˈhoː.ra/",
-  "respelling": "mo-nas-TE-ri-um AB-bahs MO-na-kus HOH-ra",
-  "latin": "monasterium, abbās, monachus, hōra",
+  "ipa": "/mɔ.nas.ˈteː.rɪ.ʊm ˈab.baːs ˈmɔ.na.kʰʊs ˈhoː.ra/",
+  "respelling": "mo-nas-TAY-ri-um AB-bahs MO-na-kus HOH-ra",
+  "latin": "monastērium, abbās, monachus, hōra",
   "src": "learning-cards.json"
  },
  "i-karolus": {
