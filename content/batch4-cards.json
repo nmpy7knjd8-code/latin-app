@@ -4461,10 +4461,10 @@
   "id": "q-einhard-temptabat",
   "type": "quote",
   "era": "early_medieval",
-  "unit": 8,
-  "latin": "Temptābat et scrībere, tabulāsque et cōdicellōs … in lectō sub cervīcālibus circumferre solēbat.",
-  "translation": "He also tried to write, and used to carry tablets and notebooks around … under the pillows on his bed.",
-  "context": "Einhard's Life of Charlemagne (ch. 25, c. 830) says the emperor kept writing tablets under his pillow to practise forming letters in spare moments, but the effort, begun late, had little success. Einhard had served at Charlemagne's court himself and modelled the Life on Suetonius' lives of the emperors.",
+  "unit": 12,
+  "latin": "Temptābat et scrībere, tabulāsque et cōdicellōs … in lectō sub cervīcālibus circumferre solēbat, ut, cum vacuum tempus esset, manum litterīs effigiendīs adsuēsceret.",
+  "translation": "He also tried to write, and used to carry tablets and notebooks around … under the pillows on his bed, so that, whenever he had free time, he could get his hand used to forming letters.",
+  "context": "Einhard's Life of Charlemagne, written around 830, says the emperor kept writing tablets under his pillow to practise his letters in spare moments, but the effort, begun late in life, had little success. Einhard had served at Charlemagne's court himself and modelled the Life on Suetonius' lives of the emperors. Litterīs effigiendīs, 'to letters being formed', is a gerundive phrase in the dative, and ut … adsuēsceret is a purpose clause with the subjunctive.",
   "more": "Yet the same king made schools and accurate copying a priority across his empire. Temptābat and solēbat are imperfects of repeated action, each completed by an infinitive.",
   "person": "Einhard",
   "source": {
@@ -4474,7 +4474,7 @@
   },
   "source_url": "https://www.thelatinlibrary.com/ein.html",
   "attribution_confidence": "verified",
-  "attribution_note": "Text verified; \"ad hoc\" omitted (marked …).",
+  "attribution_note": "Text verified against the Latin Library; \"ad hoc\" omitted (marked …).",
   "gloss": [
    {
     "word": "Temptābat",
@@ -4547,20 +4547,74 @@
     "lemma": "soleō",
     "meaning": "he used to",
     "parse": "3rd sg. impf."
+   },
+   {
+    "word": "ut",
+    "lemma": "ut",
+    "meaning": "so that",
+    "parse": "conj."
+   },
+   {
+    "word": "cum",
+    "lemma": "cum",
+    "meaning": "whenever",
+    "parse": "conj."
+   },
+   {
+    "word": "vacuum",
+    "lemma": "vacuus",
+    "meaning": "free, empty",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "tempus",
+    "lemma": "tempus",
+    "meaning": "time",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "esset",
+    "lemma": "sum",
+    "meaning": "there was",
+    "parse": "3rd sg. impf. subj."
+   },
+   {
+    "word": "manum",
+    "lemma": "manus",
+    "meaning": "hand",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "litterīs",
+    "lemma": "littera",
+    "meaning": "letters",
+    "parse": "dat. pl. f."
+   },
+   {
+    "word": "effigiendīs",
+    "lemma": "effigiō",
+    "meaning": "being formed",
+    "parse": "gerundive dat. pl. f."
+   },
+   {
+    "word": "adsuēsceret",
+    "lemma": "adsuēscō",
+    "meaning": "he might accustom",
+    "parse": "3rd sg. impf. subj."
    }
   ],
   "grammar_target": [
+   "gerundive",
+   "subjunctive",
    "imperfect",
-   "infinitive",
-   "enclitic_que",
-   "prep_ablative"
+   "infinitive"
   ],
   "grammar_preview": [],
   "grammar_tags": [
+   "gerundive",
+   "subjunctive",
    "imperfect",
-   "infinitive",
-   "enclitic_que",
-   "prep_ablative"
+   "infinitive"
   ],
   "vocab_ids": [
    "tempto",
@@ -4573,19 +4627,30 @@
    "sub",
    "cervical",
    "circumfero",
-   "soleo"
+   "soleo",
+   "ut",
+   "cum",
+   "vacuus",
+   "tempus",
+   "sum",
+   "manus",
+   "littera",
+   "effigio",
+   "adsuesco"
   ],
   "teaching_value": {
-   "note": "Targets imperfect, infinitive, enclitic_que, prep_ablative.",
-   "dcc_core_pct": 55,
+   "note": "Targets gerundive, subjunctive, imperfect, infinitive.",
+   "dcc_core_pct": 65,
    "non_core": [
     "tabula",
     "codicillus",
     "lectus",
     "cervical",
-    "circumfero"
+    "circumfero",
+    "effigio",
+    "adsuesco"
    ],
-   "score": 3,
+   "score": 4,
    "role": "preview"
   },
   "unlock_rule": {
@@ -5198,7 +5263,7 @@
   "id": "q-bernard-nanos",
   "type": "quote",
   "era": "high_medieval",
-  "unit": 10,
+  "unit": 11,
   "latin": "Dīcēbat Bernardus Carnotēnsis nōs esse quasi nānōs, gigantum umerīs īnsidentēs.",
   "translation": "Bernard of Chartres used to say that we are like dwarfs sitting on the shoulders of giants.",
   "context": "John of Salisbury (Metalogicon 3.4, 1159) reports his teacher's image: we see more and farther than the ancients, not by sharper sight, but because their size lifts us up. Newton echoed it in a letter to Hooke of February 1676 (1675 Old Style). Bernard taught at the cathedral school of Chartres, whose south transept windows show prophets carrying the evangelists on their shoulders.",

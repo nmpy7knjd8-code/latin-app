@@ -1,0 +1,53 @@
+{
+ "q-anselm-maius": {
+  "source_check": "ok",
+  "alatius": [
+   "maius≠māius"
+  ]
+ },
+ "q-cb-omittamus": {
+  "source_check": "MISSING: dulcia iuuentutis tenerae",
+  "alatius": []
+ },
+ "q-kempis-operari": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-oresme-moneta": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-petrarch-irascimur": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-asser-libris": {
+  "source_check": "ok",
+  "alatius": [
+   "Saxonicōs≠Saxōnicōs",
+   "librīs≠lībrīs"
+  ]
+ },
+ "q-dig-operam": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dig-licet": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dig-suo-iure": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-tacitus-leges": {
+  "source_check": "ok",
+  "alatius": [
+   "pūblicā≠pūblica"
+  ]
+ },
+ "q-xii-nox-furtum": {
+  "source_check": "ok",
+  "alatius": []
+ }
+}

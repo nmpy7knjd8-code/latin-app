@@ -154,6 +154,18 @@
   "ambiguous": []
  },
  {
+  "id": "q-erasmus-stultitia",
+  "file": "batch7-cards.json",
+  "latin": "Stultitia loquitur.",
+  "no_macrons_at_all": true,
+  "lexicon_fixed": [],
+  "unverified": [
+   "Stultitia",
+   "loquitur"
+  ],
+  "ambiguous": []
+ },
+ {
   "id": "q-augustine-tolle",
   "file": "cards.js",
   "latin": "Tolle, lege; tolle, lege.",

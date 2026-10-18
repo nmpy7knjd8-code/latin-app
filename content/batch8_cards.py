@@ -1,0 +1,79 @@
+# Batch 8 card texts: grammar-carrying cards for Units XI-XIII. Gloss format: "word|lemma|meaning|parse; ..."
+# K(id,type,era,unit,latin,translation,context,more,person,work,cit,date,source_url,conf,note,gloss,target,preview,img,lm_label,lm_url, **extra)
+LL='https://www.thelatinlibrary.com/'
+WP='https://en.wikipedia.org/wiki/'
+CARDS=[]
+def K(*a,**kw): CARDS.append((a,kw))
+
+# ---------------- UNIT 11: Scholae ----------------
+K('q-anselm-maius','quote','high_medieval',11,'Et quidem crēdimus tē esse aliquid quō nihil maius cōgitārī possit.','And indeed we believe that you are something than which nothing greater can be thought.',
+ "In his Proslogion, written around 1078 at the abbey of Bec in Normandy, Anselm speaks to God and defines him as the greatest thing that can be thought. From this he argued that God must exist in reality and not only in the mind, the reasoning later called the ontological argument. Maius, 'greater', is a comparative, and quō, 'than which', is an ablative of comparison. Possit is a subjunctive in a relative clause describing what kind of thing God is.",
+ "Anselm later became archbishop of Canterbury. A monk named Gaunilo replied that the same logic could prove a perfect island exists, and Aquinas, Descartes and Kant all took sides in the debate.",
+ 'Anselm of Canterbury','Anselm, Proslogion','2','about 1078',LL+'anselmproslogion.html','verified',None,
+ 'Et|et|and|conj.; quidem|quidem|indeed|adv.; crēdimus|crēdō|we believe|1st pl. pres.; tē|tū|you|acc. sg.; esse|sum|to be|pres. inf.; aliquid|aliquis|something|acc. sg. n.; quō|quī|than which|abl. sg. n. (comparison); nihil|nihil|nothing|nom. sg. n.; maius|magnus|greater|comp. nom. sg. n.; cōgitārī|cōgitō|to be thought|pres. pass. inf.; possit|possum|can|3rd sg. pres. subj.',
+ ['comparative','ablative_of_comparison','subjunctive','indirect_statement'],[],'anselm','Ontological argument',WP+'Ontological_argument')
+K('q-cb-omittamus','quote','high_medieval',11,'Omittāmus studia, dulce est dēsipere, et carpāmus dulcia iuventūtis tenerae!','Let us leave our studies, it is sweet to play the fool, and let us pluck the sweet things of tender youth!',
+ "In this song from the Carmina Burana, a student urges his friends to put down their books and enjoy being young, since serious work suits old age. Omittāmus and carpāmus are hortatory subjunctives, 'let us leave' and 'let us pluck'. Dulce est dēsipere borrows a phrase from Horace, and carpāmus recalls his carpe diem.",
+ "Later verses invite the singer's friends down to the town squares to watch the girls dancing. The poem is number 75 in the collection.",
+ 'Carmina Burana (anonymous)','Carmina Burana','75.1','13th century','https://la.wikipedia.org/wiki/Omittamus_Studia','verified','Text as printed on la.wikipedia (CB 75) and the Latin Reading Blog; the manuscript spelling tenere is normalised to tenerae.',
+ 'Omittāmus|omittō|let us leave aside|1st pl. pres. subj.; studia|studium|studies|acc. pl. n.; dulce|dulcis|sweet|nom. sg. n.; est|sum|it is|3rd sg. pres.; dēsipere|dēsipiō|to play the fool|pres. inf.; et|et|and|conj.; carpāmus|carpō|let us pluck, enjoy|1st pl. pres. subj.; dulcia|dulcis|sweet things|acc. pl. n.; iuventūtis|iuventūs|of youth|gen. sg. f.; tenerae|tener|tender|gen. sg. f.',
+ ['hortatory_subjunctive','infinitive_as_subject','neuter_plural'],[],'cb75','Carmina Burana',WP+'Carmina_Burana',related=['q-cb-in-taberna'])
+
+# ---------------- UNIT 12: Regna ----------------
+K('q-kempis-operari','quote','late_medieval',12,'Multa bona potes operārī dum sānus es, sed īnfirmātus nesciō quid poteris.','You can do much good while you are healthy, but once you are sick, I do not know what you will be able to do.',
+ "This advice comes from the chapter of the Imitation of Christ on thinking about death: do good now, because illness may take the chance away. Operārī, 'to work, to do', is a deponent infinitive, passive in form but active in meaning. Dum sānus es, 'while you are healthy', is a dum clause, and quid poteris is an indirect question.",
+ "The same chapter tells readers to live each morning as if they might not see the evening. Books on the art of dying well, the Ars moriendi, were popular in the same 15th-century world.",
+ 'Thomas à Kempis','Thomas à Kempis, De imitatione Christi','1.23.4','about 1420',LL+'kempis/kempis1.shtml','verified','Classical Latin would put the indirect question in the subjunctive; the text has the future indicative poteris.',
+ 'Multa|multus|many|acc. pl. n.; bona|bonum|good things|acc. pl. n.; potes|possum|you can|2nd sg. pres.; operārī|operor|to work, to do|pres. inf. (deponent); dum|dum|while|conj.; sānus|sānus|healthy|nom. sg. m.; es|sum|you are|2nd sg. pres.; sed|sed|but|conj.; īnfirmātus|īnfirmō|weakened, sick|perf. pass. part. nom. sg. m.; nesciō|nesciō|I do not know|1st sg. pres.; quid|quis|what|acc. sg. n.; poteris|possum|you will be able|2nd sg. fut.',
+ ['deponent','dum_clause','indirect_question','possum_infinitive'],[],'arsmoriendi','The Imitation of Christ',WP+'The_Imitation_of_Christ',related=['q-kempis-homo','q-stabat-mater'])
+K('q-oresme-moneta','quote','late_medieval',12,'Monēta siquidem est īnstrūmentum aequivalēns permūtandī dīvitiās nātūrālēs.','For money is an instrument of equal value for exchanging natural riches.',
+ "Nicole Oresme, a Paris scholar and later bishop of Lisieux, wrote his Treatise on Money in the 1350s, when French kings kept debasing the coinage to raise funds. He argued that although the prince stamps the coins, money belongs to the community that uses it, so a king who alters it for profit takes what is not his. Permūtandī, 'of exchanging', is a gerund in the genitive, and here it takes its own object, dīvitiās.",
+ "Oresme advised King Charles V of France and translated Aristotle into French for him. Long before Copernicus he argued that a rotating Earth could not be disproved.",
+ 'Nicole Oresme','Oresme, De moneta','ch. 6','about 1356',LL+'oresmius.html','verified',None,
+ 'Monēta|monēta|money|nom. sg. f.; siquidem|siquidem|for, since|conj.; est|sum|is|3rd sg. pres.; īnstrūmentum|īnstrūmentum|instrument, tool|nom. sg. n.; aequivalēns|aequivaleō|of equal value|pres. part. nom. sg. n.; permūtandī|permūtō|of exchanging|gerund gen.; dīvitiās|dīvitiae|riches|acc. pl. f.; nātūrālēs|nātūrālis|natural|acc. pl. f.',
+ ['gerund','present_participle','third_declension'],[],'oresme','Nicole Oresme',WP+'Nicole_Oresme')
+K('q-petrarch-irascimur','quote','late_medieval',12,'Vērīs reprehēnsiōnibus īrāscimur, vērīs laudibus dēlectāmur.','We grow angry at true criticism; we take delight in true praise.',
+ "In 1345 Petrarch found a manuscript of Cicero's letters in Verona and was shocked by his hero's political quarrels. He wrote two letters to Cicero as if to a living friend: the first scolded him, and the second, quoted here, offers praise to soothe him. Īrāscimur, 'we grow angry', is a deponent verb, while dēlectāmur is an ordinary passive, 'we are delighted'.",
+ "In the same letter Petrarch calls Cicero the 'supreme father of Roman eloquence'. His hunt for lost ancient texts helped launch the Renaissance.",
+ 'Petrarch','Petrarch, Epistolae familiares','24.4','1345',LL+'petrarch.ep1.html','verified','The source sentence begins quoniam, "since".',
+ 'Vērīs|vērus|true|dat. pl. f.; reprehēnsiōnibus|reprehēnsiō|criticisms|dat. pl. f.; īrāscimur|īrāscor|we grow angry (at)|1st pl. pres. (deponent + dat.); vērīs|vērus|true|abl. pl. f.; laudibus|laus|praise|abl. pl. f.; dēlectāmur|dēlectō|we are delighted|1st pl. pres. pass.',
+ ['deponent','dative','passive_voice'],[],'petrarch','Petrarch',WP+'Petrarch')
+
+K('q-asser-libris','quote','early_medieval',12,'… et psalmōs et Saxonicōs librōs et maximē Saxonica carmina studiōsē didicēre, et frequentissimē librīs ūtuntur.','… they have eagerly learned the psalms and Saxon books, and above all Saxon poems, and they make very frequent use of books.',
+ "Asser describes how King Alfred brought up his children at court: his son Edward, the future king, and his daughter Ælfthryth learned psalms and English poetry. Alfred also set up a court school where noble boys read books in both Latin and English. Ūtuntur, 'they use', is a deponent verb that takes the ablative, so librīs is ablative; didicēre is a shortened form of didicērunt.",
+ "Edward the Elder succeeded his father in 899, and Ælfthryth married the count of Flanders. Alfred wanted every free-born English boy to learn to read English first, and Latin afterwards.",
+ 'Asser','Asser, Vita Alfredi','75','893',LL+'asserius.html','verified','The sentence begins nam, "for"; the subject is Edward and Ælfthryth.',
+ 'et|et|both|conj.; psalmōs|psalmus|psalms|acc. pl. m.; et|et|and|conj.; Saxonicōs|Saxonicus|Saxon, English|acc. pl. m.; librōs|liber|books|acc. pl. m.; et|et|and|conj.; maximē|maximē|above all|adv.; Saxonica|Saxonicus|Saxon, English|acc. pl. n.; carmina|carmen|poems, songs|acc. pl. n.; studiōsē|studiōsē|eagerly|adv.; didicēre|discō|they learned|3rd pl. perf. (= didicērunt); et|et|and|conj.; frequentissimē|frequenter|very often|superl. adv.; librīs|liber|books|abl. pl. m.; ūtuntur|ūtor|they use|3rd pl. pres. (deponent + abl.)',
+ ['ablative_with_deponent','deponent','superlative','perfect_tense'],[],'alfredjewel','Alfred Jewel',WP+'Alfred_Jewel',related=['q-asser-codicem'])
+
+# ---------------- UNIT 13: Ius ----------------
+K('q-dig-operam','quote','empire',13,'Iūrī operam datūrum prius nōsse oportet, unde nōmen iūris dēscendat.','Anyone who means to study law ought first to know where the word iūs comes from.',
+ "These are the very first words of Justinian's Digest, taken from Ulpian's textbook for beginners. Ulpian goes on to derive iūs, 'law', from iūstitia, 'justice', and to define law as 'the art of the good and the fair'. Oportet, 'one ought', is an impersonal verb, and nōsse, 'to know', is a shortened perfect infinitive of nōscō with present meaning. Unde … dēscendat is an indirect question.",
+ "Modern linguists think the derivation runs the other way: iūstitia comes from iūs. Ulpian took the definition of law as ars bonī et aequī from the jurist Celsus.",
+ 'Ulpian (Digest)','Digesta Iustiniani','1.1.1 pr.','early 3rd century AD (Digest 533)',LL+'justinian/digest1.shtml','verified',None,
+ 'Iūrī|iūs|to law|dat. sg. n.; operam|opera|effort, attention|acc. sg. f.; datūrum|dō|(someone) about to give|fut. act. part. acc. sg. m.; prius|prius|first|adv.; nōsse|nōscō|to know|perf. inf. (= nōvisse); oportet|oportet|one ought, it is right|3rd sg. pres. (impersonal); unde|unde|from where|adv.; nōmen|nōmen|name, word|nom. sg. n.; iūris|iūs|of law|gen. sg. n.; dēscendat|dēscendō|comes down, derives|3rd sg. pres. subj.',
+ ['impersonal_verb','perfect_infinitive','indirect_question','perfect_form_present_meaning'],[],'littera','Digest (Roman law)',WP+'Digest_(Roman_law)',related=['q-inst-iustitia'])
+K('q-dig-licet','quote','empire',13,'Nōn omne quod licet honestum est.','Not everything that is permitted is honourable.',
+ "The jurist Paul, a contemporary of Ulpian in the early 3rd century AD, wrote this short rule, later placed among the general rules at the end of Justinian's Digest. The law sets a minimum, he implies, but decency asks for more. Licet, 'it is permitted', is an impersonal verb, and quod licet is a relative clause.",
+ "Elsewhere the Digest says that in marriages one should consider not only what is permitted but what is honourable (23.2.42). The apostle Paul makes a similar point in 1 Corinthians 6:12: all things are lawful for me, but not all things are helpful.",
+ 'Paul (Digest)','Digesta Iustiniani','50.17.144 pr.','early 3rd century AD (Digest 533)',LL+'justinian/digest50.shtml','verified',None,
+ 'Nōn|nōn|not|adv.; omne|omnis|everything|nom. sg. n.; quod|quī|that, which|nom. sg. n.; licet|licet|it is permitted|3rd sg. pres. (impersonal); honestum|honestus|honourable|nom. sg. n.; est|sum|is|3rd sg. pres.',
+ ['impersonal_verb','relative_clause','adjective_agreement'],[],'curia','Digest (Roman law)',WP+'Digest_(Roman_law)')
+K('q-dig-suo-iure','quote','empire',13,'Nūllus vidētur dolō facere, quī suō iūre ūtitur.','No one is considered to act with malice who is using his own right.',
+ "This rule of the jurist Gaius protects someone who simply exercises a legal right, even if a neighbour suffers as a result. Roman jurists applied it to a landowner who dug a well on his own land: if that dried up a neighbour's spring, he could not be sued for malice. Ūtitur, 'uses', is a deponent verb that takes the ablative, so suō iūre, 'his own right', is ablative.",
+ "Vidētur here means 'is considered'. Later lawyers set limits to the rule with the doctrine of 'abuse of rights', for acts done only to harm a neighbour.",
+ 'Gaius (Digest)','Digesta Iustiniani','50.17.55','2nd century AD (Digest 533)',LL+'justinian/digest50.shtml','verified','The well example is Marcellus, quoted by Ulpian at Digest 39.3.1.12.',
+ 'Nūllus|nūllus|no one|nom. sg. m.; vidētur|videō|is considered|3rd sg. pres. pass.; dolō|dolus|with malice|abl. sg. m.; facere|faciō|to act|pres. inf.; quī|quī|who|nom. sg. m.; suō|suus|his own|abl. sg. n.; iūre|iūs|right|abl. sg. n.; ūtitur|ūtor|uses|3rd sg. pres. (deponent + abl.)',
+ ['ablative_with_deponent','deponent','relative_clause','passive_voice'],[],'gaius','Gaius (jurist)',WP+'Gaius_(jurist)')
+K('q-tacitus-leges','quote','empire',13,'Et corruptissimā rē pūblicā plūrimae lēgēs.','And when the state was most corrupt, laws were most numerous.',
+ "Tacitus pauses his Annals to sketch the history of Roman law, from the Twelve Tables to the flood of special laws in the late Republic, many aimed at individual men. His bitter conclusion is that the more corrupt the state, the more laws it had. Corruptissimā rē pūblicā, 'the state being most corrupt', is an ablative absolute, and the verb 'were' is simply understood.",
+ "Tacitus wrote the Annals early in the 2nd century AD, covering the emperors from Tiberius to Nero. Critics of over-regulation still quote the line.",
+ 'Tacitus','Tacitus, Annales','3.27','about AD 115',LL+'tacitus/tac.ann3.shtml','verified',None,
+ 'Et|et|and|conj.; corruptissimā|corruptus|most corrupt|superl. abl. sg. f.; rē|rēs|state, affair|abl. sg. f.; pūblicā|pūblicus|public|abl. sg. f.; plūrimae|multus|very many, most numerous|superl. nom. pl. f.; lēgēs|lēx|laws|nom. pl. f.',
+ ['ablative_absolute','superlative','fifth_declension'],[],'tacitus','Annals (Tacitus)',WP+'Annals_(Tacitus)')
+K('q-xii-nox-furtum','quote','republic',13,'Sī nox fūrtum faxsit, sī occīsit, iūre caesus estō.','If he commits a theft by night, and (the owner) kills him, he shall be held lawfully killed.',
+ "This law of the Twelve Tables let a householder kill a thief caught at night without being punished. By day, a thief could be killed only if he defended himself with a weapon. Estō is the future imperative of sum, the 'he shall be' of Roman law, and nox is an old form meaning 'by night'. Faxsit and occīsit are archaic verb forms, later fēcerit and occīderit.",
+ "Cicero cites the law in his speech defending Milo on a murder charge. The Book of Exodus has a similar rule about a thief killed while breaking in at night.",
+ 'Twelve Tables','Lex Duodecim Tabularum','Table VIII.12','about 450 BC',LL+'12tables.html','verified','Text as reconstructed from later quotations (Macrobius, Saturnalia 1.4.19); the subjects of the verbs are understood.',
+ 'Sī|sī|if|conj.; nox|nox|by night|archaic adv. (= noctū); fūrtum|fūrtum|theft|acc. sg. n.; faxsit|faciō|commits|archaic 3rd sg. subj. (= fēcerit); sī|sī|if|conj.; occīsit|occīdō|kills|archaic 3rd sg. subj. (= occīderit); iūre|iūs|lawfully, by right|abl. sg. n. (manner); caesus|caedō|killed|perf. pass. part. nom. sg. m.; estō|sum|he shall be|3rd sg. fut. imperative',
+ ['future_imperative','perfect_passive','ablative'],[],'romankey','Twelve Tables',WP+'Twelve_Tables',related=['q-xii-in-ius'])

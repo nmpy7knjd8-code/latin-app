@@ -36,7 +36,22 @@ Unit (era/theme) → 5–7 Lessons → each lesson has 8–15 exercises. Each un
 | 10 | Monks & Manuscripts | relative clauses, review | Benedict *ora et labora* (later motto, flag it), Bede, Book of Kells, Charlemagne |
 _Grammar moves per review-1 §5: perfect moved from Unit 7 to Unit 6; future moved from Unit 6 to Unit 7._
 
-Later (`high_medieval` / `late_medieval` eras): Universities & Scholastics, Carmina Burana, Dante/Petrarch Latin, Church & law Latin, Latin all around us (mottos, science).
+### Units 11–14 (later units: all earlier grammar may appear)
+The medieval deck already had cards in units 11 and 12 (Abelard, Heloise, Hildegard, *O Fortuna*, *Dies irae*, the Archpoet; Magna Carta, Aquinas, the Paris statute of 1215, Kempis, Dante's *Monarchia*, *Gesta Romanorum*). Until now the viewer showed them under Unit X. Batch 7 adds four units on top of the original ten. The first two cover medieval material by period; the last two are themed units drawing on every era.
+
+| # | Unit (setting) | Era / theme | Grammar strand | History anchors |
+|---|---|---|---|---|
+| 11 | **Scholae**: Schools, Universities & Songs | `high_medieval`, about 1100–1300 | subjunctive (jussive, hortatory), indirect questions, comparative & superlative, ablative of comparison | Anselm (*quō nihil maius*), Bernard of Chartres' dwarfs on giants, Abelard & Heloise, Hildegard, Carmina Burana (*O Fortuna*, *In taberna*, *Omittāmus studia*), *Dies irae*, *Stabat Mater*, Aquinas' five ways, Bernard of Cluny |
+| 12 | **Rēgna**: Kings, Charters & Books | kings and their books from Charlemagne (800) to about 1450; mostly `late_medieval` | deponents (and ablative with *ūtor* etc.), gerundive, gerund, pluperfect, *dum* clauses | Charlemagne's coronation and his writing tablets (Einhard), Alfred and his children's books (Asser), Magna Carta, Declaration of Arbroath, Oresme on the king's coinage, Petrarch's letter to Cicero, Dante, Richard de Bury, Thomas à Kempis, *Gesta Romanorum* |
+| 13 | **Iūs**: Law & Justice | thematic, all eras (Twelve Tables to Bracton) | future imperative (the "you shall" of laws), ablative absolute, impersonal verbs, perfect infinitive, review of subjunctive and deponents | Twelve Tables (*itō*, *estō*), Cicero, Tacitus on laws in a corrupt state, Ulpian, Paul & Gaius in the Digest (*oportet*, *licet*, *ūtitur*), Justinian's Institutes and Code, Bracton, *quod omnēs tangit* |
+| 14 | **Scientia**: Humanists & Scientists | `early_modern`, about 1450–1700 (new era) | full review: all grammar | Erasmus, More's *Utopia*, Columbus' letter, Copernicus, Galileo, Descartes, Spinoza, Newton, Comenius, the Gregorian calendar |
+
+Notes:
+- The grammar tags for units 11–13 are now set in `content/rome_meta.py` `TAUGHT` (previously 99 = preview only); `gerund` was added at 12. The batch 7/8 builds still carry the same override.
+- Unit XI–XIII cards target the grammar they actually contain: medieval-cards were given explicit `grammar_target` by `content/medieval_units_grammar.py`, and `batch8-cards.json` adds 11 cards built around the unit grammar. Moved: Bernard of Chartres (X→XI), Einhard's writing tablets (VIII→XII, extended with the gerundive *litterīs effigiendīs*), Charlemagne's acclamation and Asser's book contest (X→XII).
+- `early_modern` was added to the era enum in `card-schema.json`.
+- Some existing unit-12 cards (Magna Carta, Aquinas, the Paris statute) carry era `high_medieval`; unit = theme, era = date, so that is fine.
+- Candidate themes for later units: Mottos & Phrases still in use, Church Latin in liturgy, Latin in science names (Linnaeus).
 
 ## 4. Exercise types
 - **Read & See**: CI passage plus image. Tap any word for a gloss. Comprehension check comes after, then a 30-second explicit **Nota bene** and processing-instruction drills.

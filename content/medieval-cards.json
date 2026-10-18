@@ -1073,11 +1073,12 @@
   "grammar_tags": [
    "present_passive",
    "quia_causal",
-   "ablative_of_means"
+   "ablative_of_means",
+   "passive_voice",
+   "present_participle",
+   "ablative_means"
   ],
-  "grammar_preview": [
-   "present_participle"
-  ],
+  "grammar_preview": [],
   "teaching_value": {
    "note": "Perfect pair of present passives vocor / dīceris with predicate nominatives; ablative of means; a reusable 'X is called Y' frame. A story learners can retell.",
    "score": 5,
@@ -1238,7 +1239,12 @@
    "vero",
    "voco"
   ],
-  "context_original": "A captured pirate answers Alexander the Great. The Gesta Romanorum, a 14th-century preachers' story collection, retells it from Augustine's City of God (4.4)."
+  "context_original": "A captured pirate answers Alexander the Great. The Gesta Romanorum, a 14th-century preachers' story collection, retells it from Augustine's City of God (4.4).",
+  "grammar_target": [
+   "passive_voice",
+   "present_participle",
+   "ablative_means"
+  ]
  },
  {
   "id": "q-hildegard-aurora",
@@ -2222,7 +2228,9 @@
   "grammar_tags": [
    "jussive_subjunctive_passive",
    "nisi",
-   "per_acc"
+   "per_acc",
+   "jussive_subjunctive",
+   "passive_voice"
   ],
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -2375,7 +2383,12 @@
    "terra",
    "vel"
   ],
-  "context_original": "King John sealed this charter at Runnymede in 1215. Clause 39 became a foundation of due process."
+  "context_original": "King John sealed this charter at Runnymede in 1215. Clause 39 became a foundation of due process.",
+  "grammar_target": [
+   "jussive_subjunctive",
+   "passive_voice"
+  ],
+  "grammar_preview": []
  },
  {
   "id": "q-bede-angli",
@@ -3216,7 +3229,7 @@
   "unit": 12,
   "latin": "Tardiloquum tē esse iubeō.",
   "translation": "I order you to be slow to speak.",
-  "context": "Advice on how to study, attributed to Aquinas in a short letter to a young friar named John. Thomas Aquinas (1225–1274) taught at Paris and Naples and wrote the Summa Theologiae. The letter, De modo studendi, gives sixteen pieces of advice on study; its authorship is not certain.",
+  "context": "Advice on how to study, attributed to Aquinas in a short letter to a young friar named John. Thomas Aquinas (1225–1274) taught at Paris and Naples and wrote the Summa Theologiae. The letter, De modo studendi, gives sixteen pieces of advice on study; its authorship is not certain. Iubeō, 'I order', takes an accusative and infinitive, tē esse, 'you to be': a command, not an indirect statement.",
   "person": "Thomas Aquinas (attrib.)",
   "source": {
    "work": "Epistola de modo studendi",
@@ -3225,7 +3238,9 @@
   },
   "attribution_confidence": "traditional",
   "grammar_tags": [
-   "iubeo"
+   "iubeo",
+   "infinitive",
+   "accusative"
   ],
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -3285,16 +3300,18 @@
   ],
   "attribution_note": "The letter De modo studendi is attributed to Aquinas, but its authenticity is doubted.",
   "register": "medieval",
-  "grammar_preview": [
-   "accusative_infinitive"
-  ],
+  "grammar_preview": [],
   "vocab_ids": [
    "iubeo",
    "sum",
    "tardiloqvus",
    "tu"
   ],
-  "context_original": "Advice on how to study, attributed to Aquinas in a short letter to a young friar named John."
+  "context_original": "Advice on how to study, attributed to Aquinas in a short letter to a young friar named John.",
+  "grammar_target": [
+   "infinitive",
+   "accusative"
+  ]
  },
  {
   "id": "q-archpoet-taberna",
@@ -3304,7 +3321,7 @@
   "register": "medieval",
   "latin": "Meum est prōpositum in tabernā morī, ut sint vīna proxima morientis ōrī.",
   "translation": "It is my plan to die in the tavern, so that wine may be near the mouth of the dying man.",
-  "context": "The 'Archpoet', an anonymous wandering scholar at Frederick Barbarossa's court, mock-confesses his vices (c. 1163). The stanza became a student drinking song. The poem is the Archpoet's 'Confession', also preserved in the Carmina Burana. Its stressed, rhymed lines are typical of medieval student poetry. Mihi est prōpositum, 'it is my plan', uses the dative of possession.",
+  "context": "The 'Archpoet', an anonymous wandering scholar at Frederick Barbarossa's court, mock-confesses his vices (c. 1163). The stanza became a student drinking song. The poem is the Archpoet's 'Confession', also preserved in the Carmina Burana. Its stressed, rhymed lines are typical of medieval student poetry. Meum est prōpositum, 'my plan is', uses the possessive adjective meum; ōrī is a dative after proxima, 'nearest to'.",
   "person": "The Archpoet (Archipoeta)",
   "source": {
    "work": "Confessio (Estuans intrinsecus), st. 12",
@@ -3317,10 +3334,13 @@
   "grammar_tags": [
    "ut_purpose_subjunctive",
    "deponent_infinitive",
-   "dative_with_proximus"
+   "dative_with_proximus",
+   "subjunctive",
+   "dative",
+   "deponent"
   ],
   "grammar_preview": [
-   "present_participle_substantive"
+   "deponent"
   ],
   "teaching_value": {
    "note": "Clean ut + present subjunctive purpose clause; deponent infinitive morī; proximus + dative. Rhymed, memorable, funny.",
@@ -3438,7 +3458,11 @@
    "ut",
    "vinum"
   ],
-  "context_original": "The 'Archpoet', an anonymous wandering scholar at Frederick Barbarossa's court, mock-confesses his vices (c. 1163). The stanza became a student drinking song."
+  "context_original": "The 'Archpoet', an anonymous wandering scholar at Frederick Barbarossa's court, mock-confesses his vices (c. 1163). The stanza became a student drinking song.",
+  "grammar_target": [
+   "subjunctive",
+   "dative"
+  ]
  },
  {
   "id": "q-ben-ausculta",
@@ -3692,7 +3716,9 @@
   "text_check": "Matches two independent quotations of the Denifle–Chatelain edition (Brepols chapter; Análisis, Univ. Zaragoza). MS spelling methafisica normalised.",
   "grammar_tags": [
    "jussive_subjunctive_passive",
-   "de_ablative"
+   "de_ablative",
+   "jussive_subjunctive",
+   "passive_voice"
   ],
   "teaching_value": {
    "note": "Negative jussive passive subjunctive (nōn legantur), the voice of every medieval rule-book; legere = 'to lecture on'; dē + abl.",
@@ -3801,7 +3827,12 @@
    "non",
    "philosophia"
   ],
-  "context_original": "In 1215 the papal legate Robert de Courçon laid down the arts curriculum at Paris: Aristotle's logic yes, his physics and metaphysics no. Within forty years they were required reading."
+  "context_original": "In 1215 the papal legate Robert de Courçon laid down the arts curriculum at Paris: Aristotle's logic yes, his physics and metaphysics no. Within forty years they were required reading.",
+  "grammar_target": [
+   "jussive_subjunctive",
+   "passive_voice"
+  ],
+  "grammar_preview": []
  },
  {
   "id": "q-ag-dei",
@@ -4064,7 +4095,9 @@
   },
   "attribution_confidence": "verified",
   "grammar_tags": [
-   "gerund_ablative"
+   "gerund_ablative",
+   "ablative_means",
+   "gerund"
   ],
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4153,7 +4186,7 @@
   "attribution_note": "'quippe' is the reading of the Boyer & McKeon critical edition (1976–77), as transcribed by Peter King with B&M page markers (/104/). 'enim' is the older Henke–Lindenkohl/Migne (PL 178) text.",
   "register": "medieval",
   "grammar_preview": [
-   "gerund_ablative"
+   "gerund"
   ],
   "card_role": "preview_reading",
   "vocab_ids": [
@@ -4166,7 +4199,10 @@
    "venio",
    "veritas"
   ],
-  "context_original": "Abelard's 'Yes and No' set contradictory authorities side by side so students would reason them out—the seed of scholastic method."
+  "context_original": "Abelard's 'Yes and No' set contradictory authorities side by side so students would reason them out—the seed of scholastic method.",
+  "grammar_target": [
+   "ablative_means"
+  ]
  },
  {
   "id": "q-vulg-vanitas",
@@ -4392,7 +4428,10 @@
   "grammar_tags": [
    "comparative_adjective",
    "present_passive_infinitive",
-   "quam_comparison"
+   "quam_comparison",
+   "comparative",
+   "subjunctive",
+   "passive_voice"
   ],
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4495,9 +4534,7 @@
   ],
   "attribution_note": "MS spelling karius normalised to cārius.",
   "register": "medieval",
-  "grammar_preview": [
-   "imperfect_subjunctive"
-  ],
+  "grammar_preview": [],
   "vocab_ids": [
    "carus",
    "dico",
@@ -4511,7 +4548,12 @@
    "tvus",
    "video"
   ],
-  "context_original": "Héloïse to Abelard: even if Augustus, ruler of the world, offered to marry her, she would rather be called Abelard's mistress than his empress."
+  "context_original": "Héloïse to Abelard: even if Augustus, ruler of the world, offered to marry her, she would rather be called Abelard's mistress than his empress.",
+  "grammar_target": [
+   "comparative",
+   "subjunctive",
+   "passive_voice"
+  ]
  },
  {
   "id": "q-boethius-rota",
@@ -4619,7 +4661,10 @@
   "grammar_tags": [
    "ab_agent_passive",
    "superlative_adverb",
-   "reflexive"
+   "reflexive",
+   "superlative",
+   "indirect_statement",
+   "passive_voice"
   ],
   "unlock_rule": {
    "min_vocab_known": 0.7,
@@ -4707,9 +4752,7 @@
   ],
   "attribution_note": "Mon. 1.14.11: the closing sentence of ch. 14, before ch. 15 'In omni genere optimum esse quod est maxime unum'. Bibliotheca Augustana's chapter-numbered text (Ricci-type divisions, as used by Shaw) and the Latin Library agree.",
   "register": "medieval",
-  "grammar_preview": [
-   "accusative_infinitive"
-  ],
+  "grammar_preview": [],
   "vocab_ids": [
    "ab",
    "bene",
@@ -4721,7 +4764,12 @@
    "sui",
    "unus"
   ],
-  "context_original": "Dante, exiled from Florence, argued in Latin for a universal emperor to keep peace in Christendom."
+  "context_original": "Dante, exiled from Florence, argued in Latin for a universal emperor to keep peace in Christendom.",
+  "grammar_target": [
+   "superlative",
+   "indirect_statement",
+   "passive_voice"
+  ]
  },
  {
   "id": "q-bede-sparrow",

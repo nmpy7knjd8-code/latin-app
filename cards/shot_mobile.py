@@ -9,9 +9,9 @@ with sync_playwright() as p:
     import os
     if os.environ.get("WIDEFONT"): pg.add_init_script("document.addEventListener('DOMContentLoaded',()=>{const s=document.createElement('style');s.textContent='.back .ctx{font-family:Verdana,\\'DejaVu Sans\\',sans-serif!important;letter-spacing:.04em;word-spacing:.1em}';document.head.appendChild(s)})")
     TAG=os.environ.get("TAG","")
-    pg.goto(U); pg.evaluate("for(let u=1;u<=10;u++)localStorage.setItem('lingua.open.'+u,'1')"); pg.goto(U+"?draft=1"); pg.wait_for_timeout(1500)
+    pg.goto(U); pg.evaluate("for(let u=1;u<=14;u++)localStorage.setItem('lingua.open.'+u,'1')"); pg.goto(U+"?draft=1"); pg.wait_for_timeout(1500)
     bad=[];tot=0;clamped=[];hbad=[]
-    for u in range(1,11):
+    for u in range(1,pg.evaluate("UNITS.length")+1):
         pg.evaluate(f"setSec({u})"); pg.wait_for_timeout(300)
         tot+=pg.evaluate("document.querySelectorAll('.card').length"); bad+=pg.evaluate(CHK); hb=pg.evaluate(HCHK); hbad.extend(hb)
         clamped+=pg.evaluate("[...document.querySelectorAll('.ctx.clamp')].map(x=>x.closest('.card').dataset.id)")

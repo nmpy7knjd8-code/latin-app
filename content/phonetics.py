@@ -340,7 +340,7 @@ def entry(c,f):
 def all_cards():
     base=os.path.dirname(os.path.abspath(__file__)); root=os.path.dirname(base)
     cards=[]
-    for f in ('rome-cards.json','medieval-cards.json','learning-cards.json')+tuple(x for x in ('batch4-cards.json','batch5-cards.json','batch6-cards.json') if os.path.exists(os.path.join(base,x))):
+    for f in ('rome-cards.json','medieval-cards.json','learning-cards.json')+tuple(x for x in ('batch4-cards.json','batch5-cards.json','batch6-cards.json','batch7-cards.json','batch8-cards.json') if os.path.exists(os.path.join(base,x))):
         cards+=[(c,f) for c in json.load(open(os.path.join(base,f)))]
     js=open(os.path.join(root,'cards','cards.js')).read()
     cards+=[(c,'cards.js') for c in json.loads(js[js.index('['):js.rindex(']')+1])]

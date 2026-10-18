@@ -12,6 +12,10 @@ TAUGHT={'nominative':1,'sum':1,'word_order':1,'abbreviations':1,'subject_verb':1
  'relative_clause':10}
 # beyond the 10-unit core: preview only
 for t in ['comparative','ablative_of_comparison','subjunctive','jussive_subjunctive','hortatory_subjunctive','gerundive','deponent','future_imperative','dum_clause','impersonal_verb','ablative_absolute','dative_of_direction','indirect_question','ablative_with_deponent','superlative','perfect_infinitive','pluperfect']: TAUGHT[t]=99
+# Units XI-XIII (game-design.md section 3) teach the later grammar; XIV reviews everything.
+for t in ['subjunctive','jussive_subjunctive','hortatory_subjunctive','indirect_question','comparative','superlative','ablative_of_comparison']: TAUGHT[t]=11
+for t in ['deponent','ablative_with_deponent','gerundive','gerund','pluperfect','dum_clause']: TAUGHT[t]=12
+for t in ['future_imperative','ablative_absolute','impersonal_verb','perfect_infinitive','dative_of_direction']: TAUGHT[t]=13
 TAUGHT['possum_infinitive']=8
 WP='https://en.wikipedia.org/wiki/'
 # id: (unit, target, preview, image_key, learn_more_label, learn_more_title)

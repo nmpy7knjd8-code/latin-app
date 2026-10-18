@@ -59,6 +59,7 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .early_medieval{--bg:linear-gradient(165deg,#2c4a6e,#1c324d);--bg2:#132236;--acc:#f2d58f}
 .high_medieval{--bg:linear-gradient(165deg,#3b5d3a,#263f26);--bg2:#1a2b1a;--acc:#efe0a0}
 .late_medieval{--bg:linear-gradient(165deg,#6a2c4b,#4a1d34);--bg2:#331424;--acc:#f4d6a0}
+.early_modern{--bg:linear-gradient(165deg,#1f5f7a,#143f52);--bg2:#0d2a37;--acc:#f3dca0}
 /* art area. Safe zone: images may only break the top edge in the centre 60% (left/right 20% stays clear) */
 .art{position:relative;flex:1;display:flex;align-items:flex-end;justify-content:center;min-height:0}
 .cut{position:absolute;bottom:0;left:50%;transform:translateX(-50%);height:132%;max-width:72%;object-fit:contain;
@@ -127,7 +128,7 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 #sec small{display:block;font-weight:500;font-size:.72rem;color:#6a5e52}
 .sheet{position:fixed;inset:0;z-index:50;background:rgba(42,36,32,.45);display:flex;align-items:flex-end;justify-content:center}
 .sheet[hidden]{display:none}
-.sheet .pane{width:min(100%,460px);background:#efe9df;border-radius:22px 22px 0 0;padding:14px 16px calc(env(safe-area-inset-bottom) + 12px);box-shadow:0 -10px 30px rgba(0,0,0,.25)}
+.sheet .pane{width:min(100%,460px);max-height:calc(100dvh - 12px);overflow-y:auto;overscroll-behavior:contain;background:#efe9df;border-radius:22px 22px 0 0;padding:14px 16px calc(env(safe-area-inset-bottom) + 12px);box-shadow:0 -10px 30px rgba(0,0,0,.25)}
 .sheet h2{font:600 1rem Georgia,serif;letter-spacing:.2em;text-align:center;margin:2px 0 10px}
 .path{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
 .path button{display:flex;align-items:center;gap:10px;min-height:54px;padding:6px 10px;border-radius:14px;border:0;color:#fff8ec;background:var(--bg);font:600 .85rem system-ui;text-align:left;cursor:pointer;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
@@ -136,6 +137,9 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 .path small{display:block;font-weight:400;font-size:.7rem;opacity:.85}
 .ring{flex:none;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--acc) calc(var(--p)*1%),rgba(255,255,255,.18) 0);font:700 .8rem Georgia,serif}
 .ring i{width:30px;height:30px;border-radius:50%;background:var(--bg2);display:grid;place-items:center;font-style:normal}
+/* 14 sections: compact grid so the picker fits short phones without page scroll (pane scrolls internally as a fallback) */
+.path{gap:6px}.path button{min-height:46px;padding:4px 8px;gap:8px;font-size:.8rem}.path small{font-size:.66rem}.path .ring{width:34px;height:34px;font-size:.72rem}.path .ring i{width:27px;height:27px;font-size:.66rem;letter-spacing:-.04em}
+@media (max-height:720px){.sheet h2{margin:0 0 6px}.path{gap:5px}.path button{min-height:40px;padding:3px 8px}.path .ring{width:30px;height:30px}.path .ring i{width:24px;height:24px}.sheet .tip{margin-top:6px;font-size:.66rem}}
 .sheet .tip{font-size:.72rem;color:#6a5e52;text-align:center;margin:10px 0 0}
 .dots{display:none!important}
 .nav{padding:0 0 12px!important}
@@ -170,7 +174,7 @@ header p{margin:4px 0 0;font-size:.85rem;color:#5a5048}
 <script src="cards.js"></script>
 <script src="phonetics.js"></script>
 <script>
-const ERA={regal:"Regal Rome",republic:"Roman Republic",empire:"Roman Empire",late_antiquity:"Late Antiquity",early_medieval:"Early Medieval",high_medieval:"High Medieval",late_medieval:"Late Medieval"};
+const ERA={regal:"Regal Rome",republic:"Roman Republic",empire:"Roman Empire",late_antiquity:"Late Antiquity",early_medieval:"Early Medieval",high_medieval:"High Medieval",late_medieval:"Late Medieval",early_modern:"Early Modern"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let mode="review";
 const fp=im=>im.focal_point?`object-position:${im.focal_point[0]*100}% ${im.focal_point[1]*100}%`:"";
@@ -264,7 +268,7 @@ function fitWide(){document.querySelectorAll(".face").forEach(fc=>{const W=fc.cl
     while(el.scrollWidth>el.clientWidth+1&&n++<12){fs*=.94;el.style.fontSize=fs+"px"}})})}
 function fitMeta(){document.querySelectorAll(".meta").forEach(m=>{const sp=m.querySelector(".sep");if(!sp)return;sp.classList.remove("wrapped");const a=m.firstElementChild,e=m.querySelector(".era");if(a&&e&&Math.abs(a.offsetTop-e.offsetTop)>4)sp.classList.add("wrapped")})}
 function expand(card){collapse();const bk=card.querySelector(".back"),r=card.getBoundingClientRect();
-  const ov=document.createElement("div");ov.id="xov";ov.className="xov "+card.className.split(" ").filter(c=>/^(regal|republic|empire|late_antiquity|early_medieval|high_medieval|late_medieval)$/.test(c)).join(" ");
+  const ov=document.createElement("div");ov.id="xov";ov.className="xov "+card.className.split(" ").filter(c=>/^(regal|republic|empire|late_antiquity|early_medieval|high_medieval|late_medieval|early_modern)$/.test(c)).join(" ");
   ov.innerHTML=`<div class="face back xback" style="margin:${r.top}px auto 24px;width:${r.width}px;min-height:${r.height}px">${bk.innerHTML}</div>`;
   const xb=ov.querySelector(".xback");xb.querySelectorAll(".ctx").forEach(c=>{c.classList.remove("clamp");c.style.fontSize="";c.style.maxHeight=""});xb.querySelectorAll(".ipa-b").forEach(e=>e.style.display="");
   const m=xb.querySelector(".more");m.hidden=false;m.innerHTML="Show less <span aria-hidden=true>⌃</span>";
@@ -307,8 +311,8 @@ deck.addEventListener("scroll",cur,{passive:true});
 let showDrafts=/[?&]draft=1/.test(location.search);
 const repoPath=src=>/^(https?:|data:)/.test(src)?null:(src.startsWith("../")?src.slice(3):"cards/"+src);
 const isDraft=c=>{const im=c.image||{};const rp=im.src&&repoPath(im.src);if(rp&&window.MANIFEST&&!window.MANIFEST.has(rp))return true;const l=String(im.license||"")+String(c.attribution_confidence||"");return !im.src||im.uncut||/verify|likely|pending|varies/i.test(l)};
-const UNITS=[["I","Urbs","The City","republic"],["II","Familia","Family","regal"],["III","Legiō","The Legion","republic"],["IV","Forum","Forum & Senate","republic"],["V","Deī","Gods & Temples","empire"],["VI","Imperium","Empire","empire"],["VII","Poētae","Poets","empire"],["VIII","Philosophī","Philosophers","late_antiquity"],["IX","Crux","Christian Rome & Fall","late_antiquity"],["X","Monachī","Monks & Manuscripts","early_medieval"]];
-const unitOf=c=>Math.min(10,Math.max(1,+c.unit||1));
+const UNITS=[["I","Urbs","The City","republic"],["II","Familia","Family","regal"],["III","Legiō","The Legion","republic"],["IV","Forum","Forum & Senate","republic"],["V","Deī","Gods & Temples","empire"],["VI","Imperium","Empire","empire"],["VII","Poētae","Poets","empire"],["VIII","Philosophī","Philosophers","late_antiquity"],["IX","Crux","Christian Rome & Fall","late_antiquity"],["X","Monachī","Monks & Manuscripts","early_medieval"],["XI","Scholae","Schools & Songs","high_medieval"],["XII","Rēgna","Kings, Charters & Books","late_medieval"],["XIII","Iūs","Law & Justice","late_antiquity"],["XIV","Scientia","Humanists & Scientists","early_modern"]];
+const unitOf=c=>Math.min(UNITS.length,Math.max(1,+c.unit||1));
 const KN=new Set(JSON.parse(localStorage.getItem("lingua.known")||"[]"));
 const saveKN=()=>localStorage.setItem("lingua.known",JSON.stringify([...KN]));
 let SEC=+localStorage.getItem("lingua.section")||1, ORDER={};
@@ -326,7 +330,7 @@ function openSheet(){const P=document.getElementById("path");P.innerHTML=UNITS.m
   b.addEventListener("pointerdown",start);["pointerup","pointerleave","pointercancel"].forEach(e=>b.addEventListener(e,stop));b.oncontextmenu=e=>e.preventDefault();});
  sheet.hidden=false}
 sheet.onclick=e=>{if(e.target===sheet)sheet.hidden=true};
-document.getElementById("logo").onclick=openSheet;document.getElementById("pill").onclick=openSheet;document.getElementById("psec").onclick=()=>setSec(SEC>1?SEC-1:10);document.getElementById("nsec").onclick=()=>setSec(SEC<10?SEC+1:1);document.getElementById("sec").onclick=openSheet;
+document.getElementById("logo").onclick=openSheet;document.getElementById("pill").onclick=openSheet;document.getElementById("psec").onclick=()=>setSec(SEC>1?SEC-1:UNITS.length);document.getElementById("nsec").onclick=()=>setSec(SEC<UNITS.length?SEC+1:1);document.getElementById("sec").onclick=openSheet;
 document.getElementById("logo").onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openSheet()}};
 function go(d){const n=VIS().length;let i=Math.max(0,Math.min(n-1,curI+d));const el=document.getElementById("card-"+i);if(el)el.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"})}
 let curI=0;
@@ -345,7 +349,7 @@ async function loadAll(){
   if(String(im.src).startsWith("TODO:"))im.src="https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(im.src.slice(5).trim().replace(/ /g,"_"))+"?width=600";
   c.image=im;return c;};
  const seen=new Set(CARDS.map(c=>c.id));let extra=[];
- for(const f of ["rome-cards","medieval-cards","learning-cards","batch4-cards","batch5-cards","batch6-cards"]){
+ for(const f of ["rome-cards","medieval-cards","learning-cards","batch4-cards","batch5-cards","batch6-cards","batch7-cards","batch8-cards"]){
   try{const r=await fetch("../content/"+f+".json");if(!r.ok)continue;
    for(const c of await r.json()){if(!seen.has(c.id)){seen.add(c.id);const im=c.image;if(im&&im.src&&!/^(https?:|data:|TODO:|\.\.?\/|\/)/.test(im.src))im.src="../"+(im.src.startsWith("assets/")?"":"content/")+im.src;extra.push(c)}}}catch(e){console.warn(f,e)}}
  try{const r=await fetch("../content/phonetics.json");if(r.ok)window.PHONETICS=Object.assign({},window.PHONETICS||{},await r.json());}catch(e){}
