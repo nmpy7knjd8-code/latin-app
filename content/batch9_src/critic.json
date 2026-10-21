@@ -1,0 +1,230 @@
+{
+ "v-via-appia": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-strigilis": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-toga-vestis": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-nauta-navem": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-miles-galeam": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-fibula": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-tabulae-stili": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-lararium": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-aquaeductus": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-pantheum": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-viator-lege": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": [
+   "lege≠lēge"
+  ]
+ },
+ "v-endymion": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-basilica": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-cloaca-maxima": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-quem-pastores": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-puer-nobis": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dies-irae-quid-sum": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-stabat-quis-homo": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-personent-clericuli": {
+  "source_check": "ok",
+  "alatius": [
+   "clēriculī≠clericūlī"
+  ]
+ },
+ "q-aquinas-utrum": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-cb-ecce-gratum": {
+  "source_check": "MISSING: cedant tristia aestas | tristia aestas redit | aestas redit nunc | nunc recedit hiemis",
+  "alatius": []
+ },
+ "q-gaudeamus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-bernard-plus-potuit": {
+  "source_check": "ok",
+  "alatius": [
+   "malō≠mālō"
+  ]
+ },
+ "q-kempis-utinam": {
+  "source_check": "MISSING: utinam per unum | per unum diem | unum diem bene",
+  "alatius": []
+ },
+ "q-einhard-caenandum": {
+  "source_check": "ok",
+  "alatius": [
+   "acroāma≠ācroāma"
+  ]
+ },
+ "q-asser-candelas": {
+  "source_check": "ok",
+  "alatius": [
+   "tanta≠tantā",
+   "cēra≠cērā",
+   "mēnsūrāta≠mēnsūrātā"
+  ]
+ },
+ "q-arbroath-centum": {
+  "source_check": "MISSING: uiui remanserint numquam | remanserint numquam anglorum | numquam anglorum dominio",
+  "alatius": []
+ },
+ "q-debury-libris": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-magna-carta-nulli": {
+  "source_check": "MISSING: rectum aut iustitiam",
+  "alatius": [
+   "vendēmus≠vēndēmus"
+  ]
+ },
+ "q-oresme-quamvis": {
+  "source_check": "ok",
+  "alatius": [
+   "numisma≠numismā",
+   "currentis≠currentīs"
+  ]
+ },
+ "q-petrarch-vixisti": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dante-monarchia": {
+  "source_check": "MISSING: qui secundum philosophica | secundum philosophica documenta | philosophica documenta genus",
+  "alatius": []
+ },
+ "q-xii-sepelito": {
+  "source_check": "ok",
+  "alatius": [
+   "neve≠nēve"
+  ]
+ },
+ "q-xii-venum": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-sunto": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dig-placuit": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-gaius-omnes-populi": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-trajan-conquirendi": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-tacitus-licet-concilium": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dig-nemo-plus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-livy-fons-iuris": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-bacon-parendo": {
+  "source_check": "ok",
+  "alatius": [
+   "Scientia≠Scientiā",
+   "potentia≠potentiā",
+   "hūmāna≠hūmānā",
+   "coincidunt≠coincīdunt"
+  ]
+ },
+ "q-spinoza-praeclara": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-more-oves": {
+  "source_check": "MISSING: oues uestrae",
+  "alatius": []
+ },
+ "q-luther-thesis1": {
+  "source_check": "MISSING: christus dicendo paenitentiam | dicendo paenitentiam agite | paenitentiam agite omnem | agite omnem uitam",
+  "alatius": []
+ },
+ "q-pico-adam": {
+  "source_check": "ok",
+  "alatius": [
+   "peculiāre≠pecūliāre"
+  ]
+ },
+ "q-vespucci-novum-mundum": {
+  "source_check": "ok",
+  "alatius": [
+   "habita≠habitā"
+  ]
+ },
+ "q-kepler-sexangula": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-copernicus-mathemata": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-harvey-ex-ovo": {
+  "source_check": "MISSING: ex ouo omnia",
+  "alatius": []
+ }
+}

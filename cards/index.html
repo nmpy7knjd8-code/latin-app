@@ -349,7 +349,7 @@ async function loadAll(){
   if(String(im.src).startsWith("TODO:"))im.src="https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(im.src.slice(5).trim().replace(/ /g,"_"))+"?width=600";
   c.image=im;return c;};
  const seen=new Set(CARDS.map(c=>c.id));let extra=[];
- for(const f of ["rome-cards","medieval-cards","learning-cards","batch4-cards","batch5-cards","batch6-cards","batch7-cards","batch8-cards"]){
+ for(const f of ["rome-cards","medieval-cards","learning-cards","batch4-cards","batch5-cards","batch6-cards","batch7-cards","batch8-cards","batch9-cards"]){
   try{const r=await fetch("../content/"+f+".json");if(!r.ok)continue;
    for(const c of await r.json()){if(!seen.has(c.id)){seen.add(c.id);const im=c.image;if(im&&im.src&&!/^(https?:|data:|TODO:|\.\.?\/|\/)/.test(im.src))im.src="../"+(im.src.startsWith("assets/")?"":"content/")+im.src;extra.push(c)}}}catch(e){console.warn(f,e)}}
  try{const r=await fetch("../content/phonetics.json");if(r.ok)window.PHONETICS=Object.assign({},window.PHONETICS||{},await r.json());}catch(e){}

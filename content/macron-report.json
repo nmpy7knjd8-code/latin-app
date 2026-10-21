@@ -166,6 +166,19 @@
   "ambiguous": []
  },
  {
+  "id": "v-strigilis",
+  "file": "batch9-cards.json",
+  "latin": "Strigilis parva et curva est.",
+  "no_macrons_at_all": true,
+  "lexicon_fixed": [],
+  "unverified": [
+   "Strigilis",
+   "parva",
+   "curva"
+  ],
+  "ambiguous": []
+ },
+ {
   "id": "q-augustine-tolle",
   "file": "cards.js",
   "latin": "Tolle, lege; tolle, lege.",

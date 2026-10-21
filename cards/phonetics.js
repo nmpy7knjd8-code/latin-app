@@ -1681,6 +1681,206 @@ window.PHONETICS = {
   "ipa": "/siː nɔks ˈfuːr.tʊm ˈfak.sɪt siː ɔk.ˈkiː.sɪt ˈjuː.rɛ ˈkae̯.sʊs ˈɛs.toː/",
   "respelling": "see noks FOOR-tum FAK-sit see ok-KEE-sit YOO-re KEYE-sus ES-toh"
  },
+ "v-via-appia": {
+  "ipa": "/ˈwɪ.a ˈap.pɪ.a ˈlɔŋ.ga ɛt an.ˈtiː.kʷa ɛst/",
+  "respelling": "WI-a AP-pi-a LONG-ga et an-TEE-kwa est"
+ },
+ "v-strigilis": {
+  "ipa": "/ˈstrɪ.gɪ.lɪs ˈpar.wa ɛt ˈkʊr.wa ɛst/",
+  "respelling": "STRI-gi-lis PAR-wa et KUR-wa est"
+ },
+ "v-toga-vestis": {
+  "ipa": "/ˈtɔ.ga ˈwɛs.tɪs roː.ˈmaː.na ɛst/",
+  "respelling": "TO-ga WES-tis roh-MAH-na est"
+ },
+ "v-nauta-navem": {
+  "ipa": "/ˈnau̯.ta ˈnaː.wɛm ɛt ˈpʰa.rʊm ˈwɪ.dɛt/",
+  "respelling": "NOW-ta NAH-wem et PA-rum WI-det"
+ },
+ "v-miles-galeam": {
+  "ipa": "/ˈmiː.lɛs ˈga.lɛ.am ɛt ˈskuː.tʊm ˈpɔr.tat/",
+  "respelling": "MEE-les GA-le-am et SKOO-tum POR-tat"
+ },
+ "v-fibula": {
+  "ipa": "/ˈfiː.bʊ.la ˈpal.lɪ.ʊm ˈtɛ.nɛt/",
+  "respelling": "FEE-bu-la PAL-li-um TE-net"
+ },
+ "v-tabulae-stili": {
+  "ipa": "/mɛr.kaː.ˈtoː.reːs ˈta.bʊ.laːs ɛt ˈstɪ.loːs ˈha.bɛnt ɛt ˈlɪt.tɛ.raːs ˈskriː.bʊnt/",
+  "respelling": "mer-kah-TOH-rays TA-bu-lahs et STI-lohs HA-bent et LIT-te-rahs SKREE-bunt"
+ },
+ "v-lararium": {
+  "ipa": "/ˈfiː.lɪ.a fa.ˈmɪ.lɪ.ae̯ ˈla.rɪ.bʊs ˈkɪ.bʊm dat/",
+  "respelling": "FEE-li-a fa-MI-li-eye LA-ri-bus KI-bum dat"
+ },
+ "v-aquaeductus": {
+  "ipa": "/ˈa.kʷa aː ˈmɔn.tɪ.bʊs pɛr ka.ˈnaː.lɛm ad ˈʊr.bɛm ˈflʊ.ɪt/",
+  "respelling": "A-kwa ah MON-ti-bus per ka-NAH-lem ad UR-bem FLU-it"
+ },
+ "v-pantheum": {
+  "ipa": "/a.ˈgrɪp.pa ˈpan.tʰɛ.ʊm ae̯.dɪ.fɪ.ˈkaː.wɪt ˈpɔs.tɛ.aː ha.drɪ.ˈaː.nʊs ˈtɛm.plʊm ˈnɔ.wʊm fa.kɪ.ˈeː.bat/",
+  "respelling": "a-GRIP-pa PAN-te-um eye-di-fi-KAH-wit POS-te-ah ha-dri-AH-nus TEM-plum NO-wum fa-ki-AY-bat"
+ },
+ "v-viator-lege": {
+  "ipa": "/wɪ.ˈaː.tɔr ˈla.pɪ.dɛm ˈlɛ.gɛ mɔks ad ˈɔp.pɪ.dʊm ˈwɛ.nɪ.eːs/",
+  "respelling": "wi-AH-tor LA-pi-dem LE-ge moks ad OP-pi-dum WE-ni-ays"
+ },
+ "v-endymion": {
+  "ipa": "/pɔ.ˈeː.tae̯ ˈdiː.kʊnt ɛn.dʏ.mɪ.ˈoː.nɛm ˈsɛm.pɛr dɔr.ˈmiː.rɛ/",
+  "respelling": "po-AY-teye DEE-kunt en-dü-mi-OH-nem SEM-per dor-MEE-re"
+ },
+ "v-basilica": {
+  "ipa": "/ba.ˈsɪ.lɪ.ka aː mak.ˈsɛn.tɪ.oː ɪŋ.kɔ.ˈhaː.ta aː koːns.tan.ˈtiː.noː pɛr.ˈfɛk.ta ɛst/",
+  "respelling": "ba-SI-li-ka ah mak-SEN-ti-oh ing-ko-HAH-ta ah kohns-tan-TEE-noh per-FEK-ta est"
+ },
+ "v-cloaca-maxima": {
+  "ipa": "/klɔ.ˈaː.ka ˈmak.sɪ.ma kʷam ˈreː.geːs roː.ˈmaː.niː feː.ˈkeː.rʊnt ˈa.kʷam ɪn ˈtɪ.bɛ.rɪm ˈduː.kɪt/",
+  "respelling": "klo-AH-ka MAK-si-ma kwam RAY-gays roh-MAH-nee fay-KAY-runt A-kwam in TI-be-rim DOO-kit"
+ },
+ "q-quem-pastores": {
+  "ipa": "/kʷɛm paːs.ˈtoː.reːs lau̯.daː.ˈweː.rɛ ˈkʷɪ.bʊs ˈaŋ.gɛ.liː diːk.ˈseː.rɛ ˈap.sɪt ˈwoː.biːs jam tɪ.ˈmeː.rɛ ˈnaː.tʊs ɛst reːks ˈgloː.rɪ.ae̯/",
+  "respelling": "kwem pahs-TOH-rays low-dah-WAY-re KWI-bus ANG-ge-lee deek-SAY-re AP-sit WOH-bees yam ti-MAY-re NAH-tus est rayks GLOH-ri-eye"
+ },
+ "q-puer-nobis": {
+  "ipa": "/kʊm ˈkan.tɪ.bʊs ɪn ˈkʰɔ.roː kʊm ˈkan.tɪ.kiːs ɛt ˈɔr.ga.noː bɛ.nɛ.diː.ˈkaː.mʊs ˈdɔ.mɪ.noː/",
+  "respelling": "kum KAN-ti-bus in KO-roh kum KAN-ti-kees et OR-ga-noh be-ne-dee-KAH-mus DO-mi-noh"
+ },
+ "q-dies-irae-quid-sum": {
+  "ipa": "/kʷɪd sʊm ˈmɪ.sɛr tʊŋk dɪk.ˈtuː.rʊs kʷɛm pa.ˈtroː.nʊm rɔ.gaː.ˈtuː.rʊs kʊm wɪks ˈjuːs.tʊs sɪt seː.ˈkuː.rʊs/",
+  "respelling": "kwid sum MI-ser tungk dik-TOO-rus kwem pa-TROH-num ro-gah-TOO-rus kum wiks YOOS-tus sit say-KOO-rus"
+ },
+ "q-stabat-quis-homo": {
+  "ipa": "/kʷɪs ɛst ˈhɔ.moː kʷiː noːn ˈfleː.rɛt ˈkʰriːs.tiː ˈmaː.trɛm siː wɪ.ˈdeː.rɛt ɪn ˈtan.toː sʊp.ˈplɪ.kɪ.oː/",
+  "respelling": "kwis est HO-moh kwee nohn FLAY-ret KREES-tee MAH-trem see wi-DAY-ret in TAN-toh sup-PLI-ki-oh"
+ },
+ "q-personent-clericuli": {
+  "ipa": "/ˈɔm.neːs kleː.ˈrɪ.kʊ.liː ˈpa.rɪ.tɛr ˈpʊ.ɛ.riː ˈkan.tɛnt ʊt ˈaŋ.gɛ.liː/",
+  "respelling": "OM-nays klay-RI-ku-lee PA-ri-ter PU-e-ree KAN-tent ut ANG-ge-lee"
+ },
+ "q-aquinas-utrum": {
+  "ipa": "/ˈpriː.moː ˈʊ.trʊm ˈdɛ.ʊm ˈɛs.sɛ sɪt pɛr seː ˈnoː.tʊm/",
+  "respelling": "PREE-moh U-trum DE-um ES-se sit per say NOH-tum"
+ },
+ "q-cb-ecce-gratum": {
+  "ipa": "/ˈja.mɪ.am ˈkeː.dant ˈtriːs.tɪ.a ˈae̯s.taːs ˈrɛ.dɪt nʊŋk rɛ.ˈkeː.dɪt ˈhɪ.ɛ.mɪs sae̯.ˈwɪ.tɪ.a/",
+  "respelling": "YA-mi-am KAY-dant TREES-ti-a EYES-tahs RE-dit nungk re-KAY-dit HI-e-mis seye-WI-ti-a"
+ },
+ "q-gaudeamus": {
+  "ipa": "/gau̯.dɛ.ˈaː.mʊs ˈɪ.gɪ.tʊr ˈjʊ.wɛ.neːs dʊm ˈsʊ.mʊs/",
+  "respelling": "gow-de-AH-mus I-gi-tur YU-we-nays dum SU-mus"
+ },
+ "q-bernard-plus-potuit": {
+  "ipa": "/au̯t pluːs ˈpɔ.tʊ.ɪt ˈa.dam ɪn ˈma.loː kʷam ˈkʰriːs.tʊs ɪn ˈbɔ.noː/",
+  "respelling": "owt ploos PO-tu-it A-dam in MA-loh kwam KREES-tus in BO-noh"
+ },
+ "q-kempis-utinam": {
+  "ipa": "/ˈʊ.tɪ.nam pɛr ˈuː.nam ˈdɪ.ɛm ˈbɛ.nɛ ɛs.ˈseː.mʊs kɔn.wɛr.ˈsaː.tiː ɪn hoːk ˈmʊn.doː/",
+  "respelling": "U-ti-nam per OO-nam DI-em BE-ne es-SAY-mus kon-wer-SAH-tee in hohk MUN-doh"
+ },
+ "q-einhard-caenandum": {
+  "ipa": "/ˈɪn.tɛr kae̯.ˈnan.dʊm au̯t ˈa.lɪ.kʷɔd a.krɔ.ˈaː.ma au̯t leːk.ˈtoː.rɛm au̯.dɪ.ˈeː.bat lɛ.geː.ˈban.tʊr ˈɛ.iː hɪs.ˈtɔ.rɪ.ae̯ ɛt an.tiː.ˈkʷoː.rʊm reːs ˈgɛs.tae̯/",
+  "respelling": "IN-ter keye-NAN-dum owt A-li-kwod a-kro-AH-ma owt layk-TOH-rem ow-di-AY-bat le-gay-BAN-tur E-ee his-TO-ri-eye et an-tee-KWOH-rum rays GES-teye"
+ },
+ "q-asser-candelas": {
+  "ipa": "/ˈkʊm.kʷɛ ˈtan.ta ˈkeː.ra meːn.suː.ˈraː.ta fʊ.ˈɪs.sɛt kʷae̯ sɛp.tʊ.aː.ˈgɪn.taː ˈdʊ.oːs deː.ˈnaː.rɪ.oːs peːn.ˈsaː.rɛt sɛks kan.ˈdeː.laːs ka.pɛl.ˈlaː.noːs ˈfa.kɛ.rɛ ˈjʊs.sɪt/",
+  "respelling": "KUM-kwe TAN-ta KAY-ra mayn-soo-RAH-ta fu-IS-set kweye sep-tu-ah-GIN-tah DU-ohs day-NAH-ri-ohs payn-SAH-ret seks kan-DAY-lahs ka-pel-LAH-nohs FA-ke-re YUS-sit"
+ },
+ "q-arbroath-centum": {
+  "ipa": "/ˈkʷɪ.a ˈkʷam.dɪ.uː ˈkɛn.tʊm ɛks ˈnoː.biːs ˈwiː.wiː rɛ.ˈmaːn.sɛ.rɪnt ˈnʊm.kʷam aŋ.ˈgloː.rʊm dɔ.ˈmɪ.nɪ.oː a.lɪ.ˈkʷaː.tɛ.nʊs ˈwɔ.lʊ.mʊs sʊ.bɪ.ʊ.ˈgaː.riː/",
+  "respelling": "KWI-a KWAM-di-oo KEN-tum eks NOH-bees WEE-wee re-MAHN-se-rint NUM-kwam ang-GLOH-rum do-MI-ni-oh a-li-KWAH-te-nus WO-lu-mus su-bi-u-GAH-ree"
+ },
+ "q-debury-libris": {
+  "ipa": "/ɪn ˈlɪ.briːs ˈmɔr.tʊ.oːs ˈkʷa.sɪ ˈwiː.woːs ɪn.ˈwɛ.nɪ.oː ɪn ˈlɪ.briːs fʊ.ˈtuː.ra prae̯.ˈwɪ.dɛ.oː/",
+  "respelling": "in LI-brees MOR-tu-ohs KWA-si WEE-wohs in-WE-ni-oh in LI-brees fu-TOO-ra preye-WI-de-oh"
+ },
+ "q-magna-carta-nulli": {
+  "ipa": "/ˈnuːl.liː wɛn.ˈdeː.mʊs ˈnuːl.liː nɛ.ˈgaː.bɪ.mʊs au̯t dɪf.fɛ.ˈreː.mʊs ˈreːk.tʊm au̯t juːs.ˈtɪ.tɪ.am/",
+  "respelling": "NOOL-lee wen-DAY-mus NOOL-lee ne-GAH-bi-mus owt dif-fe-RAY-mus RAYK-tum owt yoos-TI-ti-am"
+ },
+ "q-oresme-quamvis": {
+  "ipa": "/ˈkʷam.wiːs proː uː.tɪ.lɪ.ˈtaː.tɛ kɔm.ˈmuː.niː ˈpriːŋ.kɛps ˈha.bɛ.at sɪŋ.ˈnaː.rɛ nʊ.ˈmɪs.ma noːn ˈta.mɛn ˈɪp.sɛ ˈdɔ.mɪ.nʊs seu̯ prɔ.prɪ.ɛ.ˈtaː.rɪ.ʊs ɛst mɔ.ˈneː.tae̯ kʊr.ˈrɛn.tɪs ɪn ˈsʊ.oː priːŋ.kɪ.ˈpaː.tuː/",
+  "respelling": "KWAM-wees proh oo-ti-li-TAH-te kom-MOO-nee PREENG-keps HA-be-at sing-NAH-re nu-MIS-ma nohn TA-men IP-se DO-mi-nus sew pro-pri-e-TAH-ri-us est mo-NAY-teye kur-REN-tis in SU-oh preeng-ki-PAH-too"
+ },
+ "q-petrarch-vixisti": {
+  "ipa": "/tuː ˈkʷɪ.dɛm ˈkɪ.kɛ.roː kʷɔd ˈpaː.kɛ ˈtʊ.aː ˈdiːk.sɛ.rɪm ʊt ˈhɔ.moː wiːk.ˈsɪs.tiː ʊt oː.ˈraː.tɔr diːk.ˈsɪs.tiː ʊt pʰɪ.ˈlɔ.sɔ.pʰʊs skriːp.ˈsɪs.tiː/",
+  "respelling": "too KWI-dem KI-ke-roh kwod PAH-ke TU-ah DEEK-se-rim ut HO-moh week-SIS-tee ut oh-RAH-tor deek-SIS-tee ut pi-LO-so-pus skreep-SIS-tee"
+ },
+ "q-dante-monarchia": {
+  "ipa": "/ɛt ɪm.pɛ.raː.ˈtoː.rɛ kʷiː sɛ.ˈkʊn.dʊm pʰɪ.lɔ.ˈsɔ.pʰɪ.ka dɔ.kʊ.ˈmɛn.ta ˈgɛ.nʊs huː.ˈmaː.nʊm ad tɛm.pɔ.ˈraː.lɛm feː.liː.kɪ.ˈtaː.tɛm diː.ˈrɪ.gɛ.rɛt/",
+  "respelling": "et im-pe-rah-TOH-re kwee se-KUN-dum pi-lo-SO-pi-ka do-ku-MEN-ta GE-nus hoo-MAH-num ad tem-po-RAH-lem fay-lee-ki-TAH-tem dee-RI-ge-ret"
+ },
+ "q-xii-sepelito": {
+  "ipa": "/ˈhɔ.mɪ.nɛm ˈmɔr.tʊ.ʊm ɪn ˈʊr.bɛ neː sɛ.pɛ.ˈliː.toː ˈneː.wɛ ˈuː.rɪ.toː/",
+  "respelling": "HO-mi-nem MOR-tu-um in UR-be nay se-pe-LEE-toh NAY-we OO-ri-toh"
+ },
+ "q-xii-venum": {
+  "ipa": "/siː ˈpa.tɛr ˈfiː.lɪ.ʊm tɛr ˈweː.nʊm ˈdʊ.ɪt ˈfiː.lɪ.ʊs aː ˈpa.trɛ ˈliː.bɛr ˈɛs.toː/",
+  "respelling": "see PA-ter FEE-li-um ter WAY-num DU-it FEE-li-us ah PA-tre LEE-ber ES-toh"
+ },
+ "q-cicero-sunto": {
+  "ipa": "/ˈreː.gɪ.oː ɪm.ˈpɛ.rɪ.oː ˈdʊ.ɔ ˈsʊn.toː miː.ˈlɪ.tɪ.ae̯ ˈsʊm.mʊm juːs ha.ˈbɛn.toː ˈneː.mɪ.niː pa.ˈrɛn.toː/",
+  "respelling": "RAY-gi-oh im-PE-ri-oh DU-o SUN-toh mee-LI-ti-eye SUM-mum yoos ha-BEN-toh NAY-mi-nee pa-REN-toh"
+ },
+ "q-dig-placuit": {
+  "ipa": "/kʷɔd ˈpriːŋ.kɪ.piː ˈpla.kʊ.ɪt ˈleː.gɪs ˈha.bɛt wɪ.ˈgoː.rɛm/",
+  "respelling": "kwod PREENG-ki-pee PLA-ku-it LAY-gis HA-bet wi-GOH-rem"
+ },
+ "q-gaius-omnes-populi": {
+  "ipa": "/ˈɔm.neːs ˈpɔ.pʊ.liː kʷiː ˈleː.gɪ.bʊs ɛt ˈmoː.rɪ.bʊs rɛ.ˈgʊn.tʊr ˈpar.tɪm ˈsʊ.oː ˈprɔ.prɪ.oː ˈpar.tɪm kɔm.ˈmuː.niː ˈɔm.nɪ.ʊm ˈhɔ.mɪ.nʊm ˈjuː.rɛ uː.ˈtʊn.tʊr/",
+  "respelling": "OM-nays PO-pu-lee kwee LAY-gi-bus et MOH-ri-bus re-GUN-tur PAR-tim SU-oh PRO-pri-oh PAR-tim kom-MOO-nee OM-ni-um HO-mi-num YOO-re oo-TUN-tur"
+ },
+ "q-trajan-conquirendi": {
+  "ipa": "/kɔŋ.kʷiː.ˈrɛn.diː noːn sʊnt siː deː.fɛ.ˈran.tʊr ɛt ar.gʊ.ˈan.tʊr puː.nɪ.ˈɛn.diː sʊnt/",
+  "respelling": "kong-kwee-REN-dee nohn sunt see day-fe-RAN-tur et ar-gu-AN-tur poo-ni-EN-dee sunt"
+ },
+ "q-tacitus-licet-concilium": {
+  "ipa": "/ˈlɪ.kɛt ˈa.pʊd kɔŋ.ˈkɪ.lɪ.ʊm ak.kuː.ˈsaː.rɛ ˈkʷɔ.kʷɛ ɛt dɪs.ˈkriː.mɛn ˈka.pɪ.tɪs ɪn.ˈtɛn.dɛ.rɛ/",
+  "respelling": "LI-ket A-pud kong-KI-li-um ak-koo-SAH-re KWO-kwe et dis-KREE-men KA-pi-tis in-TEN-de-re"
+ },
+ "q-dig-nemo-plus": {
+  "ipa": "/ˈneː.moː pluːs ˈjuː.rɪs ad ˈa.lɪ.ʊm traːns.ˈfɛr.rɛ ˈpɔ.tɛst kʷam ˈɪp.sɛ ha.ˈbeː.rɛt/",
+  "respelling": "NAY-moh ploos YOO-ris ad A-li-um trahns-FER-re PO-test kwam IP-se ha-BAY-ret"
+ },
+ "q-livy-fons-iuris": {
+  "ipa": "/kʷiː nʊŋk ˈkʷɔ.kʷɛ ɪn hoːk ɪm.ˈmeːn.soː a.lɪ.ˈaː.rʊm ˈsʊ.pɛr ˈa.lɪ.aːs a.kɛr.waː.ˈtaː.rʊm ˈleː.gʊm ˈkʊ.mʊ.loː foːns ˈɔm.nɪs ˈpuː.blɪ.kiː priː.waː.ˈtiː.kʷɛ ɛst ˈjuː.rɪs/",
+  "respelling": "kwee nungk KWO-kwe in hohk im-MAYN-soh a-li-AH-rum SU-per A-li-ahs a-ker-wah-TAH-rum LAY-gum KU-mu-loh fohns OM-nis POO-bli-kee pree-wah-TEE-kwe est YOO-ris"
+ },
+ "q-bacon-parendo": {
+  "ipa": "/skɪ.ˈɛn.tɪ.a ɛt pɔ.ˈtɛn.tɪ.a huː.ˈmaː.na ɪn ˈɪ.dɛm kɔ.ˈɪŋ.kɪ.dʊnt naː.ˈtuː.ra ˈɛ.nɪm noːn ˈnɪ.sɪ paː.ˈrɛn.doː ˈwɪŋ.kɪ.tʊr/",
+  "respelling": "ski-EN-ti-a et po-TEN-ti-a hoo-MAH-na in I-dem ko-ING-ki-dunt nah-TOO-ra E-nim nohn NI-si pah-REN-doh WING-ki-tur"
+ },
+ "q-spinoza-praeclara": {
+  "ipa": "/sɛd ˈɔm.nɪ.a prae̯.ˈklaː.ra tam dɪf.fɪ.ˈkɪ.lɪ.a kʷam ˈraː.ra sʊnt/",
+  "respelling": "sed OM-ni-a preye-KLAH-ra tam dif-fi-KI-li-a kwam RAH-ra sunt"
+ },
+ "q-more-oves": {
+  "ipa": "/ˈɔ.weːs ˈwɛs.trae̯ tam ɛ.ˈdaː.keːs ˈat.kʷɛ ɪn.ˈdɔ.mɪ.tae̯ ˈɛs.sɛ koe̯.ˈpeː.rʊnt ʊt ˈhɔ.mɪ.neːs ˈdeː.wɔ.rɛnt ˈɪp.soːs/",
+  "respelling": "O-ways WES-treye tam e-DAH-kays AT-kwe in-DO-mi-teye ES-se koy-PAY-runt ut HO-mi-nays DAY-wo-rent IP-sohs"
+ },
+ "q-luther-thesis1": {
+  "ipa": "/ˈdɔ.mɪ.nʊs ɛt ma.ˈgɪs.tɛr ˈnɔs.tɛr ˈjeː.sʊs ˈkʰriːs.tʊs diː.ˈkɛn.doː pae̯.nɪ.ˈtɛn.tɪ.am ˈa.gɪ.tɛ ˈɔm.nɛm ˈwiː.tam fɪ.ˈdeː.lɪ.ʊm pae̯.nɪ.ˈtɛn.tɪ.am ˈɛs.sɛ ˈwɔ.lʊ.ɪt/",
+  "respelling": "DO-mi-nus et ma-GIS-ter NOS-ter YAY-sus KREES-tus dee-KEN-doh peye-ni-TEN-ti-am A-gi-te OM-nem WEE-tam fi-DAY-li-um peye-ni-TEN-ti-am ES-se WO-lu-it"
+ },
+ "q-pico-adam": {
+  "ipa": "/nɛk ˈkɛr.tam ˈseː.dɛm nɛk ˈprɔ.prɪ.am ˈfa.kɪ.ɛm nɛk ˈmuː.nʊs ˈuːl.lʊm pɛ.kuː.lɪ.ˈaː.rɛ ˈtɪ.bɪ ˈdɛ.dɪ.mʊs oː ˈa.dam/",
+  "respelling": "nek KER-tam SAY-dem nek PRO-pri-am FA-ki-em nek MOO-nus OOL-lum pe-koo-li-AH-re TI-bi DE-di-mus oh A-dam"
+ },
+ "q-vespucci-novum-mundum": {
+  "ipa": "/ˈkʷaːs.kʷɛ ˈnɔ.wʊm ˈmʊn.dʊm ap.pɛl.ˈlaː.rɛ ˈlɪ.kɛt ˈkʷan.doː ˈa.pʊd maj.ˈjoː.reːs ˈnɔs.troːs ˈnuːl.la deː ˈɪp.siːs ˈfʊ.ɛ.rɪt ˈha.bɪ.ta kɔŋ.ˈnɪ.tɪ.oː/",
+  "respelling": "KWAHS-kwe NO-wum MUN-dum ap-pel-LAH-re LI-ket KWAN-doh A-pud meye-YOH-rays NOS-trohs NOOL-la day IP-sees FU-e-rit HA-bi-ta kong-NI-ti-oh"
+ },
+ "q-kepler-sexangula": {
+  "ipa": "/nam siː ˈkaː.suː fɪt kuːr noːn ˈae̯.kʷeː kʷiːŋ.ˈkʷaŋ.gʊ.la ˈka.dʊnt au̯t sɛp.ˈtaŋ.gʊ.la kuːr ˈsɛm.pɛr sɛk.ˈsaŋ.gʊ.la/",
+  "respelling": "nam see KAH-soo fit koor nohn EYE-kway kweeng-KWANG-gu-la KA-dunt owt sep-TANG-gu-la koor SEM-per sek-SANG-gu-la"
+ },
+ "q-copernicus-mathemata": {
+  "ipa": "/ma.ˈtʰeː.ma.ta ma.tʰeː.ˈma.tɪ.kiːs skriː.ˈbʊn.tʊr/",
+  "respelling": "ma-TAY-ma-ta ma-tay-MA-ti-kees skree-BUN-tur"
+ },
+ "q-harvey-ex-ovo": {
+  "ipa": "/ɛks ˈoː.woː ˈɔm.nɪ.a/",
+  "respelling": "eks OH-woh OM-ni-a"
+ },
  "q-caesar-veni": {
   "ipa": "/ˈweː.niː ˈwiː.diː ˈwiː.kiː/",
   "respelling": "WAY-nee WEE-dee WEE-kee"
