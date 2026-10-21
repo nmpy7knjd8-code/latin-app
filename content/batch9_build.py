@@ -21,6 +21,16 @@ for r in json.load(open(os.path.join(HERE,'data','dcc-core.json'))):
 dcc|={'ab','-que','quis','qui','ego','tu','is','hic','sum','et','in','non','sui','meus','tuus','noster','nos','ipse','possum','volo'}
 PROPER=lambda l:l[:1].isupper()
 clean=lambda s:re.sub(r'\s+',' ',s).strip()
+def fix_artist(a):
+    a=re.sub(r'(Unknown author|Anonymous|unknown)\s*(Unknown author)+',r'Unknown author',a)
+    a=re.sub(r'(?<=[^\s/])\s*Unknown author$','',a)
+    a=re.split(r'\s+Details on |\s+–\s+illuminator',a)[0]
+    parts=[p.strip() for p in a.split(' / ')]; out=[]
+    for p in parts:
+        if p and p not in out: out.append(p)
+    a=' / '.join(out)
+    m=re.match(r'^(.{4,}?)\1+$',a)
+    return m.group(1).strip() if m else a.strip()
 out=[];errs=[]
 for a,kw in CARDS:
     (id,typ,era,unit,latin,tr,ctx,more,person,work,cit,date,surl,conf,note,gl,target,preview,ik,lml,lmu)=a
@@ -66,7 +76,7 @@ for a,kw in CARDS:
     src=f'img/batch9/{ik}.webp'
     if not os.path.exists(os.path.join(HERE,src)): errs.append(f'{id}: image file missing {src}')
     mod='background removed (cut-out), cropped, resized' if trn else f'cropped to {asp}, resized'
-    lic={'PDM-owner':'PDM','No restrictions':'Public domain'}.get(m['license'],m['license']); art=clean(m['artist']) or 'unknown'
+    lic={'PDM-owner':'PDM','No restrictions':'Public domain'}.get(m['license'],m['license']); art=fix_artist(clean(m['artist'])) or ('Metropolitan Museum of Art' if 'Metropolitan' in m.get('credit_line','') else 'British Library' if 'British Library' in m.get('credit_line','') else 'Wellcome Collection' if 'Wellcome' in m.get('credit_line','')+m.get('resolved','') else 'unknown')
     title=m.get('resolved',f).rsplit('.',1)[0]
     if re.search(r'CC BY',lic,re.I):
         credit=f'“{title}” by {art}, {lic} ({m["license_url"]}), via Wikimedia Commons; modified: {mod}'

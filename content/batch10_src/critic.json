@@ -1,0 +1,236 @@
+{
+ "v-amphora": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": [
+   "Amphora≠Amphorā",
+   "magna≠magnā",
+   "plēna≠plēnā"
+  ]
+ },
+ "v-columna-traiana": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-ara-pacis": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-thermae": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-insula-alta": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-speculum": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-puella-pupam": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-coquus-cibum": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-mercator-nummos": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-medicus-aegrotum": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-pistor-panem": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "v-fullo-togam": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": []
+ },
+ "q-fulbert-chorus": {
+  "source_check": "MISSING: nouam meli dulcedinem | meli dulcedinem promat",
+  "alatius": [
+   "Ierūsalem≠Ierusālem",
+   "melī≠mēlī"
+  ]
+ },
+ "q-bernard-cluny-hora": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-anselm-doce": {
+  "source_check": "ok",
+  "alatius": [
+   "Doce≠Docē"
+  ]
+ },
+ "q-aquinas-prima-via": {
+  "source_check": "n/a (constructed or EDCS/other; checked separately)",
+  "alatius": [
+   "manifestior≠manifēstior",
+   "mōtūs≠mōtus"
+  ]
+ },
+ "q-dies-irae-quaerens": {
+  "source_check": "ok",
+  "alatius": [
+   "passus≠passūs"
+  ]
+ },
+ "q-angelus-conciperem": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-adeste-cantet": {
+  "source_check": "ok",
+  "alatius": [
+   "īō≠iō"
+  ]
+ },
+ "q-theodulf-gloria": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cb-veris-curramus": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cb-in-trutina": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-einhard-equitando": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-einhard-discenda": {
+  "source_check": "ok",
+  "alatius": [
+   "discendā≠discenda",
+   "grammaticā≠grammatica",
+   "diāconem≠diacōnem"
+  ]
+ },
+ "q-kempis-moriendum": {
+  "source_check": "MISSING: ad moriendum cotidie | moriendum cotidie se | cotidie se disponit",
+  "alatius": []
+ },
+ "q-magna-carta-ecclesia": {
+  "source_check": "MISSING: libertates suas illaesas",
+  "alatius": []
+ },
+ "q-asser-loquebatur": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-oresme-subtilis": {
+  "source_check": "MISSING: et ad effigiandum | ad effigiandum seu | effigiandum seu contrafaciendum",
+  "alatius": [
+   "difficilis≠difficilīs"
+  ]
+ },
+ "q-petrarch-carpsi": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-xii-legassit": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-xii-calvitur": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-lex-loquens": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-cicero-paruerit": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dig-definitio": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dig-locupletiorem": {
+  "source_check": "ok",
+  "alatius": [
+   "alterius≠alterīus"
+  ]
+ },
+ "q-dig-res-iudicata": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dig-desisse": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-dig-culpa": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-newton-hypotheses": {
+  "source_check": "MISSING: potui deducere et | deducere et hypotheses | et hypotheses non",
+  "alatius": [
+   "hypothesēs≠hypothēsēs"
+  ]
+ },
+ "q-newton-regula1": {
+  "source_check": "MISSING: quam quae et | quae et uerae | et uerae sint | uerae sint et",
+  "alatius": []
+ },
+ "q-newton-lex3": {
+  "source_check": "MISSING: contrariam semper et | semper et aequalem | et aequalem esse",
+  "alatius": []
+ },
+ "q-descartes-archimedes": {
+  "source_check": "MISSING: esset firmum et | firmum et immobile | et immobile ut",
+  "alatius": [
+   "fīrmum≠firmum",
+   "dīmovēret≠dimovēret"
+  ]
+ },
+ "q-descartes-animadverti": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-spinoza-homo-liber": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-luther-thesis27": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-pico-superiora": {
+  "source_check": "ok",
+  "alatius": [
+   "bruta≠brūta",
+   "sententiā≠sententia"
+  ]
+ },
+ "q-erasmus-querela": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-erasmus-moriae": {
+  "source_check": "ok",
+  "alatius": []
+ },
+ "q-galileo-medicea": {
+  "source_check": "ok",
+  "alatius": [
+   "Medicea≠Medicēā"
+  ]
+ },
+ "q-melanchthon-duae-res": {
+  "source_check": "ok",
+  "alatius": []
+ }
+}

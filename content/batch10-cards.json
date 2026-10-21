@@ -1,0 +1,6821 @@
+[
+ {
+  "id": "v-amphora",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Amphora magna et plēna est.",
+  "translation": "The amphora is big and full.",
+  "context": "An amphora was a tall clay jar with two handles, used to ship wine, olive oil and fish sauce around the Mediterranean. Its pointed base could be pushed into sand or stacked in a ship's hold. Amphora, magna and plēna are all nominative singular, linked by est.",
+  "more": "Monte Testaccio in Rome is a hill made almost entirely of broken oil amphorae. Amphora also served as a unit of volume, about 26 litres.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Amphora",
+    "lemma": "amphora",
+    "meaning": "amphora, two-handled jar",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "magna",
+    "lemma": "magnus",
+    "meaning": "big",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "plēna",
+    "lemma": "plēnus",
+    "meaning": "full",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "sum"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "nominative",
+   "sum"
+  ],
+  "vocab_ids": [
+   "amphora",
+   "magnus",
+   "et",
+   "plenus",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, sum.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "amphora"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/amphora.webp",
+   "alt": "Ancient terracotta storage jar (amphora), Metropolitan Museum of Art",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Metropolitan Museum of Art · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Terracotta_amphora_(jar)_MET_DP107070.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Amphora",
+   "url": "https://en.wikipedia.org/wiki/Amphora",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-columna-traiana",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Columna Trāiāna alta est.",
+  "translation": "Trajan's Column is tall.",
+  "context": "The emperor Trajan set up this marble column in his new forum in AD 113. A carved band spirals up it showing his wars against the Dacians, in what is now Romania. Columna and alta are nominative, and est links them.",
+  "more": "The column is about 30 metres high without its base, and a staircase winds up inside it. A statue of Saint Peter has stood on top since 1588.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Columna",
+    "lemma": "columna",
+    "meaning": "column",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "Trāiāna",
+    "lemma": "Trāiānus",
+    "meaning": "of Trajan",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "alta",
+    "lemma": "altus",
+    "meaning": "tall, high",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "sum"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "nominative",
+   "sum"
+  ],
+  "vocab_ids": [
+   "columna",
+   "altus",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, sum.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "columna"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/columna.webp",
+   "alt": "Trajan's Column in Rome, with the dome of Santissimo Nome di Maria behind it",
+   "kind": "building",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Jebulon · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Colonna_Traiana_Santissimo_Nome_di_Maria_dome_Rome.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Trajan's Column",
+   "url": "https://en.wikipedia.org/wiki/Trajan's_Column",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-ara-pacis",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Āra Pācis pulchra est.",
+  "translation": "The Altar of Peace is beautiful.",
+  "context": "The Senate voted this altar in 13 BC to honour the peace Augustus brought after years of civil war. Its marble walls show the family of Augustus walking in procession. Āra and pulchra are nominative; Pācis, 'of Peace', is a genitive that is simply part of the name.",
+  "more": "The altar was dug up in pieces and reassembled in the 1930s. It now stands in a glass museum building beside the Tiber.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Āra",
+    "lemma": "āra",
+    "meaning": "altar",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "Pācis",
+    "lemma": "pāx",
+    "meaning": "of Peace",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "pulchra",
+    "lemma": "pulcher",
+    "meaning": "beautiful",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "sum"
+  ],
+  "grammar_preview": [
+   "genitive"
+  ],
+  "grammar_tags": [
+   "nominative",
+   "sum",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "ara",
+   "pax",
+   "pulcher",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, sum; previews genitive.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/arapacis.webp",
+   "alt": "The Ara Pacis Augustae, the Altar of Augustan Peace, in its museum in Rome",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Ara Pacis (SW)” by Rabax63, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ara_Pacis_(SW).jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Ara Pacis",
+   "url": "https://en.wikipedia.org/wiki/Ara_Pacis",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-thermae",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Thermae magnae et antīquae sunt.",
+  "translation": "The baths are big and old.",
+  "context": "Thermae were huge public bath buildings with hot, warm and cold rooms, exercise yards, gardens and even libraries. The Baths of Caracalla, opened in Rome in the AD 210s, could hold well over a thousand bathers. Thermae is a plural noun, so the adjectives are plural and the verb is sunt.",
+  "more": "Entry cost very little, so bathing was a daily habit for many Romans. In summer the ruins are used as a stage for opera.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Thermae",
+    "lemma": "thermae",
+    "meaning": "public baths",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "magnae",
+    "lemma": "magnus",
+    "meaning": "big",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "antīquae",
+    "lemma": "antīquus",
+    "meaning": "old",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "sum"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "nominative",
+   "sum"
+  ],
+  "vocab_ids": [
+   "thermae",
+   "magnus",
+   "et",
+   "antiquus",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, sum.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "thermae"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/thermae.webp",
+   "alt": "Brick ruins of the Baths of Caracalla, Rome",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 3.0",
+   "credit": "“Part of the Baths of Caracalla November 2013” by Nick-D, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Part_of_the_Baths_of_Caracalla_November_2013.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "learn_more": {
+   "label": "Baths of Caracalla",
+   "url": "https://en.wikipedia.org/wiki/Baths_of_Caracalla",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-insula-alta",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Īnsula alta sed angusta est.",
+  "translation": "The apartment block is tall but narrow.",
+  "context": "Most people in Rome and Ostia lived in rented flats in blocks called īnsulae, the same word as 'island'. Shops opened onto the street at ground level, and the higher floors were cheaper and more dangerous in a fire. Īnsula, alta and angusta are nominative, linked by est.",
+  "more": "Augustus limited the height of such buildings to about 20 metres. Brick blocks at Ostia still stand three storeys high.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Īnsula",
+    "lemma": "īnsula",
+    "meaning": "apartment block",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "alta",
+    "lemma": "altus",
+    "meaning": "tall",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "sed",
+    "lemma": "sed",
+    "meaning": "but",
+    "parse": "conj."
+   },
+   {
+    "word": "angusta",
+    "lemma": "angustus",
+    "meaning": "narrow",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "sum"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "nominative",
+   "sum"
+  ],
+  "vocab_ids": [
+   "insula",
+   "altus",
+   "sed",
+   "angustus",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, sum.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "angustus"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/insula.webp",
+   "alt": "Ruins of a Roman apartment block (insula) at Ostia, the port of Rome",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 2.0",
+   "credit": "“Insula in Ostia” by Dennis G. Jarvis, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Insula_in_Ostia.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "learn_more": {
+   "label": "Insula (building)",
+   "url": "https://en.wikipedia.org/wiki/Insula_(building)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-speculum",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 1,
+  "latin": "Speculum rotundum et lūcidum est.",
+  "translation": "The mirror is round and bright.",
+  "context": "Roman mirrors were not glass but polished bronze or silver, so they had to be cleaned often to keep their shine. Rich women had slaves to hold the mirror while their hair was done. Speculum is a neuter noun, so its adjectives end in -um too.",
+  "more": "English speculate comes from the same root, specere, 'to look'. Glass mirrors backed with metal were rare until the Middle Ages.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Speculum",
+    "lemma": "speculum",
+    "meaning": "mirror",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "rotundum",
+    "lemma": "rotundus",
+    "meaning": "round",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "lūcidum",
+    "lemma": "lūcidus",
+    "meaning": "bright, shining",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "nominative",
+   "sum"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "nominative",
+   "sum"
+  ],
+  "vocab_ids": [
+   "speculum",
+   "rotundus",
+   "et",
+   "lucidus",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets nominative, sum.",
+   "dcc_core_pct": 40,
+   "non_core": [
+    "speculum",
+    "rotundus",
+    "lucidus"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/speculum.webp",
+   "alt": "Ancient bronze hand mirror, Metropolitan Museum of Art",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Metropolitan Museum of Art · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bronze_mirror_MET_DP254636.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Mirror",
+   "url": "https://en.wikipedia.org/wiki/Mirror",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-puella-pupam",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Puella pūpam amat.",
+  "translation": "The girl loves her doll.",
+  "context": "Roman girls played with dolls of rag, clay, bone or ivory, some with jointed arms and legs. Before her wedding a girl dedicated her dolls to the gods as a sign that childhood was over. Pūpam is the accusative object of amat.",
+  "more": "A jointed ivory doll was buried with a young woman named Crepereia Tryphaena in Rome. Pūpa, 'doll' or 'little girl', gives English pupil and puppet.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Puella",
+    "lemma": "puella",
+    "meaning": "girl",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "pūpam",
+    "lemma": "pūpa",
+    "meaning": "doll",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "amat",
+    "lemma": "amō",
+    "meaning": "loves",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "accusative",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "present_tense"
+  ],
+  "grammar_tags": [
+   "accusative",
+   "nominative",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "puella",
+   "pupa",
+   "amo"
+  ],
+  "teaching_value": {
+   "note": "Targets accusative, nominative; previews present_tense.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "pupa"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/pupa.webp",
+   "alt": "Roman ivory doll with jointed limbs, Palazzo Massimo, Rome",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY 2.0",
+   "credit": "“Articulated Roman ivory doll, Museo Nazionale Romano, Palazzo Massimo alle Terme, Rome (10171693465)” by Ryan Baumann, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Articulated_Roman_ivory_doll,_Museo_Nazionale_Romano,_Palazzo_Massimo_alle_Terme,_Rome_(10171693465).jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "learn_more": {
+   "label": "Doll",
+   "url": "https://en.wikipedia.org/wiki/Doll",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-coquus-cibum",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Coquus cēnam parat.",
+  "translation": "The cook prepares dinner.",
+  "context": "In a wealthy Roman house the cook was usually a slave, and a skilled one could cost a fortune. Dinner, cēna, was the main meal of the day, eaten in the late afternoon. Cēnam is the accusative object of parat.",
+  "more": "A bronze pot like this caccabus sat on a tripod over a charcoal fire. The only Roman cookbook that survives goes under the name of Apicius.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Coquus",
+    "lemma": "coquus",
+    "meaning": "cook",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "cēnam",
+    "lemma": "cēna",
+    "meaning": "dinner",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "parat",
+    "lemma": "parō",
+    "meaning": "prepares",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "accusative",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "present_tense"
+  ],
+  "grammar_tags": [
+   "accusative",
+   "nominative",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "coquus",
+   "cena",
+   "paro"
+  ],
+  "teaching_value": {
+   "note": "Targets accusative, nominative; previews present_tense.",
+   "dcc_core_pct": 33,
+   "non_core": [
+    "coquus",
+    "cena"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/caccabus.webp",
+   "alt": "Roman bronze cooking pot (caccabus) standing on an iron tripod",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY 2.0",
+   "credit": "“Caccabus (cooking pot) on a tripod (51357506668)” by Tyler Bell, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Caccabus_(cooking_pot)_on_a_tripod_(51357506668).jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "learn_more": {
+   "label": "Apicius",
+   "url": "https://en.wikipedia.org/wiki/Apicius",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-mercator-nummos",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Mercātor dēnāriōs numerat.",
+  "translation": "The merchant counts the denarii.",
+  "context": "The dēnārius was Rome's main silver coin for over four hundred years. People without banks often buried their savings in a pot, and hoards like this one are still being dug up. Dēnāriōs is the accusative plural object of numerat.",
+  "more": "A legionary of the early empire earned about 225 denarii a year. The letter d in the old British abbreviation £sd stood for denarius.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Mercātor",
+    "lemma": "mercātor",
+    "meaning": "merchant",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "dēnāriōs",
+    "lemma": "dēnārius",
+    "meaning": "denarii (silver coins)",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "numerat",
+    "lemma": "numerō",
+    "meaning": "counts",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "accusative",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "present_tense"
+  ],
+  "grammar_tags": [
+   "accusative",
+   "nominative",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "mercator",
+   "denarius",
+   "numero"
+  ],
+  "teaching_value": {
+   "note": "Targets accusative, nominative; previews present_tense.",
+   "dcc_core_pct": 0,
+   "non_core": [
+    "mercator",
+    "denarius",
+    "numero"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/nummi.webp",
+   "alt": "Hoard of Roman silver denarii found at Cichobórz, Poland",
+   "kind": "coin",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY 3.0",
+   "credit": "“02020 Hoard of Roman silver coins from Cichobórz” by Gabinet Numizmatyczny D. Marciniak, CC BY 3.0 (https://creativecommons.org/licenses/by/3.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:02020_Hoard_of_Roman_silver_coins_from_Cichob%C3%B3rz.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "learn_more": {
+   "label": "Denarius",
+   "url": "https://en.wikipedia.org/wiki/Denarius",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-medicus-aegrotum",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Medicus aegrōtum cūrat.",
+  "translation": "The doctor treats the sick man.",
+  "context": "Many doctors in Rome were Greeks, and some had begun as slaves. They used bronze probes, scalpels and spatulas like these, found at Pompeii. Aegrōtum, 'the sick man', is the accusative object of cūrat.",
+  "more": "The House of the Surgeon at Pompeii was named after the instruments found in it. Galen, the most famous doctor of the empire, was a Greek from Pergamum.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Medicus",
+    "lemma": "medicus",
+    "meaning": "doctor",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "aegrōtum",
+    "lemma": "aegrōtus",
+    "meaning": "sick man",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "cūrat",
+    "lemma": "cūrō",
+    "meaning": "treats, cares for",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "accusative",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "present_tense"
+  ],
+  "grammar_tags": [
+   "accusative",
+   "nominative",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "medicus",
+   "aegrotus",
+   "curo"
+  ],
+  "teaching_value": {
+   "note": "Targets accusative, nominative; previews present_tense.",
+   "dcc_core_pct": 33,
+   "non_core": [
+    "medicus",
+    "aegrotus"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/medicus.webp",
+   "alt": "Roman surgical spatula and probes from Pompeii, 1st century AD",
+   "kind": "artifact",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Espátula y sondas quirúrgicas. Pompeya. Siglo I d. C” by Dorieo, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Esp%C3%A1tula_y_sondas_quir%C3%BArgicas._Pompeya._Siglo_I_d._C.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Medicine in ancient Rome",
+   "url": "https://en.wikipedia.org/wiki/Medicine_in_ancient_Rome",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-pistor-panem",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Pistor pānem coquit.",
+  "translation": "The baker bakes bread.",
+  "context": "Pompeii had more than thirty bakeries. Donkeys turned the hourglass-shaped stone mills to grind grain, and the bread was baked in a domed oven. Pānem is the accusative object of coquit.",
+  "more": "Carbonised loaves were found at Pompeii, round and divided into eight sections. The baker's word pistor first meant 'pounder', from grinding grain by hand.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Pistor",
+    "lemma": "pistor",
+    "meaning": "baker",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "pānem",
+    "lemma": "pānis",
+    "meaning": "bread",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "coquit",
+    "lemma": "coquō",
+    "meaning": "cooks, bakes",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "accusative",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "present_tense"
+  ],
+  "grammar_tags": [
+   "accusative",
+   "nominative",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "pistor",
+   "panis",
+   "coquo"
+  ],
+  "teaching_value": {
+   "note": "Targets accusative, nominative; previews present_tense.",
+   "dcc_core_pct": 0,
+   "non_core": [
+    "pistor",
+    "panis",
+    "coquo"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/pistrinum.webp",
+   "alt": "A bakery at Pompeii with its stone flour mills and bread oven",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 2.0",
+   "credit": "“Bakery ruins at Pompeii (52786646643)” by Tracey Hind from Aups, France, CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bakery_ruins_at_Pompeii_(52786646643).jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "learn_more": {
+   "label": "Ancient Roman cuisine",
+   "url": "https://en.wikipedia.org/wiki/Ancient_Roman_cuisine",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "v-fullo-togam",
+  "type": "vocab",
+  "era": "empire",
+  "unit": 2,
+  "latin": "Fullō togam lavat.",
+  "translation": "The fuller washes the toga.",
+  "context": "A fullō cleaned and finished woollen cloth, treading it in tubs of water mixed with urine, which worked like ammonia. The fullery of Stephanus at Pompeii still has its rinsing basins. Togam is the accusative object of lavat.",
+  "more": "The emperor Vespasian taxed the urine collected from public toilets for fullers. Fullers' guilds were powerful in Roman towns.",
+  "source": {
+   "work": "Constructed",
+   "citation": "—",
+   "date": "—"
+  },
+  "attribution_confidence": "constructed",
+  "attribution_note": "Constructed teaching sentence (not a quotation).",
+  "gloss": [
+   {
+    "word": "Fullō",
+    "lemma": "fullō",
+    "meaning": "fuller, laundryman",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "togam",
+    "lemma": "toga",
+    "meaning": "toga",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "lavat",
+    "lemma": "lavō",
+    "meaning": "washes",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "accusative",
+   "nominative"
+  ],
+  "grammar_preview": [
+   "present_tense"
+  ],
+  "grammar_tags": [
+   "accusative",
+   "nominative",
+   "present_tense"
+  ],
+  "vocab_ids": [
+   "fullo",
+   "toga",
+   "lavo"
+  ],
+  "teaching_value": {
+   "note": "Targets accusative, nominative; previews present_tense.",
+   "dcc_core_pct": 0,
+   "non_core": [
+    "fullo",
+    "toga",
+    "lavo"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "subtype": "vocab",
+  "image": {
+   "src": "img/batch10/fullonica.webp",
+   "alt": "The fullery (laundry) of Stephanus at Pompeii",
+   "kind": "building",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Fullonica Stephanus Pompeya 07” by Miguel Hermoso Cuesta, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fullonica_Stephanus_Pompeya_07.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Fulling",
+   "url": "https://en.wikipedia.org/wiki/Fulling",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-fulbert-chorus",
+  "type": "quote",
+  "era": "high_medieval",
+  "unit": 11,
+  "latin": "Chorus novae Ierūsalem novam melī dulcēdinem prōmat.",
+  "translation": "Let the choir of the new Jerusalem bring forth a new sweetness of song.",
+  "context": "Fulbert, bishop of Chartres, wrote this Easter hymn in the early 11th century, when his cathedral school was one of the best in Europe. Prōmat, 'let it bring forth', is a jussive subjunctive. Melī is the genitive of melos, a Greek word for 'song'.",
+  "more": "Fulbert rebuilt Chartres Cathedral after a fire in 1020, though the church standing today is later. The English hymn Ye choirs of new Jerusalem is a translation of this one.",
+  "person": "Fulbert of Chartres",
+  "source": {
+   "work": "Chorus novae Ierusalem (hymn)",
+   "citation": "stanza 1",
+   "date": "early 11th century"
+  },
+  "source_url": "https://www.thelatinlibrary.com/hymni.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "The source spells dulcidinem; here classical dulcēdinem.",
+  "gloss": [
+   {
+    "word": "Chorus",
+    "lemma": "chorus",
+    "meaning": "choir",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "novae",
+    "lemma": "novus",
+    "meaning": "new",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "Ierūsalem",
+    "lemma": "Ierūsalem",
+    "meaning": "of Jerusalem",
+    "parse": "gen. (indecl.)"
+   },
+   {
+    "word": "novam",
+    "lemma": "novus",
+    "meaning": "new",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "melī",
+    "lemma": "melos",
+    "meaning": "of song",
+    "parse": "gen. sg. n."
+   },
+   {
+    "word": "dulcēdinem",
+    "lemma": "dulcēdō",
+    "meaning": "sweetness",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "prōmat",
+    "lemma": "prōmō",
+    "meaning": "let it bring forth",
+    "parse": "3rd sg. pres. subj."
+   }
+  ],
+  "grammar_target": [
+   "jussive_subjunctive",
+   "genitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "jussive_subjunctive",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "chorus",
+   "novus",
+   "melos",
+   "dulcedo",
+   "promo"
+  ],
+  "teaching_value": {
+   "note": "Targets jussive_subjunctive, genitive.",
+   "dcc_core_pct": 20,
+   "non_core": [
+    "chorus",
+    "melos",
+    "dulcedo",
+    "promo"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "image": {
+   "src": "img/batch10/chartres.webp",
+   "alt": "West front of Chartres Cathedral, the church Fulbert rebuilt after a fire in 1020",
+   "kind": "building",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 3.0",
+   "credit": "“Chartres cathedral (West façade)” by Dcconsta, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Chartres_cathedral_(West_fa%C3%A7ade).jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "learn_more": {
+   "label": "Fulbert of Chartres",
+   "url": "https://en.wikipedia.org/wiki/Fulbert_of_Chartres",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-bernard-cluny-hora",
+  "type": "quote",
+  "era": "high_medieval",
+  "unit": 11,
+  "latin": "Hōra novissima, tempora pessima sunt — vigilēmus.",
+  "translation": "It is the last hour, the times are very bad — let us keep watch.",
+  "context": "Bernard of Cluny opens his long poem On Contempt for the World, written around 1140, with this warning that the end is near. Novissima and pessima are superlatives, 'last' and 'worst'. Vigilēmus, 'let us keep watch', is a hortatory subjunctive.",
+  "more": "The poem uses a difficult metre with rhymes inside every line. Umberto Eco took the last line of the same poem for the end of The Name of the Rose.",
+  "person": "Bernard of Cluny",
+  "source": {
+   "work": "Bernard of Cluny, De contemptu mundi",
+   "citation": "1.1",
+   "date": "about 1140"
+  },
+  "source_url": "https://www.thelatinlibrary.com/bernardcluny1.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Hōra",
+    "lemma": "hōra",
+    "meaning": "hour",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "novissima",
+    "lemma": "novus",
+    "meaning": "last",
+    "parse": "superl. nom. sg. f."
+   },
+   {
+    "word": "tempora",
+    "lemma": "tempus",
+    "meaning": "times",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "pessima",
+    "lemma": "malus",
+    "meaning": "worst, very bad",
+    "parse": "superl. nom. pl. n."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "vigilēmus",
+    "lemma": "vigilō",
+    "meaning": "let us keep watch",
+    "parse": "1st pl. pres. subj."
+   }
+  ],
+  "grammar_target": [
+   "superlative",
+   "hortatory_subjunctive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "superlative",
+   "hortatory_subjunctive"
+  ],
+  "vocab_ids": [
+   "hora",
+   "novus",
+   "tempus",
+   "malus",
+   "sum",
+   "vigilo"
+  ],
+  "teaching_value": {
+   "note": "Targets superlative, hortatory_subjunctive.",
+   "dcc_core_pct": 83,
+   "non_core": [
+    "vigilo"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "related_cards": [
+   "q-bernard-stat-roma"
+  ],
+  "image": {
+   "src": "img/batch10/bernardcluny.webp",
+   "alt": "Modern portrait of Bernard of Cluny",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Bernard de Cluny” by MKoala, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bernard_de_Cluny.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Bernard of Cluny",
+   "url": "https://en.wikipedia.org/wiki/Bernard_of_Cluny",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-anselm-doce",
+  "type": "quote",
+  "era": "high_medieval",
+  "unit": 11,
+  "latin": "Docē mē quaerere tē et ostende tē quaerentī; quia nec quaerere tē possum, nisi tū doceās, nec invenīre, nisi tē ostendās.",
+  "translation": "Teach me to seek you, and show yourself to me as I seek; for I cannot seek you unless you teach me, nor find you unless you show yourself.",
+  "context": "In the first chapter of his Proslogion, Anselm prays before he begins to argue, asking God to help him search. Docē and ostende are imperatives. Doceās and ostendās are present subjunctives in the nisi clauses, the 'should … would' kind of condition: 'unless you should teach me'.",
+  "more": "Anselm wrote the Proslogion at the abbey of Bec in Normandy around 1077 to 1078, just before he became its abbot. Later in the work he gives his famous definition of God as that than which nothing greater can be thought.",
+  "person": "Anselm of Canterbury",
+  "source": {
+   "work": "Anselm, Proslogion",
+   "citation": "1",
+   "date": "about 1078"
+  },
+  "source_url": "https://www.thelatinlibrary.com/anselmproslogion.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Docē",
+    "lemma": "doceō",
+    "meaning": "teach",
+    "parse": "imperative sg."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "quaerere",
+    "lemma": "quaerō",
+    "meaning": "to seek",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "ostende",
+    "lemma": "ostendō",
+    "meaning": "show",
+    "parse": "imperative sg."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "yourself",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "quaerentī",
+    "lemma": "quaerō",
+    "meaning": "to (me) seeking",
+    "parse": "pres. part. dat. sg."
+   },
+   {
+    "word": "quia",
+    "lemma": "quia",
+    "meaning": "because",
+    "parse": "conj."
+   },
+   {
+    "word": "nec",
+    "lemma": "nec",
+    "meaning": "neither",
+    "parse": "conj."
+   },
+   {
+    "word": "quaerere",
+    "lemma": "quaerō",
+    "meaning": "to seek",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "possum",
+    "lemma": "possum",
+    "meaning": "I can",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "nisi",
+    "lemma": "nisi",
+    "meaning": "unless",
+    "parse": "conj."
+   },
+   {
+    "word": "tū",
+    "lemma": "tū",
+    "meaning": "you",
+    "parse": "nom. sg."
+   },
+   {
+    "word": "doceās",
+    "lemma": "doceō",
+    "meaning": "you teach",
+    "parse": "2nd sg. pres. subj."
+   },
+   {
+    "word": "nec",
+    "lemma": "nec",
+    "meaning": "nor",
+    "parse": "conj."
+   },
+   {
+    "word": "invenīre",
+    "lemma": "inveniō",
+    "meaning": "to find",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "nisi",
+    "lemma": "nisi",
+    "meaning": "unless",
+    "parse": "conj."
+   },
+   {
+    "word": "tē",
+    "lemma": "tū",
+    "meaning": "yourself",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "ostendās",
+    "lemma": "ostendō",
+    "meaning": "you show",
+    "parse": "2nd sg. pres. subj."
+   }
+  ],
+  "grammar_target": [
+   "subjunctive",
+   "imperative",
+   "possum_infinitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "subjunctive",
+   "imperative",
+   "possum_infinitive"
+  ],
+  "vocab_ids": [
+   "doceo",
+   "ego",
+   "quaero",
+   "tu",
+   "et",
+   "ostendo",
+   "quia",
+   "nec",
+   "possum",
+   "nisi",
+   "invenio"
+  ],
+  "teaching_value": {
+   "note": "Targets subjunctive, imperative, possum_infinitive.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "related_cards": [
+   "q-anselm-maius"
+  ],
+  "image": {
+   "src": "img/batch10/anselmmathilde.webp",
+   "alt": "Anselm hands his book of prayers to Countess Matilda of Tuscany, a 12th-century miniature",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Unknown author · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Anselm_%C3%BCbergibt_Mathilde_sein_Werk.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Proslogion",
+   "url": "https://en.wikipedia.org/wiki/Proslogion",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-aquinas-prima-via",
+  "type": "quote",
+  "era": "high_medieval",
+  "unit": 11,
+  "latin": "Prīma autem et manifestior via est, quae sūmitur ex parte mōtūs.",
+  "translation": "The first and more obvious way is the one taken from motion.",
+  "context": "After saying that God's existence can be proved in five ways, Aquinas begins with the argument from change. Whatever moves is moved by something else, and the chain cannot go back forever, so there must be a first unmoved mover. Manifestior, 'more obvious', is a comparative.",
+  "more": "The argument comes from Aristotle's Physics and Metaphysics. Aquinas wrote this part of the Summa in Rome around 1266 to 1268.",
+  "person": "Thomas Aquinas",
+  "source": {
+   "work": "Aquinas, Summa theologiae",
+   "citation": "I, q. 2, a. 3, co.",
+   "date": "about 1266-1268"
+  },
+  "source_url": "https://www.corpusthomisticum.org/sth1002.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Prīma",
+    "lemma": "prīmus",
+    "meaning": "first",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "autem",
+    "lemma": "autem",
+    "meaning": "and, now",
+    "parse": "conj."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "manifestior",
+    "lemma": "manifestus",
+    "meaning": "more obvious",
+    "parse": "comp. nom. sg. f."
+   },
+   {
+    "word": "via",
+    "lemma": "via",
+    "meaning": "way",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "quae",
+    "lemma": "quī",
+    "meaning": "which",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "sūmitur",
+    "lemma": "sūmō",
+    "meaning": "is taken",
+    "parse": "3rd sg. pres. pass."
+   },
+   {
+    "word": "ex",
+    "lemma": "ex",
+    "meaning": "from",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "parte",
+    "lemma": "pars",
+    "meaning": "side, part",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "mōtūs",
+    "lemma": "mōtus",
+    "meaning": "of motion",
+    "parse": "gen. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "comparative",
+   "relative_clause",
+   "passive_voice"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "comparative",
+   "relative_clause",
+   "passive_voice"
+  ],
+  "vocab_ids": [
+   "primus",
+   "autem",
+   "et",
+   "manifestus",
+   "via",
+   "sum",
+   "qui",
+   "sumo",
+   "ex",
+   "pars",
+   "motus"
+  ],
+  "teaching_value": {
+   "note": "Targets comparative, relative_clause, passive_voice.",
+   "dcc_core_pct": 82,
+   "non_core": [
+    "manifestus",
+    "motus"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "medieval",
+  "related_cards": [
+   "q-aquinas-quinque"
+  ],
+  "image": {
+   "src": "img/batch10/zurbaran.webp",
+   "alt": "Francisco de Zurbarán, Saint Thomas Aquinas (17th century)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Francisco de Zurbarán · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Tommaso_Aquino_-_Francisco_de_Zurbar%C3%A1n.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Unmoved mover",
+   "url": "https://en.wikipedia.org/wiki/Unmoved_mover",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-dies-irae-quaerens",
+  "type": "quote",
+  "era": "high_medieval",
+  "unit": 11,
+  "latin": "Quaerēns mē sēdistī lassus, redēmistī crucem passus; tantus labor nōn sit cassus.",
+  "translation": "Seeking me you sat down weary, you redeemed me by suffering the cross; let not such great labour be in vain.",
+  "context": "In this stanza of the Dies īrae the sinner reminds Christ of what he suffered to save him. Sit is a jussive subjunctive, and nōn sit means 'let it not be'. Passus is the perfect participle of the deponent verb patior, 'having suffered'.",
+  "more": "The first line recalls Jesus sitting tired at the well in John's Gospel. Mozart's Requiem sets this stanza in its Recordare.",
+  "person": "attrib. Thomas of Celano",
+  "source": {
+   "work": "Dies irae",
+   "citation": "stanza 10",
+   "date": "13th century"
+  },
+  "source_url": "https://www.thelatinlibrary.com/hymni.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "Authorship is uncertain; the poem is traditionally credited to Thomas of Celano.",
+  "gloss": [
+   {
+    "word": "Quaerēns",
+    "lemma": "quaerō",
+    "meaning": "seeking",
+    "parse": "pres. part. nom. sg. m."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "sēdistī",
+    "lemma": "sedeō",
+    "meaning": "you sat",
+    "parse": "2nd sg. perf."
+   },
+   {
+    "word": "lassus",
+    "lemma": "lassus",
+    "meaning": "weary",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "redēmistī",
+    "lemma": "redimō",
+    "meaning": "you redeemed",
+    "parse": "2nd sg. perf."
+   },
+   {
+    "word": "crucem",
+    "lemma": "crux",
+    "meaning": "cross",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "passus",
+    "lemma": "patior",
+    "meaning": "having suffered",
+    "parse": "perf. part. nom. sg. m. (deponent)"
+   },
+   {
+    "word": "tantus",
+    "lemma": "tantus",
+    "meaning": "so great",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "labor",
+    "lemma": "labor",
+    "meaning": "labour",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "sit",
+    "lemma": "sum",
+    "meaning": "let it be",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "cassus",
+    "lemma": "cassus",
+    "meaning": "empty, in vain",
+    "parse": "nom. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "jussive_subjunctive",
+   "present_participle",
+   "perfect_tense"
+  ],
+  "grammar_preview": [
+   "deponent"
+  ],
+  "grammar_tags": [
+   "jussive_subjunctive",
+   "present_participle",
+   "perfect_tense",
+   "deponent"
+  ],
+  "vocab_ids": [
+   "quaero",
+   "ego",
+   "sedeo",
+   "lassus",
+   "redimo",
+   "crux",
+   "patior",
+   "tantus",
+   "labor",
+   "non",
+   "sum",
+   "cassus"
+  ],
+  "teaching_value": {
+   "note": "Targets jussive_subjunctive, present_participle, perfect_tense; previews deponent.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "lassus",
+    "redimo",
+    "crux",
+    "cassus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "related_cards": [
+   "q-dies-irae-quid-sum"
+  ],
+  "image": {
+   "src": "img/batch10/crucifixion.webp",
+   "alt": "The Crucifixion, Christ between two thieves, from a medieval manuscript (British Library)",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Unknown author · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_Crucifixion_Christ_on_the_Cross_between_two_thieves_(f._80)_Cropped.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Dies irae",
+   "url": "https://en.wikipedia.org/wiki/Dies_irae",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-angelus-conciperem",
+  "type": "quote",
+  "era": "late_medieval",
+  "unit": 11,
+  "latin": "Quōmodo conciperem quae virum nōn cognōvī?",
+  "translation": "How could I conceive, I who have not known a man?",
+  "context": "In the carol Angelus ad virginem, Mary answers the angel Gabriel with this question, following Luke's Gospel. Conciperem is an imperfect subjunctive in a question about what could happen, 'how could I conceive?'. Quae, 'I who', is a relative pronoun whose antecedent is the speaker herself.",
+  "more": "The carol survives in a 14th-century manuscript from Dublin. Chaucer's Miller's Tale has the student Nicholas sing Angelus ad virginem to his harp.",
+  "person": "Anonymous",
+  "source": {
+   "work": "Angelus ad virginem (carol)",
+   "citation": "stanza 2",
+   "date": "about 1360 (Dublin Troper)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/hymni.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Quōmodo",
+    "lemma": "quōmodo",
+    "meaning": "how",
+    "parse": "adv."
+   },
+   {
+    "word": "conciperem",
+    "lemma": "concipiō",
+    "meaning": "could I conceive",
+    "parse": "1st sg. impf. subj."
+   },
+   {
+    "word": "quae",
+    "lemma": "quī",
+    "meaning": "(I) who",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "virum",
+    "lemma": "vir",
+    "meaning": "man",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "cognōvī",
+    "lemma": "cognōscō",
+    "meaning": "I have known",
+    "parse": "1st sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "subjunctive",
+   "relative_clause"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "subjunctive",
+   "relative_clause"
+  ],
+  "vocab_ids": [
+   "quomodo",
+   "concipio",
+   "qui",
+   "vir",
+   "non",
+   "cognosco"
+  ],
+  "teaching_value": {
+   "note": "Targets subjunctive, relative_clause.",
+   "dcc_core_pct": 83,
+   "non_core": [
+    "concipio"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "image": {
+   "src": "img/batch10/annunciation.webp",
+   "alt": "The angel Gabriel greets Mary, a leaf from a 15th-century Flemish book of hours (Cleveland Museum of Art)",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "unknown · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flanders,_Ghent_(%3F),_15th_century_-_Leaf_from_a_Book_of_Hours-_The_Annunciation_(recto)_-_2014.24.a_-_Cleveland_Museum_of_Art.tif",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Angelus ad virginem",
+   "url": "https://en.wikipedia.org/wiki/Angelus_ad_virginem",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-adeste-cantet",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 11,
+  "latin": "Cantet nunc īō chorus angelōrum; cantet nunc aula caelestium.",
+  "translation": "Let the choir of angels now sing “io”; let the court of heaven now sing.",
+  "context": "Adeste fidēlēs was written in the 1740s, probably by John Francis Wade, an English Catholic who copied music for a living in France. Cantet, 'let it sing', is a jussive subjunctive, used twice. Īō is a Latin cry of joy.",
+  "more": "The English translation, O come, all ye faithful, dates from 1841. Caelestium is a genitive plural, 'of the heavenly ones'.",
+  "person": "John Francis Wade (attrib.)",
+  "source": {
+   "work": "Adeste fideles",
+   "citation": "stanza 3",
+   "date": "1740s"
+  },
+  "source_url": "https://www.thelatinlibrary.com/hymni.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Cantet",
+    "lemma": "cantō",
+    "meaning": "let it sing",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "nunc",
+    "lemma": "nunc",
+    "meaning": "now",
+    "parse": "adv."
+   },
+   {
+    "word": "īō",
+    "lemma": "īō",
+    "meaning": "io! (cry of joy)",
+    "parse": "interj."
+   },
+   {
+    "word": "chorus",
+    "lemma": "chorus",
+    "meaning": "choir",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "angelōrum",
+    "lemma": "angelus",
+    "meaning": "of angels",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "cantet",
+    "lemma": "cantō",
+    "meaning": "let it sing",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "nunc",
+    "lemma": "nunc",
+    "meaning": "now",
+    "parse": "adv."
+   },
+   {
+    "word": "aula",
+    "lemma": "aula",
+    "meaning": "court, hall",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "caelestium",
+    "lemma": "caelestis",
+    "meaning": "of the heavenly ones",
+    "parse": "gen. pl. m."
+   }
+  ],
+  "grammar_target": [
+   "jussive_subjunctive",
+   "genitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "jussive_subjunctive",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "canto",
+   "nunc",
+   "io",
+   "chorus",
+   "angelus",
+   "aula",
+   "caelestis"
+  ],
+  "teaching_value": {
+   "note": "Targets jussive_subjunctive, genitive.",
+   "dcc_core_pct": 29,
+   "non_core": [
+    "canto",
+    "io",
+    "chorus",
+    "angelus",
+    "aula"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "image": {
+   "src": "img/batch10/adeste.webp",
+   "alt": "An early copy of Adeste fideles with its music, attributed to John Francis Wade",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "John Francis Wade · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Adeste,_fideles_(earliest_version).jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "O Come, All Ye Faithful",
+   "url": "https://en.wikipedia.org/wiki/O_Come,_All_Ye_Faithful",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-theodulf-gloria",
+  "type": "quote",
+  "era": "early_medieval",
+  "unit": 11,
+  "latin": "Glōria, laus et honor tibi sit, rēx Chrīste redēmptor.",
+  "translation": "Glory, praise and honour be to you, Christ the king, redeemer.",
+  "context": "Theodulf, bishop of Orléans and a scholar at Charlemagne's court, wrote this Palm Sunday hymn in the early 9th century. Sit is a jussive subjunctive, 'let there be', and rēx Chrīste redēmptor is vocative. The hymn was sung in procession as the people carried palms into church.",
+  "more": "A story says Theodulf sang it from his prison window and won his release, but that legend is late. Its English version is All glory, laud and honour.",
+  "person": "Theodulf of Orléans",
+  "source": {
+   "work": "Gloria, laus et honor (hymn)",
+   "citation": "line 1",
+   "date": "early 9th century"
+  },
+  "source_url": "https://www.thelatinlibrary.com/hymni.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Glōria",
+    "lemma": "glōria",
+    "meaning": "glory",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "laus",
+    "lemma": "laus",
+    "meaning": "praise",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "honor",
+    "lemma": "honor",
+    "meaning": "honour",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "tibi",
+    "lemma": "tū",
+    "meaning": "to you",
+    "parse": "dat. sg."
+   },
+   {
+    "word": "sit",
+    "lemma": "sum",
+    "meaning": "let (it) be",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "rēx",
+    "lemma": "rēx",
+    "meaning": "king",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "Chrīste",
+    "lemma": "Chrīstus",
+    "meaning": "Christ",
+    "parse": "voc. sg. m."
+   },
+   {
+    "word": "redēmptor",
+    "lemma": "redēmptor",
+    "meaning": "redeemer",
+    "parse": "voc. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "jussive_subjunctive",
+   "vocative",
+   "dative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "jussive_subjunctive",
+   "vocative",
+   "dative"
+  ],
+  "vocab_ids": [
+   "gloria",
+   "laus",
+   "et",
+   "honor",
+   "tu",
+   "sum",
+   "rex",
+   "redemptor"
+  ],
+  "teaching_value": {
+   "note": "Targets jussive_subjunctive, vocative, dative.",
+   "dcc_core_pct": 88,
+   "non_core": [
+    "redemptor"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "image": {
+   "src": "img/batch10/aethelwold.webp",
+   "alt": "Christ's entry into Jerusalem, from the Benedictional of St Æthelwold (late 10th century, British Library)",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "British Library · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_Entry_into_Jerusalem_-_Benedictional_of_St._Aethelwold_(971-984),_f.45v_-_BL_Add_MS_49598.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "All Glory, Laud and Honour",
+   "url": "https://en.wikipedia.org/wiki/All_Glory,_Laud_and_Honour",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cb-veris-curramus",
+  "type": "quote",
+  "era": "high_medieval",
+  "unit": 11,
+  "latin": "Zephyrus nectareō spīrāns in odōre, certātim prō brāviō currāmus in amōre.",
+  "translation": "With Zephyr breathing in nectar-sweet fragrance, let us race one another for the prize in love.",
+  "context": "Vēris laeta faciēs, 'the happy face of spring', is a song from the Carmina Burana that greets the warm west wind, Zephyrus. Currāmus, 'let us race', is a hortatory subjunctive. Brāvium is a medieval word for a race prize, borrowed from Greek.",
+  "more": "Carl Orff set this song in the spring section of his Carmina Burana. The manuscript was copied in the 13th century, probably in the Tyrol.",
+  "person": "Carmina Burana (anonymous)",
+  "source": {
+   "work": "Carmina Burana",
+   "citation": "138",
+   "date": "13th century"
+  },
+  "source_url": "https://la.wikisource.org/wiki/Carmina_Burana_(Orff)/Veris_leta_facies",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Zephyrus",
+    "lemma": "Zephyrus",
+    "meaning": "Zephyr, the west wind",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "nectareō",
+    "lemma": "nectareus",
+    "meaning": "nectar-sweet",
+    "parse": "abl. sg. m."
+   },
+   {
+    "word": "spīrāns",
+    "lemma": "spīrō",
+    "meaning": "breathing",
+    "parse": "pres. part. nom. sg. m."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "odōre",
+    "lemma": "odor",
+    "meaning": "fragrance",
+    "parse": "abl. sg. m."
+   },
+   {
+    "word": "certātim",
+    "lemma": "certātim",
+    "meaning": "in rivalry",
+    "parse": "adv."
+   },
+   {
+    "word": "prō",
+    "lemma": "prō",
+    "meaning": "for",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "brāviō",
+    "lemma": "brāvium",
+    "meaning": "prize",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "currāmus",
+    "lemma": "currō",
+    "meaning": "let us run",
+    "parse": "1st pl. pres. subj."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "amōre",
+    "lemma": "amor",
+    "meaning": "love",
+    "parse": "abl. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "hortatory_subjunctive",
+   "present_participle"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "hortatory_subjunctive",
+   "present_participle"
+  ],
+  "vocab_ids": [
+   "nectareus",
+   "spiro",
+   "in",
+   "odor",
+   "certatim",
+   "pro",
+   "bravium",
+   "curro",
+   "amor"
+  ],
+  "teaching_value": {
+   "note": "Targets hortatory_subjunctive, present_participle.",
+   "dcc_core_pct": 44,
+   "non_core": [
+    "nectareus",
+    "spiro",
+    "odor",
+    "certatim",
+    "bravium"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-cb-ecce-gratum"
+  ],
+  "image": {
+   "src": "img/batch10/manesse1.webp",
+   "alt": "The poet Kristan von Hamle, a miniature from the Codex Manesse (early 14th century)",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Meister des Codex Manesse · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Codex_Manesse_071v_Kristan_von_Hamle.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Carmina Burana",
+   "url": "https://en.wikipedia.org/wiki/Carmina_Burana",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cb-in-trutina",
+  "type": "quote",
+  "era": "high_medieval",
+  "unit": 11,
+  "latin": "Sed ēligō quod videō, collum iugō praebeō.",
+  "translation": "But I choose what I see; I offer my neck to the yoke.",
+  "context": "In trutinā, 'in the balance', is a love song from the Carmina Burana in which a girl weighs desire against modesty. In the end she chooses love and accepts its yoke. Quod videō is a relative clause, 'what I see', and iugō is dative after praebeō.",
+  "more": "Orff gave this song to the soprano in his Carmina Burana, where it is one of the quietest moments. The yoke was a common image for love and marriage.",
+  "person": "Carmina Burana (anonymous)",
+  "source": {
+   "work": "Carmina Burana",
+   "citation": "70",
+   "date": "13th century"
+  },
+  "source_url": "https://la.wikisource.org/wiki/Carmina_Burana_(Orff)/In_trutina",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Sed",
+    "lemma": "sed",
+    "meaning": "but",
+    "parse": "conj."
+   },
+   {
+    "word": "ēligō",
+    "lemma": "ēligō",
+    "meaning": "I choose",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "quod",
+    "lemma": "quī",
+    "meaning": "what",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "videō",
+    "lemma": "videō",
+    "meaning": "I see",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "collum",
+    "lemma": "collum",
+    "meaning": "neck",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "iugō",
+    "lemma": "iugum",
+    "meaning": "to the yoke",
+    "parse": "dat. sg. n."
+   },
+   {
+    "word": "praebeō",
+    "lemma": "praebeō",
+    "meaning": "I offer",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "relative_clause",
+   "dative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "relative_clause",
+   "dative"
+  ],
+  "vocab_ids": [
+   "sed",
+   "eligo",
+   "qui",
+   "video",
+   "collum",
+   "iugum",
+   "praebeo"
+  ],
+  "teaching_value": {
+   "note": "Targets relative_clause, dative.",
+   "dcc_core_pct": 86,
+   "non_core": [
+    "collum"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch10/manesse2.webp",
+   "alt": "The poet Konrad von Altstetten with his beloved, from the Codex Manesse (early 14th century)",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Meister des Codex Manesse · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Altstetten.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Carmina Burana",
+   "url": "https://en.wikipedia.org/wiki/Carmina_Burana",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-einhard-equitando",
+  "type": "quote",
+  "era": "early_medieval",
+  "unit": 12,
+  "latin": "Exercēbātur assiduē equitandō ac vēnandō; quod illī gentīlicium erat.",
+  "translation": "He exercised constantly by riding and hunting, which was a family custom for him.",
+  "context": "Einhard describes Charlemagne's habits: riding and hunting, and swimming in the hot springs at Aachen. Equitandō and vēnandō are gerunds in the ablative, 'by riding and hunting'. Exercēbātur is an imperfect passive used in a reflexive sense, 'he trained himself'.",
+  "more": "Einhard adds that hardly any people on earth could match the Franks at it. Charlemagne built his palace at Aachen partly for its hot springs.",
+  "person": "Einhard",
+  "source": {
+   "work": "Einhard, Vita Karoli Magni",
+   "citation": "22",
+   "date": "about 825"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ein.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "The sentence continues quia vix ulla in terris natio invenitur, quae in hac arte Francis possit aequari.",
+  "gloss": [
+   {
+    "word": "Exercēbātur",
+    "lemma": "exerceō",
+    "meaning": "he exercised (himself)",
+    "parse": "3rd sg. impf. pass."
+   },
+   {
+    "word": "assiduē",
+    "lemma": "assiduē",
+    "meaning": "constantly",
+    "parse": "adv."
+   },
+   {
+    "word": "equitandō",
+    "lemma": "equitō",
+    "meaning": "by riding",
+    "parse": "gerund abl."
+   },
+   {
+    "word": "ac",
+    "lemma": "ac",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "vēnandō",
+    "lemma": "vēnor",
+    "meaning": "by hunting",
+    "parse": "gerund abl. (deponent)"
+   },
+   {
+    "word": "quod",
+    "lemma": "quī",
+    "meaning": "which",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "illī",
+    "lemma": "ille",
+    "meaning": "for him",
+    "parse": "dat. sg. m."
+   },
+   {
+    "word": "gentīlicium",
+    "lemma": "gentīlicius",
+    "meaning": "a family custom",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "erat",
+    "lemma": "sum",
+    "meaning": "was",
+    "parse": "3rd sg. impf."
+   }
+  ],
+  "grammar_target": [
+   "gerund",
+   "passive_voice",
+   "imperfect"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "gerund",
+   "passive_voice",
+   "imperfect"
+  ],
+  "vocab_ids": [
+   "exerceo",
+   "assidue",
+   "equito",
+   "ac",
+   "venor",
+   "qui",
+   "ille",
+   "gentilicius",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets gerund, passive_voice, imperfect.",
+   "dcc_core_pct": 56,
+   "non_core": [
+    "assidue",
+    "equito",
+    "venor",
+    "gentilicius"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "medieval",
+  "related_cards": [
+   "q-einhard-caenandum"
+  ],
+  "image": {
+   "src": "img/batch10/statuette.webp",
+   "alt": "Bronze equestrian statuette of a Carolingian emperor, perhaps Charlemagne (Louvre, 9th century)",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Shonagon · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statuette_%C3%A9questre_dite_de_Charlemagne_-_Mus%C3%A9e_du_Louvre_Objets_d%27Art_OA_8260.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Charlemagne",
+   "url": "https://en.wikipedia.org/wiki/Charlemagne",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-einhard-discenda",
+  "type": "quote",
+  "era": "early_medieval",
+  "unit": 12,
+  "latin": "In discendā grammaticā Petrum Pīsānum diāconem senem audīvit.",
+  "translation": "In learning grammar he listened to Peter of Pisa, an elderly deacon.",
+  "context": "Einhard says Charlemagne took lessons as an adult: grammar from Peter of Pisa, and the other arts from Alcuin of York. In discendā grammaticā uses a gerundive, literally 'in grammar to be learned', where English says 'in learning grammar'. The gerundive agrees with grammaticā.",
+  "more": "Alcuin taught Charlemagne rhetoric, logic and astronomy. Scholars at his court helped spread the clear handwriting called Carolingian minuscule.",
+  "person": "Einhard",
+  "source": {
+   "work": "Einhard, Vita Karoli Magni",
+   "citation": "25",
+   "date": "about 825"
+  },
+  "source_url": "https://www.thelatinlibrary.com/ein.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "In",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "discendā",
+    "lemma": "discō",
+    "meaning": "(to be) learned",
+    "parse": "gerundive abl. sg. f."
+   },
+   {
+    "word": "grammaticā",
+    "lemma": "grammatica",
+    "meaning": "grammar",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "Petrum",
+    "lemma": "Petrus",
+    "meaning": "Peter",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "Pīsānum",
+    "lemma": "Pīsānus",
+    "meaning": "of Pisa",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "diāconem",
+    "lemma": "diāconus",
+    "meaning": "deacon",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "senem",
+    "lemma": "senex",
+    "meaning": "old",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "audīvit",
+    "lemma": "audiō",
+    "meaning": "he listened to",
+    "parse": "3rd sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "gerundive",
+   "prep_ablative",
+   "perfect_tense"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "gerundive",
+   "prep_ablative",
+   "perfect_tense"
+  ],
+  "vocab_ids": [
+   "in",
+   "disco",
+   "grammatica",
+   "diaconus",
+   "senex",
+   "audio"
+  ],
+  "teaching_value": {
+   "note": "Targets gerundive, prep_ablative, perfect_tense.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "grammatica",
+    "diaconus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "medieval",
+  "related_cards": [
+   "q-einhard-equitando"
+  ],
+  "image": {
+   "src": "img/batch10/marville.webp",
+   "alt": "Charles Marville photograph of a statue of Charlemagne, Paris (1850s-1860s)",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Charles Marville · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Marville,_H%C3%B4tel_Carnavalet,_statue_of_Charlemagne,_ca._1853%E2%80%9370.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Carolingian Renaissance",
+   "url": "https://en.wikipedia.org/wiki/Carolingian_Renaissance",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-kempis-moriendum",
+  "type": "quote",
+  "era": "late_medieval",
+  "unit": 12,
+  "latin": "Beātus quī hōram mortis suae semper ante oculōs habet, et ad moriendum cotīdiē sē dispōnit.",
+  "translation": "Blessed is he who always keeps the hour of his death before his eyes and prepares himself daily for dying.",
+  "context": "Thomas à Kempis gives this advice in the chapter of the Imitation of Christ on thinking about death. Ad moriendum, 'for dying', uses the gerund after ad to show purpose. Est is understood with beātus.",
+  "more": "Moriendum comes from the deponent verb morior, 'to die'. The book became one of the most widely read Christian texts after the Bible.",
+  "person": "Thomas à Kempis",
+  "source": {
+   "work": "Thomas à Kempis, De imitatione Christi",
+   "citation": "1.23.2",
+   "date": "about 1420"
+  },
+  "source_url": "https://www.thelatinlibrary.com/kempis/kempis1.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "The source spells quotidie; here cotīdiē.",
+  "gloss": [
+   {
+    "word": "Beātus",
+    "lemma": "beātus",
+    "meaning": "blessed",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "who",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "hōram",
+    "lemma": "hōra",
+    "meaning": "hour",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "mortis",
+    "lemma": "mors",
+    "meaning": "of death",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "suae",
+    "lemma": "suus",
+    "meaning": "his own",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "semper",
+    "lemma": "semper",
+    "meaning": "always",
+    "parse": "adv."
+   },
+   {
+    "word": "ante",
+    "lemma": "ante",
+    "meaning": "before",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "oculōs",
+    "lemma": "oculus",
+    "meaning": "eyes",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "habet",
+    "lemma": "habeō",
+    "meaning": "has, keeps",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "ad",
+    "lemma": "ad",
+    "meaning": "for",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "moriendum",
+    "lemma": "morior",
+    "meaning": "dying",
+    "parse": "gerund acc. (deponent)"
+   },
+   {
+    "word": "cotīdiē",
+    "lemma": "cotīdiē",
+    "meaning": "daily",
+    "parse": "adv."
+   },
+   {
+    "word": "sē",
+    "lemma": "suī",
+    "meaning": "himself",
+    "parse": "acc."
+   },
+   {
+    "word": "dispōnit",
+    "lemma": "dispōnō",
+    "meaning": "prepares",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "gerund",
+   "deponent",
+   "relative_clause"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "gerund",
+   "deponent",
+   "relative_clause"
+  ],
+  "vocab_ids": [
+   "beatus",
+   "qui",
+   "hora",
+   "mors",
+   "suus",
+   "semper",
+   "ante",
+   "oculus",
+   "habeo",
+   "et",
+   "ad",
+   "morior",
+   "cotidie",
+   "sui",
+   "dispono"
+  ],
+  "teaching_value": {
+   "note": "Targets gerund, deponent, relative_clause.",
+   "dcc_core_pct": 87,
+   "non_core": [
+    "cotidie",
+    "dispono"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "related_cards": [
+   "q-kempis-utinam"
+  ],
+  "image": {
+   "src": "img/batch10/kempis.webp",
+   "alt": "Engraved portrait of Thomas à Kempis (Rijksmuseum)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Rijksmuseum · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Portret_van_Thomas_%C3%A0_Kempis,_RP-P-OB-46.937.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "The Imitation of Christ",
+   "url": "https://en.wikipedia.org/wiki/The_Imitation_of_Christ",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-magna-carta-ecclesia",
+  "type": "quote",
+  "era": "high_medieval",
+  "unit": 12,
+  "latin": "… quod Anglicāna ecclēsia lībera sit, et habeat iūra sua integra, et lībertātēs suās illaesās.",
+  "translation": "… that the English Church shall be free, and shall have its rights whole and its liberties unharmed.",
+  "context": "This is the first promise of Magna Carta: King John grants that the Church in England shall be free, above all to elect its own bishops. Sit and habeat are subjunctives in a clause after concessisse, expressing what is granted. The clause was meant to settle John's long quarrel with the pope.",
+  "more": "The 1225 reissue under Henry III became the version that entered English law. Clause 1 is one of the three clauses still in force.",
+  "person": "King John and the barons",
+  "source": {
+   "work": "Magna Carta",
+   "citation": "1",
+   "date": "1215"
+  },
+  "source_url": "https://www.thelatinlibrary.com/magnacarta.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "The manuscript spells jura and illesas.",
+  "gloss": [
+   {
+    "word": "quod",
+    "lemma": "quod",
+    "meaning": "that",
+    "parse": "conj."
+   },
+   {
+    "word": "Anglicāna",
+    "lemma": "Anglicānus",
+    "meaning": "English",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "ecclēsia",
+    "lemma": "ecclēsia",
+    "meaning": "church",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "lībera",
+    "lemma": "līber",
+    "meaning": "free",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "sit",
+    "lemma": "sum",
+    "meaning": "shall be",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "habeat",
+    "lemma": "habeō",
+    "meaning": "shall have",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "iūra",
+    "lemma": "iūs",
+    "meaning": "rights",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "sua",
+    "lemma": "suus",
+    "meaning": "its own",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "integra",
+    "lemma": "integer",
+    "meaning": "whole",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "lībertātēs",
+    "lemma": "lībertās",
+    "meaning": "liberties",
+    "parse": "acc. pl. f."
+   },
+   {
+    "word": "suās",
+    "lemma": "suus",
+    "meaning": "its own",
+    "parse": "acc. pl. f."
+   },
+   {
+    "word": "illaesās",
+    "lemma": "illaesus",
+    "meaning": "unharmed",
+    "parse": "acc. pl. f."
+   }
+  ],
+  "grammar_target": [
+   "subjunctive",
+   "neuter_plural"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "subjunctive",
+   "neuter_plural"
+  ],
+  "vocab_ids": [
+   "quod",
+   "ecclesia",
+   "liber",
+   "sum",
+   "et",
+   "habeo",
+   "ius",
+   "suus",
+   "integer",
+   "libertas",
+   "illaesus"
+  ],
+  "teaching_value": {
+   "note": "Targets subjunctive, neuter_plural.",
+   "dcc_core_pct": 73,
+   "non_core": [
+    "quod",
+    "ecclesia",
+    "illaesus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "medieval-legal",
+  "related_cards": [
+   "q-magna-carta-nulli"
+  ],
+  "image": {
+   "src": "img/batch10/mc1225.webp",
+   "alt": "The 1225 reissue of Magna Carta under Henry III",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Unknown author · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(1225_version).jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Magna Carta",
+   "url": "https://en.wikipedia.org/wiki/Magna_Carta",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-asser-loquebatur",
+  "type": "quote",
+  "era": "early_medieval",
+  "unit": 12,
+  "latin": "… eō quod, ut loquēbātur, illō tempore lēctōrēs bonī in tōtō rēgnō Occidentālium Saxonum nōn erant.",
+  "translation": "… because, as he used to say, at that time there were no good teachers in the whole kingdom of the West Saxons.",
+  "context": "Asser explains why King Alfred learned to read so late: as a boy he longed for learning, but there were no good teachers in Wessex. Loquēbātur, 'he used to say', is an imperfect of the deponent verb loquor. Lēctōrēs here means teachers who read texts aloud with pupils.",
+  "more": "Alfred later invited scholars from Mercia, Wales and the Continent, among them Asser himself. He complained that by his time few priests south of the Humber could understand their Latin services.",
+  "person": "Asser",
+  "source": {
+   "work": "Asser, Vita Alfredi",
+   "citation": "24",
+   "date": "893"
+  },
+  "source_url": "https://www.thelatinlibrary.com/asserius.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "The sentence begins Sed, proh dolor! quod maxime desiderabat, liberalem scilicet artem, desiderio suo non suppetebat.",
+  "gloss": [
+   {
+    "word": "eō",
+    "lemma": "is",
+    "meaning": "for this reason",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "quod",
+    "lemma": "quod",
+    "meaning": "that, because",
+    "parse": "conj."
+   },
+   {
+    "word": "ut",
+    "lemma": "ut",
+    "meaning": "as",
+    "parse": "conj."
+   },
+   {
+    "word": "loquēbātur",
+    "lemma": "loquor",
+    "meaning": "he used to say",
+    "parse": "3rd sg. impf. (deponent)"
+   },
+   {
+    "word": "illō",
+    "lemma": "ille",
+    "meaning": "that",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "tempore",
+    "lemma": "tempus",
+    "meaning": "time",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "lēctōrēs",
+    "lemma": "lēctor",
+    "meaning": "readers, teachers",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "bonī",
+    "lemma": "bonus",
+    "meaning": "good",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "tōtō",
+    "lemma": "tōtus",
+    "meaning": "whole",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "rēgnō",
+    "lemma": "rēgnum",
+    "meaning": "kingdom",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "Occidentālium",
+    "lemma": "occidentālis",
+    "meaning": "western",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "Saxonum",
+    "lemma": "Saxō",
+    "meaning": "of the Saxons",
+    "parse": "gen. pl. m."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "erant",
+    "lemma": "sum",
+    "meaning": "were",
+    "parse": "3rd pl. impf."
+   }
+  ],
+  "grammar_target": [
+   "deponent",
+   "imperfect",
+   "genitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "deponent",
+   "imperfect",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "is",
+   "quod",
+   "ut",
+   "loquor",
+   "ille",
+   "tempus",
+   "lector",
+   "bonus",
+   "in",
+   "totus",
+   "regnum",
+   "occidentalis",
+   "non",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets deponent, imperfect, genitive.",
+   "dcc_core_pct": 79,
+   "non_core": [
+    "quod",
+    "lector",
+    "occidentalis"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "medieval",
+  "related_cards": [
+   "q-asser-candelas"
+  ],
+  "image": {
+   "src": "img/batch10/alfredstatue.webp",
+   "alt": "Hamo Thornycroft's statue of King Alfred in Winchester (1899)",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Statue Of Alfred The Great in Winchester” by NickDenbow, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Statue_Of_Alfred_The_Great_in_Winchester.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Alfred the Great",
+   "url": "https://en.wikipedia.org/wiki/Alfred_the_Great",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-oresme-subtilis",
+  "type": "quote",
+  "era": "late_medieval",
+  "unit": 12,
+  "latin": "… haec autem impressiō dēbet esse subtīlis, et ad effigiendum seu contrafaciendum difficilis.",
+  "translation": "… but this stamp ought to be fine, and hard to copy or forge.",
+  "context": "Oresme argues that the ruler, as the most public person, should have the coins made and stamped with a detailed design. A fine design protects the community against forgers. Ad effigiendum and contrafaciendum are gerunds after ad, 'for copying or forging', with difficilis.",
+  "more": "Contrafaciō, 'to make against', is a medieval coinage that gives English counterfeit. Oresme also wrote on mathematics, physics and astronomy.",
+  "person": "Nicole Oresme",
+  "source": {
+   "work": "Oresme, De moneta",
+   "citation": "5",
+   "date": "about 1356"
+  },
+  "source_url": "https://www.thelatinlibrary.com/oresmius.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "Verbatim: ad effigiendum (for classical-style effigiandum, from medieval effigiāre).",
+  "gloss": [
+   {
+    "word": "haec",
+    "lemma": "hic",
+    "meaning": "this",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "autem",
+    "lemma": "autem",
+    "meaning": "but",
+    "parse": "conj."
+   },
+   {
+    "word": "impressiō",
+    "lemma": "impressiō",
+    "meaning": "stamp, impression",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "dēbet",
+    "lemma": "dēbeō",
+    "meaning": "ought",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "esse",
+    "lemma": "sum",
+    "meaning": "to be",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "subtīlis",
+    "lemma": "subtīlis",
+    "meaning": "fine, delicate",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "ad",
+    "lemma": "ad",
+    "meaning": "for",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "effigiendum",
+    "lemma": "effigiō (medieval effigiāre)",
+    "meaning": "copying",
+    "parse": "gerund acc. (= effigiandum)"
+   },
+   {
+    "word": "seu",
+    "lemma": "seu",
+    "meaning": "or",
+    "parse": "conj."
+   },
+   {
+    "word": "contrafaciendum",
+    "lemma": "contrafaciō",
+    "meaning": "forging",
+    "parse": "gerund acc."
+   },
+   {
+    "word": "difficilis",
+    "lemma": "difficilis",
+    "meaning": "difficult",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "gerund",
+   "infinitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "gerund",
+   "infinitive"
+  ],
+  "vocab_ids": [
+   "hic",
+   "autem",
+   "impressio",
+   "debeo",
+   "sum",
+   "subtilis",
+   "et",
+   "ad",
+   "effigio (medieval effigiare)",
+   "seu",
+   "contrafacio",
+   "difficilis"
+  ],
+  "teaching_value": {
+   "note": "Targets gerund, infinitive.",
+   "dcc_core_pct": 67,
+   "non_core": [
+    "impressio",
+    "subtilis",
+    "effigio (medieval effigiare)",
+    "contrafacio"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "medieval",
+  "related_cards": [
+   "q-oresme-quamvis"
+  ],
+  "image": {
+   "src": "img/batch10/oresmespheres.webp",
+   "alt": "Diagram of the heavenly spheres from a manuscript of Oresme's Livre du ciel et du monde",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Nicole Oresme (artist unknown) · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Oresme_Spheres.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Nicole Oresme",
+   "url": "https://en.wikipedia.org/wiki/Nicole_Oresme",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-petrarch-carpsi",
+  "type": "quote",
+  "era": "late_medieval",
+  "unit": 12,
+  "latin": "Vītam ego tuam carpsī, nōn ingenium aut linguam, ut quī illud mīrer, hanc stupeam.",
+  "translation": "It was your life I criticised, not your genius or your tongue, since I admire the one and am amazed by the other.",
+  "context": "In his second letter to Cicero, Petrarch makes clear that he faulted only Cicero's conduct in politics. Ut quī with the subjunctive gives a reason, 'as one who admires'. Mīrer comes from the deponent verb mīror, 'to admire'.",
+  "more": "Petrarch spent his last years in a house at Arquà in the hills near Padua. He died there in 1374, according to legend with his head on a book.",
+  "person": "Petrarch",
+  "source": {
+   "work": "Petrarch, Epistolae familiares",
+   "citation": "24.4",
+   "date": "1345"
+  },
+  "source_url": "https://www.thelatinlibrary.com/petrarch.ep1.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Vītam",
+    "lemma": "vīta",
+    "meaning": "life",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "ego",
+    "lemma": "ego",
+    "meaning": "I",
+    "parse": "nom. sg."
+   },
+   {
+    "word": "tuam",
+    "lemma": "tuus",
+    "meaning": "your",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "carpsī",
+    "lemma": "carpō",
+    "meaning": "I criticised",
+    "parse": "1st sg. perf."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "ingenium",
+    "lemma": "ingenium",
+    "meaning": "genius, talent",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "aut",
+    "lemma": "aut",
+    "meaning": "or",
+    "parse": "conj."
+   },
+   {
+    "word": "linguam",
+    "lemma": "lingua",
+    "meaning": "tongue, eloquence",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "ut",
+    "lemma": "ut",
+    "meaning": "as",
+    "parse": "conj."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "one who",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "illud",
+    "lemma": "ille",
+    "meaning": "the former",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "mīrer",
+    "lemma": "mīror",
+    "meaning": "I admire",
+    "parse": "1st sg. pres. subj. (deponent)"
+   },
+   {
+    "word": "hanc",
+    "lemma": "hic",
+    "meaning": "the latter",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "stupeam",
+    "lemma": "stupeō",
+    "meaning": "I am amazed at",
+    "parse": "1st sg. pres. subj."
+   }
+  ],
+  "grammar_target": [
+   "deponent",
+   "subjunctive",
+   "demonstratives"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "deponent",
+   "subjunctive",
+   "demonstratives"
+  ],
+  "vocab_ids": [
+   "vita",
+   "ego",
+   "tuus",
+   "carpo",
+   "non",
+   "ingenium",
+   "aut",
+   "lingua",
+   "ut",
+   "qui",
+   "ille",
+   "miror",
+   "hic",
+   "stupeo"
+  ],
+  "teaching_value": {
+   "note": "Targets deponent, subjunctive, demonstratives.",
+   "dcc_core_pct": 86,
+   "non_core": [
+    "carpo",
+    "stupeo"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "medieval",
+  "related_cards": [
+   "q-petrarch-vixisti"
+  ],
+  "image": {
+   "src": "img/batch10/arqua.webp",
+   "alt": "Petrarch's house at Arquà, where he spent his last years (drawing by Charles Hamilton Smith)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Charles Hamilton Smith · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Hamilton_Smith_-_Petrarch%5Es_House_at_Arqua_-_B1977.14.7297_-_Yale_Center_for_British_Art.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Petrarch",
+   "url": "https://en.wikipedia.org/wiki/Petrarch",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-xii-legassit",
+  "type": "quote",
+  "era": "republic",
+  "unit": 13,
+  "latin": "Utī lēgāssit super pecūniā tūtēlāve suae reī, ita iūs estō.",
+  "translation": "As a man has bequeathed concerning his money or the guardianship of his property, so shall the law be.",
+  "context": "This law of the Twelve Tables gave a Roman citizen the right to decide by will who would inherit his property. Estō is the future imperative of sum, 'it shall be'. Lēgāssit is an old future-perfect form of lēgō, 'to bequeath'.",
+  "more": "Roman wills were often read aloud and could be long and detailed. English legacy comes from the same verb lēgāre.",
+  "person": "Twelve Tables",
+  "source": {
+   "work": "Lex XII Tabularum",
+   "citation": "5.3",
+   "date": "about 450 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/12tables.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "Preserved in later quotations, for example by Ulpian.",
+  "gloss": [
+   {
+    "word": "Utī",
+    "lemma": "utī",
+    "meaning": "as",
+    "parse": "conj."
+   },
+   {
+    "word": "lēgāssit",
+    "lemma": "lēgō",
+    "meaning": "has bequeathed",
+    "parse": "3rd sg. fut. perf. (archaic)"
+   },
+   {
+    "word": "super",
+    "lemma": "super",
+    "meaning": "concerning",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "pecūniā",
+    "lemma": "pecūnia",
+    "meaning": "money",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "tūtēlāve",
+    "lemma": "tūtēla + -ve",
+    "meaning": "or guardianship",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "suae",
+    "lemma": "suus",
+    "meaning": "his own",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "reī",
+    "lemma": "rēs",
+    "meaning": "of property",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "ita",
+    "lemma": "ita",
+    "meaning": "so",
+    "parse": "adv."
+   },
+   {
+    "word": "iūs",
+    "lemma": "iūs",
+    "meaning": "law, right",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "estō",
+    "lemma": "sum",
+    "meaning": "shall be",
+    "parse": "fut. imperative 3rd sg."
+   }
+  ],
+  "grammar_target": [
+   "future_imperative",
+   "fifth_declension"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "future_imperative",
+   "fifth_declension"
+  ],
+  "vocab_ids": [
+   "uti",
+   "lego",
+   "super",
+   "pecunia",
+   "tutela",
+   "-ve",
+   "suus",
+   "res",
+   "ita",
+   "ius",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets future_imperative, fifth_declension.",
+   "dcc_core_pct": 82,
+   "non_core": [
+    "tutela",
+    "-ve"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-xii-venum"
+  ],
+  "image": {
+   "src": "img/batch10/institutiones.webp",
+   "alt": "A diagram page from a medieval manuscript of Justinian's law books",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "unknown · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Institutiones._-Novellae._-_Constitutiones_feudorum._-_Codex_Justinianus_Libri_X-XII,_cum_glosa._-_btv1b107216554_(001_of_484).jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Twelve Tables",
+   "url": "https://en.wikipedia.org/wiki/Twelve_Tables",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-xii-calvitur",
+  "type": "quote",
+  "era": "republic",
+  "unit": 13,
+  "latin": "Sī calvitur pedemve struit, manum endō iacitō.",
+  "translation": "If he tries to evade or runs off, the plaintiff shall lay hands on him.",
+  "context": "The first of the Twelve Tables deals with summoning someone to court. If the person summoned stalls or tries to slip away, the plaintiff may seize him. Iacitō is a future imperative, and endō is an old form of in.",
+  "more": "Roman trials began with the plaintiff bringing the defendant before the magistrate himself; there were no police to do it. Pedem struere, 'to arrange the foot', probably means to make ready to run.",
+  "person": "Twelve Tables",
+  "source": {
+   "work": "Lex XII Tabularum",
+   "citation": "1.2",
+   "date": "about 450 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/12tables.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Sī",
+    "lemma": "sī",
+    "meaning": "if",
+    "parse": "conj."
+   },
+   {
+    "word": "calvitur",
+    "lemma": "calvor",
+    "meaning": "he tries to evade",
+    "parse": "3rd sg. pres. (deponent)"
+   },
+   {
+    "word": "pedemve",
+    "lemma": "pēs + -ve",
+    "meaning": "or the foot",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "struit",
+    "lemma": "struō",
+    "meaning": "arranges, readies",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "manum",
+    "lemma": "manus",
+    "meaning": "hand",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "endō",
+    "lemma": "in",
+    "meaning": "on",
+    "parse": "prep. (archaic)"
+   },
+   {
+    "word": "iacitō",
+    "lemma": "iaciō",
+    "meaning": "shall throw, lay",
+    "parse": "fut. imperative 3rd sg."
+   }
+  ],
+  "grammar_target": [
+   "future_imperative",
+   "deponent"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "future_imperative",
+   "deponent"
+  ],
+  "vocab_ids": [
+   "si",
+   "calvor",
+   "pes",
+   "-ve",
+   "struo",
+   "manus",
+   "in",
+   "iacio"
+  ],
+  "teaching_value": {
+   "note": "Targets future_imperative, deponent.",
+   "dcc_core_pct": 62,
+   "non_core": [
+    "calvor",
+    "-ve",
+    "struo"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-xii-in-ius"
+  ],
+  "image": {
+   "src": "img/batch10/anaglypha.webp",
+   "alt": "Relief from the Anaglypha Traiani showing an emperor addressing citizens in the Roman Forum",
+   "kind": "artifact",
+   "aspect": "2:1",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Unknown photographer (19th century) · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Anaglypha_Traiani_1.jpg",
+   "modified": "cropped to 2:1, resized"
+  },
+  "learn_more": {
+   "label": "Twelve Tables",
+   "url": "https://en.wikipedia.org/wiki/Twelve_Tables",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cicero-lex-loquens",
+  "type": "quote",
+  "era": "republic",
+  "unit": 13,
+  "latin": "Vērēque dīcī potest, magistrātum esse lēgem loquentem, lēgem autem mūtum magistrātum.",
+  "translation": "It can truly be said that a magistrate is a speaking law, and a law a silent magistrate.",
+  "context": "In On the Laws, Cicero explains that magistrates rule the people just as the laws rule the magistrates. The officer gives voice to the law, and the law is an officer who cannot speak. Magistrātum esse is an indirect statement after dīcī potest.",
+  "more": "Medieval and modern writers on kingship often quoted this pair of phrases. Lēx loquēns became a stock title for a just ruler.",
+  "person": "Cicero",
+  "source": {
+   "work": "Cicero, De legibus",
+   "citation": "3.2",
+   "date": "about 52 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/cicero/leg3.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Vērēque",
+    "lemma": "vērē + -que",
+    "meaning": "and truly",
+    "parse": "adv."
+   },
+   {
+    "word": "dīcī",
+    "lemma": "dīcō",
+    "meaning": "to be said",
+    "parse": "pres. pass. inf."
+   },
+   {
+    "word": "potest",
+    "lemma": "possum",
+    "meaning": "it can",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "magistrātum",
+    "lemma": "magistrātus",
+    "meaning": "magistrate",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "esse",
+    "lemma": "sum",
+    "meaning": "to be",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "lēgem",
+    "lemma": "lēx",
+    "meaning": "law",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "loquentem",
+    "lemma": "loquor",
+    "meaning": "speaking",
+    "parse": "pres. part. acc. sg. f. (deponent)"
+   },
+   {
+    "word": "lēgem",
+    "lemma": "lēx",
+    "meaning": "law",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "autem",
+    "lemma": "autem",
+    "meaning": "and, but",
+    "parse": "conj."
+   },
+   {
+    "word": "mūtum",
+    "lemma": "mūtus",
+    "meaning": "silent",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "magistrātum",
+    "lemma": "magistrātus",
+    "meaning": "magistrate",
+    "parse": "acc. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "indirect_statement",
+   "passive_voice",
+   "present_participle"
+  ],
+  "grammar_preview": [
+   "deponent"
+  ],
+  "grammar_tags": [
+   "indirect_statement",
+   "passive_voice",
+   "present_participle",
+   "deponent"
+  ],
+  "vocab_ids": [
+   "vere",
+   "dico",
+   "possum",
+   "magistratus",
+   "sum",
+   "lex",
+   "loquor",
+   "autem",
+   "mutus"
+  ],
+  "teaching_value": {
+   "note": "Targets indirect_statement, passive_voice, present_participle; previews deponent.",
+   "dcc_core_pct": 78,
+   "non_core": [
+    "magistratus",
+    "mutus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-cicero-sunto"
+  ],
+  "image": {
+   "src": "img/batch10/despuig.webp",
+   "alt": "Marble bust of Cicero (Despuig collection, Mallorca)",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Ciceró (Col·lecció Despuig)” by Joan Gené, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cicer%C3%B3_(Col%C2%B7lecci%C3%B3_Despuig).jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "De Legibus",
+   "url": "https://en.wikipedia.org/wiki/De_Legibus",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-cicero-paruerit",
+  "type": "quote",
+  "era": "republic",
+  "unit": 13,
+  "latin": "Nam et quī bene imperat, pāruerit aliquandō necesse est.",
+  "translation": "For the man who commands well must at some time have obeyed.",
+  "context": "Cicero argues in On the Laws that a state needs rules for how citizens obey as well as how officials command. Good leaders learn by first serving under others. Necesse est is an impersonal expression, and pāruerit is a perfect subjunctive depending on it.",
+  "more": "Cicero adds that whoever obeys modestly seems worthy to command one day. Roman officials served one-year terms and then went back to being private citizens.",
+  "person": "Cicero",
+  "source": {
+   "work": "Cicero, De legibus",
+   "citation": "3.5",
+   "date": "about 52 BC"
+  },
+  "source_url": "https://www.thelatinlibrary.com/cicero/leg3.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Nam",
+    "lemma": "nam",
+    "meaning": "for",
+    "parse": "conj."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "also, even",
+    "parse": "adv."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "(he) who",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "bene",
+    "lemma": "bene",
+    "meaning": "well",
+    "parse": "adv."
+   },
+   {
+    "word": "imperat",
+    "lemma": "imperō",
+    "meaning": "commands",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "pāruerit",
+    "lemma": "pāreō",
+    "meaning": "has obeyed",
+    "parse": "3rd sg. perf. subj."
+   },
+   {
+    "word": "aliquandō",
+    "lemma": "aliquandō",
+    "meaning": "at some time",
+    "parse": "adv."
+   },
+   {
+    "word": "necesse",
+    "lemma": "necesse",
+    "meaning": "necessary",
+    "parse": "indecl. adj."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "it is",
+    "parse": "3rd sg. pres. (impersonal)"
+   }
+  ],
+  "grammar_target": [
+   "impersonal_verb",
+   "subjunctive",
+   "relative_clause"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "impersonal_verb",
+   "subjunctive",
+   "relative_clause"
+  ],
+  "vocab_ids": [
+   "nam",
+   "et",
+   "qui",
+   "bene",
+   "impero",
+   "pareo",
+   "aliquando",
+   "necesse",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets impersonal_verb, subjunctive, relative_clause.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-cicero-lex-loquens"
+  ],
+  "image": {
+   "src": "img/batch10/sailkocicero.webp",
+   "alt": "Roman marble bust traditionally identified as Cicero (Uffizi, Florence)",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY 3.0",
+   "credit": "“Arte romana, Busto del cosiddetto Cicerone, 30 ac-20 dc ca” by Sailko, CC BY 3.0 (https://creativecommons.org/licenses/by/3.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Arte_romana,_Busto_del_cosiddetto_Cicerone,_30_ac-20_dc_ca.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "learn_more": {
+   "label": "De Legibus",
+   "url": "https://en.wikipedia.org/wiki/De_Legibus",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-dig-definitio",
+  "type": "quote",
+  "era": "empire",
+  "unit": 13,
+  "latin": "Omnis dēfīnītiō in iūre cīvīlī perīculōsa est: parum est enim, ut nōn subvertī posset.",
+  "translation": "Every definition in civil law is dangerous: for there is little that could not be overturned.",
+  "context": "The jurist Javolenus, writing around AD 100, warned against rigid definitions in law, because real cases always find exceptions. Justinian's lawyers placed his remark among the general rules at the end of the Digest. Subvertī is a present passive infinitive, 'to be overturned'.",
+  "more": "Lawyers still quote the first half of the sentence. Javolenus was head of one of the two Roman law schools, the Sabinians.",
+  "person": "Javolenus (Digest)",
+  "source": {
+   "work": "Digesta Iustiniani",
+   "citation": "50.17.202",
+   "date": "about AD 100 (Digest 533)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/justinian/digest50.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Omnis",
+    "lemma": "omnis",
+    "meaning": "every",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "dēfīnītiō",
+    "lemma": "dēfīnītiō",
+    "meaning": "definition",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "in",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "iūre",
+    "lemma": "iūs",
+    "meaning": "law",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "cīvīlī",
+    "lemma": "cīvīlis",
+    "meaning": "civil",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "perīculōsa",
+    "lemma": "perīculōsus",
+    "meaning": "dangerous",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "parum",
+    "lemma": "parum",
+    "meaning": "little, too little",
+    "parse": "adv."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "it is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "enim",
+    "lemma": "enim",
+    "meaning": "for",
+    "parse": "conj."
+   },
+   {
+    "word": "ut",
+    "lemma": "ut",
+    "meaning": "that",
+    "parse": "conj."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "subvertī",
+    "lemma": "subvertō",
+    "meaning": "to be overturned",
+    "parse": "pres. pass. inf."
+   },
+   {
+    "word": "posset",
+    "lemma": "possum",
+    "meaning": "could",
+    "parse": "3rd sg. impf. subj."
+   }
+  ],
+  "grammar_target": [
+   "subjunctive",
+   "passive_voice",
+   "third_declension"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "subjunctive",
+   "passive_voice",
+   "third_declension"
+  ],
+  "vocab_ids": [
+   "omnis",
+   "definitio",
+   "in",
+   "ius",
+   "civilis",
+   "periculosus",
+   "sum",
+   "parum",
+   "enim",
+   "ut",
+   "non",
+   "subverto",
+   "possum"
+  ],
+  "teaching_value": {
+   "note": "Targets subjunctive, passive_voice, third_declension.",
+   "dcc_core_pct": 69,
+   "non_core": [
+    "definitio",
+    "civilis",
+    "periculosus",
+    "subverto"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-dig-licet"
+  ],
+  "image": {
+   "src": "img/batch10/ulpianbeic.webp",
+   "alt": "A 13th-century manuscript of Roman law with commentary around the text",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Unknown illuminator · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ulpianus,_Domitius_%E2%80%93_De_edendo,_13th-century_%E2%80%93_BEIC_12606098.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Digest (Roman law)",
+   "url": "https://en.wikipedia.org/wiki/Digest_(Roman_law)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-dig-locupletiorem",
+  "type": "quote",
+  "era": "empire",
+  "unit": 13,
+  "latin": "Iūre nātūrae aequum est nēminem cum alterius dētrīmentō et iniūriā fierī locuplētiōrem.",
+  "translation": "By the law of nature it is fair that no one should become richer through another person’s loss and injury.",
+  "context": "The jurist Pomponius states the principle behind what lawyers now call unjust enrichment. If you gain at someone else's expense without a legal reason, you must give it back. Aequum est is an impersonal expression, and locuplētiōrem is a comparative, 'richer'.",
+  "more": "Modern legal systems still build on this rule, from Germany to Scotland. Pomponius wrote in the 2nd century AD, and his works survive almost entirely through quotations in the Digest.",
+  "person": "Pomponius (Digest)",
+  "source": {
+   "work": "Digesta Iustiniani",
+   "citation": "50.17.206",
+   "date": "2nd century AD (Digest 533)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/justinian/digest50.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Iūre",
+    "lemma": "iūs",
+    "meaning": "by law",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "nātūrae",
+    "lemma": "nātūra",
+    "meaning": "of nature",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "aequum",
+    "lemma": "aequus",
+    "meaning": "fair",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "it is",
+    "parse": "3rd sg. pres. (impersonal)"
+   },
+   {
+    "word": "nēminem",
+    "lemma": "nēmō",
+    "meaning": "no one",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "cum",
+    "lemma": "cum",
+    "meaning": "with, through",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "alterius",
+    "lemma": "alter",
+    "meaning": "of another",
+    "parse": "gen. sg."
+   },
+   {
+    "word": "dētrīmentō",
+    "lemma": "dētrīmentum",
+    "meaning": "loss",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "iniūriā",
+    "lemma": "iniūria",
+    "meaning": "injury",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "fierī",
+    "lemma": "fīō",
+    "meaning": "to become",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "locuplētiōrem",
+    "lemma": "locuplēs",
+    "meaning": "richer",
+    "parse": "comp. acc. sg. m."
+   }
+  ],
+  "grammar_target": [
+   "impersonal_verb",
+   "comparative",
+   "indirect_statement"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "impersonal_verb",
+   "comparative",
+   "indirect_statement"
+  ],
+  "vocab_ids": [
+   "ius",
+   "natura",
+   "aequus",
+   "sum",
+   "nemo",
+   "cum",
+   "alter",
+   "detrimentum",
+   "et",
+   "iniuria",
+   "fio",
+   "locuples"
+  ],
+  "teaching_value": {
+   "note": "Targets impersonal_verb, comparative, indirect_statement.",
+   "dcc_core_pct": 83,
+   "non_core": [
+    "detrimentum",
+    "locuples"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-dig-nemo-plus"
+  ],
+  "image": {
+   "src": "img/batch10/papinian.webp",
+   "alt": "Statue of the Roman jurist Papinian, Supreme Court building, Madrid",
+   "kind": "artifact",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC BY-SA 3.0",
+   "credit": "“Estatua de Papiniano-Tribunal Supremo (Madrid)” by Basilio, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons; modified: cropped to 3:4, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Estatua_de_Papiniano-Tribunal_Supremo_(Madrid).jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "learn_more": {
+   "label": "Unjust enrichment",
+   "url": "https://en.wikipedia.org/wiki/Unjust_enrichment",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-dig-res-iudicata",
+  "type": "quote",
+  "era": "empire",
+  "unit": 13,
+  "latin": "Rēs iūdicāta prō vēritāte accipitur.",
+  "translation": "A matter that has been judged is accepted as the truth.",
+  "context": "Ulpian states the rule that a final judgement settles a case for good. Once a court has decided, the same dispute cannot be brought again. Accipitur is a present passive, and iūdicāta is a perfect passive participle, 'judged'.",
+  "more": "Lawyers today still speak of rēs iūdicāta in many countries. The rule protects people from being sued over and over for the same thing.",
+  "person": "Ulpian (Digest)",
+  "source": {
+   "work": "Digesta Iustiniani",
+   "citation": "50.17.207",
+   "date": "early 3rd century AD (Digest 533)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/justinian/digest50.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Rēs",
+    "lemma": "rēs",
+    "meaning": "matter, case",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "iūdicāta",
+    "lemma": "iūdicō",
+    "meaning": "judged",
+    "parse": "perf. pass. part. nom. sg. f."
+   },
+   {
+    "word": "prō",
+    "lemma": "prō",
+    "meaning": "as, for",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "vēritāte",
+    "lemma": "vēritās",
+    "meaning": "truth",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "accipitur",
+    "lemma": "accipiō",
+    "meaning": "is accepted",
+    "parse": "3rd sg. pres. pass."
+   }
+  ],
+  "grammar_target": [
+   "passive_voice",
+   "participle",
+   "fifth_declension"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "passive_voice",
+   "participle",
+   "fifth_declension"
+  ],
+  "vocab_ids": [
+   "res",
+   "iudico",
+   "pro",
+   "veritas",
+   "accipio"
+  ],
+  "teaching_value": {
+   "note": "Targets passive_voice, participle, fifth_declension.",
+   "dcc_core_pct": 80,
+   "non_core": [
+    "veritas"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-dig-placuit"
+  ],
+  "image": {
+   "src": "img/batch10/tabularium.webp",
+   "alt": "The Tabularium, the Roman state record office, above the Roman Forum",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 3.0",
+   "credit": "“Rome Forum Romanum Tabularium” by Rita1234, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Rome_Forum_Romanum_Tabularium.JPG",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "learn_more": {
+   "label": "Res judicata",
+   "url": "https://en.wikipedia.org/wiki/Res_judicata",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-dig-desisse",
+  "type": "quote",
+  "era": "empire",
+  "unit": 13,
+  "latin": "Nōn potest vidērī dēsīsse habēre, quī numquam habuit.",
+  "translation": "A man who never had something cannot be considered to have stopped having it.",
+  "context": "The jurist Paul states a point of logic that matters in cases about property and inheritance. Losing something presupposes that you once had it. Dēsīsse is a shortened perfect infinitive of dēsinō, 'to have stopped'.",
+  "more": "Medieval commentators such as Bartolus of Sassoferrato wrote long explanations of rules like this. Paul wrote in the early 3rd century AD.",
+  "person": "Paul (Digest)",
+  "source": {
+   "work": "Digesta Iustiniani",
+   "citation": "50.17.208",
+   "date": "early 3rd century AD (Digest 533)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/justinian/digest50.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "potest",
+    "lemma": "possum",
+    "meaning": "can",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "vidērī",
+    "lemma": "videō",
+    "meaning": "to seem, be considered",
+    "parse": "pres. pass. inf."
+   },
+   {
+    "word": "dēsīsse",
+    "lemma": "dēsinō",
+    "meaning": "to have stopped",
+    "parse": "perf. inf. (= dēsiisse)"
+   },
+   {
+    "word": "habēre",
+    "lemma": "habeō",
+    "meaning": "having",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "(he) who",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "numquam",
+    "lemma": "numquam",
+    "meaning": "never",
+    "parse": "adv."
+   },
+   {
+    "word": "habuit",
+    "lemma": "habeō",
+    "meaning": "had",
+    "parse": "3rd sg. perf."
+   }
+  ],
+  "grammar_target": [
+   "perfect_infinitive",
+   "possum_infinitive",
+   "relative_clause"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "perfect_infinitive",
+   "possum_infinitive",
+   "relative_clause"
+  ],
+  "vocab_ids": [
+   "non",
+   "possum",
+   "video",
+   "desino",
+   "habeo",
+   "qui",
+   "numquam"
+  ],
+  "teaching_value": {
+   "note": "Targets perfect_infinitive, possum_infinitive, relative_clause.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-dig-res-iudicata"
+  ],
+  "image": {
+   "src": "img/batch10/bartolus.webp",
+   "alt": "Portrait of Bartolus of Sassoferrato, the great 14th-century commentator on Roman law",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Unknown author · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bartolo_da_Sassoferrato.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Bartolus de Saxoferrato",
+   "url": "https://en.wikipedia.org/wiki/Bartolus_de_Saxoferrato",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-dig-culpa",
+  "type": "quote",
+  "era": "empire",
+  "unit": 13,
+  "latin": "Quod quis ex culpā suā damnum sentit, nōn intellegitur damnum sentīre.",
+  "translation": "Harm that someone suffers through his own fault is not considered to be harm suffered.",
+  "context": "Pomponius sets out the rule that you cannot claim damages for a loss you caused yourself. Intellegitur, 'is understood, is considered', is a present passive used like an impersonal. Quod … sentit is a relative clause, 'the harm which someone suffers'.",
+  "more": "Modern law still reduces damages when the victim was partly to blame. Roman civil cases like this were heard in halls such as the Basilica Julia in the Forum.",
+  "person": "Pomponius (Digest)",
+  "source": {
+   "work": "Digesta Iustiniani",
+   "citation": "50.17.203",
+   "date": "2nd century AD (Digest 533)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/justinian/digest50.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Quod",
+    "lemma": "quī",
+    "meaning": "(the harm) which",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "quis",
+    "lemma": "quis",
+    "meaning": "someone",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "ex",
+    "lemma": "ex",
+    "meaning": "from, through",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "culpā",
+    "lemma": "culpa",
+    "meaning": "fault",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "suā",
+    "lemma": "suus",
+    "meaning": "his own",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "damnum",
+    "lemma": "damnum",
+    "meaning": "harm, loss",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "sentit",
+    "lemma": "sentiō",
+    "meaning": "suffers, feels",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "intellegitur",
+    "lemma": "intellegō",
+    "meaning": "is understood",
+    "parse": "3rd sg. pres. pass."
+   },
+   {
+    "word": "damnum",
+    "lemma": "damnum",
+    "meaning": "harm",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "sentīre",
+    "lemma": "sentiō",
+    "meaning": "to suffer",
+    "parse": "pres. inf."
+   }
+  ],
+  "grammar_target": [
+   "relative_clause",
+   "passive_voice",
+   "infinitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "relative_clause",
+   "passive_voice",
+   "infinitive"
+  ],
+  "vocab_ids": [
+   "qui",
+   "quis",
+   "ex",
+   "culpa",
+   "suus",
+   "damnum",
+   "sentio",
+   "non",
+   "intellego"
+  ],
+  "teaching_value": {
+   "note": "Targets relative_clause, passive_voice, infinitive.",
+   "dcc_core_pct": 100,
+   "non_core": [],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-dig-locupletiorem"
+  ],
+  "image": {
+   "src": "img/batch10/basilicajulia.webp",
+   "alt": "Remains of the Basilica Julia, where Roman civil cases were heard, in the Roman Forum",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY-SA 4.0",
+   "credit": "“Roman Forum Basilica Julia” by Nicholas Hartmann, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Forum_Basilica_Julia.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "learn_more": {
+   "label": "Contributory negligence",
+   "url": "https://en.wikipedia.org/wiki/Contributory_negligence",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-newton-hypotheses",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Ratiōnem vērō hārum gravitātis proprietātum ex phaenomenīs nōndum potuī dēdūcere, et hypothesēs nōn fingō.",
+  "translation": "But I have not yet been able to deduce the cause of these properties of gravity from the phenomena, and I do not invent hypotheses.",
+  "context": "Newton added this to the General Scholium of the second edition of his Principia in 1713. His law of gravity predicted the motions of the planets, but he refused to guess what gravity itself was. Potuī dēdūcere is possum with an infinitive, 'I have been able to deduce'.",
+  "more": "Critics such as Leibniz complained that gravity acting at a distance sounded like magic. Newton's phrase became a motto for science that sticks to what can be shown.",
+  "person": "Isaac Newton",
+  "source": {
+   "work": "Newton, Principia, Scholium generale",
+   "citation": "—",
+   "date": "1713 (text of 1726)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/newton.scholium.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Ratiōnem",
+    "lemma": "ratiō",
+    "meaning": "reason, cause",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "vērō",
+    "lemma": "vērō",
+    "meaning": "but",
+    "parse": "adv."
+   },
+   {
+    "word": "hārum",
+    "lemma": "hic",
+    "meaning": "of these",
+    "parse": "gen. pl. f."
+   },
+   {
+    "word": "gravitātis",
+    "lemma": "gravitās",
+    "meaning": "of gravity",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "proprietātum",
+    "lemma": "proprietās",
+    "meaning": "of properties",
+    "parse": "gen. pl. f."
+   },
+   {
+    "word": "ex",
+    "lemma": "ex",
+    "meaning": "from",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "phaenomenīs",
+    "lemma": "phaenomenon",
+    "meaning": "phenomena",
+    "parse": "abl. pl. n."
+   },
+   {
+    "word": "nōndum",
+    "lemma": "nōndum",
+    "meaning": "not yet",
+    "parse": "adv."
+   },
+   {
+    "word": "potuī",
+    "lemma": "possum",
+    "meaning": "I have been able",
+    "parse": "1st sg. perf."
+   },
+   {
+    "word": "dēdūcere",
+    "lemma": "dēdūcō",
+    "meaning": "to deduce",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "hypothesēs",
+    "lemma": "hypothesis",
+    "meaning": "hypotheses",
+    "parse": "acc. pl. f."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "fingō",
+    "lemma": "fingō",
+    "meaning": "I invent",
+    "parse": "1st sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "possum_infinitive",
+   "genitive",
+   "perfect_tense"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "possum_infinitive",
+   "genitive",
+   "perfect_tense"
+  ],
+  "vocab_ids": [
+   "ratio",
+   "vero",
+   "hic",
+   "gravitas",
+   "proprietas",
+   "ex",
+   "phaenomenon",
+   "nondum",
+   "possum",
+   "deduco",
+   "et",
+   "hypothesis",
+   "non",
+   "fingo"
+  ],
+  "teaching_value": {
+   "note": "Targets possum_infinitive, genitive, perfect_tense.",
+   "dcc_core_pct": 71,
+   "non_core": [
+    "gravitas",
+    "proprietas",
+    "phaenomenon",
+    "hypothesis"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch10/kneller.webp",
+   "alt": "Godfrey Kneller, portrait of Isaac Newton (1689)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Godfrey Kneller · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "General Scholium",
+   "url": "https://en.wikipedia.org/wiki/General_Scholium",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-newton-regula1",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Causās rērum nātūrālium nōn plūrēs admittī dēbēre, quam quae et vērae sint et eārum phaenomenīs explicandīs sufficiant.",
+  "translation": "That no more causes of natural things should be admitted than are both true and sufficient to explain their phenomena.",
+  "context": "This is the first of Newton's Rules of Reasoning in Philosophy, set out in book 3 of the Principia. It is a version of the principle of economy: do not multiply causes beyond need. Phaenomenīs explicandīs is a gerundive in the dative, 'for explaining the phenomena', and plūrēs … quam is a comparison.",
+  "more": "Newton backs the rule with a saying of philosophers: nature does nothing in vain. The same idea is often called Ockham's razor.",
+  "person": "Isaac Newton",
+  "source": {
+   "work": "Newton, Principia, Regulae philosophandi",
+   "citation": "rule 1",
+   "date": "1687 (text of 1726)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/newton.regulae.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "The rule is stated as an indirect statement, with an understood verb such as “we must hold”.",
+  "gloss": [
+   {
+    "word": "Causās",
+    "lemma": "causa",
+    "meaning": "causes",
+    "parse": "acc. pl. f."
+   },
+   {
+    "word": "rērum",
+    "lemma": "rēs",
+    "meaning": "of things",
+    "parse": "gen. pl. f."
+   },
+   {
+    "word": "nātūrālium",
+    "lemma": "nātūrālis",
+    "meaning": "natural",
+    "parse": "gen. pl. f."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "plūrēs",
+    "lemma": "multus",
+    "meaning": "more",
+    "parse": "comp. acc. pl. f."
+   },
+   {
+    "word": "admittī",
+    "lemma": "admittō",
+    "meaning": "to be admitted",
+    "parse": "pres. pass. inf."
+   },
+   {
+    "word": "dēbēre",
+    "lemma": "dēbeō",
+    "meaning": "ought",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "quam",
+    "lemma": "quam",
+    "meaning": "than",
+    "parse": "conj."
+   },
+   {
+    "word": "quae",
+    "lemma": "quī",
+    "meaning": "which",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "both",
+    "parse": "conj."
+   },
+   {
+    "word": "vērae",
+    "lemma": "vērus",
+    "meaning": "true",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "sint",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres. subj."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "eārum",
+    "lemma": "is",
+    "meaning": "their",
+    "parse": "gen. pl. f."
+   },
+   {
+    "word": "phaenomenīs",
+    "lemma": "phaenomenon",
+    "meaning": "phenomena",
+    "parse": "dat. pl. n."
+   },
+   {
+    "word": "explicandīs",
+    "lemma": "explicō",
+    "meaning": "to be explained",
+    "parse": "gerundive dat. pl. n."
+   },
+   {
+    "word": "sufficiant",
+    "lemma": "sufficiō",
+    "meaning": "suffice",
+    "parse": "3rd pl. pres. subj."
+   }
+  ],
+  "grammar_target": [
+   "gerundive",
+   "comparative",
+   "indirect_statement"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "gerundive",
+   "comparative",
+   "indirect_statement"
+  ],
+  "vocab_ids": [
+   "causa",
+   "res",
+   "naturalis",
+   "non",
+   "multus",
+   "admitto",
+   "debeo",
+   "quam",
+   "qui",
+   "et",
+   "verus",
+   "sum",
+   "is",
+   "phaenomenon",
+   "explico",
+   "sufficio"
+  ],
+  "teaching_value": {
+   "note": "Targets gerundive, comparative, indirect_statement.",
+   "dcc_core_pct": 69,
+   "non_core": [
+    "naturalis",
+    "admitto",
+    "phaenomenon",
+    "explico",
+    "sufficio"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-newton-hypotheses"
+  ],
+  "image": {
+   "src": "img/batch10/principia.webp",
+   "alt": "Newton's Principia (1687), the presentation copy for King James II",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Joseph Streater · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Newton%27s_Philosophiae_Naturalis_Principia_Mathematica_1687_(presentation_copy_to_James_II).jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Occam's razor",
+   "url": "https://en.wikipedia.org/wiki/Occam's_razor",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-newton-lex3",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Āctiōnī contrāriam semper et aequālem esse reāctiōnem.",
+  "translation": "To every action there is always an opposite and equal reaction.",
+  "context": "This is the third of Newton's laws of motion as he stated it in the Principia. When one body pushes on another, the second pushes back just as hard. Like the other laws, it is written as an indirect statement, so reāctiōnem is the accusative subject of esse, and āctiōnī is dative after contrāriam.",
+  "more": "The law explains how rockets work: gas is pushed backwards, and the rocket is pushed forwards. Newton published the Principia in 1687.",
+  "person": "Isaac Newton",
+  "source": {
+   "work": "Newton, Principia, Leges motus",
+   "citation": "law 3",
+   "date": "1687 (text of 1726)"
+  },
+  "source_url": "https://www.thelatinlibrary.com/newton.leges.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "The law continues sive corporum duorum actiones in se mutuo semper esse aequales et in partes contrarias dirigi.",
+  "gloss": [
+   {
+    "word": "Āctiōnī",
+    "lemma": "āctiō",
+    "meaning": "to action",
+    "parse": "dat. sg. f."
+   },
+   {
+    "word": "contrāriam",
+    "lemma": "contrārius",
+    "meaning": "opposite",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "semper",
+    "lemma": "semper",
+    "meaning": "always",
+    "parse": "adv."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "aequālem",
+    "lemma": "aequālis",
+    "meaning": "equal",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "esse",
+    "lemma": "sum",
+    "meaning": "to be",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "reāctiōnem",
+    "lemma": "reāctiō",
+    "meaning": "reaction",
+    "parse": "acc. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "indirect_statement",
+   "dative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "indirect_statement",
+   "dative"
+  ],
+  "vocab_ids": [
+   "actio",
+   "contrarius",
+   "semper",
+   "et",
+   "aequalis",
+   "sum",
+   "reactio"
+  ],
+  "teaching_value": {
+   "note": "Targets indirect_statement, dative.",
+   "dcc_core_pct": 43,
+   "non_core": [
+    "actio",
+    "contrarius",
+    "aequalis",
+    "reactio"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-newton-lex1"
+  ],
+  "image": {
+   "src": "img/batch10/thornhill.webp",
+   "alt": "Portrait of Isaac Newton by James Thornhill, after Kneller",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "James Thornhill, after Godfrey Kneller · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Isaac_Newton_by_James_Thronill,_after_Sir_Godfrey_Kneller.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Newton's laws of motion",
+   "url": "https://en.wikipedia.org/wiki/Newton's_laws_of_motion",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-descartes-archimedes",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Nihil nisi pūnctum petēbat Archimēdēs, quod esset fīrmum et immōbile, ut integram terram locō dīmovēret.",
+  "translation": "Archimedes asked for nothing but one point that was firm and immovable, so that he could shift the whole earth from its place.",
+  "context": "In his second Meditation of 1641, Descartes looks for one certain truth on which to rebuild all knowledge. He compares himself to Archimedes, who said that with a fixed point to stand on he could move the earth with a lever. Esset is a subjunctive in a relative clause, and ut … dīmovēret is a purpose clause.",
+  "more": "Soon after this passage Descartes finds his fixed point: ego sum, ego existō. The Meditations were written in Latin for a learned audience across Europe.",
+  "person": "René Descartes",
+  "source": {
+   "work": "Descartes, Meditationes de prima philosophia",
+   "citation": "2.1",
+   "date": "1641"
+  },
+  "source_url": "https://www.thelatinlibrary.com/descartes/des.med2.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "The source prints & for et.",
+  "gloss": [
+   {
+    "word": "Nihil",
+    "lemma": "nihil",
+    "meaning": "nothing",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "nisi",
+    "lemma": "nisi",
+    "meaning": "except",
+    "parse": "conj."
+   },
+   {
+    "word": "pūnctum",
+    "lemma": "pūnctum",
+    "meaning": "point",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "petēbat",
+    "lemma": "petō",
+    "meaning": "asked for",
+    "parse": "3rd sg. impf."
+   },
+   {
+    "word": "Archimēdēs",
+    "lemma": "Archimēdēs",
+    "meaning": "Archimedes",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "quod",
+    "lemma": "quī",
+    "meaning": "which",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "esset",
+    "lemma": "sum",
+    "meaning": "would be",
+    "parse": "3rd sg. impf. subj."
+   },
+   {
+    "word": "fīrmum",
+    "lemma": "fīrmus",
+    "meaning": "firm",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "immōbile",
+    "lemma": "immōbilis",
+    "meaning": "immovable",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "ut",
+    "lemma": "ut",
+    "meaning": "so that",
+    "parse": "conj."
+   },
+   {
+    "word": "integram",
+    "lemma": "integer",
+    "meaning": "whole",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "terram",
+    "lemma": "terra",
+    "meaning": "earth",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "locō",
+    "lemma": "locus",
+    "meaning": "from its place",
+    "parse": "abl. sg. m."
+   },
+   {
+    "word": "dīmovēret",
+    "lemma": "dīmoveō",
+    "meaning": "he could shift",
+    "parse": "3rd sg. impf. subj."
+   }
+  ],
+  "grammar_target": [
+   "subjunctive",
+   "relative_clause",
+   "imperfect"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "subjunctive",
+   "relative_clause",
+   "imperfect"
+  ],
+  "vocab_ids": [
+   "nihil",
+   "nisi",
+   "punctum",
+   "peto",
+   "qui",
+   "sum",
+   "firmus",
+   "et",
+   "immobilis",
+   "ut",
+   "integer",
+   "terra",
+   "locus",
+   "dimoveo"
+  ],
+  "teaching_value": {
+   "note": "Targets subjunctive, relative_clause, imperfect.",
+   "dcc_core_pct": 71,
+   "non_core": [
+    "punctum",
+    "firmus",
+    "immobilis",
+    "dimoveo"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-descartes-existo"
+  ],
+  "image": {
+   "src": "img/batch10/halscopy.webp",
+   "alt": "Portrait of René Descartes, after Frans Hals",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "After Frans Hals · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Meditations on First Philosophy",
+   "url": "https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-descartes-animadverti",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Animadvertī iam ante aliquot annōs quam multa, ineunte aetāte, falsa prō vērīs admīserim.",
+  "translation": "Some years ago now I noticed how many false things I had accepted as true in my early youth.",
+  "context": "These are the first words of Descartes' Meditations: he resolves to doubt everything he once believed and start again from the foundations. Quam multa … admīserim is an indirect question with the subjunctive. Ineunte aetāte, 'with life beginning', is an ablative absolute.",
+  "more": "Descartes published the Meditations in Paris in 1641 with objections from other thinkers and his replies. The French translation appeared in 1647.",
+  "person": "René Descartes",
+  "source": {
+   "work": "Descartes, Meditationes de prima philosophia",
+   "citation": "1.1",
+   "date": "1641"
+  },
+  "source_url": "https://www.thelatinlibrary.com/descartes/des.med1.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Animadvertī",
+    "lemma": "animadvertō",
+    "meaning": "I noticed",
+    "parse": "1st sg. perf."
+   },
+   {
+    "word": "iam",
+    "lemma": "iam",
+    "meaning": "now",
+    "parse": "adv."
+   },
+   {
+    "word": "ante",
+    "lemma": "ante",
+    "meaning": "ago, before",
+    "parse": "adv."
+   },
+   {
+    "word": "aliquot",
+    "lemma": "aliquot",
+    "meaning": "some",
+    "parse": "indecl."
+   },
+   {
+    "word": "annōs",
+    "lemma": "annus",
+    "meaning": "years",
+    "parse": "acc. pl. m."
+   },
+   {
+    "word": "quam",
+    "lemma": "quam",
+    "meaning": "how",
+    "parse": "adv."
+   },
+   {
+    "word": "multa",
+    "lemma": "multus",
+    "meaning": "many things",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "ineunte",
+    "lemma": "ineō",
+    "meaning": "beginning",
+    "parse": "pres. part. abl. sg. f."
+   },
+   {
+    "word": "aetāte",
+    "lemma": "aetās",
+    "meaning": "life, age",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "falsa",
+    "lemma": "falsus",
+    "meaning": "false",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "prō",
+    "lemma": "prō",
+    "meaning": "as, for",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "vērīs",
+    "lemma": "vērus",
+    "meaning": "true things",
+    "parse": "abl. pl. n."
+   },
+   {
+    "word": "admīserim",
+    "lemma": "admittō",
+    "meaning": "I had accepted",
+    "parse": "1st sg. perf. subj."
+   }
+  ],
+  "grammar_target": [
+   "indirect_question",
+   "ablative_absolute",
+   "neuter_plural"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "indirect_question",
+   "ablative_absolute",
+   "neuter_plural"
+  ],
+  "vocab_ids": [
+   "animadverto",
+   "iam",
+   "ante",
+   "aliquot",
+   "annus",
+   "quam",
+   "multus",
+   "ineo",
+   "aetas",
+   "falsus",
+   "pro",
+   "verus",
+   "admitto"
+  ],
+  "teaching_value": {
+   "note": "Targets indirect_question, ablative_absolute, neuter_plural.",
+   "dcc_core_pct": 69,
+   "non_core": [
+    "animadverto",
+    "aliquot",
+    "ineo",
+    "admitto"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-descartes-archimedes"
+  ],
+  "image": {
+   "src": "img/batch10/meditationes.webp",
+   "alt": "Title page of Descartes' Meditationes de prima philosophia (1641)",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Bibliothèque Nationale de France · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Meditationes_de_prima_philosophia_1641.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Meditations on First Philosophy",
+   "url": "https://en.wikipedia.org/wiki/Meditations_on_First_Philosophy",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-spinoza-homo-liber",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Homō līber dē nūllā rē minus quam dē morte cōgitat, et ēius sapientia nōn mortis sed vītae meditātiō est.",
+  "translation": "A free man thinks of nothing less than of death, and his wisdom is a meditation not on death but on life.",
+  "context": "In part 4 of his Ethics, Spinoza describes the free man, who lives by reason and not by fear. Such a person aims at good directly instead of fleeing evil, so he does not dwell on death. Minus quam, 'less than', is a comparison.",
+  "more": "Spinoza lived from 1661 to 1663 in Rijnsburg near Leiden, where his small house is now a museum. He died in 1677 at the age of 44.",
+  "person": "Baruch Spinoza",
+  "source": {
+   "work": "Spinoza, Ethica",
+   "citation": "4.67",
+   "date": "1677"
+  },
+  "source_url": "https://www.thelatinlibrary.com/spinoza.ethica4.html",
+  "attribution_confidence": "verified",
+  "attribution_note": "The source spells ejus.",
+  "gloss": [
+   {
+    "word": "Homō",
+    "lemma": "homō",
+    "meaning": "man",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "līber",
+    "lemma": "līber",
+    "meaning": "free",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "dē",
+    "lemma": "dē",
+    "meaning": "about",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "nūllā",
+    "lemma": "nūllus",
+    "meaning": "no",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "rē",
+    "lemma": "rēs",
+    "meaning": "thing",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "minus",
+    "lemma": "parum",
+    "meaning": "less",
+    "parse": "comp. adv."
+   },
+   {
+    "word": "quam",
+    "lemma": "quam",
+    "meaning": "than",
+    "parse": "conj."
+   },
+   {
+    "word": "dē",
+    "lemma": "dē",
+    "meaning": "about",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "morte",
+    "lemma": "mors",
+    "meaning": "death",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "cōgitat",
+    "lemma": "cōgitō",
+    "meaning": "thinks",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "ēius",
+    "lemma": "is",
+    "meaning": "his",
+    "parse": "gen. sg."
+   },
+   {
+    "word": "sapientia",
+    "lemma": "sapientia",
+    "meaning": "wisdom",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "nōn",
+    "lemma": "nōn",
+    "meaning": "not",
+    "parse": "adv."
+   },
+   {
+    "word": "mortis",
+    "lemma": "mors",
+    "meaning": "of death",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "sed",
+    "lemma": "sed",
+    "meaning": "but",
+    "parse": "conj."
+   },
+   {
+    "word": "vītae",
+    "lemma": "vīta",
+    "meaning": "of life",
+    "parse": "gen. sg. f."
+   },
+   {
+    "word": "meditātiō",
+    "lemma": "meditātiō",
+    "meaning": "meditation",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   }
+  ],
+  "grammar_target": [
+   "comparative",
+   "fifth_declension",
+   "genitive"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "comparative",
+   "fifth_declension",
+   "genitive"
+  ],
+  "vocab_ids": [
+   "homo",
+   "liber",
+   "de",
+   "nullus",
+   "res",
+   "parum",
+   "quam",
+   "mors",
+   "cogito",
+   "et",
+   "is",
+   "sapientia",
+   "non",
+   "sed",
+   "vita",
+   "meditatio",
+   "sum"
+  ],
+  "teaching_value": {
+   "note": "Targets comparative, fifth_declension, genitive.",
+   "dcc_core_pct": 94,
+   "non_core": [
+    "meditatio"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-spinoza-praeclara"
+  ],
+  "image": {
+   "src": "img/batch10/rijnsburg.webp",
+   "alt": "The house in Rijnsburg where Spinoza lived from 1661 to 1663, photographed around 1900",
+   "kind": "building",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Unknown author · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Spinoza%27s_residence_in_Rijnsburg_between_1661-1663,_around_1900.jpg",
+   "modified": "cropped to 4:3, resized"
+  },
+  "learn_more": {
+   "label": "Ethics (Spinoza)",
+   "url": "https://en.wikipedia.org/wiki/Ethics_(Spinoza_book)",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-luther-thesis27",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Hominem praedicant, quī statim, ut iactus nummus in cistam tinnierit, ēvolāre dīcunt animam.",
+  "translation": "They preach human doctrine who say that the soul flies out of purgatory as soon as the coin thrown into the chest has clinked.",
+  "context": "In his 27th thesis of 1517, Luther attacks preachers of indulgences such as Johann Tetzel. People paid money hoping to free the souls of the dead from purgatory. Tinnierit is a future perfect, 'shall have clinked', and animam ēvolāre is an indirect statement after dīcunt.",
+  "more": "A popular rhyme put it in German: as soon as the coin in the coffer rings, the soul from purgatory springs. Hominem praedicant literally means 'they preach a man', that is, a merely human teaching.",
+  "person": "Martin Luther",
+  "source": {
+   "work": "Luther, 95 theses",
+   "citation": "27",
+   "date": "1517"
+  },
+  "source_url": "https://la.wikisource.org/wiki/Disputatio_pro_declaratione_virtutis_indulgentiarum",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Hominem",
+    "lemma": "homō",
+    "meaning": "human (teaching)",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "praedicant",
+    "lemma": "praedicō",
+    "meaning": "they preach",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "quī",
+    "lemma": "quī",
+    "meaning": "who",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "statim",
+    "lemma": "statim",
+    "meaning": "at once",
+    "parse": "adv."
+   },
+   {
+    "word": "ut",
+    "lemma": "ut",
+    "meaning": "as soon as",
+    "parse": "conj."
+   },
+   {
+    "word": "iactus",
+    "lemma": "iaciō",
+    "meaning": "thrown",
+    "parse": "perf. pass. part. nom. sg. m."
+   },
+   {
+    "word": "nummus",
+    "lemma": "nummus",
+    "meaning": "coin",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "into",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "cistam",
+    "lemma": "cista",
+    "meaning": "chest",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "tinnierit",
+    "lemma": "tinniō",
+    "meaning": "has clinked",
+    "parse": "3rd sg. fut. perf."
+   },
+   {
+    "word": "ēvolāre",
+    "lemma": "ēvolō",
+    "meaning": "to fly out",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "dīcunt",
+    "lemma": "dīcō",
+    "meaning": "they say",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "animam",
+    "lemma": "anima",
+    "meaning": "soul",
+    "parse": "acc. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "indirect_statement",
+   "participle",
+   "relative_clause"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "indirect_statement",
+   "participle",
+   "relative_clause"
+  ],
+  "vocab_ids": [
+   "homo",
+   "praedico",
+   "qui",
+   "statim",
+   "ut",
+   "iacio",
+   "nummus",
+   "in",
+   "cista",
+   "tinnio",
+   "evolo",
+   "dico",
+   "anima"
+  ],
+  "teaching_value": {
+   "note": "Targets indirect_statement, participle, relative_clause.",
+   "dcc_core_pct": 62,
+   "non_core": [
+    "praedico",
+    "nummus",
+    "cista",
+    "tinnio",
+    "evolo"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "ecclesiastical",
+  "related_cards": [
+   "q-luther-thesis1"
+  ],
+  "image": {
+   "src": "img/batch10/chest.webp",
+   "alt": "An iron-bound chest of the kind used to collect money for indulgences",
+   "kind": "artifact",
+   "aspect": "4:3",
+   "transparent": false,
+   "license": "CC BY 2.0",
+   "credit": "“Stolen indulgences chest” by Chris Sobczak, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons; modified: cropped to 4:3, resized",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Stolen_indulgences_chest.jpg",
+   "modified": "cropped to 4:3, resized",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "learn_more": {
+   "label": "Ninety-five Theses",
+   "url": "https://en.wikipedia.org/wiki/Ninety-five_Theses",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-pico-superiora",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Poteris in īnferiōra quae sunt bruta dēgenerāre; poteris in superiōra quae sunt dīvīna ex tuī animī sententiā regenerārī.",
+  "translation": "You will be able to sink to the lower forms, which are the beasts; you will be able, by your own soul’s decision, to be reborn into the higher, which are divine.",
+  "context": "Pico's God tells Adam that humans have no fixed place in creation and must shape themselves. Poteris is the future of possum, followed by infinitives. Īnferiōra and superiōra are comparatives used as neuter plural nouns, 'the lower things' and 'the higher things'.",
+  "more": "Pico wrote the speech in 1486, aged 23. He planned to defend 900 theses in Rome, but the pope condemned some of them.",
+  "person": "Giovanni Pico della Mirandola",
+  "source": {
+   "work": "Pico, Oratio de hominis dignitate",
+   "citation": "23",
+   "date": "1486"
+  },
+  "source_url": "https://la.wikisource.org/wiki/Oratio_de_hominis_dignitate",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Poteris",
+    "lemma": "possum",
+    "meaning": "you will be able",
+    "parse": "2nd sg. fut."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "into",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "īnferiōra",
+    "lemma": "īnferus",
+    "meaning": "lower things",
+    "parse": "comp. acc. pl. n."
+   },
+   {
+    "word": "quae",
+    "lemma": "quī",
+    "meaning": "which",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "bruta",
+    "lemma": "brūtus",
+    "meaning": "beasts",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "dēgenerāre",
+    "lemma": "dēgenerō",
+    "meaning": "to sink, degenerate",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "poteris",
+    "lemma": "possum",
+    "meaning": "you will be able",
+    "parse": "2nd sg. fut."
+   },
+   {
+    "word": "in",
+    "lemma": "in",
+    "meaning": "into",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "superiōra",
+    "lemma": "superus",
+    "meaning": "higher things",
+    "parse": "comp. acc. pl. n."
+   },
+   {
+    "word": "quae",
+    "lemma": "quī",
+    "meaning": "which",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "dīvīna",
+    "lemma": "dīvīnus",
+    "meaning": "divine",
+    "parse": "nom. pl. n."
+   },
+   {
+    "word": "ex",
+    "lemma": "ex",
+    "meaning": "by, from",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "tuī",
+    "lemma": "tuus",
+    "meaning": "your",
+    "parse": "gen. sg. m."
+   },
+   {
+    "word": "animī",
+    "lemma": "animus",
+    "meaning": "of soul, mind",
+    "parse": "gen. sg. m."
+   },
+   {
+    "word": "sententiā",
+    "lemma": "sententia",
+    "meaning": "judgement, decision",
+    "parse": "abl. sg. f."
+   },
+   {
+    "word": "regenerārī",
+    "lemma": "regenerō",
+    "meaning": "to be reborn",
+    "parse": "pres. pass. inf."
+   }
+  ],
+  "grammar_target": [
+   "comparative",
+   "possum_infinitive",
+   "future_tense"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "comparative",
+   "possum_infinitive",
+   "future_tense"
+  ],
+  "vocab_ids": [
+   "possum",
+   "in",
+   "inferus",
+   "qui",
+   "sum",
+   "brutus",
+   "degenero",
+   "superus",
+   "divinus",
+   "ex",
+   "tuus",
+   "animus",
+   "sententia",
+   "regenero"
+  ],
+  "teaching_value": {
+   "note": "Targets comparative, possum_infinitive, future_tense.",
+   "dcc_core_pct": 71,
+   "non_core": [
+    "brutus",
+    "degenero",
+    "divinus",
+    "regenero"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-pico-adam"
+  ],
+  "image": {
+   "src": "img/batch10/picoaltissimo.webp",
+   "alt": "Cristofano dell'Altissimo, portrait of Giovanni Pico della Mirandola (Uffizi)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "CC0",
+   "credit": "Fabrizio Garrisi · CC0 · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Pico_della_Mirandola,_di_Cristofano_dell%27Altissimo,_circa_1552-1568_-FG.jpg",
+   "modified": "cropped to 3:4, resized",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "learn_more": {
+   "label": "Oration on the Dignity of Man",
+   "url": "https://en.wikipedia.org/wiki/Oration_on_the_Dignity_of_Man",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-erasmus-querela",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Nam utcumque amantem ab sē prōpellere, inhūmānum est: bene merentem āversārī, ingrātum: parentem ac servātrīcem omnium afflīgere, impium.",
+  "translation": "For to drive away one who loves you is inhuman in any case; to turn from one who deserves well, ungrateful; to harm the parent and protector of all, wicked.",
+  "context": "In The Complaint of Peace of 1517, Erasmus lets Peace herself speak, lamenting that Christian princes keep driving her out with war. Each infinitive phrase is the subject of an understood est. Āversārī is a deponent infinitive, 'to turn away from'.",
+  "more": "Erasmus wrote the book when the Habsburg and French courts were discussing a general peace. He also popularised the saying dulce bellum inexpertīs, 'war is sweet to those who have not tried it'.",
+  "person": "Desiderius Erasmus",
+  "source": {
+   "work": "Erasmus, Querela pacis",
+   "citation": "2",
+   "date": "1517"
+  },
+  "source_url": "https://www.thelatinlibrary.com/erasmus/querela.shtml",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Nam",
+    "lemma": "nam",
+    "meaning": "for",
+    "parse": "conj."
+   },
+   {
+    "word": "utcumque",
+    "lemma": "utcumque",
+    "meaning": "in any case",
+    "parse": "adv."
+   },
+   {
+    "word": "amantem",
+    "lemma": "amō",
+    "meaning": "one who loves",
+    "parse": "pres. part. acc. sg. m."
+   },
+   {
+    "word": "ab",
+    "lemma": "ā, ab",
+    "meaning": "from",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "sē",
+    "lemma": "suī",
+    "meaning": "oneself",
+    "parse": "abl."
+   },
+   {
+    "word": "prōpellere",
+    "lemma": "prōpellō",
+    "meaning": "to drive away",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "inhūmānum",
+    "lemma": "inhūmānus",
+    "meaning": "inhuman",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "est",
+    "lemma": "sum",
+    "meaning": "is",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "bene",
+    "lemma": "bene",
+    "meaning": "well",
+    "parse": "adv."
+   },
+   {
+    "word": "merentem",
+    "lemma": "mereō",
+    "meaning": "one who deserves",
+    "parse": "pres. part. acc. sg. m."
+   },
+   {
+    "word": "āversārī",
+    "lemma": "āversor",
+    "meaning": "to turn away from",
+    "parse": "pres. inf. (deponent)"
+   },
+   {
+    "word": "ingrātum",
+    "lemma": "ingrātus",
+    "meaning": "ungrateful",
+    "parse": "nom. sg. n."
+   },
+   {
+    "word": "parentem",
+    "lemma": "parēns",
+    "meaning": "parent",
+    "parse": "acc. sg. m."
+   },
+   {
+    "word": "ac",
+    "lemma": "ac",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "servātrīcem",
+    "lemma": "servātrīx",
+    "meaning": "protector (fem.)",
+    "parse": "acc. sg. f."
+   },
+   {
+    "word": "omnium",
+    "lemma": "omnis",
+    "meaning": "of all",
+    "parse": "gen. pl."
+   },
+   {
+    "word": "afflīgere",
+    "lemma": "afflīgō",
+    "meaning": "to harm",
+    "parse": "pres. inf."
+   },
+   {
+    "word": "impium",
+    "lemma": "impius",
+    "meaning": "wicked",
+    "parse": "nom. sg. n."
+   }
+  ],
+  "grammar_target": [
+   "infinitive_as_subject",
+   "deponent",
+   "present_participle"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "infinitive_as_subject",
+   "deponent",
+   "present_participle"
+  ],
+  "vocab_ids": [
+   "nam",
+   "utcumque",
+   "amo",
+   "a, ab",
+   "sui",
+   "propello",
+   "inhumanus",
+   "sum",
+   "bene",
+   "mereo",
+   "aversor",
+   "ingratus",
+   "parens",
+   "ac",
+   "servatrix",
+   "omnis",
+   "affligo",
+   "impius"
+  ],
+  "teaching_value": {
+   "note": "Targets infinitive_as_subject, deponent, present_participle.",
+   "dcc_core_pct": 56,
+   "non_core": [
+    "utcumque",
+    "a, ab",
+    "propello",
+    "inhumanus",
+    "aversor",
+    "servatrix",
+    "affligo",
+    "impius"
+   ],
+   "score": 3,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-erasmus-stultitia"
+  ],
+  "image": {
+   "src": "img/batch10/erasmusng.webp",
+   "alt": "Hans Holbein the Younger, Erasmus (1523, National Gallery, London)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Hans Holbein the Younger · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Holbein,_Hans_(II)_-_Erasmus_-_National_Gallery.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "The Complaint of Peace",
+   "url": "https://en.wikipedia.org/wiki/Querela_pacis"
+  }
+ },
+ {
+  "id": "q-erasmus-moriae",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Utcumque dē mē vulgō mortālēs loquuntur — neque enim sum nescia, quam male audiat Stultitia etiam apud stultissimōs …",
+  "translation": "However mortals commonly speak of me — for I am well aware how badly Folly is spoken of even among the greatest fools …",
+  "context": "Erasmus wrote The Praise of Folly in 1509 while staying with Thomas More, and Folly herself gives the speech. She begins by admitting her bad reputation before praising herself. Loquuntur is deponent, quam male audiat is an indirect question, and stultissimōs is a superlative.",
+  "more": "Male audīre, 'to hear badly', means 'to be spoken ill of'. The Greek title Moriae encomium plays on More's name.",
+  "person": "Desiderius Erasmus",
+  "source": {
+   "work": "Erasmus, Moriae encomium",
+   "citation": "1",
+   "date": "1511"
+  },
+  "source_url": "https://www.thelatinlibrary.com/erasmus/moriae.shtml",
+  "attribution_confidence": "verified",
+  "attribution_note": "The sentence continues for several more lines.",
+  "gloss": [
+   {
+    "word": "Utcumque",
+    "lemma": "utcumque",
+    "meaning": "however",
+    "parse": "adv."
+   },
+   {
+    "word": "dē",
+    "lemma": "dē",
+    "meaning": "about",
+    "parse": "prep. + abl."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "abl. sg."
+   },
+   {
+    "word": "vulgō",
+    "lemma": "vulgō",
+    "meaning": "commonly",
+    "parse": "adv."
+   },
+   {
+    "word": "mortālēs",
+    "lemma": "mortālis",
+    "meaning": "mortals",
+    "parse": "nom. pl. m."
+   },
+   {
+    "word": "loquuntur",
+    "lemma": "loquor",
+    "meaning": "speak",
+    "parse": "3rd pl. pres. (deponent)"
+   },
+   {
+    "word": "neque",
+    "lemma": "neque",
+    "meaning": "nor, and not",
+    "parse": "conj."
+   },
+   {
+    "word": "enim",
+    "lemma": "enim",
+    "meaning": "for",
+    "parse": "conj."
+   },
+   {
+    "word": "sum",
+    "lemma": "sum",
+    "meaning": "I am",
+    "parse": "1st sg. pres."
+   },
+   {
+    "word": "nescia",
+    "lemma": "nescius",
+    "meaning": "unaware",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "quam",
+    "lemma": "quam",
+    "meaning": "how",
+    "parse": "adv."
+   },
+   {
+    "word": "male",
+    "lemma": "male",
+    "meaning": "badly",
+    "parse": "adv."
+   },
+   {
+    "word": "audiat",
+    "lemma": "audiō",
+    "meaning": "is spoken of",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "Stultitia",
+    "lemma": "stultitia",
+    "meaning": "Folly",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "etiam",
+    "lemma": "etiam",
+    "meaning": "even",
+    "parse": "adv."
+   },
+   {
+    "word": "apud",
+    "lemma": "apud",
+    "meaning": "among",
+    "parse": "prep. + acc."
+   },
+   {
+    "word": "stultissimōs",
+    "lemma": "stultus",
+    "meaning": "the greatest fools",
+    "parse": "superl. acc. pl. m."
+   }
+  ],
+  "grammar_target": [
+   "deponent",
+   "indirect_question",
+   "superlative"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "deponent",
+   "indirect_question",
+   "superlative"
+  ],
+  "vocab_ids": [
+   "utcumque",
+   "de",
+   "ego",
+   "vulgo",
+   "mortalis",
+   "loquor",
+   "neque",
+   "enim",
+   "sum",
+   "nescius",
+   "quam",
+   "male",
+   "audio",
+   "stultitia",
+   "etiam",
+   "apud",
+   "stultus"
+  ],
+  "teaching_value": {
+   "note": "Targets deponent, indirect_question, superlative.",
+   "dcc_core_pct": 76,
+   "non_core": [
+    "utcumque",
+    "nescius",
+    "stultitia",
+    "stultus"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "related_cards": [
+   "q-erasmus-stultitia"
+  ],
+  "image": {
+   "src": "img/batch10/erasmusmassys.webp",
+   "alt": "Portrait of Erasmus at his desk, after Quentin Massys (Rijksmuseum)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Quinten Metsys · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Portret_van_Desiderius_Erasmus_(1469%3F-1536)_Rijksmuseum_SK-A-166.jpeg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "In Praise of Folly",
+   "url": "https://en.wikipedia.org/wiki/In_Praise_of_Folly",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-galileo-medicea",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Quod sī illās prīmus indāgāvī, quis mē iūre reprehendat, sī iīsdem quoque nōmen imposuerō, ac Medicea Sīdera appellārō?",
+  "translation": "But if I was the first to find them, who could rightly blame me if I give them a name too, and call them the Medicean Stars?",
+  "context": "In 1610 Galileo turned his new telescope on Jupiter and saw four moons circling it. In the dedication of his Starry Messenger he names them after the Medici family of Florence, hoping for their patronage, and it worked. Reprehendat is a potential subjunctive, 'who would blame', and imposuerō and appellārō are future perfects.",
+  "more": "Cosimo II de' Medici soon made Galileo his court mathematician. Today the four moons are called the Galilean moons: Io, Europa, Ganymede and Callisto.",
+  "person": "Galileo Galilei",
+  "source": {
+   "work": "Galileo, Sidereus Nuncius, dedication",
+   "citation": "—",
+   "date": "1610"
+  },
+  "source_url": "https://www.thelatinlibrary.com/galileo/galileo.sid.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Quod",
+    "lemma": "quod",
+    "meaning": "but",
+    "parse": "conj."
+   },
+   {
+    "word": "sī",
+    "lemma": "sī",
+    "meaning": "if",
+    "parse": "conj."
+   },
+   {
+    "word": "illās",
+    "lemma": "ille",
+    "meaning": "them",
+    "parse": "acc. pl. f."
+   },
+   {
+    "word": "prīmus",
+    "lemma": "prīmus",
+    "meaning": "first",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "indāgāvī",
+    "lemma": "indāgō",
+    "meaning": "I tracked down",
+    "parse": "1st sg. perf."
+   },
+   {
+    "word": "quis",
+    "lemma": "quis",
+    "meaning": "who",
+    "parse": "nom. sg. m."
+   },
+   {
+    "word": "mē",
+    "lemma": "ego",
+    "meaning": "me",
+    "parse": "acc. sg."
+   },
+   {
+    "word": "iūre",
+    "lemma": "iūs",
+    "meaning": "rightly",
+    "parse": "abl. sg. n."
+   },
+   {
+    "word": "reprehendat",
+    "lemma": "reprehendō",
+    "meaning": "would blame",
+    "parse": "3rd sg. pres. subj."
+   },
+   {
+    "word": "sī",
+    "lemma": "sī",
+    "meaning": "if",
+    "parse": "conj."
+   },
+   {
+    "word": "iīsdem",
+    "lemma": "īdem",
+    "meaning": "to the same",
+    "parse": "dat. pl. f."
+   },
+   {
+    "word": "quoque",
+    "lemma": "quoque",
+    "meaning": "also",
+    "parse": "adv."
+   },
+   {
+    "word": "nōmen",
+    "lemma": "nōmen",
+    "meaning": "name",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "imposuerō",
+    "lemma": "impōnō",
+    "meaning": "I give",
+    "parse": "1st sg. fut. perf."
+   },
+   {
+    "word": "ac",
+    "lemma": "ac",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "Medicea",
+    "lemma": "Mediceus",
+    "meaning": "Medicean",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "Sīdera",
+    "lemma": "sīdus",
+    "meaning": "stars",
+    "parse": "acc. pl. n."
+   },
+   {
+    "word": "appellārō",
+    "lemma": "appellō",
+    "meaning": "I call",
+    "parse": "1st sg. fut. perf. (= appellāverō)"
+   }
+  ],
+  "grammar_target": [
+   "subjunctive",
+   "dative",
+   "neuter_plural"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "subjunctive",
+   "dative",
+   "neuter_plural"
+  ],
+  "vocab_ids": [
+   "quod",
+   "si",
+   "ille",
+   "primus",
+   "indago",
+   "quis",
+   "ego",
+   "ius",
+   "reprehendo",
+   "idem",
+   "quoque",
+   "nomen",
+   "impono",
+   "ac",
+   "sidus",
+   "appello"
+  ],
+  "teaching_value": {
+   "note": "Targets subjunctive, dative, neuter_plural.",
+   "dcc_core_pct": 81,
+   "non_core": [
+    "quod",
+    "indago",
+    "reprehendo"
+   ],
+   "score": 5,
+   "role": "anchor"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch10/medicea.webp",
+   "alt": "Page of Galileo's Sidereus Nuncius (1610) recording his nightly observations of the moons of Jupiter",
+   "kind": "manuscript",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Galileo Galilei (scan: History of Science Collections, University of Oklahoma) · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Sidereus_Nuncius_Medicean_Stars.jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Sidereus Nuncius",
+   "url": "https://en.wikipedia.org/wiki/Sidereus_Nuncius",
+   "verified_http": "200"
+  }
+ },
+ {
+  "id": "q-melanchthon-duae-res",
+  "type": "quote",
+  "era": "early_modern",
+  "unit": 14,
+  "latin": "Duae rēs sunt, quibus nihil melius ac dīvīnius habet hūmāna nātūra, vidēlicet vēritās et iūstitia.",
+  "translation": "There are two things than which human nature has nothing better or more divine: truth and justice.",
+  "context": "Philipp Melanchthon, Luther's colleague at Wittenberg, opens his speech In Praise of the Scholarly Life with this sentence. He argues that schools, which seek truth and justice, are as necessary to a state as churches and courts. Melius and dīvīnius are comparatives, and quibus is an ablative of comparison, 'than which'.",
+  "more": "Melanchthon reorganised schools and universities across Protestant Germany and was called the Teacher of Germany. He wrote much of the Augsburg Confession of 1530.",
+  "person": "Philipp Melanchthon",
+  "source": {
+   "work": "Melanchthon, De laude vitae scholasticae oratio",
+   "citation": "1",
+   "date": "1536"
+  },
+  "source_url": "https://www.thelatinlibrary.com/melanchthon/laude.html",
+  "attribution_confidence": "verified",
+  "gloss": [
+   {
+    "word": "Duae",
+    "lemma": "duo",
+    "meaning": "two",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "rēs",
+    "lemma": "rēs",
+    "meaning": "things",
+    "parse": "nom. pl. f."
+   },
+   {
+    "word": "sunt",
+    "lemma": "sum",
+    "meaning": "are",
+    "parse": "3rd pl. pres."
+   },
+   {
+    "word": "quibus",
+    "lemma": "quī",
+    "meaning": "than which",
+    "parse": "abl. pl. f. (comparison)"
+   },
+   {
+    "word": "nihil",
+    "lemma": "nihil",
+    "meaning": "nothing",
+    "parse": "acc. sg. n."
+   },
+   {
+    "word": "melius",
+    "lemma": "bonus",
+    "meaning": "better",
+    "parse": "comp. acc. sg. n."
+   },
+   {
+    "word": "ac",
+    "lemma": "ac",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "dīvīnius",
+    "lemma": "dīvīnus",
+    "meaning": "more divine",
+    "parse": "comp. acc. sg. n."
+   },
+   {
+    "word": "habet",
+    "lemma": "habeō",
+    "meaning": "has",
+    "parse": "3rd sg. pres."
+   },
+   {
+    "word": "hūmāna",
+    "lemma": "hūmānus",
+    "meaning": "human",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "nātūra",
+    "lemma": "nātūra",
+    "meaning": "nature",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "vidēlicet",
+    "lemma": "vidēlicet",
+    "meaning": "namely",
+    "parse": "adv."
+   },
+   {
+    "word": "vēritās",
+    "lemma": "vēritās",
+    "meaning": "truth",
+    "parse": "nom. sg. f."
+   },
+   {
+    "word": "et",
+    "lemma": "et",
+    "meaning": "and",
+    "parse": "conj."
+   },
+   {
+    "word": "iūstitia",
+    "lemma": "iūstitia",
+    "meaning": "justice",
+    "parse": "nom. sg. f."
+   }
+  ],
+  "grammar_target": [
+   "comparative",
+   "ablative_of_comparison",
+   "numerals"
+  ],
+  "grammar_preview": [],
+  "grammar_tags": [
+   "comparative",
+   "ablative_of_comparison",
+   "numerals"
+  ],
+  "vocab_ids": [
+   "duo",
+   "res",
+   "sum",
+   "qui",
+   "nihil",
+   "bonus",
+   "ac",
+   "divinus",
+   "habeo",
+   "humanus",
+   "natura",
+   "videlicet",
+   "veritas",
+   "et",
+   "iustitia"
+  ],
+  "teaching_value": {
+   "note": "Targets comparative, ablative_of_comparison, numerals.",
+   "dcc_core_pct": 73,
+   "non_core": [
+    "divinus",
+    "videlicet",
+    "veritas",
+    "iustitia"
+   ],
+   "score": 4,
+   "role": "preview"
+  },
+  "unlock_rule": {
+   "min_vocab_known": 0.7,
+   "review_threshold": 0.9
+  },
+  "register": "classical",
+  "image": {
+   "src": "img/batch10/melanchthon.webp",
+   "alt": "Workshop of Lucas Cranach the Elder, portrait of Philipp Melanchthon (1543)",
+   "kind": "painting",
+   "aspect": "3:4",
+   "transparent": false,
+   "license": "Public domain",
+   "credit": "Workshop of Lucas Cranach the Elder · Public domain · via Wikimedia Commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_(I)_-_Bildnis_Philipp_Melanchthons_1543_(Kassel).jpg",
+   "modified": "cropped to 3:4, resized"
+  },
+  "learn_more": {
+   "label": "Philip Melanchthon",
+   "url": "https://en.wikipedia.org/wiki/Philip_Melanchthon",
+   "verified_http": "200"
+  }
+ }
+]
